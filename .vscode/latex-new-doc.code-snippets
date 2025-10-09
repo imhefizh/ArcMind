@@ -8,12 +8,13 @@
       "\\documentclass{article}",
       "",
       "% Cover Metadata",
-      "\\title{${1:Learning LaTeX}}",
-      "\\date{${2:2025--10--08}}",
+      "\\title{${1:$1}}",
+      "\\date{${2:$2}}",
       "\\author{${3:Maulana Hafidz Ismail}}",
       "",
       "% Image Setup",
       "\\usepackage{graphicx}",
+      "\\usepackage{float}",
       "",
       "% Link Setup",
       "\\usepackage{hyperref}",
@@ -23,6 +24,25 @@
       "\\usepackage{xcolor}",
       "\\sethlcolor{red!30}",
       "\\newcommand{\\hlblue}[1]{\\sethlcolor{cyan!30}\\hl{#1}\\sethlcolor{yellow}}",
+      "",
+      "% Line Width",
+      "\\sloppy",
+      "\\setlength{\\emergencystretch}{3em}",
+      "",
+      "% Code Syntax Setup",
+      "\\usepackage{listings}",
+      "\\usepackage{xcolor} % untuk warna",
+      "\\lstset{",
+      "basicstyle=\\ttfamily\\small,",
+      "frame=single,",
+      "breaklines=true,",
+      "backgroundcolor=\\color{gray!10},",
+      "keywordstyle=\\color{blue},",
+      "commentstyle=\\color{gray},",
+      "stringstyle=\\color{red},",
+      "tabsize=2,",
+      "captionpos=b",
+      "}",
       "",
       "% Start of the Article",
       "\\begin{document}",
@@ -42,5 +62,35 @@
       "\\end{document}"
     ],
     "description": "Start a new doc with the template"
+  },
+  "New Subsection": {
+    "prefix": "newSubSec",
+    "body": [
+      "\\subsection{$1}",
+      "\\begin{itemize}",
+      "\\item $2",
+      "\\end{itemize}"
+    ],
+    "description": "Start a new subsection with the template"
+  },
+  "New SQLSyntax": {
+    "prefix": "newSQL",
+    "body": [
+      "\\begin{lstlisting}[language=SQL, caption={}, captionpos=b]",
+      "$1",
+      "\\end{lstlisting}"
+    ],
+    "description": "Start a new subsection with the template"
+  },
+  "New Picture": {
+    "prefix": "newPicture",
+    "body": [
+      "\\begin{figure}[H]",
+      "\\centering",
+      "\\includegraphics[width=0.8\\textwidth]{$1}",
+      "\\caption{$2}",
+      "\\end{figure}"
+    ],
+    "description": "Start a new subsection with the template"
   }
 }
