@@ -1,7 +1,7 @@
-PWD d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL
+PWD d:\ArcMind\Database Engineer\4. Advanced MySQL Topics
 INPUT C:\Users\Administrator\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\database-structure-and-management-with-mysql.tex
-OUTPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.log
+INPUT d:\ArcMind\Database Engineer\4. Advanced MySQL Topics\advanced-mysql-topics.tex
+OUTPUT advanced-mysql-topics.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
@@ -102,10 +102,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.aux
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.aux
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.aux
-OUTPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.aux
+INPUT .\advanced-mysql-topics.aux
+INPUT .\advanced-mysql-topics.aux
+INPUT advanced-mysql-topics.aux
+OUTPUT advanced-mysql-topics.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -114,14 +114,14 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
-OUTPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.pdf
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
-OUTPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
+INPUT .\advanced-mysql-topics.out
+INPUT .\advanced-mysql-topics.out
+INPUT advanced-mysql-topics.out
+INPUT advanced-mysql-topics.out
+OUTPUT advanced-mysql-topics.pdf
+INPUT .\advanced-mysql-topics.out
+INPUT .\advanced-mysql-topics.out
+OUTPUT advanced-mysql-topics.out
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -135,23 +135,21 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\Administrator\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.toc
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.toc
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.toc
+INPUT .\advanced-mysql-topics.toc
+INPUT .\advanced-mysql-topics.toc
+INPUT advanced-mysql-topics.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.toc
+OUTPUT advanced-mysql-topics.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.aux
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
-INPUT d:\ArcMind\Database Engineer\3. Database Structure and Management with MySQL\build\database-structure-and-management-with-mysql.out
+INPUT advanced-mysql-topics.aux
+INPUT .\advanced-mysql-topics.out
+INPUT .\advanced-mysql-topics.out
 INPUT C:\Users\Administrator\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Administrator\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
@@ -164,9 +162,5 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt9.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt9.pfb

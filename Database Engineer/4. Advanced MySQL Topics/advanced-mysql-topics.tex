@@ -24,6 +24,7 @@
 % Line Width
 \sloppy
 \setlength{\emergencystretch}{3em}
+\hbadness=99999
 
 % Code Syntax Setup
 \usepackage{listings}
@@ -57,338 +58,84 @@ captionpos=b
 \section{Functions and Triggers}
 \subsection{Pengantar Functions dan Stored Procedures}
 \begin{itemize}
-    \item \textbf{Tujuan Utama}: \textbf{Mengen kapsulasi kode} dan meningkatkan \textbf{reusability} (\texttt{reuse kode}) dalam proyek \texttt{database}.
-    \item \textbf{Manfaat}: Kode lebih \texttt{konsisten}, \texttt{terorganisir}, dan mudah \texttt{dipelihara}.
-    \item \textbf{Nama Lain Fungsi}: Fungsi dalam MySQL juga disebut \texttt{stored function}.
+    \item Functions dan Stored Procedures memungkinkan Anda untuk menggunakan kembali kode dalam proyek database, sehingga tidak perlu mengetik kode yang sama berulang kali.
+    \item Contoh penggunaan adalah pada perusahaan Lucky Shrub yang menggunakan metode ini untuk memeriksa data stok di tabel produk mereka.
+    \item A function in MySQL is also called a stored function.
 \end{itemize}
 
-\subsubsection{Perbedaan Kunci: Functions vs. Stored Procedures}
+\subsection{Manfaat dan Organisasi Kode}
 \begin{itemize}
-    \item \textbf{Pengembalian Nilai}: \texttt{Functions} \textbf{selalu mengembalikan satu nilai}; \texttt{stored procedures} \textbf{tidak selalu mengembalikan nilai}.
-    \item \textbf{Parameter}: \texttt{Functions} hanya menerima \textbf{\texttt{IN}} parameters; \texttt{stored procedures} dapat menerima \textbf{\texttt{IN}}, \textbf{\texttt{OUT}}, dan \textbf{\texttt{INOUT}} parameters.
-    \item \textbf{Cara Memanggil}: \texttt{Functions} dipanggil dalam pernyataan \texttt{SELECT} atau ekspresi; \texttt{Procedures} dipanggil dengan \texttt{CALL}.
-    \item \textbf{Pembuatan}: \texttt{Functions} menggunakan \texttt{CREATE FUNCTION} dan wajib memiliki klausa \texttt{RETURNS}; \texttt{Procedures} menggunakan \texttt{CREATE PROCEDURE}.
+    \item Tujuan utama dari functions dan stored procedures adalah untuk mengenkapsulasi kode, sehingga anda dapat memanggil blok kode untuk melakukan operasi tertenu dengan menggunakan nama pengidentifikasi.
+    \item Keduanya membuat kode lebih konsisten, terorganisir, dan memperkenalkan reusability, yang memudahkan penggunaan dan pemeliharaan kode.
 \end{itemize}
 
-\begin{lstlisting}[language=SQL, caption={Sintaks Dasar}, captionpos=b]
--- Sintaks Stored Procedure
-CREATE PROCEDURE procedure_name AS
-    BEGIN
-        -- logic here
-    END;
-
--- Sintaks Pemanggilan Function
-SELECT MOD(x, y);
-\end{lstlisting}
-
----
-
-\subsection{Variabel dan Parameter dalam MySQL}
-
-\subsubsection{Variabel MySQL}
+\subsection{Perbedaan Antara Functions dan Stored Procedures}
 \begin{itemize}
-    \item \textbf{Variabel}: \texttt{Placeholder} yang menyimpan nilai untuk dioper antar pernyataan SQL.
-    \item \textbf{Deklarasi}:
-          \begin{itemize}
-              \item \textbf{Lokal}: Menggunakan \texttt{DECLARE variable\_name datatype;} (Hanya berlaku di dalam \texttt{stored procedure}).
-              \item \textbf{Sesi}: Menggunakan \texttt{SET @variable\_name = value;} (Dapat diakses di seluruh sesi).
-          \end{itemize}
-    \item \textbf{Mengatur Nilai}: Menggunakan perintah \texttt{SET} atau operator penetapan \texttt{:=}.
+    \item Functions selalu mengembalikan nilai, sedangkan stored procedures tidak selalu mengembalikan nilai.
+    \item Function hanya dapat memiliki input parameters, sedangkan stored procedures dapat memiliki input dan output  parameters.
+    \item Contoh sintaks untuk membuat stored procedure:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    CREATE PROCEDURE procedure_name AS
+        BEGIN
+            -- logic here
+        END;
+    \end{lstlisting}
+    \item Contoh sintaks untuk menggunakan function:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    SELECT MOD(x, y)
+    \end{lstlisting}
 \end{itemize}
-\begin{lstlisting}[language=SQL, caption={Contoh Variabel di Stored Procedure}, captionpos=b]
+
+\subsection{Variabel dalam MySQL}
+\begin{itemize}
+    \item Variabel adalah placeholder yang menyimpan nilai yang dapat berubah sesuai kebutuhan query. Variabel digunakan untuk mengoper nilai antara pernyataan SQL atau antara prosedur dan pernyataan SQL.
+    \item Variabel dapat dibuat di dalam atau di luar stored procedure dan di dalam atau di luar pernyataan SELECT.
+    \item Contoh sintaks untuk membuat variabel:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    SET @variabel_name = value;
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{Deklarasi Variabel}
+\begin{itemize}
+    \item DECLARE digunakan untuk mendeklarasikan variabel lokal di dalam stored procedure. Variabel ini hanya dapat digunakan dalam konteks prosedur tersebut. Contoh:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    DECLARE variable_name datatype;
+    \end{lstlisting}
+    \item SET @ digunakan untuk mendapatkan variabel sesi (session variable) yang dapat diakses di seluruh sesi MySQL Variabel ini diawali dengan simbol @. Contoh:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    SET @variable_name = value;
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{Mengatur Nilai Variabel}
+\begin{enumerate}
+    \item SET digunakan untuk memberikann nilai kepada variabel yang telah dideklarasikan. Ini adalah cara yang umum untuk menginisialisasi variabel. Contoh:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    SET variable_name = value;
+    \end{lstlisting}
+    \item Operator (:=) digunakan untuk menetapkan nilai ke variabel, baik untuk variabel lokal yang dideklarasikan dengan DECLARE maupun untuk variabel sesi yang diawali dengan @. Contoh:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    variable_name := value;
+    \end{lstlisting}
+\end{enumerate}
+
+\subsection{Contoh Penggunaan}
+\begin{lstlisting}[language=SQL, caption={}, captionpos=b]
 CREATE PROCEDURE example_procedure()
 BEGIN
     DECLARE total_cost DECIMAL(10,2);
     SET total_cost = 100.00;
-    SET @discount = 10; -- Variabel Sesi
+    SET @discount = 10;
     total_cost := total_cost - @discount;
 END;
 \end{lstlisting}
 
-\subsubsection{Mode Parameter dalam Stored Procedure}
-\begin{enumerate}
-    \item \textbf{\texttt{IN}} (Input): Digunakan untuk \textbf{mengirim nilai ke} prosedur. Nilai hanya dapat dibaca.
-    \item \textbf{\texttt{OUT}} (Output): Digunakan untuk \textbf{mengembalikan nilai dari} prosedur ke variabel di luar. Nilai parameter dapat diubah di dalam prosedur.
-    \item \textbf{\texttt{INOUT}} (Input/Output): Digunakan untuk \textbf{mengirim nilai dan mengembalikan nilai baru} yang telah diubah.
-\end{enumerate}
-\begin{lstlisting}[language=SQL, caption={Contoh Parameter OUT dan INOUT}, captionpos=b]
--- OUT Parameter: Mengembalikan nilai minimum cost
-CREATE PROCEDURE get_lowest_cost(OUT lowest_cost DECIMAL(10,2))  
-BEGIN  
-	SELECT MIN(cost) INTO lowest_cost FROM orders; 
-END;
-CALL get_lowest_cost(@lowest_cost);
-SELECT @lowest_cost AS LowestCost;
-
--- INOUT Parameter: Mengkuadratkan angka
-CREATE PROCEDURE square_number(INOUT number INT)  
-BEGIN  
-	SET number = number * number;
-END;
-SET @num = 5;  
-CALL square_number(@num);  
-SELECT @num AS SquaredValue; -- Output 25
-\end{lstlisting}
-
----
-
-\subsection{User-Defined Functions (UDF)}
-
-\subsubsection{Pembuatan Fungsi dan DETERMINISTIC}
-\begin{itemize}
-    \item \textbf{Sintaks}: Menggunakan \texttt{CREATE FUNCTION}, \texttt{RETURNS data\_type}, dan \texttt{RETURN value}.
-    \item \textbf{DETERMINISTIC}: Klausa ini menandakan bahwa fungsi \textbf{selalu mengembalikan hasil yang sama} untuk input yang sama. Ini vital untuk \textbf{Optimisasi Kinerja} (caching hasil) dan memungkinkan \textbf{Penggunaan dalam Indeks}. Tanpa ini, kinerja akan lebih lambat.
-\end{itemize}
-\begin{lstlisting}[language=SQL, caption={Sintaks UDF Dasar dan Kompleks}, captionpos=b]
--- UDF Dasar (Diskon 10% tetap)
-CREATE FUNCTION find_total_cost(cost DECIMAL)
-    RETURNS DECIMAL(5,2) DETERMINISTIC
-    BEGIN
-        RETURN cost * 0.90; 
-    END;
-
--- UDF Kompleks (Diskon berdasarkan IF ELSE)
-CREATE FUNCTION GetTotalCost(cost DECIMAL)
-    RETURNS DECIMAL(5,2) DETERMINISTIC
-    BEGIN
-        DECLARE final_cost DECIMAL(5,2);
-        IF cost >= 500 THEN
-            SET final_cost = cost * 0.80; -- 20%
-        ELSEIF cost >= 100 THEN
-            SET final_cost = cost * 0.90; -- 10%
-        ELSE
-            SET final_cost = cost; 
-        END IF;
-        RETURN final_cost;
-    END;
-\end{lstlisting}
-\begin{lstlisting}[language=SQL, caption={Pengujian dan Penghapusan Fungsi}, captionpos=b]
-SELECT GetTotalCost(500); 
-DROP FUNCTION function_name;
-\end{lstlisting}
-
----
-
-\subsection{Delimiter}
-
-\subsubsection{Pengertian dan Fungsi Delimiter}
-\begin{itemize}
-    \item \textbf{Delimiter}: Karakter atau \texttt{string} yang menandai \textbf{akhir dari pernyataan SQL} (defaultnya adalah titik koma; \texttt{;}).
-    \item \textbf{Mengapa Diubah}: Diperlukan saat membuat \texttt{stored programs} (\texttt{Function}/\texttt{Procedure}) yang berisi \textbf{beberapa pernyataan SQL} (masing-masing diakhiri \texttt{;}). Perubahan (\textit{misalnya}, menjadi \texttt{//}) menghindari kesalahan sintaks dengan memastikan seluruh blok \texttt{BEGIN...END} dikirim dan dikompilasi sebagai satu unit.
-\end{itemize}
-\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan DELIMITER}, captionpos=b]
-DELIMITER // -- Ubah Delimiter
-
-CREATE FUNCTION calculate_discount(price DECIMAL)
-RETURNS DECIMAL(5,2)
-BEGIN
-    RETURN price * 0.90; 
-END // -- Blok diakhiri oleh delimiter baru
-
-DELIMITER ; -- Kembalikan Delimiter ke default
-\end{lstlisting}
-
----
-
-\subsection{MySQL Trigger}
-
-\subsubsection{Definisi dan Klasifikasi Trigger}
-\begin{itemize}
-    \item \textbf{TRIGGER}: Program tersimpan yang \textbf{diaktifkan secara otomatis} ketika peristiwa (\texttt{INSERT}, \texttt{UPDATE}, \texttt{DELETE}) terjadi pada tabel.
-    \item \textbf{Klasifikasi}:
-          \begin{itemize}
-              \item \textbf{Waktu}: \texttt{BEFORE} atau \texttt{AFTER}.
-              \item \textbf{Level}: \texttt{ROW LEVEL} (diaktifkan untuk setiap baris yang terpengaruh).
-          \end{itemize}
-    \item \textbf{Manfaat}: Menjaga \texttt{log audit}, memastikan \texttt{integritas data} (validasi), dan mengotomatiskan tugas.
-\end{itemize}
-
-\subsubsection{Sintaks dan Modifier OLD/NEW}
-\begin{itemize}
-    \item \textbf{Modifier \texttt{OLD}} dan \textbf{\texttt{NEW}}: Digunakan untuk mengakses nilai kolom. \texttt{OLD} adalah nilai \textbf{sebelum} operasi; \texttt{NEW} adalah nilai \textbf{setelah} operasi.
-\end{itemize}
-\begin{lstlisting}[language=SQL, caption={Sintaks Pembuatan Trigger}, captionpos=b]
-CREATE TRIGGER trigger_name
-BEFORE|AFTER INSERT|UPDATE|DELETE
-ON table_name FOR EACH ROW
-BEGIN
-    -- logic here (misal: validasi input negatif)
-    IF NEW.order_quantity < 0 THEN
-        SET NEW.order_quantity = 0; -- Memodifikasi nilai sebelum INSERT
-    END IF;
-END;
-
--- Menghapus Trigger
-DROP TRIGGER IF EXISTS schema_name.trigger_name;
-\end{lstlisting}
-
----
-
-\subsection{MySQL Scheduled Events}
-
-\subsubsection{Definisi dan Tipe Events}
-\begin{itemize}
-    \item \textbf{Scheduled Event}: Tugas yang dieksekusi \textbf{sesuai jadwal tertentu}.
-    \item \textbf{Tipe}:
-          \begin{enumerate}
-              \item \textbf{One Time Events}: Terjadi hanya sekali (\texttt{ON SCHEDULE AT timestamp}).
-              \item \textbf{Recurring Events}: Terjadi secara berkala (\texttt{ON SCHEDULE EVERY unit}).
-          \end{enumerate}
-\end{itemize}
-
-\subsubsection{Sintaks Scheduled Event}
-\begin{lstlisting}[language=SQL, caption={Sintaks Pembuatan Scheduled Event}, captionpos=b]
--- Event Satu Kali (12 jam dari sekarang)
-CREATE EVENT GenerateRevenueReport 
-ON SCHEDULE AT CURRENT_TIMESTAMP + INTERVAL 12 HOUR
-DO
-BEGIN
-    -- logic here
-END;
-
--- Event Berulang (setiap 1 hari)
-CREATE EVENT IF NOT EXISTS daily_restock  
-ON SCHEDULE EVERY 1 DAY  
-STARTS CURRENT_TIMESTAMP() + INTERVAL 20 DAY  
-ENDS CURRENT_TIMESTAMP() + INTERVAL 40 DAY -- Opsional
-DO  
-BEGIN  
-	-- logic untuk memeriksa dan memperbarui stok  
-END;
-
--- Menghapus Event
-DROP EVENT IF EXISTS event_name;
-\end{lstlisting}
-\subsection{Keuntungan dan Kerugian dari Triggers}
-
-\subsubsection{Keuntungan (Advantages)}
-\begin{itemize}
-    \item \textbf{Validasi Data}: Memungkinkan \texttt{validasi data} sebelum dimasukkan atau diperbarui, yang membantu menjaga integritas data.
-    \item \textbf{Otomatisasi Tugas}: Menyediakan cara alternatif untuk \texttt{menjalankan tugas terjadwal} atau melakukan tugas secara otomatis berdasarkan tindakan tertentu pada tabel.
-    \item \textbf{Peningkatan Kinerja Query}: Meningkatkan kinerja kueri SQL karena kode trigger \textbf{tidak perlu dikompilasi setiap kali} kueri dieksekusi (setelah kompilasi pertama).
-    \item \textbf{Mengurangi Kode Sisi Klien}: Mengurangi kebutuhan untuk membuat kode validasi yang berulang di \texttt{sisi klien}, yang menghemat waktu dan usaha pengembangan.
-\end{itemize}
-
-\subsubsection{Kerugian (Disadvantages)}
-\begin{itemize}
-    \item \textbf{Keterbatasan Validasi}: Tidak semua jenis validasi batasan (\texttt{constraint validation}) dapat dilakukan menggunakan trigger.
-    \item \textbf{Sulit Dipecahkan Masalahnya (\texttt{Troubleshooting})}: Sulit untuk melakukan \texttt{troubleshooting} karena trigger beroperasi secara implisit di \textbf{\texttt{lapisan database}} (\textit{database layer}).
-    \item \textbf{Beban Server}: Dapat \texttt{meningkatkan beban} pada server database karena trigger diaktifkan secara otomatis dan menjalankan logika tambahan.
-\end{itemize}
-
-\newpage
+% BELUM SELESAI MIGRASI
 \section{Database Optimization}
-\subsection{Konsep Database Optimization}
-\begin{itemize}
-    \item \textbf{Database Optimization} adalah proses meningkatkan kinerja sistem \texttt{database} untuk \textbf{mengurangi waktu} yang dibutuhkan untuk menjalankan \texttt{query}, memproses, dan mengirimkan hasil.
-    \item \textbf{Pentingnya}: Memastikan \texttt{query SQL} diproses dan data dikembalikan dengan cepat.
-\end{itemize}
+% BELUM MIGRASI
 
-\subsubsection{Jenis Pernyataan SQL}
-\begin{itemize}
-    \item \textbf{Data Retrieval Statements} (\texttt{SELECT}): Mengembalikan data dari \texttt{database}.
-    \item \textbf{Data Change Statements} (\texttt{INSERT}, \texttt{UPDATE}, \texttt{DELETE}): Mengubah data dalam \texttt{database}.
-\end{itemize}
 
----
 
-\subsection{Teknik Optimasi Kueri SQL}
-
-\subsubsection{Optimasi SELECT Statements (Data Retrieval)}
-\begin{enumerate}
-    \item \textbf{Targetkan Kolom}: Targetkan \textbf{hanya kolom yang diperlukan}. Hindari menggunakan \texttt{*} jika tidak membutuhkan semua kolom.
-    \item \textbf{Hindari Fungsi di \texttt{WHERE}}: Hindari menggunakan \texttt{fungsi} dalam \texttt{predikat} (kondisi klausa \texttt{WHERE}) pada kolom yang \texttt{diindeks} karena \textbf{mencegah \texttt{database} menggunakan indeks}.
-    \item \textbf{Wildcard Efisien}: Hindari penggunaan \texttt{wildcard} di awal dalam \texttt{predikat} (\textit{misalnya}, \texttt{LIKE '\%kata'}) karena \textbf{tidak dapat menggunakan indeks}. Solusi: Tambahkan kolom terbalik (\textit{reverse\_full\_name}) dan buat indeks padanya untuk memungkinkan \texttt{LIKE 'kata\%'}.
-    \item \textbf{JOIN}: Gunakan \textbf{\texttt{INNER JOIN}} jika memungkinkan, karena lebih efisien daripada \texttt{OUTER JOIN} (\texttt{LEFT/RIGHT JOIN}) yang juga mengembalikan catatan yang tidak cocok.
-    \item \textbf{Set Operations}: Gunakan \textbf{\texttt{UNION ALL}} daripada \texttt{UNION} jika duplikat diizinkan, karena \texttt{UNION ALL} menghindari operasi pengurutan yang mahal. Gunakan \texttt{DISTINCT} dan \texttt{UNION} hanya saat diperlukan.
-\end{enumerate}
-
-\subsubsection{Optimasi Data Change Statements}
-\begin{itemize}
-    \item \textbf{\texttt{UPDATE}/\texttt{DELETE}}: Optimalkan \textbf{\texttt{kondisi dalam klausa WHERE}} (terutama dengan indeks yang sesuai).
-    \item \textbf{\texttt{INSERT}}: Optimasi dilakukan dengan melakukan \textbf{\texttt{batch inserts}} (menyisipkan lebih dari satu baris dalam satu operasi \texttt{INSERT}).
-\end{itemize}
-
----
-
-\subsection{Index (Indeks)}
-
-\subsubsection{Konsep Dasar Index}
-\begin{itemize}
-    \item \textbf{Definisi}: Struktur data yang membantu mempertahankan \texttt{pointer} ke data yang terurut untuk \textbf{mempercepat pencarian data}.
-    \item \textbf{Kapan Digunakan}: Dibuat pada kolom tabel yang \textbf{sering digunakan untuk memfilter query \texttt{SELECT}}.
-\end{itemize}
-
-\subsubsection{Jenis-Jenis Index}
-\begin{enumerate}
-    \item \textbf{Primary Index} (Clustered Index): Dihasilkan \textbf{secara otomatis} saat tabel dibuat dengan \texttt{PRIMARY KEY} atau \texttt{UNIQUE KEY}. Data \texttt{index} disimpan dalam tabel itu sendiri.
-    \item \textbf{Secondary Index}: Diciptakan secara manual menggunakan pernyataan \texttt{CREATE INDEX}. Dapat dibuat menggunakan satu atau lebih kolom.
-\end{enumerate}
-
-\subsubsection{Operasi Query yang Menggunakan Index}
-Indeks dapat meningkatkan kinerja pada:
-\begin{itemize}
-    \item \textbf{Filtering rows}: Klausa \texttt{WHERE}.
-    \item \textbf{\texttt{JOIN} operations}: Kolom yang digunakan dalam \texttt{JOIN} harus memiliki tipe data yang sama untuk kinerja terbaik.
-    \item \textbf{Fungsi \texttt{MIN} dan \texttt{MAX}}.
-    \item \textbf{\texttt{Sorting and grouping} operations} (\texttt{ORDER BY} dan \texttt{GROUP BY}).
-\end{itemize}
-
-\subsubsection{Sintaks Pembuatan Index}
-\begin{lstlisting}[language=SQL, caption={Membuat Secondary Index}, captionpos=b]
-CREATE INDEX idx_column_name ON table_name (column_name);
-
--- Contoh:
-CREATE INDEX IdxFullName ON Clients(FullName);
-\end{lstlisting}
-
----
-
-\subsection{Menganalisis Kueri dengan EXPLAIN}
-
-\subsubsection{Konsep EXPLAIN}
-\begin{itemize}
-    \item \textbf{EXPLAIN}: Pernyataan yang digunakan untuk \textbf{melihat rencana eksekusi \texttt{query}} yang optimal yang dibuat oleh \texttt{MySQL Query Optimizer}.
-    \item \textbf{Tujuan}: Membantu mengidentifikasi masalah kinerja dan bagaimana \texttt{database} mengakses data.
-\end{itemize}
-\begin{lstlisting}[language=SQL, caption={Sintaks EXPLAIN}, captionpos=b]
-EXPLAIN SELECT column_name FROM table_name WHERE VALUE;
-\end{lstlisting}
-
-\subsubsection{Kolom Penting dalam Hasil EXPLAIN}
-\begin{table}[!ht]
-    \caption{Penjelasan Kolom Hasil EXPLAIN}
-    \centering
-    \begin{tabular}{|l|l|}
-        \hline
-        \textbf{Kolom}          & \textbf{Penjelasan Singkat}                                                                                                      \\
-        \hline
-        \texttt{ID}             & Pengidentifikasi urut untuk setiap pernyataan \texttt{SELECT} (lebih berarti pada \texttt{subquery}).                            \\
-        \hline
-        \texttt{SELECT\_TYPE}   & Jenis \texttt{SELECT} yang dieksekusi (\textit{misalnya}, \texttt{SIMPLE}, \texttt{PRIMARY}, \texttt{SUBQUERY}, \texttt{UNION}). \\
-        \hline
-        \texttt{table}          & Nama tabel yang dirujuk.                                                                                                         \\
-        \hline
-        \texttt{type}           & \textbf{Cara pencarian dilakukan} (akses data). Nilai terburuk adalah \texttt{all} (pemindaian seluruh tabel).                   \\
-        \hline
-        \texttt{possible\_keys} & Kunci yang \textbf{dapat} digunakan oleh MySQL.                                                                                  \\
-        \hline
-        \texttt{key}            & Indeks yang \textbf{sebenarnya} digunakan oleh MySQL (\texttt{NULL} berarti tidak ada indeks yang digunakan).                    \\
-        \hline
-        \texttt{rows}           & Jumlah catatan yang diperiksa (\textbf{semakin kecil, semakin efisien}).                                                         \\
-        \hline
-        \texttt{filtered}       & Persentase baris yang difilter oleh kondisi (\textbf{semakin tinggi persentase, semakin baik}).                                  \\
-        \hline
-        \texttt{Extra}          & Informasi tambahan (\textit{misalnya}, \texttt{Using temporary} atau \texttt{Using filesort} menunjukkan kueri bermasalah).      \\
-        \hline
-    \end{tabular}
-\end{table}
-
-\subsubsection{Nilai type dan Efisiensi Akses Data}
-\begin{itemize}
-    \item \textbf{Akses Terbaik}: \texttt{system}, \texttt{const}, \texttt{eq\_ref}.
-    \item \textbf{Akses Memadai}: \texttt{ref} (kolom diindeks diakses dengan operator kesetaraan), \texttt{index} (seluruh indeks dipindai).
-    \item \textbf{Akses Terburuk}: \texttt{all} (pemindaian \textbf{seluruh tabel}) $\rightarrow$ biasanya mengindikasikan kurangnya indeks yang sesuai.
-\end{itemize}
 
 \end{document}

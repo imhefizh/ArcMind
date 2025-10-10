@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.8)  10 OCT 2025 07:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.8)  10 OCT 2025 08:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -217,27 +217,27 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
  (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count308
-) (d:\ArcMind\Database Engineer\4. Advanced MySQL Topics\build\advanced-mysql-topics.aux)
+) (advanced-mysql-topics.aux)
 \openout1 = `advanced-mysql-topics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count309
@@ -257,23 +257,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 44.
- (d:\ArcMind\Database Engineer\4. Advanced MySQL Topics\build\advanced-mysql-topics.out) (d:\ArcMind\Database Engineer\4. Advanced MySQL Topics\build\advanced-mysql-topics.out)
+Package hyperref Info: Link coloring OFF on input line 45.
+ (advanced-mysql-topics.out) (advanced-mysql-topics.out)
 \@outlinefile=\write3
 \openout3 = `advanced-mysql-topics.out'.
 
 \c@lstlisting=\count315
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 49.
+(Font)              <12> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 49.
+(Font)              <6> on input line 50.
 
 
 [1
 
-{C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (d:\ArcMind\Database Engineer\4. Advanced MySQL Topics\build\advanced-mysql-topics.toc
+{C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (advanced-mysql-topics.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -288,121 +288,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 \newpage
-              [2]
-Underfull \hbox (badness 5741) in paragraph at lines 61--62
-[]\OT1/cmr/bx/n/10 Manfaat\OT1/cmr/m/n/10 : Kode lebih \OT1/cmtt/m/n/10 konsisten\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 terorganisir\OT1/cmr/m/n/10 , dan mu-dah
- []
-
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 68.
-
-Underfull \hbox (badness 2042) in paragraph at lines 68--69
-[]\OT1/cmr/bx/n/10 Parameter\OT1/cmr/m/n/10 : \OT1/cmtt/m/n/10 Functions \OT1/cmr/m/n/10 hanya mener-ima \OT1/cmtt/m/n/10 IN \OT1/cmr/m/n/10 pa-ram-e-ters; \OT1/cmtt/m/n/10 stored
- []
-
-(C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+l.54 \newpage
+              [2] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 73.
-
 
 [1]
-Underfull \hbox (badness 3471) in paragraph at lines 112--113
-[]\OT1/cmtt/m/n/10 INOUT \OT1/cmr/m/n/10 (In-put/Out-put): Di-gu-nakan un-tuk \OT1/cmr/bx/n/10 men-girim ni-lai dan
- []
 
-
-
-[2]
-Underfull \hbox (badness 1253) in paragraph at lines 140--141
-[]\OT1/cmr/bx/n/10 DETERMINISTIC\OT1/cmr/m/n/10 : Klausa ini menan-dakan bahwa fungsi \OT1/cmr/bx/n/10 se-lalu
- []
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 177--178
-[]\OT1/cmr/bx/n/10 Mengapa Di-ubah\OT1/cmr/m/n/10 : Diper-lukan saat mem-buat \OT1/cmtt/m/n/10 stored programs
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 177--178
-\OT1/cmr/m/n/10 (\OT1/cmtt/m/n/10 Function\OT1/cmr/m/n/10 /\OT1/cmtt/m/n/10 Procedure\OT1/cmr/m/n/10 ) yang berisi \OT1/cmr/bx/n/10 be-ber-apa perny-ataan SQL
- []
-
-
-
-[3]
-
-[4]
-Underfull \hbox (badness 2393) in paragraph at lines 234--235
-[]\OT1/cmr/bx/n/10 One Time Events\OT1/cmr/m/n/10 : Ter-jadi hanya sekali (\OT1/cmtt/m/n/10 ON SCHEDULE AT
- []
-
-
-
-[5]
-Underfull \hbox (badness 7273) in paragraph at lines 274--275
-[]\OT1/cmr/bx/n/10 Keterbatasan Val-i-dasi\OT1/cmr/m/n/10 : Tidak se-mua je-nis val-i-dasi batasan
- []
-
-
-
-[6]
-Underfull \hbox (badness 1484) in paragraph at lines 289--290
-[]\OT1/cmr/bx/n/10 Data Re-trieval State-ments \OT1/cmr/m/n/10 (\OT1/cmtt/m/n/10 SELECT\OT1/cmr/m/n/10 ): Mengem-ba-likan data dari
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 300--301
-[]\OT1/cmr/bx/n/10 Hindari Fungsi di \OT1/cmtt/m/n/10 WHERE\OT1/cmr/m/n/10 : Hin-dari meng-gu-nakan \OT1/cmtt/m/n/10 fungsi \OT1/cmr/m/n/10 dalam
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 301--302
-[]\OT1/cmr/bx/n/10 Wildcard Efisien\OT1/cmr/m/n/10 : Hin-dari peng-gu-naan \OT1/cmtt/m/n/10 wildcard \OT1/cmr/m/n/10 di awal dalam
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 302--303
-\OT1/cmr/m/n/10 dari-pada \OT1/cmtt/m/n/10 OUTER JOIN \OT1/cmr/m/n/10 (\OT1/cmtt/m/n/10 LEFT/RIGHT JOIN\OT1/cmr/m/n/10 ) yang juga mengem-ba-likan
- []
-
-
-
-[7]
-
-[8]
-Overfull \hbox (210.97853pt too wide) in paragraph at lines 362--385
- [][] 
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 391--392
-[]\OT1/cmr/bx/n/10 Akses Ter-bu-ruk\OT1/cmr/m/n/10 : \OT1/cmtt/m/n/10 all \OT1/cmr/m/n/10 (pe-minda-ian \OT1/cmr/bx/n/10 selu-ruh tabel\OT1/cmr/m/n/10 ) $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 bi-asanya
- []
-
-
-
-[9] (d:\ArcMind\Database Engineer\4. Advanced MySQL Topics\build\advanced-mysql-topics.aux)
+[2] (advanced-mysql-topics.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `advanced-mysql-topics.out' has not changed.
-(rerunfilecheck)             Checksum: 66E7B0F0921FEAFADFAFE7DB87922560;7008.
+(rerunfilecheck)             Checksum: E66024161A96E9D4046463E465F90282;1733.
  ) 
 Here is how much of TeX's memory you used:
- 11346 strings out of 468130
- 170492 string characters out of 5440676
- 887814 words of memory out of 5000000
- 39687 multiletter control sequences out of 15000+600000
- 632708 words of font info for 60 fonts, out of 8000000 for 9000
+ 11136 strings out of 468130
+ 167073 string characters out of 5440676
+ 826420 words of memory out of 5000000
+ 39607 multiletter control sequences out of 15000+600000
+ 632063 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,492b,2023s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Administrator\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "d:\ArcMind\Database Engineer\4. Advanced MySQL Topics\build\advanced-mysql-topics.pdf" (11 pages, 222393 bytes).
+ 75i,6n,79p,429b,1460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Administrator\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on advanced-mysql-topics.pdf (4 pages, 112608 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

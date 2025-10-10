@@ -1,12 +1,12 @@
 INFO:  latexindent.pl version 3.24.7, 2025-08-15, a script to indent .tex files
        latexindent.pl lives here: C:/Program Files/MiKTeX/scripts/latexindent/
-       Fri Oct 10 07:37:22 2025
-       Filename: d:/ArcMind/Database Engineer/3. Database Structure and Management with MySQL/__latexindent_temp_database-structure-and-management-with-mysql.tex
+       Fri Oct 10 13:29:44 2025
+       Filename: d:/ArcMind/Entrepreneurship/3. Growth Strategies/__latexindent_temp_Growth Strategies.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
-INFO:  Directory for backup files and log file d:\ArcMind\Database Engineer\2. Version Control\indent.log:
-       d:\ArcMind\Database Engineer\2. Version Control\
+INFO:  Directory for backup files and log file d:\ArcMind\Entrepreneurship\1. Developing The Opportunity\indent.log:
+       d:\ArcMind\Entrepreneurship\1. Developing The Opportunity\
 INFO:  Perl modules are being loaded from the following directories:
        C:/Strawberry/perl/lib/FindBin.pm
        C:/Strawberry/perl/vendor/lib/YAML/Tiny.pm
