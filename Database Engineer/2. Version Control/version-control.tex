@@ -1,0 +1,623 @@
+% section | subsection | subsubsection | paragraph | subparagraph | verbatim | enumerate | item
+
+% Just let it be an Article bro
+\documentclass{article}
+
+% Cover Metadata
+\title{Version Control (Git)}
+\date{09 Oktober 2025}
+\author{Maulana Hafidz Ismail}
+
+% Image Setup
+\usepackage{graphicx}
+\usepackage{float}
+
+% Link Setup
+\usepackage{hyperref}
+
+% Highlighting Setup
+\usepackage{soul}
+\usepackage{xcolor}
+\sethlcolor{red!30}
+\newcommand{\hlblue}[1]{\sethlcolor{cyan!30}\hl{#1}\sethlcolor{red!30}}
+
+% Line Width
+\sloppy
+\setlength{\emergencystretch}{3em}
+
+% Code Syntax Setup
+\usepackage{listings}
+\usepackage{xcolor} % untuk warna
+\lstset{
+basicstyle=\ttfamily\small,
+frame=single,
+breaklines=true,
+backgroundcolor=\color{gray!10},
+keywordstyle=\color{blue},
+commentstyle=\color{gray},
+stringstyle=\color{red},
+tabsize=2,
+captionpos=b
+}
+
+% Start of the Article
+\begin{document}
+
+% Cover Page
+\pagenumbering{gobble}
+\maketitle
+\newpage
+
+% Table of Content Page
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% Main Content
+\section{Software Collaboration}
+\subsection{Pentingnya Komunikasi}
+\begin{itemize}
+    \item \hlblue{Komunikasi} \hl{adalah keterampilan utama untuk berkolaborasi dengan pengembang lain dan memastikan pemahaman yang konsisten tentang persyaratan produk}.
+    \item Kolaborasi yang efektif diperlukan untuk bekerja pada proyek besar dengan berbagai keterampilan.
+\end{itemize}
+
+\subsection{Kolaborasi dengan Tim}
+\begin{itemize}
+    \item \hl{Pengembang harus bekerja sama dengan manajer produk, peneliti pengguna, dan desainer} untuk membangun fitur yang tepat.
+    \item Memprioritaskan pekerjaan dan memberikan konteks yang tepat kepada rekan kerja sangat penting untuk kemajuan proyek.
+\end{itemize}
+
+\subsection{Pengembangan Keterampilan}
+\begin{itemize}
+    \item \hl{Keterampilan yang dibutuhkan dapat bervariasi antara perusahaan besar dan startup}; di perusahaan besar, pengembang lebih terfokus, sedangkan di startup, mereka mungkin harus mengenakan banyak topi.
+    \item Belajar untuk beradaptasi dengan preferensi kerja orang lain, seperti cara belajar visual atau berbicara, adalah bagian dari kolaborasi yang sukses.
+\end{itemize}
+
+\subsection{System Version Control}
+\begin{itemize}
+    \item \hlblue{\texttt{Version Control}} \hl{adalah sistem yang mencatat semua perubahan dan modifikasi pada file untuk tujuan pelacakan}.
+    \item Tujuan utama dari sistem kontrol versi adalah \hl{untuk menjaga jejak perubahan}, memungkinkan pengembang untuk mengakses seluruh riwayat perubahan dan mengembalikan ke keadaan sebelumnya jika diperlukan.
+\end{itemize}
+
+\subsection{Manfaat Version Control}
+\begin{itemize}
+    \item Riwayat revisi memberikan catatan semua perubahan dalam proyek, \hl{memungkinkan pengembang untuk kembali ke titik stabil jika ada masalah}.
+    \item Identitas pengguna yang melakukan perubahan dicatat, sehingga tim dapat melihat siapa yang membuat perubahan dan kapan.
+    \item \hl{Pelacakan Perubahan}: \hlblue{\texttt{Version control systems}} membantu pengembang melacak perubahan pada kode dan memastikan bahwa semua anggota tim memiliki akses ke versi terbaru.
+    \item \hl{Sumber Kebenaran}: Memiliki satu sumber kebenaran untuk semua perubahan historis sangat penting saat bekerja dalam tim, sehingga memudahkan kolaborasi.
+\end{itemize}
+
+\subsection{Kolaborasi dan Efisiensi Version Control}
+\begin{itemize}
+    \item \texttt{Version Control System} mendukung kolaborasi tim dengan memungkinkan pengembang untuk mengajukan kode dan melacak perubahan yang perlu dilakukan.
+    \item Proses tinjauan sejawat \hlblue{(\texttt{peer review})} membantu dalam mendapatkan umpan balik dari anggota tim lain sebelum kode diterapkan.
+\end{itemize}
+
+\subsection{Peran dalam DevOps}
+\begin{itemize}
+    \item \hlblue{\texttt{Version Control}} berperan penting dalam praktik \hlblue{\texttt{DevOps}}, yang meningkatkan kemampuan organisasi untuk mengirimkan aplikasi atau layanan dengan kualitas tinggi dan kecepatan tinggi.
+    \item Dengan kontrol versi, tim dapat bekerja lebih efisien dan memastikan bahwa fitur baru tidak merusak alur kerja yang sudah ada.
+\end{itemize}
+
+\subsection{Kolaborasi di Meta}
+\begin{itemize}
+    \item Di Meta, para \texttt{engineer} memimpin setiap proyek dan berkoordinasi dengan \texttt{product data scientists} dan \texttt{researchers} mengenai apa yang sedang dibangun dan \texttt{timeline}-nya.
+    \item \hl{Komunikasi dilakukan melalui pesan, dokumen, dan pertemuan} untuk menyelesaikan masalah dan berbagi informasi.
+\end{itemize}
+
+\subsection{Version Control di Meta}
+\begin{itemize}
+    \item Meta menggunakan satu \hlblue{\texttt{monolithic repository}} untuk semua kode, yang memungkinkan berbagi dan penggunaan kembali kode antar tim.
+    \item Setiap \texttt{engineer} di Meta dapat melakukan perubahan pada kode, menciptakan budaya tanggung jawab bersama.
+\end{itemize}
+
+\subsection{Tantangan dalam Kolaborasi}
+\begin{itemize}
+    \item \texttt{Merge conflicts} sering terjadi karena banyaknya \texttt{engineer} yang bekerja dalam \texttt{repository} yang sama, sehingga tim berusaha untuk menulis perubahan yang lebih kecil dan menambahkan pengujian untuk mencegah masalah di produksi.
+    \item Alat seperti "\texttt{get blame}" digunakan untuk melihat riwayat revisi file, membantu \texttt{engineer} memahami kode yang ditulis oleh orang lain dan menghubungi mereka jika ada pertanyaan.
+\end{itemize}
+
+\subsection{Centralized Version Control Systems (CVCS)}
+\begin{itemize}
+    \item \texttt{CVCS} memiliki \texttt{server} dan \texttt{klien}, di mana \texttt{server} menyimpan \texttt{repositori} utama yang berisi seluruh riwayat versi dari \texttt{code base}. Perlu koneksi online.
+    \item Pengembang perlu menarik (\texttt{pull}) kode dari \texttt{server} ke mesin lokal mereka untuk bekerja, dan semua perubahan harus didorong (\texttt{push}) kembali ke \texttt{server} agar dapat dilihat oleh pengembang lain.
+\end{itemize}
+
+\subsection{Distributed Version Control Systems (DVCS)}
+\begin{itemize}
+    \item \texttt{DVCS} memungkinkan setiap pengguna memiliki salinan lengkap dari riwayat perubahan di sistem lokal mereka, sehingga dapat bekerja secara \texttt{offline}.
+    \item Pengguna hanya perlu terhubung ke \texttt{server} untuk menarik (\texttt{pull}) perubahan terbaru atau mendorong (\texttt{push}) perubahan mereka sendiri.
+\end{itemize}
+
+\subsection{Keuntungan dan Kerugian Version Control System}
+\begin{itemize}
+    \item Keuntungan \texttt{CVCS}: Lebih mudah dipelajari dan memberikan kontrol akses yang lebih baik kepada pengguna.
+    \item Kerugian \texttt{CVCS}: Memerlukan koneksi ke \texttt{server} untuk melakukan hampir semua tindakan, yang dapat memperlambat proses.
+    \item Keuntungan \texttt{DVCS}: Pengguna dapat bekerja tanpa koneksi ke \texttt{server}, meningkatkan kecepatan dan kinerja.
+    \item Kerugian \texttt{DVCS}: Mungkin lebih kompleks untuk dipelajari dibandingkan \texttt{CVCS}.
+\end{itemize}
+
+\subsection{Perbedaan Utama Antara CVCS dan DVCS}
+
+\subsubsection{Kepemilikan Riwayat}
+\begin{itemize}
+    \item \texttt{CVCS}: Hanya \texttt{server} yang memiliki riwayat lengkap dari semua versi. \texttt{Developer} hanya memiliki salinan terbaru dari kode. Untuk melihat riwayat, mereka harus terhubung ke \texttt{server}.
+    \item \texttt{DVCS}: Setiap \texttt{developer} memiliki salinan lengkap dari seluruh riwayat proyek di mesin lokal mereka. Ini memungkinkan mereka untuk melihat riwayat, melakukan \texttt{revert}, atau bahkan membuat cabang (\texttt{branch}) tanpa harus terhubung ke \texttt{server}.
+\end{itemize}
+
+\subsubsection{Koneksi ke Server}
+\begin{itemize}
+    \item \texttt{CVCS}: Setiap kali \texttt{developer} ingin melakukan tindakan seperti \texttt{commit} atau melihat riwayat, mereka harus terhubung ke \texttt{server}. Ini bisa menjadi kendala jika koneksi internet tidak stabil.
+    \item \texttt{DVCS}: \texttt{Developer} dapat melakukan banyak tindakan secara \texttt{offline}, seperti \texttt{commit}, \texttt{revert}, dan membuat cabang. Mereka hanya perlu terhubung ke \texttt{server} untuk menarik (\texttt{pull}) atau mendorong (\texttt{push}) perubahan.
+\end{itemize}
+
+\subsubsection{Pengelolaan Konflik}
+\begin{itemize}
+    \item \texttt{CVCS}: Konflik biasanya dihadapi saat melakukan \texttt{commit}, dan \texttt{developer} harus menyelesaikannya dengan mengakses versi di \texttt{server}.
+    \item \texttt{DVCS}: \texttt{Developer} dapat menyelesaikan konflik di lokal mereka sebelum mendorong perubahan ke \texttt{server}, memberikan lebih banyak kontrol atas proses tersebut.
+\end{itemize}
+
+\subsection{Sejarah Version Control}
+\begin{itemize}
+    \item Version Control dimulai pada tahun 1980-an, sebelum adanya Internet.
+    \item Salah satu \texttt{VCS} pertama yang signifikan adalah \texttt{Concurrent Versions System (CVS)}, yang dikembangkan oleh Walter F. Tichy pada tahun 1986 dan dirilis secara publik pada tahun 1990.
+    \item \texttt{CVS} menyimpan informasi tentang setiap file dalam struktur folder. Namun, \texttt{CVS} memiliki kekurangan, seperti tidak adanya \texttt{integrity checks} yang dapat menyebabkan data menjadi korup.
+\end{itemize}
+
+\subsection{Pengembangan VCS Selanjutnya}
+\begin{itemize}
+    \item \texttt{Subversion (SVN)} dikembangkan oleh CollabNet pada tahun 2000 sebagai penerus \texttt{CVS}, dengan perbaikan dalam hal \texttt{integrity checks} dan dukungan untuk file biner.
+    \item Meskipun \texttt{SVN} populer, ia menggunakan model \texttt{centralized VCS}, yang berarti semua operasi harus dilakukan melalui \texttt{server} pusat, yang dapat menghambat pengembangan jika \texttt{server} mengalami masalah.
+\end{itemize}
+
+\subsection{Munculnya Distributed Version Control Systems}
+\begin{itemize}
+    \item Pada tahun 2005, dua proyek baru dimulai untuk mengembangkan \texttt{distributed version control systems}: \texttt{Mercurial} dan \texttt{Git}. Keduanya muncul sebagai respons terhadap masalah yang dihadapi dalam pengembangan kernel Linux.
+    \item \texttt{Mercurial}, yang dikembangkan oleh Olivia Mackall, adalah \texttt{VCS} terdistribusi yang berkinerja tinggi dan mudah digunakan.
+    \item \texttt{Git}, yang dikembangkan oleh Linus Torvalds, dirilis secara publik pada tahun 2007 dan menjadi sangat populer di komunitas \texttt{open-source}, terutama karena desain terdistribusinya dan dukungan dari platform seperti \texttt{GitHub}.
+\end{itemize}
+
+\subsection{Workflow}
+\begin{itemize}
+    \item Menggunakan \texttt{Version Control} tanpa \texttt{workflow} yang tepat dapat menyebabkan kekacauan, seperti konflik saat dua pengembang mengedit file yang sama secara bersamaan.
+    \item \texttt{Workflow} yang baik mencakup proses untuk menyelesaikan konflik dan sistem \texttt{peer review} untuk memastikan kode yang diubah diperiksa sebelum digabungkan.
+\end{itemize}
+
+\subsection{Continuous Integration (CI)}
+\begin{itemize}
+    \item \texttt{CI (Continuous Integration)} digunakan untuk mengotomatiskan integrasi perubahan kode dari beberapa pengembang ke dalam satu aliran utama.
+    \item Dengan menggabungkan perubahan kecil secara sering, \texttt{CI} mengurangi jumlah konflik penggabungan dan memastikan \texttt{build} tetap stabil dengan menjalankan tes otomatis.
+\end{itemize}
+
+\subsection{Continuous Delivery (CD)}
+\begin{itemize}
+    \item \texttt{CD (Continuous Delivery)} adalah praktik lanjutan yang dibangun di atas \texttt{CI}, di mana \texttt{pipeline CD} mengotomatiskan proses persiapan aplikasi untuk \texttt{deployment}.
+    \item Tujuan utama \texttt{CD} adalah memastikan aplikasi selalu dalam keadaan dapat \texttt{dideploy}, meskipun setelah banyak perubahan, dengan langkah manual untuk persetujuan sebelum rilis ke lingkungan produksi.
+\end{itemize}
+
+\subsection{Continuous Deployment}
+\begin{itemize}
+    \item \texttt{Continuous Deployment} mengotomatiskan proses \texttt{deployment} aplikasi ke produksi tanpa intervensi manual.
+    \item Setiap perubahan yang lulus tes otomatis akan langsung \texttt{dideploy}, memastikan pembaruan dan perbaikan segera tersedia untuk pelanggan.
+\end{itemize}
+
+\subsection{Proses Kerja Tim Pengembang}
+\begin{itemize}
+    \item Contoh Kasus: Dalam pengembangan fitur baru untuk aplikasi \texttt{e-commerce}, pengembang membuat perubahan dan mengirimkan \texttt{pull request} untuk ditinjau oleh rekan-rekan mereka.
+    \item Resolusi Konflik: Ketika beberapa pengembang membuat perubahan pada bagian kode yang sama, riwayat revisi membantu dalam mengidentifikasi dan menyelesaikan konflik.
+\end{itemize}
+
+\subsection{Manfaat Riwayat Revisi}
+\begin{itemize}
+    \item Aksesibilitas: Riwayat revisi memungkinkan anggota tim untuk melihat siapa yang membuat perubahan, kapan, dan alasan di balik perubahan tersebut.
+    \item Manajemen Perubahan: Riwayat ini juga membantu dalam mengelola dan menggabungkan perubahan untuk mencapai tujuan bisnis dengan tepat waktu.
+\end{itemize}
+
+\subsection{Lingkungan Staging}
+\begin{itemize}
+    \item Lingkungan \texttt{staging} harus meniru lingkungan \texttt{production} untuk menguji kode dengan akurat sebelum dirilis.
+    \item \texttt{Staging} digunakan untuk menguji fitur baru dan memungkinkan tim \texttt{QA} atau pemangku kepentingan untuk melihat dan menggunakan fitur tersebut sebelum peluncuran.
+\end{itemize}
+
+\subsection{Pengujian di Staging}
+\begin{itemize}
+    \item Lingkungan \texttt{staging} adalah tempat yang baik untuk menjalankan berbagai jenis pengujian, termasuk \texttt{Unit testing}, \texttt{Integration testing}, dan \texttt{performance testing}.
+    \item Meskipun \texttt{performance testing} dapat dilakukan di \texttt{production}, biasanya dilakukan di luar jam sibuk untuk menghindari dampak pada pengalaman pengguna.
+\end{itemize}
+
+\subsection{Migrasi dan Perubahan Konfigurasi di Staging}
+\begin{itemize}
+    \item \texttt{Staging} adalah tempat yang ideal untuk menguji dan memverifikasi data \texttt{migrations}, dengan \texttt{snapshot} dari \texttt{production} untuk memastikan skrip migrasi tidak menyebabkan masalah.
+    \item Perubahan konfigurasi juga dapat diuji di \texttt{staging} untuk mengidentifikasi potensi masalah sebelum diterapkan di \texttt{production}.
+\end{itemize}
+
+\subsection{Lingkungan Produksi (Production)}
+\begin{itemize}
+    \item \texttt{Produksi} adalah lingkungan \texttt{live} yang harus bebas dari masalah yang seharusnya sudah terdeteksi dan diperbaiki di \texttt{staging}.
+    \item \texttt{Downtime} di \texttt{production} dapat berdampak pada pendapatan, terutama untuk layanan yang berorientasi pelanggan, seperti \texttt{e-commerce}.
+\end{itemize}
+
+\subsection{Keamanan dan Reputasi di Produksi}
+\begin{itemize}
+    \item Pembaruan perangkat lunak harus diperiksa untuk kerentanan keamanan sebelum diterapkan di \texttt{production}.
+    \item Masalah di \texttt{production} dapat merusak reputasi perusahaan dan mengurangi kepercayaan pengguna.
+\end{itemize}
+
+\newpage
+\section{Command Line}
+\subsection{Interaksi dengan Komputer}
+\begin{itemize}
+    \item Interaksi dengan komputer berarti bertukar informasi, di mana komputer mengirim data kepada pengguna dan pengguna juga mengirim data ke komputer.
+    \item Perangkat \texttt{input} termasuk \texttt{keyboard}, \texttt{mouse}, \texttt{microphone}, dan \texttt{kamera}, sedangkan perangkat \texttt{output} meliputi \texttt{speakers}, \texttt{monitors}, dan \texttt{headsets}.
+\end{itemize}
+
+\subsection{Graphical User Interfaces (GUIs) dan Command Line}
+\begin{itemize}
+    \item \texttt{GUIs (Graphical User Interfaces)} memudahkan interaksi dengan perangkat, tetapi dapat membatasi kemampuan interaksi manusia-komputer.
+    \item Interaksi dengan perangkat seperti ponsel dan komputer dilakukan melalui \texttt{Graphic User Interface (GUI)}, yang merupakan lapisan di atas perintah dasar.
+    \item \texttt{Command line} adalah alternatif yang kuat, memungkinkan pengguna untuk melakukan tugas lebih cepat dan dengan potensi kesalahan yang lebih sedikit.
+\end{itemize}
+
+\subsection{Perintah Dasar di Command Line}
+\begin{itemize}
+    \item \texttt{cd}: Mengubah direktori ke folder tertentu. Contoh: \texttt{cd ~/desktop} untuk menuju ke desktop.
+    \item \texttt{touch}: Membuat file baru. Contoh: \texttt{touch example.txt} untuk membuat file kosong.
+    \item \texttt{mkdir}: Membuat folder baru. Contoh: \texttt{mkdir myjsproject} untuk membuat folder baru.
+    \item \texttt{history}: Menampilkan riwayat perintah yang telah diketik.
+\end{itemize}
+
+\subsection{Sejarah Unix dan Linux}
+\begin{itemize}
+    \item \texttt{Unix} dikembangkan oleh Ken Thompson dan Dennis Ritchie di AT\&T Labs pada tahun 1969, dan menjadi dasar bagi banyak sistem operasi modern.
+    \item \texttt{Linux}, yang dikembangkan oleh Linus Torvalds, muncul kemudian dan banyak digunakan di platform \texttt{cloud}.
+\end{itemize}
+
+\subsection{Perintah Dasar Unix}
+\begin{itemize}
+    \item \texttt{cd}: Mengubah direktori dalam sistem file.
+    \item \texttt{ls}: Menampilkan isi direktori saat ini, dengan berbagai \texttt{flag} seperti \texttt{-l} untuk detail dan \texttt{-a} untuk menampilkan file tersembunyi.
+    \item \texttt{pwd}: Menampilkan jalur lengkap dari direktori kerja saat ini.
+    \item \texttt{cp}: Menyalin file atau folder dari satu lokasi ke lokasi lain.
+    \item \texttt{mv}: Memindahkan file dari satu direktori ke direktori lain.
+\end{itemize}
+
+\subsection{Perintah Bash yang Umum}
+\begin{itemize}
+    \item \texttt{cd}: Mengubah direktori.
+    \item \texttt{ls}: Menampilkan isi direktori.
+    \item \texttt{rm}: Menghapus file atau direktori.
+    \item \texttt{mv}: Memindahkan file atau folder.
+    \item \texttt{touch}: Membuat file kosong baru atau memperbarui \texttt{timestamp} file.
+    \item \texttt{cp}: Membuat salinan file atau folder.
+    \item \texttt{mkdir}: Membuat direktori baru.
+    \item \texttt{pwd}: Menampilkan lokasi saat ini di \texttt{shell}.
+    \item \texttt{cat}: Membaca atau menggabungkan isi file.
+    \item \texttt{less}: Menampilkan isi file satu halaman sekaligus.
+    \item \texttt{grep}: Mencari isi file atau folder.
+\end{itemize}
+
+\subsection{Flags dan Man Pages}
+\begin{itemize}
+    \item Setiap perintah \texttt{Bash} memiliki \texttt{flags} untuk mengubah \texttt{output} perintah tersebut. Misalnya, menambahkan \texttt{flag -l} pada perintah \texttt{ls} untuk menampilkan daftar dengan format yang berbeda.
+    \item \texttt{Man pages} adalah manual untuk setiap perintah yang mencakup semua \texttt{flags} dan opsi yang tersedia. Contoh: ketik \texttt{man ls} untuk melihat \texttt{man page} dari perintah \texttt{ls}.
+\end{itemize}
+
+\subsection{Mengedit File dengan VI atau VIM}
+\begin{itemize}
+    \item \texttt{VI} adalah editor visual yang digunakan untuk mengedit dan menyimpan file. \texttt{VIM} adalah versi yang lebih baik dari \texttt{VI} dengan beberapa perbaikan.
+    \item \texttt{VIM} memiliki beberapa \texttt{mode}:
+          \begin{itemize}
+              \item \texttt{Normal mode}: Mode \texttt{default} untuk navigasi dan operasi lainnya.
+              \item \texttt{Insert mode}: Untuk mengedit isi file secara langsung.
+              \item \texttt{Command line mode}: Dapat diakses dengan mengetikkan tanda titik dua \texttt{:} di \texttt{Normal mode}.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Navigasi dan File Konfigurasi}
+\begin{itemize}
+    \item Menggunakan perintah \texttt{cd} untuk berpindah ke direktori \texttt{home} dan \texttt{ls -la} untuk menampilkan semua file, termasuk file tersembunyi.
+    \item Fokus pada file \texttt{bashRC}, yang berisi konfigurasi yang dieksekusi saat terminal dibuka, seperti pengaturan warna dan riwayat perintah.
+    \item File \texttt{bash profile} digunakan untuk variabel lingkungan (\texttt{env}), seperti pengaturan direktori Java atau Python.
+\end{itemize}
+
+\subsection{Membuat Shell Script}
+\begin{itemize}
+    \item Menggunakan editor \texttt{Vim} untuk membuat file baru bernama \texttt{testshell.sh}.
+    \item Menambahkan \texttt{shebang} (\texttt{\#!/bin/bash}) di bagian atas file untuk menunjukkan bahwa ini adalah \texttt{bash script}.
+    \item Menggunakan perintah \texttt{echo} untuk mencetak "Hello World" ke layar.
+\end{itemize}
+
+\subsection{Menjalankan dan Mengatur Izin File}
+\begin{itemize}
+    \item Setelah membuat file, file tersebut tidak dapat dieksekusi. Menggunakan perintah \texttt{chmod 755} untuk mengubah izin file agar dapat dieksekusi.
+    \item Menjalankan \texttt{script} dengan perintah \texttt{./testshell.sh}, yang akan mencetak "Hello World" di layar.
+\end{itemize}
+
+\subsection{Simbol Izin File}
+\begin{itemize}
+    \item \texttt{r} (\texttt{read}): Simbol ini menunjukkan bahwa file dapat dibaca. Jika Anda memiliki izin \texttt{r}, Anda dapat membuka dan melihat isi file tersebut.
+    \item \texttt{w} (\texttt{write}): Simbol ini menunjukkan bahwa file dapat ditulis. Dengan izin \texttt{w}, Anda dapat mengedit atau menghapus file.
+    \item \texttt{x} (\texttt{execute}): Simbol ini menunjukkan bahwa file dapat dieksekusi. Jika Anda memiliki izin \texttt{x}, Anda dapat menjalankan file tersebut sebagai program atau \texttt{script}.
+\end{itemize}
+
+\subsection{Representasi Angka untuk Izin File}
+\begin{itemize}
+    \item 4 mewakili izin \texttt{read} (\texttt{r}).
+    \item 2 mewakili izin \texttt{write} (\texttt{w}).
+    \item 1 mewakili izin \texttt{execute} (\texttt{x}).
+    \item Kombinasi angka-angka ini digunakan untuk memberikan izin yang diinginkan. Misalnya:
+          \begin{itemize}
+              \item 7 (4 + 2 + 1) berarti izin \texttt{read}, \texttt{write}, dan \texttt{execute}.
+              \item 6 (4 + 2) berarti izin \texttt{read} dan \texttt{write}.
+              \item 5 (4 + 1) berarti izin \texttt{read} dan \texttt{execute}.
+              \item 0 berarti tidak ada izin sama sekali.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Contoh Pengaturan Izin}
+\begin{itemize}
+    \item Ketika Anda menggunakan perintah \texttt{chmod 755 testshell.sh}, Anda mengatur izin file \texttt{testshell.sh} sebagai berikut:
+          \begin{itemize}
+              \item 7 (untuk pemilik file): Ini berarti pemilik memiliki izin \texttt{r}, \texttt{w}, dan \texttt{x} (4 + 2 + 1 = 7).
+              \item 5 (untuk grup): Ini berarti grup memiliki izin \texttt{r} dan \texttt{x} (4 + 1 = 5), tetapi tidak dapat menulis.
+              \item 5 (untuk orang lain): Ini juga berarti orang lain memiliki izin \texttt{r} dan \texttt{x} (4 + 1 = 5), tetapi tidak dapat menulis.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Perintah pwd (print working directory)}
+\begin{itemize}
+    \item Perintah ini digunakan untuk memeriksa direktori tempat Anda berada saat ini.
+    \item Misalnya, jika \texttt{output}-nya adalah \texttt{/}, itu artinya Anda berada di \texttt{root directory}, yaitu direktori tingkat teratas dalam sistem operasi.
+\end{itemize}
+
+\subsection{Perintah ls (list)}
+\begin{itemize}
+    \item Perintah ini digunakan untuk melihat isi dari direktori yang sedang Anda buka.
+    \item Jika Anda mengetik \texttt{ls} di \texttt{root directory}, Anda akan melihat daftar nama direktori yang ada di dalamnya.
+    \item Anda bisa menambahkan \texttt{flag -l} ke perintah \texttt{ls} untuk menampilkan detail lebih lanjut dalam format daftar (\texttt{list}). Contohnya adalah \texttt{ls -l}.
+    \item Dalam format daftar ini, Anda bisa mengidentifikasi jenis-jenis file atau direktori berdasarkan simbol di awal baris:
+          \begin{itemize}
+              \item \texttt{l}: Mewakili \texttt{link file}. Contohnya \texttt{temp} yang merupakan \texttt{link} ke direktori \texttt{tmp}.
+              \item \texttt{d}: Mewakili \texttt{standard directory}. Contohnya, \texttt{bin}.
+              \item \texttt{-}: Mewakili \texttt{standard file} seperti file teks atau konfigurasi. Contohnya, \texttt{resolve.conf}.
+          \end{itemize}
+    \item Anda juga akan melihat informasi tentang pemilik (\texttt{owner}) dan grup (\texttt{group}) yang terkait dengan setiap file atau direktori.
+\end{itemize}
+
+\subsection{Perintah cd (change directory)}
+\begin{itemize}
+    \item Perintah ini digunakan untuk berpindah dari satu direktori ke direktori lain.
+    \item Untuk masuk ke direktori tertentu, ketik \texttt{cd} diikuti dengan nama direktori tersebut, misalnya \texttt{cd etc}.
+    \item Untuk kembali ke direktori induk (\texttt{parent directory}), gunakan \texttt{cd ..}. Contohnya, dari \texttt{etc} ke \texttt{root directory}.
+    \item Anda juga bisa menggunakan \texttt{absolute path} untuk kembali ke direktori utama, contohnya \texttt{cd /}.
+    \item Untuk melangkah maju melalui beberapa direktori secara berurutan, Anda bisa menggunakan perintah \texttt{cd} beberapa kali, seperti \texttt{cd etc} lalu \texttt{cd ssh}.
+\end{itemize}
+
+\subsection{Perintah mkdir (Make Directory)}
+\begin{itemize}
+    \item Perintah ini membuat direktori/\texttt{folder} baru. Contoh: \texttt{mkdir submissions}.
+    \item Dua direktori bisa dibuat sekaligus dengan dipisah spasi seperti \texttt{mkdir dir1 dir2}.
+    \item Kita bisa langsung menentukan lokasi direktori barunya seperti ini \texttt{mkdir ~/existingDir/newDir}.
+    \item Perintah \texttt{mkdir -p dir2/dir3} menggunakan \texttt{-p} untuk memastikan semua \texttt{folder} induk yang belum ada ikut dibuat.
+\end{itemize}
+
+\subsection{Perintah mv (Move)}
+\begin{itemize}
+    \item Perintah ini memindahkan direktori ke direktori lain.
+    \item Contoh: \texttt{mv submissions archive} memindahkan \texttt{submissions} ke dalam \texttt{archive}.
+    \item Jika \texttt{folder archive} tidak ada, maka \texttt{folder submissions} akan terkena \texttt{rename} menjadi \texttt{archive}. Perintah \texttt{mv} bisa digunakan untuk melakukan \texttt{rename}.
+    \item Kita juga bisa memindahkan direktori dari mana saja jika mengetahui lokasi persis direktorinya, seperti \texttt{mv ~/Projects/Work ~/Archives}.
+    \item Untuk melakukan \texttt{rename file} dan langsung memindahkannya ke direktori lain dalam satu jalan: \texttt{mv ~/Documents/notes.txt ~/Markdown/notes.md}.
+\end{itemize}
+
+\subsection{Tips Command Line}
+\begin{itemize}
+    \item Gunakan perintah \texttt{cd} untuk bernavigasi antar direktori.
+    \item Gunakan \texttt{pwd} untuk mengonfirmasi direktori kerja Anda saat ini.
+    \item Ingatlah bahwa \texttt{files} dan \texttt{directories} bersifat \texttt{case-sensitive} di \texttt{command line}.
+    \item Direktori biasanya muncul dengan \texttt{d} di awal ketika menggunakan \texttt{ls -l}.
+\end{itemize}
+
+\subsection{Perintah wc (Word Count)}
+\begin{itemize}
+    \item Perintah \texttt{wc} digunakan untuk menghitung jumlah kata dalam file. Misalnya, \texttt{wc -w file1.txt} memberikan jumlah kata.
+    \item \texttt{Flag -w} untuk menghitung jumlah kata dan \texttt{flag -c} untuk menghitung jumlah karakter.
+\end{itemize}
+
+\subsection{Pipe}
+\begin{itemize}
+    \item Menggunakan \texttt{pipes} (\texttt{|}), Anda dapat mengalirkan \texttt{output} dari satu perintah ke perintah lain. Contohnya, \texttt{cat file1.txt | wc -w} untuk menghitung kata dalam \texttt{File1.txt}.
+\end{itemize}
+
+\subsection{Redirection dalam Linux}
+
+\subsubsection{Dasar Redirection}
+\begin{itemize}
+    \item \texttt{Standard Input (stdin)}: Input standar berasal dari \texttt{keyboard}. Tanda yang digunakan untuk input adalah \texttt{<}. Diwakili angka 0.
+    \item \texttt{Standard Output (stdout)}: Output standar dari perintah seperti \texttt{ls} dikirim ke layar. Tanda yang digunakan untuk mengarahkan \texttt{output} ke file adalah \texttt{>}. Diwakili angka 1.
+    \item \texttt{Standard Error (stderr)}: Ketika terjadi kesalahan, \texttt{output error} dikirim ke \texttt{stderr}. Tanda untuk mengarahkan \texttt{error} adalah \texttt{2>}. Diwakili angka 2.
+\end{itemize}
+
+\subsubsection{Jenis Redirection dan Contoh Praktis}
+\begin{itemize}
+    \item \texttt{Standard Input}: \texttt{cat > input.txt} untuk menyimpan \texttt{input} pengguna. Tekan \texttt{Ctrl + D} untuk menandai akhir \texttt{input}.
+    \item \texttt{Standard Output}: \texttt{ls -l > output.txt} untuk menyimpan hasil perintah \texttt{ls} ke dalam file \texttt{output.txt}.
+    \item \texttt{Standard Error}: \texttt{ls -l /bin/usr 2> error.txt} untuk menyimpan pesan \texttt{error} ke dalam file \texttt{error.txt}.
+    \item Menggabungkan \texttt{Output} dan \texttt{Error}: \texttt{ls -l /bin/usr > output.txt 2\textgreater{}\&1} untuk mengarahkan keduanya ke \texttt{output.txt}.
+\end{itemize}
+
+\subsection{Pengantar tentang Grep}
+\begin{itemize}
+    \item \texttt{Grep} adalah singkatan dari \texttt{global regular expression print}, yang digunakan untuk mencari di seluruh file dan folder serta konten file.
+\end{itemize}
+
+\subsection{Pencarian dengan Grep}
+\begin{itemize}
+    \item Untuk mencari nama yang dimulai dengan "Sam", perintah yang digunakan adalah \texttt{grep Sam names.txt}, yang mengembalikan daftar nama yang sesuai.
+    \item \texttt{Grep} bersifat \texttt{case sensitive}.
+\end{itemize}
+
+\subsection{Menggunakan Flag pada Grep}
+\begin{itemize}
+    \item Dengan menambahkan \texttt{flag -i}, perintah \texttt{grep -i Sam names.txt} akan mengabaikan perbedaan huruf besar dan kecil.
+    \item \texttt{Flag -w} digunakan untuk pencarian yang tepat (\texttt{exact match}), seperti \texttt{grep -w Sam names.txt}.
+\end{itemize}
+
+\subsection{Menggabungkan Pencarian dengan Pipe dan Grep}
+\begin{itemize}
+    \item \texttt{Grep} juga dapat digunakan dengan \texttt{pipe} untuk menggabungkan pencarian, misalnya dengan perintah \texttt{ls /bin | grep zip} untuk mencari file \texttt{executable} yang mengandung "zip".
+\end{itemize}
+
+\newpage
+\section{Working with Git}
+\subsection{Git dan GitHub}
+\begin{itemize}
+    \item \textbf{Git} adalah sistem \texttt{version control} terdistribusi (\texttt{DVCS}) yang dirancang untuk melacak perubahan pada file dalam proyek.
+    \item \textbf{Sejarah Git}: Diciptakan oleh \texttt{Linus Torvalds} pada tahun 2005 untuk mengelola \texttt{kernel Linux}.
+    \item \textbf{Manfaat Git}: Menawarkan kecepatan dan kinerja tinggi; merupakan perangkat lunak \texttt{gratis} dan \texttt{open source}.
+\end{itemize}
+
+\subsubsection{GitHub}
+\begin{itemize}
+    \item \textbf{Definisi}: Layanan \texttt{hosting} berbasis \texttt{cloud} yang memungkinkan pengguna mengelola \texttt{Git repositories} melalui antarmuka pengguna (\texttt{GUI}).
+    \item \textbf{Fitur Utama}: Menyediakan \texttt{kontrol akses}, \texttt{pull requests}, dan \texttt{otomatisasi}.
+    \item \textbf{Popularitas}: Berfungsi sebagai jaringan sosial untuk pengembang, memfasilitasi kontribusi kode global pada proyek \texttt{publik} maupun \texttt{privat}.
+\end{itemize}
+
+\subsection{Dasar-Dasar Repository dan Branch}
+
+\subsubsection{Repository}
+\begin{itemize}
+    \item \textbf{Repository}: Tempat penyimpanan proyek yang dikelola dengan Git.
+    \item \textbf{Lokal (\texttt{Local})}: Merujuk pada mesin Anda (laptop/desktop) yang hanya dapat diakses oleh Anda.
+    \item \textbf{Remote}: Merupakan \texttt{repository} yang berada di \texttt{server} (\textit{misalnya}, GitHub) yang dapat diakses oleh banyak pengembang.
+\end{itemize}
+
+\subsubsection{Upstream}
+\begin{itemize}
+    \item \textbf{Upstream} merujuk pada \texttt{branch} di \texttt{remote repository} yang terhubung dengan \texttt{branch} lokal Anda. Ini adalah sumber dari mana Anda menarik (\texttt{pull}) pembaruan dan ke mana Anda mengirim (\texttt{push}) perubahan.
+    \item \textbf{Fungsi}: Dapat diatur berbeda dari \texttt{branch main}. Perintah \texttt{git push -u} digunakan untuk memilih \texttt{branch remote} yang ingin dikaitkan dengan \texttt{branch} lokal.
+\end{itemize}
+
+\subsubsection{Branch Main}
+\begin{itemize}
+    \item \textbf{Branch Main}: \texttt{Branch} utama dalam \texttt{repositori} yang biasanya menyimpan versi stabil dari kode yang siap untuk produksi.
+    \item \textbf{Fungsi}: Tempat menggabungkan semua perubahan yang telah diuji dan disetujui dari \texttt{branch} lain.
+\end{itemize}
+
+---
+
+\subsection{Alur Kerja Git (Status File)}
+Alur kerja Git terdiri dari tiga status utama yang melacak perubahan file:
+
+\begin{itemize}
+    \item \textbf{Modified}: Git mengetahui file telah berubah (ditambahkan/dihapus/diperbarui) tetapi tidak melacaknya secara eksplisit untuk \texttt{commit} berikutnya.
+    \item \textbf{Staged}: File telah dipindahkan ke \texttt{staging area} (\texttt{index}) untuk dikomit. Ini adalah area persiapan sebelum \texttt{commit} dilakukan.
+    \item \textbf{Committed}: Perubahan telah disimpan dan membuat \texttt{snapshot} dari kondisi \texttt{repository} saat ini. Ini berfungsi sebagai titik simpan.
+\end{itemize}
+
+\subsubsection{Alur Kerja Dasar dan Perintah}
+\begin{itemize}
+    \item \textbf{Memeriksa Status}: Gunakan \texttt{git status} untuk memeriksa \texttt{branch} yang digunakan dan apakah ada perubahan yang perlu dikomit.
+    \item \textbf{Menambahkan File}: Gunakan \texttt{git add <file>} untuk memindahkan file dari \texttt{working directory} ke \texttt{staging area}.
+    \item \textbf{Melakukan Commit}: Gunakan \texttt{git commit -m "<pesan>"} untuk menyimpan perubahan yang telah di-\texttt{stage}.
+    \item \textbf{Mengirim Perubahan}: Perubahan hanya ada di lokal sampai perintah \texttt{git push} dijalankan untuk mengunggah ke \texttt{remote repository}.
+\end{itemize}
+
+\begin{lstlisting}[language=SQL, caption={Contoh Alur Kerja Dasar Git}, captionpos=b]
+# Membuat file baru
+touch test.txt
+# Memeriksa status (menunjukkan 'untracked')
+git status
+# Mulai melacak file (status menjadi 'staged')
+git add test.txt
+# Menyimpan perubahan
+git commit -m "adding a new file for testing"
+# Mengunggah perubahan ke remote
+git push
+\end{lstlisting}
+
+---
+
+\subsection{Mengelola Branch dan Pull Request}
+
+\subsubsection{Membuat dan Berpindah Branch}
+Perintah \texttt{git checkout} memiliki dua fungsi:
+\begin{itemize}
+    \item \textbf{Pindah Branch}: Mengganti ke \texttt{branch} yang sudah ada (\texttt{git checkout main}).
+    \item \textbf{Buat dan Pindah}: Membuat \texttt{branch} baru sekaligus berpindah ke \texttt{branch} tersebut.
+\end{itemize}
+
+\begin{lstlisting}[language=SQL, caption={Membuat Branch dan Berpindah}, captionpos=b]
+# Membuat branch baru dan langsung berpindah
+git checkout -b feature/lesson 
+# Mengirim branch baru ke remote dan mengatur upstream
+git push -u origin feature/lesson
+\end{lstlisting}
+
+\subsubsection{Workflow Pull Request (PR)}
+\begin{itemize}
+    \item Setelah \texttt{branch} baru dikirim (\texttt{push}), GitHub akan menyediakan opsi untuk membuat \textbf{Pull Request}.
+    \item \textbf{PR} memungkinkan tim untuk meninjau perubahan (\texttt{peer review}) sebelum digabungkan (\texttt{merge}) ke \texttt{branch main}.
+    \item Menggunakan \texttt{branch} terpisah untuk fitur baru adalah praktik terbaik untuk menghindari konflik.
+\end{itemize}
+
+\subsubsection{Git Workflow}
+\begin{itemize}
+    \item \textbf{Workflow} adalah proses terstruktur yang membantu tim mengelola proyek, memandu dari \texttt{pull} hingga \texttt{push}.
+    \item \textbf{Feature Branching}: Metode membuat \texttt{branch} baru dari \texttt{main} untuk mengerjakan fitur tertentu. \texttt{Branch main} tetap stabil hingga fitur selesai dan siap di-\texttt{merge}.
+    \item \textbf{Praktik Terbaik}: Sebelum \texttt{git push}, selalu lakukan \texttt{git pull} untuk mengambil perubahan terbaru dari \texttt{remote} dan mengurangi kemungkinan \texttt{merge conflict}.
+\end{itemize}
+
+---
+
+\subsection{Inspeksi dan Perbandingan Kode}
+
+\subsubsection{HEAD dan Struktur \texttt{.git}}
+\begin{itemize}
+    \item \textbf{Folder \texttt{.git}}: Menyimpan semua informasi perubahan.
+    \item \textbf{HEAD}: Adalah \texttt{pointer} yang menunjuk ke \texttt{commit} saat ini (terbaru) pada \texttt{branch} yang aktif. Setiap kali ada \texttt{commit} baru, \texttt{ID commit} di \texttt{HEAD} diperbarui.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Melihat Referensi HEAD}, captionpos=b]
+# Masuk ke folder .git
+cd .git
+# Melihat branch yang sedang ditunjuk HEAD
+cat HEAD 
+\end{lstlisting}
+
+\subsubsection{Git Diff}
+\begin{itemize}
+    \item \textbf{git diff} membantu pengguna untuk melihat perbedaan antara versi file yang berbeda (file, \texttt{branch}, atau \texttt{commit}).
+    \item \textbf{Perbandingan Commit}: Gunakan \texttt{git log} untuk melihat \texttt{ID commit} dan \texttt{git diff <ID1> <ID2>} untuk membandingkan perubahannya.
+\end{itemize}
+
+\subsubsection{Git Blame}
+\begin{itemize}
+    \item \textbf{git blame} digunakan untuk melihat setiap baris perubahan pada file tertentu dan menunjukkan: \texttt{ID commit}, \texttt{author}, \texttt{timestamp}, \texttt{line number}, dan \texttt{content}.
+    \item \textbf{Penggunaan}: Berguna untuk melacak siapa yang melakukan perubahan dan kapan, terutama dalam proyek dengan banyak pengembang.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Penggunaan Git Blame}, captionpos=b]
+# Melihat siapa yang mengubah setiap baris di file
+git blame file.txt
+# Membatasi output dari baris 5 hingga 15
+git blame -L 5,15 file.txt
+\end{lstlisting}
+
+---
+
+\subsection{Merge Conflict dan Forking}
+
+\subsubsection{Merge Conflict}
+\begin{itemize}
+    \item \textbf{Merge Conflict} terjadi ketika Git tidak dapat secara otomatis menggabungkan perubahan dari dua \texttt{branch} yang berbeda karena ada perubahan yang saling bertentangan pada baris kode yang sama.
+    \item \textbf{Penyelesaian}: Pengembang harus meninjau dan menyelesaikan konflik secara manual, lalu melakukan \texttt{git add} dan \texttt{git commit} untuk menandai konflik telah selesai.
+\end{itemize}
+
+\subsubsection{Forking}
+\begin{itemize}
+    \item \textbf{Forking} adalah proses membuat \textbf{salinan lengkap} dari sebuah \texttt{repository} di akun GitHub pengguna sendiri.
+    \item \textbf{Perbedaan dengan Branching}: \texttt{Branching} dilakukan dalam \texttt{repository} yang sama, sementara \texttt{forking} menciptakan \texttt{repository} yang sepenuhnya independen di bawah akun pengguna lain.
+    \item \textbf{Kontribusi}: Setelah perubahan dilakukan di \texttt{forked repository}, pengguna membuat \textbf{Pull Request} kembali ke \texttt{repository} asli.
+\end{itemize}
+
+\end{document}

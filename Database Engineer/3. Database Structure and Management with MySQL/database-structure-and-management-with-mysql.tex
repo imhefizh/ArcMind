@@ -1,0 +1,543 @@
+% section | subsection | subsubsection | paragraph | subparagraph | verbatim | enumerate | item
+
+% Just let it be an Article bro
+\documentclass{article}
+
+% Cover Metadata
+\title{Database Structure and Management with MySQL}
+\date{10 Oktober 2025}
+\author{Maulana Hafidz Ismail}
+
+% Image Setup
+\usepackage{graphicx}
+\usepackage{float}
+
+% Link Setup
+\usepackage{hyperref}
+
+% Highlighting Setup
+\usepackage{soul}
+\usepackage{xcolor}
+\sethlcolor{red!30}
+\newcommand{\hlblue}[1]{\sethlcolor{cyan!30}\hl{#1}\sethlcolor{yellow}}
+
+% Line Width
+\sloppy
+\setlength{\emergencystretch}{3em}
+
+% Code Syntax Setup
+\usepackage{listings}
+\usepackage{xcolor} % untuk warna
+\lstset{
+basicstyle=\ttfamily\small,
+frame=single,
+breaklines=true,
+backgroundcolor=\color{gray!10},
+keywordstyle=\color{blue},
+commentstyle=\color{gray},
+stringstyle=\color{red},
+tabsize=2,
+captionpos=b
+}
+
+% Start of the Article
+\begin{document}
+
+% Cover Page
+\pagenumbering{gobble}
+\maketitle
+\newpage
+
+% Table of Content Page
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% Main Content
+\section{Intro to MySQL}
+\subsection{Pengantar WHERE Clause}
+\begin{itemize}
+    \item \texttt{WHERE clause} digunakan dalam pernyataan SQL untuk \textbf{menentukan kondisi atau aturan dalam memfilter data}.
+    \item Sintaks dasar: \texttt{SELECT} \texttt{<kolom>} \texttt{FROM} \texttt{<tabel>} \texttt{WHERE} \texttt{<kondisi>}.
+\end{itemize}
+
+\subsection{Kolasi (Collation)}
+\begin{itemize}
+    \item \textbf{Kolasi} menentukan bagaimana \texttt{string} dibandingkan dan diurutkan.
+    \item Beberapa kolasi bersifat \texttt{case-sensitive} (membedakan huruf besar dan kecil), sementara yang lain bersifat \texttt{case-insensitive} (tidak membedakan).
+    \item \textbf{Default Kolasi} adalah kolasi yang otomatis diterapkan pada \texttt{database}, tabel, atau kolom jika tidak ditentukan secara eksplisit, yang dapat bervariasi tergantung pengaturan \texttt{server MySQL} (contoh: \texttt{utf8mb4\_general\_ci} adalah \texttt{case-insensitive}).
+\end{itemize}
+
+\subsection{Operator Logika (Logical Operators)}
+
+\subsubsection{AND Operator}
+\begin{itemize}
+    \item Digunakan untuk memfilter data dengan memastikan bahwa \textbf{semua kondisi} yang digabungkan harus bernilai \texttt{true}.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan AND}, captionpos=b]
+SELECT * FROM customer_purchases
+WHERE purchases > 2000 AND location = 'Gila County';
+\end{lstlisting}
+
+\subsubsection{OR Operator}
+\begin{itemize}
+    \item Memungkinkan \texttt{record} untuk dimasukkan jika \textbf{salah satu dari kondisi} yang digabungkan bernilai \texttt{true}.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan OR}, captionpos=b]
+SELECT * FROM customer_purchases
+WHERE location = 'Gila County' OR location = 'Santa Cruz County';
+\end{lstlisting}
+
+\subsubsection{NOT Operator}
+\begin{itemize}
+    \item Membalikkan hasil, memilih \texttt{record} hanya jika kondisi yang ditentukan \textbf{tidak bernilai true}.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan NOT}, captionpos=b]
+SELECT * FROM customer_purchases
+WHERE NOT (location = 'Gila County' OR location = 'Santa Cruz County');
+\end{lstlisting}
+
+\subsection{Operator Khusus dalam WHERE Clause}
+
+\subsubsection{Operator IN}
+\begin{itemize}
+    \item Memungkinkan Anda untuk menentukan \textbf{beberapa nilai} dalam klausa \texttt{WHERE}. Berfungsi sebagai singkatan untuk beberapa kondisi \texttt{OR}.
+    \item Dapat juga menggunakan \texttt{NOT IN} untuk hasil yang berlawanan.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan IN}, captionpos=b]
+SELECT * FROM customer_purchases
+WHERE purchases IN (2000, 2500, 3000)
+AND location IN ('Gila County', 'Santa Cruz County');
+\end{lstlisting}
+
+\subsubsection{Operator BETWEEN}
+\begin{itemize}
+    \item Digunakan untuk memilih nilai dalam \textbf{rentang tertentu} (angka, teks, atau tanggal).
+    \item \textbf{Inklusi} berlaku: nilai batas rentang (contoh: 10 dan 20 pada \texttt{BETWEEN 10 AND 20}) akan masuk ke dalam set hasil.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan BETWEEN}, captionpos=b]
+SELECT * FROM customer_purchases
+WHERE purchases BETWEEN 1000 AND 2000;
+\end{lstlisting}
+
+\subsubsection{Operator LIKE}
+\begin{itemize}
+    \item Digunakan untuk memfilter data berdasarkan \textbf{pencocokan pola}.
+    \item \textbf{Wildcard}: \texttt{\%} (nol, satu, atau beberapa karakter) dan \texttt{\_} (satu karakter tunggal).
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan LIKE}, captionpos=b]
+SELECT * FROM customer_purchases
+WHERE location LIKE 'g__%'; -- Dimulai 'g' dan minimal 3 karakter
+\end{lstlisting}
+
+---
+
+\subsection{Alias dalam SQL}
+\begin{itemize}
+    \item \textbf{Alias} digunakan untuk memberikan \textbf{nama sementara} pada kolom dan tabel.
+    \item \textbf{Situasi Penggunaan}:
+          \begin{enumerate}
+              \item \texttt{Renaming}: Mengganti nama tabel atau kolom yang terlalu panjang/teknis.
+              \item \texttt{Concatenation}: Menggabungkan \texttt{output} dari beberapa kolom menjadi satu.
+              \item \texttt{Multiple Tables}: Mempermudah \texttt{query} saat berhadapan dengan banyak tabel (menggunakan notasi titik).
+          \end{enumerate}
+\end{itemize}
+
+\subsubsection{Sintaks Penggunaan Alias}
+\begin{lstlisting}[language=SQL, caption={Renaming Kolom dan Concatenation}, captionpos=b]
+SELECT original_column_name AS alias_name  
+FROM table_name;
+
+SELECT CONCAT(column1, ' ', column2) AS new_column_name
+FROM table_name;
+\end{lstlisting}
+\begin{lstlisting}[language=SQL, caption={Querying Multiple Tables dengan Alias}, captionpos=b]
+SELECT x.column1, y.column2
+FROM table1 AS x, table2 AS y
+WHERE x.condition = y.condition;
+\end{lstlisting}
+
+---
+
+\subsection{JOIN dalam MySQL}
+\begin{itemize}
+    \item \textbf{JOIN} menghubungkan catatan data antara satu atau beberapa tabel berdasarkan kolom yang umum di antara mereka.
+\end{itemize}
+
+\begin{enumerate}
+    \item \textbf{INNER JOIN}: Mengembalikan catatan data yang \textbf{memiliki nilai yang cocok} di kedua tabel yang digabungkan.
+    \item \textbf{LEFT JOIN}: Mengembalikan \textbf{semua catatan dari tabel kiri} dan catatan yang cocok dari tabel kanan. Jika tidak cocok, nilai \texttt{NULL} akan dimasukkan untuk kolom dari tabel kanan.
+    \item \textbf{RIGHT JOIN}: Mengembalikan \textbf{semua catatan dari tabel kanan} dan catatan yang cocok dari tabel kiri. Jika tidak cocok, nilai \texttt{NULL} akan dimasukkan untuk kolom dari tabel kiri.
+    \item \textbf{SELF JOIN}: Menggabungkan tabel dengan dirinya sendiri untuk mendapatkan informasi spesifik yang ada dalam tabel yang sama.
+\end{enumerate}
+
+\begin{lstlisting}[language=SQL, caption={Contoh INNER JOIN}, captionpos=b]
+SELECT Customers.FullName, Bookings.BookingID
+FROM Customers INNER JOIN Bookings 
+ON Customers.CustomerID = Bookings.CustomerID;
+\end{lstlisting}
+
+---
+
+\subsection{Operator UNION}
+\begin{itemize}
+    \item \textbf{UNION} digunakan untuk \textbf{menggabungkan hasil dari beberapa pernyataan SELECT} dalam satu \texttt{query}.
+\end{itemize}
+
+\subsubsection{Sintaks dan Praktik Terbaik}
+\begin{lstlisting}[language=SQL, caption={Sintaks Dasar UNION}, captionpos=b]
+SELECT column1, column2, ... FROM table1 WHERE condition  
+UNION  
+SELECT column1, column2, ... FROM table2 WHERE condition;
+\end{lstlisting}
+\begin{itemize}
+    \item \textbf{Syarat}: Setiap pernyataan \texttt{SELECT} harus memiliki \textbf{jumlah kolom yang sama}, \textbf{tipe data yang serupa}, dan \textbf{urutan yang sama}.
+    \item \textbf{Default}: Operator \texttt{UNION} hanya mengembalikan \textbf{nilai yang unik}.
+    \item \textbf{Duplikat}: Untuk mengembalikan semua nilai, termasuk yang duplikat, gunakan \texttt{UNION ALL}.
+\end{itemize}
+
+---
+
+\subsection{GROUP BY dan Fungsi Agregat}
+
+\subsubsection{GROUP BY Clause}
+\begin{itemize}
+    \item \textbf{GROUP BY} digunakan untuk \textbf{mengelompokkan baris} dalam tabel berdasarkan kolom tertentu menjadi baris ringkasan (\texttt{subgrup}).
+    \item Satu baris hasil mewakili beberapa baris yang dikelompokkan berdasarkan nilai yang sama.
+\end{itemize}
+
+\subsubsection{Fungsi Agregat (Aggregate Functions)}
+Fungsi ini sering digunakan dengan \texttt{GROUP BY} untuk melakukan perhitungan dan mengembalikan satu nilai untuk setiap \texttt{subgrup}:
+\begin{itemize}
+    \item \texttt{SUM()}: Menjumlahkan nilai kolom.
+    \item \texttt{AVG()}: Menghitung rata-rata nilai kolom.
+    \item \texttt{MAX()}: Mengembalikan nilai maksimum.
+    \item \texttt{MIN()}: Mengembalikan nilai minimum.
+    \item \texttt{COUNT()}: Menghitung jumlah kemunculan nilai.
+\end{itemize}
+
+\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan GROUP BY}, captionpos=b]
+SELECT Department, COUNT(OrderID) 
+FROM orders 
+GROUP BY Department;
+\end{lstlisting}
+
+---
+
+\subsection{HAVING Clause}
+\begin{itemize}
+    \item \textbf{HAVING clause} digunakan untuk menentukan \textbf{kondisi filter pada data yang telah dikelompokkan} oleh \texttt{GROUP BY clause}.
+    \item \textbf{Perbedaan WHERE vs. HAVING}:
+          \begin{itemize}
+              \item \texttt{WHERE} memfilter data \textbf{sebelum} pengelompokan.
+              \item \texttt{HAVING} memfilter data \textbf{setelah} pengelompokan (pada hasil agregasi).
+          \end{itemize}
+    \item Jika \texttt{HAVING} digunakan tanpa \texttt{GROUP BY}, fungsinya mirip dengan \texttt{WHERE}.
+\end{itemize}
+
+\begin{lstlisting}[language=SQL, caption={Contoh Penggunaan HAVING}, captionpos=b]
+SELECT Department, SUM(OrderTotal) AS TotalSales
+FROM Orders
+GROUP BY Department
+HAVING SUM(OrderTotal) > 2275; -- Hanya departemen dengan TotalSales > 2275
+\end{lstlisting}
+
+\newpage
+\section{Updating Databases and Working with Views}
+\subsection{Pengantar REPLACE Command}
+\begin{itemize}
+    \item \texttt{REPLACE command} digunakan untuk \textbf{menyisipkan atau memperbarui data} dalam tabel.
+    \item \textbf{Cara Kerja}: Memeriksa kunci primer atau unik. Jika ditemukan kunci duplikat, \texttt{record} yang ada akan \textbf{dihapus dan diganti} dengan yang baru. Jika tidak ada yang cocok, berfungsi seperti \texttt{INSERT}.
+    \item \textbf{Tujuan}: Mengganti \texttt{record} yang ada tanpa menghasilkan kesalahan duplikat (\texttt{duplicate entry}).
+\end{itemize}
+
+\subsubsection{Sintaks REPLACE Command}
+\begin{lstlisting}[language=SQL, caption={Sintaks REPLACE Command}, captionpos=b]
+REPLACE INTO table_name (column1, column2, ...)  
+VALUES (value1, value2, ...);
+
+REPLACE INTO table_name  
+SET column1 = value1, column2 = value2, ...;
+\end{lstlisting}
+
+---
+
+\subsection{Constraints (Batasan)}
+\begin{itemize}
+    \item \textbf{Constraints} digunakan untuk memastikan bahwa tabel hanya menerima \textbf{data yang valid}.
+\end{itemize}
+
+\subsubsection{Tipe-Tipe Constraints}
+\begin{enumerate}
+    \item \textbf{Key Constraints}: Menerapkan aturan pada jenis kunci (\textit{misalnya}, \texttt{PRIMARY KEY} harus unik dan \texttt{NOT NULL}).
+    \item \textbf{Domain Constraints}: Mengatur nilai yang dapat disimpan dalam kolom tertentu (\textit{misalnya}, menggunakan \texttt{CHECK} untuk membatasi jumlah tamu).
+    \item \textbf{Referential Integrity Constraints}: Aturan untuk kunci referensial (\texttt{FOREIGN KEY}), memastikan nilai di tabel referensi selalu ada di tabel yang direferensikan.
+\end{enumerate}
+
+\subsubsection{Opsi Cascade}
+Opsi ini digunakan untuk menjaga integritas data secara otomatis pada \texttt{FOREIGN KEY}:
+\begin{itemize}
+    \item \texttt{ON DELETE CASCADE}: Menghapus baris terkait di tabel referensi jika baris di tabel utama dihapus.
+    \item \texttt{ON UPDATE CASCADE}: Memperbarui baris terkait jika nilai \texttt{PRIMARY KEY} di tabel utama diperbarui.
+\end{itemize}
+
+---
+
+\subsection{ALTER Statement}
+\begin{itemize}
+    \item \texttt{ALTER statement} digunakan untuk \textbf{menambah, menghapus, dan memodifikasi kolom} serta \texttt{constraints} dalam tabel yang sudah ada.
+\end{itemize}
+
+\subsubsection{Perintah Umum dalam ALTER TABLE}
+\begin{lstlisting}[language=SQL, caption={Perintah ALTER TABLE}, captionpos=b]
+ALTER TABLE table_name MODIFY COLUMN column_name datatype; -- Memodifikasi kolom
+ALTER TABLE table_name ADD column_name datatype;       -- Menambah kolom baru
+ALTER TABLE table_name DROP COLUMN column_name;       -- Menghapus kolom
+ALTER TABLE table_name RENAME TO new_table_name;      -- Mengganti nama tabel
+ALTER TABLE table_name CHANGE from_column to_column datatype; -- Mengganti nama kolom/field
+\end{lstlisting}
+
+---
+
+\subsection{Menyalin Tabel}
+\begin{itemize}
+    \item \textbf{Menyalin Data dan Struktur (\texttt{CREATE TABLE ... AS SELECT})}: Menyalin data dan mendefinisikan struktur berdasarkan hasil \texttt{SELECT}.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Menyalin Tabel dengan Data}, captionpos=b]
+CREATE TABLE ClientsTest AS  
+SELECT * FROM clients;
+
+-- Menyalin tabel antar database
+CREATE TABLE testDB.ClientsTest AS  
+SELECT * FROM LuckyShrub.clients;
+\end{lstlisting}
+\begin{itemize}
+    \item \textbf{Menyalin Struktur (\texttt{CREATE TABLE ... LIKE})}: Menyalin hanya struktur dan semua \texttt{constraints} (kecuali \texttt{FOREIGN KEY}) dari tabel sumber. Data harus dimasukkan secara terpisah.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Menyalin Struktur Tabel dan Data}, captionpos=b]
+CREATE TABLE ClientsTest3 LIKE clients;
+INSERT INTO ClientTest3 AS SELECT * FROM clients;
+\end{lstlisting}
+
+---
+
+\subsection{Subquery}
+\begin{itemize}
+    \item \textbf{Subquery} adalah \texttt{query} yang berada \textbf{di dalam query lain} (\texttt{child query} di dalam \texttt{parent query}).
+    \item \textbf{Eksekusi}: Subquery dieksekusi terlebih dahulu, dan hasilnya digunakan oleh \texttt{query} luar.
+    \item \textbf{Bentuk Hasil}: Dapat mengembalikan \texttt{nilai tunggal}, satu baris, satu kolom, atau beberapa baris.
+    \item \textbf{Operator Perbandingan Kompleks}: Dapat digunakan dengan \texttt{multiple row subqueries}:
+          \begin{itemize}
+              \item \texttt{ANY/SOME}: Mengembalikan data jika nilai memenuhi kondisi \textbf{salah satu} nilai yang dikembalikan \texttt{subquery}.
+              \item \texttt{ALL}: Mengembalikan data jika nilai memenuhi kondisi \textbf{semua} nilai yang dikembalikan \texttt{subquery}.
+          \end{itemize}
+\end{itemize}
+
+\subsubsection{Tipe-Tipe Subquery Berdasarkan Lokasi}
+\begin{itemize}
+    \item \textbf{Dalam klausa \texttt{FROM}}: Hasil \texttt{subquery} digunakan sebagai \textbf{tabel sementara} (\texttt{derived table}).
+    \item \textbf{Dalam pernyataan \texttt{INSERT}}/\textbf{\texttt{UPDATE}}/\textbf{\texttt{DELETE}}: Digunakan dalam klausa \texttt{WHERE} atau sebagai sumber data (\texttt{INSERT}).
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Subquery dalam Klausa FROM}, captionpos=b]
+SELECT some_column, some_column 
+FROM (Subquery) AS alias;
+\end{lstlisting}
+
+\subsubsection{Operator EXISTS dan NOT EXISTS}
+\begin{itemize}
+    \item \texttt{EXISTS}: Menguji \textbf{keberadaan baris} dalam hasil yang dikembalikan oleh \texttt{subquery}. Mengembalikan \texttt{true} jika \texttt{subquery} menghasilkan \textbf{satu atau lebih} \texttt{record}.
+    \item \texttt{NOT EXISTS}: Menguji \textbf{ketidakadaan hasil}. Mengembalikan \texttt{true} jika \texttt{subquery} \textbf{tidak mengembalikan} baris hasil.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh EXISTS}, captionpos=b]
+SELECT employee_id, employee_name
+FROM employees
+WHERE EXISTS (
+    SELECT *
+    FROM departments
+    WHERE departments.department_id = employees.department_id
+);
+\end{lstlisting}
+
+---
+
+\subsection{Views (Tampilan)}
+\begin{itemize}
+    \item \textbf{Views} adalah \textbf{tabel virtual} yang dibuat dari satu atau beberapa tabel yang ada, tetapi \textbf{tidak menyimpan data sendiri}.
+    \item \textbf{Fungsi}: Menyediakan akses data yang lebih sederhana, menyembunyikan data yang tidak ingin ditampilkan, menyederhanakan \texttt{query} kompleks, dan mengamankan data (\texttt{subset} data).
+    \item \textbf{Sifat}: View dan tabel sumber terhubung. Operasi \texttt{UPDATE} pada \texttt{view} akan mengubah data pada tabel sumber.
+\end{itemize}
+
+\subsubsection{Sintaks untuk Mengelola Views}
+\begin{lstlisting}[language=SQL, caption={Membuat dan Mengubah Views}, captionpos=b]
+CREATE VIEW view_name AS
+    SELECT column1, column2
+    FROM table_name
+    WHERE condition;
+
+ALTER VIEW nama_view AS
+SELECT kolom1, kolom2
+FROM tabel_asli
+WHERE ...
+
+RENAME TABLE old_view_name TO new_view_name;
+DROP VIEW view_name;
+\end{lstlisting}
+
+\newpage
+\section{Functions and MySQL Stored Procedures}
+\subsection{Pengantar Fungsi MySQL}
+\begin{itemize}
+    \item \textbf{Fungsi (\texttt{Function})} adalah potongan kode yang melakukan operasi dan \textbf{mengembalikan hasil}.
+    \item Fungsi dapat menerima \texttt{parameter} atau \texttt{argumen} dan berguna untuk memanipulasi data.
+    \item \textbf{Kategori Fungsi}: \texttt{Numeric}, \texttt{String}, \texttt{Date}, \texttt{Comparison}, dan \texttt{Control Flow}.
+\end{itemize}
+
+\begin{table}[!ht]
+    \caption{Kategori dan Contoh Fungsi MySQL}
+    \centering
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Kategori} & \textbf{Contoh Fungsi}                                                                      \\
+        \hline
+        Numeric Aggregate & \texttt{SUM()}, \texttt{AVG()}, \texttt{MAX()}, \texttt{MIN()}, \texttt{COUNT()}            \\
+        \hline
+        Numeric Math      & \texttt{ROUND()}, \texttt{MOD()}, \texttt{CEIL()}, \texttt{FLOOR()}                         \\
+        \hline
+        String            & \texttt{CONCAT()}, \texttt{SUBSTR()}, \texttt{UPPER()}, \texttt{LOWER()}, \texttt{LENGTH()} \\
+        \hline
+        Date              & \texttt{CURRENT\_DATE()}, \texttt{DATE\_FORMAT()}, \texttt{DATEDIFF()}, \texttt{ADDDATE()}  \\
+        \hline
+        Comparison        & \texttt{GREATEST()}, \texttt{LEAST()}, \texttt{ISNULL()}, \texttt{COALESCE()}               \\
+        \hline
+        Control Flow      & \texttt{CASE}, \texttt{NULLIF()}, \texttt{IFNULL()}                                         \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Fungsi Numeric}
+
+\subsubsection{Math Functions}
+\begin{itemize}
+    \item \texttt{ROUND(angka, tempat\_desimal)}: Membulatkan angka ke tempat desimal tertentu.
+    \item \texttt{MOD(angka, pembagi)}: Mengembalikan \textbf{sisa} dari pembagian.
+    \item \texttt{CEIL(angka)}: Membulatkan \textbf{ke atas} ke integer terkecil yang tidak kurang dari nilai yang diberikan. (\textit{Contoh}: \texttt{CEIL(3.1)} menghasilkan 4).
+    \item \texttt{FLOOR(angka)}: Membulatkan \textbf{ke bawah} ke integer terbesar yang tidak lebih dari nilai yang diberikan.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh ROUND dan MOD}, captionpos=b]
+SELECT ROUND(column_name, decimal_places) FROM table_name;
+SELECT MOD(column_name, divisor) FROM table_name;
+\end{lstlisting}
+
+\subsection{Fungsi String}
+Fungsi yang digunakan untuk memanipulasi nilai \texttt{string}:
+\begin{itemize}
+    \item \texttt{CONCAT(s1, s2, ...)}: Menggabungkan beberapa string.
+    \item \texttt{SUBSTRING(kolom, mulai, panjang)}: Mengekstrak segmen dari string (\texttt{start\_index} mulai dari 1).
+    \item \texttt{UPPER(kolom)}/\texttt{LOWER(kolom)}: Mengubah string menjadi huruf kapital/kecil.
+    \item \texttt{FORMAT(angka, desimal)}: Memformat angka ke dalam format tertentu.
+    \item \texttt{CHARINDEX(' ', FullName)}/\texttt{INSTR(kolom, " ")}: Mengembalikan posisi karakter/kata.
+    \item \texttt{LENGTH(kolom)}: Mengembalikan panjang string.
+    \item \texttt{SUBSTRING\_INDEX(kolom, pemisah, hitungan)}: Memisahkan kata-kata berdasarkan pemisah.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh SUBSTRING dan SUBSTRING\_INDEX}, captionpos=b]
+SELECT SUBSTRING(column_name, 1, 5) FROM table_name;
+
+-- Mengambil kata pertama (sebelum pemisah pertama)
+SELECT SUBSTRING_INDEX(FullName, ' ', 1) AS FirstName  
+FROM Customers;
+\end{lstlisting}
+
+\subsection{Fungsi Date}
+Fungsi untuk mengekstrak dan memformat nilai waktu dan tanggal.
+\begin{itemize}
+    \item \texttt{CURRENT\_DATE()}: Mengembalikan tanggal saat ini (\texttt{YYYY-MM-DD}).
+    \item \texttt{CURRENT\_TIME()}: Mengembalikan waktu saat ini (\texttt{HH:MM:SS}).
+    \item \texttt{DATEDIFF(tanggal1, tanggal2)}: Mengidentifikasi jumlah hari antara dua tanggal.
+    \item \texttt{ADDDATE(tanggal, INTERVAL X UNIT)}: Menambahkan jumlah hari, bulan, atau tahun.
+    \item \texttt{QUARTER(tanggal)}: Mengembalikan kuartal tahun (1-4).
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh DATE\_FORMAT dan ADDDATE}, captionpos=b]
+-- Mengubah format tanggal
+SELECT DATE_FORMAT('2023-01-01', '%D %W %M %Y');
+
+-- Menambahkan 30 hari
+SELECT ADDDATE('2022-01-01', INTERVAL 30 DAY) AS newDate;
+\end{lstlisting}
+
+\subsection{Fungsi Comparison (Perbandingan)}
+Fungsi yang memungkinkan perbandingan nilai:
+\begin{itemize}
+    \item \texttt{GREATEST(v1, v2, ...)}: Menemukan nilai tertinggi.
+    \item \texttt{LEAST(v1, v2, ...)}: Menentukan nilai terendah.
+    \item \texttt{ISNULL(kolom)}: Menguji apakah suatu nilai adalah \texttt{NULL}.
+    \item \texttt{COALESCE(v1, v2, ...)}: Mengembalikan \textbf{nilai pertama yang tidak NULL} dari daftar argumen.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh COALESCE}, captionpos=b]
+SELECT COALESCE(column_name, 'Default Value') AS result FROM your_table;
+\end{lstlisting}
+
+\subsection{Control Flow Functions}
+Fungsi yang memungkinkan evaluasi kondisi, mirip dengan logika \texttt{if-then-else}.
+
+\subsubsection{CASE Function}
+Berfungsi mirip dengan pernyataan \texttt{if-then-else}:
+\begin{lstlisting}[language=SQL, caption={Sintaks CASE Function}, captionpos=b]
+SELECT column_name,
+    CASE
+        WHEN condition1 THEN result1
+        WHEN condition2 THEN result2
+        ELSE result
+    END AS alias_name
+FROM table_name;
+\end{lstlisting}
+
+\subsubsection{NULLIF dan IFNULL}
+\begin{itemize}
+    \item \texttt{NULLIF(e1, e2)}: Mengembalikan \texttt{NULL} jika \texttt{e1} sama dengan \texttt{e2}; jika tidak, mengembalikan \texttt{e1}.
+    \item \texttt{IFNULL(e1, e2)}: Mengembalikan \texttt{e1} jika tidak \texttt{NULL}; jika \texttt{e1} adalah \texttt{NULL}, mengembalikan \texttt{e2}.
+\end{itemize}
+\begin{lstlisting}[language=SQL, caption={Contoh NULLIF untuk Menghindari Pembagian Nol}, captionpos=b]
+SELECT amount / NULLIF(quantity, 0) AS result FROM sales;
+\end{lstlisting}
+
+---
+
+\subsection{Stored Procedures}
+\begin{itemize}
+    \item \textbf{Stored Procedure}: Blok kode yang dapat \textbf{disimpan dalam database dan dipanggil} menggunakan perintah \texttt{CALL}.
+    \item \textbf{Manfaat}: Kode menjadi lebih konsisten, dapat digunakan kembali, dan mempermudah pemeliharaan.
+\end{itemize}
+
+\subsubsection{Mode Parameter}
+Parameter dapat menerima 3 jenis argumen:
+\begin{enumerate}
+    \item \textbf{IN} (Default): Mengirimkan nilai ke prosedur. Hanya dapat dibaca.
+    \item \textbf{OUT}: Mengembalikan nilai dari prosedur ke pemanggil.
+    \item \textbf{INOUT}: Mengirimkan nilai ke prosedur dan mengembalikan nilai yang telah diubah.
+\end{enumerate}
+
+\subsubsection{Sintaks dan Pengelolaan}
+\begin{lstlisting}[language=SQL, caption={Membuat Stored Procedure Dasar}, captionpos=b]
+CREATE PROCEDURE GetProductsDetails()
+    BEGIN
+        SELECT * FROM products;
+    END;
+
+CALL GetProductsDetails();
+DROP PROCEDURE GetProductsDetails;
+\end{lstlisting}
+\begin{lstlisting}[language=SQL, caption={Stored Procedure dengan Parameter IN dan OUT}, captionpos=b]
+-- Parameter IN
+CREATE PROCEDURE GetLowestPricedProducts(IN lowest_price INT)
+    BEGIN
+        SELECT * FROM products WHERE price <= lowest_price;
+    END;
+
+-- Parameter OUT
+CREATE PROCEDURE GetProductCount(OUT total_count INT) 
+	BEGIN  
+		SELECT COUNT(*) INTO total_count FROM products;
+	END;
+\end{lstlisting}
+
+\end{document}
