@@ -1,0 +1,81 @@
+\contentsline {section}{\numberline {1}Acquiring Customers and Forecasting Demand}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}KEY QUESTION}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Pengertian Two-Sided Markets}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Contoh Cross-Side Network Effects}{1}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Memahami Tangan Likuiditas}{1}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Strategi untuk Mengatasi Tangan Likuiditas}{2}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Proses Diffusi dan Adopsi}{2}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Parameter Kunci dalam Adopsi}{3}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Kategorisasi Adopter oleh Everett Rogers}{3}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Faktor yang Mempengaruhi Kecepatan Diffusi}{3}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Kesimpulan terkait Difusi dan Adopsi}{3}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}Tujuan dan Pentingnya Forecasting}{4}{subsection.1.11}%
+\contentsline {subsection}{\numberline {1.12}Model ACCORD oleh Prof. Everett Rogers}{4}{subsection.1.12}%
+\contentsline {subsection}{\numberline {1.13}Contoh Penerapan Model ACCORD}{4}{subsection.1.13}%
+\contentsline {subsection}{\numberline {1.14}Berbicara dengan Para Ahli}{5}{subsection.1.14}%
+\contentsline {subsection}{\numberline {1.15}Forecasting Demand}{5}{subsection.1.15}%
+\contentsline {subsection}{\numberline {1.16}Analogi dan Ide Lain}{5}{subsection.1.16}%
+\contentsline {subsection}{\numberline {1.17}Sumber Tambahan terkait Bacaan}{5}{subsection.1.17}%
+\contentsline {subsection}{\numberline {1.18}Contoh Penerapan Demand Decomposition untuk Car-Sharing di Philadelphia}{5}{subsection.1.18}%
+\contentsline {subsection}{\numberline {1.19}Contoh Penerapan Demand Decomposition untuk Toothbrush di India}{6}{subsection.1.19}%
+\contentsline {subsection}{\numberline {1.20}Peningkatan Permintaan}{6}{subsection.1.20}%
+\contentsline {subsection}{\numberline {1.21}Kesimpulan Terkait Forecasting}{6}{subsection.1.21}%
+\contentsline {section}{\numberline {2}Marketing and PR}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Strategi Digital Marketing}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Owned Media}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Paid Media}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Earned Media}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Pentingnya Social Media untuk Pemasar}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Contoh Sukses dalam Pemasaran Social Media}{7}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Pengaruh Social Cues dalam Pemasaran}{7}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Strategi Pemasaran Social Media}{7}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Tantangan dalam Pemasaran Social Media}{8}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}mengintegrasikan Social Media dalam Customer Journey}{8}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Fungsi Utama Mesin Pencari}{8}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Strategi Penting untuk SEO}{8}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Peran Blog dalam SEO}{8}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}Tujuan Kampanye Iklan Online}{9}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}Opsi dalam Digital Advertising}{9}{subsection.2.15}%
+\contentsline {subsection}{\numberline {2.16}Pro dan Kontra dari Setiap Opsi Digital Ad}{9}{subsection.2.16}%
+\contentsline {subsection}{\numberline {2.17}Langkah-langkah dalam Search Engine Marketing}{9}{subsection.2.17}%
+\contentsline {subsection}{\numberline {2.18}Metrik untuk Mengukur Kinerja}{10}{subsection.2.18}%
+\contentsline {subsection}{\numberline {2.19}Kesimpulan terkait Digital Advertising}{10}{subsection.2.19}%
+\contentsline {subsection}{\numberline {2.20}Pengantar PR}{10}{subsection.2.20}%
+\contentsline {subsection}{\numberline {2.21}Keuntungan PR}{10}{subsection.2.21}%
+\contentsline {subsection}{\numberline {2.22}Tantangan PR}{10}{subsection.2.22}%
+\contentsline {subsection}{\numberline {2.23}Strategi PR}{11}{subsection.2.23}%
+\contentsline {subsection}{\numberline {2.24}Praktik Terbaik terkait PR}{11}{subsection.2.24}%
+\contentsline {section}{\numberline {3}Cost Structures, Pricing, and Tracking}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dasar Target Costing}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Contoh Produk: Belle-V Bottle Opener}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Perhitungan Gross Margin dan Markup}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Faktor yang Mempengaruhi Margin Retailer}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Komponen Biaya Barang (Cost of Goods)}{12}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Scrap dan Shrinkage}{13}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Pentingnya Penetapan Harga}{13}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Empat Input Kunci dalam Keputusan Harga}{13}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Apa itu Elastisitas?}{14}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Definisi Price Elasticiy}{14}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Mengapa Menggunakan Persentase?}{14}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}Elastic dan Inelastic}{15}{subsection.3.12}%
+\contentsline {subsection}{\numberline {3.13}Break-even Profit Elasticity}{15}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.14}Contoh Kasus Analisa Elastisitas}{15}{subsection.3.14}%
+\contentsline {subsection}{\numberline {3.15}Kesimpulan terkait Elastisitas}{15}{subsection.3.15}%
+\contentsline {subsection}{\numberline {3.16}Definisi dan Konteks Price Elasticity}{15}{subsection.3.16}%
+\contentsline {subsection}{\numberline {3.17}Jenis Price Elasticity}{16}{subsection.3.17}%
+\contentsline {subsection}{\numberline {3.18}Faktor yang Mempengaruhi Price Elasticity:}{16}{subsection.3.18}%
+\contentsline {subsection}{\numberline {3.19}Faktor yang Mempengaruhi Respons Konsumen}{16}{subsection.3.19}%
+\contentsline {subsection}{\numberline {3.20}Metode Pengukuran Price Elasticity}{16}{subsection.3.20}%
+\contentsline {subsection}{\numberline {3.21}Pendekatan Pengukuran}{16}{subsection.3.21}%
+\contentsline {subsection}{\numberline {3.22}Keterbatasan Metode}{17}{subsection.3.22}%
+\contentsline {subsection}{\numberline {3.23}Pengantar Data Historis dan Price Elasticity}{17}{subsection.3.23}%
+\contentsline {subsection}{\numberline {3.24}Analisis Regresi dan Koefisien Harga}{17}{subsection.3.24}%
+\contentsline {subsection}{\numberline {3.25}Menghitung Elasticity}{17}{subsection.3.25}%
+\contentsline {subsection}{\numberline {3.26}Implikasi untuk Keputusan Bisnis}{17}{subsection.3.26}%
+\contentsline {subsection}{\numberline {3.27}Metode Pengukuran Price Elasticity}{18}{subsection.3.27}%
+\contentsline {subsection}{\numberline {3.28}Penndahuluan Maximum Willingness to Pay (WTP)}{18}{subsection.3.28}%
+\contentsline {subsection}{\numberline {3.29}Pendekatan untuk Mengestimasi Maximum Willingness to Pay}{18}{subsection.3.29}%
+\contentsline {subsection}{\numberline {3.30}Menghitung Economic Value to the Customer}{18}{subsection.3.30}%
+\contentsline {subsection}{\numberline {3.31}Variabel yang Mempengaruhi Willingness to Pay}{18}{subsection.3.31}%
+\contentsline {subsection}{\numberline {3.32}Customer Lifetime Value (CLV)}{18}{subsection.3.32}%
+\contentsline {subsection}{\numberline {3.33}Kesimpulan terkait WTP}{19}{subsection.3.33}%
