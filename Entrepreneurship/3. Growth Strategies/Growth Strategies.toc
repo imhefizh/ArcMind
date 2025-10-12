@@ -20,62 +20,101 @@
 \contentsline {subsection}{\numberline {1.19}Contoh Penerapan Demand Decomposition untuk Toothbrush di India}{6}{subsection.1.19}%
 \contentsline {subsection}{\numberline {1.20}Peningkatan Permintaan}{6}{subsection.1.20}%
 \contentsline {subsection}{\numberline {1.21}Kesimpulan Terkait Forecasting}{6}{subsection.1.21}%
-\contentsline {section}{\numberline {2}Marketing and PR}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Strategi Digital Marketing}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Owned Media}{6}{subsection.2.2}%
+\contentsline {section}{\numberline {2}Marketing and PR}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Strategi Digital Marketing}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Owned Media}{7}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Paid Media}{7}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Earned Media}{7}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Pentingnya Social Media untuk Pemasar}{7}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Contoh Sukses dalam Pemasaran Social Media}{7}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Pengaruh Social Cues dalam Pemasaran}{7}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Strategi Pemasaran Social Media}{7}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.6}Contoh Sukses dalam Pemasaran Social Media}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Pengaruh Social Cues dalam Pemasaran}{8}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Strategi Pemasaran Social Media}{8}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}Tantangan dalam Pemasaran Social Media}{8}{subsection.2.9}%
 \contentsline {subsection}{\numberline {2.10}mengintegrasikan Social Media dalam Customer Journey}{8}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Fungsi Utama Mesin Pencari}{8}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}Strategi Penting untuk SEO}{8}{subsection.2.12}%
-\contentsline {subsection}{\numberline {2.13}Peran Blog dalam SEO}{8}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.11}Fungsi Utama Mesin Pencari}{9}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Strategi Penting untuk SEO}{9}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Peran Blog dalam SEO}{9}{subsection.2.13}%
 \contentsline {subsection}{\numberline {2.14}Tujuan Kampanye Iklan Online}{9}{subsection.2.14}%
 \contentsline {subsection}{\numberline {2.15}Opsi dalam Digital Advertising}{9}{subsection.2.15}%
-\contentsline {subsection}{\numberline {2.16}Pro dan Kontra dari Setiap Opsi Digital Ad}{9}{subsection.2.16}%
-\contentsline {subsection}{\numberline {2.17}Langkah-langkah dalam Search Engine Marketing}{9}{subsection.2.17}%
+\contentsline {subsection}{\numberline {2.16}Pro dan Kontra dari Setiap Opsi Digital Ad}{10}{subsection.2.16}%
+\contentsline {subsection}{\numberline {2.17}Langkah-langkah dalam Search Engine Marketing}{10}{subsection.2.17}%
 \contentsline {subsection}{\numberline {2.18}Metrik untuk Mengukur Kinerja}{10}{subsection.2.18}%
 \contentsline {subsection}{\numberline {2.19}Kesimpulan terkait Digital Advertising}{10}{subsection.2.19}%
-\contentsline {subsection}{\numberline {2.20}Pengantar PR}{10}{subsection.2.20}%
-\contentsline {subsection}{\numberline {2.21}Keuntungan PR}{10}{subsection.2.21}%
-\contentsline {subsection}{\numberline {2.22}Tantangan PR}{10}{subsection.2.22}%
+\contentsline {subsection}{\numberline {2.20}Pengantar PR}{11}{subsection.2.20}%
+\contentsline {subsection}{\numberline {2.21}Keuntungan PR}{11}{subsection.2.21}%
+\contentsline {subsection}{\numberline {2.22}Tantangan PR}{11}{subsection.2.22}%
 \contentsline {subsection}{\numberline {2.23}Strategi PR}{11}{subsection.2.23}%
 \contentsline {subsection}{\numberline {2.24}Praktik Terbaik terkait PR}{11}{subsection.2.24}%
-\contentsline {section}{\numberline {3}Cost Structures, Pricing, and Tracking}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Dasar Target Costing}{11}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Contoh Produk: Belle-V Bottle Opener}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Perhitungan Gross Margin dan Markup}{11}{subsection.3.3}%
+\contentsline {section}{\numberline {3}Cost Structures, Pricing, and Tracking}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dasar Target Costing}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Contoh Produk: Belle-V Bottle Opener}{12}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Perhitungan Gross Margin dan Markup}{12}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Faktor yang Mempengaruhi Margin Retailer}{12}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Komponen Biaya Barang (Cost of Goods)}{12}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Scrap dan Shrinkage}{13}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Pentingnya Penetapan Harga}{13}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Empat Input Kunci dalam Keputusan Harga}{13}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.7}Pentingnya Penetapan Harga}{14}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Empat Input Kunci dalam Keputusan Harga}{14}{subsection.3.8}%
 \contentsline {subsection}{\numberline {3.9}Apa itu Elastisitas?}{14}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}Definisi Price Elasticiy}{14}{subsection.3.10}%
-\contentsline {subsection}{\numberline {3.11}Mengapa Menggunakan Persentase?}{14}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.10}Definisi Price Elasticiy}{15}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Mengapa Menggunakan Persentase?}{15}{subsection.3.11}%
 \contentsline {subsection}{\numberline {3.12}Elastic dan Inelastic}{15}{subsection.3.12}%
 \contentsline {subsection}{\numberline {3.13}Break-even Profit Elasticity}{15}{subsection.3.13}%
-\contentsline {subsection}{\numberline {3.14}Contoh Kasus Analisa Elastisitas}{15}{subsection.3.14}%
-\contentsline {subsection}{\numberline {3.15}Kesimpulan terkait Elastisitas}{15}{subsection.3.15}%
-\contentsline {subsection}{\numberline {3.16}Definisi dan Konteks Price Elasticity}{15}{subsection.3.16}%
+\contentsline {subsection}{\numberline {3.14}Contoh Kasus Analisa Elastisitas}{16}{subsection.3.14}%
+\contentsline {subsection}{\numberline {3.15}Kesimpulan terkait Elastisitas}{16}{subsection.3.15}%
+\contentsline {subsection}{\numberline {3.16}Definisi dan Konteks Price Elasticity}{16}{subsection.3.16}%
 \contentsline {subsection}{\numberline {3.17}Jenis Price Elasticity}{16}{subsection.3.17}%
 \contentsline {subsection}{\numberline {3.18}Faktor yang Mempengaruhi Price Elasticity:}{16}{subsection.3.18}%
-\contentsline {subsection}{\numberline {3.19}Faktor yang Mempengaruhi Respons Konsumen}{16}{subsection.3.19}%
-\contentsline {subsection}{\numberline {3.20}Metode Pengukuran Price Elasticity}{16}{subsection.3.20}%
-\contentsline {subsection}{\numberline {3.21}Pendekatan Pengukuran}{16}{subsection.3.21}%
+\contentsline {subsection}{\numberline {3.19}Faktor yang Mempengaruhi Respons Konsumen}{17}{subsection.3.19}%
+\contentsline {subsection}{\numberline {3.20}Metode Pengukuran Price Elasticity}{17}{subsection.3.20}%
+\contentsline {subsection}{\numberline {3.21}Pendekatan Pengukuran}{17}{subsection.3.21}%
 \contentsline {subsection}{\numberline {3.22}Keterbatasan Metode}{17}{subsection.3.22}%
 \contentsline {subsection}{\numberline {3.23}Pengantar Data Historis dan Price Elasticity}{17}{subsection.3.23}%
-\contentsline {subsection}{\numberline {3.24}Analisis Regresi dan Koefisien Harga}{17}{subsection.3.24}%
-\contentsline {subsection}{\numberline {3.25}Menghitung Elasticity}{17}{subsection.3.25}%
-\contentsline {subsection}{\numberline {3.26}Implikasi untuk Keputusan Bisnis}{17}{subsection.3.26}%
+\contentsline {subsection}{\numberline {3.24}Analisis Regresi dan Koefisien Harga}{18}{subsection.3.24}%
+\contentsline {subsection}{\numberline {3.25}Menghitung Elasticity}{18}{subsection.3.25}%
+\contentsline {subsection}{\numberline {3.26}Implikasi untuk Keputusan Bisnis}{18}{subsection.3.26}%
 \contentsline {subsection}{\numberline {3.27}Metode Pengukuran Price Elasticity}{18}{subsection.3.27}%
-\contentsline {subsection}{\numberline {3.28}Penndahuluan Maximum Willingness to Pay (WTP)}{18}{subsection.3.28}%
-\contentsline {subsection}{\numberline {3.29}Pendekatan untuk Mengestimasi Maximum Willingness to Pay}{18}{subsection.3.29}%
-\contentsline {subsection}{\numberline {3.30}Menghitung Economic Value to the Customer}{18}{subsection.3.30}%
-\contentsline {subsection}{\numberline {3.31}Variabel yang Mempengaruhi Willingness to Pay}{18}{subsection.3.31}%
-\contentsline {subsection}{\numberline {3.32}Customer Lifetime Value (CLV)}{18}{subsection.3.32}%
+\contentsline {subsection}{\numberline {3.28}Penndahuluan Maximum Willingness to Pay (MWTP)}{18}{subsection.3.28}%
+\contentsline {subsection}{\numberline {3.29}Pendekatan untuk Mengestimasi Maximum Willingness to Pay}{19}{subsection.3.29}%
+\contentsline {subsection}{\numberline {3.30}Menghitung Economic Value to the Customer}{19}{subsection.3.30}%
+\contentsline {subsection}{\numberline {3.31}Variabel yang Mempengaruhi Willingness to Pay}{19}{subsection.3.31}%
+\contentsline {subsection}{\numberline {3.32}Customer Lifetime Value (CLV)}{19}{subsection.3.32}%
 \contentsline {subsection}{\numberline {3.33}Kesimpulan terkait WTP}{19}{subsection.3.33}%
+\contentsline {subsection}{\numberline {3.34}Metode Van Westendorp}{20}{subsection.3.34}%
+\contentsline {subsection}{\numberline {3.35}Pertanyaan Kunci pada Metode Van W.}{20}{subsection.3.35}%
+\contentsline {subsection}{\numberline {3.36}Analisis Data dalam Metode Van W.}{20}{subsection.3.36}%
+\contentsline {subsection}{\numberline {3.37}Pengantar Conjoint Analysis}{20}{subsection.3.37}%
+\contentsline {subsection}{\numberline {3.38}Langkah-langkah dalam Conjoint Analysis}{21}{subsection.3.38}%
+\contentsline {subsection}{\numberline {3.39}Pengumpulan Data dalam Conjoint Analysis}{21}{subsection.3.39}%
+\contentsline {subsection}{\numberline {3.40}Analisis Data dalam Conjoint Analysis}{22}{subsection.3.40}%
+\contentsline {subsection}{\numberline {3.41}Menghitung Maximum WTP}{22}{subsection.3.41}%
+\contentsline {subsection}{\numberline {3.42}Pengantar tentang KPIs (Key Performance Indicator)}{22}{subsection.3.42}%
+\contentsline {subsection}{\numberline {3.43}Contoh Kasus KPI: Bandar Foods}{22}{subsection.3.43}%
+\contentsline {subsection}{\numberline {3.44}Contoh Kasus KPI: Gridium}{23}{subsection.3.44}%
+\contentsline {subsection}{\numberline {3.45}Metode Pelaporan Lain}{23}{subsection.3.45}%
+\contentsline {subsection}{\numberline {3.46}Kesimpulan terkait KPI}{23}{subsection.3.46}%
+\contentsline {subsection}{\numberline {3.47}Sales Partnerships}{23}{subsection.3.47}%
+\contentsline {subsection}{\numberline {3.48}Contoh Kerjasama Sales Partnerships}{24}{subsection.3.48}%
+\contentsline {subsection}{\numberline {3.49}Keuntungan Sales Partnerships}{24}{subsection.3.49}%
+\contentsline {subsection}{\numberline {3.50}Keputusan Make or Buy}{24}{subsection.3.50}%
+\contentsline {subsection}{\numberline {3.51}Alasan untuk Membeli dari Pihak Ketiga}{25}{subsection.3.51}%
+\contentsline {subsection}{\numberline {3.52}Faktor yang Meningkatkan Biaya Transaksi}{25}{subsection.3.52}%
+\contentsline {subsection}{\numberline {3.53}Faktor yang Menurunkan Biaya Transaksi}{25}{subsection.3.53}%
+\contentsline {subsection}{\numberline {3.54}Manfaat dari Keputusan Make }{25}{subsection.3.54}%
+\contentsline {section}{\numberline {4}Creating and Scaling Company Culture}{26}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Pentingnya Hiring dalam Startup}{26}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Teknik Interview yang Efektif}{26}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Checklist dan Scorecard}{26}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Proses Interview}{27}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Feedback dan Performance Review}{27}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Pentingnya Budaya Perusahaan}{27}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Tiga Menu Utama dalam Budaya Perusahaan}{27}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Lima Model Stabil dalam Budaya Perusahaan}{28}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Kesimpulan terkait Budaya Perusahaan}{29}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Pertumbuhan Startup}{29}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Keuntungan dari Pertumbuhan}{29}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Model Pertumbuhan Churchill dan Lewis}{29}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Vertical Expansion}{29}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}Horizontal Expansion}{29}{subsection.4.14}%
+\contentsline {subsection}{\numberline {4.15}Pertimbangan dalam Ekspansi}{30}{subsection.4.15}%
+\contentsline {subsection}{\numberline {4.16}Pengujian Ekspansi Horizontal}{30}{subsection.4.16}%
+\contentsline {subsection}{\numberline {4.17}Kesimpulan terkait Ekspansi}{30}{subsection.4.17}%

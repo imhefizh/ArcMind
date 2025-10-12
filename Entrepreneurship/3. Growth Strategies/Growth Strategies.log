@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.8)  11 OCT 2025 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.8)  12 OCT 2025 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -337,8 +337,15 @@ Package hyperref Info: Link coloring OFF on input line 47.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 ...e {2.20}Pengantar PR}{10}{subsection.2.20}
-                                                  % [2])
+l.43 ...e {2.20}Pengantar PR}{11}{subsection.2.20}
+                                                  % [2]
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 ...am Conjoint Analysis}{22}{subsection.3.40}
+                                                  % [3])
 \tf@toc=\write4
 \openout4 = `"Growth Strategies.toc"'.
 
@@ -349,7 +356,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.56 \newpage
-              [3]
+              [4]
 
 [1]
 
@@ -387,26 +394,48 @@ l.56 \newpage
 
 [18]
 
-[19] (Growth Strategies.aux)
+[19]
+
+[20]
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+
+[25]
+
+[26]
+
+[27]
+
+[28]
+
+[29]
+
+[30] (Growth Strategies.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `"Growth Strategies".out' has not changed.
-(rerunfilecheck)             Checksum: F092416541BA2CAD407E2E31CE7D42A5;17969.
+(rerunfilecheck)             Checksum: BDEBAF818FFF57D8551BDDAC44BA8B9D;26438.
  ) 
 Here is how much of TeX's memory you used:
- 11461 strings out of 468130
- 172774 string characters out of 5440676
- 603175 words of memory out of 5000000
- 39837 multiletter control sequences out of 15000+600000
+ 11557 strings out of 468130
+ 174135 string characters out of 5440676
+ 604179 words of memory out of 5000000
+ 39877 multiletter control sequences out of 15000+600000
  632856 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,603b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,603b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Administrator\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Growth Strategies.pdf" (22 pages, 225581 bytes).
+Output written on "Growth Strategies.pdf" (34 pages, 279303 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
- 649 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 853 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 961 words of extra memory for PDF output out of 10000 (max. 10000000)
 

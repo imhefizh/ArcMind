@@ -1,0 +1,159 @@
+% section | subsection | subsubsection | paragraph | subparagraph | verbatim | enumerate | item
+
+% Just let it be an Article bro
+\documentclass{article}
+
+% Cover Metadata
+\title{Financing and Profitability}
+\date{12 Oktober 2025}
+\author{Maulana Hafidz Ismail}
+
+% Equation Setup
+\usepackage{amsmath}
+
+% Image Setup
+\usepackage{graphicx}
+\usepackage{float}
+
+% Link Setup
+\usepackage{hyperref}
+
+% Highlighting Setup
+\usepackage{soul}
+\usepackage{xcolor}
+\sethlcolor{red!30}
+\newcommand{\hlblue}[1]{\sethlcolor{cyan!30}\hl{#1}\sethlcolor{yellow}}
+
+% Line Width
+\sloppy
+\setlength{\emergencystretch}{3em}
+\hbadness=99999
+
+% Code Syntax Setup
+\usepackage{listings}
+\usepackage{xcolor} % untuk warna
+\lstset{
+basicstyle=\ttfamily\small,
+frame=single,
+breaklines=true,
+backgroundcolor=\color{gray!10},
+keywordstyle=\color{blue},
+commentstyle=\color{gray},
+stringstyle=\color{red},
+tabsize=2,
+captionpos=b
+}
+
+% Start of the Article
+\begin{document}
+
+% Cover Page
+\pagenumbering{gobble}
+\maketitle
+\newpage
+
+% Table of Content Page
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% Main Content
+\section{Business Models and Keeping Customers}
+
+\subsection{KEY QUESTIONS}
+\begin{itemize}
+    \item What is a sustainable business model?
+    \item How much capital do I need?
+    \item How can I estimate when I'm going to run out of cash  or when I will reach positive cash flow?
+    \item What are the available sources of capital?
+    \item What financial analyses do I need for fund raising?
+    \item What other information do investors typically require?
+    \item When I succeed, how can I extract the financial value from my business?
+\end{itemize}
+
+\subsection{Business Models sebagai Narasi}
+\begin{itemize}
+    \item Business model berfungsi sebagai cerita yang menjelaskan bagaimana bisnis Anda dapat berhasil. Ini menggabungkan angka dan narasi untuk menunjukkan potensi kesuksesan.
+    \item Contoh: WebVan memiliki narasi yang masuk akal untuk pengiriman bahan makanan, tetapi gagal karena biaya yang tinggi. Sebaliknya, Priceline memiliki narasi yang kurang masuk akal tetapi juga mengalami kerugian besar.
+\end{itemize}
+
+\subsection{Business Models sebagai Checklist}
+\begin{itemize}
+    \item Business models juga berfungsi sebagai checklist untuk membantu Anda memikirkan bagaimana bisnis Anda akan beroperasi dan menghasilkan uang.
+    \item Pertanyaan penting yang harus dipertimbangkan:
+          \begin{enumerate}
+              \item What’s your value proposition? (Apa nilai yang Anda tawarkan kepada pelanggan?)
+              \item How will you build your product or service? (Bagaimana Anda akan membangun produk atau layanan Anda?)
+              \item How will you bring it to market? (Bagaimana Anda akan memasarkan produk atau layanan Anda?)
+              \item How will you make money? (Bagaimana Anda akan menghasilkan uang?)
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Tipe-tipe Business Models}
+\begin{itemize}
+    \item Architecture Business Model: Model bisnis yang menghubungkan berbagai pihak, seperti eBay dan Uber, yang menghasilkan uang dari setiap transaksi tanpa memiliki produk.
+    \item Disruptive Model: Model yang mencoba mengalahkan pesaing dengan menawarkan produk atau layanan yang lebih baik dan lebih murah, seperti Warby Parker yang menjual kacamata dengan harga lebih rendah.
+    \item Value Chain Model: Model yang berfokus pada satu bagian dari rantai nilai dan melakukannya lebih baik daripada pesaing, seperti Peapod yang mengelola pengiriman bahan makanan.
+\end{itemize}
+
+\subsection{Pengertian Customer Lifetime Value (CLV)}
+\begin{itemize}
+    \item \textbf{Customer Lifetime Value (CLV)}: Nilai total yang diharapkan dari seorang pelanggan selama masa hubungan mereka dengan perusahaan.
+    \item Definisi Istilah Teknis
+          \begin{itemize}
+              \item Annual Contribution: Jumlah uang yang dihasilkan dari pelanggan setiap tahun.
+              \item Churn Rate: Persentase pelanggan yang berhenti menggunakan layanan dalam periode tertentu.
+              \item Growth Rate: Persentase peningkatan kontribusi dari pelanggan setiap tahun.
+              \item Discount Rate: Tingkat pengembalian yang diharapkan dari investasi, yang digunakan untuk menghitung nilai waktu dari uang.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Mengukur CLV}
+\begin{itemize}
+    \item CLV dihitung dengan mempertimbangkan beberapa faktor, yaitu kontribusi tahunan, churn rate, discount rate, dan growth rate. Rumus umumnya adalah:
+          \begin{align*}
+              CLV = \frac{\text{Annual Contribution}}{\text{Churn Rate} + \text{Discount Rate} - \text{Growth Rate}}
+          \end{align*}
+    \item Ada juga rumus cepatnya yang disebut Quick CLV atau QCLV, namun tidak seakurat CLV:
+          \begin{align}
+              QCLV = \frac{\text{Annual Contribution}}{\text{Churn Rate}}
+          \end{align}
+    \item Contoh Kasus: Sebuah perusahaan jasa keuangan yang kehilangan 20\% pelanggan setiap tahun, tetapi pelanggan yang bertahan meningkatkan kontribusi mereka sebesar 5\% setiap tahun.
+    \item Langkah Pengukuran: Menggunakan data terbatas untuk memperkirakan nilai pelanggan dengan asumsi bahwa pelanggan memberikan kontribusi tahunan yang tetap.
+\end{itemize}
+
+\subsection{Faktor yang Mempengaruhi CLV}
+\begin{itemize}
+    \item \textbf{Annual Contribution}: Kontribusi tahunan dari pelanggan, misalnya \$250.
+    \item \textbf{Churn Rate}: Tingkat kehilangan pelanggan, misalnya 20\%.
+    \item \textbf{Growth Rate}: Tingkat pertumbuhan kontribusi tahunan, misalnya 5\%.
+    \item \textbf{Discount Rate}: Tingkat diskonto atau nilai waktu dari uang, misalnya 10\%.
+\end{itemize}
+
+\subsection{Contoh Perhitungan CLV}
+\begin{itemize}
+    \item Kasus Pertama: Jika pelanggan memberikan \$250 setiap tahun tanpa kehilangan, CLV dihitung sebagai \$2,500.
+    \item Kasus Kedua: Dengan 20\% kemungkinan kehilangan pelanggan, CLV menjadi sekitar \$833.
+    \item Kasus Ketiga: Jika kontribusi meningkat 5\% setiap tahun, CLV menjadi sekitar \$1,000.
+\end{itemize}
+
+\subsection{Aplikasi CLV dalam Keputusan Bisnis}
+\begin{itemize}
+    \item Evaluasi Upaya Pemasaran: Perbandingan biaya akuisisi pelanggan dengan nilai pelanggan yang diharapkan.
+    \item Strategi Retensi: Menghitung apakah mengurangi churn rate dari 20\% menjadi 18\% akan meningkatkan CLV secara signifikan.
+    \item Perbandingan Pelanggan: Menggunakan CLV untuk membandingkan nilai pelanggan yang berbeda, seperti pelanggan prepaid dan postpaid dalam industri telekomunikasi.
+\end{itemize}
+
+
+\newpage
+
+\section{Financing, Valuation, and Terms}
+\newpage
+
+\section{Private and Public Financing, and Calculating Breakeven}
+\newpage
+
+\section{Elements of the Pitch and Exit Strategies}
+\newpage
+
+\end{document}
