@@ -1,0 +1,58 @@
+\contentsline {section}{\numberline {1}Business Models and Keeping Customers}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}KEY QUESTIONS}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Business Models sebagai Narasi}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Business Models sebagai Checklist}{1}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Tipe-tipe Business Models}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Pengertian Customer Lifetime Value (CLV)}{2}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Mengukur CLV}{2}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Faktor yang Mempengaruhi CLV}{3}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Contoh Perhitungan CLV}{3}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Aplikasi CLV dalam Keputusan Bisnis}{3}{subsection.1.9}%
+\contentsline {section}{\numberline {2}Financing, Valuation, and Terms}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Metode Pembiayaan}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Sumber Pembiayaan Umum}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Tahapan Pembiayaan}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Investor dan Pendekatan Pembiayaan}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Sumber Pembiayaan untuk Startup}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Rundown Pembiayaan}{5}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Sumber Pembiayaan Utama}{5}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Pentingnya Valuasi}{5}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Pre-Money dan Post-Money Valuation}{6}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Metode Penilaian Valuasi}{6}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Menunda Penilaian}{6}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Equity Financing dan Term Sheets}{7}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Diluation dan Valuasi}{7}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}Contoh Proses Investasi}{7}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}Dampak pada Kepemilikan}{7}{subsection.2.15}%
+\contentsline {subsection}{\numberline {2.16}Likuidasi dan Preferensi}{7}{subsection.2.16}%
+\contentsline {section}{\numberline {3}Private and Public Financing, and Calculating Breakeven}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Pendanaan untuk Startup}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Proses Pendanaan dan Contoh}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Masalah Asimetri Informasi}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Aktivitas Venture Capitalists}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Statistik dan Kinerja}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Penelitian dan Hubungan dengan Kesuksesan Startup}{10}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Kesimpulan terkait Venture Capitalist}{10}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Pengantar Crowdfunding}{10}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Jenis-jenis Crowdfunding yang dapat dimanfaatkan Entrepreneur}{10}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Manfaat Crowdfunding}{11}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Komunitas dan Crowdfunding}{11}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}Kualitas dan Keberhasilan}{11}{subsection.3.12}%
+\contentsline {subsection}{\numberline {3.13}Tips untuk Crowdfunding}{11}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.14}Kesimpulan terkait Crowdfunding}{11}{subsection.3.14}%
+\contentsline {subsection}{\numberline {3.15}Debt Financing}{11}{subsection.3.15}%
+\contentsline {subsection}{\numberline {3.16}Jenis-jenis Debt Financing}{12}{subsection.3.16}%
+\contentsline {subsection}{\numberline {3.17}Collateral}{12}{subsection.3.17}%
+\contentsline {subsection}{\numberline {3.18}Working Capital}{12}{subsection.3.18}%
+\contentsline {subsection}{\numberline {3.19}Government Loans}{12}{subsection.3.19}%
+\contentsline {subsection}{\numberline {3.20}Burn Rate}{12}{subsection.3.20}%
+\contentsline {subsection}{\numberline {3.21}Runway}{13}{subsection.3.21}%
+\contentsline {subsection}{\numberline {3.22}Fume Date}{13}{subsection.3.22}%
+\contentsline {subsection}{\numberline {3.23}Perencanaan Arus Kas}{13}{subsection.3.23}%
+\contentsline {subsection}{\numberline {3.24}Breakeven Time (Payback Time)}{13}{subsection.3.24}%
+\contentsline {subsection}{\numberline {3.25}Breakeven Quantity}{13}{subsection.3.25}%
+\contentsline {subsection}{\numberline {3.26}Masalah dalam Analisis Breakeven}{14}{subsection.3.26}%
+\contentsline {section}{\numberline {4}Elements of the Pitch and Exit Strategies}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Pitch Deck dan Executive Summary}{15}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Struktur Pitch Deck}{15}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Tips untuk Pitching}{16}{subsection.4.3}%
