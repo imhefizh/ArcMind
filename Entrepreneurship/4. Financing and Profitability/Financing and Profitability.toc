@@ -56,3 +56,14 @@
 \contentsline {subsection}{\numberline {4.1}Pitch Deck dan Executive Summary}{15}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Struktur Pitch Deck}{15}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Tips untuk Pitching}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Pengertian Pro Forma Financial Statement}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Jenis Laporan Keuangan Pro Forma}{17}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Analisis Pro Forma}{17}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Pertanyaan yang Dijawab oleh Pro Forma Financial Statements}{17}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Contoh Praktis Laporan Pro Forma}{18}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Praktik Terbaik untuk Pro Forma}{18}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Definisi Entrepreneural Exit}{18}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Jenis-jenis Exit}{18}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Proses IPO di AS}{19}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Penelitian tentang Exit dan Inovasi}{19}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}Kesimpulan terkait Entrepreneural Exit}{19}{subsection.4.14}%

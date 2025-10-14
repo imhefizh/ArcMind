@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.8)  13 OCT 2025 14:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.8)  14 OCT 2025 08:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,26 +381,32 @@ l.57 \newpage
 
 [15]
 
-[16] (Financing and Profitability.aux)
+[16]
+
+[17]
+
+[18]
+
+[19] (Financing and Profitability.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `"Financing and Profitability".out' has not changed.
-(rerunfilecheck)             Checksum: 1ABC2CCE8E0F2BF9A33841220D9E94C2;11106.
+(rerunfilecheck)             Checksum: 01E6FCCF9E184042ACE079FAAB59C66F;13588.
  ) 
 Here is how much of TeX's memory you used:
- 11403 strings out of 468130
- 172360 string characters out of 5440676
- 602235 words of memory out of 5000000
- 39816 multiletter control sequences out of 15000+600000
+ 11432 strings out of 468130
+ 172748 string characters out of 5440676
+ 602237 words of memory out of 5000000
+ 39827 multiletter control sequences out of 15000+600000
  632856 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,506b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Administrator\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Financing and Profitability.pdf" (19 pages, 190115 bytes).
+Output written on "Financing and Profitability.pdf" (22 pages, 205147 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 465 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 553 words of extra memory for PDF output out of 10000 (max. 10000000)
 
