@@ -14,3 +14,7 @@ Update:
 1. I've done the rough notes for Entrepreneurship, but I still think to rephrase it to make it easier to understand. Gon do that later.
 2. I'm working on Database Engineering rn.
 3. I was using Obsidian as my note-app, but I decided to use LaTex instead. Some of the notes have not been migrated yet.
+
+---
+
+_You can read the .pdf format instead of .tex, I've built it for you_
