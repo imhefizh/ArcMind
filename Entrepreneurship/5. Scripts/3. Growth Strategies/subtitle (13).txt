@@ -1,0 +1,201 @@
+Measuring price elasticity is essential to making
+good pricing decisions. There are many different
+ways to measure price elasticity or
+price sensitivity. We can conduct surveys, conduct some controlled
+experiments. We can analyze historical data coming from the marketplace, do some AB testing. We'll talk about each of
+these as we go forward. But before we do that, I think it's important
+to understand what price elasticity means or looks like in
+different contexts. The first thing to
+think about is, are we talking about response to a permanent price change or a temporary or a
+short-term price change. By and large, what we observe in practice is that consumer
+response is much higher, much stronger to
+short-term price changes than it is to long-term or
+permanent price changes. Often research suggests
+that it's one order of magnitude higher.
+Why is that? When short-term price
+discounts are offered, consumers take advantage of it, either they switch brands buy early or sometimes even
+stockpile or consume more. There's lot of good
+research on this and Professor Gupta's
+paper is one of the landmark papers
+in this area. In some cases, however, short-term price changes
+lead to no change in demand. For example, we observe
+that demand is not very elastic to
+the price changes of gasoline in the short-term. Why? Because consumers
+already own a car. For example, I own an SUV, that's a gas guzzler, unfortunately, and
+I can't change that just because the
+price of gasoline changes. But if consumers were to
+know of uncertainty that gasoline prices will go up and
+remain at say, $5 or more. Even someone like me would buy an electric
+vehicle more readily. Post product categories, consumers are more responsive to short-term price changes than they are to long-term
+price changes. However, there are
+some categories where short-term price change may
+have no effect on demand. But only if there is a
+permanent price change will there be an
+effect on demand. It's important for us to understand the context
+we are measuring price elasticity and what price change we
+are talking about. Similarly, it's
+important to recognize, are we talking about the response of the entire
+market or a segment level? Or are we talking about an
+individual response to price? Market level responses to
+price are usually smoother. At the end of the day, it's the aggregate over
+many consumers. It becomes a smoother function. At the individual
+level because we're often buying in discrete units, say I buy either one toothpaste or two tubes of toothpaste. The response can be
+discrete and we need different types of
+statistical methods when the response is discrete, 1,2,0 and so on. Before we get into the
+specifics of measurement, I think it's important for us
+to understand the context, whether it's short-term
+or long-term, whether it's consumer-level or its market level before we start using the
+different approaches. There are many different ways to measure price sensitivity. We'll talk about three of
+these methods in more detail. But even though there are thousands of methods
+being used outside, when you come down to it, there are essentially
+four types of methods. These four types
+of methods can be understood by a simple
+two-by-two table. The two dimensions
+of the table are, what are we measuring and
+how are we measuring? If the variable being
+measured is actual purchase or is it people's intentions
+to buy or their preferences? The second variable
+or second dimension is conditions of measurement. Are we measuring
+response to price in a natural setting or in a controlled setting or
+an experimental setting? Let's look at at
+least one or two of these possible boxes. If you are measuring actual
+purchase in natural settings, we are essentially analyzing
+historical sales data. It could be aggregated,
+could be individual. But these are actual data coming from the market in
+a natural setting. There are methods to do that. And we'll look at
+one of those methods using an example of a
+package delivery service. Another approach could be, we measure people's
+intentions and preferences, but in a controlled setting. A lab experiment
+could be an example, or trade-off analysis could be an example using
+conjoint type analysis. Different methods, but
+at the end of the day, they fall into four
+distinct buckets. Those buckets are
+defined by what we're measuring and the
+conditions of measurement. Let's start by looking at our first method and
+put it in a context. Let's assume a company
+like FedEx is trying to determine how consumers will respond to the price of
+a new delivery service. I'll talk more about why I'm
+using the name FedEx here. Let's start with a
+simple approach. This is not an approach
+that the company used, but let's think of this
+as a possible approach. Start with a representative
+sample of 150 buyers. Administer a survey to five randomized groups of 30
+representative consumers. What we're doing is splitting these 150 potential
+representative buyers into five groups of 30 each. To each of these groups, we'll describe the
+product in-depth, to each group we also state the potential competitive
+offerings and their prices and then provide any additional useful information
+of the product concept. Even though we may not have
+the co-product as yet, we can describe the
+product as a concept. Then to each of these groups, we asked the question, would you buy this new
+service if its price we're, say $10 to one of the groups, $11 to another group, $12 to a third group, $13 to the fourth group, and $14 to the fifth group. Each of the groups are seeing
+the same description of the product but are responding
+to a different price. One group responds to
+$10 and says yes or no and we tabulate those data. Let's count the number of
+yes responses in each of these groups and plot
+the response function, which may be a representative
+demand function. Let's say the group
+that responded to $14, 10 percent of them said yes. The group that responded to $10, 50 percent of them said yes. What you see is effectively
+a demand function with units on the y-axis and
+price on the x-axis. At a price of 10, 50 percent said yes, price of 14, only 10 percent
+said yes. What do we have? What we have here is
+a reference ready, what we might call as
+a demand function. When I discuss this
+approach in the class, I know it has many weaknesses so the first question I
+asked the students is, what do you think are the
+strengths of this approach? When they start
+thinking about it, they come up with a
+number of strengths. It's easy to do this, Professor, it's
+inexpensive, it's fast. At the end of the day, it
+gives us a demand function, may not be great, but we
+at least get something. Then we start thinking
+about the weaknesses. What is it that this approach cannot do that we
+would like it to do? Well, the first answer that
+typically comes up is, Professor, it doesn't
+account for competition. Well, it did account for
+competition but it didn't account for what will happen if competition change their prices. We did mention in the survey what the prices of
+competing products were. But this method will
+not be able to assess anything if competition
+prices were changed. Then another
+important limitation here is it doesn't account for how many
+units people will buy, only whether or
+not they will buy. It gives you a yes, no kind of an answer, will we buy, will we not buy. But at the end of the
+day, the demand function is not whether just
+you will buy or not, how many units will you buy. It doesn't give us any
+indication of that. Then finally, a lot of people, a lot of students will point to the fact that it is
+measuring intentions, is measuring an intent to buy, not their actual
+purchase behavior. It's not looking at
+actual purchase behavior. I think that's a good point, but many market research
+methods often use intentions to buy or preferences,
+not actual behavior. I think a broad question not just related to
+pricing research, but to a lot of
+market research is, how do we create a
+better relationship between intent to buy
+and actual purchases? Or in other words,
+how can we strengthen the relationship between
+intentions and behavior? That's an important concept
+that has been studied in research and it's worthwhile looking at this in a
+little more detail. Let's say we asked the
+question to a group of people, what is the ideal relationship between intentions and behavior? If you have intentions on the x-axis and behavior
+on the y-axis, what are you looking for that would make your life easiest? Most will say it is a 45
+degree line pointing upwards, starting at the origin
+pointing upwards. What does it mean? If people say they'll surely
+buy they'll buy. If people say they won't buy, they won't buy, 45 degree line. But then you ask yourself, does it have to be
+a 45 degree line? Does it have to be
+exactly pointing upwards? Suppose it's exactly
+the opposite. Let's say, if you have a friend who every time when he or
+she says a stock will go up, it goes down, and every time he says or she says the
+stock will go down, it goes up, is he or she
+a good friend to have? The answer is absolutely because whatever
+is the prediction, the real-world is exactly
+opposite to that, is not a 45 degree
+line pointing upwards, it's a 45 degree line
+effectively pointing downwards. What you're looking for
+between two variables, for one variable to become a
+good predictor of another, is not a 45 degree
+line, but a stable, predictable relationship
+that persists. If we can find that
+relationship in advance, any variable can become a good predictor of
+another variable. Once we understand this concept in depth and how
+to implement it, we can use market research, not just pricing research, but other types of market
+research also very effectively. Let's look at an example coming from a company that
+makes routers. Let's say, a major
+manufacturer of routers is thinking of launching
+a new G-class router. The company conducts a survey
+of 100 potential buyers and ask them on a 1-5 scale
+their intent to buy, and those responses
+are given in column 3. What does that mean? Fifteen people said one, 20 people said two, 40 people said three,15
+people said four, and 10 people said five. Five meaning surely buy, 15 will most likely
+buy, and so on. Let's say these are
+the results that you got in the first survey that are given in column 3.
+We don't end there. Let's say, this company
+launches router G. We ask ourselves, what did people actually do? Those are your
+results in column 4. How many actually
+bought the router? Those 15 who said one, which means they will
+not buy, nobody bought. Those who said two, out of the 22 of them bought, out of the 40 who said
+three on a 1-5 scale, five of them bought. Out of the 15 who said
+four on a 1-5 scale, three of them bought,
+and out of the 10 who said five on the five-point
+scale, three of them bought. What do we have next? What we have is their
+conversion rates, and those conversion rates are zero percent for
+those who said one, 10 percent of those who
+said two, and so on, and 30 percent of
+those who said five. Let's keep those out there. That's what happened
+actually based on what they said in their intentions. Now let's think about this company launching
+an N-class router, which is a higher N-router. It again conducts a survey of 100 potential buyers and ask their intention to
+buy on a 1-5 scale, and those data are
+reported in column 5. What are those data? Out of 100, 10 of them said one, and just going down the column, 20 of them said five. What do we do with these data? Well, if we didn't have
+the G-class router, we'd probably just
+say maybe let's take everyone who said five, and that becomes our forecast for how many people will buy. Some market research companies, they use what they
+call as the top box. Everyone who said five will buy. Others might say, for different
+product categories, let's use top box and a half. Let's say, 20 plus half
+of those who said four, and that becomes our
+demand forecast. A better way would be to look at previous conversion numbers. What fraction of those who said one bought the G-class router? Well, we know that is zero. What fraction of those who said two bought eventually
+the G-class router? But there was 10 percent. If we use those percentages, what we have is in
+the last column, our forecast demand for the N-class router based on
+previous conversion rates. What we can keep doing is then updating our responses
+from N-class, G-class. We can aggregate them, and see what are the
+typical conversion rates. What this does is helps us improve the relationship
+between intentions and behavior because we have seen the past relationship between intentions and behavior
+for similar products. In other words, what
+we are doing is we are codifying our past experience, and using that codified past experience to better
+link intentions and behavior. More details are in the paper by Professors Jamieson and Bass, and for those of you who are interested can read that paper.

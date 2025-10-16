@@ -1,0 +1,95 @@
+In order to think about society,
+there's an awful lot of actors there. What we're going to do,
+is develop an extremely simple stylized model of venture creation
+that's just going to include a very, very small subset of the actors who
+are relevant in the whole ecosystem. But this will allow us to focus on
+a few entities, where we can examine some statistics and really understand
+something about the value that is created. So to start, we need startups right? We need ventures to be created. And so we have entrepreneurs. Founding entities with ideas and
+those ideas, those founding teams, ultimately will need some funding,
+so Venture Capital is providing funding to many startups that
+have high growth potential. Likewise for established firms that
+are focusing on startups with particular products or services that may be
+complimentary to what they're providing. In addition to this flow of money toward
+ideas, we also see another sort of flow. So while the money is represented by green
+arrows, the red arrow is used to represent the flow of people from established
+firms to the startup context, right? We discussed in another module how
+established firms can be inertial in the face of innovation. So professionals who are at these firms
+can feel circumscribed by these inertial pressures, they'll want to
+pursue these technologies and so this winds up causing some of them to want
+to leave and found their own firms or join entities that are able to
+pursue these sorts of technologies. And certainly this happens
+an awful lot in tech. The traditional example here is
+that a Fairchild Semiconductors in Silicon Valley. Fairchild gave birth to many
+well known semiconductor firms as the members of their organization
+left and founded newer firms. So one baby from Fairchild
+is of course intel, which has been extraordinarily successful
+in that space, but there are quite a few. And that's another
+history worth looking up. It's not only that this happens in high
+tech firms, but much of the value that's created in the startup context is in
+the tech sector, which we'll see shortly. But there are other examples of contexts
+where people will leave established firms. So for example, professional
+services firms, legal services, accounting firms,
+consultancies, and the like. Again partners at these firms may
+leave and found additional firms, so the same sort of idea of established
+firms spawning offspring occurs. So, lets talk about what's happening
+in this context where new products and services are being created,
+value is being created, investment is being made, and the like. Let's focus first of all
+on the value that's created just by the fact that new enterprises or
+small businesses exist. Let's talk about
+the enterprises themself and the jobs that are created
+within these enterprises. According to the Kauffman Foundation, 0.3% of US adults were
+entrepreneurs in 2014. Let's put that in context. 3 out of every 1,000 US
+adults were self-employed in 2014, had some sort of enterprise. So it sounds like a very small number,
+but there's an awful lot of US adults. There are more than 28 million
+enterprises in the United States. And over 99% of these
+are small businesses. And small businesses are defined by
+the Small Business Administration as less than 250 employees. According to
+the Small Business Association, 67% of all private sector jobs created in
+the US occur in small businesses. In high tech, this number is lower. It's not 67%, it's 37%. And this makes sense because the overall
+set of ventures includes lots of self employment where there are virtually
+no employees or a very small number, the food trucks,
+the dry cleaners, and the like. In high tech, of course we have many
+firms that become very, very large. And so even with that, small businesses
+high tech start ups still account for 37% of all private sector
+jobs created in the US, so a lot of employment is happening
+as a result of venture creation. Let's focus on the value created
+within these ventures for investors, much attention of late has
+been focused on what are called unicorns. Startups that have grown and
+been funded to receive valuations over $1 billion. So this fancy full name unicorn is
+meant to conjure that the rarity of such an occurrence,
+who's ever seen a unicorn? But of course the number of unicorns
+is growing and it's no longer so rare. That said it's still under 100,
+but again, it is growing. So put that number in perspective. The number of unicorns is less than 2 out
+of every 1,000 venture back startups, 0.2% of all venture back startups
+actually become unicorns, so it is rare. Here's a graphic that depicts
+the great skew in unicorn evaluation. So this is just showing for
+the 80 some unicorns that already exist, how much they're currently valued at. And as you can see from that really steep
+curve that valuations pretty quickly stay close to $1 billion and there are
+only a few that are much more dramatic. Of course the outlier on
+the left side is Uber, which is valued at over
+$40 billion at this point. As you move toward the middle of
+the graph you'd see Blue Apron, which is between $1 and 2 billion. And then Eventbrite as you move
+further towards the right, it valued slightly over $1 billion. The majority of unicorns,
+like those three that I've just noted, are indeed consumer-oriented rather
+than more enterprise-focused. Now importantly,
+65% of these valuations are just on paper. They're based on the backing from VCs. The terms of the deals and the funding
+that these firms have received, these are unrealized gains at this point. But if 65% of these firms are still
+private with unrealized gains, we can also examine the 35%
+of firms that have exited. Let's examine those statistics on exits. And when I say exit, this can be either
+an initial public offering to the markets, or it can be an acquisition
+by an established entity. If we look at the full set of firms that
+received venture capital between 2004 and 2013, so the most recent decade for
+which this data is fully processed and available, what we find is
+that there are over 800 exits that were valued at more than 100 million. Of these, 145 of these were
+indeed valued over 1 billion. So again getting into
+that unicorn territory. Importantly, of these high value exits, 75% of them were in the broad
+information technology sector. And so not only were the vast majority
+of the deals themselves in information technology, but
+these deals actually represented 86% of the overall value generated. So tech is really an area where much
+value is being created both for investors as well as on the jobs front,
+as we already discussed. The next biggest sector,
+it turns out, is actually healthcare. In this brief module we focused on
+venture creation's role in society. And even with the simplest model of
+just start ups and established firms and investors, we could already see how
+the creation of jobs and opportunities creates an immense amount of value for
+investors as well as society.

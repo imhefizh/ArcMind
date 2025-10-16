@@ -1,0 +1,204 @@
+Hi, I'm Kartik, and this session is
+on creating a software prototype. Now, suppose you have a software product. Once you have fleshed out
+the solution concept, and you have confirmed that
+it resonates with users, it is tempting to proceed directly
+to the product development phase. This approach can be costly though,
+because while your product concept might appeal to the user the actual product
+might not meet user expectations, either because of a poor user experience,
+or because of missing functionality. The purpose of prototyping is to
+ensure that we minimize the need to completely redo the software due
+to gaps in how we implement some high-level solution
+concept we have in mind. I'm going to start by discussing the
+different approaches to prototyping, and use a few examples to illustrate how to
+select an approach that is right for you. And finally, I will close with
+a simple illustration of how you, the entrepreneur can get involved
+with prototyping your software even if you have no
+graphic design experience. But first,
+why should we even bother to prototype? Prototyping serves two main purposes. The first is to clarify
+user interface to the user, and also to the developer who's going to
+eventually implement the product. Second, prototyping also helps to clarify the functionality that will
+be supported in the eventual product. Doing so provides several benefits that
+will help your project in the long run. It will help to reduce costs and time
+relative to building the full product, and then iterating after
+having built that product. It's better to clarify
+requirements upfront rather than redoing costly
+development again and again. Also, you don't need to be a developer
+to get involved in prototyping. So you can involve other stakeholders,
+such as non-engineering co-founders, into the product discussions
+during the prototyping phase. And finally, prototyping can help
+also increase product quality by ensuring that the user interface and the user experience are clear before
+we embark on product development. Before we discuss how to prototype,
+it's useful to understand what are the different types
+of prototypes one can develop. Prototypes can be classified
+along multiple dimensions. The first one I'll discuss is whether
+the prototype is a throw away prototype or an evolutionary prototype. The idea behind throw away prototyping
+is to create a model of the final system that the user can evaluate. Once user feedback is obtained,
+the design and requirements are frozen. Development begins and the prototype
+may be discarded at this phase. This is a relatively fast method of
+prototyping, and it allows the user to experience all the important parts
+of the system before sharing feedback. The second approach is evolutionary
+prototyping, which as a name suggests, involves building only those portions
+of the system that we understand, and then slowly working our way
+to the other portions overtime. The idea is that the development team
+creates a system would the features that are well understood, and the prototype in
+fact evolves to become the final product. For most of our discussion, I'll focus
+on throw away prototyping because of its speed, the ability to give users
+a full sense of the system, and also the ability for us to proceed
+without formally starting development. Another interesting dimension is
+the fidelity of the prototype. The fidelity can range from low to high,
+with many choices in between. Low-fidelity prototypes
+are typically hand drawn sketches, the advantage of this
+is that it's fast and it's also useful early on when you
+can iterate through multiple designs. One can consider many options
+without actually slowing down with a low-fidelity option. The other end of the spectrum
+is a high-fidelity design. This is almost a what you see
+is what you get type of design. It comes complete with full visual design,
+and therefore, you need a graphic designer in order
+to come up with a full-fidelity design. The advantage of a full fidelity
+design is that it's easy for a user to understand what
+we are trying to build. It's also easy for a software
+developer to take a full fidelity or a high fidelity design and start coding. The approach is helpful when the product
+is complex, and it's hard for a user to visualize the system, or
+also when it's critical to have the developer fully understand the user
+experience design before actually coding. But on the other hand,
+it may be an overkill for simple software projects, and
+because its also expensive. So it's important to ask if it's
+needed to do a full fidelity design before actually proceeding. Finally, the option in between high and
+low fidelity designs is medium fidelity. This achieves good balance between
+the speed of low fidelity, and the realism of high fidelity. In this light, I present several prototypes of
+varying fidelity for a website of a children's educational product called
+SmartyPal that I previously co-founded. You can see how we started with the
+low-fidelity sketch, and slowly wound our way to a high-fidelity design complete
+with all the visual elements. A third way to classify prototypes
+is based on the level of interactivity supported. On the one hand, you have static prototypes, which
+are essentially just a series of screens. On the other hand,
+you have interactive prototypes. These prototypes react to user inputs. An interactive prototype is clickable and
+allows the user to enter input into forms. In a sense, an interactive prototype
+simulates how the final product will work in a very realistic fashion. In selecting between a static or
+an interactive prototype, it is useful to reflect why you're
+prototyping in the first place. Is the product relatively
+complex to understand? Is the user experience a key point
+of differentiation for the product? Or is it important to understand how
+the application actually works, and how one interacts with it. If so, these are best achieved
+through interactive prototypes. In general, my experience suggests that
+interactive prototypes are always better, unless the product is relatively simple,
+and the goal of the prototype is
+mainly to clarify visual design. If so,
+a static prototype might work just fine. For example, if the product itself
+is a series of static pages then a static prototype
+will probably just suffice. The next question worth asking is, what
+is the best tool to use for prototyping? The answer depends a bit on the answers
+to the previous questions I raised about the different types of prototypes. If a low fidelity, static prototype
+is right for you, then a paper and a pen are all you need. Your prototype will consist
+of hand-drawn sketches. If you're seeking to make medium or
+high fidelity, but static prototypes, then drawing or photo editing
+tools like Photoshop, Visio, or even PowerPoint or
+SmartArt in Microsoft Word will suffice. If you're looking to make medium or
+high-fidelity and interactive prototypes, then wireframing tools,
+like Balsamiq and Axure are appropriate. Finally, if you're a developer and want to directly proceed with
+evolutionary prototypes, then development tools like Visual Studio
+and Eclipse are appealing options. One practical tip I would offer is
+to develop an initial prototype that is static and
+of low or medium fidelity. You use that prototype to get
+initial feedback from users. Once you have that feedback,
+you go back and develop interactive prototypes
+of medium to high fidelity. You use this prototype to get feedback and you iterate until you're
+satisfied with the design. At this point, you freeze design and
+we're ready to proceed to development. If you're not a designer it's tempting
+to outsource the prototyping work to a designer. You should certainly lean on designers,
+but as the founder of a software start up, it is helpful to be actively
+involved in the prototyping phase. One way to do that is to take the lead
+with developing the low fidelity designs. I'm now going to illustrate how
+simple it is to get started. Suppose I'm working on a photography or
+videography focused website. That offers subscribers
+access to great videos and interviews in which professionals
+teach us how to use cameras, frame our subjects, and
+shoot the best photos and videos. Now, I'm trying to design
+a landing page for this website. I'm going to show you
+how we can develop good, low fidelity designs
+in fairly short order. I'll start with a classic
+design which I often use. Let me start here. So right on top for
+my header I'm going to use a logo here. Maybe a one liner on the company. Then I add a few links for
+the product resources, free resources, and other such things. Now for
+the main content on the landing page, because it's a website on videography and
+photography I might want to use a video to explain what
+this website is all about, and also to feature some
+customer testimonials. Next, I might actually have
+a quote from a customer here, and then below that,
+call to action asking the user to sign up. All right, below that, maybe I might want to say a little bit
+about the product, so we might say, why we built whatever our name is,
+x, y, z. And here we might want to say a little
+bit more about our products or some features about the product. We might say, hey,
+we had the same problem that you guys had. Then we might go on to say, we found
+there's no solution out there that takes us from the beginning to the end, and
+that's what we are trying to do for you. And then we might further say
+here we have professionals, and these professionals have tricks
+that they can teach all of us. And so we might say that here
+that's the next section. And then finally, we might just have the footer of the page
+where we might have information. About us, or perhaps a contact us and
+things like that. Now, the reason I like this design
+is because as I mentioned this website is about photography and
+videography education. We're using a video to convey
+that value proposition. But suppose I find the videos
+too expensive to shoot, or I don't have enough time
+to shoot that video. I'm now going to consider another design that is an alternative
+to using that video. Now suppose I wanted to try
+a design without any videos, maybe because the videos are too
+expensive to shoot or it slows me down, and I want to get the website up and
+running soon. So I'm going to try a similar design,
+this time with no videos in there. So, for the header,
+once again, I have a logo. One line all about the company, a few links for products, resources, and now I might have a costumer
+testimonial here, and because I'm not
+going to use a video maybe I'm going to use a photograph of an actual customer who gave us that testimonial. Then below that, this time, maybe I want to emphasize the ease of use
+of the product instead of why we built it. And so I might have a section
+that says three easy steps to use whatever our product's name is. So step one, here's the step. Step two,
+here's what you're supposed to do. Step three. And then I might show that visually. This is step one, and then step two
+says what you're supposed to do there, and then step three. So, I've got three easy steps. And then finally,
+I have a footer for the website. And the footer might have about us. Yeah, I don't know, contact us, perhaps
+our Facebook link, and things like that. Now, I have a design where I have
+managed to eliminate the video, but what I don't like about this is that
+it's not particularly emotional. So maybe I want to use a photograph, but not just somebody's face
+with their testimonial. But instead, I want a different design,
+something that's more emotional, and something that emphasizes a little
+more about product features, so as to convince you to pay for
+the service. So I'm going to try a slightly
+different design to try and do that. So I'm going to try
+a slightly different design. The header is similar with the logo and
+a bunch of links. Now maybe this time I go for the top of the page just being
+a full screen image of some sort. And it just is some sort
+of a photograph that shows a photographer having a great
+time shooting a subject. And just showing how easy it is to shoot. And it says something like. Take control of your camera or
+something of that sort, some tagline that's
+conveys how easy it is. And we show an image of somebody who's
+very happy doing what he is doing. Next, in addition to doing something
+that is more emotional and persuasive, I also want to emphasize the product
+features and convince you to pay. And so, in order to do that, I want to
+show you we have lots of features. So, maybe, over here,
+I show you a bunch of features. So here, this is designed for you. And we might have feature one,
+a little bit about that feature, we have feature two, expert interviews,
+a little bit about that. We have feature three,
+a little bit about that feature. And maybe, just because I want you to pay, I want to show you that we
+have lots of great features. I'm going to show you
+the top six features. This might not be the greatest idea. You might show it to a user, and the user
+might react and say, wow, that's a lot of information for me to digest,
+in which case you'll bring it down. Two, three, or
+four of the most important features. But I'm just getting
+started with some design. And after this I feel like even though
+I've got rid of the customer testimonial it's not at the top of the page. I feel like it's got to be somewhere
+because if someone's going to pay me to join the service, it helps to know
+somebody else tried it and they loved it. So maybe at the bottom,
+I'm going to insert my customer testimonial and
+I have the quote from the customer. And then I have this big
+sign up now call to action. And that's pretty much my entire design,
+and as you can see each of these designs
+were developed in a matter of minutes, and that's the whole idea of low fidelity
+prototyping, it's rapid, you can come up with several dozen prototypes, and
+then determine which one you really like. And then show a bunch
+of these to your user. And then figure out which ones
+you want to invest in more and apply Visual Design, too. As you can see, it's pretty easy to get
+involved with low-fidelity prototyping. This is obviously not the final output,
+but it allows you, the entrepreneur, to have a meaningful
+conversation with both your designer and your users, and that's the value
+of low fidelity prototypes. And I highly advocate every entrepreneur, even those with zero design skills,
+to get involved in the prototyping phase at least with the
+early phase of low fidelity prototyping.

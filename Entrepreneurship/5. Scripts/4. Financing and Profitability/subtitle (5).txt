@@ -1,0 +1,314 @@
+My name is Karl Ulrich,
+I'm a professor at the Wharton school. And this session is on
+Equity Financing: Valuation. I want to start with a story. I'm an investor in a start
+up called Wholly Moly! And Wholly Moly takes organically grown oatmeal sourced in
+the United States and sells it in China where the Chinese consumer
+is very concerned about food safety. Wholly Moly was started by a former
+student of mine named Claire. Claire and her childhood friend,
+Shui Shui, started this company. Now, Claire had been my student but
+Claire and I had become friends. In fact, she had guided me around
+China on two separate occasions. I actually introduced her to her
+husband and I spoke at their wedding. So, I really consider
+Claire to be a friend. Claire then asked me if I would be
+interested in investing in Wholly Moly. And that caused our relationship
+to take an entirely different turn because now we had to focus on business. So this image shows a dinner
+we had in San Francisco with her two first investors me and Don. And we're shown here with Claire and
+Shui Shui. And we're all smiling
+here at this dinner but this was a pretty tense dinner because
+we had to focus on the question of, if I invest my hard earned cash in your
+business, what do I get in return? That's the essential question
+we face in valuation, how do we decide what
+the company is worth? Now value, as any real estate agent
+will tell you, is simply defined as the price of a transaction between
+a willing buyer and a willing seller. Value is what someone will pay for
+something and usually in the context of entrepreneurship, the transaction is
+between an investor who is providing cash and the entrepreneur who's giving
+up a share in his or her company. So, that's the transaction
+that defines value. And in any specific case, valuation or value of the company is
+defined through a negotiation. It's basically a horse trade,
+you and the other party are trying to agree on a price for
+something that's very hard to quantify. Now, ideally the negotiated value would
+reflect something about the fundamental cash flows that that business would
+generate over a long time period. I mean that's after all what we care
+about in determining financial value. But the problem is,
+that we're trying to establish this value when there's a lot of uncertainty before
+we've even really built the business. And so valuation, in this context, is really based
+on some beliefs about the future, what we believe the business can be out in
+the future, given all of that uncertainty. Why do you even need to establish
+the value of a business or establish a valuation for your company? Well, you don't really ever need to do
+it until you need to raise some money, until you need to sell some
+portion of that company for cash. And that's usually in the context of the initial financing that's
+required to get the business going. Now of course, once you're successful,
+and once your business is established, you may be interested in selling that
+business entirely to a third-party, and that's the other setting in which
+you need to establish a value, set the valuation for the business. And to be even more precise the investor
+is typically asking the question, if I invest a certain amount of money,
+let's say $10,000 or a $100,000, what fraction of your
+company do I get in exchange? That's the fundamental question
+we're trying to establish, or trying to answer, with valuation. Before we get into the details I
+want to review two terms, pre-money and post-money valuation. Pre-money valuation, which I'll call X, is the value of your business
+before you take the investment. So, let's just say for
+example that you establish a value for your business on a pre-money
+basis of 1 million US dollars. Post money valuation is what your
+business is worth after the investment. So, let's imagine that an investor
+provides $100 thousand in capital. After the investment,
+you have what you started with. The $1 million in company value plus
+you have $100 thousand in the bank. And so your company must be worth
+$1 million plus $100,000 or $1.1 million,
+that's the post money valuation why? So, if we want to understand what
+the investor owns after the investment, we think about the investor
+providing $100,000 in cash divide that by the post
+money valuation, or $1.1 million. And that fraction is one eleventh, and so the investor providing $100,000 on
+a pre money valuation of $1 million. Results in the investor owning
+one-eleventh of the company or about 9.1%. So again, pre-money valuation is what the
+company is worth before the investment. Post-money valuation is simply
+the pre-money valuation plus the value of the cash invested. And the ownership's stake of the investor is defined as the cash divided
+by the post money valuation. I want to just point out that it's in everyone's interest
+to estimate the value accurately. Some people might think, well gee, as the entrepreneur I'd like to have as
+high a valuation as possible so that I give away as little of my company as
+possible for the amount of cash invested. But that's not such a good idea
+because if your valuation is too high then your investor won't
+make a good return. That's not fair first of all, but it's
+also not good for you and your reputation. The other thing is that if you
+set your expectations too high, if you set in effect
+a price that's too high for your company, you won't be able to attract
+the investors of the type that you'd like. On the other hand,
+if your valuation is too low. That's not good for you, of course, because you've given away
+a lot of your company. But it's also not good for the investor
+because it doesn't leave you with enough ownership that you have a strong
+incentive to make the business a success. So, you and your investor both want this
+estimate to be as accurate as possible. And that's really the reason to
+treat this exercise quite seriously as you're thinking about raising money. There are four approaches that I've
+used in establishing valuation and I want to just to through
+those approaches. The first is,
+that you can look at what the inputs cost. That is, what would it cost to
+replicate what you've created to date? The second approach is, to compare your company to other similar
+companies, and to other transactions, fund raising transactions,
+those companies have entered into. The third approach is
+that you can discount for time and risk from some
+estimate of future value, and I'm going to go through each
+of these with some examples. And then the fourth approach you could
+take is you can apply a multiple to the actual earnings of the company,
+either the earnings or the revenues. But remember, this is ultimately
+a negotiation between you and an investor. And so you should think of these
+approaches as just ways to calibrate your intuition to prepare you for
+that negotiation. Most of the time in the transactions I've
+been involved with, I've actually used at least two of these and
+usually three of these different methods. In order to triangulate
+on an estimate of value, to really just to inform my
+intuition going into a negotiation. Okay, so let's look at these four methods. The first is that you could look
+at the value of the inputs. And the way to think about
+this is what would it cost for someone to recreate what
+the entrepreneur has to date. And the reason that's important is if,
+if it wouldn't cost very much for somebody else to create what you've done, then it's not really fair to ask for
+some huge premium over that cost. To ask the investor to pay
+something premium over that cost, because the investor would just say,
+well, why don't I just start from scratch, find some other entrepreneur who could
+get to where we are today at lower cost. So let me give you an example. Let's imagine that you're very early in
+your start up and you've put in about six months of full time effort with
+a partner, so you've put in together, the two of you have put in, six months
+each for about 12 months of human effort. And let's say you're a recent college
+graduate, you might have earned $100,000, actually, that would be quite
+an impressive salary after graduation, but let's just say, you could have earned, the two of you together working six
+months could have earned $100,000. Second, let's say you
+require some cash for the initial expenses to get started,
+and let's say that's $25,000. Third, let's say you've committed to work
+for the next six months with no salary. The two of you have committed
+another year of human effort, and let's value that at $100,000. And lastly,
+let's put some value on the idea, itself. Now let's imagine this is
+a fairly simple idea for a business, it's not like some new
+patented molecule or something like that. And let's just put a value of $25,000
+on the intellectual property. If we add up the value of those inputs, then we get $250,000 in total value,
+and that's what I mean by starting with what would it cost to
+replicate what you've got here today. Now let's imagine that an outside
+investor provided $25,000, provided that cash that
+you needed to get started. Under that logic, the investor
+would own 10% of your business, using the value of the inputs as
+the method of value in the company. Now, the problem with this approach
+is that it doesn't really account for the fact that the entrepreneur might
+have resolved a bunch of uncertainty, might have gotten lucky with this business
+idea, might have considered three or four other businesses before settling
+on one that eventually worked. And so, in some ways, it doesn't account
+for the fact that the entrepreneur whose gotten this far has actually
+resolved quite a bit of risk and uncertainty associated
+with the opportunity. However, this first approach is quite
+useful, particularly in very early stage investments, and
+when you don't really have much, you've just started with some inputs
+of labor, capital, and maybe an idea. So it's a good calculation to do. It probably would be considered a low
+estimate for the value of the company. The second approach you
+can take to valuation is to base your valuation
+on comparable deals. Now you have to have some
+data in order to do that. And there are a variety of data
+sources on the Internet and in reports on venture transactions. You could also ask around, get a few
+data points for your region and for your industry. Shown here, is some data that was put
+together by a prominent law firm in Silicon Valley called Wilson Sonsini. And, shown here is
+the pre-money valuation and the amount raised for
+all of the transactions that they handled that involved less than $2 million,
+of capital raised. And what you'll see here is that
+the valuation varies by sector. So, consumer hardware is going to
+be different from software. And healthcare pharmaceuticals
+will be different from consumer products or
+Internet commerce. And so, but for instance,
+software companies here, show there's a pre-money
+valuation of about $4 million for companies that are raising about
+$1 million in capital, and so if you're a software company,
+and you're in Silicon Valley, and you're raising capital, the, you could
+use this data to argue that comparable companies are valued at a pre-money
+valuation of about $4 million. And in that case, you probably wouldn't
+want to set your valuation at $1 million, or conversely at $10 million. It's probably going to be somewhere in the
+neighborhood of $4 million in this seed stage investment, that is, in a setting
+where you're raising about $1 million. This approach makes sense in
+a well defined category for venture backed companies, where you can actually get data on the
+prices at which the transactions occurred. The third approach you can take is
+to discount some future outcome, based on time and on risk. And, that's sort of an arcane, and
+I realize, not too clear of a description. To make matters worse, I'm going to
+give you an acronym, which is PWERM, which stands for probability
+weighted expected return method. And that mouthful refers
+to an approach that's taken in investment banking to
+estimate the value of companies. And the PWERM method is actually not so
+complicated, but I'm going to walk you through the steps. The first thing you do is
+you define several different outcome scenarios that could
+occur at some future date. And I'll give you an example, in a minute. Secondly, you estimate the probability
+of each of those outcomes. Third, you calculate
+a risk-adjusted future value, which takes into account what those scenarios
+are worth and their probabilities. And then fourth, you discount that
+future value back to the present, accounting for the investor's
+opportunity cost of capital. Now, I realize those may
+be very unfamiliar terms. So let me walk you through
+a specific example. Let's imagine you're trying to value your
+company, and that you can imagine that one year from now, 12 months from now,
+there might be four possible outcomes. The first possible outcome is that
+everything is going just as you planned. And you actually are successful
+in raising venture capital at a $4 million pre-money valuation. Now by definition, in that scenario,
+your company is worth $4 million. That's what it means for a venture capital to invest in you
+at a $4 million pre-money valuation. So let's call that the first scenario,
+everything goes just as planned and your company is worth $4 million as
+evidenced by a venture capital transaction that occurs one year from now. Now a second scenario is that progress
+is actually slower than expected, and you have to take another angel
+investment at a much lower valuation, let's say $2 million. The third scenario you might consider is
+that things are going quite badly, and you're forced to sell your
+business to a competitor in what might be considered
+a distressed sale. And maybe you would get
+$500,000 from that transaction. And then the fourth scenario is that
+your company fails, you go bankrupt, and nobody gets anything. So those are four scenarios. The next step is to assign
+probabilities to those scenarios. Now in this example,
+I've simply assigned even probabilities. So I've said there are four scenarios, let's assume that there's a 25%
+chance of each of these outcomes. And in the absence of better information, a sort of even probability
+distribution is not a bad way to go. But, I would say, if you have some
+better information or some better way to estimate what you really think the
+likelihood of the different scenarios is, you could use that. They don't have to be even chances
+of all the different scenarios. Okay, now if you have a 25%
+chance of getting $4 million, then that scenario is worth,
+on a risk adjusted basis, $1 million. That's 25% of 4 million. The second scenario,
+it's worth 25% of 2 million, or $500,000. The third scenario,
+it's worth 25% of $500,000 or $125,000. And the fourth scenario,
+it's 25% of 0 which is still 0. So in calculating a risk
+adjusted future value, you simply add up those probabilities
+times those outcomes and you get $1.625 million. And that's what I call the risk
+adjusted future value of the company. Which means, all that's equal, accounting
+for the different probabilities of the different scenarios, one year from
+now, we expect the business to be worth, on average, averaged across all the things
+that might happen, $1.625 million. Now, the problem is,
+that's $1.625 million one year from now, and you want your investor to
+give you some money today. And so you have to account for the fact that that's a future value,
+that's a value that's out a year from now. And so, you need to discount that
+future value back to the present. Accounting for
+the investors opportunity cost of capital. Now the subject of the topic of how
+to calculate the opportunity cost of capital is fairly complex and is
+the subject of a corporate finance course. But I'm just going to assert that for most
+venture investments, the opportunity cost of capital for investments of
+this type is probably around 20%. And so if you take that 20% and
+discount it back to today, then you are simply taking 1.625
+million dividing it by 1.2 and that results in a present day
+valuation of 1,354,000 and yes $167. So that, I don't want to with that
+precision suggest that this is a precise value. But that's just how
+the arithmetic works out. So that approach, called PWERM,
+basically says, hey, maybe I can't estimate the value today, but
+I have a better chance of estimating some future scenarios at some future point,
+and putting some probabilities on those. And so I'm going to use
+those future scenarios and probabilities to estimate some
+risk adjusted future value and then I'm going to discount
+it back to the present. If you're not comfortable
+with those calculations, talk to a friend who's
+really good at finance. They'll probably already know
+about the PWERM method and they could help you think
+through those scenarios. And let me just say one
+other thing about PWERM. I have never seen that calculation
+done in public between an investor and an entrepreneur. It's a little bit academic,
+it's a little bit analytical and it's so dependent on assumptions that
+I think it's primarily a method that you would use yourself to get
+comfortable with what do I really think is the future value of this business and
+how would I account for the risk. You would use it to calibrate your
+intuition, I don't think I would use it, for instance,
+in a business plan to set valuation. The fourth method that you can use is
+to base a valuation on actual earnings. Now, of course, the problem with this method is that
+you probably don't have earnings yet. And so valuations based on
+earnings typically apply to later stage transactions in which
+the company has an operating history and actually does have earnings. And so, in many respects,
+this fourth method is more relevant for an acquisition, for an outright sale
+of an ongoing company than it is for an investment in the early stages. Nevertheless, the method usually involves
+taking what's called the EBITDA, or the earnings before interest, taxes,
+depreciation, and amortization. Think of this as effectively the cash
+flow that the company generates. Taken that EBITDA, or
+the cash flow the company generates, and multiplying it times some multiple. And the logic here would be, let's imagine that your company is
+generating $1 million per year in cash, what would it be worth to an investor
+to acquire that entire company? That is,
+what would an investor be willing to pay to have an income stream
+of $1 million per year? Now, the problem with this method
+is that the multiples themselves depend on lots of other factors. And it's quite easy to imagine scenarios
+in which the multiple would only be 5x, that is, where you would only
+be able to sell the business for five times the annual earnings. And that would be a scenario in which
+the company isn't growing very fast. Or faces a lot of risks out in the future, where those cash flows
+are quite uncertain. That would explain a multiple of about 5x. You can also imagine a scenario where
+an acquirer would be willing to pay 50x. And that would be a scenario in which
+there was a lot of growth anticipated. And where the company had a very strong,
+competitive position and the competition was likely
+to be weak in the future. To give you some rough numbers,
+on average in the United States public companies are valued at
+about 15 times their EBITDA. That is, an investor is willing
+to pay about 15 times the annual earnings of a company,
+in order to own the company outright. However, some companies are valued
+at much, much more than that. So for instance, Amazon is currently valued at a multiple of
+about 400 times EBITDA. And so that's just to illustrate that
+this method has a lot of uncertainty surrounding the actual multiple that's
+used to multiply times the EBITDA. The last approach you can take, and
+I didn't put a number on it because it's not really an approach to valuation but
+it's an approach to this problem, which is,
+that you can defer the valuation question. And I might just say you kick
+the valuation question down the road. You avoid having to even deal with it,
+you put it off. And the way you can put it
+off is through the use of what's called a convertible note. And the idea here is that the investor,
+instead of agreeing in advance on what the investor gets for
+their cash, the investor lends the money to the company in
+what's called a convertible note. But they lend that money with
+the understanding that when and if a future investment occurs,
+an investment, let's say, a year from now. That that loan will convert to equity, will convert to an ownership stake in
+the company at the future valuation. That is,
+at the valuation that's established later. Probably by a more sophisticated investor,
+maybe a venture capitalist. And so sometimes investors and entrepreneurs don't even want to
+establish the valuation today. They want to kick that
+decision down the road, put it off until a more
+significant transaction happens. Usually, convertible notes,
+there will be an agreement that they convert at a discount,
+discounts often around 20%. So the investor puts some money into the
+company with the assumption that when and if there's a future investment,
+their loan will convert to equity at a discount to what the future
+investment would pay. And that accounts for
+the risk that the investor is taking in providing the money
+earlier in the process. There's often also a cap,
+meaning if things go amazingly well, we agree in advance that my note
+won't convert at a value of any higher than this predetermined cap. Often maybe around 4 to $8 million is often the cap that's used
+in convertible notes. So in sum,
+valuation is critically important when you're taking investor's money
+because the investor wants to know, what do I get in exchange for
+my investment? At the end of the day it's a horse trade,
+it's a negotiation between two parties, but it's very important that you do
+your best to estimate value accurately. Because that's what's fair to investors,
+you want your investor to make money. And you also don't want it to
+be too low because you need to retain an incentive to
+make the business successful. So I've given you four methods,
+you can apply two or three of these methods to
+your particular situation. Get some numbers to help
+calibrate your intuition. Which you can then use in the actual
+negotiation, where you set the value for your company in negotiation
+with an investor.

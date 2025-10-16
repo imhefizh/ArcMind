@@ -1,0 +1,170 @@
+In this module, we shall
+look at how we can use historical data on
+actual purchases to measure price elasticity. We'll do it in the context of the package delivery
+company case. I hope you had a
+chance to attempt the package delivery case, in case you have not, please do so prior to
+studying this module. The data in the case are adapted from an
+HBS case study on FedEx when they launched a new document delivery
+service called Courier Pack. This new service was launched, they had data on prices and
+unit sales for 29 weeks. Even though pricing was not
+a key aspect of this case, I think these data are quite useful in our context of
+measuring price elasticity. The company use
+what we popularly called as penetration
+pricing strategy, which is to start with a low price and slowly
+increase the price, as you can see from the data. The question in front
+of the company is, should they raise
+their price one more time and this time
+by another dollar? As we do not have
+access to cause data, let's focus on the impact of
+price changes on revenues. If you look at the data, they start with a very low
+price of five dollars. They observe some
+unit sales in Week 1, and they keep that same price, and towards Week 7 or so, they raise their price to 8.50. Then they get to Week 13, they raise their price to $10, and then they raise
+their price to 11.50, and right now in week Number 29, the price is at 12.50, and the question is, should they increase their
+price by one more dollar? I'm sure many of you when
+you analyze these data, you use the regression analysis. Once again, if you're not familiar with the
+regression analysis, please look at the module on regression analysis,
+the optional module. It will help you get a better understanding
+of what we mean by regression analysis. But the natural
+thing to do here is, try to relate unit sales to
+price and run a regression. That's what I also did. I'm sure many of you did that. I looked at the results
+and what do I find? I see a positive
+price coefficient. Every time this model will say, If I increase my
+price by one dollar, my unit sales will
+go up by $109. Now that clearly may not
+be a good conclusion, even though we may
+want this to happen, it is unlikely to happen. It's probably there
+is a problem with our analysis that is
+leading to this result. You might see that
+in many cases, wherever a company has launched a new product and is using
+penetration pricing, and the product has
+become successful. Over time, the sales will grow and you'll see a
+positive price coefficient. If you just simply run a regression of
+sales against price. Does it really mean
+that price increases will result in demand
+increases? Probably not. Then it's good to ask
+what else is going on while prices are increasing? Well, maybe most likely the company increased
+its advertising. Most likely there was
+some word of mouth. There was some
+diffusion effects. As the product took off, more people talk to one
+another and the sales spread. If you've just plot
+sales against time, you can see sales are
+increasing with time and what is also happening is price is increasing with time. What you are really observing
+is prices capturing some of the variation that
+is happening with time and time is a surrogate
+for many other things. It could be a surrogate
+for diffusion, word of mouth effect. It could be a surrogate for
+other hidden variables that we don't have access to or the company
+didn't keep a tab on. Maybe they increase their
+sales force also over time. What would be a better way
+to analyze these data? But a better way to do it
+would be to include time as a covariant because it captures or summarizes many other things that are going on
+at the same time. The next analysis I did was run a regression not just with
+price as the x-variable, but also price and weeks
+as the x-variables. When I did that,
+what do we find? We find a very good fit. Again, R square is quite high, but now you see a price
+coefficient of minus 44. What does that mean? Once you take out
+the effect of time, and time is a surrogate
+for word of mouth, it could be a surrogate
+for increase in advertising, increase
+in salesforce. The net effect of price on
+unit sales is negative. That's what you'd expect. Now I have more
+confidence in my analysis that yes if I'm
+increasing price, once you account
+for other things, the effect of price
+is lower unit sales. But then the next question is, what does this price coefficient mean in terms of business terms? What do I do with it? Does it mean demand is elastic because the coefficient
+is more than minus 1? Well, that is not correct because this is the
+coefficient of price, but not the elasticity. We must use this coefficient
+to then compute elasticity. How do we do that? Let's
+say we are in Week 29. Our unit sales are 1,304 in Week 29 and our price was 12.50. What does the model tell us? The model tells us
+is that if I were to increase my price
+by one dollar, the unit sales will
+go down by 44. What does that imply in
+terms of elasticity? Per one dollar change
+in price in terms of percentage terms is one
+dollar divided by 12.50. Where is 12.50 coming from, this is our price in Week 29, so that means an eight
+percent change in price. What is the percentage change in sales predicted by the model? Well, that is 44
+divided by 1304. Where is 44.15 coming from? It is the estimated
+regression coefficient. Where is 1304 coming from? Well, that's the unit
+sales in Week 29. If you look at that,
+that's minus 3.39 percent. What is the estimated
+elasticity? The estimated elasticity
+is percentage change in unit sales divided by
+percentage change in price. That's minus 3.39 divided by 8, which is minus 0.42. What does that mean? It is somewhere between
+zero and minus one, therefore, demand is inelastic. What does it mean for
+demand being inelastic? If we raise prices, revenues will go up. Why? Because if we raise
+price by one percent, the unit sales change
+will be less than one percent because
+the elasticity is less than minus one, or between zero and
+minus one in this case, so our revenues will go up. Our preliminary analysis
+suggest that if we were to increase the price by one dollar our
+revenues will go up. But then there are a number of other questions that we
+should ask ourselves. Can this go on forever? Is elasticity computed
+from past data? Would it work well
+going forward also? We used historical
+data up to week 29, but now we are talking
+about week 30, week 31. Will past data be good enough to predict what
+will happen in the future? You want to be confident of that before you make that
+recommendation. There are two
+things you could do here that I would recommend. One thing you could
+do is ask yourself, is elasticity really changing
+over the last 29 weeks? If it is changing significantly
+over the last 29 weeks, it might change
+going forward also. One way to test that, which I urge you to
+do is to compute this elasticity using
+the same model, maybe in week 13, maybe in week 25, and see how much is the elasticity changing
+from week to week. That would be one way. Another
+more sophisticated way that some of my students
+will do is they would say, "Professor, let's estimate a constant elasticity
+model on this data." If a constant elasticity
+model fits well, it means the assumption of constant elasticity over 29
+weeks is a good assumption. How would you estimate a
+constant elasticity model? Well, you will do
+a log-log model. If you estimate a log-log model, then you get elasticity as
+the coefficient directly. If that model fits
+the data well, what it means is that
+the log-log model or a constant elasticity fitted the data quite well for
+the first 29 weeks. It gives you more confidence that the elasticity
+will be constant, even in week 30, 31 and so on, so your recommendation
+of increasing the price maybe is more robust. If you estimate
+the log-log model, you get a coefficient of
+price which is minus 3.78. Then again, the model
+fits the data quite well. The R squared is quite
+high, therefore, we can now conclude that
+the demand is inelastic, as well as the fact
+that elasticity was quite stable over
+the last 29 weeks. Therefore, with a little
+bit more confidence, we can recommend that this company could increase
+price by one more dollar, and revenues will
+keep going forward. Once again, do keep in mind that even though
+the data were simple, the analysis needed was
+quite sophisticated. Why? Because when you
+have historical data, you don't have as many controls that you might put
+in an experiment. Experiments are
+difficult to conduct, but analysis is easy. Historical data, you might get naturally from the market, but the analysis has to be sophisticated because you
+don't have the controls. Once again, reflecting back
+on different methods of measuring price elasticity
+or price sensitivity, there are many, many
+different approaches. But at the end of the day, they fall in four basic buckets. Those buckets are determined by what are you measuring and
+how are you measuring. The variable being
+measured could be actual purchase or it could be preferences
+and intentions. The conditions of measurement
+could be natural, which means data coming from the market or measured
+in a controlled setting, like an in-store experiment or a laboratory experiment
+or an AB testing. Actual purchases in natural
+settings is what we did in the Korean pack case or in the package
+delivery company case. Preferences and intentions, we did that in our first survey where we did the survey across five
+groups of buyers. Different methods
+but all of them fall under these
+four basic buckets. If you look at
+comparisons of methods, historical data if
+analyzed carefully can give quite good measures
+of price elasticity. Good estimates within the
+existing range of operations. Going beyond the
+range of operation, you have to be very careful, like we did in this
+specific example. You must ensure
+good controls also. What we find is when we
+could look at experiments, the estimates of price
+elasticity computed in experiments
+invariably are higher than actual numbers
+that we observe, but we can always scale them back because they are
+predictably higher.

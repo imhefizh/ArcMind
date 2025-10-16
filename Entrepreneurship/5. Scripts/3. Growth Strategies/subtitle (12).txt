@@ -1,0 +1,247 @@
+One of the key concepts in
+making good pricing decisions, and one of the
+fundamental concepts is the concept of
+price elasticity. When I asked the
+question to my class, what is price elasticity? The most common answer I get is, it's an indicator of how sales change when you change price. While this answer is not wrong, it is not accurate either. It's very important for
+us to understand what precisely do we mean
+by price elasticity. For example, the word sales means different things
+to different people. For some, sales is
+how many bags of fertilizer we sell and
+to other sales might mean how many dollars sales
+of fertilizer we get, so we need to be more precise. Price elasticity is about how unit sales are
+affected by price changes. But even that is
+not precise enough, we need to be even more
+precise than that. The more formal definition
+of price elasticity is how much is the percentage change in unit sales for a one
+percent change in price. Price elasticity
+mathematically is percentage change in unit sales divided by percentage
+change in price. You might ask, why do
+we make our lives so complicated by dealing
+with percentages? We have to create a
+percentage on the top as well as a percentage for
+the denominator, why bother? There are many reasons. But an easy one to
+appreciate is that you do not want a
+concept such as price elasticity or its
+measurement to change just because you measure quantities
+in thousands or hundreds, or tons or pounds, or price in dollars or cents. The price elasticity for any particular product or a service is inherent to
+that product or a service, say, price elasticity of beer versus price
+elasticity of scotch. Why should it be different
+whether you measure price in dollars or in cents? Price elasticity of steel. Why should it be different
+whether you measure steel in pounds or in tons? What a percentage to percentage does is takes those units away. Elasticity is a pure number and it does not matter whether
+we're talking about meters, pounds, gallons, tons,
+dollars, or euros. That's not the only reason why we do a percentage
+over percentage, but that's one of the reasons. Oftentimes we hear business
+people use the phrase, my demand is elastic or
+my demand is inelastic. What do we mean by
+elastic or inelastic? When I asked this
+question in the class, the typical answer
+I get is Professor, it's about whether demand
+changes with price or not. Well, once again, this is not a wrong answer, but it's not a precise answer and it's good to be precise. When we talk about
+elastic or inelastic, our conversation shifts from
+unit sales to revenues. Let's look at the next concept, which is what we call as
+a revenue elasticity. As you can imagine, if price elasticity was
+percentage change in unit sales divided by
+percentage change in price, then revenue elasticity would
+be percentage change in revenue divided by
+percentage change in price. I think we could go through this and some of you
+may remember from your high school
+days the concept of chain rule from calculus. I want to bug you
+with that today. But using the chain
+rule from calculus, we can show that revenue elasticity is equal to one plus quantity elasticity. What does that mean
+in pragmatic terms? We usually expect
+when we increase price to unit sales to go down. Let's assume that to be
+the case for the moment, it doesn't happen always but let's assume that is the case. If your quantity elasticity
+or your price elasticity is, let's say exactly equal to minus one, what does that mean? A one percentage
+change in price, one percent increase in price reduces your unit sales
+by exactly one percent. That means your price
+elasticity or quantity elasticity is exactly
+equal to minus one. What will be the
+revenue elasticity? Well, the revenue
+elasticity will be 1 plus your quantity elasticity, which is 1 plus minus
+1, which is equal to 0. What does that mean?
+For such a product where your price
+elasticity or quantity elasticity is exactly minus 1, your revenue elasticity
+will be zero. What does that mean? If you lower your
+price by one percent, your unit sales will increase by one percent and your revenues
+will remain the same. If you lower your price
+by one percent and your price elasticity
+happens to be minus 1, then again, your revenue
+elasticity will be zero. If your price elasticity is
+exactly equal to minus 1, then your revenue
+elasticity is zero. If your price elasticity
+happens to be more than minus 1 by more, I mean more negative
+than minus 1. Let's say it's minus 2. You lower your price
+by one percent, your unit sales will increase by two percent and your revenue
+will go up by one percent. Why? Because 1 plus
+minus 2 is minus 1, you lower your price
+by one percent, your revenues will go
+up by one percent. How does this relate to
+being elastic or inelastic? The simple answer is, if you are lowering prices
+and your revenue goes up, then your demand is
+considered to be elastic. If you're lowering price by, let's say one percent and
+your revenue goes down, then your demand is
+considered to be inelastic. In other words, if
+your price elasticity is somewhere between
+zero and minus 1, your demand is inelastic
+because your revenues will go down when you lower
+your price by one percent. If your demand is elastic, what does that mean? Your demand elasticity or your price elasticity is more negative than minus
+1, say minus 2, minus 3, then when you lower
+your price by one percent, your demand will go up by more than one percent,
+say two percent. If your elasticity is minus 2 and your revenues will
+go up by one percent, and we say demand is elastic. Therefore, again,
+summarizing, elastic or inelastic has
+something to do with the impact of price
+changes on revenues. If your revenue elasticity
+is in the right direction, you lower your price, your revenues will go up. It all depends on the magnitude
+of your price elasticity, or in other words, what we
+call as quantity elasticity. Let's now talk about another concept which is
+a little more complex, but actually quite important, and that is the concept of
+break-even profit elasticity. What do we mean by break-even
+profit elasticity? It means really in simple terms, what is the price elasticity needed for profits
+to break even? Not revenues, but profits. Again, going back to revenues. What is the break-even
+revenue elasticity? If you remember, at what elasticity do
+revenues remain the same? The answer is minus 1. Breakeven revenue
+elasticity is minus 1. It doesn't depend on
+what business you're in. It doesn't depend
+on whether you are selling steel or copper, whether you're selling
+beer or scotch. Your breakeven revenue
+elasticity is always minus 1. But your break-even
+profit elasticity will depend on what
+business you're in. In this process, it
+also helps us link cost structure to
+elasticity and profits. Let's put it in a context. Let's think of a company
+called Admiral Electric, which has three different
+products or business groups, and this company is
+thinking about changing the price of these products
+or business groups. The contribution margin for
+the three business groups or three products are 85 percent, 55 percent, and 15 percent. The company is facing
+some pressures from the market and is thinking of lowering prices
+by five percent. You are sitting as an
+analyst or in the company, and you are asking the question, will such a price
+change work out? Or in other words, what will be the
+potential impact of such a price change on profits? Will profits increase
+or not increase? I think this is a very
+important question. Let's see how we tackle this. A little bit of algebra, but not very complex. I think it will help us ground ourselves
+in the concept of break-even profit elasticity or the elasticity needed
+to break even. Let's think of p_0 being
+our initial price, q_0 being our initial demand, and let's say c is the cost
+or the variable cost of product that doesn't
+change with price. Let's say we are
+contemplating a new price, p_1, and that might lead
+to a new demand q_1. What is the break-even
+profit condition? The break-even profit condition
+would be p_1 minus c, which is the new margin, times q_1 which is
+the new demand, is equal to p_0 minus c, which is the old margin, times the old unit sales, q_0. So that'll be our
+break-even condition. We can rewrite this
+using a little bit of algebra as q_1 divided by q_0 is equal to p_0 minus c divided by p_1
+minus c. All we did was, we took q_0 from the right-hand side to
+the left-hand side, and we took p_1 minus c from the left-hand side
+to the right-hand side. Quite simple. The next step would be to subtract
+one from each side, both the left-hand side and
+the right-hand side and simplify. What do you get? You get q_1 minus q_0 over q_0 on the left-hand side,
+and the right-hand side, the numerator is p_0 minus
+c minus p_1 minus c, divided by p_1 minus c, which can be simplified further. The numerator is just p_1 minus p_0 and divide it by the denominator where we are adding and
+subtracting a p_0, p_1 minus p_0 plus p_0 minus c. I think you're already seeing some
+interesting terms emerging, and you will see more of
+that in the next step. Let's divide the
+right-hand side, both the numerator
+and the denominator, by p_0. What do we get? The left-hand side is q_1
+minus q_0 divided by q_0, which is nothing but the
+percentage change in quantity. On the right-hand
+side, the numerator is percentage change in price, p_1 minus p_0 divided by p_0. In the denominator, we also
+have two interesting terms. The first one is
+nothing but again, the percentage change in price that is being
+contemplated. The second term is
+percentage margin, the original percentage margin, which is p_0 minus
+c divided by p_0. One more step and we are done. We take the numerator from the right-hand side down
+to the left-hand side. What do we have on
+the left-hand side? Q_1 minus q_0 divided by q_0, divided by p_1 minus p_0
+divided by p_0. What is that? Most of you will
+recognize that it is percentage change in unit sales divided by percentage
+change in price, and that is elasticity. What do we have on
+the right-hand side? We have minus 1 in the numerator and then two interesting
+terms in the denominator. The first term is just the
+percentage change in price, and the second term is just the initial
+contribution margin. Now we have an
+interesting relationship that allows us to
+answer the question. When Admiral Electric is planning to change its
+price by five percent, what will be the
+elasticity needed to break even for
+different business units? Let's try answering that. Once again, break-even
+profit elasticity or the elasticity needed to break even on
+profits is minus 1 divided by two terms, percentage contribution margin and percentage price change. Let's implement that in the
+context of Admiral Electric. Let's start with
+business unit 1. Its original margin
+is 15 percent, and we are thinking of lowering
+price by five percent, then the elasticity needed
+to break even on profits will be minus 1 divided by 0.15, which is our original
+margin, minus 0.05, which is the five percent
+reduction in price, which is then minus 1
+divided by 0.1 minus 10. What does that mean? For a business unit
+with 15 percent margin, the elasticity needed to
+break even will be minus 10. Let's think of the
+second business unit, where the original gross
+margin was 25 percent, and once again, we
+are planning to decrease prices by five percent. The elasticity needed to
+break-even on profits here would be minus 1 divided by 0.25, which is the percentage
+gross margin of the business unit minus 0.05, which is the five
+percent price reduction we are contemplating. That's minus 1 divided by 0.2, which is minus 5. Finally, for the 55
+percent gross margin, the original gross
+margin is 55 percent. We are planning to
+lower the price by five percent and the break-even
+profit elasticity will be 0.55 minus 0.05
+inverted minus 2. If we have three
+business units with 15 percent, 25 percent, and 55 percent margins, you can see the break-even profit elasticities
+are different. If we had another business
+unit with 85 percent margin, we can do that calculation also and you will
+get minus 1.25. Next question is, what
+does this all mean? What does an
+elasticity of 10 mean? When I ask this
+question in the class, some people very
+quickly will answer, "Professor, it means demand
+needs to go up 10 times." Well, that is not
+the correct answer, even though that may appear
+to be the correct answer, because elasticity of minus 10, it's percentage change in demand divided by percentage
+change in price, but remember, we're not
+thinking of one percent, we are thinking of a five
+percent change in price. If a five percent change in price requires an
+elasticity of 10, that means the unit
+sales must go up by 10 times 5 percent
+which is 50 percent. In the business unit with a
+gross margin of 15 percent, unit sales must go
+up by 50 percent or 10 times the percentage
+change in price, which was contemplated
+to be five percent. If your previous market research
+or previous data seem to suggest that such a
+change is not likely, then that means five
+percent change will not work out and if you do it, it lead to lower profits. Maybe for higher-margin
+businesses, it might work out
+because there you need a lower break-even
+profit elasticity. It's important to keep in mind that the break-even profit
+elasticity increases non-linearly when
+margins go down. When margins go down from 55-25, the break-even profit
+elasticity goes from 2-5 when it goes
+down to 15 percent, it goes up to minus 10. It's not increasing
+linearly with margins, it's increasing
+non-linearly with margins. What does that mean in terms of just simple understanding? Highest difficulty in making up for profit losses in
+lower-margin businesses. In fact, the
+difficulty increases non-linearly as your
+margins go down. We learned three important foundation concepts
+in this module. The concept of price elasticity, or simply what some others
+may call demand elasticity. The second concept we learned
+is revenue elasticity. Just like demand
+elasticity says, what is the percentage
+change in demand for a one percent
+change in price? Revenue elasticity is, what is the percentage change in revenues for a one
+percent change in price? Again, revenue elasticity
+is focusing on revenues. When we think of demand
+being elastic or inelastic, our focus is on revenues. Break-even revenue elasticity, we discussed this, but just
+to revise and summarize, break-even revenue elasticity is minus 1 no matter what
+business you are in, whether you are in steel or
+copper, it doesn't matter. In other words, for
+revenues to break even, your elasticity has to be more negative than minus 1 no matter
+what business you are in. Finally, the concept of
+break-even profit elasticity. What is the elasticity needed
+to break even profits? These concepts are
+excellent starting points for making good
+pricing decisions.

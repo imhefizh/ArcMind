@@ -1,0 +1,45 @@
+My name is Karl Ulrich. I'm a professor at the Wharton school. And in this session is called Burn Rate. You're going to here as an entrepreneur
+many times investor asks you, what's your burn rate? Sometimes they're just
+going to say what's the burn? And they mean something very specific, they mean what's your net
+negative cash flow per unit time? Usually it's expressed in monthly terms. So the answer might be my
+burn's around $30,000 a month, that would be an answer
+that you might hear. 30,000 a month by the way
+that's $360,000 a year. So that's a little bit of a scary thought because it means that is
+your net negative cash flow. The money that has to be provided by
+the money you already have in the bank or by money you're going to raise
+in order to support the burn. There are two closely related terms,
+one is called the fume date and the other is called the runway. And I want to just explain
+what these terms are. And I'm going to apologize for all of
+us in the entrepreneurial ecosystem for just mixing metaphors willy nilly here. There's lots of different
+metaphors at play here. But basically the runway is defined
+as how much cash do you have on hand. That is,
+what's the balance in your bank account. Divide that by your burn rate. And that defines your runway. And runway basically means how many
+months do I have before I'm out of cash? What's the money you have in the bank
+divided by your monthly burn? So let's say you have $210,000
+in the checking account, and you're burning $30,000 a month. You're runway is seven months,
+that's the way that calculation works. You're fume date is the date at
+which you have no remaining runway. And so the metaphor, I suppose,
+is you're burning your cash and you fume out or you burn all
+of your cash on the fume date. And so these terms are related
+simply by cash on hand, divided by burn rate, is runway. And the end of the runway, the time at which you hit the end of
+the runway is called your fume date. Sometimes the burn rate is
+not constant and linear. It's not just $30,000 a month. And this might be the case when you have
+some unusual payments that you expect or when know you have a certain investment
+coming in or you have to pay for some inventory and you might experience greater
+than usual cash outflows in some month. And so for that reason,
+most entrepreneurs once they're up and running a little bit, will do much
+more detailed cash flow planning and will actually do a forecast
+of what the cash balance is based on the proforma financial statements
+for their company going forward. And we'll use that to
+determine the fume date. So I'm showing here an example from
+a real company, one I'm an investor in. This graphic is provided every month in a
+presentation that's shared with the Board. And essentially what it does is
+it shows the projected balance of cash out into the future. And if you read this slide,
+you'll see that the forecast is that the company will run out
+of cash in June of year 2017. That's the point at which
+the cash balance goes to zero. So you can approximate your runway,
+your burn rate, your cash flow with a simple term like,
+I'm burning 30,000 a month. But if you have a lot of
+variability in either spending or inflows of revenues, then you want to do
+a more detailed cash flow planning that's going to produce a graphic like this. It will help you much more precisely
+estimate what the fume date is for the company.

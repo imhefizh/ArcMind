@@ -1,0 +1,135 @@
+So, I realize we went through a lot of
+material the last time we spoke about Discovery Driven Planning. So, it's actually a very straightforward
+process, but it can seem very confusing. The best way to learn it is to
+actually work through an example. So, we spent our time last
+time talking about John and Joanne's spreadsheet that they
+built to discover their own plan. We've created a sample one for you to use. And you could find that spreadsheet
+available to you as part of the course and take a look at the better desk case. So, if you look at that, you'll notice
+that there a series of five tabs. The first is the Better Desk story
+that outlines for you the details of the case that we discussed last time,
+so you can see the story of Jon and Joanne and why they're launching
+Better Desk, what their venture idea is. The second tab you'll see is
+the Reverse Income Statement. That's where most of
+the action is happening. In this particular Discovery Driven Plan
+and we'll talk about that in more detail. There's a list of assumptions,
+which again, we discussed. The list of milestones, and then that assumption milestone chart
+that combines the two together. What I'd like you to do is look
+at the Reverse Income Statement. If you remember, the first step in Discovery Driven
+Planning is to start with their goal. So if you look at the top of
+the Reverse Income Statement, you'll see that we've done exactly that. So Mr. and Mrs.
+Smith have a current income of $120,000. Their goal, they're not willing to launch
+their company unless they can make 15% over that. So you see that 115% there, so
+you see the total acquired profits. So that is the first step, and when you
+look at the rest of our income statement as we discuss in the last class,
+you'll see that using the steps 2 and 3, of the discovery driven process
+worked backwards from our goal, thinking about the key activities in our
+business, and outlining those in detail. So that service income statement,
+again take a little time to look at that. And I want to ask you a couple of
+questions and this will work best if you pause the video, seriously and take a few
+minutes to go through the model because really the only way to understand
+this is to play with this a bit. And I can't guarantee it's error-free. We did our best job to build it out. But go through the model and
+consider the following. And think about what are the key
+assumptions of a business? And again, we discussed about ways
+of finding key assumptions in the previous lecture. And are there any missing costs or
+line items? So, please take a few minutes pause,
+go through this, come with your own answer about what
+the key subs the business are and whether obvious missing lines are cause. When I do this for my students,
+we actually do this in class and we actually do pause for
+15 minutes to do this. So take a few minutes to do that, and
+then continue the video when you're ready Okay, I'll trust that you did not
+cheat yourself by skipping ahead. This isn't graded, so
+you can do it however you want. But if you had a chance to look through
+this, there are some missing costs that I noticed when we were
+putting this together, we don't have any information about rent. We don't have any information about taxes. There's no line item, the marketing line
+item is pretty weird because we're taking a percentage of sales for marketing. But don't you usually want to
+spend marketing dollars up front to stimulate sales? We don't have any
+information from website. There's no general and
+administrative expenses. And a sales model seems a little bit
+odd in terms of how it was built. This is very realistic,
+these sets of missing assumptions. It's very common to build a model and
+not have thought about certain key issues. So by spending time going through it, and
+especially if you're able to do that with somebody else, it lets you find
+these key missing issues, right. And I may have missed them, or maybe some
+of them are different than the ones that you have, but
+this gives you a very powerful method of thinking about what you're missing when
+you're doing your assumption planning. So, we've talked about missing costs and
+missing line items. What about the key assumptions,
+the other question I asked? And you may have tried a bunch of
+different techniques but the idea of how you service key assumptions is the
+same as we discussed in the last lecture. The first thing you do [COUGH] is
+you can move the numbers in ranges. What I mean by move in ranges,
+I mean think about what the highest and lowest possible number for
+each assumption is. And try putting in that highest and
+lowest number into the model. So one thing that we had in the model, for example, was the average
+number of desks per order. So if we think that number could
+range from 2 to a 100, put 2 end and put a 100 and
+see how much it affects your outcomes. And in terms of figuring out how
+big those number changes could be, how big the range of possible
+assumption numbers could be, you want to think about what Jon and
+Joanne actually know. So, we're already expecting
+it in the most and therefore they're going to
+be the least uncertainty. In this case I would imagine that
+would be around the production and manufacturing of desk. Because John and Joanne are carpenters,
+they know that market really well. So maybe the cost per desk which I think
+they have is $120 could be between $115 a $125 but it's unlikely they were so bad
+at pricing from talking to suppliers that it could be somewhere between $5 and
+$1000. On the other hand, sales is something
+that we know from the case that Jon and Joanne know much less about. So, it's much more possible
+that the range for things like the number of sales calls per
+day could be much larger both minimum and maximum than what Jon and
+Joanne discussed. And you get more information by
+looking at the quality of the sources. What information do they have? Where is the data for
+the assumptions coming from? If you want to get fancy, you can do the sensitivity analysis by
+moving all of the numbers simultaneously. Or you can just move them individually. What you see on the side of your screen,
+that staircase chart, also called a tornado chart when done
+vertically, is a sensitivity analysis. How much do the profits and the numbers
+change if we move those numbers up and down in their ranges? And this is just one example. I'm not saying these
+are the exact numbers, because again, we made up this case. But you could generate a similar chart by
+moving those numbers in the ranges and then seeing which one has
+the largest possible effect. If you're familiar with more advanced
+techniques like Monte Carlo simulations, which would let you run all the numbers
+and move them simultaneously. This is a chance to do that, as well. But again, if you don't know what that is
+or if you don't have experience with it, you don't need to do a Monte Carlo
+simulation to get answers. The simple sensitivity analysis where
+you move the numbers in each range, use the highest and lowest figures and see what effect it has on your outcome
+is a very powerful in and of itself. So the next step in the business would
+be to match these key assumptions to milestones. So you've just surfaced
+assumptions that might be large. Perhaps that's the direct sales price per
+desk, that might be a very big assumption. So we now have the list of milestones
+that they're hoping to achieve. And we have this assumption that we
+would now identify our key assumptions. We're going to fill in this chart and this
+is something that you should take sometime to do now, to think about when something
+to excel price per desk could be tested. In this case we'd certainly
+contested the market study and we could probably test it in
+the mock up of the sample desk for troops in the simulation of sales and
+marketing. So, is that where we want to test this,
+we have to think about that. And you're going to figure
+out your key assumptions and key milestones by thinking about which
+milestones test the most assumptions. And how early or late this is in
+the process of starting our business. So if our big concern is about
+sales calls and whether or not how many sales calls per day can
+be made or how many desks per order... You'll notice that if we
+look at the milestone chart, we don't really test that until
+fairly later in the business. So perhaps we need to think about a way
+of preselling our product earlier. Maybe we could do this by launching a
+kickstarter campaign to see if people will support this desk,
+maybe we go out, and try and pre-sell to couple architect shops and
+see how many desks we get per order. But there isn't milestone there to
+test then very late in the process so this gives us the idea that maybe we're
+not testing key assumptions early enough. So that Better Desk example, is a great
+way to start building your own model. And again I've heard from many students
+who found this a very useful technique for thinking through their business desk. So even it's not as complex
+as the Better Desk model, you'll still find this be useful. So I strongly recommend building and
+discovering your own plan. And it will take you a couple
+hours of your time, but can save you a thousand of dollars and how many of these numbers makes it big
+different in your long term business. At the same time the problem with
+the discoverage of your model is at steady state right? And your business is
+hopefully growing overtime. This is not a good way to
+model future sales for us, it's a good way to look at a steady state
+model that can give you some insights at your business is not necessarily
+a representation of all the cost and issues that you will be dealing with. So just remember the model it's just
+a model, it's a tool for you to use, it's not a religious scripture. So thinking about using this in that kind
+of way as one of the tools informing you about your assumptions, the next
+steps in your business, future plans. And spend some time looking through
+the Better Desk example to understand how everything is connected and
+how it works together.

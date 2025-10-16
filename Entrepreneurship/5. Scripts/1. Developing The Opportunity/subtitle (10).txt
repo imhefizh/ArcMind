@@ -1,0 +1,160 @@
+This session is called Push, Pull,
+and the Sources of Innovation. Now, why are we talking about innovation? To explain that, we really have to
+look at where advantage comes from for new companies. Ultimately, if you don't have advantage, you're not going to be able to
+earn profits, as an entrepreneur. So let's talk about where
+advantage comes from. First, just for completeness,
+is illegal or regulated monopoly. If you have a monopoly,
+that's the best form of advantage. There are a few enterprises
+that have monopolies. For instance, in China, CCTV,
+the national broadcasting company does have a monopoly on media in China and
+so that's great. If you have that kind of monopoly
+that gives you advantage. I've put it in parentheses here because
+for most of you it's totally irrelevant, but I do want to just put it there for
+completeness. The other source of advantage that
+some companies have is called scale. Meaning you make more of
+something than anyone else. And as a result, because of scale economies,
+your costs are lower than anyone else. That can also give you advantage. Scale is rarely an advantage for
+a new business, so it's rarely relevant to entrepreneurs. Fortunately there's a third
+category of advantage, which is doing something that's valuable,
+better and different. You might have a differentiated product or
+service or have some rare capability
+like cost efficiency, safety, software engineering prowess,
+some kind of other rare capability. For most entrepreneurs you have to
+do something valuable, better and different in order to get advantage. And so this third category of advantage is
+the primary focus for the entrepreneur. I define innovation as a new match
+between a solution and a need. And so in this graphic I represent
+the needs as these targets and the solutions as these arrows. Innovation is creating a new
+match between solution and need. In order to create value in innovation
+three conditions have to hold. First, the need has to be real
+meaning that enough people have a deep enough need that solving
+that problem has economic value. So first the need has to be a real need. Second, your solution actually
+has to meet the need. It has to address the challenge,
+make the pain go away for the customer. And a third condition is that the customer
+has to be willing to pay you more for the solution than it
+costs you to deliver it. And if you as the entrepreneur can
+achieve all three of these conditions, then you can typically create
+value through innovation. Now, there are two different ways to
+find a match between solution and need. The first is a pull. In a pull, we start with the need,
+so, we start with the target, and we basically ask the question,
+how can I solve this particular problem? And then as an entrepreneur,
+I go searching alternative solutions, maybe ten or more solutions, and I select that solution which best
+meets the need at an attractive cost. That's called a pull. Start with a need,
+explore lots of solutions, pick the solution that best meets
+the need at an attractive cost. In fact,
+this is the textbook model of innovation. In fact, this is my textbook. I teach this in my product design class. Start with the need, understand the user
+needs, generate alternative solution concepts, select the solution that best
+meets the need at an attractive cost. Mostly this is the way we
+also proceed in this course. Let me give you an example of the pull. This is Tony Fadell. Tony Fadell was a long time
+employee of Apple computer. He worked for Steve Jobs, and
+he created several generations of iPods, and iPhones, and iPads at Apple. At some point, a few years ago,
+he retired from Apple and he proceeded to build his dream home. When he got near the completion of
+this new house, he went shopping for a thermostat. And he went into the home
+improvement stores, looked at the existing thermostats,
+and said I just can't bring myself to put one of those ugly beige
+boxes on the wall of my new house. All the existing thermostats in the market
+are ugly, they're hard to program and they're hard to use. So I'm going to start
+a thermostat company. That thermostat company became Nest Labs, which was recently acquired by Google for
+$3.2 billion. This is a classic example of a pull. Fadell had a problem. He had the problem himself which
+was that existing thermostats, were ugly, hard to program and
+hard to use. Then he went and created a new solution the Nest Labs
+thermostat to address that problem. That's an example of a pull. One of my former students started
+a company called Stringr. Her name is Lindsey Stewart, and she had been a producer in
+the television news business. And one of the biggest
+problems she faced in news was in sourcing high quality
+video of breaking news. So for instance, if there were a fire
+downtown, she really wanted some video footage of the fire to put
+on the evening news on television. And so she would have to contract with
+a videographer to go get that footage, and to acquire it, and
+then to put it into production. That process was time consuming,
+expensive, and uncertain. And so Lindsey recognized this problem and
+thought there must be a better way. She created the app called Stringr. And the way the app works is a news
+producer can enter the desire for a particular piece of video
+footage on a web based interface. And members of the community, freelance videographers,
+can look at the request for footage and can go out and capture that footage and
+submit it using their mobile phone. And they're automatically paid about
+$80 US for that video footage. Stringr has proved to be a great solution to a problem that Lindsay herself had
+experienced while being a news producer. This is another example of a pull. It started with the need and
+Lindsay went and figured out a solution that
+would address that need. But that pull is just one way to innovate. It starts with the need and
+then goes and tries to find a solution. The innovator can also push. The innovator can start
+with a solution and ask the question, what can I do with this? There must be some need out there
+that my solution would address. Let me give you an example of a push. The inventor, Dean Cayman,
+created a self-balancing wheelchair shown here in this photograph
+meeting with Bill Clinton. The key idea behind the self
+balancing wheelchair, called the iBot,
+was that it could stand up on two wheels, which would allow the user to be at eye
+level with people who were standing up. This product is called the iBot. It was sold by Johnson &
+Johnson as a medical device. But once developed,
+Cayman asked the question. Wow, we have this amazing technology
+to balance a wheelchair on two wheels, I wonder if we could find any
+other application for that? And several of the engineers on
+the development team said, you know what? I bet you could create a platform
+that you could stand on and you could use this self-balancing
+wheelchair technology to create a personal transportation device for
+anyone, whether or not they were disabled. That insight gave rise to the Segway. That was the origin of
+the Segway personal transporter. Shown here is one of the key applications
+that the Segway team eventually found. They found that police
+officer could use the Segway to get around in environments
+in which space was constrained. Where they wanted to be
+able to move slowly, and where they wanted a high
+degree of maneuverability. So shown here is a police
+officer on a Segway. The problem was that once Segway
+proved that police officers wanted a mobility device, a low speed
+mobility device like the Segway, others could think about
+alternative solution concepts. So in fact, once the security market and
+the police market was proven and established, competitors entered
+with alternative solutions. Shown here is a three wheeled
+product from the company T3 Motion. Now a three wheeled personal
+transporter is much less complex and much simpler than a device
+that balances on two wheels. And so T3 was able to sell this
+product at lower prices and with greater performance than the Segway. So if we go back to the three questions
+that have to be answered in order for value to be created,
+the Segway identified a real need for police officers to get around. In fact, the Segway met that need so
+it satisfied criterion two as well. But what they found was that they
+struggled with criterion in three. Is the customer willing to pay more for
+the solution than it costs to deliver it? One of the key problems is that they
+didn't adequately consider what the alternative solution concepts could
+be that could address that same need. Eventually Segway in fact introduced its own three wheeled
+version of its scooter shown here. Again the three wheeled configuration is
+a lower cost, higher performing solution that addresses that same need for
+police officers to get around. The risk with the push approach
+to innovation is that you fail to consider all of the possible solutions
+to the need that you've identified. The innovator who pushes,
+starts with an existing solution and often only considers whether or not their solution will meet
+the need of the target market. That turns out to be a necessary,
+but not sufficient, condition. The innovator also has to consider,
+what would a rival do? What would a rival do who took a poll
+approach, who started with the problem? And tried to identify many
+different solution concepts, and picked the best one. And so if you engage in the push approach
+to innovation, a very important discipline is to say how would a competitor approach
+this problem taking the poll approach. If a competitor were starting from
+scratch, and addressing the problem of mobility for police officers,
+what solution might they come up with? That logic would probably lead you
+to conclude that a three wheeled solution is superior gives better
+performance at a lower price. And would suggest that you should probably
+pursue the three wheeled solution rather than taking your existing
+two wheeled approach and applying it to the target market. I've talked about two approaches to
+a new match between solution and need. One is a pull,
+where we start with the need and then create a solution
+in response to the need. The other is a push, where we start
+with the solution and go look for a need that it can address. But there's another flavor of push that I
+just want to describe for completeness. An example would be the Wright
+brothers and heavier-than-air flight. When the Wright brothers achieved
+the first flight at Kitty Hawk in 1903, they didn't have a particular
+customer in mind. There were no customers clamoring to fly
+around in heavier-than-air aircraft. They had a passion for flight,
+there was broad consensus among everyone really who thought about it
+that it would be an amazing thing if humans could fly like birds, but
+there was no specific market to it. So, to that extent,
+flight was pushed onto the market. It was pushed by enthusiasts
+who had a dream of flying without any particular
+market need in mind. Now what happens is that
+once that artifact, once that approach shows some promise,
+people start to imagine commercial applications and a whole industry
+may develop around the technology. But initially the solution
+is pushed onto the world without any particular
+application in mind. So just for completeness, I want to suggest that
+that's another approach to innovation. It's another flavor of push. It's going to not be terribly
+relevant to most of you. Very few of you will be going and inventing entirely new
+categories of technology, but I do want to recognize it as another
+way that innovation happens in society.

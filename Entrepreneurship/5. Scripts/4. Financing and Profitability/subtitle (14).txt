@@ -1,0 +1,216 @@
+Hi, everyone. This lecture is on entrepreneurial exits,
+and let me start with defining with
+what an entrepreneurial exit is. An entrepreneurial exit is
+some liquidity event for the stakeholders of
+an entrepreneurial company. And these stakeholders are,
+for example, the founders, the investors of the company. And an exit event is some form
+of buyout of those shares that are held formerly by those
+investors or those founders. And it's important because up until
+that event of an entrepreneurial exit or liquidity event, there's a great deal of
+illiquidity in the shares of the company. And so when I speak about liquidity or
+exits, I'm talking very much about
+thinks like buyout of shares, mergers and acquisitions,
+initial public offerings. And of course the alternative to all
+this is to remain in the status quo, that is private ownership of
+the original shares by the founders and by the investors of the company. And why is this an important lecture or
+topic worthy of our time? It's because shareholders ideally would
+assemble a portfolio in their assets, some that are liquid,
+some that are less liquid, with different profiles of returns and
+time horizons. And so this becomes an important event for shareholders because it
+offers some liquidity. And beyond just the cashing out of shares,
+the form of exit that the entrepreneur can choose could have also strategic
+effects, and I'll be speaking about those. And what I'm listing here in the graphic is the day in which Facebook
+is actually going public. That's a big day for
+Facebook because then the shareholders of Facebook are able to achieve
+some liquidity on their shares, they can sell it to
+anyone else in the world. Whereas before that event, there is
+not a well worked out marketplace for the shares of Facebook in
+a more public setting. Let me first talk about
+one important channel, probably the most important channel for
+many entrepreneurs. That is the concept of an acquisition or
+a buyout. This is obviously the phenomenon of
+what I'm showing here on the graphic, Oculus Rift being acquired by Facebook. And if you thought about the pros and
+cons from the entrepreneurial standpoint of why you would want to do this, or what
+would guide you to accept an acquisition offer rather than remain private or
+pursue some other liquidity channel. You often think about things
+like organizational synergy. So if you were Oculus Rift, maybe getting on the Facebook platform
+automatically gives you credibility, automatically gives you a large
+marketplace to sell your product. And will ultimately lead to faster
+traction in which you could grow the pie much larger than in the alternative, if you were to try to remain organic and
+grow your own growth. And so this logic of faster resource
+acquisition, a plug and play if you will, that will hook in to the existing
+assets of the acquiring company, is often one compelling reason
+from the entrepreneur's standpoint to really try to be acquired
+by a more established company. Now the other aspect or
+the other pro of a buyout is that sometimes this could offer
+shareholder liquidity much faster in a more clean way than any alternative. Here I'm talking about the phenomenon of
+basically a buyout of all cash, rather than in shares of the parent company, but
+what's important to note is that there's tremendous amount of heterogeneity in the
+way that these deals are often structured. And so it's important to be mindful
+of the spectrum of alternatives that is ranging from on the one hand all
+cash buyout, all the way to the other end of the spectrum,
+all shares of the parent company. And of course you can have
+any points in between. The big con to an acquisition type
+setting from the entrepreneur standpoint is clearly that you would
+lose control, or possibly lose control. You don't own 100% of the company, maybe you now own a small
+fraction of the company. As a result, you don't have
+the authority to really control the fine grain decisions that you may need, or
+to execute to your particular vision. The alternative to a buyout
+is initial public offering. And let me talk about the pros and cons from the entrepreneur's standpoint
+of this particular exit mode. So one clearer set of pros is
+that oftentimes this could be a name plate or
+credentialing type of activity. Not all companies are able to go public. And so if you thought about visibility or
+brand building, going public on a major exchange
+around the world clearly signals to the outside world that you have arrived,
+that you meet some minimum threshold, and consequently will automatically hopefully
+give you some credentialing or visibility. Another big aspect here that could
+make it attractive to pursue this particular route is that it could
+be a currency for acquisitions. So if Facebook goes public rather
+than being bought out, then all of a sudden it has shares and it could
+try to acquire companies like Instagram, Oculus Rift, what have you, with not
+just cash but also with Facebook stock. And another element of this, similar
+to what we talked about in the buyouts, is sometimes you can achieve
+shareholder liquidity. Now if you are a large shareholder
+like Mark Zuckerberg of Facebook, there's going to be some constraints
+as to how much you could sell Facebook stock on the open market and
+that's regulated. The reason being that if you're
+such a large shareholder, you're not allowed to
+unleash all of your shares. There's going to be lock up periods,
+etc., etc. But by and large, you're able to cash
+out some fraction of your ownership for much liquid cash earn outs with this form of liquidity since
+your just trading on the public markets. Now if you think about some of the cons
+associated with initial public offering, a couple come to mind. So first, the public markets are in
+constant flux and it's really difficult or notoriously difficult to time the market. You don't know exactly when would be
+the most fertile period to enter or to sell shares of your company
+in the open marketplace. And compounding that, there's no objective
+thresholds in which there are some tests which suggest now you
+are ready to be a public company. It's a situation in which
+the investment bankers and financial community try to gauge
+demand for a stock over time and they're trying to,
+as in all financial transactions here, discover the price, given this and
+equilibrate supply and demand. The other aspect of this, of the cons,
+is that there's this notion of costs. And those costs can be both direct and
+indirect. The direct costs are that you have
+to pay typically 7% of your offering to the investment bankers. There's also lawyer fees involved,
+marketing costs and the like. Those would be the direct costs. The indirect cost is that as
+the founder or CEO of your company, you're probably spending less time on
+product development and more time, as you try to ramp up to selling shares to
+the public, on promoting your shares. And so those things in terms
+of managerial attention can impose an indirect cost in terms of using this channel of achieving liquidity
+through initial public offerings. Now here are two very interesting quotes
+that I think are quite illustrative of the type of dynamics that can go
+on with the initial public offering. The first quote here is by
+the founder of Netflix. And what he's pointing out in this
+quote is that when you go public, you also have a responsibility to
+disclose a lot of information, both on a quarterly basis and
+on an annual basis. That's required, at least in
+the United States, by the regulators. Here in the United States it's
+the Securities and Exchange Commission. And that information that's
+disclosed can have implications for your competitive position. In this case, the competitors of Netflix
+could really see how well Netflix is doing, and
+that in itself could incur competition. The second quote of what I'm showing here,
+with regard to public offerings, is that there could be a tremendous amount
+of pressure internal to the company, in this case Google,
+as they are thinking about going public. Because the shareholders,
+in this case the employees and key executives who hold
+the shares of Google, are quite anxious to get some liquidity
+on their shares in the open market. Because they know that if the stock
+does well in the marketplace, then they are able to convert their
+previously illiquid assets and shares of Google into something that's
+quite liquid that could then lead to all kinds of beach vacations and the like. Let me tell you a little bit about
+the US public offering process. And some aspects of this process also
+generalize to the rest of the world. And at the very high level,
+these underwriters, these investment banks,
+try to market the offering, the entrepreneurial company stock,
+to various investor communities. These underwriters are usually
+organized in a syndicate with a lead. So a syndicate is a group
+of investment bankers. There's usually a lead that's
+designated that will be staffed with really trying to take charge and
+to lead the marketing of the offering. And there's a multi-faceted set of duties
+that the lead underwriter takes on. And this an exchange for
+the 7%, in the United States, direct cost of doing
+an initial public offering. So there's a certain amount of due
+diligence associated with the process. Duties associated with
+marketing the offering, trying to understand possible
+demand at different price points. Essentially, trying to discover
+what the demand curve for the shares an offering might be
+at various different prices. There's also responsibility for
+compliance at the regulatory level, and disclosing all the different risks and
+opportunities associated with a stock. Ultimately, the lead
+underwriter is charged with determining the offering size, allocating
+shares to the different investors, and ultimately pricing the offering. One very important aspect for entrepreneurs is a phenomenon
+that's known as underpricing. And what is underpricing? It's typically the difference
+between the price of a stock at the beginning of trading and the close of
+that stock at the end of the trading day. To the extent that
+there's a big difference, typically a run up in
+the price of the stock, that value that's created to the holders,
+the secondary holders of the stock, those gains are not realized by
+the entrepreneurial company. And so rather than those gains accruing
+to the entrepreneurial company, those gains accrue to the day traders or
+the holders of the stock. That's a phenomenon known as underpricing. And underpricing, there's various theories
+as to why underpricing takes place, but you'll note that underpricing is actually
+detrimental to the entrepreneurial company because rather than capturing that
+values to the entrepreneurial company, those gains go to the outside community. There's disagreement among
+financial economists as to why underpricing takes place. One leading theory is that underpricing
+takes place to reward the risk that these early investors take on as to the price
+of the stock after it starts trading. The other duties of the underwriter
+are to monitor the price and to offer price supports along the way. Let me tell you about a little bit of
+research that I've actually conducted on this topic of entrepreneurial exits and
+the relationship with innovation. The research question is, does it actually
+matter from the entrepreneur's standpoint which exact liquidity mode or
+exit mode you choose if you are looking to be
+innovative in the future? Now what's often difficult here
+is establishing a counterfactual. That is, if you conducted an IPO,
+or initial public offering, you cannot almost by definition do
+the thought experiment of what your innovative profile would have looked like
+had you been acquired by another company. And so, what we tried to do in this study
+is to really try to build a control group that tries to compare what if
+Oculus Rift had decided to conduct its own initial public offering rather
+than being acquired by Facebook? What would be the innovative profile
+of these two alternate paths? And to get some insight
+into that exact question, what we did was we built
+a longitudinal data set in the biotechnology industry
+of around 400 companies. Some of these companies completed
+an IPO or a merger and acquisition. Others nearly completed one of these
+events, and they did not complete these events for reasons unrelated to issues
+to do with their innovative potential, but for market changing conditions,
+regulatory reasons and the like. And so, we end up comparing
+the profile of companies that nearly completed an IPO with
+companies that actually completed an IPO. And just to summarize the key
+findings of the study. We find, and again here, we're
+measuring innovation through patenting, and that's an important clear marker in
+the context of the biotechnology industry. We find that private ownership yields
+the best outcomes in terms of innovation, with public ownership the worst,
+and M&A is in between. And we have some theories as
+to why we see these patterns. One leading theory is
+that private ownership, you're operating In the veil of secrecy. You're not disclosing to
+the public what you're doing. As a consequence,
+you're not incurring competitive reaction, much like what we talked
+about in the Netflix example. You're also, in addition to not being
+focused on the near term, what results are you going to be presenting to the
+shareholders next quarter or next year? You're shielded from those pressures, and
+as a consequence one thing we know about innovation is that you need to be able
+to have the freedom to experiment, and that is perhaps widely done or most
+effectively done under private ownership. Public ownership has precisely
+the opposite characteristics there, and perhaps M&A with some
+middling type of profile. And so this is suggestive evidence
+that not only should we think about liquidity and
+exits in the form of the shareholders and what's happening inside
+of your organization. But in terms of the strategic value of
+the exit mode and what path you're placed on as a consequence of the exact
+liquidity mode that you tried to achieve, may also have some implications for
+your going forward profile as suggested in this more specific
+study that I've outlined here. So to conclude this lecture on
+entrepreneurial exits, two main takeaways. The first takeaway is that thinking about
+liquidity is very important because the shareholders of the company, whether
+they be your investors, your executives, your employees who own shares in your
+company, are illiquid up until that point. And so, thinking about the exact
+form of your liquidity mode, exit mode, is going to be
+important from that perspective. Secondly, the other aspects
+here is that the exact form of liquidity mode, whether that be
+initial public offering versus a buyout, versus an acquisition,
+will have implications. Not only at the level of strategy and
+the incentives that are achieved or
+imported in your organization, but it can have dramatic implications as
+well on the type of behavior that likely ensues, including the innovative
+profile of the company going forward.

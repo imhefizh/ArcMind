@@ -1,0 +1,51 @@
+In this module, we will talk about the
+importance of pricing. Setting the price
+is probably one of the most important decision
+an entrepreneur makes. It's not just about
+setting the price but more broadly thinking about what
+is the right revenue model, and price is just
+one part of that. I often say, when
+you set the price, you should focus on
+both the numerator and the denominator. What do I mean by that? It's not just price, but also price per what? Will it be per unit of
+the product or per year? More about this later. People often just think of the numerator and that's
+not a bad place to start. So let's start with that now. Pricing is important, but
+it's hard to do it well. A very nice survey I've done
+for marketing managers, and they were asked, what are the items they
+are well-informed on? They said they are very
+well-informed on variable costs, very well-informed
+on fixed costs, nicely-informed on
+comparative prices, but when it came to product's
+value to the customer, how will the customer respond to price and their acceptance? The level of comfort of most
+managers was not as much. Let's think about how we
+go about setting price and start with the four key inputs
+into pricing decisions. The first key input, of course, is cost. What does it cost me
+to make the product? In most cases, cost provides a floor for what price
+we set, but not always. For example, you might consider freemium pricing in some cases, just as Dropbox did, where you make your product
+free for most people, and then only a few people pay for the higher
+version of the product. In that particular case, Dropbox did not use cost as
+a floor for the product for every customer but kept in mind the overall revenues
+relative to the total costs. The next factor that sets the up is the upper
+bound on the price, which is the maximum
+willingness to pay, or WTP. Economists often refer to it also as the reservation price. We shall study three
+popular methods to measure willingness to pay
+later in this module. The next factor is competition. Competition forces us to charge less than the
+maximum willingness to pay. We may need to give some incentive to the
+potential customers or some incentive to switch
+from what they are doing today to our product
+or our service. This we refer to as accounting
+for switching costs. Finally, our channel
+partners and collaborators also influence
+our pricing decisions. Usually pushing it higher because we have to
+make sure that they also make some money and are
+rewarded for their efforts. Automobile companies charge a higher price to the consumer because the car
+dealers must also make some money
+for their efforts. Many direct-to-consumer
+startups today avoid using channel
+partners to save on this. Tesla also sells directly
+to the customer, and it's changing the
+industry practice here. This is a nice visual that helps us put all these four
+factors together. The willingness to pay sets
+the maximum ceiling price. Cost, in most cases, gives us the floor. Competition forces
+us to charge a little bit lower than the
+maximum willingness to pay, and our collaborators and
+our channel partners, keeping their interests in mind, we are forced to charge a little bit higher than the costs.

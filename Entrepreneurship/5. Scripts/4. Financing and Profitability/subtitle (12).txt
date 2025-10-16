@@ -1,0 +1,207 @@
+It's time to talk pitch decks
+and executive summaries. Now, I want to tell you an important caveat
+before we got going, which is what I'm
+telling you right now. In 2018, is the way
+current pitch decks are structured and the way
+you currently pitch to a venture
+capitalist or funder. Five years from now, it
+may be very different. When I was launching
+my company 15 years, 10 years ago, instead of sending our pitch decks we would send out a 100 page business plans. So in 10 years, you might be sending
+out singing telegram, a virtual reality experience, some other method of doing this. So there's nothing about pitch decks in particular
+and executive summaries in particular that are universal or will
+always last forever. These are just a wave right
+now, a business described, and there may be future ways
+business described, and future ways that are
+very different from this. So given that caveat, let's talk about what you do
+today to pitch your idea. So as you learn in
+our prior lecture, for introductions you want
+to have an elevator pitch, that's a critical part of
+your pitching toolkit. But when you actually
+get in front of an investor and they ask you to send them
+more information, you will send them one
+of two things: A 10-12 slide deck which
+I'll go through in detail and the executive summary. The executive summary is usually two pages of material that summarizes the job from
+your pitch deck and describes your business
+idea in very clear terms. The evidence that why
+it works and the same other material that you'll see in the pitch deck
+that will describe. So for emailing out, for sending as a contact, if you want a pitch deck
+and an executive summary. That pitch deck will be fairly dense because it's
+designed to be sent, so the slides will
+have lots of details. But it's essentially
+the same pitch deck that you'll be presenting live, just a few more
+words written on it. So what are those 10-12 slides. I'm going to walk you through the traditional 10 slides
+of pitch deck. Again, this is
+socially constructed. If you are watching this in a country other than
+the United States, if you're watching
+this eight years from now, this format of this deck
+might look very different. You can decide looking at the evidence out
+there whether you want to use this approach
+or another approach, but this is the common approach
+that's used today. The first slide you'll
+be presenting is an overview or hook slide. An overview slide is one
+that lays out all of the details of your business idea much like an executive
+summary will do. This is primarily
+used when you're sending out your
+slide deck by email. If you're going to be presenting your slide deck in person, you'll usually use
+a hook instead. A hook is something you intrigued people
+about your product. So you can see an example
+of a hook slide up there. What's the most commonly
+used language in the world? Broken English. It's intriguing, it's interesting,
+the pictures are interesting. This is often where
+you'll tell your story about your business. But it's where you set up
+the idea that you'll then develop further on as your
+pitch deck continuous. So some overview or
+hook, a personal story, an amazing fact, something interesting to intrigue
+people about your product. Next, to introduce the problem. The problem slide tells people about what issue you're
+going to be addressing. There are many problems
+in the world and your customers might have
+many potential problems. The problem slide
+is your chance to focus your listener or your potential investor on the problems that you're
+actually interested in solving, and that your product solves
+better than other people. So there might be problems that your
+product doesn't solve, you won't bring those up here. You're going to bring
+up the problems that you're actually going to address. Here's some examples of
+various problem slides. So one example is simple statistics that show
+you how common a problem is. Another is this example
+of the problem slide, 500,000 people take or pick
+nursing exam every year, 50% of people fail at
+the first time around. That's a really great
+burning problem. In the bottom right,
+you can see an example from a real estate
+start-up showing you how complicated
+the current world of real estate is with
+all of these issues. So the problem slide sets up the problem that
+you're going to solve. The next slide is your solution. This is where you first
+introduce your product, and this is where
+you're going to show how you solve a problem. So once we introduce our
+procedure test-taking software, a 100% of people pass the nursing exam where
+only 50% passed before. When we introduce our product, look at how well we solve
+in the bottom right corner the issue of
+real estate transaction and make it so much easier. In the upper left, you
+can see an example of a physical product, and look at how great
+our solution works. So this is where
+introducing solution, the solution is tied to
+the problem that we're doing and directly
+relate the two. Then the last, the most
+critical first four slides is your technology
+or magic slide. The magic slide is a slide
+that shows you why you have a competitive advantage over anyone else in
+this particular space. So there's lots of
+potential examples here of competitive and technology
+and magic slides. This is a great time
+to show traction. So you can show how your product actually has faster traction, faster pickup than anyone else. So we talked about
+traction earlier that people are actually
+adopting your technology. You would show examples of your technology actually works. You could show some other
+example about why you have competitive advantage
+over other people. Next, do a market sizing slide. The market sizing slide
+is usually a top-up, top-down or bottom-up
+slides, sometimes it's both. Here, you're going to
+show that you have addressable market usually
+at least a billion dollars. If you can, you'll
+show something like your total Customer
+Acquisition Costs, your CAC, and your customer
+Life Time Value, LTV. If your Life Time Value
+is better in your Customer Acquisition Costs, then you're in really good shape. The upper-right corner
+that you can see it's actually
+the original AirB&B, Backwaters call Airbed and Breakfast pitch deck where
+you can see they showed you how big the market is for AirB&B and showed you some of the initial economics
+from an industry. So the idea of
+your market sizing slide is to show that
+your market is attractive and will be large enough to be of interest to
+potential investor. The next slide is usually
+your competition slide. There are really two common ways
+to show competition. The first of those
+is to have a chart, and a chart like this, chart from the original
+Dropbox pitch deck that you would see
+in the upper left. We'll show a variety
+of potential features, our competitive advantages
+that your product might have. It might be faster,
+it might be cheaper, it might be easier to use, and you'll show
+all green check marks for your product and a mix of green and red check marks
+for other products that are your competitors to
+show that you satisfy all these needs that your customers have and
+then other people don't. Now, notice that
+these needs need to line up with what
+you've introduced in the problem solution slide. So there are many ways
+your product might compete with other people, and your competitors are probably better than
+you at some dimensions. Maybe they have better
+customer service. Maybe they have more colors
+that you can pick from. Maybe their tastier. But what you've done in
+your problem slide is help set the ground
+for the competition so that it matches the kinds of
+things that you excel at. You're going to tell people
+that the problem isn't an issue of taste or
+customer service or color, the problem is about
+speed and about cost, which are the things
+you excel in. So you're taking
+those themes for product and solution and you're moving
+those through the competition. The other way to do this is to pick two dimensions
+of competition, say, speed and cost, and then show a pseudo graph
+where your company is in the upper right corner because you're the only people
+who have the fastest and cheapest and everybody else is somewhere else. So the competition
+slide helps show why you're beating
+your competition. It's important to include as many competitors
+as possible because your investors will certainly know if
+you're leaving out competition and it
+will look suspicious. So you want to take
+your competition head-on and show why you'll
+be able to beat them. The next slide is you
+go to market slide. This is going to show how you're competing with other
+customers in the space. What's your customer
+acquisition strategy? If you have tractions and another great time
+to show a traction and to show that you
+actually have customers who are buying your
+product already. In analyses of what slide investors spend
+the most time on, the answer by far
+is this team slide. The team slide is
+the one where we see the most possible investor time, because they want
+to see whether or not they are interested in
+investing your product, and team is among
+the most important factors in making that decision. So your team slide
+will tertiary show hedged shots of
+your company members, titles, and then something
+about their achievements or why they're good at solving
+a particular problem. Next off, projections. Your projections of financials. You generally don't want to
+have a pure numerical slides. Some sort of graphs
+showing your burn rate, your revenue over time, that shows an exponential
+is really good here. Now, you will want to have more detailed financial models, those will come up in discussion, but there may not be
+something that you talk about directly
+in this slide. Then finally, roadmap,
+milestones, and asks. So roadmap would typically show where you are currently and what you're going
+to do in the future. Usually, you want to show roadmap for a year about a third
+of the way through. Your roadmap may have
+many milestones in the future, but you're going to show what
+you're going to accomplish. You may also have an ask. What money you are
+trying to raise? What you're trying to
+accomplish out of this meeting? So you're summarizing things with either a roadmap
+or an ask or both. So that is the 10 slides that you'll traditionally
+used in a pitch. When you send them via email, they'll have a lot
+of words in them. Face-to-face so use
+the same 10 slides, but that might have
+more graphics, less words so they're more
+compelling to present. You'll also likely have some demonstration
+of what you can do. The demo is traditionally done right around
+the third or fourth slide. So usually around the magic
+or solutions slide, you'll show the demo
+of what you can do. Now, that demo can be
+anything from a prototype, a video, an actual
+walk-through of your product,
+customer testimonials, but something to show that
+your product is real, makes a huge difference in convincing people to
+go with your idea. So the last piece of advice. When you're pitching,
+make sure you know your audience in advance, so when you pitch to
+them that you are making a connection with them and that you understand
+their technology level. You're not talking
+over their heads, but you're also not talking
+to them to amateur level. Hook them quickly. Some sort
+of an intro or hook, some sort of demo early
+on is very powerful. You want to demonstrate and show what you can
+do more than tell. So if you can show examples of your products,
+show prototypes, show MVPs, very useful
+to do that here. Be prepared for questions. Usually, this turns into a conversation when
+you're doing a pitch, so you might not get
+through many slides before you start having
+divergent conversations. So you may want to have
+extra slides prepared to allow you to go deeper
+into other topics or have some other method of interrupting your flow and being able to get
+back to it later.

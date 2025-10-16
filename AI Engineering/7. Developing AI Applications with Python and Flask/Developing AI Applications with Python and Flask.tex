@@ -1,0 +1,209 @@
+% section | subsection | subsubsection | paragraph | subparagraph | verbatim | enumerate | item
+
+% Just let it be an Article bro
+\documentclass{article}
+
+% Cover Metadata
+\title{Developing AI Applications with Python and Flask}
+\date{16 Oktober 2025}
+\author{Maulana Hafidz Ismail}
+
+% Equation Setup
+\usepackage{amsmath}
+
+% Image Setup
+\usepackage{graphicx}
+\usepackage{float}
+
+% Link Setup
+\usepackage{hyperref}
+
+% Highlighting Setup
+\usepackage{soul}
+\usepackage{xcolor}
+\sethlcolor{red!30}
+\newcommand{\hlblue}[1]{\sethlcolor{cyan!30}\hl{#1}\sethlcolor{yellow}}
+
+% Line Width
+\sloppy
+\setlength{\emergencystretch}{3em}
+\hbadness=99999
+
+% Code Syntax Setup
+\usepackage{listings}
+\usepackage{xcolor} % untuk warna
+\lstset{
+basicstyle=\ttfamily\small,
+frame=single,
+breaklines=true,
+backgroundcolor=\color{gray!10},
+keywordstyle=\color{blue},
+commentstyle=\color{gray},
+stringstyle=\color{red},
+tabsize=2,
+captionpos=b
+}
+
+% Start of the Article
+\begin{document}
+
+% Cover Page
+\pagenumbering{gobble}
+\maketitle
+\newpage
+
+% Table of Content Page
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% Main Content
+\section{Python Coding Practices and Packaging Concepts}
+\subsection{Introduction}
+Python dengan Flask adalah framework aplikasi web yang ringan dan fleksibel. Framework ini dikenal karena kesederhanaan, minimalis, dan kemudahan penggunaannya. Dirancang sebagai micro-framework yang menyediakan struktur ringan yang memudahkan pengembang membangun aplikasi web dengan cepat dan mudah, tanpa mengorbankan efisiensi dan kemampuan untuk meningkatkan skala proyek dari skala kecil ke aplikasi yang lebih besar dan kompleks.
+
+
+\subsection{Python with Flask for large-scale development}
+Flask adalah pilihan yang baik untuk aplikasi yang lebih kecil dan sederhana. Namun, istilah "mikro" lebih berkaitan dengan apa itu Flask, alih-alih membatasi potensi skalabilitasnya. Flask dapat digunakan untuk sistem berskala besar dan aplikasi yang lebih kompleks dengan memperhatikan persyaratan dan batasan spesifik, perencanaan yang cermat, arsitektur yang baik, dan desain modular. Namun, Flask mungkin memerlukan upaya pengelolaan dan penskalaan yang lebih besar dibandingkan dengan kerangka kerja yang lebih tangguh dan kaya fitur.
+
+Ekosistemnya yang kaya dan tangguh menyediakan alat, pustaka, dan fungsionalitas bagi pengembang untuk menangani tugas-tugas pengembangan web seperti perutean, penanganan permintaan, rendering templat, atau tugas serupa. Caching, penyeimbangan beban, replikasi, dan penyimpanan data Anda secara skalabel dapat membantu mencapai hasil yang optimal.
+
+
+\subsection{Key Flask Capabilities}
+\begin{itemize}
+    \item \textbf{Extensibility and integration}: Flask dapat diperluas dan pengembang dapat menambahkan atau menghapus fitur yang memungkinkan kustomisasi. Flask terintegrasi secara mulus dengan pustaka dan kerangka kerja Python lainnya, memungkinkan pengembang untuk menggabungkan fungsionalitasnya dengan alat dan teknologi lain, sehingga meningkatkan kemampuannya.
+    \item \textbf{Transparent documentation}: Dokumentasi Flask diterbitkan, memungkinkan pengembang untuk menggunakan API dan utilitas internalnya serta menemukan titik kait, penggantian, dan sinyal sesuai kebutuhan.
+    \item \textbf{Custom implementation}: Kustomisasi bawaan dan kelas khusus dapat digunakan untuk hal-hal seperti objek permintaan dan respons. Kelas Flask memiliki banyak metode yang dirancang untuk subkelas. Anda dapat dengan cepat menambahkan atau menyesuaikan perilaku dengan membuat subkelas Flask dan menggunakan subkelas tersebut di mana pun Anda membuat instance kelas aplikasi.
+    \item \textbf{Scaling considerations}: Anda dapat menggunakan penskalaan sedemikian rupa sehingga jika Anda menggandakan jumlah server, Anda akan mendapatkan kinerja sekitar dua kali lipat. Hanya ada satu faktor pembatas terkait penskalaan di Flask, yaitu penggunaan proksi lokal konteks. Proksi ini bergantung pada konteks yang dalam Flask didefinisikan sebagai thread, proses, atau greenlet. Jika server Anda menggunakan jenis konkurensi yang tidak berbasis thread atau greenlet, Flask tidak akan lagi dapat mendukung proksi global ini.
+    \item \textbf{Modular development}: Carilah cara-cara agar proyek Anda dapat direfaktor menjadi kumpulan utilitas dan ekstensi Flask. Jelajahi berbagai ekstensi di komunitas dan cari pola untuk membangun ekstensi Anda sendiri jika Anda tidak menemukan alat yang dibutuhkan. Cara terbaik untuk meningkatkan alat untuk aplikasi yang lebih besar adalah dengan mendapatkan umpan balik dari pengguna.
+\end{itemize}
+
+\subsection{Real-world applications}
+
+Saat ini, Python dengan Flask telah menjadi pilihan populer di kalangan perusahaan besar karena kesederhanaan, fleksibilitas, fleksibilitas, serta kemudahan pembelajaran dan penggunaannya. Desainnya yang minimalis dan sifatnya yang dapat dikustomisasi menjadikannya adaptif, efektif, dan andal untuk kebutuhan pengembangan web skala besar di berbagai industri dan sektor.
+
+Beberapa perusahaan terkemuka, termasuk Netflix, Reddit, Lyft, LinkedIn, Pinterest, dan Uber, memanfaatkan Python dengan Flask dalam tumpukan teknologi mereka untuk layanan atau fungsionalitas backend tertentu. Python Flask menguntungkan perusahaan besar untuk berbagai tujuan seperti pengembangan API, layanan backend, pengembangan cepat, dan pembuatan prototipe, sementara ekstensibilitasnya memfasilitasi penambahan fungsionalitas ke dalam infrastruktur mereka. Hal ini menunjukkan bahwa Python Flask dapat menjadi bagian dari arsitektur yang skalabel jika dikombinasikan dengan strategi dan alat yang tepat.
+
+\subsection{Fase dalam Application Development Lifecycle}
+\begin{itemize}
+    \item Requirement Gathering:
+
+          Mengumpulkan kebutuhan dari pengguna, bisnis, dan teknis.
+          Contoh: Pengguna harus dapat melihat berbagai kamar dan fasilitas yang tersedia.
+    \item Analysis:
+
+          Menganalisis kebutuhan yang telah dikumpulkan untuk merancang solusi yang mungkin.
+          Penting untuk mendokumentasikan semua pembaruan dalam desain.
+    \item Design:
+
+          Merancang solusi lengkap berdasarkan analisis yang dilakukan.
+          Dokumentasi yang jelas dan ringkas diperlukan untuk fase berikutnya.
+    \item Code and Test:
+
+          Menggunakan dokumentasi desain untuk mengkode, menguji, dan merevisi aplikasi hingga memenuhi semua spesifikasi.
+          Unit Testing: Pengujian pada level unit untuk memastikan setiap bagian kode berfungsi sesuai harapan.
+    \item User and System Test:
+
+          Pengujian dari sudut pandang pengguna dan pengujian sistem untuk memastikan aplikasi berfungsi dengan baik.
+          Integration Testing: Memastikan semua program berfungsi setelah diintegrasikan.
+          Performance Testing: Mengukur kecepatan, skalabilitas, dan stabilitas aplikasi.
+    \item Production:
+
+          Aplikasi tersedia untuk pengguna akhir.
+          Aplikasi harus dalam keadaan stabil dan tidak mengalami perubahan besar.
+    \item Maintenance:
+
+          Aplikasi mungkin memerlukan pembaruan atau penambahan fitur baru.
+          Fitur baru harus melalui semua fase sebelumnya sebelum diintegrasikan ke dalam aplikasi yang sudah ada.
+\end{itemize}
+
+\subsection{Praktik Terbaik dalam Pengkodean}
+\begin{itemize}
+    \item Menggunakan beberapa file untuk mengkode berbagai fungsionalitas.
+    \item Membuat program pusat yang memanggil file-file individual untuk menjalankan fungsi tertentu.
+\end{itemize}
+
+\subsection{Web Applications}
+\begin{itemize}
+    \item Definisi: Web application adalah program yang disimpan di server jarak jauh dan diakses melalui internet menggunakan browser. Contoh: situs e-commerce, webmail.
+    \item Komponen: Terdapat tiga komponen utama untuk memproses permintaan klien:
+          \begin{itemize}
+              \item Web Server: Mengelola permintaan yang diajukan.
+              \item App Server: Menjalankan tugas yang diminta.
+              \item Database: Menyimpan informasi yang diperlukan untuk menyelesaikan tugas.
+          \end{itemize}
+    \item Pengembangan: Kode ditulis untuk front-end menggunakan JavaScript, HTML, atau CSS, dan untuk back-end menggunakan Python, Java, atau Ruby.
+\end{itemize}
+
+\subsection{Keuntungan Web Applications}
+\begin{itemize}
+    \item Versi aplikasi yang sama dapat diakses oleh banyak pengguna secara bersamaan.
+    \item Pengguna dapat menggunakan aplikasi dari berbagai platform (desktop, laptop, mobile).
+    \item Aplikasi dapat diakses melalui browser tanpa perlu instalasi.
+\end{itemize}
+
+\subsection{Application Programming Interface (API)}
+\begin{itemize}
+    \item Definisi: API adalah komponen perangkat lunak yang memungkinkan dua aplikasi yang tidak terhubung untuk berkomunikasi. API memiliki aturan dan fungsi standar untuk menentukan data yang dapat diambil atau dimodifikasi.
+    \item Contoh: Aplikasi cuaca yang meminta data dari weather API untuk memberikan ramalan cuaca.
+    \item Arsitektur: API dapat dibangun menggunakan arsitektur seperti \textbf{Representational State Transfer (REST)} atau \textbf{Simple Object Access Protocol (SOAP)}.
+    \item Manfaat API :
+          \begin{itemize}
+              \item Meningkatkan konektivitas antara aplikasi.
+              \item Mendukung tindakan CRUD (Create, Read, Update, Delete).
+              \item Bekerja dengan HTTP verbs seperti PUT, POST, DELETE, dan GET.
+              \item Dapat disesuaikan karena berbasis HTTP.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Perbandingan Web Application dan APIs}
+\begin{itemize}
+    \item Semua web applications adalah APIs, tetapi tidak semua APIs adalah web applications.
+    \item Contoh: Dalam layanan belanja e-commerce, browser bertindak sebagai API yang menghubungkan pengguna dengan web application.
+\end{itemize}
+
+\subsection{PEP-8 Guidelines untuk Keterbacaan Kode}
+\begin{itemize}
+    \item Indentasi: Gunakan empat spasi untuk setiap level indentasi. Ini penting karena editor teks dapat menginterpretasikan tab dengan cara yang berbeda, yang dapat menyebabkan kesalahan format.
+    \item Baris Kosong: Gunakan baris kosong untuk memisahkan fungsi dan kelas. Ini membantu dalam memahami struktur kode dengan lebih baik.
+\end{itemize}
+
+\subsection{Konvensi Pengkodean untuk Konsistensi}
+\begin{itemize}
+    \item Fungsi Terpisah: Buat fungsi terpisah untuk blok kode yang lebih besar. Ini meningkatkan kecepatan eksekusi dan mendukung penggunaan kembali blok kode. Contoh sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+            def function_one(a, b):
+            return a + b
+        \end{lstlisting}
+    \item Penamaan Fungsi dan File: Gunakan huruf kecil dengan garis bawah (lowercase with underscores) untuk nama fungsi dan file. Ini mengikuti konvensi Python yang umum. Contoh: \verb|def calculate_area()|
+    \item Penamaan Kelas: Gunakan CamelCase untuk nama kelas. Ini membantu membedakan antara kelas dan fungsi. Contoh: \verb|class MyClass|
+    \item Konstanta: Gunakan huruf kapital dengan garis bawah untuk nama konstanta. Ini menunjukkan tujuan konstanta tersebut. Contoh: \verb|MAX_FILE_UPLOAD_SIZE|
+\end{itemize}
+
+\subsection{Analisis Kode Statis}
+Analisis kode statis, atau analisis statis, adalah aktivitas verifikasi efisiensi kode aplikasi yang menganalisis kode sumber untuk kualitas, keandalan, dan keamanan tanpa mengeksekusi kode tersebut. Analisis kode statis merupakan bagian penting dari setiap siklus pengembangan aplikasi dan tersedia sebagai bagian dari berbagai kerangka kerja dengan Python.
+
+Salah satu kerangka kerja yang paling populer adalah PyLint. PyLint pada dasarnya mengevaluasi kode berdasarkan kepatuhan terhadap panduan gaya pengkodean PEP8 dan menghasilkan komentar setiap kali menemukan masalah.
+
+\begin{itemize}
+    \item Static Code Analysis: Metode untuk mengevaluasi kode terhadap gaya dan standar yang telah ditentukan tanpa mengeksekusi kode. Ini membantu menemukan masalah seperti kesalahan pemrograman dan pelanggaran standar pengkodean Contoh alat: \textbf{PyLint} digunakan untuk memeriksa kepatuhan kode Python terhadap pedoman PEP-8.
+\end{itemize}
+
+\subsection{}
+\begin{itemize}
+    \item
+\end{itemize}
+
+% New Sec
+\newpage
+\section{Web App Deployment using Flask}
+
+
+% New Sec
+\newpage
+\section{Creating AI Application and Deploy using Flask}
+
+
+
+% END
+\end{document}

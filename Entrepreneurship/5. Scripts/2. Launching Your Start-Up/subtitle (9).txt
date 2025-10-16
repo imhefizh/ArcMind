@@ -1,0 +1,231 @@
+So we've been talking about how
+important getting your founding team balanced right is, and running a startup. But I wanted to talk about the nitty
+gritty of how do you actually incentivize your team, and how do you come to an agreement about
+what your founding team is going to do. So I want to start by giving you
+a little bit of a mini case, let's call this a puzzle. Let's imagine that there are three friends
+in an MBA program, say they're working on an MBA program who come up with
+an idea for a startup together. So they all generate together
+in a brainstorming session, they all agree each of them has
+come up with the idea together. And each agreed to put $10,000 in
+the startup, and they put their cash in. And they each put the same amount of work
+into getting the startup off the ground, interviewing people, doing some of the things we've talked
+about in the lectures you've seen so far. So early days,
+startup has just gotten underway. But they've all put in equal work so
+far, and they agree to split the work into
+three roles, CEO, CTO and CFO. And these are all equally responsible for
+making the company succeed. And they have the same sets of basically
+number of hours of responsibility and criticalness to the company's
+long term success. How should these three
+people divide equity? So let me give you a second
+to think about it. So I actually post this
+question to my MBA students. And I want to give you a little bit of
+Cisco breakdown of the typical answers. So about 40% of perouty of the class tends to want to divide
+equity evenly, which makes sense. All three of these groups of people
+have made some important choices about what to do with their startup, they're
+all doing their jobs to make this happen, they're all investing equal amounts of
+money, they all came here together. So based on the material
+that's happened so far, it isn't an even even equity split,
+so that's what people tend to pick. A smaller group tends to do
+even with some sort of caveats. So they will do some sort of equity or
+vesting provision, which we'll talk about in a second or some other provision
+that will make the division equal, but with some sort of asterisk and
+some sort of potential change. We'll talk about some
+of those in a moment. And then for some reason, about 20% of
+the class just picked something else. So they think the CTO should get more
+equity or the CEO should get more equity or there should be some sort of trial by
+combat where the winner decides things. Some sort of unusual pattern,
+and as you could see, I actually agree with the plurality here. Based on the facts that we've seen so far,
+it makes sense to split the equity evenly. But the problem is that you're basing
+it on what's happened in the past. And what's the danger in start ups is
+not what's happened in the past, but what happens in the future. So a lot of things can
+happen in companies, and I've seen all of these happen
+among student start ups over time. So changes happen in
+the direction of the company. So what happens if you no longer need a
+CFO because the organization no longer has that financial component. You can have new hires. You bring someone else on who's new and
+important in your organization and they need an equity stake and
+maybe they're more senior. What do they get or
+what role do they have? There can be changes in
+personal circumstances. Someone can get sick, someone can decide to leave the job
+because they're having emotional issues. There could be a crisis of some sort
+that happened inside the organization, and it could be inter-group politics. It turns out that two out of three
+founders may end up turning on the third one. So these are all issues that can happen
+inside organizations and do happen. These are the uncertainties
+that can cause major concerns. So you need to think about not just
+what's happened in the past and what you're planning on
+doing in the future. But also what might happen that's going to
+change direction of your company and we call this uncertainty. And I think it's worth hearing about
+someone who may not know a lot about a lot of topics, but certainly knows
+something about uncertainty and getting their impressions about what the
+categories are we have to worry about are. >> There are known knowns,
+there are things we know, we know. We also know there are known unknowns. That is to say, we know there's
+some things we do not know, but there are also unknown unknowns. The ones we don't know, we don't know. >> [LAUGH]
+>> So that is of course, Donald Rumsfeld who was the US Department
+of Defense Secretary during the Gulf War, or the second Gulf War. The invasion of Iraq,
+and he famously said, when answering the question about what's
+going to happen in the future and we got a big laugh at the time,
+the statement that you just saw. But I think all else aside, this is one of the most profound
+epistemological statements about uncertainty that you're likely to
+get outside of philosophy course. So let's look at what
+Rumsfeld actually said here. He said, there are no unknowns. These are things we know, we know. So what do we call known knowns? We call those things facts. Known knowns are things that we
+actually have certainty around. So in that little example that I
+gave you about the founding team, what are the known knowns that the team
+all came with the idea together, that the team decided to divide
+the roles evenly at that point. That they had all put in $10,000. Those are facts and definitely
+important in making the decision about how you're going to divide equity. But then there are also known unknowns,
+things that we know we don't know. So what are things we know we don't know? Well, there's a lot of things
+that happen in organizations. We know that people who may or many not
+end up deciding to take a full time job or quit their job to join your startup. You know that you may need to raise
+funds from the organization from some organization, but you don't know who it
+is going to be from or at what point. These are known unknowns. You know that these are uncertainties
+in your organization, but you know that something is
+going to answer these questions. You have to figure out how
+you're going to get fundraising. People have to quit their job
+to join your startup or not. So you can design systems and
+we call this continuous improvisations like vesting that help
+address these sets of issues. So vesting would give you
+difference to amounts of equity if you decide to leave your
+organization versus not. If you decide to keep working for
+your start up or not. So you can write contracts around
+these sort of known and unknowns and address these kinds of uncertainties. That found we have unknown unknowns,
+things we don't know we don't know. And those are some of
+the examples I gave you earlier. What if somebody has a family and
+decides to leave your organization? What if the direction of your
+company changes radically? What if a natural disaster occurs? All of these things can radically change
+the direction of your company and yet, they're not taken into account if
+you simply divide equity evenly. So you need to think about all three
+categories of knowledge, known knowns, facts, known unknowns, uncertainties and
+unknown unknowns that are risks. So these three categories of
+knowledge are actually very important when you create a founding agreement. If you want to know the details of
+a nitty gritty equity division, professor Karl Ulrich has a talk
+on that that you can also view. But I want you to think about the terms
+that go into a founding agreement and the ways that you're going to
+divide founding responsibilities. So first you want to think
+about your knowns knowns. These are the facts and
+again, in our mini example, this is the $10,000 everyone put in, the
+fact they all generated the idea together. These you deal with standard
+provisions in a contract. So everyone gets 5%
+equity in your company, because they all played an equal
+role in coming up with the idea. Then you have known unknowns,
+these are those uncertainties. Are people going to leave their
+job to join your company? Are you going to raise fundraising from
+the brother of one of the founders you're bringing in for that reason? You can address this through that
+we call contingent provisions. The most famous contingent
+provision is vesting. So vesting suggest that everyone is given
+a certain amount of equity that they're entitle to earn, say 20% of the company. But with that vesting
+only happens overtime. So there might be cliff vesting, which
+means that at the end of time period, say the first year, you automatically get,
+if you're still with the company, a quarter of the shares that you're owed,. And then every month, there might be additional shares
+allocated to you at that point. But you can actually make more
+sophisticated sets of vesting agreements. So you could have differential vesting. So if somebody is working full-time at the
+company, they earn equity at a faster rate than someone who ends up deciding to
+stay at their full-time organization and just work for you night and weekends. You can also write contingent provisions
+around the first person to bring us a investment source that we all agree to
+use yet an additional 3 or 4% equity. So you can actually have milestones, and
+those milestones can trigger equity or cash payment. So those are contiguous revisions that'll
+let you deal with known unknowns. These uncertainties that you
+know about in advance, but you don't know how they're
+going to play out. So how deal with unknown unknowns? These sort of existential risks
+the companies that somebody gets sick or has a family member that falls ill or
+the direction of the company changes. Well, there's two potential
+ways of dealing with this. The first sounds cheesy, but it's incredibly important which is
+building trust among team members. If you are not regularly talking with
+the other members of your team about your underlying feelings about the
+company, your concerns and your worries, if you're sweeping that stuff under
+the carpet, you are in a lot of danger. Because when things change, all of those implicit agreements
+between people fall apart. So you need to build trust by continually
+talking about how you feel about your organization, how things are going,
+and being open and honest. You also can create what
+we call unequal equality, which I referenced in a prior video. Unequal equality is about giving, even though you might have equal
+divisions of labor between people, you might give somebody decision
+rights in the event of a crisis. So if there's a crisis involving
+the product and the technology, the CTO gets the final decision regardless
+of what the other founders say. Or if it's a decision about whether or not
+to sell the company or take on investment, the CEO gets the final decision
+regardless of what everybody else says. So this cuts through some of
+the issues around management and it could be built into
+a founders' agreement as well. So you need to think about these issues
+about how you're dividing equity, how you're dividing management responsibility,
+and these are important sets of concerns. And using that known known, known unknown, and unknown unknown
+framework can really help you do that. And again,
+these are not blindly theoretical issues. So this is from some work by Noam
+Wasserman looking at the various, outcomes for startups over time depending on the
+decisions they make and company founding. And what you'll see here is a chart, and a
+plus on the chart indicates the company's chance of survival relative
+to the baseline is increased. So the company's more likely to survive
+and minus means less likely to survive, and a blank space means there's
+no difference in survival rates. And what you can see is over 6 month,
+12 month and 18 month, and 24 month time span, what impact various choices have
+on the chance of the company surviving. So if everyone in the founder team invests
+the same amount of money in the startup, then that increases the chance
+of the company surviving, why? Because everyone has
+equal skin in the game. So everyone has put the same amount
+of cash in among the founding team. The company is more likely to survive, because people feel like everyone
+else is playing an important role. Heterogeneous experience, so that's that diverse background that I
+referred to in prior to discussions. A diverse background makes your
+company more innovative, but it also makes it more
+likely to fall apart. And you can see that fact here, so
+in the first 12 months, having a diverse background in your company increases
+the chance of a company failing. But after that, once you've learned to work together
+that disadvantage disappears. So the cost of being more innovative
+is that the company's chance of failure increased the first 12 months. But then after that you're
+still more innovative and that failure disadvantage disappears. Equal equity split among the founding team
+members increases the chance of survival of your company over the entire
+timeframe of the company. So if you're just blindly
+dividing equity equally, that is generally advantageous
+until something happens in the company that it forces you to
+actually view the company's value as real. So when you're dividing equity just among
+your team and sitting back In your local coffee shop to do that, then the money
+that's involved in the company isn't real money, it's play money, you're sort of
+dividing equity for a theoretical money. But as soon as you raise around a funds or go through some other event that makes
+that valuation of your company real, so it's gone from being we could change the
+world to your company's worth $6 million. That fact that you now have
+to deal with the reality of the value of your company actually
+creates a huge disadvantage for those people who have just
+divided equity blindly evenly. And the reason for
+that is it's very rare for people to actually divide the work evenly. So let's say you've split equity
+with your partner 50, 50. And it turns out you're working many
+more hours than your partner is, and your partner's not really contributing. You might be resentful of that, but while
+there's no actual value of the company, you're likely to sweep
+that stuff under the rug, if you're not having
+regular conversations. But as soon as you raise
+a round of funds and you realize your partner's
+share is worth $3 million, same as yours that cause a resentment can
+actually kill companies at a huge rate. And sometimes even bench or capitalist who want to push out
+non performing team members. So the advantage of equally splitting
+equity becomes disadvantages soon as you raise around the capital. So blind equity splits that's sort of
+just even are generally a bad idea. Now we talked about the relationships
+in previous discussion, and here you can see one of
+those relationship issues. So friends, having raised a company and starting a company with friends
+is not actually advantageous or disadvantageous for company survival
+generally unless you split equity evenly. So you and your friends split equity 50,
+50 in your company. In that case, for the first six months, the chance of the company
+falling apart increases. And I think the reason for that is exactly what we talked about
+before which was, you have a friend. Friendship is important here. You split equity evenly, which means that you're not spending a lot
+of time thinking about who does what. One of you does more work than the other, that cause a resentment
+in the other friends. And I have to make a choice between,
+do I want to resent and be angry at my friend or do I want and
+make the business succeed, or do I want to dissolve the business
+to save the friendship? And what you see is that that's
+the negative in the first six months. If you're going to work through that and if you could find a way to work together
+then that disadvantage disappears. So your company survival
+depends on the set of choices that you are making as a founding team. And again, an equal equity splits
+is not necessarily the way to go. Just dividing equity equal at
+the beginning doesn't make a lot of sense, because it decrease the chance your
+company is surviving in the long term. However, you might think that that's
+the normal way things happen, but this is not the case. So again, looking at some surveys and this
+again backed up a more recent data as well of company founders in technology,
+companies in biotech companies, even equity splits among founders
+is actually not the majority case. Most people divide equity unevenly. So you should feel free to think about
+this issue and think about equity division in a serious and deep way, and not just
+divide equity blindly between people. So what's my fellow advice to you when
+you figure out your founding agreement? You need to think about the known knowns,
+known unknowns and unknown unknowns, and take into account all three of those
+when you're launching your startup. Your choices and your founding
+team have huge consequences for the later development of your company. So thinking about those founding team
+issues and spending time early on matters a huge amount, and
+you shouldn't just go with what's easy. So the easiest thing to do is not have
+discussions and blindly split equity. You need to have serious conversations
+early on because if you don't have them early on, they're going to
+come back to haunt you later. So think about your founding
+teams a serious way. It's one of the most important things
+you can do to be successful as an entrepreneur.

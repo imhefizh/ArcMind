@@ -1,0 +1,237 @@
+Entrepreneurs often come to me and
+say, I've got an idea. I just need someone to build a prototype. Usually that masks a deep misunderstanding of what it takes to get
+a hardware product to market. And it views a Prototype as a single
+endpoint rather than as a process. I'm going to use a bunch of examples to
+illustrate key principles of prototyping. And I'm going to close with a discussion
+of working with suppliers and factories to get Prototypes built. Let me first make a distinction
+between Focused Prototypes and Comprehensive Prototypes. A focused prototype reflects just one or a few dimensions of performance of
+the product that you're developing. These usually are referred to as say,
+test rigs or mock-ups. A Comprehensive Prototype is a fully
+functioning prototype that usually goes through successive refinement and
+often goes by the term, Proof of concept Prototype, Alpha Prototype,
+Beta Prototype, Pre-production Prototype. Let me give you some examples. I worked to develop a new cordless
+nailer as part of a new venture. And one of the concepts
+we were considering was an electric powered cordless nailer. One of the key questions
+the development team faced was, how heavy would the tool be, and
+how would it feel balanced or not? We built this prototype
+to answer that question. This is a Focused Prototype. It's made of plywood with
+steel rods inserted throughout to give it the right weight and
+the right center of gravity. This of course can't be used to
+drive a nail, so it only mirrors one attribute of the product,
+which is what is its size and weight. But we can use it to answer the question
+of does this tool feel light enough and how does it feel in terms of
+the moment of inertia and balance? This is an example of a Focused Prototype. I developed a product called
+the cross rack bicycle rack. The big idea behind the cross rack
+was that it would put the cargo right behind the rider. And it would do so
+by attaching to the seat post. This was the very first
+prototype that I built. It used an old stem from a bicycle. To attach to the seat post. And then I made this in my garage
+just from bent steel tubing. This I called the proof. This is called a proof
+of Concept Prototype. I was actually able to use
+this on my bicycle and to verify that the concept had validity. This is a comprehensive
+proof of concept prototype. This was the second prototype which
+I called the alpha prototype. And this addressed a couple of concerns I
+had with the proof of concept prototype. The first was that the rack
+wasn't big enough and wouldn't accommodate a standard
+bicycle bag and so I made this larger. The second was to accommodate the feedback that it would be nice if I could
+remove the rack from the bicycle. And so I adapted. Another part from an existing bicycle
+rack with another stem from a bicycle in sort of a cobbled together way, in order
+to get that complete functionality. This was an Alpha Comprehensive Prototype. This was the Beta Prototype for
+the cross rack. It has all of the features and
+functionality of the eventual product but it was actually made by the factory
+that would eventually make the product. And I was able to actually give
+this to consumers to test. That's often the characteristics
+of a beta prototype. So, this is a Beta Comprehensive Beta
+Prototype but it still had a few issues, in particular the factory
+got the finish wrong, so this had a glossy finish and
+this had a matte finish and I also recognize that I really wanted
+there to be a little bit of an angle between the way this clamped and
+the angle of the support structure. This is the Pre-production Prototype for
+the cross rack, and this is in every respect the production
+intent design of the cross rack. You can see it even has the logo on it. It's got the proper angle. The surface finishes
+are all exactly the same. In fact, this could have
+been sold to a consumer, and this is an example of
+a Pre-production Prototype. All of those prototypes are examples
+of Comprehensive Prototypes. They're fully functioning but
+they typically go through cycles that help the team achieve milestone and
+demonstrate progress and to workout challenges in the design and
+development of the product. What are the motives for
+building prototypes? Why do you build prototypes? Well for you, for
+the development team itself. You're building prototypes primarily
+to learn, to solve problems and answer questions about do you actually
+have so called product market fit? That is, does your solution actually work to adjust the needs of
+your target customer? What isn't so obvious is that you also
+build prototypes for an external audience. The external audience, for instance, might
+include suppliers, investors and partners. The questions or issues that
+you're typically addressing for an external audience are proving that
+your solution works, technically. Proving that the dogs
+will eat the dog food. That's slang for proving that customers
+will actually adopt your solution. Those prototypes are very useful for
+communicating what it is you're doing, and for demonstrating that you
+as a team can implement. That this isn't just an idea, but you're actually serious about
+implementing the product. Let me give you a few examples. Shown here is a furniture product. It's actually a media stand and the
+production version is shown on the right. But the one on the left was
+made with just found objects bought a home improvement store. That was meant to prove that it would
+accommodate the different elements of the cable box, the DVD player, the remote, those sort of things,
+and would fit in the room. It was probably made for about $10 US worth of materials,
+and probably in a couple of hours. A Quick Prototype to answer questions and
+to learn. Does it fit in the room? Does it accommodate the function
+that it's intended for? This is a prototype that illustrates just
+how simple a prototype can actually be. This was for a cosmetic Concept that
+I was working on with a cofounder. The company was called Blend8. And we just wanted to be able to show
+to others just a representation of what our cosmetic product might look
+like and how the brand would play out. And so we just mocked up
+a label with a laser printer, stuck it on a generic Jar and
+used it in demonstrations. It's very effective as a way to
+communicate that we are serious about this product and the product concept. This is a team of my students in my
+product design class and they had the idea for a clothes iron that was integrated
+with a glove and it's shown there by the woman there in the red sweater,
+she's wearing it on her right hand. And the idea was that after you had your
+clothes on if you had a little wrinkle you could sort of reach with your
+iron glove and take care of it. Now, that may not sound like a great idea
+to you but in fact one of the great things about they're building this prototype
+was they could answer that question, does that work, are you burned,
+can you do it at the right temperatures, how does it feel, how does the customer
+feel about this idea and I show you this example because none of this four students
+really had the technical background. To build a new iron but
+they were able to put together a markup or a demo using found objects. It was actually quite effective in
+demonstrating this product concept. I want to show you a good trick for
+prototype in challenging products where it's very difficult to
+build a Comprehensive Prototype that both works like and
+looks like the production-intent product. This is a prototype that is functional for a nailer concept that we were considering
+In fact, the concept here is to use a small explosive charge to drive
+a piston that then drives the nail. And it integrates the existing nail
+magazine from an existing product with some new hardware that we designed to
+prove out that explosive piston concept. This doesn't really look like a product. It's a works like prototype, but
+it's not a looks like prototype. If I were to show this to investors,
+I don't think they'd be too impressed that this looks like a product, and yet it
+would be quite effective in demonstrating that the core principle
+behind the product works. So what we did was to develop
+a separate looks like prototype. Let me show that to you. This is the looks-like prototype for
+that same concepts. We were able to illustrate
+where the magazine, the strip of explosive
+charges would be stored. We are able to illustrate that it could
+have two handle positions depending on how it would be used, and we were able to
+illustrate the basic aesthetic size and shape and ergonomics, all with a very simple foam prototype that was
+built by a model maker in a few hours. This, of course, doesn't have to work,
+but it is quite effective in illustrating to outsiders what the eventual
+product would look like. So a very nice trick that you can play
+is to use two different prototypes. It looks like and it works like In tandem to illustrate
+what the eventual product will be. I'd now like to walk you
+through the evolution of a product from the original prototype
+all the way through to production and talk about some of the issues that
+arise as you go through the process. Shown here are the eight
+prototypes that I developed to test original solution concepts, and
+they embody many different approaches to the design of an ice cream scoop, and
+they're mostly made of found objects. So if you look at the one
+that's third from the left, it's actually made from a tomato paste
+can and the end of a baseball bat. And it was made in probably 20 or 30 minutes in the shop using
+just conventional shop tools. Some of the others you can see there
+are made by taking existing products and cutting them up and reconfiguring
+them in order to change the geometry. So this gives you a sense of
+the kinds of techniques you can use just to explore solution concepts. Eventually I decided to pursue
+the concept that embodied an angled scoop in which the scoop
+head is angled relative to the handle. One of the key questions was what
+the ergonomics and form of that might be. And so, I built a model out of
+a material called balsa foam, which is just a foam material
+that can be easily sanded and shaped into the desired eventual
+handle and scoop shape. And that's shown here. The problem, of course, is that this
+is just a solid block of foam and can't be used to scoop ice cream. So I had to figure out how
+to make a working prototype from this basic approach. The way I did that was
+to create some drawings, that were dimensioned based on the model. Shown here is one of two drawings that
+I created that were based just on measurements from that foam model,
+that I was quite happy with. I then hired a graduate student here
+at the University of Pennsylvania to create for
+me a computer model from those dimensions. That was a skill I actually
+don't have personally. And so I just hired someone for
+a modest amount of money to be able to create a geometric
+model based on my sketch. Shown here on the left
+is the geometric model, or an image of the geometric model
+that he created in the computer. And once you have that there
+are many suppliers who can create Physical models using
+a technology called 3D printing. So, on the right,
+you can see the 3D printed artifact that came about from the computer model
+that was created from my hand sketch. The 3D printed model on the right is
+one that I could actually use to scoop ice cream, and could verify that. In fact, the handle shape and
+the angled scoop were quite effective. What came next was a series of iterative refinements from the original
+foam model shown on the far left all the way through to the eventual
+production design shown on the far right. I show you this to invoke a little
+bit of humility about what it really takes to build a hardware product. Even for a very simple product like
+a single-part ice cream scoop. We go here through dozens of iterations, each one of which prototyped in
+order to verify the approach. What we eventually end up with on the far
+right became the production version of the scoop, which is shown here,
+sold by the company Belle Vie. This product, if you look at it now,
+looks quite beautiful, looks highly refined,
+looks like it was always meant to be. But what I want to do is to show
+you that behind that experience, behind that result is a lot
+of iteration of dozens of product variations to eventually
+come up with That final product. So, when people say they ned someone
+to help them build a prototype, often, what that masks is a misunderstanding
+of what it actually takes to build even the simplest
+hardware products, which is, it takes a lot of iteration,
+a lot of trial. And a lot of refinement to get
+from original proof of concept through to the final production intent. Let me also say that to really do
+hardware products at a very high level of professional expertise that allows
+you to be successful as an entrepreneur. You absolutely have to have the expertise
+on the team that's appropriate for the task at hand. So while I was adequately skilled to come
+up with the original solution concept of that angled scoop, I don't have, and
+I didn't have, the sophisticated industrial design skills to create that
+beautiful aesthetic final product. For that, I brought in a partner,
+in this case a design firm, Lunar Design, to help me to build
+that additional level of refinement. I want to turn now to the question
+of how to work with suppliers. And I want to give you just two examples
+that represent to two basic approaches that you take to work in with
+suppliers to produce prototypes and ultimately to producing
+your final product. I'm shown here at a factory in
+Taiwan that make die cast parts, that is metal parts that
+are cast by molding machines. And I'm shown here with the plant
+manager in the middle and with my agent on the right. And in this case, the model is
+that I provided to the factory a fully described detailed drawing and set of computer models for exactly
+the part that I wanted them to produce. They then produce that part
+exactly to my specifications, they don't even have to know what
+the part does or what it's for. They're simply working from
+a detailed technical specification usually in a form of a drawing that fully specifies the geometry of the hardware
+that I want them to create. Now, the good news is
+that when you do that, that means they have no proprietary
+information other than the drawing. They don't even know what you're doing,
+necessarily. The bad news is that you
+have to do the hard work of actually creating all the details of
+the design before they can produce it. There's an alternative model called
+the ODM model, which stands for original design manufacturer. I'm shown here meeting with
+an ODM in mainland China. And in this case this is
+a motor manufacturer. And in this case, I went to the motor
+manufacturer and I said, I need a motor that does this, and is about this big,
+and has this kind of torque, and uses this much power, and
+that hopefully I can buy for about $15. And then the factory goes off and
+actually designs that for me, and produces a product to
+my functional specification. Now that, of course, is really nice because I don't have to
+do the work of designing that product. But let's just review
+the basic strategies and approaches you can take to working
+with suppliers for prototypes. In one approach, you work with
+an original design manufacturer. In that case,
+the factory has the know-how. Their staff created a design based on your
+requirements, and the advantage is that they often know how to do that in a way
+that's very efficient to produce. And the design work they do is often free. And I guess by free, I mean it's bundled into the cost
+of procuring the parts from them. The disadvantage is that you have
+nothing proprietary at this point. Anyone could go to that factory and
+give them the requirements and they would produce it
+to those requirements. The alternative is that a factory
+that produces to your proprietary design where you do all
+the design work and where you provide the details of
+what it is you want them to produce. And the advantages and disadvantages
+are exactly complementary to the ODM. That is, their staff doesn't do the work. That means the product might not
+be efficient for them to produce. And you have to pay to get
+the design work done, but the advantage is that you own the design,
+that you keep it completely proprietary. They don't have any of the proprietary
+information that goes into the product. So I guess is you think about
+which approach to take, you ought to think about the source of
+your enterprise's proprietary advantage. Where does your unique
+advantage come from? Do you have something that's unique and
+proprietary in terms of technology? If you do, then you really
+have to own your own design. You have to do the design work required. Bringing to the task partners or experts
+that you either get to join your team or that you contract with very closely. And then you provide the detailed
+specifications to the factory and they produce to your design. That strategy allows you to keep what
+you're doing unique and proprietary. But it comes with it It comes at a cost. Meaning, you have to do the design work,
+you have to have the expertise. So those are the fundamental
+trade-offs you face as you think about working with a supplier
+in order to create prototypes and eventual production units for
+your enterprise.

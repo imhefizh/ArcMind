@@ -1,0 +1,260 @@
+Hi, I'm Kartik Hosanagar, and
+this is a session on digital advertising. Digital advertising or
+paid media offers a plethora of options. Before we discuss what these
+options are and how to use them, it's useful to first talk about the goals
+of an online advertising campaign. For some firms,
+the goal of an online advertising campaign might be to profitably acquire
+customers for the long term. For another firm, it might be to
+support the launch of a product. In which case, the goal might be to maximize customer
+acquisitions given some customer budget. And for someone else, it might be that you
+already are advertising on other channels. And you are looking to advertise online,
+but match the cost per acquisition
+of those other channels. It is important to recognize this, because
+while digital advertising is more targeted than offline advertising,
+it can nonetheless be expensive and not always be profitable, especially
+if your product's price point is low. Next let's talk about the difference
+aspect of digital advertising. As an advertiser, you have many options. One class of options is
+search engine marketing. That is essentially posting ads
+on search engines, like Google. Another option is display ads. These might be images or video ads on
+premium publishers or online blogs. A third option is social ads. This are ads that might appear
+in the social media feeds of your customers on Facebook, on Twitter,
+or other social media platforms. In trying to select the right option for
+you, it is useful to go through the pros and
+cons of each platform. Search engine advertising has
+the advantage that is based on consumer search,
+meaning the customer is pulling information as supposed to you pushing
+information towards the customer. There tends to be high purchase intent, and therefore response rates for search
+engine advertising are usually high. In addition,
+it's a relatively simple format. Search engine ads usually
+involve three lines of text, and can be put together in
+a matter of a couple minutes. On the flip side, because it is
+a very effective marketing medium, search engine advertising
+can also be expensive. Further, you have very limited demographic
+information in search engine advertising. Looking at display ads,
+their main advantage is their reach. Lots of web sites offer advertising, and therefore this is a format that can
+be used to reach lots of consumers. Also there's a lot of ad inventory
+available to display advertising. Finally display ads support a range
+of formats, including images, videos, and interactive images. The flip side is the high variability in
+quality and performance of display ads. Your ad might show up on a premium
+publisher like New York Times or it might show up in a small blog, and the
+performance depends on where it shows up. Furthermore, display ads tend to be
+associated with low customer interest and also poor response rates. Especially with increasing
+ad blocking among consumers, display ads do not have the same kinds
+of effectiveness that they used to have. Finally, talking about social ads,
+the primary advantage of social ads is the range of targeting options
+available on social media platforms. For example, you can target
+customers based on where they work, what's their job title,
+what are their interests, and so on. Secondly, the cost of social media ads can
+be lower than other formats such as search engine advertising, especially in
+instances such as mobile apps. The flip side of social
+media advertising is that it might be harder to quantify
+the benefit of advertising in context where the purchase happens
+after several customer visits. Such as in e-commerce where
+the customer might click on an ad, visit the web site, but come back on
+a later day and purchase the product. And it becomes harder to quantify the
+actual benefit of that social advertising. I'm now going to discuss each
+of these formats in turn. Let's start with search engine marketing. Search engines usually run keyword
+options in a continuous basis to sell ad slots available in
+search engine result pages. To advertise in these
+search engine result pages, advertisers have to follow
+three simple steps. The first is to identify keywords
+that are relevant to your business. For each of these keywords, one next
+designs simple ads and submits a bid which indicates the advertiser's willingness
+to pay per consumer click on that ad. Then based on the performance of each ad, advertisers can then refine
+their advertising policies. For example, lower their bids for
+poor performing ads or keywords and increase their bids for
+ads that are doing very well. These three steps of keyword selection,
+ad design and bidding, and finally optimization make up the three
+key pillars of search engine marketing. First in terms of keyword creation,
+advertisers identify a list of keywords that consumers might
+type in search engines and that are relevant to the business. For example, an auto dealer might select keywords such
+as fine auto dealer in New York City, sports car in New York City,
+leasing a car in New York City, and so on. Several tools are available
+online that can help advertisers identify keywords that are relevant for
+their businesses. For example, one that I often use is
+the Google AdWords Keyword Planner. The next step is to design ads. Search engine ads are relatively simple
+and involve three lines of text. So there isn't a whole lot of room for
+creativity. That said, there are many good
+principles worth following. For example, ads that are more precise and specific about their value to the customer
+and what makes the advertiser different tend to perform better than ads
+that tend to be more general. Similarly, ads that have a clear
+call to action do better. In this example on this slide, I have on the left side an ad where
+the advertiser is trying to sell stamps. And is asking the customer to click
+on the ad and visit the website. The ad on the right is
+designed much better. It's more precise and clear about
+the value proposition to the customer. It clarifies that the advertiser
+has rare stamps for sale. Furthermore, it clarifies that these rare
+stamps are from 19th century Europe. And finally it has a clear call to action. It clarifies that if the user buys today,
+they get 20% discount. After designing the ad,
+the advertiser next needs to select a bid which indicates the advertiser's
+willingness to pay for each consumer click on that ad. Good bidding strategies tend to bid high
+for keywords that are associated with a high willingness to pay and also have
+a lower cost per click on search engines. In the example I've presented here,
+a keyword like sports car has a much higher cost per click than a
+keyword like Porsche dealer New York City. And key words like leasing
+car in New York City and auto insurance in New York City
+are somewhere in between. Next, if you look at
+the revenues generated, which depends on the probability that
+a click converts to a purchase and multiplied by the value of the purchase. We observe that sports
+car New York City and Porsche dealer New York City have much
+higher value or revenue per click. As opposed to keywords like auto insurance
+and lease car for this advertiser. Based on this kind of information, the
+advertiser might decide to bid higher for keywords like Porsche
+dealer New York City, which are keywords that have
+high value and lower costs. As opposed to keywords that have
+lower value and higher costs. Estimates for costs associated with
+the keywords are readily available from tools such as Google AdWords Tool. And the revenues associated with these
+keywords can be calculated based on data that the advertiser is
+collecting on an ongoing basis. Once an advertiser submits their
+keyword along with the ad and a bid to the search engine, the search
+engine then decides which advertisers to show in response to a search query and
+how to rank order these advertisers. Now, you might wonder what determines
+the rank of your ad on a search engine. You submit a bid, which is an important
+determinant of the rank of your ad. However it's not the only determinant. Search engines usually rank ads based on
+bid times the quality score of the ad. The quality score of an ad indicates
+how often people click on that ad. It depends on the past click
+performance of the ad, it depends on the quality of the ad, it depends on the quality of the landing
+page associated with the ad, and so on. So it's possible that you may have a lower
+bid than the competitor, but be ranked higher than the competitor because
+your ad has a higher quality score. Meaning customers gravitate
+towards your ad and click on it more often than
+they do on the competitor's ad. Therefore it is important to place
+attention on good ad design and designing appropriate landing pages for
+each ad. For more information on how search
+engines rank their ads and how search engines determine how to combine
+the quality score of an ad with bids, I've provided a link here to a YouTube
+resource that elaborates on this model. Now if you find all of these details too
+complex for you to manage on your own, there are several third-party firms that
+offer search engine marketing services. One can use these services,
+but it is important to assess their performance by
+monitoring the right metrics. I usually tend to classify search
+engine marketing metrics based on the quantity of exposure, the quality
+of exposure and the cost of exposure. In terms of quantity of exposure,
+it's useful to ask for every $100 spent,
+how many people were shown our ads? In other words, what are the number
+of ad impressions per dollar spent? Further in terms of quantity, we might
+ask, what proportion of those impressions resulted in clicks, or what is known
+as the clickthrough rate of an ad. Together, the number of impressions and
+the clickthrough rate give us the total number of clicks on the
+ad, meaning the total number of visitors to our website through our search
+engine marketing campaign. So that makes up the quantity of exposure. Next, we are interested in
+the quality of that exposure. The quality of exposure,
+in turn, depends on two metrics. The first is, what proportion of clicks
+resulted in outcomes of interest? These outcomes of interest may be
+a purchase, or it may be creation of an account on a website or the download
+of a research report or things like that. These outcomes are also
+known as conversions. The fraction of clicks
+that result in conversions is the conversion rate
+associated with your ad. So we are interested in the conversion
+rates of various ads, and we're of course interested in ads
+that have high conversion rates. Next we are interested in the value
+of each of these conversions. So for example, for a keyword such as
+dental cleaning, the revenue generated for a dentist may be a little bit lower than
+for keywords such as dental surgery, where one conversion might
+generate higher revenues. And so together these two metrics, that is
+conversion rate along with revenues, or value per conversion,
+make up the quality of the exposure. And finally we're interested
+in cost of exposure, which one can measure in
+terms of cost per click. And we can evaluate our different
+keywords in terms of the quantity, quality, and cost of exposure, and determine which ones to increase the bids
+and which ones to lower the bids. And in terms of assessing the performance
+of a search engine marketing firm that's doing this work for us. There are several third
+party reports available that benchmark the performance of
+advertisers in various industries. And one can compare your performance
+relative to these benchmarks to determine whether your search engine marketing
+company is doing better than average or worse. Or your internal team is doing
+better than average or worse. Moving on from search engines,
+let's talk about display ads. Display ads or banner ads,
+are usually placed on publisher web sites. In order to place these ads on publisher
+web sites, advertisers usually go through ad networks, which are intermediaries
+that connect advertisers to publishers. Examples of ad networks include
+Google AdWords, which not only shows ads on its own properties, but
+also on many third party web sites. Similarly, there's Millennial Media, which is also an ad network that
+shows ads on publisher websites. InMobi is an ad network that's focused
+specifically on ads on mobile devices. There are several dozen ad networks
+that an advertiser can choose from. In determining what ad
+network is right for you, it's useful to look at
+the reach of each ad network. Meaning, how many potential end consumers
+they touch through their publishers. Next, it's useful to look at what
+kind of ad inventory they have. Meaning, do they have ads on premium
+websites like New York Times or smaller blogs. And also,
+are these ads that are top banner ads or smaller ads elsewhere on the website? We can also ask about the audience
+composition of these websites. Some ad networks might have a focus
+on certain kinds of publishers. For example, there are ad networks that focus mainly on
+publishers that create content for women. So if you have a product where your
+target customer tend to be women, you might be better off trying to go with
+a specialized ad network, like that. There are ad networks that are focused
+on technology related content. So, if you have a product that's right for developers, you might prefer
+an ad network of that type. And finally, we are interested in
+targeting capabilities of the ad networks. Ad networks with better targeting
+capabilities can deliver better performance. So we can observe past performance
+of these ad networks to determine which ones have the best
+data capabilities, which in turn, result in long-term
+performance for the advertiser. Finally, let's explore social advertising. Social media platforms like Facebook,
+Twitter, and others offer very rich
+targeting capabilities. For example, you can target
+customers based on their interests. So one might say I'm interested in
+customers who have an interest in anime movies, or someone else might say,
+I'm interested in showing my ads to customers who are interested
+in dieting and so on. You can also target customers
+based on their income level, which firms like Facebook infer based
+on posts people share on Facebook. You might also target people
+based on behavioral profiles. Here again,
+social media platforms like Facebook analyze posts submitted by consumers
+to create behavioral profiles. For example,
+you can target moms of preschool kids or corporate moms and
+several other behavioral profiles that are available by
+default on platforms like Facebook. And finally, you can also target consumers
+based on the name of their employer, their job title, or which educational
+institution they attended. Running successful social
+advertising campaigns and in fact, all kinds of online advertising campaigns
+requires constant experimentation. For example,
+on the left side I have a Facebook ad for a children’s educational app
+that I created with friends. In this ad, I have chosen certain lines
+of text, I've chosen certain images, and I have also made certain decisions about
+what kinds of customers to target. Now in order to really get
+benefits from these campaigns, I have to ask myself,
+what's the right image to show in the ad? I have to ask myself given any image, what's the right targeting message
+that the companies to image? I have to ask myself,
+what's the right targeting settings, meaning, am I targeting women or men? Am I targeting people who work
+in certain kinds of companies? Or am I targeting people
+with college degrees or people with a certain income level? And so I have to run experiments
+constantly to figure out an ad campaign setting, meaning an image, a message, and
+a targeting setting that actually works. In this example,
+I have chosen one image on the left side. But I might ask, what happens if I change
+the image and use other potential images? On the right hand side, I have shown
+several potential images of girls and boys of preschool age that
+I could potentially use. So I might run an ad campaign,
+multiple ad campaigns, where I show several of these images. And I identify which is the image
+associated with the highest level of customer response. Next, given an image, I might ask how I should vary
+the text associated with the image. In one ad on the left hand side, I say,
+Learn to love learning on The Good Screen. Download our free iPad games for
+kids ages three to seven. On the right hand side the message says, Give your little genius
+a fun learning buddy. Download our free iPad App for
+kids ages three to seven. Another ad text that I might try
+might focus on fears that potential customers might have. For example, I might say, Are you
+worried your child is falling behind? Here's an iPad app for
+children ages three to seven. These are different ad texts and they might elicit different kinds
+of responses among customers. And it's important to try
+multiple ad texts for any given image to determine what's the
+right ad text associated with an image. Similarly, we might change ad targeting
+settings as well, and ultimately constant experimentation will help us identify,
+what's the right ad, and for whom? In summary, social media
+advertising offers several options. It ranges from sponsored search,
+display ads, and social ads. Sponsored search have very high response
+rates because they're in response to a customer's stated information needs. However, you have very limited demographic
+information in sponsored search and also they can be expensive. In contrast,
+display ads offer great reach and offer a range of formats including
+videos and interactive images. However, they can be highly variable
+in terms of their performance and customers are increasingly becoming
+blind to a lot of display ads. And finally, social ads offer some of
+the richest targeting capabilities. However, social ads might not
+generate purchases right away. And quantifying the value of those
+social ads might not be easy. In summary, digital advertising
+is a data driven activity. Success on this medium requires
+constant experimentation. It requires focus on measurement, looking
+at the right metrics to figure out how to optimize your ad campaigns
+on a continuous basis. Remember that online advertising is more targeted than any other form of
+advertising that you might consider. It's also more measurable than any other
+advertising medium you might consider. But you have to make the measurability and
+the targeting work for you.

@@ -1,0 +1,252 @@
+Welcome back. So, in previous modules, I have
+discussed a bit about why hiring is so important to startups and
+the huge differences in talent between top employees and mediocre employees and
+the influence on your company. So I want to spend a little
+time today talking to you about how you actually think about hiring talent
+and retaining talent in your startup. And again, getting this stuff right is
+absolutely critical to the success of your company, but
+it's also really hard to do. And we're not going to be able
+to cover everything today but I'll give you a good start in terms of
+thinking about how you do start up hiring. This is especially important
+because most entrepreneurs have not done a lot of hiring in the past. Or if they have they've been
+part of an interview process and haven't really actively run searches. So there's a lot to learn and
+a lot to think about here and we're going to cover some of that today. And again, we'll go through the basics. There's a lot more information you can
+find out about hiring and startups but this will give you a good
+starting point to work from. I think the best way to introduce
+the importance of hiring and the reason why you, as an entrepreneur,
+are so important when you make a hiring decision is to talk about some
+interesting research done by Smart in 1998 looking at hiring techniques
+in a startup environment. In this case what Smart
+was looking at was how venture capitalists chose which
+entrepreneurs to work with. So high uncertainty environments,
+you're looking for a team that's flexible for the future, the
+kinds of things that you are looking for in the very early days
+of a startup company. What this study found was that there were
+five basic techniques that people used in order to be able to interview people
+in these environments, the airline pilot, the infiltrator, the artist,
+the sponge, and the prosecutor, and I want to talk about those techniques
+because I think they'll resonate with you. If you've been hired before, you've probably seen some
+of these techniques in use. And what's nice about this particular
+study is it can tie the use of these techniques to actual percentage outcomes. So in the case of venture capital,
+as you'll hear more in the venture capital module, VC is looking to
+maximize something called the IRR, or internal rate of return, and generally,
+sort of over 40 or 50 is the goal. So what's nice about this, as you'll see, we can actually tie the interview
+techniques to IRR outcomes and get a sense of which ones are more
+effective or less effective. Again, this isn't the end all or
+be all of this sort of research. But I think gives you a nice view of the
+kind of styles involved in doing hiring. So the first style is the artist. So the artist is somebody who
+doesn't really believe in data, they believe that they're really
+good judges of character. They're like an art critic who can look
+at something and say this is good, this is bad and judge it in
+the sort of large scale way, and so you don't need a lot of information. You're making gut decisions based
+on your knowledge of people. The IRR for this approach is 25%,
+which is a low IRR. It's not really effective and
+you should avoid it. So we're not very good at this kind
+of conceptual judgment of people. The second technique that was
+identified in the study was the sponge. The sponge is someone who seeks
+data in all kinds of ways, they don't have a plan on how
+they're going to use this data, but it might do testing of the potential
+candidates, they might ask them for work samples, they might try them on the job,
+they might give hypothetical questions. They might do reference checks. The hope is that they're getting
+some kind of information out of this long search process that
+give them something useful. Again, the IRR in this
+approach is quite low. 20%, so even worse than the artist. So this just gathering
+data with no purpose doesn't actually help you very
+much in terms of determining what sort of outcomes you'll get
+from the hiring process. The third approach that was
+identified was a prosecutor. So if you've been
+interviewed by a prosecutor, you'd certainly know a prosecutor is
+somebody who aggressively questions candidates, tries to get them to break on
+the stand as it were like a lawyer would. So always questions them,
+interrupts them, and basically tries to put them under
+stress to see how they operate and get them to break down and
+give you the right answer. Perhaps unsurprisingly, this prosecutor
+approach also is not a very good one. In fact, it's the worst of the approaches,
+10% IRR on average. So this idea that I'm just trying to
+throw you into a stressful situation and get results doesn't
+seem to work very well. Instead, there were two approaches
+that worked much better. The first of these was the spy,
+or the infiltrator. So the spy, in this case,
+was limited to a very small set of VCs because the spy approach involves
+basically living with the candidate. So the spy would travel with
+the candidate to client meetings. They'd sit with them every day,
+they'd share hotels with them, and over the course of many days
+really learn how this works. Surprisingly, this approach is terrific,
+100% IRR it's very effective in picking the right kind of
+candidates in entrepreneurial setting. Unsurprisingly though this
+takes a huge amount of time and is very difficult to do, so
+it's not something most people could do. So if you can afford to live with and
+travel with your job candidates, great. But that means you going to have a lot
+less job candidates to work with and it's not very practical. Instead, the best approach seems to
+be what we call the airline pilot. The airline pilot, like the pilots you
+see in the picture, depend on checklists. They know everything they want
+to accomplish in advance and they stick with that plan moving forward,
+checking things off on the list. So, are they looking for
+someone who has previous sales experience? Are they looking for
+someone who has this programming language? And they're looking to find those
+characteristics and check that off. IRR here is 80%, which is great. Maybe not quite as good as that
+spy infiltrator approach, but still very high, and
+the resulting workload is much lower. So, this is probably the most powerful
+technique, and other research in HR and hiring has backed up the idea
+that checklist based approaches where you set up your
+expectations in advance and then look for
+those in the interview process are best. So you know you should use
+the airliner pilot approach, how do you actually do this? What you want to do is start by coming up
+with a score card, this is your checklist. In the score card approach what
+you'll do is you'll go through everything you need for this job and
+you'll write down these features. You're going to be specific, you're not going to say I want
+someone who's entrepreneurial. You're going to think
+about what that means. Does that mean they have
+experienced as an entrepreneur? Does that mean they're taking
+charge in uncertain situations. Whatever it is,
+that fact goes on your score card. And that's going to be something you're
+going to look for in the interviews. You also need to coordinate with your
+other interviewers both to create this score card and also to set up the actual
+structure you're going to use. You want to make sure people
+ask you different questions. All using the same shared score card and
+then you have a formal approach you use across every candidate
+that you're interviewing. So that way you can actually compare them. If everyone's improvising
+off the top of their head, you won't have any of that
+comparison to work with. Then you want to think about
+some sort of screening question. It might help you gather
+some basic information and that could be a luxury or phone call. But, the key issue when you start meeting
+people in this informal settings, before doing a formal interview
+is the danger of homophily. We've talked about homophily
+in prior lectures. Homophily is the idea that you
+like people who are like you, that birds of a feather flock together. So homophily means that
+you are more drawn to and more likely to be friends with
+people who share your ethnicity, who share your background, who share
+your social class, your education level. And as a result,
+you tend to have a natural connection, feel good about people
+that are most like you. And that can actually hurt both diversity
+of the company, which can be helpful for innovation, but also makes it so you hire
+from a much more narrow band of people because you hire based on liking rather
+than hiring based on these scorecards. So you have to be careful to be cognizant
+of the fact that you're going to have this homophilic reaction to people and you shouldn't let this sort of
+feeling connection blind you to the characteristics you're looking for
+in an employee. An interesting question you might want to
+ask in these sort of screening discussions because they tend to be full of lots of
+people telling you the answers you want to hear is what stuff people
+don't like to do at a job and that might be revealing in some cases. You also might want to
+consider assigning pre-work. Pre-work is anything that you do
+prior to coming into the interview. So it's very common in technical fields
+where you might ask someone to solve a problem either before the interview
+in the interview setting where you end up at asking people to solve a math
+problem or solve a programming problem. But you could ask this at almost any job. So a typical pre-interview might be asking
+somebody to go examine a competitor store and comeback with comments, or examine
+your store and comeback with comments for the interview about things that
+can be improved or made better. What pre-work has done right,
+what's great about it is you get actual information from somebody
+about how they actually work. And hopefully it helps the person who's
+being interviewed as well because they get to see what the job is actually like. If the pre-work is assigned properly, it
+will give them an experience about what, it will be like at the job that
+increases retention long term, increasing your hiring decision. And we doubt people who are not
+interested in the first place. So this can be a really
+powerful technique but you have to spend work to make sure you're
+pre-work is good, because there's nothing more depressing than pre-work where
+somebody just have to do busy work. It's not useful to anyone and
+they feel exploited. So make sure you do your pre-work properly
+that it could be a powerful technique to use in many cases. In the interview itself one
+thing that often is hard for founders is that you
+can't interview alone. You need 3- 5 people to conduct
+the interviews because you need multiple points of view. If you don't have 3-5
+people in your company, that means you may have to pull in family
+or friends or outsiders who help you out. Especially if you don't know
+something like technology and you're looking to do
+something around hiring. Technology person,
+you don't have experience in that, you're going to need to either
+find a friend who can help you or pay some sort of outside consultant
+to help you evaluate the situation. When you actually do the interview, the most powerful predictor future
+performances is past performance. So I strongly recommend avoiding
+doing clever questions like asking people how they'd weigh a 747. Or brain teasers about light bulbs and
+cake and things like that that you might see or
+have heard about in puzzle interviews. Those are not predictive
+of future success. And they're kind of a waste
+of everyone's time. So instead, you want to think
+about historical questions. Ask people to walk through every job. Ask them to tell you about a time in
+each job where they did something. So tell me about a time you
+showed leadership under pressure. And then don't just look to tell you
+the story make it an interactive conversation where you start asking
+them questions about what they did, why they did it,
+why did the job not work the way they did, why did they have to step of a show of a
+leadership where they were junior person. What did their boss do? How do people react to
+them being a leader? So you're probing to get real answers and
+that way, even if people have prepared speeches that
+they give, you're going to push past that and get real details on what they
+did in their prior their work. You potentially want to ask hypothetical
+questions or behavioral questions, things like what company do you admire? And then once they give you that, how
+would you compete against that company? You might want to ask them how they'd
+handle a situation in the future that you think they'll encounter, but
+make sure you're crafting those well. And again, make it part of a conversation
+where you're trying to get at the factor on your checklist. And you're trying to figure
+out the answer there. You're going to make the experience
+as great and fair as possible. Remember, for a start up,
+most people who get to know you, especially the very early days, will
+be people you actually interviewed and that have gone back out into the world. What can be a problem is, if these people
+feel like you were treating them roughly or not fairly, they're going to
+badmouth you to other people. What you ideally want is everybody
+who's left your job after an interview could really have wanted to work for
+your company, and be disappointed but understanding
+about why they didn't get that job. So, it's important to try and make that
+experience great for everyone involved. Once you've interviewed everybody, your
+job then is to go through the checklist and objectively decide whether or
+not you want to hire someone. And no conditional, well,
+he's the best candidate and she wasn't very good, and so
+therefore we're going to go with him. You want actual enthusiasm. You want people to make sure that
+people are on the checklist, right, and evaluating based on the checklist,
+and that you're getting clear and objective answers about why
+someone should be hired, and then you make a clear go and
+no go decision. Once that happens, close hard. You've spent a lot of
+effort finding someone, now you bring them in as best you can. So that can be emailing them,
+having people from the company go out And meet them for dinner or for lunch. It can be asking them what kind of office
+chair they want, guilting them, whatever it takes to bring the people in the door
+once you've done this hiring process. So this is a really quick
+introduction to interviewing. That can be a very powerful set
+techniques that you can use. There's obviously a lot more there and we actually have working classes doing
+hierarchy things like that as well. But this will give you start
+in entrepreneur hiring and helps you avoid some
+of the major mistakes. Of course hiring isn't the only piece
+you also need to maintain performance. And that means you have to do something
+that often for people who've worked at large companies feels unnecessary, which
+is have a real performance review process. So you think, we've got ten
+employees who've got five employees, why do we need a performance
+review process? Well both for legal reasons but
+also because this is actually how you help people get better at their job, and
+you can't just assume we're adults here, we're all going to do well together,
+you need to actually go through a process. So performances should not be
+like a once a quarter thing, they should be 360 degrees, which means
+everyone's reviewing each other, so it's not just formal feedback, and
+it should be 365 days a year, so 360/365. You should be constantly
+giving feedback to each other. That feedback needs to be specific, so
+not I feel like you're not fitting in but very specific issues about you don't
+seem to be helping the company with our building a culture and
+let's talk about how that works. And if there's problems you
+offer him with real steps. So what's the next step we take,
+going forward? And then you also need to make sure
+you're reviewing yourself, right? So that's thinking back and
+having people review you, having people be self reflective on their
+own jobs and giving you feedback that way. So you need to build the culture of
+feedback early on in your company. And if you're going to need to fire
+someone, and you probably will, you want to fire as quickly as possible,
+but you also want to follow some very key steps, so the four Fs,
+which is that feedback In terms of firing. It should be frequent, formal,
+forward-looking, and filed. What does that mean? Frequent means that,
+as you get closer to firing someone, you're having more frequent
+feedback with them. You're talking to them regularly. Formal in that you sit down in a room, and
+you formally deliver this information. It's not an informal conversation. Forward looking, which is you need to
+be able to do this sort of thing or your job is in jeopardy. So tell people what they need to do in
+the future, don't just criticize them for the past. And filed, which means that
+everyone is signed off, so you'll actually present a formal note
+to somebody saying this is a problem. I agree I need to change this,
+have them sign it, have you sign it,
+have that paper put away. This helps you build up a process
+that if you need to let go of someone you can do that. For the people who don't need to be let
+go of, they actually get performance feedback that's useful, and it's very
+important to keep the process fair. So if people feel like
+the process of firing is fair, they are much less likely to sue or
+blacken the name of your company then, if they feel like the things are arbitrary
+so, your goal is to make sure everybody knows when to stand with the company and
+have the feedback they need to improve. So, both the hiring and firing process
+can be complicated but, spending some effort at the beginning to do them right
+and according to the evidence we have is really powerful a way to get you
+start off the ground correctly.

@@ -1,0 +1,103 @@
+I'm Kartik, and we're going to
+discuss Finding Technical Resources. For software startups, a major challenge
+that non-technical founders face is that of identifying
+relevant technical resources. Some of the questions that
+entrepreneurs must answer include, should I build the feature myself,
+or is there an existing tool or open source resource that provides
+the functionality we seek? Should we build internally or
+outsource our software development? If we build internally, how do I find and
+recruit people with the right skills? And finally, if we outsource,
+how should we manage that process? In this session, I'll address
+each of these questions in turn. First, is there an existing
+tool I can use instead of developing the product from scratch? Now, we live in an era of modularity and
+open source. Before we invest all the effort to
+build a product, it's useful to confirm that there isn't something already
+out there that serves the purpose. For example, if you're trying to build an
+ecommerce firm, a number of existing tools like Shopify, Magento, BigCommerce,
+Weebly and others might suffice. In fact, some of them help you set up
+an ecommerce website using simple drag and drop functionality. If you're trying to build a basic website,
+several alternatives such as Squarespace, Weebly, Wordpress and Tumblr can be used. For blogs on your website Tumblr and
+Wordpress are quite popular options. If your trying to build
+a responsive design, meaning the website that is compatible
+with all kinds of screen sizes, there are several templates
+that are available online. One well known tool for responsive design is Bootstrap,
+which was originally developed at Twitter. Similarly if you're looking to launch
+online courses, and you're looking for a website that makes it easy
+to launch online courses, Teachable is a great website
+out there that can be used. Suppose that you have concluded that an
+existing tool doesn't solve your problem and you need to build it. The next question to ask is whether
+you should build it in-house or outsource the product development process. I like to ask two questions
+to help make that decision. The first question is
+whether the feature or the product is a core differentiator for
+your business. If the product or feature is strategically important, firms
+usually will not outsource such features. For example, Google will simply not
+outsource its search algorithms. On the other hand, if the feature
+is operationally important but not a differentiator,
+it becomes a candidate for outsourcing. For example, custom software tied to your
+human resource needs or legal needs. Or if you have a tech enabled business,
+but the technology itself is widely available. For example, if you're an ecommerce
+company and you're looking to build a basic website with standard features
+like the ability to browse products add to cart functionality and features of that
+type, then outsourcing might just work. For example, if you're looking to build
+an ecommerce company and you need a basic website with standard features like
+browse products and other such features. The ecommerce website needs to work well,
+but the technology itself
+will not set you apart. This is something that you may not
+need to build on your own, and outsourcing might work just fine. The second question I'd like to ask
+is whether you have the necessary expertise in house. It might take too long to build
+that expertise in-house and there might be outsiders with
+the necessary expertise. Outsourcing might work in these cases. If you have concluded that you need
+to build the product in-house, the next step is building
+the right technical team. That can deliver on the product vision. You need to hire designers,
+you need to hire developers. And in fact, many of the earlier comments
+on finding your founding team members or hiring management team members are just as applicable in hiring members
+of your technology team. A focus on skills, and culture fed and personality fed are equally
+relevant over here. Even if you outsource product development, I would recommend that you own key
+aspects of product management. For example, you should prioritize
+the product features first. You cannot just share a product
+vision with a freelancer, and expect the product back. You need to think through the features,
+prioritize them, and communicated to the partner. Next, identify your budget. This will help drive decisions
+regarding where to outsource. Also, spec out the product
+in terms of user flows. Or perhaps develop some
+low fidelity wireframes. Together, these decisions will help insure
+that you can both find the right partner and also have a better working
+relationship with that partner. Next, in addition to
+owning product management, a good practice is to also be
+involved in screening developers. One to ensure there's a match in
+terms of both technical skills and also soft skills, such as
+communication skills of the developer. It's useful to understand
+their past projects. Meaning their entire portfolio. And understand their exact
+roles within those projects. It's useful to conduct reference
+checks for the developers. So all of this ensures that
+you've found the right partner. The next question is, of course,
+where do you find these partners and where do you outsource? Budget is actually a good starting point. For software development,
+you can find firms at every price range. From as low as 25 to $50 dollars an hour
+all the way up to 100 or $200 per hour. At the low end of the range you usually
+looking for developers in South Asia or or Southeast Asia that are used
+to servicing starters. At the mid range, you're looking at firms
+in Asia as well as in Eastern Europe that are used to servicing startups
+as well as mid-market companies. And finally,
+enterprise-grade developers in the US or Western Europe cost
+closer to $200 an hour. It helps to be in the same or
+similar timezone as your developer. So your location, along with your budget might help
+focus your search appropriately. And finally, once you've made
+these choices about budget and location, you can look for developers
+in a number of different websites. Marketplaces where you can find developers
+and outsource development firms include VenturePact, RentACoder, eLance,
+Upwork, Freelancer.com and many others. For designers 99Designs, Behancec,
+and Dribble are great sources and in fact there are many other
+great options out there. Finally, whether you build internally or you outsource your development,
+you have to manage that process. To do that well, identify who,
+what and when of your project. In terms of who, identify clearly a person
+who is accountable on both sides. In terms of what the task or product
+being developed is clearly defined and speced out. And in terms of when,
+this is really just a deadline and everyone in the team understands
+when the product or feature's due. Another recommendation is to
+use project management tools to streamline the interaction
+with their developers. Popular tools for task assignment and
+tracking progress include Asana, Jira, Trello, Basecamp among others. And some tools that are commonly used for
+messaging among team members, include Slack, HipChat, Skype,
+Google Hangouts among many others. This list is by no means comprehensive. Start by looking at what's out there, and you will find that the task
+ahead is not that overwhelming. There are many tools and
+resources that you can count on and use to simplify to process
+of building your product.

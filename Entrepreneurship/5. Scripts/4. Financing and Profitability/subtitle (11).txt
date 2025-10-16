@@ -1,0 +1,94 @@
+I'm Karl Ulrich,
+I'm a Professor at the Wharton School. This session is on breakeven analysis. There are really two distinct uses of
+the term breakeven in the context of entrepreneurship. The first, you might call breakeven time. It's also sometimes called payback time or
+payback period. Essentially, it's how much calendar
+time would be required for a lump sum investment to be recovered
+from positive cash flow and I'll give you an example here in a minute. The second use of the term is
+really breakeven quantity and this refers to how many units,
+transactions, quantity of product, orders, customers must we experience per unit
+time in order to cover our fixed costs? I'll go through both of
+these with some examples. The second idea of breakeven quantity is also sometimes referred to by
+the strange term, covering the nut. And that means, the nut is a term that
+refers to what are my monthly fixed expenses and how much do I
+have to sell to cover the nut? That is, to recover or pay for
+my monthly fixed expenses. First, breakeven time or payback time or payback period and
+let me just give you an example. Let's imagine that you're
+considering converting all of your delivery trucks from
+gasoline to compressed natural gas. Prices for compressed natural gas
+are quite low right now, much lower even, than gasoline and so, if you convert to this alternative fuel
+you can save monthly operating expenses. Let's imagine that buying a truck
+costs $40,000 U.S. dollars and let's imagine you save $1,000 a month
+in fuel costs by converting to CNG or compressed natural gas. Then put simply, the payback is 40 months. That's just 40,000 divided by
+1,000 per month saving, so the breakeven time is 40 months, or
+the payback period is 40 months. Now let me just say, this is most commonly
+used in association with a lump sum, single investment that has some
+future savings associated with it, it's actually not very commonly used
+in other parts of entrepreneurship. You wouldn't normally see this in
+the context of financing or discussion with an investor, it would be more used in
+association with a lump sum investment. On the other hand,
+this notion of breakeven quantity is commonly used in entrepreneurship,
+and let me start by giving an example. I'm a founder and investor in
+a company called Belle-V Kitchen, and we make a quite lovely
+bottle opener shown here. Actually, I have one with me. Belle-V Kitchen makes
+a bottle opener shown here. I want to just consider
+the basic question of, how many of these would we have to
+sell a month in order to breakeven? I want to start with the definition
+we've used in this course for financial sustainability for
+a company that sells things. The basic condition that's required for
+financial sustainability is that the quantity sold times
+the difference between the price and the cost of each unit has to exceed
+the fixed costs of operating the business. Put simply, P minus C, or price minus
+cost is the gross margin, that's how much you make on each unit of product and
+the quantity sold is the quantity sold. The quantity sold times
+your profit per unit, that must exceed the fixed cost
+of operating the business. If you can achieve that, then you can
+achieve financial sustainability for the business. In setting breakeven quantity, we simply
+turn that around and ask the question, how many units would be required for
+us to cover our fixed cost, F? That can be expressed by the expression,
+quantity Q, breakeven quantity Q is equal to
+the fixed cost per unit period F divided by the profit margin
+per unit sold, or P minus C. Let me give you a numerical
+example to make that clear. Let's imagine that it costs us $300,000
+per year to operate the business. These are the costs that don't
+vary with the quantity sold, this is things like rent, advertising, salaries we pay to the bookkeeper and
+to the marketing person. Let's say that's $300,000 per year and let's imagine that we sell
+these at a price of $25 and that they cost us $13.44 to make. That our breakeven quantity
+would be 300,000 divided by the difference between $25,
+our price, and 13.44, our cost. If you do that arithmetic,
+it comes out to 25,952 units per year or more typically, it's expressed monthly,
+so it'd be 2,163 units per month. The breakeven analysis simply says, we have to sell a little bit
+more than 2,000 units per month, about 2,200 units per month in order to
+cover the nut, in order to breakeven. Now if you don't sell a product and instead sell a service,
+then with recurring revenues and recurring customers, then you think
+about it just a little bit differently. I'm also an investor in a company called
+Gridium that sells software to companies that manage commercial office buildings
+and they sell it on a subscription basis. They have a couple of different
+subscription plans but some of them cost $79 a month,
+some of them cost $150 per month. It's essentially the same analysis but instead of asking how many transactions
+do we need to have per month, you ask how many customers do
+we have to have in our system, on our system, subscribing to our
+service to cover the fixed cost? So, a very similar kind of analysis, I don't think you'll have
+any trouble doing it. But I do want to point out that it's
+a little bit different for recurring services like you see in software service
+businesses or in other kinds of services. Now, there are some issues
+in breakeven analysis. It's fairly useful as a way
+to just test your intuition of how much business would we
+really have to do to sustain a company of the size we're
+imagining this business to be? It's good for calibrating your intuition
+around the feasibility of a new business but it does assume a fixed
+level of spending. It assumes that F, in fact, is fixed but
+those costs aren't really fixed. Those costs are the results
+of a managerial decision based on how big you think the company can
+be, how much resource you think you're going to need over the coming months
+in order to support that business. The breakeven calculations are probably
+best framed as, if we were this size of an organization, if we made
+this kind of commitment to rent and to payroll and to advertising, how many units
+would we have to sell to cover the nut? How many units would we have to sell to
+breakeven, to cover those fixed costs? It's sometimes useful
+to do this analysis for what you can imagine to be the minimum
+efficient scale for the business. What's the smallest we can imagine
+this business being at and still running itself,
+still being self-sufficient? Look at that set of fixed costs and answer the question,
+how many units would we have to sell, how many customers would we have to
+have to sustain a business of that size? And that can be a good test as to the
+basic feasibility of the business model that you're envisioning.

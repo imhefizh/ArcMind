@@ -1,0 +1,141 @@
+So I've talked about why the founding team
+is so important but another issue you need to think about is your first employees in
+a company, and those are just as critical as getting founding team issues together,
+in a variety of different ways. So there's something known as Thiel's law,
+which is named after Peter Thiel, the famous angel investor, and he said, a startup messed up at
+its foundation cannot be fixed. And years of evidence and research and
+entrepreneurship have found this to be true, so the founding issues you
+start up matter a huge amount. It creates form imprinting
+we actually have evidence that organizations that are 300 years old
+Still have the same basic structure that were set up in their
+founding days as a company. So it's really fascinating, really important to get this stuff
+kind of right early on because if you fail to put the time in at the beginning
+you're going to pay for it later. And early hires are especially
+important for three main reasons. First of all, just as a practical sense, these are the people you're
+going to be working with every day. So you want to be able
+to get along with them, you don't want to feel resentment for
+them. You want to have an organization
+that's more than the sum of its parts. The second issue is to realize that
+performance differences between employees is huge. So trying to get it right and get the right form board will make
+a big impact in your company. And then finally, there's this issue
+of role inertia which I'll discuss, but it makes a huge difference who you
+hire and what their roles are because that might fix the roles in your company for
+all time. So let's talk about this
+performance difference issue first. So we actually have a lot of evidence
+that talks about performance differences between people in organizations. And probably, the most famous are for
+technical people, for programmers. And I'm actually reproducing
+here some charts of attempts to measure programming ability. And what you'll see there is the dots
+represent a billion various sets of tasks. And you'll see this green box that
+represents the 75th percentile, the averages. What's interesting to note is the repeated
+studies found things like the differences between the programmers in
+the top 75th percentile and those in the bottom 25th percentile, can be as
+much as 27 times points at some measures. Now, a 27 times performance difference is
+huge, we don't find that in all cases. Sometimes it's ten times,
+sometimes it's three times, but getting a good programmer on board
+versus getting a mediocre programmer can actually make a huge difference
+in the productivity of your company. The amount of errors you spot, and if one
+person can be as good as three or four or five less-well-talented individuals. Getting the high talent people on board is
+critical to making things successful and it's not just about
+technical like programming. So I have done a set of research looking
+at the video game industry, trying to understand what explains performance
+differences between video games. So let me walk you through how
+I thought about this issue. So let's imagine a bunch
+of different games and those games have different
+levels of revenue. So some games are earning
+more than others, some games are more
+successful than others. Now I'm a game player myself,
+so I controlled for all the sets of factors that makes
+games different from each other, the genre of the game,
+how much money went into developing them, what platform they're on, a whole bunch of
+other factors, what type of game it was. And there are still,
+even after you control for these factors,
+big performance differences. So if you think of
+a conventional strategy, an entrepreneurial strategy that tells
+you the difference in companies and performance often comes
+from the company itself. So let's take a look at companies and
+imagine company green, company blue, and company purple are all different
+video game developers and what you can see is you can
+start to tell a pattern. Well, it looks like green's
+production's going down, purple's doing well, so this looks
+at things only at a company level. I thought well what if we
+look at the individuals, the actual people who make these games. And specifically let's look at two
+different roles within the game industry. Let's look at the middle manager role. So in this case a middle manager
+is what's called a Producer. So these are people who help coordinate
+things, help run schedules, coordinate between a senior manager and lower
+level people within the organization. And what you can see is that
+middle managers might move between different games in the organization. They might do similar games for
+similar companies or move from one company to another. And then there's also a creative
+role in the organization. And I apologize that I've used pictures
+from the Black Eyed Peas album cover to represent creative individuals
+that I make no statement about the Black Eye Peas's level of creativity. But it is nice pixel art, so
+on the innovator side, we have the people who we call the designers of the game,
+so these are the people that are doing creative work, and coming up with
+creative ideas inside the organization. And so, I'm able to statistically pull
+apart what part of the difference in revenue in a game is due to the game
+itself and the company that produces it, how much is due to the middle
+manager who's on the project and how much is due to
+the designer on the project. And what I found was,
+I think, interesting. So, 21% of the variation in
+performance of games, products, was explained by who the company was, 22%
+was explained by who the middle manager was and barely significant was
+the design art which was about 7%. So, what this tells you is that
+even in a really creative industry, with lots of variation like video games,
+who the middle manager is matters a lot. They can explain 22% of
+the variation in for performance and these are billion dollar
+products sometimes. So 22%, $220 million,
+in whether a game succeeds or fails can be attributed to
+these middle manager roles. So getting your middle manager right, and I've found that they actually
+take their skills with them. So when they move from
+one company to another, they actually take that ability with them. So, figuring out not just
+who the designers are, who the programmers are in your company,
+but actually hiring the right early managers makes a huge difference in
+the long term outcome of your company. So you need to think about these sets
+of issues and we talk about hiring in other places during this course, but
+it's worth thinking about these issues and realizing getting this
+stuff right matters. It doesn't just matter because
+people differ in productivity and often differs because of
+what we call Role Inertia. Imagine a founding team member and you're
+trying to decide who you're going to hire to fill an absolutely critical role
+in your company, which is Human Resources. Who's going to be the head
+of HR in your company? Now HR can mean many different things. An HR person can handle just recruiting,
+so getting people into your organization and
+hiring them. They can handle the administration, they can handle the legal
+aspects of the company. So that you might have a HR person who's
+a lawyer and deals with employment law. So let's imagine that
+you've hired somebody for this role and it's an HR person who
+does not handle the legal issues, so your company starts to grow, and
+this HR person does a great job. They grow this company with you, they do a great job at recruiting which is
+what they specialize in, and you end up having to hire a lawyer to handle the
+legal aspects of the Human Resources job. Now, after a while, you end up, your HR
+person decides to leave the company, and now you need to hire someone
+to fill that HR role. What you've now done is, because that
+HR person has left and because they had a particular set of skills,
+you built the role around these skills. So now you can't hire an HR person who
+does the legal aspects of your company because you hired a lawyer to do that. So it will be overlapped in
+the roles in your company. So you're now limited only
+to HR people who don't handle the legal aspects of your company,
+this is what we call role inertia. By leaving after you've built
+the company around this person they have left a hole in your company that's just
+the shape of what their skill set was and that means from now on you have to
+hire people to fit that skill set. So it's very hard to change
+an organization's structure in hiring. The choices you make when you're
+first hiring your first 20 employees actually dictate how your entire
+company is organized in the future. So, you need to think about the roles and
+design your company around these sets of roles so you're not just hiring
+a person for the job, but you're hiring a person to help
+create a job for the future. So another reason why early
+employees are so important. So when you make your
+first hiring decision, it's very important that you hire slow and
+you fire fast. So before a role gets set,
+if somebody's not working, get rid of them and
+spend your time doing hiring right and not just hiring random people
+because you need bodies right now. There's often a lot of pressure in
+startups to staff up as early as you can and get people into your
+organization as quickly as you can because there's a lot of jobs to do. And this can be a mistake, because if you're not thinking about
+the issue is the productivity difference. And you're not thinking about the role
+inertia that you're creating. You could end up making choices
+that will haunt you later on. So, generally in hiring,
+good enough isn't, right? So, if something's good enough that's
+not the standard you want to use. You need people who are excellent. You need to think about the roles that
+you're doing and you need to design carefully to make sure that the choices
+you make early on don't haunt you forever.

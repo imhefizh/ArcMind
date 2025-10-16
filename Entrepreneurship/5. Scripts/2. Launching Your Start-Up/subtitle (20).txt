@@ -1,0 +1,134 @@
+This session I want
+to talk about bias and meritocracy among startups. I think we'd all
+like to believe that entrepreneurship is all
+about the best idea winning. It's a pure meritocracy. But entrepreneurship
+is a social process, and like any social
+processes is subject to all kinds of biases and other sorts of barriers that affects some people
+more than others. This is especially true
+in entrepreneurship because it's very hard
+to know in advance, what startup's going to
+win and which ones aren't. So, decision makers like funders or other people who are deciding which
+startups to support, have to use what
+Laura Huang calls gut feel. The idea that you're
+taking in a lot of information that is
+hard to quantify, and using that to make a decision about what start up to fund. As a result of that, there are lots of potential biases that creep into this decision
+making process. Many of those biases
+are unconscious, and that makes them
+even harder to detect. Now, we're going to talk about two of these biases
+in this lecture. Will give some suggestions
+to solving these problems. I think there is
+progress being made, but some of the numbers
+are fairly stack. Now, some of the biases results from fairly objective
+decision-making. So one clear bias in startup
+funding is about geography. The mean distance between
+a venture capitalist and a company that it funds
+is only 80 miles. That means that as you can
+see in this chart here, which maps seed funding
+in the United States. There's very few places where there's a lot of
+venture capital funding. You could see those areas
+lit up in blue. So, that is Silicon Valley, and Boston, and New York. Boston and New York are far behind Silicon Valley
+in terms of funding. If you're outside of those areas, the chance you're getting funding through venture capital
+is much lower. Now, this is not
+just a bias based on the fact that people like
+Silicon Valley people better, but because there's
+a whole bunch of network effects of being
+in these locations. So you get to meet more
+venture capitalists. Also venture capitalist seem to monitor many different companies. So if they have to
+travel long distances to be able to monitor
+that company, then they can't monitor other companies in
+their local area, so they'd rather be local. In fact, we have evidence that when a direct
+flight is added between Silicon Valley
+and another city, venture capital investment
+actually goes up in that city. So that geography really matters, but there's a rational
+reason for it. Now, many of the other biases among startups are
+not as rational. So for example, around 40 percent of all business owners in
+the United States are women. The people highlighted
+in red in this chart. Can you guess
+what percentage of VC backed companies of
+at least one female co-founder? So the answer is
+really depressing. It's somewhere between
+four and eight percent to put it under a calculator. That number is not been improving
+tremendously over time. Now, how does it happen? How do we end up
+having 40 percent of business owners being
+female but only a few percent of VC backed companies receiving money
+being female lead? So there's a bunch
+of reasons for this. One reason is pure
+discrimination. So misogyny is a potential issue. There have been
+Me Too Movement concerns that have happened
+within venture capitals. A variety of venture capitalists and accelerator owners have been accused of and have had to quit because of harassment or
+other sorts of issues. There is straight
+misogyny that ends up happening in these kind
+of environments. But even when you don't have that sort of
+over discrimination, you have a bunch of
+social processes that make it harder for you to receive
+funding if you're a woman. One of those is about homophily. So homophily is
+the basic social principal that's been known
+since Aristotle. That birds of
+a feather flock together. We like people who
+are like ourselves. So there's a natural
+attraction between you and people who shares
+similarities with you. For various historical reasons, the majority of VCs in the past
+have been white males. White males tend to
+associate with other males. They also tend to be
+from top schools. They associate with other
+people from top schools. So a network starts to be
+formed of these sets of people. So, individually, they may find less in common with a woman, because of the homophily issue. But also, the network starts to consist only of people
+who look like each other. That makes it harder for a woman to enter this network because the Venture Capital
+Network is all about informal connections
+and warm introductions. If you don't know people who are part of that network
+it's hard to get access. Even if entrepreneurs are looking to get access to network, and even venture capitalists are looking to fund
+more female entrepreneurs. They look around and say, I don't know any
+female entrepreneurs. Well, that's because
+their network is formed by this
+homophily principle. They tend to know other people
+who are like themselves, and they never get to meet the female entrepreneurs who are being successful because they're not part
+of their network. Then there's a whole bunch
+of unconscious bias issues. So, there's a really interesting
+set of studies about the questions that
+venture capitalists ask women versus men. They tend to ask men more ambitious questions about
+how they're going to win, and they tend to ask women
+more questions about, how they're minimizing risks. So these unconscious biases
+creep in as well. So, there's a whole
+bunch of reasons why entrepreneurship is
+not a pure meritocracy. So, pure discrimination, homophily at
+the individual level, network access larger issue, and unconscious bias, all shape the decisions
+people are making. I wish I could say there
+was a single easy answer to these problems of bias. Unfortunately, there isn't. I think if you're a member of a minority group, or you
+are a female founder, or any other group is not as well represented in
+the founding community. You have to realize
+that there might be these kind of
+concerns coming up. So, many of my students never encountered any of
+these issues, some of them do. I think that you have to be
+aware that they're there. The good news is you're not the only person who is
+working on this problem. There's a widespread recognition in the entrepreneurship
+community, that entrepreneurship
+needs to be more accessible to women and
+minority group members. There's a lot of efforts to
+try and make that happen. Increasingly the
+evidence seems to be, that provided that a woman or a minority group members get access to the same
+sorts of funding and opportunities that are provided to other entrepreneurs, that they seem to have
+very similar success rates and in some cases higher success rates than the majority groups
+who are receiving funding. So, it's about getting
+that initial access. That's the problem.
+There's a lot of groups that are trying
+to make this happen. I give you the advice
+that if you are one of these minority group members
+or female entrepreneur, that you should think
+about reaching out to these groups that support founders
+in your community. You can also apply for
+accelerators and launch programs. We have lectures on those issues. Think about your own networks. You might have to be more
+aggressive at scouring your own networks in order to be able to get access to
+these kind of communities. So, the world is
+changing for the better, but not as quickly as we'd like. There is a possibility of bias out there that may affect you. You should realize though that the world is changing
+on the better on this side and that
+though the work might be harder they still have
+every chance of succeeding. Once you have accessed that funding and initial resources, that the success rate
+for these discriminated against groups
+seems to be just as good as for any
+other organization. In fact, if you're a funder looking to fund entrepreneurs, there's a real opportunity
+there to fund more female lead and more
+minority lead entrepreneurs. Because it gives you a chance
+to expand your portfolio, and make investments in groups of people who have
+just as good ideas and even better
+potential outcomes that other people are
+making investments in.

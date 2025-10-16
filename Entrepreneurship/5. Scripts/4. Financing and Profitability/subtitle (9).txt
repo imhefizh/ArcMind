@@ -1,0 +1,160 @@
+I'm Karl Ulrich. I'm a Professor at the Wharton School and
+this session is on Debt Financing. We've talked quite a bit about equity
+financing in which the investor provides the capital in exchange for
+an ownership interest in the company. Basically, what that means
+is your investor owns part of the business with you for
+better or for worse. Debt financing is a little different. With debt financing, you the company, take on an obligation to pay
+back principle and interest. But that's your only obligation,
+to pay back the principle and interest. There's no residual ownership
+interest in the company. Debt is usually senior to equity. What we mean by that is that the debt is
+paid back before investors get any money, before equity shareholders get any money. That's what we mean by senior. Debt is senior, typically,
+to equity meaning it's paid back first. To that extent, it's less risky
+to the investor than equity. On the other hand,
+debt is usually secured by assets, and that's called collateral,
+just like in a consumer loan. It's called collateral,
+when you buy a car, and finance it, the bank takes an ownership interest,
+the vehicle itself is the collateral. Same thing is true of a company. When you borrow money, that debt is typically secured
+by the assets of the company. Now, here's some examples, and they
+range from ordinary to somewhat unusual. The most ordinary and common form of debt
+is trade debt, which is simply a supplier who provides you goods and doesn't have
+you pay them back for say 30 or 60 days. In effect, this supplier's lending
+you the money to buy those goods and you're promising to pay back
+that debt with then 30 days or 60 days, that's called trade debt. It's a pretty important source of debt for companies that need to minimize
+their working capital requirements. The second example is
+a credit card balance. If you run a credit card balance
+the credit card companies lending you money and you're paying interest on it if you carry
+that balance over past the payment period. A third example is equipment financing. If you buy a machine tool, the lender or
+finance company will finance that purchase, and take a collateral interest,
+take an interest in the equipment itself. Again, of course, there's banks that
+will lend to a company in a general purpose line of credit, we'll talk
+a little bit more about that in a minute. There are also government loans that
+are provided in many jurisdictions, the United States, many countries in
+Europe, in Asia, there is often in some municipalities and states,
+there are government loan programs. Lastly, there is a special kind of
+debt called the convertible note that I'll spend just a few minutes
+talking about at the end of the session. Now, in general,
+debt is a good thing if things go well. Basically, it's less costly
+to the founders than equity, if you eventually pay off the debt, then
+you still own 100% of the company and so debt in that respect,
+is a pretty nice thing. On the other hand, debt usually
+requires that you pay interest and that you pay interest immediately
+from the cash flow in the business. The problem is that most very new
+businesses don't even have any cash flow and if they have cash flow, it's usually
+not even enough to cover their expenses, let alone to pay interest on debt. Maybe more significantly for the
+entrepreneur, in most cases, a significant amount of debt provided to the company
+requires that you personally guarantee it. Which means that if the company
+defaults on the debt obligation, the creditor can come after your assets,
+and that of course, is a very scary thing for
+most entrepreneurs. On the other hand, if you genuinely have
+significant assets in the company, and we'll talk about some examples of that,
+say inventory, or receivables from suppliers, or equipment. Then debt can be a very valuable way
+to finance your business because it doesn't require that you give
+up an ownership interest. In the long run, it can be less
+costly to you as the entrepreneur. Let me give a few examples. Let's say you're starting a new
+airline and you want to provide a relatively small jet aircraft
+to business travelers. It's going to be very hard for
+you to raise enough equity to finance that business because
+airplanes are really expensive. On the other hand, airplanes are a well defined asset that
+have very clearly defined resale value. It's possible for
+you to go to a finance company or to the manufacturer itself and
+to get a loan to buy that equipment because the creditor
+knows that if you default, they can repossess that airplane and
+they can get quite a bit of value for it. They know, in fact, exactly how much value
+they can get from it, so they know just how much risk they're taking in loaning
+you the capital to acquire that equipment. If you're involved in a business that has well understood equipment that is
+generally valuable in society, you can probably borrow money
+to purchase that equipment. And that can be a very
+important source of financing in a capital intensive
+business like an airline. The other kind of assets
+that you can use to borrow against are working capital assets. Working capital is the cash you
+need to operate the business, even if it's profitable. Even if your business is profitable, you need a certain amount of
+cash just to keep it operating. Let me give you some examples of that. If you sell things, you have to generally
+hold inventory of those things. That inventory requires you to pay
+some cash to your suppliers but you aren't getting any money from
+customers for that inventory. It's just an asset that's
+sitting in your company and that inventory asset requires cash,
+even if you're profitable you have to come up with
+the cash to finance that inventory. Similarly, when you extend
+credit to your customers, that is when you send them an invoice and
+give them 30 days to pay the bill, then you're providing the cash,
+you're basically lending to your customer. That's another kind of working capital
+that's often required to support your business, even if you're profitable. Now the good news is that if you have
+those kinds of assets, working capital assets and in particular, inventory and
+receivables, then many times, banks will lend against those
+receivables and provide a line of credit to you as long as you stay within
+certain covenants of the loan. Typically, what will happen is the bank
+will stipulate that you may borrow up to a percentage of the current
+amount of inventory and the current amount of receivables that you're holding
+on your balance sheet as a company. That ratio is often around 50 and
+80%, often around 70%. If you have $100,000 in inventory,
+you might be able to borrow up to $70,000 from the bank and that
+helps to meet your working capital needs. Typically, that still requires
+a personal guarantee, that is the bank will typically still
+require that you, the entrepreneur, the business owner, sign for
+that loan personally. But if you're quite disciplined about
+not borrowing more than a fraction of the genuine assets that you have in
+the company, that can be a relatively safe bet that you as the entrepreneur
+can make and may be worth doing. Let me also note that there are some very
+specialized financial institutions that focus on a particular kind of lending,
+often lending against receivables. Let's say, for instance, that you're
+selling to a well-known retailer, you're selling, let's say,
+to Walmart, well-known retailer. You've sold Walmart the product, you've sent Walmart the invoice,
+then Walmart is going to pay that bill. A very a reliable company,
+they going to pay that bill. They just aren't going to pay
+that bill for 30 or 60 days, depending on what terms they
+have negotiated with you. There are specialized financial
+institutions that will factor that receivable and that's
+the term of ours, factor the receivable. Meaning they will take
+the receivable that bill to Walmart, they will take possession of it and
+Walmart will pay them instead of you but they will advance you the money
+that Walmart will eventually pay. The problem with that is
+it's usually very expensive. The interest rates for
+factoring receivables can be as high as 24% per year, so very,
+very high interest rates. But if you have no other alternatives, or
+you really don't want to sell equity on your business, and you have some
+receivables from very reliable customers, you can probably go to one of these
+financial institutions called a factor and get some working capital that
+is secured by the receivable. Let me just speak for
+a minute about government loan programs. In the United States, the main government
+loan program at the federal level is called the SBA or
+the Small Business Administration. What the SPA does is works
+with local banks and essentially guarantees the loans that
+local banks make to small businesses. Often somebody with limited assets
+can get an SBA loan on quite attractive terms from a local bank and
+it's secured by the federal government. Now this is for the U.S., but many other developed
+countries have very similar loan programs. I'll talk about the U.S. example but
+you should check out your own jurisdiction in order to see what loan
+programs are available. SBA loans are typically
+guaranteed personally. That is, you the entrepreneur do need
+to provide a personal guarantee. But they can be quite popular for
+people who don't have significant assets. I've seen instances where a new college
+graduate who doesn't have significant assets will get an SBA loan,
+will signed a personal guarantee. The downside is that the bank would
+come after them in the case of default but because they don't
+really have any assets at risk, they don't have much to
+lose in that scenario. On the other hand,
+if you have significant personal assets, a house let's say, or investment accounts, you want to be very careful about loans
+that require a personal guarantee. Because when you do that, you're
+effectively loaning yourself money and it might be better just to do that, just
+to loan yourself money than to involve the bank because eventually, the bank will
+come after you in the case of default >> Let me just spend, lastly, a few minutes talking about a special kind
+of debt, which is the convertible note. The convertible note is a vehicle for
+an investor to provide capital to you, the entrepreneur that the expectation is that it will eventually convert into
+equity, but it's structured as debt. Really, you should think of it more like equity than as
+conventional debt financing. But just for completeness, I'm going to point out that
+a convertible note is a form of debt. But it's really a form of temporary
+debt that will eventually convert into equity and is probably best
+thought of as equity, not as debt. It isn't typically guaranteed, personally. It doesn't typically have
+interest payments, and the expectation is that it will
+in the end, convert to equity. Let me close by saying
+that the landscape for debt financing is constantly changing and
+there are some institutions that have had pioneered
+innovative forms of debt financing. One of them in the San Francisco Bay area,
+really in the United States more broadly, is called Silicon Valley Bank. Silicon Valley Bank has
+made really their business providing debt financing to new ventures. You can check out the SVB website,
+look at the products that they have, look in your own region for
+similar kinds of institutions. But I point this out, just to say,
+that the landscape is constantly changing. There are some interesting innovative new
+forms of debt that start to look a little bit more like equity, that don't
+necessarily have the downside of debt, that is, personal guarantees, but that still may be less
+costly than equity financing.

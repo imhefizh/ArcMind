@@ -1,0 +1,157 @@
+Almost 20 years ago I
+started my first business. We created the Xootr scooter and
+the Xootr was a real hit. In fact, it was adopted by celebrities
+like shown here is comedian Tommy Chong riding our product. In fact the product was so successful
+It was one of just three products that Steve Jobs kept in his office
+at Pixar Animation Studios. I remember thinking wow, business is easy. Let me tell you about my second product. My second venture created
+the Voloci electric motorbike. The Voloci was a critical success, which is really a euphemism for
+commercial failure. And in fact we failed to reach break even
+and this company flamed out and died. And in fact it was these two
+experiences that led me to ask the question what explains
+success in entrepreneurship? And more specifically, what role does
+the idea itself play in success? Now if you think about it, on the one
+hand, how can the idea itself not matter? It must be important. Sabeer Bhatia was the founder of Hotmail,
+the first web-based free email service. And Sabeer was so
+convinced that the idea itself for Hotmail was critically important,
+that he actually wrote two business plans. The first plan was a decoy, which he would use to get meetings
+with venture capitalists. And when and if he trusted the venture
+capitalists, he would stop mid-meeting and say, wait a second,
+let me tell you about the real idea. Now that behavior can only be explained
+by a belief that the ideal itself is so critically valuable, that you have to be really careful
+about revealing it to others. On the other hand,
+let me give you a counter example. Tony Fadell and Matt Rogers founded
+Nest Labs and they attracted more than $60 million in venture
+capital to pursue a better thermostat. Which you wouldn't think of as in
+itself a genius idea, but that level of enthusiasm must have been explained in
+part at least by the fact that Fadell and Rogers had led 18 generations of iPod and
+iPhone development at Apple. And in fact if you ask any venture
+capitalist what the three most important factors are in entrepreneurship, they'll
+tell you the team, the team and the team. So really we have here two
+competing perspectives. One is that the idea itself is super
+important, and the other is, that if you have the right team, you can make almost
+any idea into something really successful. Now to help make sense of this dichotomy, I've developed a simple framework
+to help you think about that. I call it the VIDE model,
+and you can see here, VIDE refers to the three key variables,
+V, I, D, and E. And the model basically says that
+Value V is a function of the idea, I. What you do to develop the idea,
+D and the exogenous factors, E. Now let me give you an analogy to help
+make clear what I mean by this model. Let's imagine that you're trying
+to make money mining for gold. In that analogy,
+value is the money you make from the mine. I, the idea,
+is like the location of the mine. If there's no ore in the ground, you're not going to be able to
+make any money mining for gold. D is your efficiency and effectiveness at
+extracting the ore from the ground and turning it into gold beyond. And E is the price of gold. It's a factor that's outside your control,
+but that really has a very big influence
+on whether you make any money. So the analogy here is that the location
+of the mine is like the idea. Your effectiveness at
+mining the ore is like your effectiveness in developing the idea. And the exogenous factors
+are like the price of gold, factors that are outside your control
+that can determine your success. Now of course, all three factors matter. A good idea is important, your ability
+to develop that idea is important and what happens to the factors outside
+your control are also important. So the real question is how important,
+relatively speaking, is the idea in determining success? Now what you'd really want to have, to answer that question is you'd like to
+have a very large sample of new ventures. You'd like to look at the outcomes of
+those new ventures, and then you'd like to go back in time and look at the raw
+idea that the entrepreneur began with. And you'd like to understand how
+much of the variance in outcomes is explained by variance in
+the quality of the raw ideas. In statistical terms, this is equivalent
+to asking how much of the variance in the outcomes, if you think about all
+the variability that would be expressed in the outcomes of these new ventures,
+how much of that variance is explained by the variance in the quality of the ideas
+those entrepreneurs started with? Now that question is really impossible
+to ask in a statistically rigorous way across all new ventures, but
+I did some research that looked at a very narrow domain in which we
+could get some data and actually start to understand
+the explanatory power of the raw idea. And I'd like to just take a few
+minutes and tell you about that study. My collaborator Laura Cornish and
+I studied over 100 products that were created by the crowd-sourcing
+web platform quirky.com. Quirky developed products such as these,
+an articulated power strip, a cable management system, a divided
+water bottle, and yes, a tofu press. These are examples of four
+products that Quirky developed. So the question we ask is if we look back
+at the ideas as they were originally expressed, how much of
+the variance in outcomes for these commercial products could be
+explained by looking back at the variance and the quality of the raw
+idea as originally expressed? Well how do we actually measure
+the quality of the raw idea? What we did was to take
+a large sample of consumers, show them a concept description
+of the original idea, and use a simple purchase intent survey
+which asked them to select one of five options from, I would definitely
+not buy to I definitely would buy. This is called a five box
+purchase intent survey. And it's one of the standard techniques in
+market research for assessing the quality of an idea, and
+the eventual sales of a new product. What we found was quite interesting. The first thing that we found was
+that experts are actually not so good at predicting success. We found that four random consumers,
+just randomly selected consumers, actually provide a better estimate
+of idea quality than seven experts. That is consumers themselves are the best
+single indicator of the quality of an idea and is the best single predictor
+of whether the product will sell or not. And that in fact,
+four consumers provide a better estimate than even a larger number of experts,
+than even seven experts. If you're interested in the details of
+that study, I've provided the citation to the original paper here, and
+you can look at the details. Let me show you how the ideas
+were originally expressed. This is Idea 133, the Tofu Press. And it basically shows a little picture
+and says that when you're trying to cook tofu wouldn't it be great if you could
+squeeze the water out of the tofu and wouldn't it be useful to have
+a tofu press to be able to do that? So what we did is we took ideas expressed
+this way, we showed them to consumers, we asked them to indicate on that five
+box scale how likely they would be to purchase a product if it were
+developed around that idea. We did that for more than 100 of the
+products that were developed by Quirky, and then we did some statistical
+analysis of how well the consumer purchase intent
+predicts the eventual sales rate. I won't go through all
+the statistical details with you, but I will say that the model explains about
+6% of the variance in the sales rate. And that is if you look at
+the variance in purchase intent for all those different product ideas, that explains about 6% of the variance
+that you see in the sales rate. Now as a technical note, let me just say that we actually
+take the log of the sales rate. And we have to do that, because the sales
+rates vary from a few thousand units per year to over 10 million units per
+year for the most successful products. If you take the log of the sales rate and
+you use that in a statistical model, then the Raw Purchase Intent, that is the
+purchase intent as expressed by consumers, explains about 6% of
+the variance in the sales rate. Now on the one hand that seems like not
+very much of the variance, only 6%. On the other hand, if you look at the fact
+that it's the log of the sales rate, it's actually quite a big number. So that a one standard
+deviation better idea, that is a one sigma better idea,
+as measured by consumer purchase intent, corresponds to about a 75% higher
+sales rate for that product. There's good news and
+there's bad news here. The good news is that some of the variance
+in outcomes can be explained by the quality of the raw idea. The bad news is that there's a lot
+of variance in the outcome that's unexplained. That is, that's likely explained
+by either D or E and not by I. Let me give you an additional
+caveat about idea quality and how important the idea is. So, while on the one hand
+the idea is important, on the other hand,
+there's a lot of unexplained variance. The other point I want to make is
+that many ideas are readily available publicly and so they aren't really
+a source of unique advantage. This is actually an image taken
+from a slide from a student project in my 2009 Wharton workshop on
+web-based product and services. The idea is for a company called
+CabStalker, which would allow you to take out a smartphone and
+hail a local transportation solution. In effect, what this team was proposing is almost
+identical to the functionality of Uber. But I wouldn't for a minute suggest
+that this team could have gone off and created Uber. There were many other things that
+mattered in creating the value for Uber other than just the raw idea. And in fact, once Uber was launched, that idea was publicly available
+to anyone who could've pursued it. In fact, this is a photo of an automobile
+in which the owner actually works for three different ride-sharing companies,
+Uber, SideCar, and Lyft, all with the same car. Suggesting that the idea itself can't be really what explains the differences
+in the performance of these services. It has to be both D and E, and mostly probably D, what the development
+team has been able to do with that idea. So, in sum, the VIDE model basically
+articulates that there are three buckets of factors that determine
+your success in entrepreneurship. The idea, that is, where you start. Is there ore in the ground? Are there customers with this pain point? That's basically I. D, what you do with that opportunity. Do you have the relevant skills and
+capabilities? How hard do you work? Have you put together the right team? And E, the exogenous factors. These are the factors that
+are outside your control, but that have a big influence on your success. You should sort of think of
+this as being like the weather. The weather influences you,
+but it's outside your control. All three buckets of factors
+are important in determining value. So, what are the implications for
+you as an entrepreneur? First, the quality of the idea
+does explain some of the value, but there's a lot of variance
+that's due to D and E. However, given that measuring idea
+quality is relatively easy, and the idea is totally under your control,
+you might as well work on a great idea. That is you might as well
+generate a lot of ideas. You might as well measure how
+well they play with consumers and then you might as well pick the best of
+them, because it's completely out of your control and it's relatively
+easy to measure and assess. And lastly, when you look at
+what happens at the outcome, the results of your entrepreneurial
+endeavor, don't impute wild success entirely to your brilliance nor
+failure entirely to your incompetence. The exogenous factors matter a lot.

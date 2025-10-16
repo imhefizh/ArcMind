@@ -1,0 +1,151 @@
+Welcome to our conversation
+about financing pathways. So there are many potential ways
+of financing your business and it can be very complicated because
+they're all related to each other. So there's actually a number of
+lectures in this series that talk about specific methods of financing, but
+I wanted to give you a general approach about the overall methods and
+approaches to financing. So this is a map of the many
+kinds of fundraising that are available to new organizations. On the upper left in tan are the related
+dilutive funding mechanisms. So what does dilutive funding mean? Dilutive funding means that in order to
+get money from these organizations you'll have to give them a stake in your company,
+they'll have to get a piece of equity. And these pieces are related. Usually it starts with angel investors and
+potentially super angels, which we'll discuss. That usually results
+in venture capital and eventually larger scale fundraising
+that comes out of that, or else through accelerators which is another
+topic that we cover in a separate lecture. So those are the dilutive
+funding mechanisms, and again, it usually starts with angel investment. In the lower right, you can see
+funding that's sometimes dilutive and sometimes isn't. Friends and family funding, crowd funding
+which has a separate lecture on it as well, and the new area that we're not
+going to discuss in detail because it's still being work out regulatory,
+initial coin offerings. And then in the center, you have self
+funding, which is basically funding out of your own savings, and
+then debt funding which is non-dilutive. So, these are the sources of funding. You might be curious about what
+sources of funding are most common for among high growth companies. In the US according to the Kaufman survey,
+the most common form of fundraising is self funding and then followed by debt
+funding, then diluted funding, and then finally the funding
+through friends and family. And on the diluted funding
+side it's a very small piece. Only a few percent of people
+actually receive diluted funding. But those that do receive a lot of money. So if you need to raise a lot of capital,
+that's the way to make it work. So let's talk through some of
+these funding pathways in detail. So when you consider funding, there's a few ways to make
+comparison on funding methods. The first of those is who
+provides the funding? So is it a venture capitalist? Is it an individual? How is the funding being provided? And who's the source of it? Second question you want to think
+about is your stage of interest. So in entrepreneurship, fundraising is
+often dubbed as being in stages, so often there is a pre-seed stage,
+or friends and family stage. That round of fundraising, pre-seed or
+friends and family round, is usually used to build your minimal viable product, so
+it is in very early testing of your idea. Then once you've been able to do that,
+then you'll go and raise some seed funding. Seed funding is to show traction. To show that you actually
+some interest in your idea or build a prototype if your
+idea is more complicated. And then finally,
+you'll go onto an A Round of funding. The A Round of funding is a more serious
+round investment where you are going to start to scale or build out your business
+or your build out your final product. There might be a B Round,
+a C Cound, a D Dound, each one gets larger than the round before, so the
+amount of investment also varies by round. Generally a pre-seed round you're
+receiving about under $500,000, but that change. A seed round is traditionally
+under $1.5 million. And an A Round is usually under
+$3 to $5 million of investment. In each round, you can expect to give them
+a third of the equity in your company if it's diluted funding. Somewhere between 20% and 40%. So these are serious investments and
+take a lot of time to get. What you might want to consider when
+you're thinking about fundraising what the value add of your investors are. Do they bring anything
+special to the table? Do they have connections or
+other things can be useful as resources? How much money can they deploy? What is their fund size? And how are they ultimately getting money? Why are they bothering
+to invest in you at all? So let's start by considering these issues
+from the side of the non-diluted funding, which are the most common forms of
+fundraising, self-funding, friends and family, and debt financing. So these are usually all pre-seed funding, because by the time you're starting to
+received seed money, a million dollars or more, you're going to have to
+start receiving diluted funding. They're different in type. So self funding you want to think
+about when you're doing this. Entrepreneurs often work for
+a principle of affordable loss. So how much money can you afford to
+put into your business idea before you walk away? And so when you think about self funding,
+you might want to set up some sort of realistic budget or idea about how
+much money you're willing to put in. And what sign you need to have that
+you're willing to continue investing in your business. And you can use the techniques we've
+talked about in hypothesis testing and lean startups to make sure you're doing
+that in a useful and targeted way. For loans you want to consider about
+who will give these kind of loans. So you can think about the kinds of loans
+that can come in from government agencies, the SBA secured loans. There's a whole bunch of ways of receiving
+loan financing for your business. And government funding
+through things like SPARs and again we have a lecture
+discussing loans in more detail. So friends and
+family funding is complicated. It's complicated in a number of ways. One way it's complicated is that
+there's an emotional component. You're asking people who care about
+you to give you money in return for some sort of return and that emotional
+element shouldn't be overlooked. The second reason it's complicated is
+these people often what may want diluted funding, so they may want to make an investment
+in you rather just giving you money. And if they want make investment rather
+than taking a loan or some other approach, you want to consider using a technique
+called convertible notes, and convertible notes are not very common. What a convertible note is and that's
+covered in more detail in other lectures, is a way of deferring a decision about
+the valuation of your company until you receive a major round of financing. So convertible note is basically a form of
+debt that buys stock once you've received a more official round of financing
+like a seed round or a series A Round. So the convertible note will then convert
+into stock at some discounted rate when that occurs. So it's a way deferring decision
+about how much financing to take and how much your company is worth
+until later on in the process. Another approach to funding is to think
+about the diluted funding kind of approaches. And there's a variety of
+approaches to dilute a funding and I want to go through those options for
+you here. And again, there's lectures with more detail on
+these approaches elsewhere in the course. So one thing to realize is that the stage
+of investment does change what kind of diluted funding that you can receive. So here you have comparative
+numbers of 2010 and 2015. The 2018 numbers are not out yet, but
+the trends continue to go higher. And so you can look at these
+fundraising numbers and you could see angel investment and VC make
+up by far the bulk of source of investment available to start-ups in
+terms of billions of dollars. And VC is a much larger
+component than angel investing, unless you look at seed stage funding. VC's almost do no seed stage funding. Almost of of that is
+through angel investment. So, angel investors are where
+you're going to seek out your seed stage funding also through
+crowd funding and other approaches. So, this giant chart will help you walk
+you through the mechanisms we talked about and compare VC, Angel, Super Angel,
+Accelerators and crowd funding. All different funding mechanisms again are
+covered in more detail in other lectures. So, venture capital funding is usually
+happens in stage A or later and usually requires a lot of investments. So VCs are usually unwilling to deploy
+much less than a couple million dollars. There's some exceptions to the rule. Generally VCs are about putting
+a lot of money into a company. They offer a lot of
+potential value adding. So they have networks and
+connections they can give you. They offer governance,
+which can be good or bad as you'll see in the VC lectures and
+offer guidance. Usually they have funds of $100 million or
+more they're willing to deploy. Some of them go up to billions of dollars. And they make money through fees so they charge a 2% fee a year often
+in order to maintain their fund and carry which means that they get
+a percentage of any profit that they make. And they are aiming for very large exits. On the other hand, Angel investors
+are usually interested in the seed stage, sometimes even a pre-seed stage. And they can deploy as little as $25,000
+or as much as millions of dollars. And sometimes they add value. So you might have an angel investor
+who knows an industry really well, that can be very helpful. They don't usually have a fund,
+they're making personal investments. And they're looking for equity,
+simple equity leading to exit. So angel investors can be anyone. That can be a group of wealthy doctors
+who are investing in your company. It can be somebody who's made
+money before as an entrepreneur, who wants to make investments, somebody
+looking to diversify their portfolio or even just having fun investing. So there's many kind of angels out there. There's many kinds of angel networks and
+there's a discussion on angel investing that you can go into more
+detail in the future lecture. There's also category of
+angels doing super angels, so as the cost of start up has dropped
+over time, it has become more and more difficult for a venture capitalist to
+make early stage investments of companies. So, super angels have stepped up and somewhere between an angel investor and
+a VC. They're highly connected
+in Silicon Valley and other regional figures who
+make lots of investment. Sometimes they actually
+don't run small funds, but they make lots of seed
+stage in angel investment. And because their investments are of high
+quality because they're well respected, venture capitalists usually
+follow on to these angel and super angel investments fairly quickly. So they may run small funds. They're often highly connected and
+offer networks and governance guidance and they are again looking to make
+equity investment in your company. As you have heard in the more detailed
+conversation on accelerators, accelerators are pre-seed investments
+that happened very early on a stage your company or join accelerators. They're usually going to invest
+somewhere between $20,000 to $100,000 in your company, provide mentoring, networks,
+classes, and ultimately, take about 5% to 10% of your equity in your company
+in order to make that investment. Crowd funding as you'll see in more
+detail in the crowd funding discussion, it can be diluted or non diluted. It's usually precede money,
+somewhere between a $100 and a $1 million. The value add comes from the community. It's making investment in you. And they don't usually make money,
+although, equity crowd funding does. So there are many ways to get
+potential funding in your company. Each approach has its pros and
+cons and not always substitute. So it's not like VC is the same
+thing as angel investment, is the same as the super angels,
+is the same thing as accelerator. There's reasons you might want to
+pick one of these versus another and you need to think about own motivations. You need to think how these different
+forms of fundraising complement or don't complement each other. And you have to realize that the early
+choices you make about how to raise funding impact your later choices. So there's a lot of complication here. And I'd highly recommend looking at
+some of the lectures on fundraising techniques and funding to get more detail.

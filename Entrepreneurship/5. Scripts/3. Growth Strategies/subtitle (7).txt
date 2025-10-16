@@ -1,0 +1,99 @@
+Hi, I'm Kartik and this session is on
+Search Engine Optimization or SEO. Now, when you enter a search query
+on a search engine like Google, your search results consist of
+organic results and sponsored results. Organic results are essentially those
+webpages that are most relevant to your search query as determined by
+the search engine algorithm. Sponsored results on the other
+hand are results based on payments made by advertisers to the search engine. Search engine optimization or SEO, focuses
+on placement among the organic results. And search engine marketing focuses on
+placement among the sponsored results. In this session we're going to talk
+a little more about search engine optimization, and in the later session,
+we'll discuss search engine marketing. To understand search engine optimization, it is first useful to understand
+how search engines work. Search engines perform
+three main functions. The first function is to gather
+all the pages on the web. This is also known as crawling or
+sometimes called spidering. The second function is to organize
+the content of the pages that have been downloaded to allow for
+easy look up later. This is called indexing. And the process of indexing is similar to the process of generating an index for
+a book. The index essentially lists all the pages
+in that book that contain that term. And similarly the index in a search
+engine might refer to all the web pages that somehow relate to
+the term of interest. And finally, in response to a search query
+the search engine determines which pages are relevant to the search query and
+ranks them in order of relevance. Accordingly, based on these three steps
+of crawling, indexing, and ranking. I'm now going to discuss three important
+strategies for search engine optimization. The first strategy is to
+ensure all your web pages are in fact crawled by search engines. To do so,
+it's useful to maintain a sitemap. A sitemap is essentially a list
+of all pages on your website. With the link structure that clarifies how a user might navigate
+from one page to another. For example, the image to our right has
+the sitemap for one sample website. A sitemap makes it easy for a search
+engine to discover all your web pages. Dynamic content should also
+be added to sitemaps so that you can ensure that dynamic pages
+are also discovered by search engines, and those pages show up in
+search engine results. If you're finding that a page that is
+generated dynamically isn't getting indexed, then you might want to create
+static versions of that webpage. The second strategy is based on indexing. Recollect that the index records
+the pages, that are relevant for any given keyword. Keywords are essentially words or phrases
+that represent the content of a webpage. The second strategy is based on indexing. Recollect that an index records the pages
+that are relevant for any given keyword. Keywords are essentially words or phrases that represent
+the content of your website. So in order to make sure that your website
+is indexed for the right set of keywords, you want to use these keywords
+on your website prominently. You might determine which keywords to use
+on your website based on search volume for different key words, and based on
+the level of competition you face for these keywords. For example,
+consider that you are an online florist that sells flowers at a lower
+price than many competitors. Based on that you might determine
+there are several keywords that are relevant for you. You might discuss on your
+website you're a florist. You might instead choose to focus
+on being a wedding florist, you might alternatively discuss that
+you're a florist that specializes in Valentine's Day flower delivery, or you might discuss the fact that you are
+cheap, or lower-cost florist, and so on. And in trying to determine what's
+the right set of keywords to focus on, we might look at monthly search volumes. And one might determine that there
+are certain terms, like florist, that are searched a lot more than
+some others, like cheap florist. On the other hand, search terms like
+florists are also highly competitive, and there's just too many other companies
+that end up being relevant for the search query. In contrast, notice for wedding florist
+you have reasonable search volume, but it is not as competitive as florist is. And you might determine these are the
+kinds of keywords you might focus on where you have high search volume,
+but not as high competition. Now figuring all this out is
+not as hard as it might seem. There are several free tools,
+that are available to advertisers, that can be used to get
+this kind of information. For example one tool that I commonly
+use is Google's Adword keyword planner. The next strategy is ranking. Ranking on search engines depends
+on the appearance of keywords or search terms on your website and on the
+number of inlinks that your Website gets. We've already discussed keyword
+selection and placement on your website. Now, inlinks are another
+important considerations. Inlinks essentially refer to links
+to your website from other websites. The number and quality of inlinks into a web page
+indicates how authoritative the page is. And generally, the more authoritative a page, the higher
+that page is going to be ranked. So you want to ensure you get a lot of
+links, and a lot of high quality links, into your website. It's worth noting here
+that black hat techniques, like getting lots of links from fake
+blogs, are usually not very effective, because search engines prioritize
+links from high quality pages. For example consider
+the image to our right. In this image each circle
+denotes a webpage and arrows connecting to circles indicate
+a link going from one page to the other. In this example page b has a lot of
+in links coming into this website. And therefore it has high score of 38.4%,
+which indicates that it's going to be ranked high in search engine results
+when there is a relevant search query. In contrast, the purple pages
+have almost no inlinks and therefore they have a much lower score. Now notice again over here that
+page C only has one inlink. And despite that,
+it has a high score of 34.3%. And page E has a lot of inlinks and despite that has a lower score of 8.1%. And this is because page
+E gets a lot of links from poor quality websites whereas page C
+gets a link from an authoritative website. And therefore, the idea is to get
+a lot of links from other websites and focus on links from prominent websites. So this is where PR helps. When you have links from media outlets,
+that increases the likelihood that your website will
+also rank high in search engine results. Finally, let's talk
+about the role of blogs. The primary purpose of blogs is to provide
+timely information to your customers or to establish thought leadership or to engage
+in some sort of dialogue with your users. However, blogs can also be useful
+with search engine optimization. By writing more blog posts
+you create more content. And by offering more content you increase
+the chances that your website will be indexed for more search queries. And this will ultimately
+help bring in more traffic. In conclusion search engines can be
+a great source of free traffic for your website by focusing on
+website content creation. And on generating inlinks
+from other website, you can help ensure that your website
+shows up high on search engine results and gets as much free traffic as possible.

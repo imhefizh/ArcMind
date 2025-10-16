@@ -1,0 +1,223 @@
+Equity financing is
+a complicated topic and one with a lot of
+facets associated with it. We'll today go over some of the details of how to think about equity financing and how it works and how diluted financing
+works in general. So a term sheet is the offer you get from
+a venture capitalist or other potential investor. You can see an example
+of this here. You can download copies of this online and there's
+open available term sheets. But we're going to
+cover today some of the basic ideas of dilution
+and preference etc. But there's a lot of terms in the term sheet, so
+legal documents. So, I don't want
+you to think that we're just discussing
+everything here. So, I want to give you
+the basics to understand this. But then, you'll need to go
+in a lot more detail in order to understand the terms of the bigger term sheet
+that's in front of you. So, let's walk through the details of how diluted
+funding works. You'll notice this chart here, there's
+actually two charts. The first chart is going to be telling you what percentage of ownership in the company
+is owned by which people, and the bottom piece
+is going to tell you on the funding side, how much the company is worth. So, let's imagine a startup
+where there's two founders. Founder one gets
+40 percent of the company, and founder to get
+60 percent of the company. You can see that in
+the upper left corner. The bottom left, you'll
+see there's no value for the company because it's just
+founded by these people. There's no money, it's
+not worth anything yet. So the situation associated more complicated with the seed round. In the seed round, an investor is actually putting
+money into the company. In this example, we have
+an Angel investor who's putting two million dollars
+into the company. So, suddenly the company
+goes from just two people to a number of people and
+number of investors involved. So, what happens when
+the seed investment comes in? Well, first of all, now the company has to have
+some sort of value. If I'm going to put
+two million dollars into your company as an investment, that means that I need
+to have an understanding what percentage of the company
+I'm acquiring as a result. So, I need to know
+how much your company's worth, what its valuation is and
+there's a lecture and entirely about evaluation that goes into this in more detail. But I'm going to give you
+the two million dollars, and I'm going to give it
+to you at some valuation, and the results of the valuation plus
+the money I give you, will be your
+post-money valuation. So in this case, I'm
+going to give you a two million dollars investment
+as an angel investor, and assume your company's worth eight million
+dollars in advance. That's what I've determined by my valuation method in this case, and that means your company's worth $10 million
+post-investment. So, we call those elements
+the investment, the pre-money value and
+the post-money valuation. So, the amount I invest
+two million dollars, plus the eight million dollars
+pre-money valuation equals $10 million
+post-money valuation. That's a very simple equation that will hold true
+no matter what. So investment plus pre-money valuation equals
+post-money valuation. So if I know that there's a $10 million
+post-money valuation and eight million dollars
+pre-money valuation, I know that there has been a two million dollars investment. Now, complicated things
+somewhat is the fact that this angel investor wants you to create an option pool. Option pools, as you'll
+see in other lectures, is our way of
+compensating employees. I'm reserving a piece
+of my company, I'll give out stock options in return for those employees works. In this case, I'm
+going to create a 15 percent option pool which will be worth $1.5 million
+post-money valuation. So, the angel investor wants the 15 percent of the company reserved after their investment. Now, the angel investor has a way of creating
+an advantage out of this. It's called the
+option pool shuffle. Even though that option pool
+we ask to be worth 15 percent of the company
+after the investment, so 15 percent post-money, they want you to create that pre-money before
+they make an investment. That means all the
+dilution that happens the founders from
+the options being created, happens before the angel
+investor invest in the company. So what does that mean for the effective valuation
+of the company? So nothing changes about the two million
+dollars investment, and nothing changes
+about $10 million post-money valuation. What changed is there's an additional $1.5 million option
+pool are being created. So, two million
+dollars investment plus a 1.5 million option pool plus the pre-money valuation has to equal the
+post-money valuation. So the post-money
+valuation is $10 million. That means that the pre-money
+valuation of the company is effectively $6.5 million
+after the option pool. So by doing this
+option pool shuffle, the investors have
+effectively lowered the amount of the
+pre-money valuation held by the founders. So, what that means is when the actual diluted ownership
+is calculated, founder one has gone
+down from owning 40 percent of the company to
+26 percent of the company, and founder two has
+gone down from owning 60 percent of the company to
+39 percent of the company, and the angel now owns
+20 percent the company. However, the shares that were worthless before
+now owe something. So, founder one now has $2.6
+million evaluation that they hold and founder two has $3.9 million
+evaluation they hold. So, even though their
+shares have been diluted, the valuation is increased. Now, let's consider
+the same thing in an a round. In the case of the A Round, we are now receiving a five
+million dollars investment, and the pre-money
+valuation is $20 million. So five million plus
+20 million equals 25 million post-money. So again, the equation
+still works investment plus pre-money
+equals post-money. Again in this case, we have
+another option pool created, another 15 percent option pool, which is going to of $3.75 million in new options
+being created. So, we'll do
+the same thing we did in the series A Round
+which means that the effective valuation
+because the option pool is being created before
+the investment comes in, is the five million
+dollars investment plus the 3.75, new options. That means that the pre-money
+effective valuation is $16.3 million in order to equal the $25 million
+dollars post-money. Again, we have
+a dilution happening. Founder one's share
+dropped from 26 percent to 17 percent and founder two dropped to 39 percent
+to 25 percent, and the angel investor gets
+diluted to 13 percent. But see what happens again. Again in each case, the amount of actual dollar valuation that holding increases. So, even though
+the percentage decreases, founder one goes from 2.6
+million to 4.2 million and the other founder
+other angel investors share of the actual
+money increases as well. But what that means is that
+in every round of investment, the value of the
+company goes up by considerable amount in
+this case by a 150 percent. But the value of the founders
+doesn't go up as much because the founders are being diluted in each round. So even though the
+company is worth a 150 percent more than it was before the founders and shares have only increased
+by 62 percent. So, that's what happens in
+each round of investment. The value held by the founders increases but by less than
+the valuation of the company. So some important caveats here. So, in that first round
+evaluation where it's just the founders there was that there's no friends
+and family round. There's no convertible debt, which is something we talked
+about in other lectures, and remember convertible debt is a loan that converts to equity, when you actually receive
+funding and say the A-round and has a cap
+and a discount rate. What does that mean?
+A discount rate means that it's going
+to buy equity in the seed round at a 20 percent discount
+and there's some caps, so the valuation
+in the next round can't be over $10 million. Otherwise, the friends and family a convertible debt round
+will be worthless. Because if you end up having a huge amount success and the
+company has a huge value, then the friend family investment only by very small amount
+of the stock. A seed round, a few
+things to caveat. So two million dollars is
+a very large seed round. Usually a seed round is
+going to be less than $1.5 Million and sometimes
+much less than that, and what's missing here
+is preferred shares. So oftentimes,
+investors will ask for a different class of shares and the common stock
+owned by the company. They are also not
+asks you a pro-rata. Pro-rata rights is
+the ability to make future investments in the company and to get the same rights
+as future investors, and there's also no
+convertible that. Sometimes angel investment
+is done as convertible debt. Once we get to the series A-round as a few missing things. It's a very small A-round. There's only a single investor. Investors usually invest
+in syndicates or with some multiple messages events at once and there's a bunch of
+terms that would be missing. So, terms include
+downround protection. So one of the worst
+things that can happen to you as a founder
+is that you have to raise capital at a lower valuation that
+you raised in the past, because there's all sorts
+of nasty things that trigger inside
+term sheets that will force you to reprice your stock and get a lot of stock
+to your early investors, so that's called down
+round protection. There's lot of ways
+of doing that. There's no control terms
+in this discussion, so usually there's
+a whole bunch of things to think about in terms of how the VC is going to maintain
+control of the company. So usually, a venture capitals will take board seats
+in the company. They might get
+special voting rights and it may have the ability to fire you as a founder. So that is all important stuff
+that happens in that A-round and there's no
+liquidation preferences. So I want to explain how
+liquidation preferences work briefly. A liquidation
+preference is worth a couple seconds to explain
+because it's very common and has a variety of important implications for
+you as a potential founder. So there are two kinds of
+liquidation preferences participating and
+non-participating. I'll explain how they work. But what I want to show
+you is a simple example of 50/50 equity split with a VC. So the VC owns 50 percent
+of the company, you own 50 percent and there's a onetime liquidation preference. Liquidation preference with
+two times a three times. In this case,
+the venture capitalists made a two million
+dollars investment, and they've got one time
+liquidation preference. Which means they
+have the right to take that two million
+dollars out of your company before anybody else can touch any
+of the returns. So, what that actually means, is that if you sell your company for
+less than two million dollars, the VC gets all the money. If you sell the company for between two million dollars
+and four million dollars. The VC will excise a
+liquidation preference, and they'll take
+a two million dollars because if you make less than four million dollars a 50/50 split is
+less than two million, so the VC would be
+better off taking the two million dollars than
+splitting equity with you. If you sell your
+company for more than four million in this example, the VC will not exercise their liquidation
+preference and instead, they'll just split
+the return with you 50/50. There are other
+variations on this. So, VC's can choose a two times liquidation
+preference, in this case, they will make $4 million before anyone who makes any money
+or they can choose to have a participating and liquidation preference
+which means they both get their
+liquidation preference and they get the 50/50 split. The reason why VC's
+do this as two-fold. One, is to offer some protection. So, if your company
+only sells for a couple million dollars they
+still get their money back. So it's a way of
+getting some return. But even more perniciously with the VC is trying to do is
+change your incentives. What you'll notice is that if it was a 50/50 split and you sold your company for two million dollars and you
+made a million dollars, you'd be very happy, but
+the VC would not be happy because they only make
+a million dollars and they put
+two million dollars in. So liquidation preference
+is a way of changing your incentives so that you as an entrepreneur can't
+make returns and less that you are going and
+swinging for the fences. So it's way VC's for
+motivating to motivate you to go for
+very high returns and that's why liquidation preference exist and that's
+why it terms like liquidation preferences
+or participation are are very complicated,
+I'm worth thinking about. Because it's not just
+about legal terms and not just economic, but they're also
+about changing the incentives of the entrepreneur. So, terms has to be
+really complicated and there's a lot of
+customary pieces in them. I rashly recommend
+the book Venture Deals by Brad Feld & company. It's a really great run through Brad Feld and well-known VC have all the terms that exist in term sheets and if you
+want a lot more detail, they're going to talk about here. You need to have a very
+good lawyer to solve this. You can't just sign a term sheet without
+getting a lawyer. So a lawyer who knows
+term sheets will help you out a lot
+in this process. But I hope you
+understand that some of the basics of the complications of dilutive funding and
+venture capital terms.

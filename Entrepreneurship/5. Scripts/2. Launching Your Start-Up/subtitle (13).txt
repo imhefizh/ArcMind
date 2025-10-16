@@ -1,0 +1,214 @@
+Hi I'm Lori Rosenkopf. I'm the Vice Dean of the Wharton Undergrad
+Division, and today's session we'll be talking about networks,
+innovation, and entrepreneurship. What I'd like to do in this
+session is a little bit different. We're going to spend some time first
+of all just talking about the basic principles of network theory. And then connect how those
+relate to innovation and ultimately get to the implications for
+entrepreneurship. So, the kinds of things we'll be talking
+about, you'll see we'll weave to many of the topics that you seen both before,
+and after this session as well. This figure depicts a very
+simple social network. Now, you're all familiar with social
+networks because you're embedded in them and interacting in social
+network apps all the time. But at its simplest we can think of
+a network as just a set of actors who are connected by some sort of relationship
+that allows information to flow. So in this picture,
+we have 11 people who are connected, some of them more connected than others. And when we talked about network, to think
+about networks, everything that we'll talk about today is going to be underlaid
+by the following assumptions. The idea is that the set of
+network contexts that you have, the nature of the relationships between
+these context and the overall pattern of these relationships are going to determine
+whether you have more or less access to resources, whether they be information,
+referrals, endorsements, support, etc. These patterns, and
+nature of relationships, are going to affect the opportunities
+that you have to create and mobilize linkages, get a movement behind
+what you're trying to accomplish. These patterns are going to affect
+your ability to get noticed and get things done. So that's the underlying assumption. And when we look at our 11 people here, you can see that they each have
+a different stock of context, relationships with the context,
+and between those contexts. When I ask people to look at a chart like
+this and say who would you like to be, most people's attention gravitates
+towards number 9 or number 6, because those are the players
+that are in the thick of things. Of course there's usually one joker who
+says I'd like to be number 1, I'd like to be left alone for a while to get some
+of my work done, but we know that's not a good long term strategy, that being in
+the thick of things does really matter. By the same token, though, another argument would
+be you'd like to be number 11. Why? Number 11 is right next to number 9. 9's spending a lot of effort
+to get all this information. 11 can get it all from 9. So in some ways, 11's in a great situation
+because they don't have to work as hard for the information but by the same token,
+they're totally indebted to 9 and 9 can hold them up if they're not
+going to be fully cooperative. So with these kinds of ideas in mind, and this focusing on numbers 9 and number
+6 and this volume of information flow. Now we want to get a little
+bit more careful and thinking about which sorts of network
+positions are most effective. To do that I'm going to talk about three different characteristics of
+high performing networks and we'll take each them in turn,
+Diversity, Brokerage and then Trust. So, this will help us start to sort out between different sorts of network
+patterns and relationships. Let's start by talking about
+diversity in networks. Here, I'm portraying a very simple
+comparison between two people with the same number of contacts. 1 and 2, in these simple network pictures,
+each have exactly five contacts. And I've set it up this way so that we can
+assume that they're both doing the exact same amount of work to
+maintain these contacts. And I'm talking about real contacts here. I'm not talking about the people who you
+can tabulate because you've met them once at a conference and
+your gigantic list of LinkedIn contacts or Facebook contacts or
+Tweeter contacts and the like. But instead, these are the people who
+you really have relationship with. Who you're spending effort to let them
+know about the information that's of value to them. You're inviting them for coffee, you're
+staying in touch with them and the like. So, real contacts. One and two both have the same number
+of contacts, so you would assume all other things equal that they'd
+get the same amount of information. Look what happens when we introduce some
+colors to represent the type of knowledge that each of your contacts
+are bringing to the network. Here we see that number two is
+getting the same information over and over again from all the different
+contacts whereas actor number one is getting not only purple information,
+but red, and blue, and green as well. So right now I'm just using abstract
+colors to represent different sorts of knowledge, but this idea of having
+diverse knowledge inputs coming to you through your network connections
+is going to be really important. Let's make this more concrete. One of the ways to think about those
+different colors might be that, if you're working in
+an organization currently, at a particular function, are all of your
+contacts in the same function as you or from different functional
+areas in the organization? That is, if you're in marketing, are all
+the people who are providing you with the information you need to get your
+job done, are they also in marketing? Or are they spread more generally
+through production and R&D and other parts of your organization? That's knowledge diversity. Another way to think about it would be, is
+everyone in your professional specialty. Are you a doctor, a lawyer? Are all of your contacts also doctors or
+lawyers, or are you looking at a much broader set of people who might use your
+services, which would give you again different knowledge and different
+inputs that could be really helpful. And let me be clear, when I use the term
+diversity, much attention these days is rightly on demographic diversity, and
+while your networks may or may not have demographic diversity, that may or may not
+be correlated with knowledge diversity. And here because we're focusing on
+the knowledge inputs that your network is creating for you, we're really interested
+in the knowledge that people have, regardless of their
+demographic characteristics. Because it's the mix of different kinds
+of knowledge that really is the engine, is the source of innovation and that's work from economics that goes
+all the way back to Joseph Schumpeter. How can you think about getting
+more diversity in your networks? It's worthwhile to take some stock
+of the networks that you have, the contacts that provide you with
+the knowledge, the resources that you need to get your current job done,
+the things you'd like to get done. And to decide if you
+need to find ways to get new contacts into your network that would
+help improve that knowledge diversity. And again, that knowledge diversity
+has been associated with better ideas. And also in research the opportunity for,
+for example, semiconductor startup firms
+to have more alliances with companies. And that's of course a channel for
+delivering your product. So diversity in networks really matters. You might want to think about ways in
+which you can extend your networks by looking at the sorts of
+affiliations you have or can create. So, you have networks
+in the opportunity for contacts through the people
+who you go to school with. Or the people who you currently work with,
+one of the reasons why entrepreneurs, young entrepreneurs, startup firms are so interested these days in the possibility
+of working in an accelerator is that it gives them a chance to build a lot of
+network connections into other domains. But even without this sort of opportunity,
+you can think about what community groups can I join,
+what sorts of clubs can I join to get me access to different sorts of contacts in
+a variety of industries and in the like. Even Bill Gates, just to use his
+historical example, he connected up with funding for his efforts because his mother
+was actually on the board of a not for profit with John Akers,
+who was at that time the president of IBM. So those two step connections
+can really be helpful for you. Now let's talk about brokerage. This is closely related to the ideas
+on diversity in knowledge bases, but we're going to get at the concept
+from a very different direction. A and B are our two actors now, and both of them in this new depiction have
+the same number of contacts once again. So A and B are putting the same amount
+of effort into maintaining their network connections. Now, let's let each of their contacts be
+connected to four additional parties. Look what happens. Look what happens when we add in
+four connections on each of A or B's five original contacts. Two completely different pictures here. With the same rules to make them operate. In A's situation,
+the network is folded back on itself. So there aren't any
+indirect connections for A, but rather the same set of people
+are all communicating with each other. So they're putting all of their effort
+into sharing the same information over and over again. In mathematical graph theory, the mathematicians would call
+this a fully connected click. And I think that's very suggestive when we
+think of a clique of people gossiping and saying the same things with each other. In contrast, B's network is very open and
+sparse and so B is getting 20 indirect contacts
+because each of the five original contacts are providing indirect
+access to four more sources. So B is having access to far more
+information and so B, the broker, is really able to create far
+more knowledge recombination. So when I set it up like that,
+it sounds like B's network is perfect and A's network is problematic but
+there's more to the story. Research findings have let us know that
+while people with B networks are better at innovating,
+they come up with more innovative ideas, they tend to get promoted
+faster in an organization. We also find that people who have
+A type networks enjoy more long term cooperation between
+the members of their group. So the idea of everyone being connected
+to each other may not let as much unique information flow but allows everyone in
+the group to work together effectively to get a shared set of identity
+to focus on common goals, and ensure that everyone carries
+their weight to accomplish it. So the story isn't just being A or
+B but in some cases being some A and some B and indeed most networks
+are in between the poles of A and B. What does this mean for
+entrepreneurial teams? I think the findings are particularly
+poignant when you think about constructing a team, and that's something we've been
+talking about in previous modules, and of course, we'll continue to talk
+about throughout this course. You're always thinking about
+who are on your team and what sorts of networks they can
+be bringing to the situation. So the best way to think about
+an entrepreneurial team would be to say that the members of your key
+team are an A team internally. So all your connective with each other and
+sharing the information that you need to keep your goals on the same page to
+keep yourselves focus and the like. But then each of the parties, the cost
+of your complimentary skill sets and the like are really bringing a B
+network to your organization, to your team because each of you
+have different, unique, diverse sets of knowledge that you're going for
+and bringing into the organization. And again, research has shown
+that these sorts of teams, not just for startups but also in
+a consulting organizations and the like. Teams that are A internally,
+well connected and cohesive among the key team members,
+but then have a wide diverse range and reach beyond the team, are the ones that
+tend to be the most high performing. While we're thinking about
+the idea of indirect contacts, I want to say a little
+bit more about that. Because networks, as you know,
+get very big and complex very quickly. As everyone is connected to many other
+people, and so networks are typically much bigger than the very small and
+simplified pictures I've been showing you. It's very tempting to move
+beyond the two steps sort of contacts that I've been focusing on,
+to much or larger kinds of network. And thinking of ways to create a chain or a set of paths and
+connections to people of interest. It's very tempting to go to
+your LinkedIn profile and say, well, who would I like to connect with? And this prominent venture capitalist,
+for example, is a four-step connection to me, and
+so I should be able to go one, two, three, four steps through these
+acquaintances and make that happen. What we typically see happening
+is that while there's a lot of attention in the popular press
+on what they call small worlds. Or six degrees of separation, the idea that everyone can be connected to
+someone through a small number of steps. It's typically very hard to activate those
+kinds of paths, beyond the two step paths. So the two step is pretty easy
+because you're asking someone with whom you have a relationship to
+introduce you to one other person. But then to ask to introduce,
+to introduce, to introduce, becomes a lot harder. So, I just want you to remember that, just
+because you can draw a small world sort of path or a multi step path,
+to a wide, wide, large range of people doesn't mean that you're going
+to be able to make those connections. So, in order to think about how
+we get those connections going in a meaningful way, that brings us to
+our third characteristic, which is trust. When we think about network ties and
+this context that had been made. The question is whether a contact is
+what we can call stronger or weak tie. And I've illuted to this earlier when I
+talked about whether your connections were quick acquaintances that you had made and
+tabulated in one of your social network apps, or whether these people are true
+friends or long standing relationships. Obviously in the longer standing
+relationship where most trust is built up, this is the situation where you're going
+to be able to ask for and receive help. And also you're going to reciprocate that if the other person is asking you for
+help. And so these kind of connections where
+you're friends with the person or you've worked with them for a really long
+time when you have repeated interaction. Versus very infrequent or
+just a new one time sort of interaction. When the relationships are multiplex and
+by that I mean, whether there's more than one
+way that you're connected. For example, you're related to someone and
+you're working together. As one example,
+you went to college with someone and you're also members of the same team for
+an intramural sports league. These kinds of relationships,
+they happen in multiple domains, tends to become stronger as well. When you have strong ties, that's when
+you're in a situation where you're really able to activate these kinds
+of network connections. So if we go back to this picture
+of the ideal entrepreneurial team, what I want to do is emphasize by these
+thick lines, rather than the thin lines, that these relationships need to
+be solid and strong in order for the networks to really deliver the kinds
+of benefits that we've been talking about. Let's summarize a few takeaways
+from today's session. We use the basic principles of network
+theory to provide some prescriptions for what you should be doing as a member
+of an entrepreneurial team. How you can be constructing your own
+personal network to help shape the flow of ideas, personnel, funding or endorsements
+to your fledgling organization. We discussed how effective teams
+need to be cohesive internally, A inside, and
+have brokerage externally, B outside. In short,
+always take the time to examine and re-examine your own personal network and
+your team's overall networks. And seek to build additional
+contacts strategically. Thank you.

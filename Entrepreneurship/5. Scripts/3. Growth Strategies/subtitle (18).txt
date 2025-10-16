@@ -1,0 +1,144 @@
+I'm Karl Ulrich,
+I'm a professor at the Wharton School. This session focuses on
+performance measures sometimes also called
+Key Performance Indicators or KPIs. I want to start with
+a story about Bandar Foods. This is Lalit Kalani and Dan Garblik
+who are the founders of Bandar Foods. Bandar Foods sells Indian themed
+condiments, shown here are some of their products that include condiments
+like spicy mango and mint cilantro. This was actually a class project in
+my innovation course in the Wharton MBA program that then went on to become a real
+company and they make fantastic products. They also created a line of salty
+snacks called Naan Chips and Poppadums. And those are shown here. Now the question I want to
+turn to is how should Dan and Lallite measure their performance? And this is particularly important for
+two reasons. First of all, they do a monthly
+report to their investors. And I'm actually one of their investors so
+I get this monthly report. And in this monthly report,
+they want to report how they're doing. And most of the time, if you have outside
+investors, they will expect a monthly report typically with some Key Performance
+Indicators, or KPIs, reported. So that's the first reason you
+need to have these metrics. The second reason is that you're trying
+to manage and grow your business. And once you've found that
+initial product market fit, your challenge is how do
+you grow your business. And unless you can
+measure how you're doing, you're going to have a very hard time
+enacting performance improvements. So the question I want to
+turn to is if you were Dan or Loliete, what performance indicators
+would you use for Bandar Foods? More formally you could think about, what are the critical few metrics
+that determine your success? You typically want to think
+about just three to five. If there's more than that, then it's hard
+to call them key performance indicators. So it's typically just
+three to five key metrics. As I said, while I've called
+this performance measurement, often they go by the acronym KPI For
+Key Performance Indicator. And they're typically tracked and reported
+at least as frequently as monthly. Very rarely are they reported
+less frequently than monthly. Let me just tell you what Dan and
+Lalit use and I think these are quite good metrics. They have three metrics and they think
+about them as all contributing to revenue. And the three metrics,
+which they call Operating Metric 1, or OM1, Operating Metric 2, or OM2,
+and Operating Metric 3, or OM3. OM1 is the number of SKUs. And the acronym SKU refers
+to Stock Keeping Unit. And that's simply the distinct item
+that you sell to your customer. Think of it as the part number or
+the product id. It's each distinct version of
+the product is this distinct SKU. And operating metric one
+is the number of SKU's. So how many products do we sell? That's the first. The second is how many
+retailers do we have? Bandar Foods sells primarily
+through food stores. And so, the more retailers they have,
+the more product they're going to sell. So it's a pretty simple metric,
+which is simply how many retail stores do we have that
+currently carry our products? That's OM2. And the third metric is sales velocity. And in retailing,
+velocity typically is characterized as units sold, per sku,
+per store, per week. So how many of a particular item in a particular store
+are typically sold per week. That's called the sales velocity. Now just to put some concrete
+numbers on that for Bandar, let's imagine they have 10 SKUs
+they're selling in 10,000 stores and that they sell 3 units per
+sku per store per week. That value would be three. If you just multiplied those altogether, then what you would get would be 10 times
+10,000 is 100,000 times three is 300,000. Which would say they sell
+300,000 items per week, if they were able to achieve those
+parameters as I've just described them. And so you can quickly see that any
+increase in any one of those three parameters would have
+a multiplicative effect and would increase what they really
+care about, which is their revenue. Now notice that this isn't a perfect
+description of Bandar's revenue. For instance, it fails to account for
+the price point of this SKUs and so obviously a sku that has a $10
+price point is going to contribute more revenue than one that
+has a $1 price point. So it essentially glosses over that or
+ignores that and as a key performance indicator,
+the objective is to keep it simple and to keep management focused on what it is
+they need to achieve in order to grow and sustain the business. In Bandar's case, they identified these
+three as being the three key metrics for growth, and these three metrics
+are reported every month for Bandar. And in fact all of Bandar's
+initiatives and plans are organized by the way in which they contribute towards
+one or more of these three metrics. Now Bandar is just one example and
+it's a relatively simple example of a business that sells
+relatively few, relatively straight forward products through a relatively
+simple channel, a retail store. There are companies that have more
+complex distribution channels, more complex financial models and I wanted
+to show you a second example to give you a sense of an alternative set of KPI's
+that are used for a different company. This company, Gridium, was also started
+by two of my former students and they sell software to large commercial
+buildings, software that helps manage energy consumption and work orders in
+terms of maintaining the building. Gridium each month sends
+out this PowerPoint slide that they call the State of Biz,
+Current Month, State of Biz. This is the Gridium dashboard
+that's sent to investors as part of their monthly update. Now, the details here are much too fine
+for me to walk through in this format. And so I don't expect you to actually
+read the details of this slide. I do want to just show
+you what it feels like, what it looks like in
+terms of a dashboard. And I'm just going to describe the six
+categories of things that are reported on this slide. The first is, the monthly
+recurring revenue by product type. So in this case Gridium has four types of
+products, for instance it has some energy efficiency products and it has some
+work order maintenance products. It breaks out monthly
+recurring revenue by type so you can see where
+the revenue is coming from. It also focuses on recurring revenue
+because the Giridium products are sold as subscriptions. And so what you really care about at
+Gridium is not how many units are sold in a store each week, but
+rather how much recurring revenue, that is subscription revenue, do I have booked that's going to recur
+month after month, out into the future? That's the key performance indicator for
+this kind of business. The next metric is to look at
+that same revenue by geography. And that informs the question of how
+are we doing in Northern California, relative to say Southern California, or
+to other parts of their geographic market? The third KPI is monthly
+recurring revenue per account and so this shows how much revenue
+were we getting for each customer. And is that growing or declining? In other words are we able to get
+an increasing share of the budget of our existing customers as
+opposed to smaller and smaller shares of budget for
+more and more customers? And that's an important measure for
+Gridium. The fourth metric is monthly
+recurring revenue per building. So this takes the perspective
+of what share of spending on a particular geographic site, that is
+particular building is Gridium getting. The fifth metric is the monthly recurring
+revenue per account broken out by product. So it shows what are the accounts buying? How is their distribution of spending
+across our different products? Are most customers buying just one product
+or are they buying several products? And lastly, the dashboard
+also reports the customer and building counts by product type. That simply is an indicator
+of how many customers and how many sites do we actually have. So this gives you an example of
+a comprehensive dashboard for a very different kind of business
+that shows six basic KPIs, or performance indicators, that report
+the health of the business both for the purpose of outside investors and for the purpose of managing
+the growth of the business. Now while I'm talking about dashboards and
+KPIs, I wannna indicate that not all reporting is based
+on numerical perimeters. So this is another slide from
+Gridium's Monthly PowerPoint that they share with investors and
+they use a stoplight metaphor, a traffic light metaphor to indicate how
+they're doing relative to key goals. So shown here are three goals that
+they set out for last year for 2015. And then a traffic light indicator
+as to whether it's green, yellow, or red, how are we doing relative to
+the goal we set out for ourself? And I want to put this up just to indicate
+to you that not everything we care about in growing the start-up can
+be characterized with numbers. And so, some things might be expressed
+better as a narrative, as a description of a goal and then a narrative reporting
+or as a qualitative reporting perhaps using the traffic light metaphor of how
+we're doing relative to those goals. So in sum, if we think about
+creating a dash board and a set of key performance indicators,
+think about which few metrics truly indicate the health of your business
+whether or not you're growing or not. And are you going to
+achieve profitability? What are the few key metrics that truly
+indicate the health of your business? These are your KPIs. These become
+the Key Performance Indicators. There's typically just
+three to five of these. You'll typically track and
+report these, first and foremost, to help you as the entrepreneur
+better manage your business. But you'll also typically provide
+them in at least monthly reports, to your investors, as a way to
+reveal basically how you're doing. Are you in fact growing this fledgling
+enterprise to be something sustainable?

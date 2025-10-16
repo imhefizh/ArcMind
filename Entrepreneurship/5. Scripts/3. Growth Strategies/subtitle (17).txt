@@ -1,0 +1,318 @@
+In this module, we learn another method to measure
+maximum willingness to pay. This method uses a technique
+called conjoint analysis. This technique was developed and perfected at the Wharton School
+by Professor Paul Green. We shall use a
+hypothetical example to convey the essence
+of this approach. Let's think of a company
+that is in the process of designing different
+versions of an MP3 player. They've already done the R&D and now it's a matter of
+product design and pricing. The questions in front
+of them are what features to add and
+what not to add. The point that we are going
+to focus on mostly in this module is how
+you price each. The specific question
+we shall focus on is, what is the maximum
+willingness to pay for each model under consideration, and then how does it vary across customers so that we can make
+a good pricing decision. The specific techniques used are conjoint analysis
+and regression analysis. If you are not familiar with the foundations
+of these methods, you should gain familiarity by going through the
+optional modules that explain the foundations
+of each of these methods. The approach starts with step 1, and that is to
+identify and agree on attributes important
+to the customer. In this particular exercise, we agreed that the six things that are important to
+the customer are, a, the brand name, the storage capacity of
+the MP3 player, battery, how long does the battery last, is the display color
+or monochrome, is there a warranty
+or no warranty, and then how it is priced? In this particular example, we were working
+with a company that knew that these were the six things important
+to the customer. But if you don't know
+what is important to the customer in terms of
+determining willingness to pay, you might want to do
+some focus groups. This was not done in this
+particular exercise. The next step is to agree on the ranges and levels
+of each attribute. For example, what will
+be the maximum capacity? What will be the
+minimum capacity? In this particular example, the maximum was 5,000
+and the minimum is 50. These were the
+technological limits at that point in time
+to the capacity. The minimum 50 was used because
+anything less than that, the customer would not
+want that product. Same way for battery
+life, 2-18 hours. Display is either
+color or monochrome. Warranty is either
+none or one year. We consider two prices for the conjoint study,
+$99 and $249. We'll talk about this
+a little bit later. There are many brands
+in the market, but we club them in this
+example into two groups. Just a brand name
+called Orange and then clubbed everything else
+together as generics. Even though those other
+brands are not generics, they were good brand names, we just put them in one group for this particular exercise. Now, in this
+particular exercise, we also use just two levels
+for each attribute and assume that the willingness
+to pay would be linear in between those two. Between 50 and 5,000, the willingness to pay
+will vary linearly. If you are not comfortable
+with that assumption, then you must choose
+a third level, say maybe 2,000 songs. But as this was a
+preliminary exercise, we agreed that it should
+be just two levels, 50, 5,000, and linear interpolation would be possible and acceptable. A key part of a
+conjoint task is asking respondents to rate
+different profiles. What you have to do next
+is to create a number of product profiles that the
+respondents can rate. What do you mean by
+a product profile? A product profile is a holistic
+description of a product, often along with a picture. One product profile could
+be the brand is Orange, the storage is capacity
+is 5,000 songs, the battery is 18 hours, the display's color,
+there is no warranty, and the price is 249. Similarly, you could create
+other profiles and ask the consumers to
+either rank order, rate, or do paired comparisons. The third step is also, before we do the analysis, to code these profiles. That's pretty straightforward. One level is coded as one and the other level
+is coded at zero. Wherever a profile
+creates the brand Orange, we code it as one, and wherever the profile
+is a generic brand, we coded at zero. Same with capacity; 5,000 is coded as one and
+capacity 50 is coded at zero. Let's look at some
+specific examples. Profile A is Orange brand, 5,000 songs, 18 hours
+of battery life, color display, no warranty, 249. It'll be coded as 1, 1, 1, 1, 0, 0 because there
+is no warranty, and price 249 is 1. Same way example profile
+B would be generic, 50 songs two hours, monochrome display, no
+warranty and a price of 99, and you can see that
+will be coded as all zeros because that's
+all at the lower level. So that's how you code
+each of these profiles. The next step is, agree on how to collect the
+data from the respondents. Conjoint experts suggest many different ways
+to collect data. For example, you could
+have a respondent rank order various
+profiles from 1-10. You could also give them
+pairs of profiles and say, "Between these two profiles,
+which one do you like?" Or you could ask them to
+rate these profiles on, say, a scale of 1- 100. Let's say you are giving each
+respondent five profiles. You can ask them to rate
+this on a scale of 1-100. There is a lot of discussion
+and science behind what is the right method
+to use in what context. For the purpose of this, we shall not go into
+details of that. If you want to learn
+more about it, you can learn more about it by reading more about conjoint. In this particular example, we used ratings as
+a way to assess customers or respondents
+likings of different profiles. A key question in any conjoint study that
+we need to answer is, "How many product profile
+should a customer rate?" When I ask this
+question to my class, I start by asking, "What is the maximum
+number of profiles possible in this
+particular exercise?" The question does
+generate some discussion, but not that much. Very quickly, students recognize that the maximum number of profiles is 2^6, which is 64. Why? Because we have
+six attributes, each has two levels, so you can get 64
+possible combinations. Then I asked the question, "What if I asked you
+to rate 64 profiles, what would you say?" And I asked this question
+of a specific student. Sometimes I hear the
+answer, "Professor, it'll be too much, too taxing." To which I agree. But often one of the
+students will say, "Professor, why don't you
+ask someone else to do it?", Pointing to another
+student in the class, this invariably generates
+quite a bit of laughter. Then I asked the question, "What is the minimum number of profiles we must
+ask the respondents to rate so that we
+know something about the value of each of
+that six attributes? " This is a
+thought-provoking question that leads to many
+different answers. Some say 10, others say two, yet others say 12, and some give different answers. And I think each has their
+own reason for suggesting. For example, those who suggest two would say, "Professor, you can have one
+profile where there are all zeros and another profile
+where there are all ones. So the lowest level in each and the second profile would be
+the highest level in each." And then I think the
+question you ask is, "How would you know
+something about each of the attributes
+which is needed here?" So the correct answer
+here is seven. You need a base case
+which is all zeros. And then six other cases where one of the
+attributes is high, and the rest are low. Think about another context. Suppose you have six
+light bulbs in a room, and you want to assess how bright is each one
+of those lamps. How would you go about doing it? You would first probably
+turn all the lamps off, and see how dark the room is. Then, you will turn one lamp on and then see how
+bright the room is. Turn that off, turn
+the other one on. So you'll have to do
+seven trials like that. Those are the seven
+profiles you need to learn something independently
+about each one of those attributes, and how it affects the
+consumer's willingness to pay. I think the next question is probably the most
+interesting one, is, "How do we decide how many profiles we need
+beyond the minimum?" Or another way to
+ask the question is, "Under what assumptions
+about consumer behavior might we say that seven
+profiles are enough?" This again, generates
+quite a bit of discussion in the class. I think the answer to
+this is seven will be enough if we can assume that the willingness to pay across
+attributes is independent. What does that mean? For example, if a respondent's
+willingness to pay for warranty does not depend
+on the brand and so on, then seven profiles
+would be sufficient. But this is rarely the case of priori or at least we are not confident that this willingness to pay are independent
+across attributes. In some cases, maybe warranty willingness to
+pay depends on the brand. In other case, the
+willingness to pay for capacity may depend
+on the brand. So whatever we are
+uncertain about, we must account for
+that in the number of profiles we give to
+our respondents. The key question we
+ask ourselves is, what are the interactions
+we are not so sure about? These are the interactions
+that we must include. For example, if we
+are not sure about the interaction between
+warranty and brand, then we must have an
+eighth profile where both brand and warranty are one. Same way, if we
+are not sure about the interaction between
+warranty and capacity, we should include
+the ninth option where both warranty and capacity are also both at one and not just each other
+separately being at one. There are other considerations also that we must keep in mind, and those can be
+learned by learning more about conjoint analysis. In this particular example, we had each respondent
+rate 16 profiles. In this table, you can see the data collected
+from one respondent. Let's go into details of this. Each respondent
+rated 16 profiles. So this table has 16 rows, each row reflecting one profile. Let's focus on the first one. Profile 1 as brand 1, which means it was orange, price 1, 249, capacity 1, 5,000 songs, battery life 1, which is 18 hours, warranty 0 means no warranty, display 1, which
+is color display. This particular respondent gave a rating of 73 to this profile. This is the profile you had
+seen in the picture earlier. Same way, this
+respondent and each of the respondents was given
+16 profiles to rate, and the profiles are
+reflected in the rows 1-16. In the last column
+which says rating is the rating given
+by the respondent to each of those profiles, first one being 73 and the
+last profile rating was 18. The next question we
+ask ourselves is, how do we analyze this data? Those of you who
+are familiar with regression analysis will
+be able to see that we can think of ratings as
+the y-variable and each of the attributes
+columns as the x's. This is exactly what we do. Once again, if
+you're not familiar with the regression analysis, please look at the
+optional module, regression analysis, before
+you go forward with this. What we're doing here is
+estimating the person's utility. The utility is measured as ratings and the drivers
+of utility are brand, capacity, battery, display, warranty, and price. You are estimating
+a regression model where there is a base
+level of utility, Alpha, and then the drivers of utility coming from
+brand, capacity, battery, display, warranty, and prize, which are
+the x-variables. So when we run this
+regression of ratings against the six attributes and allowing for
+a constant term, this is what we get. The estimate of the
+intercept is 30.9, brand 25.7, price 33.6
+with a negative sign. Why? Because 1 is
+249 and 0 is 99. So a person, on average, we expect them to give a lower
+rating when the price is higher than when
+the price is lower. Capacity 18.8, battery 15.5, warranty 7.0, and display 14.2. In other words, what this model or estimates
+are telling us is that the average utility
+when you go from 50 songs to 5,000 songs
+changes by 18.8 rating units. R squared that you see
+on the side, 0.85, is an indicator of how well this particular
+model fits the data. In this particular case, it fits quite well. The R squared is 0.85. Now, the next question is, what do we do with this? Well, the first thing
+we can talk about is which attribute
+is more important. When I asked this question
+to the class, most will say, Professor, of course, price is more important, it has the highest coefficient. That is a good answer, but not a very accurate answer. A more accurate answer
+is a price change from 99-249 has a bigger
+impact on utility, than brand going from
+generic to orange, or capacity going from 50-5,000. It is not that price is
+more important than brand, even though it's
+a pricing class, and we might say price
+is always important. But it is the change in price of 99-249 has a bigger impact on utility than a capacity
+change of 50-5,000. If we had chosen
+capacity of 50-10,000, maybe capacity coefficient would have become larger than
+the price coefficient. I think it's important to keep in mind that the coefficient reflects what is behind it. What is the change in variable that we are contemplating
+in the study? That change in variables can be compared with
+another change in variable. Capacity can be
+compared with brand, can be compared with battery, but specific to that
+particular range. Well, what do we
+do with all this? Well, now we're in business, and we can actually compute
+maximum willingness to pay. The first step to keep in mind, is that we have to translate these
+coefficients into dollars. We had planned this well because we included price as
+one of the variables. What do we know from the
+price as a variable? When we change the
+price from 99-249, the utility change by 33.6. What does that mean? 33.6 units of utility for this customer is equal to
+a price change of $150. 33.6 Is equal to 150, how much is one unit
+of utility worth? Well, it will be 150 divided
+by 33.6, which is $4.45. For this particular respondent, each unit of utility, if measured in dollars,
+will be $4.45. What do we do with it next? Let's consider one
+particular model that this company is thinking
+of taking to market. Let's visualize this model to be a model with brand
+name orange, capacity, 5,000 songs, battery life, 18 hours, color, one, warranty of one year. What is the total utility of this model for this
+particular respondent? Well, we know from the
+regression analysis, that when you have a brand name, one, which is orange, it adds 25.7 units of utility. If you add 5,000 songs, 18.8,18 hours of battery life, another 15 odd color, 14 odd, and the one-year
+warranty you add seven. If you add all that up, you get 81.2 units of utility. This particular model one gives the respondent, this
+particular respondent, not all respondents, but
+this particular respondent, 81.2 units of utility. What does 81.2 units means
+in terms of dollars? We already said that
+one unit of utility for this respondent is $4.45. Why? Because 33.6
+units of utility, going back to the
+price coefficient, is coming from a $150, so one unit of utility
+must be $4.45. Each unit of utility
+is equal to $4.45, so 81.2 must be
+81.2 times $4.45, and you get 361 odd dollars. This is our estimate
+for this responding of their maximum willingness
+to pay for Model 1. Let's now think of
+another model that this company may be thinking
+of taking to market. Let's call that Model 2. Model 2 also has a brand name orange because
+it's the same company, 18 hours of battery life, monochrome display, no
+warranty, but 2,500 songs. What are we going to
+do about 2,500 songs? We only studied 50 and 5,000. Well, what we assumed was, that the willingness
+to pay will be linear between 50 and 5,000. If that's the case, then the dummy level, or equal to 2,500
+songs will be half, and half of 18.8 is 9.4. Remember where 18.8 comes from, which is the coefficient
+of capacity. If we have the capacity, we assumed linear interpolation, so we can assume 9.4
+units of utility. You add 25, 0.7
+with 9.4 with 15.5, you get 50.6 units of utility. How much is 50.6 units
+worth in dollars? Well, we multiply it by $4.45. Remember where $4.45 came from? 33.6 units of utility
+is equal to a $150, so each unit of
+utility is $4.45. Therefore, 50.6 will be 50.6
+times $4.45, which is $225. What have we learned? For Model 1, the maximum
+willingness to pay for this customer will be $361, and for Model 2, it is $225. Similarly, we can construct
+other models, Model 3, Model 4 that this company may
+be contemplating taking to market and compute
+the willingness to pay for each one of those. What do we do next? Well, we can do much more. Remember, we had multiple
+respondents in this study. For each of these respondents will give us different ratings. Just like for Respondent 1, we had the table of 16
+profiles and ratings. Each one of the respondents
+has given us a similar table. We can run a separate regression for each of the respondents , compute their coefficients, compute the transfer ratio
+between utility and price, and compute their
+maximum willingness to pay for each of the models. Let's say we did that
+for Model 1 and Model 2. Each respondent, we run
+a separate regression, compute their willingness to pay based on the regression
+coefficients, just like we did
+for Respondent 1. The next step will be to rank order the
+maximum willingness to pay from the
+highest to the lowest. Highest means the highest from a respondent in our sample, and the lowest being the
+lowest willingness to pay for the respondent in our
+sample and plot it. When we did this in this
+particular exercise, this is the chart we saw. You can see there is variation in willingness
+to pay across customers. What does this chart gave us? Many insights. If you look at it,
+there is price on the y-axis and number of
+consumers on the x-axis. What does a chart
+which has price on the y-axis and demand on
+the x-axis look like? What do we call it?
+It's a demand function. What we have done is estimated a demand function from the various respondents
+in the sample. What you also see are flat regions in the
+demand function? Flat regions
+indicate respondents with similar willingness to pay. Similar willingness to pay means these customers are in some
+way similar to each other. It's giving us an indication that there are segments
+in this market. Segments are customers who have the same
+willingness to pay. We might explore
+deeper as to why these customers have the
+same willingness to pay. What are their demographic and psychographic characteristics that make them similar. But this is giving us
+an indication that some customers in the sample have a very similar
+willingness to pay. There must be something
+similar about them. There is an indication
+of segmentation. In summary, this
+conjoint based method is based on published studies. It's well-documented, proven,
+and used extensively. It requires more work than
+some of the previous methods, but can also give us
+different results. For example, from the
+same consumer data, we can estimate willingness
+to pay for different models. Model 1, Model 2, maybe Model 3 and Model 4. In the Van Westendorp method
+or that type of analysis, we would have had to conduct a different survey
+for each model. Because each model
+would have given a different set of curves. Overall, the three
+methods we have discussed compliment each other. The three methods, remember, are economic value
+to the customer, the Van Westendorp method
+and the conjoint approach. Many times when I
+work with companies, I use more than one
+method to triangulate. For example, in the Wharton
+student's startup for the medical device
+that we talked about briefly when we looked at
+the Van Westendorp method, we use the Van Westendorp method as well as the
+conjoint analysis. Whenever possible, use
+more than one method, triangulate your results so that you have more
+confidence in your results. Again, maximum willingness
+to pay is a very key, very important concept
+in pricing decisions. The more confidence we
+have in our estimates, the more confidence we'll
+have in our decisions.

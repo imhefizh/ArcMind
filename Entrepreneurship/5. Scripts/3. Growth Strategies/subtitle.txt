@@ -1,0 +1,195 @@
+Hi, my name is Kartik Hosanager, and this
+session is on building two-sided markets. Two-sided markets are markets
+with two types of participants, where the benefit for one side depends on the number of participants
+on the other side of the market. This is also known as cross-side
+network externalities or cross-side network effects. Take credit card networks, for example. My value of joining a credit card network,
+such as Visa or MasterCard is a function of the number of
+businesses that accept that credit card. And for a small business, the value of
+being on that credit card network is a function of the number of customers
+who have such a credit card. And so, this is a great example
+of cross-side network effects. Take gaming consoles, as another example. Consider Xbox, or Sony PlayStation. As a consumer, when I buy these gaming
+consoles, my value from that console is a function of the number of interesting
+games that are available on the console. And for a game developer, the value
+of building a game for that console is a function of the number of people or
+consumers who use that console. Another example of
+cross-side network effects. Finally, consider Uber,
+which is an online taxi dispatch service. As a consumer I value being on a service, like uber if they're a lot of taxi cabs
+that are available on that network. And for a taxi cab driver, the value of joining Uber is a function
+of how many consumers are using Uber. These are all examples of cross-side
+network effects, where the value of one side depends on how many players or
+participants are on the other side. Technology platforms are also good
+examples of two-sided networks, or two-sided markets. Technology platforms may be
+thought of as hardware or software systems, which are partially
+programmable by outside developers. So consider for example,
+Apple's iOS platform for its iPhone, or Google's Android
+platform for Android phones. The platform provider Apple of Google,
+provides a core platform capability. Developers build on top of this platform,
+and therefore it is partially programmable, and they add additional
+functionality on top of the platform. Now, these kinds of platforms are good
+examples of two-sided markets because here again, the value for me as a consumer
+of buying an iPhone is a function of the number of apps available on it. And the value for a developer of building
+an app on the iPhone platform is a function of how many
+users use that platform. Gaming consoles, like Xbox and
+Sony PlayStation are, again, other examples of
+technology platforms. A variety of unique issues arise in
+the context of two-sided networks, the most important of which is how do
+you build liquidity in the market? For example, if you consider
+a gaming console, consumers are not willing to buy a gaming console unless
+there are enough developers on it. Developers are not willing to build
+on the gaming console because there are not enough consumers on it. So, this creates a chicken and
+egg problem, and you cannot solve the liquidity issue
+unless you address the chicken and egg problem in some interesting manner. So, we're going to talk a little bit
+about how an entrepreneur trying to build a two-sided market might address some of
+the liquidity challenges in such a market. Now, one interesting strategic lever
+available to an entrepreneur trying to build a two-sided market
+is that of pricing. Now, traditional pricing strategy
+seeks to set a price for a product so as to maximize revenues
+from the customers. Now, one way to do this
+is to conduct a survey, where you assess consumer response
+to different product prices. So in the survey, you might ask
+the customers whether they would buy the product if it was priced at $100, were they buy of it is priced at $80,
+$60, $40, and so on. And using their responses, you construct
+something that is similar to a demand curve, which essentially tells you what
+proportion of your customer base will adopt the product at
+any given price point. Now, we set a price that
+seeks to maximize revenues. In the example on your left,
+I have a demand curve for consumers on one side
+of my two-sided market. And I see as in the new market, if I set too high a price very
+few customers will adopt. And if my price is very low,
+I could get the entire customer base. And I eventually, set the price which
+is indicated here as the price P, which maximizes my overall revenues. On the right-hand side of your screen,
+you see the demand curve for developers. Here again, we're trying to
+understand how many developers will develop on our platform
+if we chose a certain price. And as you expect a low price
+gets a lot of developers, a high price gets you very few developers. And here again, I set a price that
+maximizes my revenues from developers. In this example, I've chosen prices that
+maximizes my revenues from consumers, and also maximizes my
+revenues from developers. But it turns out, this is not the pricing strategy that
+maximizes your overall revenues. An alternative pricing strategy that
+does better is to subsidize one side of the market, so as to increase
+profits from the other side. Consider the figure on your left side,
+where now we're trying to lower the price. Instead of the price we
+were previously charging, we're now charging
+consumers a price of zero. By doing so, we get all potential
+consumers interested in our product. Now, when we get all potential
+customers interested in our product, this fundamentally changes
+the demand curve on the other side. Developers are more interested in building
+on this platform because you've got more consumers. So on the right-hand side, you see the demand curve for developers
+has itself shifted to the right. And given that the demand curve for developers has shifted to the right,
+I can now charge a slightly higher price. And what you see is that when I
+charge the slightly higher price, I get additional revenues,
+which is what is marked in red. The additional revenues that I get from
+developers, more than offsets the loss of revenues from setting
+the price to consumers to zero. In other words,
+I've subsidized consumers so as to get more consumers
+into my gaming console. And by bringing more consumers,
+I've increased the willingness to pay for developers, and I'm able to charge them
+a higher price which effectively increases my revenues considerably. There exist many examples
+of this strategy. Consider Adobe Acrobat Reader, and
+Adobe Acrobat Writer or Distiller. Now, this is a software that is
+used to create and use PDFs. Most of us are probably used to
+downloading the Reader for free, so that we can open PDF files and read them. In contrast, if you want to create
+a PDF file then you pay for it by buying Acrobat Distiller or
+Acrobat Writer. So in this example, Adobe has
+decided to give the Reader for free. Meaning, subsidized one side of the market
+the consumers of information, and charge a slightly higher price
+to the other side of the market. These are the publishers who are creating
+the content that's ultimately going to be read. Another such example is Yellow Pages. In many countries, Yellow Pages
+are offered for free to consumers. And in contrast, businesses pay a high fee to get prominent
+placement on these Yellow Pages. Here again, consumers value the
+information they get from Yellow Pages, and that's provided for free to them. And by doing so, and getting lots
+of consumers using Yellow Pages, these companies are able to charge higher
+prices to the merchants that want to place themselves prominently
+on the Yellow Pages. Nonetheless, if you're
+designing a two-sided market, its useful to ask which side of
+the market should I offer subsidies to? To determine which side to subsidize
+it's useful to go back, and see what was the impact of
+providing a pricing subsidy. In the previous example, we observed that
+when we reduce the price on the consumer side to zero, the demand among
+consumers increase by a large amount. The second impact was that it
+shifted the demand among developers. Based on these two observations, we have
+two differed strategies to determine which side of the two-sided
+market to subsidize. The first strategy,
+is to subsidize the price sensitive side. Notice in that example when I reduce
+the price for consumer by a small amount, the demand among consumers
+increase by a large amount. And so in other words, consumers were
+highly price sensitive that a small change in price results in
+a large change in demand. Therefore, by making it free, we might address the liquidity challenges
+on this side of the market considerably. The other observation we had was that
+by providing a price subside, and observing an increase in
+demand on the consumer side. We also observe that the demand curve on the developer side shifting
+significantly to the right. And so, the other strategy might be based on
+the extent of this shift in demand curve. In other words,
+we want to subsidize the side that generates the greater value
+to the other side of the network. In other words, by subsidizing consumers, developers' willingness to pay
+increase dramatically, and therefore that's an interesting strategy
+because we get significant network value. In short, subsidize is the side that
+is worth more to the other side. We see examples of both these
+strategies in practice. Recollect the example of
+Adobe Acrobat Reader and Acrobat Writer. Acrobat Reader is offered for
+free to consumers, whereas Writer is priced at
+a premium to publishers and professionals that want to
+create high-quality documents. Here again, the price sensitive
+side is offered the product for free, and the side that is
+willing to pay a higher price, that's the one that's
+charged a premium amount. Another example of this strategy is Uber. Uber is a taxi dispatch service
+that connects consumers on one side with taxi cab operators on the other side. During the early days of Uber
+the price of the product was higher, and it was positioned for
+premium taxi cabs. The result of that was
+you had a smaller share of consumers who were on the platform. And because you had a lower or
+smaller customer base, you have also ended up with
+fewer taxi cabs on the network. After a few years,
+Uber decided to lower the price point and offer really low-cost taxi cabs. By doing so, they significantly increased
+the number of consumers on the platform. And when the number of consumers
+on the platform increased, a lot of drivers wanted to be on the Uber
+platform and drive for Uber, and that increase the supply of taxi
+cabs on the market as well. Another example I mention
+is to subsidize the site that provides the greater value
+to the other side of the network. We see this on a day-to-day
+basis in the way clubs and bars price their cover charges. So for example in lot of clubs,
+women get in for free, and
+men have to pay cover charges to get in. The presence of more women at
+a club increases the price that men are willing to pay to enter the club. And this is a great example
+of subsidizing one side, in order to charge a premium
+to the other side. This is an example on a lighter note, but nonetheless it's a very genuine example
+of a firm trying to address liquidity challenges in a two-sided market
+by offering subsidies to one side. The pricing is not the only mechanism
+available to entrepreneurs to address the chicken and
+egg issue in building a marketplace. There exists many other strategic options. One of them is to try and obtain supply
+from other marketplaces, or other sources. For example, consider AirBnB,
+which is a website that connects consumers looking for
+short term rental opportunities with home owners that are looking to rent
+out their properties for short term stays. AirBnB had the classic chicken and
+egg problem. Consumers are not interested in the
+website, if there aren't enough listings. And homeowners are not interested in
+renting out their properties in AirBnB unless there are enough consumers. To address this challenge, AirBnB scraped
+some of the listings from Craigslist, in order to build an initial
+supply of listings. By doing so,
+AirBnB was able to attract renters, and therefore address some of the early
+liquidity challenges on the marketplace. Eventually, once they
+attracted enough consumers, homeowners also started using
+AirBnB to rent out their homes. Another strategy is to leverage
+influencers who have a large base of followers. To address liquidity challenges,
+an entrepreneur might consider hiring paid advisors who
+are influencers in that market. Who can get the word out to a large base
+of followers, and bring them on board. And once they have brought, one side of the market on board,
+you can now focus on the other side. Yet another strategy, especially for
+transactions that do not require real-time fulfillment,
+is manual matching of supply and demand. So in instances, where one side of the
+market might be able to place orders on your website, and then you might
+manually match them to the other side by calling potential suppliers or providers. And finally,
+you might be able to leverage one side to market to the other
+side of your marketplace. For example, consider Etsy,
+which is a marketplace for handmade and vintage products. Many Etsy sellers have their own small
+storefronts in different cities, and they bring many buyers
+to the Etsy platform. In short, two-sided marketplaces have
+many unique considerations due to network effects, and due to the challenges
+associated with building liquidity. But there exists many strategies that
+are available to the entrepreneur, ranging from pricing,
+to leveraging influencers, to getting one side of the market to
+do the marketing for you in some ways. And in fact, there exists many
+successful marketplaces out there, so we can borrow hacks and
+ideas from these successful marketplaces. Having said that, much of our upcoming
+discussion on digital marketing, including topics such as search engine optimization
+and social media marketing, are just as applicable to two-sided markets as
+they are for any other entrepreneur.

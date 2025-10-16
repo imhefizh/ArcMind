@@ -1,0 +1,216 @@
+Hi I'm Ethan Mollick. Welcome to our discussion about how you
+define the focal market for your startups. Now, one of the things that is true about
+startups that may not be about larger companies is that as a startup, you don't
+have a lot of resources or a lot of time. And you often have to be very narrow in
+your focus of what market to go after, and what customers to approach. Because unlike a large organization, you're not going to have
+a lot of marketing money. You're not going to be able to
+explore lots of alternatives. And you have to be very focused
+in what you're going after. So we're going to talk
+about focal markets and we're going to use a perspective
+from Josh Gans and Scott Stern, who have written a book on entrepreneurial
+strategy that's quite good. And they talk about using
+the market s-curve as a way of figuring out who your
+beachhead customers are. So that's what we'll be discussing. And then I'll tell you a little bit more
+about how to know when to enter market based on where it is on the s-curve. So, what is this s-curve? So, the s-curve is also
+the market segmentation curve and you may have seen this picture before. But it tells you that over time,
+which is the dimension along the x-axis, that people adopt technologies
+at different rates. So, early on, there's a small percentage of people
+that adopt technology, the innovators, then the early majority, then you start
+to reach this large takeoff, many more customers adopt the early majority,
+late majority, and finally laggards. And this adoption curve
+is pretty universal, so we see this across almost any
+technology that's being adopted. This is actually a well-proven
+piece of social science. And the reason why people choose
+to adopt a new technology or a new product has to do with
+their own return on investment. So they're making a decision about whether
+it's worth spending the effort and energy to adopt this new thing. And especially early on in a startup's
+life, whatever your new product or service is likely not be perfect, not
+have all the same features and bells and whistles and
+customer support and packaging that a more mature product might have,
+so it's risky and expensive to adopt. So the people who adopt your
+technology early on are likely to be in the innovator, early adopter or
+even in the early majority segment. So let's talk a little bit about why these
+different market segments buy things in different kinds of ways. So this chart here kind of gives you some
+nice characteristics of these particular markets. In this case,
+we'll start with the innovators, that very small percent who are willing
+to buy or adopt almost anything new. For these people, what they're interested
+in is the status of owning something that other people don't have, or having
+access to something no one else has. So they'll adopt something because it's
+cool, because they can experiment with it, because it's something they
+can adapt in some sort of way. We used to think about these people
+sort of the technology tinkerers, but this isn't only in technology. In things like fashion, you could think
+about the people who want to have fashion before anyone else does, or
+listen to the latest music, or find the latest restaurants. These are innovators, they're adopting things because they
+get joy out of adopting new stuff. In fact in really interesting work that
+was done by Christian Cattelini and others at MIT. They actually gave everybody at
+MIT a couple of years ago Bitcoin, every freshman who was entering the class. And they tracked to see who actually
+spent Bitcoin and when they spent it. And in dorms where they gave
+the Bitcoins to everybody in the dorm, the innovators weren't interested
+in adopting it because there was no excitement in having something
+before everyone else. But in dorms where the innovators
+were allowed to get access to the Bitcoin before anyone else, they would
+evangelize the product to everybody. Because they it gave him some status
+to have their latest, newest thing. So innovators are great interesting
+early market to go after. But the problem with
+innovators is they're fickle, they're not buying your product because of
+its underlying characteristics or goods or services, they're buying the product
+because it does something new for them. So everybody is trying to compete for
+these influential innovators. And it's very hard to compete with them on
+the merits because there's lot of other products out there that give them
+status of doing something new. Instead, a common market to go
+after is the early adopters. The early adopters are buying a new
+product or service because it gives them some revolutionary advantage
+over other people in the market. So, it gives them something new and
+exciting that no one else has. They want to have that product
+before other people do. But they have some problem, that's radical enough that they're
+willing to look around for a solution. Or they have some need for
+a competitive advantage over others that's radical enough they need
+to look around for a solution. So you can think about in the early
+adopters, these are people who maybe, if you're selling business to business,
+these are companies that are having some financial losses, or
+having difficulty entering a new market. And are desperate for any potential
+solution that will help them be able to address this particular concern. Or it might be people who have
+some need no one else has and they're desperately looking for a solution
+to it and they're willing to by that. So early adopters are a great market
+to go after as a startup because they're willing to often approach
+products that other people wouldn't because they need some
+radical revolutionary change. The mass market starts
+with the early majority. The early majority need
+a demonstrated ROI. They need a proven technology that they
+understand why it works, how it works, and that they have all of the support and
+solutions available for them. So the early majority will
+want to see nice packaging. They'll want to see customer support. They'll want to understand, if you're a
+restaurant, what your calorie counts are, and what your policies are. So the early majority is looking for
+evolutionary advantage and not revolutionary advantage. And that later goes on to the late
+majority which is really adopting things in the mainstream. And eventually the laggards who
+are the latest to adopt a technology. But as a startup, you're interested in
+the innovators, the early adopters and the early majority. What's interesting about these
+curves is they don't just tell you about who's adopting which
+technology at which time, but they also suggest potential
+strategic challenges. Of these strategic challenges probably
+the most famous is called the chasm. The chasm is the gap between those
+early adopters and innovators and the early majority. The early adopters and early innovators,
+remember, want something nobody else has, either because they want revolutionary
+advantage over other people, or because they want to be
+the first to do something. And so those customers will constantly
+push you to add new features, to keep pushing your product
+in revolutionary ways. But to reach early majority, you need to
+change the way you do business entirely. You'll need to have a packaged solution,
+you might need less features, or less potential source of advantage
+than you would otherwise. You need better customer service, better marketing, you have entirely
+different distribution channels. So to reach that early majority,
+you need a very different product or service than you do to
+reach the early adopters. And many businesses fall into
+the chasm between these two areas. So, they keep trying to
+serve early adopters, but then the early majority will never adopt
+their technology or product or service. And so
+in order to be able to bridge that gap, you need to be thinking early on
+about how you're going to reach across from the early adopter market
+into the early majority market. So, Scott Stern and
+Josh Gans suggest that you think about these s-curves as potential
+markets to go after. And you want to think about who
+your beachhead customers are, who are the customers you
+want to go after in each market? And they suggest that at most a startup
+can test to different markets and pick one, because you just don't
+have the resources to go after many. So if you think your product or service
+might be great to many different markets, you need to focus down on the two that
+you think have the highest potential. And then you want to think about who
+the lead customers are within each market. So, where are they in the adoption curve,
+and then within the adoption curve which section are you going
+to be going for into detail. Entrepreneurial sale strategy is
+not just about picking a focal customer based on the s-curve, it's
+also about thinking about three elements that are important when you're thinking
+about moving from a beachhead customer to eventually expanding to
+the rest of your market. The first of those is whether or not this
+beachhead customer acts as a reference. A reference is a customer that will
+help you get follow on sales and other segments. So, consider something like if you
+have a product that's helpful for doctors, and your initial customer
+could be individual doctors, that's who you want to move to eventually. But you have a chance to do a deal
+with the American Medical Association. That would be a very good beachhead
+customer from a reference standpoint. Because they would be able to create
+connections with you both because everybody knows who the AMA is, and also because the AMA has many
+doctors that they're connected to. And so would act as a very good
+reference for future sales. Second thing you're interested
+in looking into is whether or not you learn from each of
+the segments you're selling here. So, if the segments you're going
+after has very idiosyncratic qualities that mean that you can't go
+after other markets or you're not learning something that's useful for other markets,
+then you might have a learning problem. So you want to make sure that the segment
+you're going after helps you learn about both the market as a whole, and
+also about the needs of future customers. So you keep adapting your product in
+a lean way in the right direction. Then finally, you want to make sure that
+your beachhead customer is coherent. What does coherence mean? It means that your beachhead customers,
+your focal customers, fit with the rest of your strategy. So imagine that you are making a fun
+camera that can be used by kids. And it has a characteristic that
+makes it appealing to the military. So the military approaches you and
+says, hey, could we be a customer for your product? So you would want to think
+about the coherence of this. If we're selling to the military
+first then we're selling to children, is that a coherent strategy could follow? Or if we're going to sell to children,
+can we later sell to the military? I would argue that probably
+that's not a coherent strategy. So you want to think about whether
+your customers are a good references, whether useful for learning, or they're
+coherent with the rest of your strategy. So the s-curve gives
+you other hints beyond why customers are adopting your product. It actually tells you what kind
+of strategy you should use to enter the market depending on where
+along the s-curve your customers are. To give you an example of how this works,
+let's look at the s-curve for technology products, in this case
+specifically laptop computers. So in the very early days of the laptop,
+the early adopter innovator segment, you have the first laptop
+you see there in the left. That's the Osborne which was
+the first portable computer. And it weighed about 40 pounds,
+it cost $3,098. It was very heavy,
+it didn't have a battery, had to plug it in, it didn't work
+very well, it was not very durable. So why would anyone adopt this
+crazy computer over a desktop, which were much more common and
+cheaper at that time? Well the reason people adopted it
+there was no alternative out there. if you needed portability, say your
+an oil well engineer who had to travel or a traveling salesperson with complex
+orders, you had no alternative other than to buy this if you
+wanted to travel with a computer. So, as a result, this sold to
+the early adopters and innovators, people who had a need no one else could
+solve even though the product wasn't great or hugely built out. So if you ever startup any technology
+that solve some need in a very deep way, but isn't fully built out,
+has problems associated with it. You want to seek out these innovators and
+early adopters. Now, the technology of
+the product continues to develop, in this case the laptop. And what you see there
+in the second picture is one of the first Compaq with a q,
+that was later bought by HP, laptops. It looks like a modern laptop. The screen's where you expect. The keyboard's where
+you expected it to be. It has a disk drive built-in. It has a built-in battery. So, who buys this? Well, now that you're in the early
+majority, everybody's buying this. They're buying it because they now
+know what a laptop looks like. You're competing with all
+the other laptops out there. So, if you want to compete, you want to
+compete because your laptop is cheaper, or better, has a better screen, has features that other people don't have,
+goes after some unique market segment. So early majority, you're not convincing people the product's
+a good idea, you're competing with a whole bunch of other people to produce
+the best version of the product. Now, time goes on, and
+technology continues to develop, it gets better and better. Laptops start to get fast, they start
+to be able to animate Pixar movies. They have better graphics and speed, they have higher processing capability,
+they have better memory. But then you think about what most
+people use their laptops for. And you might think about your parents or
+grandparents for this, and they might use their laptop
+just to surf the Internet, to be able send emails,
+to be able to watch a video. You need a very simple laptop. So what happened was ASUS
+came up with the Eee PC, which is the thing you see
+furthest to the right there. Eee PC is terrible laptop compared to
+the others that came out at this time. So it had a terrible screen,
+it has much lower processor, but because of that it has a couple
+advantages, it was cheap, it was light, and had long battery life, and
+it was the first ultrabook. And for most people, they didn't need
+all the stuff on the laptop that the high-end laptops of the day had, so
+they started to buy this product instead. And so
+they went after an over-served market, and you could think about tablets as doing
+the same set of stuff to the PC market. So tablets don't do everything
+that your computer does, but if you watch a video like this
+class on it, it's perfectly adequate. So the s-curve also suggest strategy. For a new product,
+you want to go after a market where you are going after the innovators
+and early adopters because you have some clear advantage in your focal market
+that lets people overlook your flaws. If you are going after the early majority, you want to improve product,
+get better on some dimension. And if you are going after
+a laggards market or a late majority market, you want to
+think about re-segmenting the market and creating a new products that better
+fits the needs of that market place. So deciding what segment
+to go after is complicated, think about where the segment
+is on the s-curve, make sure the segment's referenceable,
+valuable for learning and coherent. And make sure it matches the overall
+development of that s-curve in the market itself. And make sure that you are not being
+over the top in terms of your testing. Test two markets and pick one. Thank you.

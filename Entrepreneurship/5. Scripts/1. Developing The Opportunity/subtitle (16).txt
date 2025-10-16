@@ -1,0 +1,315 @@
+Hi, I'm Kartik and we're going to
+talk about understanding user needs. Now before we dive into
+concept development or product development, user research is
+an excellent way to understand user needs. It is critical in order to ensure that
+product development is directed and it is effective. And it is in fact a very fundamental part
+of product management, as well as user experience design, but before we
+dive into user research, a caveat. Companies like Facebook and
+Google probably never did any formal user research before building their products
+and yet have been immensely successful. So it is important to acknowledge that. But having said that,
+at the same time, we know that for every Google and Facebook,
+there are thousands, in fact probably tens of thousands of
+entrepreneurs who built products without necessary user research, only to see
+the products fall flat on its face. And in fact, it is almost natural for
+an entrepreneur or an engineer to go build a product
+based on a hypothesis that you have. It all makes sense in our head. But the question is
+whether the user actually values the product that you have in mind. Without user research, the chances of
+failure can be high simply because you might build something that isn't a real
+important pain point for the user. Or maybe it's the right pain point but
+you build it the wrong way, or perhaps you end up with two many
+iterations before you arrive at product market fit and
+therefore you end up losing time. User research can help avoid all that. If you think about user research, there's
+really four simple steps involved in it. The first step is to gather raw data
+from customers about their needs, the second is to interpret that data, next we organize the needs based on
+different types that we observe. So we might observe multiple people repeat
+the same need in different ways and we might organize them
+into different buckets. And finally, we establish the relative
+importance of these needs and identify which ones are the most
+pressing for the user. Now let's start with the first step which
+is gathering raw data on customer needs. There are many ways to do this. One popular way is to use surveys. Now, surveys are good when you have
+specific questions in mind, for example, how should I price this product? What's the change in demand if
+I reduce the price by, say, $2? Or in order to prioritize
+product features, you know, feature A versus feature B,
+which one would the user value? And it's useful for these kinds
+of very directed questions, but surveys are less useful in this early
+phase of opportunity identification and in fact, we'll later talk about
+surveys and interviews for testing concepts once those
+concepts have developed. But in this early phase when we're
+trying to understand user needs, surveys are less useful. Now another tool that's
+available to us is to have a focus group with say
+eight to ten customers. Now focus groups are highly productive. You can get a great discussion
+going among your participants, but it's also a very expensive
+data collection method. And finally, you have interviews where
+you have a one-to-one format, and this format tends to be somewhat
+cheap relative to focus groups, and tends to be almost as effective
+as focus groups and much faster. And therefore, that's my personally
+preferred method of gathering user needs, and so we'll focus a little bit on
+interviews and how to conduct them. Now, the first question
+that comes up when we're trying to conduct an interview is who do
+we interview and how many do we interview? In terms of who to interview, it's important to interview
+all the relevant stakeholders. That includes the eventual user, but
+it also includes the buyer of the product to the extent that the buyer
+is not the eventual user. It includes, perhaps, the IT staff that
+does the installation of the product, in the case of an enterprise
+software product. It also includes advisors who
+advise either the buyer or the user in their choices. What is really important to keep in
+mind as you determine who to interview is that one should not assume
+the customer segment of interest. You might have decided that the right
+user of your product is somebody aged between 20 and
+35 who's from an, I don't know, Ivy League university working
+in consulting or in software. But that's making too big
+an assumption too early and so it's important that your
+sample be sufficiently varied. Now the question is
+what's the right number? There's no good answer to this question
+but it's important to, again, acknowledge that we're trying to get a bird's eye
+view of user needs at this stage. And so we're looking for
+qualitative information and not necessarily statistical inference
+based on the interviews we conduct. So we're not looking for large samples
+sizes of 100, 200 users to interview. Instead, probably an interview
+sample size of anywhere from 5 to 20 subjects is probably right during this
+early phase of user needs identification. Now, if you have maybe only one
+important class of stakeholder, perhaps it's enough to
+interview five subjects. But if you have lots of different
+stakeholders, for example, the user is different from the buyer,
+there are advisors worth interviewing, in which case you might
+end up closer to 20. Now, I should also point out that a lot
+of research shows that once you've interviewed about nine or ten people,
+you've easily got over 80% of user needs. And further, the performance of interviews is almost
+comparable to that of focus groups. So probably a sweet spot
+is somewhere around ten. Now, once we know who to interview and
+how many to interview, the question is how should
+the interview proceed? There are a few best practices
+that are worth keeping in mind. First, it's really important to forget
+the product concept you have in mind to the extent that you have fleshed
+it out in your mind, and instead to focus more on the user needs. And this is important
+because it's only natural and tempting to ask the user about
+a certain product you have in mind. You might ask the user, would you like
+this particular product or this feature? And of course, subjects might be tempted
+to say yes just to please you, so do not ask questions like,
+do you value this feature? Or, will you use this feature? Instead, ask them questions that are more
+open-ended and it's really again important to remember that it's about the user and
+not about the product at this stage. Also, don't ask leading questions at
+this early stage of idea development, ask more open-ended questions. For example, don't ask do you do this? And instead ask how do you do
+something that's of interest to you as the interviewer. Also ask about the user's
+current behavior, rather than speculating about their
+likely behavior in the future. So don't ask users questions
+like will you use this product? Or don't ask them questions about
+how much you do this in the future, instead ask them how do you
+currently do something. Because people don't really know how
+they'll behave in the future, and they will speculate, and that's not
+going to be particularly informative. And finally, try to be as specific as
+possible, both with your questions, and try to get specific answers. So ask for examples when the answers
+provided are very general. So we're not looking for generalizations. We're looking for specific stories that can then lead to interesting
+insights about user needs. Let's also talk a little bit
+about the interview content. What should we try and ask, and what
+are we hoping to get out of the interview? The way I approach it is
+that out of the interview, I'm looking for
+two main types of insights. First, I'm trying to understand
+user behavioral patterns. And through this, I can understand
+different user personas that are out there, which in turn will feed
+into user experience design. For those of you who are not aware of
+the term personas, it actually really relates to a term that you might have
+heard about, which is customer segments. Customer segments are usually
+about demographics. It's about roles that people might adopt. For example, if we use Google Docs,
+we might have different roles. I might be the one who's
+creating the document. Somebody else might be collaborating
+with me and might edit the document, has the role of an editor. And a third person might have the role
+of a reader, and they don't really edit the documents, but they are actually
+consuming the document that I've created. And so these are different roles. Now, personas capture some of these
+features of customer segments, like demographics and roles,
+but they also go beyond. They have a lot of behavioral information,
+behavioral patterns related to how users do something that's of interest, which
+in turn will feed into product design. And I think that's the big difference
+between a persona and a customer segment. And that's really that a persona will go
+beyond a customer segment information, like demographics, and try and get into behaviors that
+ultimately feed into product design. Now, besides user behavioral patterns, the other big class of information
+I'm seeking in an interview is to understand the steps in the customer
+journey or the customer experience. For example, if I'm applying to college,
+then the steps might include starting by talking to my friends about which colleges
+and which majors are of interest to them. Based on those conversations, and
+based on some Google searches, I might then identify majors of interest. Then I might look up college rankings for
+these majors. I might speak to some of the alumni at
+these colleges, and eventually identify a small set of colleges and majors,
+and then apply to these places. And so that's essentially what
+our journey might look like. So it's important to understand
+what the user actually does in each step of the journey. And also, what's the user's spin point,
+and what's the user's emotion, whether it's positive or negative,
+in each step of this journey? This will help us understand where is
+the most pressing pain point in the entire user journey. So I'm now going to use
+an interview to try and illustrate some of
+the principles I talked about. For the purposes of this interview, I'm
+going to assume that we're interested in understanding user needs tied to diet and
+nutrition. And perhaps we have
+a certain concept in mind, trying to help people make better
+nutritional and diet choices. But that can mean several
+different product concepts. It might mean a portal where we provide
+users with information about nutrition. It might mean an app where
+people can quickly search for caloric and other information tied to a
+specific recipe that they are considering making, or it might be a marketplace to
+connect consumers with nutritionists. So these are very different product
+concepts tied to the same fundamental user need of helping people make
+better nutritional choices. So we're going to use this
+interview to better understand what's the actual user need. Joining me here is Stephanie. So Stephanie, I'm going to ask you a bunch
+of questions related to your diet and nutritional choices. First, let me ask you, how important or
+salient is diet or nutrition for you? How often do you find yourself
+thinking about it, and making conscious decisions
+related to that? >> I think it's pretty much
+part of my daily life, and has been since I was a child. I played a lot of sports
+when I was growing up, so I had to think about kind of what I
+was eating and my practice schedule. And that's carried with me
+throughout my adulthood, not in the same capacity,
+necessarily, as when I was a child, or when I was in secondary school,
+but now I run. >> Okay. >> I wouldn't necessarily
+call myself a runner, but I have run some half marathons. And so I am aware of exercise,
+and my training schedule, and what my nutrition needs to be when
+I am in that training regimen. >> Give me an example of a choice or two that you make driven
+by your exercise regimen. >> Just making sure that I am
+eating enough carbohydrates, eating proper vegetables and
+fruits, watching my protein intake. Is it too much? Is it too little? And also, my big thing is making
+sure I drink enough water. >> Okay. >> So
+I find a lot that I am dehydrated, so that's something where I have to
+constantly remind myself to drink water. >> And when you say,
+is protein too much or too little, what's the range in your mind? >> So my idea of nutrition,
+I don't necessarily calculate the grams or the specifics. But just knowing that I need to
+eat a lean protein for dinner, and maybe I had some carbs for lunch, so maybe I should balance that out with
+a salad and a lean protein for dinner. And just keeping that in mind so
+that I'm not eating three cookies. >> Okay.
+>> That maybe I swap out a cookie for a piece of fruit, that kind of thing. >> All right, so would you describe your approach as being reactive or
+preventative? >> I would say most of the time,
+it's preventative. >> Yeah.
+>> I've tried to maintain my weight throughout my adulthood. I've had some fluctuations in that,
+due to being ill and sick, and having to kind of
+go through the motions of calibrating my body again after
+recovering from being ill. So I think it's something that
+I try to be preventative. And then obviously, if I'm training, I
+think there is a little bit of reactivity to that,
+because you're listening to your body and trying to mentally get through
+whatever you're training for. >> Right, so clearly, your training
+drives a lot of your choices. But is there an element of thinking
+about chronic illnesses that, say, a family member might have, or that might be a lot in the news that might
+drive some of these choices, as well? >> Yeah, I think that the primary
+ones would be we have a family history of cancer and diabetes. So those are things that are kind
+of prevalent in my mind in some of the choices that I make. And making sure that I am exercising,
+that I'm seeing a doctor fairly regularly, getting a physical once a year,
+seeing a specialist if I need to. And just being cognizant of
+the diet that I'm taking, watching my sugar, not eating fatty foods. >> And so when you say sugar and
+fatty foods, that's, again, driven by either diabetes or cancer? >> Mm-hm. In these kinds of situations.
+Yeah, and just keeping that in my mind that
+the older I get, I believe it's probably going to be even more difficult
+to stay healthy and be healthy. And so, if you can take those actions now
+of knowing what should be in your diet and what shouldn't be. So, can you give me an instance of any
+scenario where you actually made a choice, a change in your diet? And what was that process or
+that journey like? What was the first trigger point, and then
+where did you get additional information? How did you change it? Just walk me through
+the various steps in that. Sure, so I actually worked abroad
+in West Africa for two years. Okay. And when I came back, I had a parasite. Mm-hm. And the parasite destroyed
+a lot of my body and really affected how my body reacted
+to the certain foods that I ate. Mm-hm. And so, I really had to sit down and think about what was triggering
+the responses that my body was having. And so, I worked with a nutritionist and several doctors to kind
+of figure that out. But, in addition to
+the information that they gave me, I did a lot of research primarily on
+the Internet and just kind of talked to other people who may have had a similar
+situation to see was this normal. What did you do? Or how often did you feel this way? That kind of thing. Okay, and
+what might have been the sequence here? It sounds like visiting the doctor
+was the first step in that sequence. Was the nutritionist after, or
+was it talking to friends, or was it researching online? Well, first it was being aware of what
+the symptoms were, and then that was triggering me to go to the doctor and
+figure out something is not right. So then, I went to the doctor,
+was referred to another doctor, and then with that, the suggestion of
+also talking to a nutritionist. From the doctor,
+doctor gave the suggestion? Yes, just so
+that I could meet someone regularly and kind of talk about a food journal and
+keep those things written down and come up with a plan on how to evaluate
+how I was taking care of myself. And also,
+if there are any things in my diets or adjustments and
+how that affected how I was feeling. You mentioned a food journal, so
+is that something you maintain even today? I don't maintain it today. Okay.
+But you- I guess maybe mentally I maintain it in that I'm aware of kind of
+what I'm eating more of, and certain foods I just avoid. Okay. Or try to avoid because I still have
+an association with how they make me feel based on when I was ill previously. And when you discuss these steps
+like the doctor, the nutritionist, researching online, talking to friends and
+family, and then eventually arriving at the nutrition choices that you
+are comfortable with today. Was that series of steps relatively
+smooth or were there certain steps or portions of this process
+that were more painful where it took you longer to get
+the necessary information or get the necessary motivation
+in order to make the change? No, I would say it was a pretty
+steady process, it was pretty linear. I think the frustration that I had was
+sometimes you talk to one doctor and they're not quite sure and
+so you're waiting for other ideas, and tests, and that. But once I knew what the problem was it
+was a bit of trial and error initially. But then once I had the process of I have
+to meet with the nutritionist this day, and I have to do this, and
+I need to make sure I'm not eating this. It went fairly smoothly. And what was the most critical moment or
+the aha moment? Was that when you met the nutritionist, or
+was that something you found online, or was it a friend or family member
+that gave you that critical insight? Or was there no such aha moment
+where it was just a series of small, incremental steps? I think it was more of a series of small,
+incremental steps. The combination of using
+those different resources, whether it was doctors, nutritionists, my own self-discipline of
+really listening to my body and kind of knowing what I needed to do,
+but it was gradual. I don't ever recall ever being like,
+yes, I figured it out, so. Okay, and then finally, tied to
+nutrition the last question related to that is if you think about whether it's
+access to information or is it access to a person like a nutritionist or
+a doctor, or is it the motivation and the behavioral aspect of it,
+what keeps you committed going forward? Is any of these harder than the other
+elements of this journey you talked about? I think mostly it's just the behavior
+like my own kind of discipline. Okay.
+And self-regulation of keeping in
+mind what I need to do and if I need help or I'm not feeling well or
+something like that. That, don't try to figure it out yourself,
+go to a doctor and talk to them about what's going on and
+staying healthy that way. Finally I want to understand some other
+aspects of your lifestyle that are not related to health and nutrition. Are you, do you consider yourself
+to be savvy with technology or a little knowledge with technology? I would say I'm pretty savvy. Okay. And again, let's talk about some websites
+and some tools that you might use. Do you use Facebook? Yes. How about Twitter? Yes. Do you use any messaging outside of
+Facebook messaging, like say Skype or Google Chat or any of these? Yes, I use all of those actually. You use all of them, okay. How about Uber and Airbnb,
+have you used either of these? Yes, I've used both. You've used both, okay. Let me ask you about
+health related websites. Have you been to any,
+like WebMD or Livestrong, or any of these other websites? Yeah, WebMD. Also, I've frequent the CDC
+website a lot just, I like to because of all of my
+previous travels, knowing certain things about different diseases,
+and also immunizations. Keeping up to date on all of that
+stuff is kind of important to me. And so, I do check things out and
+see what symptoms are for even just flu cold symptoms,
+the difference of the two. So yeah, I would say accessing
+those government resources, and seeing also too what local
+health offices might offer. Do they offer some kind of health fair or
+a nutrition day or something like that? Have you ever paid for
+any health related products, in particular products tied to diet and
+nutrition? So, you clearly talked about paying for
+providers like nutritionists, have you ever paid for
+any either a software or a digital product that helps
+you make better choices? Or an app that helps you, maybe it helps
+you track your diet and nutrition, or helps makes choices or
+a fitness tracker or anything, any product that's tied to health and
+nutrition. So, I have had a heart rate monitor,
+which tracks your heart rate. I don't have anything like a FitBit, but I
+do have an app on my phone that I utilize. Okay, is that a free app or a paid app? It's a free app, yeah. But that is something that I'm working
+towards, I would really like to get a wearable of some kind so
+that I can track things more regularly. Okay, now if you're employer ever provided
+you a free service that you could use that is, for example, consultation
+with a nutritionist or information or things of that nature would you
+consider using it if it's free for you? Yes. And on your own would you go and
+a pay from your pocket to try and seek these services On a preventive basis
+if there's no condition to worry about? I think I would, yeah. But it sounds like as far
+as health related products, currently you don't necessarily pay for
+any of them. No, I don't.
+Okay. But I wouldn't be opposed to paying for
+them. Okay, all right, thank you very much. Thank you. Finally, once the interview is
+done we gather all the data, we process the interview transcript or
+our notes, and we interpret that. And we identify all the different
+needs that are mentioned by our different subjects. And we might then organize these
+needs into different types and once we've done that we might then try
+to establish the relative importance. We might do that by seeing the number
+of times these needs are mentioned. We might see the actual emotion people
+convey when the talk about these needs. Or we might observe their body language,
+but ultimately all of this helps us identify
+what are some of the most important needs. So in summary, user research
+through interviews is a very useful matter to understand user needs before
+we dive into product development or even concept development. It can help save a lot of time and money. It helps to prioritize user requirements
+and helps to avoid features that you think are important but
+are truly not relevant for the user. And also it helps reduce the number
+of product iterations needed to arrive at product-market fit. Next, I will illustrate these principles
+through actual interviews where I'll try to apply these principles to identify
+user needs and product requirements.

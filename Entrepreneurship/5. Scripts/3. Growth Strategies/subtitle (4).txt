@@ -1,0 +1,115 @@
+Demand decomposition is a well-known proven method
+for forecasting demand. We shall demonstrate
+this method in the context of two examples. The first example we shall
+consider is an example of estimating demand for
+car-sharing in Philadelphia. The next one is demand for
+toothbrushes in India. Let's start with the demand for Uber or car-sharing
+in Philadelphia. In demand decomposition
+exercises, we invariably start
+at the highest level, and here we'll start with the
+population of Philadelphia. The next step is to figure out those who need
+transportation. If we are specific, maybe it's
+transportation to work or it could be more
+general transportation. Next step would be to
+multiply that with those who prefer personal transportation
+over public transit, and then multiply that with
+those who do not own the car. Then those who will prefer Uber over other
+means such as taxi. If you multiply Philadelphia
+population times those who need transportation
+times those who prefer personal transportation
+over public transport times those who do not own their own car times those who prefer Uber or other
+means such as taxi, you get an estimate for demand for Uber or
+ride-sharing in Philadelphia. Again, each of these
+multiplications is by a fraction. If you look back in
+this application, we had two steps where we
+use the word or phrase, those who prefer A or B. How do we find this out? One way to do this is to ask people's preferences
+or intentions. However, we know from
+previous research that people often do not report their
+intentions accurately. Even if they report
+them accurately, oftentimes they don't behave according to the intentions
+that they had reported. This is a complex problem, but it's a solvable problem, and there are methods
+available to make intentions a better
+predictor of behavior. There is a lot of work and
+research done on that, but this is beyond the scope
+of this specific module. But have the confidence
+that you can, using these methods, make intentions a better
+predictor of behavior. Now, let's look at
+a second example which is a little
+bit more detailed. Let's think of a company
+wanting to better understand demand potential
+for toothbrushes in India. Because it probably wants to market a different a toothbrush. Again, demand
+decomposition model is a useful method in this
+particular example as well. Again, we start at
+the highest level. What is the population of India? This number is
+readily available. Next, we look at how
+many people brush their teeth with some form
+of device or another. Some people use neem twigs in India and others use
+a regular toothbrush. These data are usually available
+from studies published by the government and other organizations such as the ADA. The next step will be to look at the frequency of brushing. Frequency of brushing
+varies in every country. Not everyone brushes
+two times a day. Some people brush once a day. Some people brush
+less frequently, even though we are supposed
+to brush two times a day. But the variance is
+probably more in India. These data will
+come from surveys that you have to conduct or
+have already been conducted. Finally, after how
+many sessions of brushing is a brush
+replaced on average? There is a variance here as
+well across the population, and this can also be obtained
+by surveys or observation. The company in
+question did all this and came up with a very
+nice demand model. Starting with the Indian
+population at about 1.2 billion. Those who brush with
+some device or another, close to 50 percent, and of those who brush, how many of them use
+traditional means versus how many of them use a
+store-bought brush that we know as a toothbrush. Then number of brushing
+sessions per year, how many times do
+they brush a year? The data suggested
+that on average, people brushed once a day, so 29 brushings in a
+month times 12 months. Then the next question
+that they asked was, how often do people
+replace a brush? On average in India, based on the studies, it was after 160 of brushings. That's once every
+five months or so. Then that leads to
+when you multiply the total population
+with the fraction who brushed times fraction who
+use store-bought brushes, number of times they brush and how often they
+replaced the brush, you get an estimate of demand
+for toothbrushes in India. That number, you should
+check to validate your analysis whether it is close to the actual
+demand today. Now the next question is, what can you do to
+increase the demand? Well, that's what these
+models are very good at. Maybe you can increase demand. You can't change the
+population of India, or at least that's not
+under your control. It change on its own. Maybe you want to persuade people to press for
+the first time. But that will require a very strong health message on the importance of dental care. Alternatively, you may
+want to target people who use neem twigs and convert
+them to toothbrushes. Or not worry about that, just focus on the
+incidence of brushing. People on average are
+brushing once a day. Maybe you want to
+convince them that brushing twice a day
+is more important. Or alternatively, you
+could convince people to replace their brushes
+more often because keeping the brush for a long
+time is not as healthy. What does demand
+decomposition give us? It gives us an estimate
+of the demand. But more importantly, it tells us how to increase the demand. What are the levers we
+have under our control? Based on this model, we can come up with ideas on how to enhance the demand for
+toothbrushes in India. We could persuade
+more people to brush. We could urge people who use twigs to shift to a toothbrush. Maybe an entrepreneur could come up with an inexpensive
+toothbrush that will convince people
+who are using twigs to use toothbrushes, or one could urge users to replace their
+brushes more often. Demand decomposition
+allows us to also identify levers that can be used to increase demand
+for our product, and also identify how you might position your
+product in the market. In summary, forecasting
+demand is probably one of the most critical aspects
+of launching a new venture. We started this in
+three different ways. First, by using the
+ACCORD model developed by Professor Everett Rogers
+to examine whether or not our idea has a good chance
+of becoming successful. Then we discussed
+qualitative methods such as using expert opinions, benchmarking, and
+combining forecasts. Finally, we studied
+demand decomposition, often referred to
+as the chain rule. I urge you to apply one or more of these methods
+to your new idea. I wish you all success.

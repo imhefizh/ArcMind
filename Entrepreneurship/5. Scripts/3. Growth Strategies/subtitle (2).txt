@@ -1,0 +1,110 @@
+In this module, we shall study one of the most critical
+challenges faced by an entrepreneur. How do I forecast demand for my new
+idea that I plan to take to the market, but more than that oftentimes
+bet my life on it. Under forecasting is just as problem
+problematic as over forecasting. If you're under forecast,
+you're losing an opportunity. Forecasting is not easy, but we can use
+some simple proven methods to improve our estimates and more importantly,
+learn how to influence demand. If it is low or if it's expected to
+be low, what can we do to improve it? We shall think of this
+problem in two parts. In the first part, we shall ask
+the question, will my idea take off, what are some of the common
+characteristics of ideas and products that make them take off and
+how well they do and how does my idea stack
+up on those criteria? In the second part, we shall ask the
+question, how do I quantify the demand for my product and more importantly,
+what can I do to influence it? What levels do I have under my
+control that can influence demand? So, let's start on the first
+part will this idea take off? Professor Everett Rogers wrote a classic
+book titled Diffusion of Innovations. This was founded foundational work based
+on his many years of research studying what kind of innovations took off and
+which did not. Professor Rogers grew up on a farm and
+started to ponder why some innovations were adopted by
+farmers and why some were not. I had the privilege of taking a course
+with Professor Rogers when I was a PhD student at Stanford University. Professor Rogers distilled his findings
+into six criteria that determine the success or failure of a new idea. These have come to be
+known as the accord model. So, what are these six characteristics,
+and what does accord stand for? So, A stands for advantage or
+more specifically relative advantage, this could oftentimes be
+the economic advantage. Will my idea save the customer some money,
+but not always. It could also be, will this idea
+provide some emotional benefit or some symbolic benefit? We shall talk about this later. C stands for compatibility or,
+more precisely, the first C stands for compatibility. Are the methods needed to use or apply the
+new idea similar to the ones we used for in the existing products that
+the customers are using. The second C in accord stands for
+complexity, how easy it is for me to understand why this
+new idea will deliver or perform what it claims to
+deliver on performance. Is the science or the logic behind
+the idea is simple to understand. O stands for observability,
+if one user were to adopt this idea, will other users be able to see and then adopted themselves in essence
+imitate behavior in today's world? We can also add that, will the product
+naturally generate word of mouth, either online or offline? R stands for risk,
+how risky is the adoption, what if the product does not work,
+what's the downside? Clearly, there could be
+an economic downside. But Professor Rogers also highlighted the
+social risk along with the economic risk. What will others say if the new
+idea adopted does not work? Will I appear like
+a fool amongst my peers? And finally D stands for divisibility, can I try this idea at a smaller
+scale before both going full stream? So, those are the six characteristics
+that make the accord model. Let's now try to bring this to life and let's look at an example that's close to
+my heart and also involves all of you. Let us think of Whalton's decision
+to offer an online course on entrepreneurship, the one
+you are enrolled in. Wharton in the past only offered
+such courses in person and you have to come to campus
+to take these courses. Let us now try to use the ACCORD model and
+put it in practice to see if Wharton's idea of offering an online course
+on entrepreneurship will fly. A relative advantage, clearly,
+the online course has some advantages. It is less expensive, you can take it at
+your own convenience, it's on demand. But it may not give you the same
+opportunity to connect with expert professors at Wharton,
+shake their hand, meet them personally, as well as peer learners as
+effectively as an in person course. But clearly,
+it has some relative advantages. Now, let's look at compatibility, this
+is a more complex question in this case. Online learning is quite different
+than learning in person, but from a capability perspective,
+if you have a computer, internet access and
+you're used to learning online. Then taking an online course on
+entrepreneurship is quite compatible with taking other online
+courses on other topics. So, what does it mean,
+if you have taken other courses online, our online course is quite compatible
+with the other online courses. May be different than in person courses,
+but quite compatible with other online
+learning, other online courses. And online learning happens beyond
+just courses we learn online through other methods also. Complexity, will online learning
+deliver what you expect? Is there some basis to claim that
+the learning will be effective, Wharton may have to give you
+some evidence that it does. This could be testimonials
+from other learners. Note that as we evaluate the new idea
+on these criteria, it also forces us to focus on what we need to do to correct
+some of the weaknesses of the new idea. If we believe on complexity scale on
+a one to seven, it rates at three or four people will not know whether
+this will deliver the same level of learning as an in person course,
+we must provide some evidence. Evidence could come, as I said,
+in the form of testimonials. Now let's go to O, observability,
+if one learner takes this course, will others be able to observe and
+then follow? The answer to this is probably no, you're taking this course in the privacy
+of your own home or in the office. But we could tackle that problem by
+offering badges that you put on your Linkedin page, then your friends will be
+able to see that you took the course. You can see how we are coming
+up with solutions as well as we are looking at challenges. R, risk, this can take many forms,
+what if you do not get what you expected, the fee you spent on the course
+will not have paid off. Time you spent, would also not pay off,
+but then is this risk more or less than other ways of learning
+about entrepreneurship? And one way to tackle risk is we go to the
+next criteria which is divisibility and divisibility is one way to mitigate risk. So, what do we mean by divisibility here,
+can you try this new idea, the new online course at a small
+scale before taking it on fully? The answer is clearly yes,
+wharton can offer a free trial option, you can sample the course before
+taking the entire course. And this divisibility
+aspect also mitigates risk. What we were trying here was
+to learn a framework and practice applying it in a familiar
+setting, Wharton evaluating whether or not to offer an online
+course on entrepreneurship. I now urge you to apply the ACCORD model
+to your idea that you are passionate about. As you apply the model, rate your idea on a scale of 1-7
+on each of the six dimensions. But also ask yourself if the idea
+rates low on a particular dimension, what can I do to improve
+it on that dimension? Just like we thought about this in
+the case of Whalton online course on entrepreneurship. Also have your friends evaluate
+your idea using the ACCORD model. I know investors who use some
+version of this model formally, and many use it informally when they
+evaluate ideas that are pitched to them.

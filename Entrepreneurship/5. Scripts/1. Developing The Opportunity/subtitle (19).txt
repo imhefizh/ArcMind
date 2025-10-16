@@ -1,0 +1,181 @@
+The first step in planning your start-up
+involves thinking about the underlying assumptions involved in your
+entrepreneurial venture. Any entrepreneurial venture
+requires assumptions, because you haven't built the thing yet. So you have to assume that certain
+things are true about the world for your startup to work. And there could be many
+different kinds of assumptions. You could assume that customers
+will operate in a particular way, your competitors will react in
+a particular way, that once people see the product they'll understand the need
+for it, that they'll tell their friends. These are the assumptions that
+your startup is based on. And many times,
+these assumptions are unspoken, and this can lead you into trouble because it
+means you haven't actually thought through what things in your startup you know, and
+what things you're assuming you know. And a failure to understand
+these underlying assumptions can lead to failure, or
+even missed opportunities. The picture that you seen on
+the screen is of ChargeItSpot. So ChargeItSpot is a startup that
+started in one of my classes. And the idea was to build
+a cell phone charging tower. So, you'd put this in
+various retail shops and when your cell phone was
+running low on batteries, you'd bring it to the charger spot and
+charge it for free while you shopped. And the idea is very good, the company's
+been very successful so far and raised quite a bit of venture capital. But they have learned that some of
+their underlying assumptions are wrong. They thought the main
+benefit of the charging spot would be that if people would be charging
+their phone in it, and therefore they'd spend more time walking around the
+store, waiting for their phone to charge. And that indeed turns out to be a benefit. But one of the big sales factors for
+the charge it spot has been that registration screen that
+you see in the middle. So when you put your phone in to charge, you type in your email
+address in case you lose it. And you type in a secret code. And it turns out the ChargeItSpot
+is the most effective way of getting email addresses
+from people in store who are interested in potentially
+buying in the future. And that's been one of the major values. And because they didn't think to ask about
+that, it took them a while to recognize that there was actually a large
+growth opportunity that was missing. So these sorts of assumptions, can hobble
+your business, and thinking about them, becomes a really critical
+point of startup planning. There are a number of different ways
+that you can bring assumptions that are normally unspoken to the surface. And there really isn't magic
+associated with one way or another. Essentially it's, servicing assumptions is about asking
+a list of questions about your startup. And trying to get answers, and think hard
+with your co-founders if you have them about the underlying factors that are
+going to make your business successful. So, I'm going to give you one method
+base on the work of Tom Eisenmann of Harvard Business school,
+who grouped assumptions into four different categories, and I'm using
+a solely different version of this. But the basic idea is the same. So the four categories are,
+Customer Value, how you're delivering
+value to the customers. How are the customers going to know
+that value is being delivered, how are you going to
+deal with competition. Technology and Operations. What do you actually have to do in
+your business to make it succeed. What kind of operational steps you need to
+take, what technology you need to develop. Who's going to do what? Sales and marketing. How are people going to
+know about your product? How are they going to be able to buy it? And then finally, the financials and
+the profit formula. So how are you going to actually
+generate revenue for your business? What's the underlying formula
+that's going to make you profitable in the long run? So this is a very easy technique. You're going to go through
+each of the categories, and we'll talk about them more in a second,
+and you're going to ask yourself key questions and figure out whether or
+not you can answer them. So what are these four key categories? The first is the customer value area. So you start off by thinking
+about your customer needs. And the most important question in
+some ways to ask for your entire entrepreneurial venture is do you know
+what customer needs you're solving, and how do you know? If the answer is I'm one of those
+customers, that's a great starting point, but do you know the market's large enough,
+and how do you know this? What facts are you drawing from? Are there particular market
+segments that you're addressing? And if you've seen Professor Wong's
+talk on customer segments, this is a good way to think
+about the segmentation issue. Competition. How are different from other products and
+services? And how do you know that you are? If you are different,
+how do you keep your advantage, and how do you protect your intellectual
+property so other people don't copy it? And, in the longer term, how do you sustain that advantage
+by dealing with competitors? So how do you think they're going to
+react to you entering the market? Do you have any knowledge of this? How are you thinking
+about responding to that? On the pricing side, how are you
+going to price your product and service, there's many different
+pricing techniques you could use. You could do fixed pricing. You could do bundled pricing. You could price by the month. You could do value based pricing, where you're getting a percentage
+of the savings that people have. What's your pricing method? And how are you figuring out
+what the right price point is? And who's paying, is it a customer, or
+is it something insurance companies are paying for, or
+is something being done in hospitals, where the hospitals paying for
+it, and not the doctors? You need to understand who the payer is. And partners. Who do you need to work with
+to make you successful? Are there companies that need
+to cooperate with you, and how are you going to give them enough
+value to convince them to join you and partner with you as you go forward? So this is an exhaustive list, but if
+you can't answer these sets of questions you have a major assumption that you
+need to deal with within your business. The second set of questions
+deal with technology and operations, how you're actually
+going to run the business. So first these are about planning, what tasks need to actually
+be done in your business. So when you start this,
+what are you actually going to be doing? What jobs do people do every day? What jobs are people
+doing in the short term? And how will you structure your tasks so that you learn as much as possible as
+you move forward with the business. What drives your costs? Many times it's the people
+involved with the company. But it could be outsourced technology. It could be hardware. It could be rent. How are you thinking about
+these sets of issues, and how do you know what
+your cost drivers are? How do you hire? So who's going to do all
+the various tasks in your business? Is it just you? You and your co-founder's? Are you using outside contractors,
+are you hiring people permanently. If you have that talent already
+how are you going to deploy it and how much does it cost. If you don't have the talent
+how are you going to get it? Technology. So how will you develop and
+maintain your underlying technologies. Are you building things in house or
+outside? Do you need new technology
+at all to make this work? And then you need to think about the long
+term, which is something we'll be discussing in upcoming classes, such as,
+because the issues that you raise now and the decisions you make in the very
+early days, your company will have long term effects across the entire
+lifespan of your organization. In fact, we have strong evidence that
+decisions made even hundred years ago, the founding of old companies
+affect their operations today. So thinking hard about how you're
+going to make choices that have longterm positive impacts matter. How will you be able to start up
+ultimately that doesn't need you so that you can walk away from it. And you don't have to do every
+job in the company forever. Another set of questions is
+around marketing and sales. So think about your channels,
+how you're reaching your customers. What type of sales channels are you
+going to be using to go to market? How will you actually get those
+channels to join you, and what kind of value do
+you need to give them? A 30% margin, 20% margin,
+a list of names and addresses, and investment in your company? How are they going to join you and
+come on board? Who's handling what aspect of
+sales in your organization? Who's handling prospecting? Who's handling customer calls? Who's handling returns or
+customer service? Those are all issues you need to address. Customer acquisition. How are you getting your new customers,
+and what is the cost of acquiring one? What is your customer acquisition cost? So how much are you
+paying to the marketers. How much are you paying
+in sales incentives? How much you paying in referral fees? And then optimization. How are you going to know if these
+sales methods are working or not? How are you going to learn as you go? And how are you going to measure success? What are your key metrics,
+another thing we'll be talking about. The final set of questions is around
+financial and profit formulas. What are your financial projections and
+how do you justify them? What do you know about them? Something we'll be talking a little
+bit more when we talk about discover [INAUDIBLE] planning
+in a couple lessons from now. Then, how will you improve and make your
+projections better as you move along? And then there's question of investment, how much money do you need to make your
+product work or your venture work and how will you actually get that money and
+that's, again, something we'll be talking about a lot
+more as various fundraising techniques. And then how can you actually order your
+investments to maximize your value and maximize your learning. So, you spend as little as possible early
+on to figure out whether this is a good venture idea or not, to grow the value of your venture before
+you start raising larger amounts of funds. What you'll notice is that I've just given
+you an exhausting list of questions and I think you'd probably love it
+if I could answer them for you. But this is about your venture,
+your business, so these are questions you need to answer for
+yourself. And I strongly recommend sitting
+down with your founding team. If you're a lone founder that you figure
+out a couple people to join with and talk to about this. And spend a couple hours going
+through these sets of questions and thinking about what your answers are. And when you do this go
+through each question and tag them based on two numbers. Give them a number 1-5 based
+on the level of importance. So, if it turned out the most
+important part fo your organization, of your venture idea, is that you will
+find a particular partner who is willing to sell your product, say you need
+it to be sold for you at Walmart. So that becomes your most important,
+you'd rate that a five. And it might be that you also are, don't know very much about how Walmart
+decides what kind of products to carry. So you're very unconfident in that. You'd give that a five as well. So what you'll do ultimately is have
+answers to every one of the questions I raised, and you'll have a number between
+two and ten associated with each one. The highest numbers are those that are the
+most important and the most uncertain. Those are your key
+assumptions of your business. Those are the things you need
+to answer as soon as possible, to figure out whether your
+business is a good idea or not. Entrepreneurship is interesting
+because the cost associated with it are not just money. There's actually three different
+costs you have to worry about. When you think about what
+assumptions you're testing. So the first is cash, how much money your
+startup has, how much money you have. This is a overriding
+factor in many startups. It's obviously a point
+that we'll talk about. And we'll talk much more about how
+you raise money, how you spend money, how you think about money,
+inside an entrepreneurial venture. But you also have other kinds
+of costs you're spending. And so when I talk to startup founders, one of the issues that comes
+up continuously is time. That you're racing against time before
+competitors enter the market or an opportunity disappears. So if it takes you three months
+to find an answer to a question, that's three months of leader
+advantage that might be gone. And then something that founders
+often don't talk about but ends up being a very important part
+of entrepreneurial adventures is the founders' own reserves of effort and
+energy. So in an early-stage
+startup the person who does everything tends to be the founder. And the founder has to be everywhere,
+managing people, hiring people, selling. So, that takes a lot of energy. And thinking about how
+you structure this so you're not expending your energy
+everywhere, but instead focusing on the things that are most important is
+a critical part of startup budgeting. So you're budgeting money,
+you're budgeting time, and you're budgeting effort. So the goal of entrepreneurial planning
+is to learn as much as you can about your key assumption while
+minimizing these costs. So you want to focus on the assumptions
+that are most important and are most unknown. And get answer to those as soon as
+possible to figure out whether or not your start-up is heading
+in the right direction or whether you need to change direction or
+even move and do something else entirely.

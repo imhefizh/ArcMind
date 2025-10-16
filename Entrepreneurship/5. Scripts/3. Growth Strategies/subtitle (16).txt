@@ -1,0 +1,135 @@
+In this module we shall discuss the van Westendorp method for measuring maximum
+willingness to pay. Peter van Westendorp, a Dutch economist
+proposed this method in 1976 and is often referred to as the van Westendorp's
+price sensitivity meter. It is a very useful
+approach to understand the economic viability of
+a new product concept, as it gives us an estimate of
+an acceptable price range. For example, if the
+concept is not financially viable at even the
+highest suggested price by the method, it may not be worth
+investing in. This method is empirically
+based, logical, but I'm not familiar with any formal peer review published comparisons with
+other approaches. It is yet very often
+used in practice, so it's good to know
+and learn this method. Many consulting companies and market research firms use it, and I've also used it to help some Wharton
+students' startups, and we shall discuss one of
+these later in this module. Before we go into
+details of the method, a baseline approach
+to consider is, why not just ask people
+what is the maximum they're willing to pay for a new product or a new service? Most likely, respondents will not give
+us an accurate answer, and there may be many
+reasons for that. One of the reasons could be, maybe they just do
+not know the answer. Another reason could be, maybe they will
+game their answers. Maybe they will give us
+a low number hoping to benefit from the low price we set based on their responses. An alternative to consider is, why not infer the maximum
+willingness to pay indirectly? That is exactly what the
+van Westendorp method does. The indirect approach
+is the foundation of many good customer
+research methods as we will see later
+in this course. What does the van
+Westendorp method require? It requires that we ask each
+respondent four questions. Question number 1, at what price would you say that Product X
+would be a bargain? Question number 2, at what price would you say that Product X would
+be getting expensive, but you would still
+consider buying it? At what price would you say that Product X would be too
+expensive to consider? Then finally, at what price
+would you say that Product X would be too cheap
+such that you would question whether it
+would work at all? These four questions
+are the key questions that are asked of
+each respondent in the van Westendorp method. There is some discussion amongst various consulting companies as to the right order to
+ask these questions. But in much of the
+work that I have done, I've asked them in
+this particular order, which is start with the bargain, then getting expensive, and then too expensive, and then at the very
+end ask the question, at what price would
+you think it is too cheap that you would question whether it would
+work at all or not? Then the question is, what
+do we do with these answers? Let's say we've asked 100 consumers each of
+these four questions. The next thing is to put
+those answers together and get some tables
+or plots out of that. Let's say we start
+tabulating the results. Let's look at one question which is too expensive to consider, and we look at the data
+from all 100 respondents, and what do we find? At a price of 100, nobody has considered
+this to be too expensive. At a price of 200, 25 percent considered
+it to be too expensive. At a price of 300, 50 percent considered
+it to be too expensive. By the time we get to 500, everyone who we asked considers
+this to be too expensive. By the way keep in mind, we are not asking them whether it's too
+expensive at 100, 200, 300, 400, or 500. These ranges are coming freely to us based
+on their responses. Same way, you can look at
+the answers to the question, too cheap to consider. If you look at the table,
+what are we seeing? At a price of 500 no one considers this
+too cheap to consider. Same is true at 300, but by the time we get to 50 every person has said that at that price it is too
+cheap to consider. What you are doing
+here is tabulating people's responses and creating these ranges out of them
+as they give it to you, but you are not putting
+the ranges yourself, you are not giving
+any signal of what is the price to consider in
+each of those questions. This is a free floating
+answer from the respondents. You are just putting
+the data together. Now when we plot these data, we do two other things
+that are interesting. For the question bargain when we plot the data we flip it
+and call it not a bargain. How do we do that? Let's
+look at the table bargain. At $500, nobody said it
+was a bargain, $400, nobody said it was a bargain and by the time it was $100, everyone said it was a bargain. But when we plot it, we will reverse the y-axis
+and we'll say not a bargain. Wherever there was 100 percent, that becomes zero percent, wherever there was 75 percent, that becomes 25 percent. That's how we plot these data. That's pretty customary in
+the Van Westendorp method. What might these
+plots look like? Let's look at those. We have now four curves corresponding to each
+of the questions. These curves intersect with each other, as you can imagine. There are four key
+intersection points. The first to consider is the intersection of too
+cheap and expensive, which is plotted as not a
+bargain in green color. What does that point do? That points to the, according to the Van
+Westendorp method, the point of marginal cheapness. The second point to focus on
+is the upper bound of price, which is the intersection of
+too expensive and bargain. Or in other word, not expensive, which
+is the reverse of it. That's the point of
+marginal expensiveness. That is where people
+who think it's too expensive is becoming equal to the people who
+think it's a bargain. That's the intersection point, is the number of people
+who think it's too expensive is equal to the number of people who
+think it's a bargain. The two other points of
+intersection that are extremely useful is the intersection
+of expensive and bargain. This is the point at which
+the number of respondents in your sample who think it's expensive is equal
+to the number of respondents who think
+it is a bargain. It is often referred to as
+the indifference point. Point at which the number
+of consumers who think it's expensive is equal to the number of consumers
+who think it's a bargain. Then probably the most
+important intersection point, is the intersection between
+too cheap and too expensive. That according to
+Van Westendorp, would be the optimal
+price point. That is where the number of
+consumers who think it is too cheap is equal to the number of consumers who think
+it is too expensive. That's what the
+method recommends is the optimal price point. To me, points 1 and 2
+are just as important. That gives you the range of prices you can charge
+for a new idea. It's the lowest and the highest. As I said earlier, if your product concept is
+not economically viable, even at the highest end of the price points that
+the method is suggesting, it is probably not
+worth investing in. An extension of the
+Van Westendorp method also allows you to compute the corresponding
+demand functions and the corresponding
+revenue functions. We will talk about that
+in an optional module. Now let me talk about an application to a
+Wharton students startup. These students were thinking of taking a medical
+device to the market. Without going into details
+of the medical device, they use the Van Westendorp
+method as one of the approaches to understand what price the market may
+be willing to pay for this. What you are seeing
+in this table are the four charts of prices that their
+respondents gave them. The respondents included
+nurses, doctors, and hospital administrators who actually paid for the product. From these four curves, the students were able to infer the indifference
+price point, the optimal price point, the point of marginal cheapness, and the point of
+marginal expensiveness and they use this as guidelines of taking
+their new product forward in their startup. In summary, the Van Westendorp
+method is quite useful for assessing the
+economic viability of a new product concept by
+suggesting a good price range. You do not need to
+have the product or the service ready as long as it can be well articulated
+to your respondent base. The method is empirically
+based and is logical. It is very often
+used in practice. It's used by many market
+research companies as well as well-known
+consulting firms. It is good to learn the method
+and have it as a tool in your arsenal as you make
+good pricing decisions.

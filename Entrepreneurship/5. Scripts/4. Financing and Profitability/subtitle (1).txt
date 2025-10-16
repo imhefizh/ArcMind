@@ -1,0 +1,361 @@
+In this lecture, we'll focus on the concept of Customer
+Lifetime Value, popularly referred to as CLV. We learn how to
+actually measure it using examples and
+then also look at strategic implications for pricing decisions as well as
+other business decisions. It just looked broadly. The concept of Customer
+Lifetime Value has been used extensively
+for pricing decisions. For example, how do you set a discounted
+price on a smartphone? Printer, and cartridge pricing? Initiated by Hewlett
+Packard many years ago. Device and disposable
+pricing and medical devices. We can also use it to figure out which customer group
+is more important, platinum, gold, or
+silver credit cards. Or corporate mid-market or
+retail customers in banking, it can also be used into figuring out the
+value of an acquisition, mobile phone licenses or
+a credit card company. It has many applications, pricing happens to be one area, but there are many
+other applications of customer lifetime value. Let's learn how to measure
+it and then how to use it for making better
+business decisions. We look at a very
+specific case study and this case study comes from the financial services industry. The context here is a large multi-product
+financial services company that markets mutual funds, financial and
+retirement planning. Large company dealing
+with a regular customers, not high net worth individuals. At the time these
+data were collected, the average contribution from
+a customer was about $250. But contribution here we mean
+price minus variable cost. Now 250 may look small, but most of these companies have very low margin so think of
+low margin mutual funds. Even if the customer has $50,000 with you and you're making
+0.5 percent margin. That's what you're looking
+at here, rough and ready. Each year the company lost
+20 percent of its customers. That doesn't mean the
+company was sinking. It is just that if you looked at the list of customers
+on say, January 1, 2020, and looked at the
+same list on December 31st, 2020, 20 percent of those
+customers would not be there. Some would have moved
+to other competitors, some would have moved location, maybe changed their jobs. Different reasons for
+losing customers. But 20 percent of customer
+attrition every year, but they also got new customers. Those who stayed
+with the company increased their contribution
+by five percent. Because they
+invested more money, bought different products. Their contribution
+to the company went up by five percent. The first question to ask is, what is the value of a typical customer if all
+we have is this data? What this company did, just to get a sentiment
+from the company, they asked their brokers and
+customer-facing employees, how much do you think a
+typical customer is worth. Now they've got
+different answers but the modal answer was 250. We know this answer
+is not right, but you can see why
+people were saying 250 as well as we don't know
+whether the customer is going to stay
+next year or not. We don't know whether they're
+going to buy more from us so 250 is a safe answer. Now what we'll do next is try to use whatever
+limited data we have to come up with
+a better estimate of how much is a customer worth or customer lifetime value. Let's do it in small steps so we don't make things complicated right
+from the beginning. Let's start with Case one. Let's say you have a
+customer who gives you $250 each year from
+here to eternity. Never dies, never goes away, religiously regularly
+shows up at your desk and gives
+you $250 each year. What you also know
+is for your company, the value of money goes down
+by 10 percent each year. What does that mean
+in simple terms, it means receiving $100 today is the same as
+receiving $110 next year. How much is such
+a customer worth? I ask this question, I get different answers. Some say 250, some say infinity and a wide
+range of answers. Let's work through
+this thoughtfully and carefully using some
+simple arithmetic. Going back to your high school, I'm sure you've seen
+something like this. First-year we're going to
+get $250 on the customer. It's worth all 250. Second-year again we will get 250 because this customer
+is not going away. But this money is worth
+10 percent less than it would have been worth
+had been received it the first year so it's
+250 divided by 1.1. We're going to get
+another 250 next year and that'll be 250 divided by 1.1 squared because we're getting
+it two years later. Now if you were to
+do this carefully using good arithmetic
+principles, it's a geometric series. It will add up to 250 divided
+by 0.1, which is 2,500. That's what the math
+is telling us that such a customer is worth $2,500. What is the economic
+intuition for this if we don't understand
+math very well? Well, not very complicated. Let's say you had a nephew
+or a niece and you wanted to give him or her $250 each
+year from here to eternity, and you go to your
+banker friend and say, how do I make it happen? Let's for the moment assume
+that for the banker also, they are able to give
+you 10 percent interest, which is the same as the time
+value of money you have. How much money would you have to put in your bank account, so that your nephew
+or niece gets $250 each year from here to eternity with the interest
+rate of 10 percent? Well, the answer is $2,500. You put $2,500 in your account, in a particular account, and the banker assures you 10 percent interest
+from here to eternity, which is the time
+value of money. Then your nephew or niece
+will continue to get $250 each year from
+here to eternity. Receiving $250 each
+year from here to eternity with
+the cost of money being 10 percent each
+year is equivalent to having $2500 in
+your bank account. That gives us some comfort that the mathematical
+analysis we have done is a sound analysis. Now, let's go to case two. Let's now add one more wrinkle that we know from the specific contexts
+we are looking at. We are receiving $250 each
+year from here to eternity. Not yet, because
+now we're going to assume that there is
+20 percent chance of losing the
+customer each year. Earlier we assumed the customer
+is not going to be lost. It's going to be with us
+from here to eternity. Now we are going to add
+the extra information that we know that we have a 20 percent chance of
+losing the customer. I often ask the question, if the customer is
+there with us forever, the value of the
+customer is 2,500. Now that we know we have a 20 percent chance of
+losing the customer, how much do you think
+is the customer worth? The most common answer and
+the quickest answer I get is, "Professor, it'll be 2,000." Well, it's not hard to guess how a student came
+up with 2,000. It'll be 2,500
+times 0.8 is 2,000. But let's see more
+carefully what the correct answer is and
+there'll be some surprises. Let's start laying out the
+process more carefully. First year we get 250. Next year, what are we likely to receive
+from this customer? Well, we have an
+80 percent chance that the customer is still around and 20
+percent chance that the customer is no
+longer with us. Our expected returned from this customer that year will
+be 250 times permutate. That's the expected value. Once again, we divide by 1.1. Why? Because we are
+getting it next year. What about the year after that? Well, we could lose the customer between year two and
+year three also. The expected value
+in year three will be 250 times 0.8 times 0.8. Once again, we divide by 1.1 square because we are
+getting it two years later. Now, a little more
+complex arithmetic is needed to look at what
+this will add up to. But that little complexity at the end of the day gives
+us a very simple answer. It's approximately equal to
+250 divided by two terms. The first term is 0.2, which happens to be the churn rate or the chance
+of losing the customer. The second term in the
+denominator is 0.1, which is the time
+value of money. The CLV now, given that we know we have
+a 20 percent chance of losing this customer, is 250 divided by
+0.3, which is 833. Now let's see what we
+learned from this. I think some very
+interesting things. Let's start by comparing
+833 with 2,500. What does that tell us?, What it tells us
+is very bluntly, that the cost of
+losing a customer or the churn rate has a much bigger impact on
+the value of a customer, than we would have
+thought otherwise. It goes all the way
+down from 2,500 to 833. Let's also compare 833 with
+our intuition of 2,000. Many people would have
+said the customer is worth 2000 because we have
+a 20 percent churn rate. Compare 833 with 2,000, there is also a big gap there. What it means is the value
+of more careful analysis. Intuition says 2,000, careful analysis say 833. A big difference
+between the two. Now let's go to the
+third case where we add one more piece of information that we
+have from the customer, which is each year the
+customer stays with us, the contribution increases
+by five percent. How do we account for
+this more carefully? Again, let's lay
+out the pathway. First year 250, second
+year, 250 times 0.8. But one more thing, now that we know this customer
+is going to be with us, we are likely to get
+five percent more. It'll be 250 times
+0.8 times 1.05. Once again, divided by 1.1. Why? Because we are getting
+it in the second year. Third year, it will be $250
+times 0.8 square, why? Because we may have lost the customer even
+between year 2 and 3, and then 1.05 square, why? Because by the time
+it's third year, they would have given us
+another five percent. Now again, I won't bore you with the arithmetic and
+the mathematics here. If you have a little
+bit of trust in me, I can tell you that the CLV here is approximately equal to, once again, there is a pattern. It's $250 in the
+numerator divided by 0.1 which is the
+time value of money, 0.2 which is the churn rate, and minus 0.05 which is
+the yearly increase. Now again, this is
+an approximation, exactly you can work it
+out in a spreadsheet, but the approximation is close and the answer there
+is now $1,000. Given the data we had from
+our particular example, a better measure of
+customer lifetime value, not exact, but a better
+measure is a $1,000. In summary, given the
+example we looked at, customer lifetime value or
+CLV depends on four inputs. What is the annual contribution
+from the customer, which we often call as return? What is the anticipated
+attrition rate? We call that the churn rate. What is the yearly increase
+in contribution expected, what is the growth rate of
+returns from the customer? Then the last one is discount rate or time value
+of money for your business. We put these four together, and what we get is CLV is equal to your
+annual contribution, which we often call as return, divided by churn rate. In this particular case
+it was 0.2 or 20 percent, discount rate, 0.1, which in this case
+was 10 percent, and the yearly increase, minus 0.05, which
+is five percent. Many companies often
+use a shortcut method, and they call it the quick CLV, and just use return over churn as a surrogate
+or as a simple measure. Return over churn rhymes, but it is useful in many
+settings especially when you are comparing customers within
+your own customer base. And you don't get
+the same answer, but you get a close answer. So if you hear the
+word quick CLV, most time people are
+using return over churn as a way to compute quick CLV. Let's now start looking at
+some decision applications, and let's start with
+the specific company from where we had the data. The first thing we're
+going to look at is, how does this company go about evaluating
+marketing effort? This company used many
+different means to generate leads that eventually
+resulted in new clients. For each of these methods, they had the cost
+of acquisition, so they use broker mailings.
+What does that mean? Their brokers sent out mailings and some of those
+converted to new clients. The cost of acquiring a new client through
+broker mailings was $237. The company themselves sent
+out corporate mailings, and the cost of getting a client through that method was $322. They conducted some
+sponsored seminars, $235. They also, every
+year when employees in different companies
+had an opportunity to change their plans, they conducted some
+employee programs, and the cost of acquisition
+for that method was $1,377. The average cost of acquisition across all these
+methods was $431. Now let's look at these costs and compare it against
+what this company's staff, or at least some of their
+front-facing employees in their mind, what was the value of a client before they went
+through this exercise? Well, the answer was, many
+of them said it was $250. Now if you compare $250
+with any of these methods, even the ones where the cost of acquisition is lower than $250, is very close to $250, and the average is $431. Not surprisingly, the company was somewhat hesitant
+using these methods. This is what we call as
+targeted acquisition methods. Instead, they used
+more what we call as broadcasting methods or mass
+media to get new customers. After going through
+this exercise, they became a little bit more confident of using
+these methods. When you compare
+these costs with $1,000 you feel
+more comfortable, so the attention shifted to more targeted methods and not
+ignoring them completely. Second, I think another
+interesting problem that we can look at using
+the data we have is, companies like
+this may feel that their attrition rate or
+churn rate is too high. Let's say it was 20
+percent in this case. Is it worthwhile
+spending some money to reduce the churn rate from
+20 percent to 18 percent? Let's assume that
+the customer base is five million customers. How would we go about
+answering this question? Well, not a perfect answer. But a decent approach
+is to do the following. Let's compute our original CLV, which we already
+did, was $1,000. Each customer is
+worth roughly 1,000. If we can reduce our churn rate to 18 percent from 20 percent, what will be the new CLV? The answer there is it'll be 250 divided by 0.1 plus 0.18. Remember, 0.2 is now going to become 0.18 because
+the churn rate is likely to go down and of course the increase
+remains the same, which is minus 0.05. The new CLV is 1087. What's the difference
+between the two? It's $87. If we could increase CLV in our entire
+customer base by $87, that'll be worth 435 million, which is clearly greater
+than 100 million. Now you might say, I want even a greater return
+on my investment. Four times is not enough. I need 10 times. That's
+fine. That's your call. But at least you can see
+what is the value of reducing churn rate
+in a customer base. Again, a lot of
+approximations in here, a lot of assumptions. At least better than using just simple judgment or asking your friend whether you
+should do it or not. Now let's say you
+actually went through this exercise and you
+made a proposal to your senior management
+that spending 100 million would be worth it because the
+return is higher. But let's say you
+get another question from your senior management. Yes, good analysis, but how about if we just
+spent 100 million to get new customers instead of
+improving our retention rate, which one will be better? We can do that analysis also. What was our average
+cost of acquisition? The average cost of
+acquisition was $431. With 100 million, we will get about 230,000 new customers. How much is each customer worth? $1,000. The return is 232,000 new customers times
+$1,000 is 232 million. That's also very nice, but it's lower than the return
+from customer retention. The method allows
+you to compare, at least conceptually,
+whether you should spend money on
+acquisition versus retention. Now the answer will change depending on the
+specific circumstances. In this particular case,
+retention seems better. That doesn't mean acquisition
+is not paying off. You might say, well, maybe if we have $100 million, we'll focus more
+on retention than on acquisition and it's
+not one or the other. All we're doing
+is trying to make these decisions more
+scientific, more thoughtful. Let's look at
+another application but not using the
+data we worked on. Think of a major
+cellular carrier in a developing country that is possibly thinking
+of an IPO or a potential buyout
+and wants to sell a small part of its
+business to someone else. There are two types of customers in the cellular business. One is what we call as prepaid customers and
+other is postpaid. In the US, we mostly
+have postpaid customers. Most of them pay their bills, but in developing countries, a large part of the
+customer base is prepaid. They pay the money in advance, put it on their card
+or in their phone, and then they use it and
+when the money ends, they have to put more money, so they are paying in advance. That's why we call them prepaid. In this particular context, 90 percent of the customer
+base was prepaid, only 10 percent was postpaid. The question in front of
+this company that one of their senior
+staff proposed is, would we be worth more
+if we could convert 10 percent of our prepaid customers
+to postpaid customers? Let's see how you may
+go about analyzing this particular question using the data that this company had. The average revenue per user for a prepared customer was $35. The churn rate for a
+prepaid customer was 5.4 percent and the contribution
+margin was 80 percent. For a postpaid customer, the average revenue was
+a little bit higher, 50 percent higher
+actually from 35 to 53. Churn rate was 1.7 percent and the contribution
+margin again, 80 percent. Now if you just look at
+annual contribution, annual contribution
+from prepaid is 80 percent of $35, which is $28. The annual contribution
+from postpaid is 80 percent of
+$53, which is $42.4. Clearly post-paid gives you a higher contribution,
+50 percent higher. Now, let's do a quick CLV. Remember quick CLV is
+just return over churn. Now if you do return over
+churn for a pre-paid customer, you get $28 divided by 5.4
+percent, which is $519. If you look at the quick CLV of a post-paid customer,
+you have $42.40, which is the contribution
+in the numerator divided by the 1.7
+percent churn rate, which is nearly $2,500. If you look at annual
+contribution, yes, post-paid is better than
+pre-pared by 50 percent. But when you look
+at the quick CLV, it is nearly a five
+times difference. If you were to translate
+this into valuation, the valuation at 90:10 pre-paid, let's say with 1
+million customers, would be $716 million. But at an 80:20 ratio with
+same 1 million customers, your valuation will
+increase to $914 million, which is nearly
+$200 million board. I think the point that
+is being made here is that when you look at the world through this CLV lens, you may get qualitatively
+different answers or different recommendations. Then if you were to look at the world through just
+the contribution lens, and I think that's an
+important insight. Here's one more example. Here's a company that
+offered credit cards. They had customers who
+had platinum cards. These are probably the
+wealthier customers. Some customers had gold card, and some customers just
+had the regular card. The fees were different. Platinum card, $300
+a year, gold card, $100 a year, and then
+regular card, nothing. Interest on balance
+for the first two, platinum and gold was zero. These people paid
+their balances, but the interest on balance every year from the
+regular card was a $100. These things also had
+different churn rates. The churn rate for
+regular card was much lower because they
+have no choice, so they are with you. Platinum cards can
+shift from one card to another because
+everyone's going after them, their churn rate was high. Let's look at two different
+points of view here. If you just look
+at the annual fee plus the interest that
+you earn every year, platinum looks the best. Why? It's $300. Gold is $100, and regular is also $100. So platinum looks the best. But once you look at CLV
+or quick CLV in this case, the regular card
+starts to look better. Once again, you are getting a different picture about your customer base
+when you look at the world through the eyes of simple yearly
+contribution versus the lifetime value
+of a customer. Another useful application of CLV when it comes to
+your customer base, is putting your customer
+base in a two-by-two chart. Most of the time when we
+look at our customers, and say who's better, who's not as good, we ask the question, how much is the customer
+willing to pay for our product? What is their willingness
+to pay for our product? In some cases we
+might call it EVC. Is it high or is it low? Those who want to pay more for our product, are
+better customers. Those who want to pay less
+for our product, not as good. How about combining that with
+the value of a customer? CLV. If you combine that, you get four possible options. Clearly the customers
+who we value very little and value our product very little will fall
+in the low group. That's a no brainer, we don't want them, they don't want us. The high here is also
+straightforward, customers love us, we love them, obvious
+we want them. How about the trade-off
+between customers who love us, but they are low CLV customers versus customers
+who are high CLV, but they don't
+like us that much? That poses an interesting
+trade-off that we must make. Do we want customers
+that love us, but maybe are difficult
+to deal with, or do we want customers that are highly
+valuable if we have them, but they don't value us as much? I think what it does is, it gives you a more finer
+picture of your customer base. In summary, the concept of
+customer lifetime value, or CLV, has transformed and disrupted how we do business
+in many industries. It has disrupted our
+pricing practices, it has made impact on
+decisions like acquisitions, it has made decisions
+on segmentation. I urge you to think about
+this concept carefully. It will disrupt your industry if it hasn't done so already. Embrace it now so that
+you are at an advantage.

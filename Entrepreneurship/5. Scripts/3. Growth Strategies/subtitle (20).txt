@@ -1,0 +1,172 @@
+>> Hi everyone. This is a lecture on make buy decisions. And the phenomenon we're talking about
+here, is one in which as in the growth stage of the company you're as the
+entrepreneur trying to decide whether you should really access supply
+from the open marketplace through a contractual relationship, or
+whether you should be making it yourself. And just to illustrate the phenomenon and
+selected a Wharton back startup, the name of the company is called Harry's, and
+it's a company that is selling razors and this is a company that we started by
+Wharton MBA students in the year 2013, they do a almost surprising move. They buy a 93 year old German
+razor blade manufacturing factory. In the year 2014,
+they spend a 100 million dollars doing so. This is perhaps not what you would
+have expected for a brand new startup. Instead, what you might have expected
+is that a company that's entering into the space would instead
+be acquiring razors from the open marketplace and
+labeling it with their own name on it. And so, the big question becomes, why did
+Harry's decide to backward integrate and essentially buy the manufacturing factory? We can offer a couple of different
+explanations for this phenomenon, but we're going to be covering that
+in this particular lecture. Let me take one step back and talk about
+some of the underlying dynamics or economics associated with buying for
+others. That is not doing it yourself like what
+Harry's is doing, but rather through a contractual relationship, essentially
+acquiring the goods from a third party. So, there are a couple
+benefits from doing this. So, the first one is that you can
+avoid duplicate of investment. There's no reason to reinvent the wheel. If there's a competitive
+supply of a good out there. In the case of Harry's because of the
+dorth of very high precision razor blade manufacturers in the open market, they
+felt like there was no competitive supply, external supply of very high quality,
+high precision razor blade. The second reason for
+accessing goods from the open marketplace would be this division of
+labor according to comparative advantage. So a lot of times, entrepreneurial companies are particularly
+good at one activity in a value chain. And that activity is usually something
+upstream in the innovation process. They are very good at discovering drugs,
+but they are not very good at
+delivering those drugs. For example, to the final costumers. And moreover, you could think about
+the specialization in the economy in that you could achieve economies of scale
+in production if you do a lot of that and that's particularly
+true in the downstream. So think about the pharmaceutical
+company that is making many of the drugs or the company that's
+able to achieve economies of scale, as a result of making many of the good. They're able to utilize their
+manufacturing facilities at higher utilization rates. There's less downtime. There are many other reasons to believe
+that there's could be economies of scale associated with specialization. A third reason why there could be some
+benefits for the entrepreneurial company in accessing a good from a supplier
+is that rather than paying for effort you actually pay for the good. So, if you owned something
+like Harry's in the case of manufacturing plant, whether or not
+that manufacturing plant is making good or bad razor blades,
+you're paying for that effort. Whereas if you have
+a contractual relationship in terms of only buying razor blades
+that meet some quality specification, you're only paying for the goods that
+are delivered to your specification. This is particularly important when the
+production process itself is uncertain. You may want to then really just pay for
+the final good and the results rather than paying for
+the effort. Now, there must be some reasons why we
+don't always see partnering, and so, it's important to think about
+the transaction costs associated with buying that is what if Harry's wants
+to buy the manufacturing plant. What are the frictions of doing so, what
+are the transactions cost of doing so. So, there are a number of factors
+that raise transaction cost. So, let me cover three of them. The specificity of the investment
+required to conduct the transaction. What this means is that if an asset is
+specific, then it subject to hold up. And so, think about a situation in
+which you are a computer programmer and you go to a potential employer,
+that employer asks you to learn a specialized programming language,
+that programming language is only good for that employer and not good for
+the general opened market. That investment in that programming
+language is now said to be a specific investment and
+that software company is asking you to do. And the problem here is that,
+that employer could hold you up. That is, they could renegotiate
+the terms of a contract in you as the software programmer whose
+learn the specific programming language are subject to hold up because that
+asset that you invested in is no longer good in the open market place,
+it's no longer redeployable as an asset. So, you've now as the programmer invested
+in a very specific asset that has no use elsewhere that raises, that type
+of situation raises transaction costs. A second factor that can raise transaction
+costs is the complexity of a transaction, and the degree to which it's uncertain. So let me explain this one by giving you
+an example of very simple transaction. If we've made a contract that
+said that tomorrow by 5 PM, you're getting a deliver
+to me one bushel of corn. That is a very simple transaction
+because everyone could inspect. Did you or did you not deliver to me
+one bushel of corn by 5 PM tomorrow? By contrast, a very complex
+transaction would be one in which, we're making a contract in which you,
+as a research scientist, agrees to try to, try as hard as you can in discovering a new molecule that could
+be the basis of a breakthrough drug. That is a very complex transaction because
+I'm not sure what the intermediate markers are that would lead to me to conclude
+whether you're trying hard and not succeeding or you're completely
+sloughing off or shirking in your responsibilities and you get the same
+result, you're not successful. And so, a complex transaction
+is one that's marked by many intermediate complexities
+in terms of ambiguity. Whether you actually delivered the good or
+delivered the effort or not. And that's related to the third
+factor that I've listed here. As raising transaction costs. That is,
+the difficulty of measuring performance. The simple transaction
+cost would be very easy in terms of understanding the performance. Did you deliver the one bushel? Everyone could observe that. The more difficult one
+is measuring effort. How do I know that you been trying hard,
+do I inspect your laboratory notebooks? Do I have someone checking in on you
+to make sure that you're designing experiments appropriately? All those things can get in to
+this issue of the difficulty of measuring performance. Now on the other side of defense
+factors that lower transaction costs, there's two that I've listed here. The frequency, the duration and
+the connectedness of the transactions can themselves lower transaction
+cost to the extent that we're contracting very frequently and we're
+very connected in our social structure. Let me illustrate this
+with another example. Suppose that we have a relationship. I always come to you for
+my morning coffee. You're always charging me $1 for
+that coffee. If one morning you see me very tired,
+I come in, and you say, actually today's coffee
+is going to cost ten dollars. Well, you have to weigh this relationship,
+because after all it's likely that they're not going to come back to you for
+the coffee if you try to expropriate me or take advantage of me this one time because
+you saw that I was very very tired. And so you have to wait is it
+better to charge the $10 today and risk not having me as
+a customer forever more? Or would you rather have that $1 steady
+revenue stream into the forseeable future? And to the extent that we are dealing
+with each other very frequently. That reputation mechanism could
+really enforce this discipline, and also the connectedness
+in the social structure. If I'm Facebook friends with nobody and you charge me the $10, you're not
+concerned about your reputation, because even if I publicize it on my Facebook
+feed, no one's going to really care. Whereas, if I'm connected to a lot
+of people, then the fact that you have taken advantage of me, that's all
+of a sudden knowable by many, many people. And as a result,
+this connection in social structure can enforce your behavior versus not. Now, these concepts that we've talked
+about, that is this specific assets, the reputation mechanisms, these are
+incredibly important economic concepts. And, there have been, in particular,
+two nobel prizes in economics that have been awarded to economists for
+precisely these concepts. And so in 1991,
+a professor at the University of Chicago, Ronald Coase,
+really was awarded this Nobel prize for clarifying this notion
+of transaction costs and how that can impact the organization of
+economic transactions in the economy. These same concepts were clarified and
+extended and were the subject of another Nobel Prize
+in economics in 2009 is equally divided between two social scientists one
+Elinor Ostrom from Indiana University in Bloomington was awarded for
+her notion of economic governance and another to University of California
+Berkeley economist Oliver Williamson for his analysis of economic governance and how transaction cost can help
+shape boundaries of the firm. And so these concepts of the relationship
+between transaction cost and the potential for
+cooperation versus forward integration by a firm have been recognized
+as incredibly important economic concepts. Now, in terms of the benefits of making
+that would be the alternative of buying. So this would be the phenomenon
+like what Harry has done which is backward integrating and
+forward integrating. So, what are the benefits of doing this? So, one would be the avoiding
+the transaction cost, all those headaches of having to worry about contracting
+with others or now all of suddened gone. Because you are doing it all of yourself. And so, these notions of control
+through your organizational fiat, or being able to exercise your
+managerial discretion, in terms of doing things,
+is in your control when you control those things,
+you also benefit from learning curves. You're doing it yourself, and
+you know what not to do in the future, you know what to do in order to drive
+out costs, realize the benefits. And, moreover,
+you're not as reliant on outsiders. And this is particularly important
+if you require specific investment, but investments by outsiders or
+a supplier. All right.
+And so, one example of this is if you're large enough, if you're Apple, yes,
+suppliers are going to be willing to make specific investments of
+the type that we discussed before. That is, being subject to hold up. But if you're not large enough,
+then you're going to be subject to this possibility of hold up, and
+suppliers may not be willing to really make investments that
+are specific to your specifications. If you're not large enough which
+is logically can be the case, when you're an entrepreneurial
+type of company. And so for these reasons of
+avoiding transaction costs and taking control, these could lead to
+the outcome that we observed at heroes, which is even there would be very
+expensive to spend $100 million. To acquire a manufacturing plant, maybe to
+avoid all those contractual relationships, maybe this is quite important to do
+in order to retain the control and to really not be subject to
+challenges of contracting with others in terms of the organization
+of your activity. And so
+let me summarize the make buy decisions. So, when it's very important to avoid the transaction costs of
+the type that we discussed before. You may be more incentivized
+to make it yourself. When those transaction
+costs are relatively low, in the sense of it's not that
+difficult to contract with others, you might want to make use of the
+marketplace to source all of your inputs. And so
+we've now covered some of the fundamental decisions associated
+with this make by type of decision from the advantage point
+of the entrepreneurial company.

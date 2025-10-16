@@ -1,0 +1,180 @@
+Welcome to our conversation
+about business models. Business models are
+a complex topic. They've been defined
+many different ways, in many different situations, and you might hear the term used in a lot of different contexts. Here, I want to talk
+about business model as your framework
+for making money. It's the set of activities which a firm performs,
+how it performs them, and went it performs
+them to offer customer benefits they
+want and to earn a profit. So ultimately,
+this business model, this framework for
+making money can be used for many different things but two of them are
+particularly useful. One is a way of providing a narrative for your
+business and the other is a strategic
+checklist and I want to go through both
+of those examples. So let's talk first about
+business models as a narrative. So a business model
+as a narrative is that whether your story of
+your business makes sense. So you are ideally combining
+some set of numbers with your narrative about why
+your business is a succeed. It's not a strategy, it's an overall story
+about your company. So let me tell you this, these stories of two different
+early Internet startups in the groceries industry. So one was WebVan. WebVan had a very sane narrative that
+made a lot of sense. They were going to do
+last second grocery delivery, last minute grocery
+delivery, just like Peapod does today. The problem is they couldn't
+get the numbers to work out. It was too expensive
+during that point, the logistics of the Internet
+weren't built out enough. They ended up losing $830 million trying to build that business. On the other hand,
+you had Priceline, the company is famous for pay
+your own airline tickets, started a grocery company. We would actually bid
+for groceries and you'd spend your time
+putting in how much you wanted to pay
+for peanut butter, how much we wanted to pay for milk and you didn't know
+what brand you're going to get. You just show up at
+the store and there would be a basket of groceries waiting for you of the lowest bidder
+providing those groceries. Now this never made sense from a narrative perspective
+because unlike the airline industry which they're happy to bid
+for your dollars, the grocery business is much more competitive and the brands like Jiffy or Skip peanut butter, aren't willing to bid
+for your attention. They want the brands that sell their own concepts
+and sell their own ideas. They spent millions of dollars
+establishing these brands. So from a narrative perspective, this web house grocery
+business never made sense. It never made sense
+from numbers business do ended up losing hundreds
+of million dollars as well. So both these are examples of business models didn't work. But in one case, the story at least made sense and
+the other didn't. So this fits into
+other industries as well. So imagine low-cost airlines. Both Ryan Air and Southwest are low-cost airline providers but Ryan Air are notoriously has terrible customer service and as a no-frills airline while Southwest tries to make people flying in their
+business feel really good. So in one case, you
+feel more nickel and dime and the other case
+you feel good both to make profits but they have different stories
+about how they're trying to do this and that pervades every aspect
+of their business. So let's take
+another example about how these differences in business
+models can have big impact. Telematics is the idea of providing cars with
+information so that they can connect to
+the Internet and give advice and connect to customer
+service automatically. So one of the first who
+did this was OnStar. OnStar was founded by GM and EDS and Hughes Electronics in 1995 and it's a two-way
+vehicle communication service that would let you get help
+if you were in a crash, get guidance before
+the days of GPS and so on. So there are two potential ways to make money in this approach. In one approach, I could sell the OnStar system as
+a add on to the car. So you pay a lot of money
+in order to do that. The other is I could
+offer as a server so it's pretty much free
+for the car but you're paying $12 a month or something like that and we're
+going to have OnStar. So, here's two examples
+of cumulative of cash flow over time. If you're below the x-axis that means you've lost
+money and then over time, you make that money back
+up as time goes on. So I'll give you a
+second to pause. Which of these is the sell
+it as a service option and which of these is the sell
+it as a car ad on option? So the service has the red line which means
+that you're going to require a lot more investment up front because we're going to subsidize the cost of putting
+these radios into cars. But in the long run,
+we make more money from their prairie revenues
+while selling us a car feature means
+that we make money back faster but we never make as much as we are
+doing a service. So the same products
+sold two different ways, shows you the advantage of thinking about
+business models. So that's business as a story. Business also as a checklist. They work as a way of
+having you think about how your business is going
+to come together and how your strategy is going
+to make money or not. So it basically ask
+four interrelated questions. What's your value
+proposition your customers? How are going to build
+your product or service to deliver this value? How are you going to bring a product or service to market? How are you going to make
+money from this product? You're not going to talk
+about all these issues explicitly when you give pitches
+or give a business plan, but they're all have to be in
+the back of your business. There's lots of ways of
+coming up with a checklist, the most common today is something called the
+Business Model Canvas. There's nothing magical about the business model
+canvas but there's a whole bunch of books and online resources teach you how to do it. This is an example on the screen. You can feel free to go
+look that information up or buy Alex Osterwalder's book
+on the subject, but you should know there's
+nothing magic about business model canvases versus the many other ways
+of business ideas. It's just a way of thinking about your business and making
+sure you can check off all the interrelated concepts that tie your business together. So ultimately,
+business models come together in a bunch of
+different approaches. So one example is
+an architecture business model. So these are businesses ideas
+built around a platform and your idea is to
+build a value-chain and bring multiple
+parties together. So eBay is a canonical
+architecture business. A market intermediary
+will stand in between a whole bunch of
+different people and you make money off of
+every transaction. Uber is another
+market intermediary. So they connect drivers to
+paying passengers and they make money in between as these people connect
+to each other. So they don't actually
+own anything. They're marketing intermediary. You can also have
+technology platforms that work like marketing
+intermediaries. So the iOS platform for my iPhone or
+your Android platform are technology platforms. So others build
+products on top of them and I make money as people
+use this product or service. So that's an architecture
+business model and that has all those elements we talked
+about come together here. Another example would
+be a disruptive model. A disruptive model is
+the idea of trying to do something that uses
+the opponent size against them. So you have some idea about
+why incumbents can't win, you dis-intermediatee
+them in some way. So you can think about Harry's
+razor blades or Netflix or Salesforce.com which was
+the first software as a service system and
+basically it was launched by doing the opposite of
+everything Oracle could do. So it was founded by an ex Oracle person and he
+thought about how I can take this high-cost service
+at Oracle offers and offer it at a low cost
+is software as a service. My favorite example
+of a disruptive model actually came out of Wharton
+which is Warby Parker. Warby Parker makes
+custom sunglasses and eyeglasses that are delivered at much lower cost and they
+went after Luxottica. Luxottica owns 85 percent
+of the glasses market and because they own
+this big market they have a huge amount of people
+in their value chain. They have to pay to make
+the market work so they charge very high prices and they end up paying retailers
+to sell the product. They pay people to optometrist,to
+sell prescriptions. They do lots of marketing. What Warby Parker
+realized they could do is instead of paying all of
+these people on the market, they could disintermediate
+them and charge a much lower price thus
+giving a lot of the value back to the end customer
+and be able to make a lot of profit themselves and
+sell it direct to consumer. So that's an example
+of a disruptive model. You could also have
+value chain models. Value chain models basically enjoin existing value chains
+and do it better. So you can think
+about how you control the resources to stay
+in this business. So one example of
+value chain models, Peapod doing the last second customer delivery of groceries. What does Peapod
+doing? There joining an existing value chain
+of grocery stores and suppliers and
+customers and they're just handling one piece of it
+that other people didn't do. Another examples Foxconn,
+famously in the manufacturer of the Apple iPhone. They're not designing
+the iPhones, they're not creating them. What they're doing is
+manufacturing them. So they've picked a piece of
+the value chain and they do better than anyone else at doing that manufacturing piece. There are many other
+business models out there. You can do translation models, create for something
+that works in one region and take
+it to another. So another startup that
+came out of my class was diapers.com.Brazil which took the diapers.com model from
+the US and moved to Brazil. Or you can think about translate things from one
+industry to another. So how can I be the Uber of musical instruments
+or something similar? There's efficiency models. I can outcompete
+other people because I'm better at margins. There's razor and blade models
+where I give away the razor but sell the plates or the reverse razor-blade model where I basically use
+the availability of something like Apple Music
+to sell more Apple products. There's freemium models. All kinds of other
+approaches that you could take to launching
+business models. So there's lots of
+complexity here. Lots of ways to think
+about your business. Business models are the story about how your business works. There's no single approach and you can use it
+either to build your narrative or as a checklist or ideally
+you're going to do both. So think about all the elements
+of your business, how they fit together
+and how that films a compelling narrative that you can use to launch your business to convince
+other people to get on board.

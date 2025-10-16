@@ -1,0 +1,190 @@
+Hello, today we're going to
+talk about founding teams and specifically, why it's so important to get
+your founding team right at the beginning. And founding teams are actually absolutely
+critical to the running of your business. They are a number one cause
+why businesses collapse. They are the number one cause
+why businesses succeed. And I want to talk to you today about
+some of the factors that are so important in making founding teams work. Just to show you why this is important, let's consider the most successful
+founding team in history. Which might as well be Steve Jobs and
+Steve Wozniak, the founders of Apple. And so Woz and Jobs, as they liked to
+be known, were both working together out of a garage in Silicon Valley. And one of the first products they worked
+on together that helped get them some of the money they needed to develop Apple and
+built their business relationship was building a version of the game you
+see in front of you, which is Breakout. So, you had to bounce
+a little ball back and forth. This was a exciting game at the time, believe me, and what happened was
+that Steve Jobs got a contract. He was a sales guy, unsurprisingly, and got a contract to develop
+a version Breakout. And Steve Wozniak created a very
+elegant programming solution. And Steve Jobs told him that they would
+split the proceeds from this game 50-50. Ten years later, on an airplane ride,
+Steve Wozniak finds out that Steve Jobs actually lied to him
+when doing this initial contract. Instead of just a few hundred dollars they
+split, Steve Jobs had made thousands and only given Steve Wozniak a small amount. Even though this was just a matter
+of hundreds of dollars, and they've both made millions since,
+working together at Apple. This was bad enough that it left Steve
+Wozniak in tears and actually had him questioning the whole basis of their
+business venture together as Wozniak had a bunch of other tensions with Steve Jobs
+and felt that this dishonesty was a real betrayal and actually helped lead to
+Steve Wozniak actually leaving Apple. So some of the most successful planning
+teams in history can be broken up over issues as little as a few hundred dollars
+and betrayals that happened ten years ago. You can imagine how common this is for
+other startups. It's so common that in our surveys
+from multiple kinds of sources, 65% of the reason why venture backed
+companies fail have to do with senior founding team issues. Only 35% is everything else we
+teach you in these classes, product development issues,
+functional development, marketing, the management of the day-to-day
+operations of the company. So 65% is due to senior management issues. So it's worth spending a little bit of
+time thinking about how do we address this concern, how do we go ahead and reduce
+the chance of your startup falling apart. Because it's not just that the 65%
+is a cause of company failure, but when companies fail because
+of senior management issues, those are the kind of concerns
+that make you miserable. So, if you make a good shot at producing
+product who doesn't succeed, that's fine. If you end up fighting every day
+you come in with your co-founder, that's going to make you very unhappy
+the entire time you run your startup. So, in studying founding teams,
+Noam Wasserman has come up with this really nice model
+called the three R's of founding teams. That's relationships, roles, and rewards. And your goal is to balance relationships,
+roles, and rewards. So, what are relationships? That's who the person you're working
+with is and how they relate to you. So are they your friend? Are they your coworker? Are they strangers that
+you're working with? And understanding what drives them and why you are working together
+to build this organization. Roles is all about the division
+of labor in the company. So in Apple's case,
+Steve Wozniack was the programmer. Steve Jobs was the sales guy. In your organization it may be
+different divisions of labor. But it helps to understand
+what skills people have and how they're going to develop
+the company moving forward. Also you need to know inside
+the organization who makes what decisions. So are people going to have decision
+rights over the entire organization or are they are only going to be able
+to decide technical matters or do things have to be decided by vote or
+consensus? All of those are critical role issues. The final thing you need
+to balance is rewards. This is how you're going to
+benefit from the company. Is it going to be equity slices? Is it going to be about compensation? Why are people doing this and
+how are they rewarded? So you have to balance all three of these
+issues to have a successful founding team. In balancing relationships, the first thing to realize is,
+most companies have co-founders. So 84% of the founder in
+high gross startup companies are founded with co-founders, not alone. When I talk to solo founders of companies,
+even those who are very successful, they often wish they had a co-founder to
+have someone who can split work with them, who can help sympathize with them
+during the more emotionally difficult parts of running a startup who have
+someone they can rely on if they need to go on vacation or kid gets sick or
+something similar. So cofounders can be very helpful. Of those that have cofounders,
+50% of the cofounders are friends and family relationships. And 24% are former coworkers. The rest are other relationships or
+strangers. And what you need to think about when
+you decide who you're founding with, what these relationships are, is that different kinds of relationships
+have different pluses and minuses. So if you start a company with friends and family, you have the nice advantage
+of knowing these people already. That creates a high level of trust. High levels of warmth, and
+a lot of mutual support. So that can be very helpful. You don't necessarily have to
+worry about betrayal as much. You already have a relationship and
+somewhere to build on. But there's some negatives to friends and
+families as well. First of all, there's a higher
+rate of failure in friend and family foundings, and
+that's not always because friends and families are worse at running startups,
+but it means that if there ends up being a tension between maintaining the startup
+and maintaining the friendship or the family relationship,
+usually people choose the friendship or family relationship, and that means
+that the startup is often sacrificed. So if you're told by
+the board that it's time for you to fire your brother who is your
+cofounder, are you willing to do that? So that becomes a very
+tense kind of issue. And it can undermine friend and
+family relationships. And also can be difficult because
+you may not have open discussions about what you want to accomplish, because it's weird to have those kinds of
+discussions with friends or with family. So talking to them about
+their value system and how they relate to yours can be
+a very challenging thing to do. So those are some reasons why friends and
+family can be challenging. Another more settled
+problem with friends and family found in companies is homogenity. So, innovation and the ability to stop
+problems comes with having lots of different perspectives
+brought together one place so the people could examine a problem
+from multiple kinds of angles. If you work with your friends and family, those people are more likely to be like
+you and as a result, you're not going to have a lot of diversity inside your
+organization among your founding team. So if you encounter a problem, it's
+likely you and your friends, or you and your family will try to
+solve it in similar ways. And that can actually lower the level
+of innovation inside a startup, something that we'll return to on
+the next talk on founding teams. What about founding with strangers? Well obviously one of the issues
+of founding with strangers is that you don't know these people so there's a lot less trust, there is
+a lot less sort of emotional support. You may not even like these people long
+term, and there isn't a lot of evidence that necessarily you need to be friends
+that you found a company with in order for it to be kind of successful in that way. You could also have some advantages,
+though, in working with strangers. One advantage is that you can actually
+work to find the people who will help round out your team. So, if you're a technical person,
+you may find a business person and that person may not be like you. They may not be from your
+circle of technical friends. They may not be from your family, but
+they can be a powerful part of the team, because they can help you complete the set
+of roles that you bring to the picture. So there isn't necessarily a right answer
+to whether you want found with friends and family or found with strangers, but each
+has their advantage and disadvantage and, either way,
+you need to be clear-eyed going into this that there's going to be
+tension on you ether way. Founding a company is a stressful
+experience for most people so you have to decide whether you want to rely on friends
+and family to help mitigate that stress, but whether you're willing to deal with
+the tensions that may result from this. So that's relationships. A second part of the three Rs is roles,
+and roles, you need to make sure that you think through the kind
+of roles you have inside the organization. One thing to recognize is you're going
+to need to have certain goals that people outside the organization
+will understand. Roles like CEO, so when you
+interact with other organizations, people are going to
+expect you to have a CEO. It's very hard to get through
+your organization not assigning that role because you don't want to
+make somebody too much in charge. So figure out who's going to be CEO. Make sure that you have that for
+external purposes, even if decision making
+is shared internally. You also need to think about
+having a clear division of labor. It's a real danger to start out
+with a substantial overlap between different people in the organization. So making sure people have clear roles and
+responsibilities is important. At the same time,
+when you start your sort up, you have no idea about how
+things are going to revolve. And so you need to be able
+to rebalance the roles. It may turn out for example that you think there's going to be
+substantial intellectual property angle. So you have a legal person as one of
+the critical roles of your organization. But you later decide to file no patents. And this legal person's role
+is no longer that important. You need to rebalance the organization
+to make sure that all the founding team has the appropriate roles for
+the effort they're putting in. Outside of the actual roles of
+the tasks of what people do every day, you need to think about decisions. How are people making decisions
+inside your organization? Is it going to be by some
+sort of voting mechanism? Is it going to be by consensus? But you need to have a clear decision
+structure and think about what happens if the team starts to break apart, how you're
+going to make decisions in this case. One way to do this what
+we call unequal equality. Everyone is technically has equal
+positions inside the organization but you assign decision rights to
+some individual in some case. So, if it's a technical problem,
+the final decision is made by CTO. If it is a problem of operations,
+the final decision's made by the COO. The CEO gets to override decisions if
+it involves outside organizations. We'll talk more about this in a future
+talk, but thinking about how you balance both roles in terms of who does
+what in the organization and then how you make decisions
+is absolutely critical. The final of the three R's is rewards. And rewards is how you get compensated for
+this. Especially with friends and family,
+talking about money can be awkward, and you may be tempted to push off these
+sorts of conversations until later in the process, but that's a mistake. You need to be able to talk about money. If you can't talk comfortably about
+money you probably should be founding an organization with this person. So you need to be thinking about money
+early on, but at the same time you need to realize that whatever you're setting up
+for today is going to matter much more in the future, because you're going to
+work together hopefully for a long time, and during that time roles
+and positions and time will evolve. So you need to leave flexibility for
+the future. You need to create incentives for
+people to work. One kind of incentive is vesting, which is something again we'll talk about
+in a little more detail in a future talk. But how you divide up equity among
+your founding team members and then how you vest that equity
+over time is critical. And then remember that everyone's
+goal is not necessarily money. So people start organizations to
+get rich but they also start them because they want to be independent,
+because they want to have power, because they want to get famous,
+because they want to change the world. So thinking about what the underlying
+goals are and having an honest conversation about the goals and
+underlying values of your cofounders will help tailor the rewards so they matter to
+them and make sure that you avoid conflict later on when you have a discovery
+like the one that the wasn't reacted. That he was betrayed early on that
+can undermine everything that you do. So to give a how you have
+this open honest conversation throughout the expand organization
+will increase your chance of survival. Increase you chance of success. So when you think about your
+founding team, make sure you're thinking about the three Rs and explicitly
+having a conversation about them. What are the relationships between you and
+the fellow members of your founding team? What roles are you occupying? What positions are people doing? What tasks will they do every day? And how will you decide things
+inside the organization? And finally, how you're being rewarded. What combination of money, equity and other kinds of rewards
+are coming into play? And how do you balance those out so
+everybody is as happy as possible? And not matter what,
+build trust as you do this. This is the beginning of a set of
+conversations you need to have over and over again in your startup to keep
+your founding team balanced and happy and avoid being one of
+the 65% of companies that fail because of senior
+management team issues.

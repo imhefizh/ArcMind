@@ -1,0 +1,209 @@
+Hi everyone, David Hsu here. The session is on venture capital and
+the financing of innovation. One big motivation for
+this session is that many startups, particularly the more successful ones,
+end up receiving venture capitol. Think about companies like Google,
+Facebook, etc, etc. And so, the goal of this session
+is to give you an overview of one reason why we might think about having
+a specialized institution for financing start ups and some information about why
+we have the venture capital industry. Now before I get into the details, I think
+it is important to take one step back. And recognize that venture capitol
+is only one form of financing that you may be able to choose from. So if you think about the alternatives
+to receiving venture capitol financing, you might think about things like
+having a commercial bank loan regular debt type financing. You might think about sourcing or
+tapping into wealthy individuals. So think about Google millionaires and receiving financing from such individuals. Those are known as angel investors. You might think about crowdfunding, so if
+you have more of a product orientation and are able to leverage into a platform, crowd based financing might
+be an option for you. Government grants are another source. So, here, there's a small business
+innovative research grants from the US Federal Government. Or governments around the world will be
+interested in subsidizing research and development. Those have their own particular rules. And then, of course, there's the old
+stand by entrepreneurial bootstrapping. So getting hustling,
+getting revenue from ongoing sales to financing ongoing operations and the like. So that's the background and there will
+be other sessions that will cover some or all of those alternatives. The goal of today is to really talk about
+this institution of venture capital. And just to give two very
+specific examples on the table to really motivate this session. Here two companies which
+received venture capital. So, the first Apple and
+the second, Genetech. What I'm showing you here
+is the rounds of financing that each of these companies
+received over time. Take a look at Apple. First few rounds of financing were
+from the founders themselves. And you can see that in the next to last
+column, they're paying between one and nine cents per share. And as the venture capitalists come in
+more uncertainty is being resolved, the company is being developed,
+they're developing their products, they're really scaling the company, and the venture capitalists come in at
+successfully higher prices per share. And then the company ultimately conducts
+an initial public offering in December of 1980, valuing the company,
+as a whole, at $1.4 billion. And of course, investors at that
+round have to pay $22 a share. And so this is the natural progression
+of a successful venture that there's uncertainties being resolved, the business
+is being developed, investors that come in late have to pay higher dollar per share. And Genentech exhibits
+the exact same sequence. And what's interesting to note
+about these two companies, is that these are the companies
+that worked well. The point about venture capital financing
+is to try to design a set of mechanisms. So that you can guard against
+the downside while giving incentives for both the investors and the entrepreneurs
+to succeed on the upside. And so let me take one step back and conceptualize this in
+a broader type of framing. The framing that I have here is one
+in which there are two parties, the entrepreneur and the investor. And the big problem here is what's
+known as asymmetric information. So the entrepreneur likely
+has much better information about the likelihood of success
+relative to the investor. And so think about two periods of time,
+before an investment is made and after. So let's focus on the first period
+in which the venture capitalist and the entrepreneur meet. There is negotiation, there is a process
+of due diligence, in which the investor is trying to find out about the quality
+of the entrepreneurial company and in fact the entrepreneur has very
+little incentive to disclose all the problems that might be associated
+with an opportunity to the investor. And so we can think about that
+problem as one of hidden information. And the analogy I would like to
+make is the used car market. If you are the entrepreneur trying to sell
+a used car to an outside marketplace, say the investor, you're not going to
+be incentivized to tell the buyer, the investor, about all the problems
+that you have as a used car. It runs fine unless it's raining or unless
+it's colder than 230 degrees fahrenheit. All those things should be discovered
+by the investor or potential buyer, and so this asymmetry in information
+can breakdown the market for funding start-ups. And that's one problem
+that we have to confront. A second problem arises after
+a contract has been signed. And the problem is quoted definitely
+different, here the problem is that the investor cannot perfectly monitor what
+the entrepreneurs doing with the money and the problem is one of hidden action, and
+here the analogy is the insurance market, say that you have you car insured,
+you may not be? Incentivized to always lock your car, always take the best care to
+make sure that no damage arises. Because after all, you're only
+going to be out your deductible, and that's not 100% of the losses. And so as a consequence with this
+type of insurance type situation, the investor has to be quite careful,
+because the investor's not a member or party to the company on a day to day
+basis, not making the micro-decisions. And so as a consequence it's very common
+for the venture capitalist to come on the board of the company and
+to disperse funds in rounds of financing. So, in other words,
+if as the entrepreneur, you need $100 million to successfully
+roll out a product, venture capitalists, or investors not going to give
+you all $100 million up front. Instead, what's going to happen, usually, is that the venture
+capitalist will give you. $1 million,
+$5 million to show proof of concept, a prototype, and should you meet
+those milestones as the entrepreneur, you will then get the next
+round of financing etc, etc. And so these two problems
+of hidden information and hidden action are some of
+the conceptual problems that plague the financing of
+startups type of market. And if these problems are too severe, that can really break down
+the financing type of relationship, and in fact gives rise to something that
+we're not going to talk about too much. But the terms that govern
+the financing between the investor, the metro-capitalist, and
+the entrepreneurs are typically very, very complex. Because it has to reach some
+covenants in the legal contract which allocate the rights to one party or the other, depending on
+the different states of the world. And because there's so
+many different eventualities and potential contingencies,
+as to the states of the world that contract that governs investing
+relationship is often quite complex. Now let me get very practical in terms
+of telling you about what venture capitalist actually do to
+earn their compensation. So they do a number of activities so
+first state raise money for their funds from institutional investors, wealthy
+families and individuals, pension funds. So think about the endowment
+of Yale University, the pension fund of
+the state of California. These institutions will allocate
+a certain percentage of their portfolio to investing in an asset
+class like venture capital. So, venture capitalists first and
+foremost, raise money for their funds. They also source
+the investment opportunities. They identify the entrepreneurs and entrepreneurial companies that
+may offer outsides returns. They perform due diligence, as we just
+discussed, on these potential investees. They price and structure an investment so that it tries to give the right
+incentive to the different parties to take the right action that will
+raise value for all the participants. They then have to monitor and
+hopefully add other or extra financial value to
+the portfolio companies, they do so through their corporate governance,
+sitting on the board of directors, trying to connect these companies
+with the labor markets, with the capital market, with strategic
+alliance relationships and the like. And then ultimately, the venture
+capitalists are charged with exiting the investment, trying to find
+some liquidity for the investors. We can conceptualize this flow of funds
+and process in the following chart. These limited partners, the investors like the Yale University or
+California Pension Fund allocate a certain percentage of their
+portfolio to the venture capital fund. That venture capitalist is
+called the general partner. The general partner disperses cash
+to the entrepreneurial ventures. The portfolio companies who in turn
+give up equity stakes in the company to the venture capital fund. And if all goes well after seven or
+ten years or so, venture capital fund offers
+returns to the investors, these things are often gauged by metric
+known as internal rate of return. Now, just to give you a snapshot of how
+large of an asset class venture capital is over time, what I'm showing you
+here is data from 1995 through 2015 as to the amount of money that
+venture capitalists in the United States have collectively
+dispersed to start up companies. And you can see in the bubble period
+there, there's a huge spike up. But this is a industry that's stabilized
+in the $30 to $50 billion figure. And if you looked at the, if you instead graph the number
+of deals that these companies, these venture capitalists are doing,
+the profile would look very, very similar. Now you might also wonder, how well have
+these venture capitalist investments done. And the study that I'm citing
+here is actually quite revealing. These authors publishing in the American
+Economic Review studied over 22,000 investments made by US venture
+capitalists between 1987 and 2008. And they found that the average
+investment by venture capitalists returned about $5.8 million,
+that would seem pretty high, but the shrinking figure here is that 75% of
+those 22,000 investments return zero. And what is happening is that
+there's a very long right tail. So you have some outlier exits. So, for example Google conducts initial
+public offering that's really exceeding the bounds in the multi
+billions of dollars as an exit. And that lifts the average quite high. So what I want you to take away
+from this statistic is that the venture capitalist business
+is actually not an easy one. And as consequence, it's important to
+assemble a portfolio of investments so that you can hedge your bets. Because many of those bets
+will actually not pay off. And this has corresponding
+implications for startup entrepreneurs like yourself,
+in that you may want to design or look into mechanisms that will allow
+you to experiment or test an idea rather than regarding the entrepreneurial
+idea itself as an experiment. I want to end with one
+research study that I actually published in The Journal
+of Finance in the year 2004. And what I did was I collected
+a sample of start-up companies. Raising the very early stage round
+of investment, the Series A. And whats unique about this sample is that
+each of these startup companies received multiple offers for financing for
+the Series A round of financing. And I studied two outcomes. First, what is the likelihood that
+the entrepreneur accepts a given offer by a venture capitalist, and secondly,
+I studied what was the price per equity units sold that's being offered
+to the startup company? And in this, in the study I controled for a wide spectrum of variables that
+had to do characteristics of the venture capitalists, all of the
+characteristics of the startup company, as well as many other variables
+that differ in the sample. And let me quickly
+summarize the results here. So the first striking result Is that the entrepreneurs did not
+always take their best financial offer. And in fact, they left 12 and half percent
+of the collective value on the table, that means that instead of always taking
+their highest financial evaluation offer, they were willing to accept a discount. And that discount in terms of
+the offers that were accepted, correlated very highly with
+the reputation of the venture capitalist. In fact, venture capitalists
+who had a high reputation were three times more likely
+to have their offers accepted. And those high reputation
+venture capitalists acquired start up equity at a 10% to 14% discount. What are the implications of the study? It means essentially that entrepreneurs
+themselves perceive venture capitalists to be stratified in the value
+added that they are able to bring and in the value added type of services and as a consequence entrepreneurs themselves
+are willing to take a discount on their valuation in order to be affiliated
+with more reputable venture capitalist. So what I like to do is to summarize this
+session, and leave you with the take-away that the venture capital industry
+is a very specialized one. It's fraught with many difficulties, not the least of which
+are information asymmetry problems. As a consequence it's evolved to
+something that's become very specialized. An institution that tries to be
+very tailored in what it does. It can lead to outsiders performance but it's not a given that venture capitalist
+investments are always successful. Finally, I want to introduce a few other
+studies, which suggest that there's a tight correlation, or even causal
+relationship between venture capitalists, especially highly prominent venture
+capitalists and startup success. So one group of studies suggests that as
+measured through business development and strategic alliances, as well as
+professionalization of human resource management practices at startups,
+more prominent venture capitalists are certainly correlated with
+these measures of startup success. Another set of studies suggests
+that there may even be a causal relationship between
+prominent venture capitalists and innovative success or outcomes of
+portfolio companies as measured through patent based innovation as
+well as successful exit events as measured by initial public offerings and
+successful acquisitions. And what's intriguing about this second
+set of studies is that the authors took a look at events that were
+really unrelated to what the venture capitalists were doing themselves and
+what they did is they compared the success of startup companies
+before and after the introduction of direct flights between venture
+capitalist and portfolio companies. And what's nice about this setting
+is that venture capitalists have no direct control as to the introduction
+direct airline flights between their portfolio companies and
+their own headquarters. But after the airlines have decided to
+exogeneously place direct flights in, you see a lift In terms of
+the innovation rates and the rates of success of these portfolio companies after
+the introduction of those airline flights. Suggesting a more causal relationship
+between the prominent venture capitalists and startup success. Let me conclude by suggesting
+that the venture capital landscape is a complex one. It's fraught with many
+information asymmetries and the industry has evolved to one that
+has tried to really add value to startup companies in the need for
+both startup financing and extra financial services brought to
+those portfolio companies thank you.

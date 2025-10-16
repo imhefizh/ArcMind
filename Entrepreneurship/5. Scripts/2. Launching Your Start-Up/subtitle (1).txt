@@ -1,0 +1,186 @@
+In order to be able to conduct experiments on
+your idea and learn more about whether it's
+a good idea or bad idea before you spend a lot of
+money and a lot of time, you need a minimal
+viable product. A minimum viable product is
+simply the easiest, simplest, most stripped-down version
+of your product possible that can demonstrate to
+people why you have value. So, it doesn't even need
+to be a product per say. It can be a series of
+interviews, or discussions, but the idea is you're
+out there in the world, showing a little bit, talking a little bit
+of what you do, and getting feedback
+on that so you can learn whether
+your idea is good or bad. If we put that in the context of the experimentation
+material that we first introduced in
+the Lean Startup lecture, you can see the minimal viable
+product is what you do after you create your hypothesis and test your assumptions. A minimum viable product is simply a way of testing
+this hypothesis quickly, and with the least possible
+expenditure of resources. Module one of the course, the first set of lectures has a lot of different
+minimal viable products. I'm going to give
+you a quick overview here of some of
+those product types, but you can certainly refer
+to those other lectures to learn more about
+customer interviews, surveys, and prototyping. So the easiest type of
+minimal viable product to do, and one that you
+definitely should be doing for any sort of product development
+idea you have of new startup is
+customer interviews. As general rule,
+customer interviews should consist of
+at least three interviews, and you need to think about who you're going to
+interview as well. In rough priority order,
+the best people to interview are the people who actually might
+use your product, your potential actual customers. If you can't find those,
+the next best people to talk to are extreme users, people who have needs
+out there in the world, that may not be satisfied
+with existing products. Might be people who are particularly heavy user
+of a particular product, or who modify equipment
+to make it their own, or have some other
+extreme need that doesn't represent the common core
+of the market. Following that, you might
+want to follow-on customers, customers that might
+be interested in buying your product
+later, if not initially. Then finally, if you
+can't find any of those, it's better to
+interview somebody. So, people have easy access to, will be the last category of people you might
+want to interview. If you can't find people who are willing to
+interview you that's a pretty good indication
+that you're going to have trouble finding
+customers overall. So, if you can't find
+customers who are interested in talking to you and having
+a short customer interview, then that might be
+an indication that you don't have a lot of
+interest to your product. So once you have
+customers to interview, you should think
+about what to ask. There are a bunch of
+bad questions to ask. So, asking people what kind
+of product they want, or what features they want, usually is not
+a very useful thing to ask. Because in those cases
+what you'll find is, customers will often just tell you their wish-list without knowing what your costs or benefits are to earn
+in this products. So they want the product
+to be a floor wax and desert topic, to be able to fly and to be
+able to cost at one dollar. So, just asking what they
+want doesn't help because you're not going to deliver
+all of those things. Similarly you can't ask them
+what they're willing to pay. As soon as you ask about pay in a customer interview it
+turns into negotiation. So it's very hard to
+ask about pricing. You could also have
+difficulty asking people about what their
+demand is going to be. You can't necessarily
+assume demand. If you say things like,
+"Will you buy this product next year if we release
+at the price you want?" Because you're asking
+people to make speculation based on not even knowing
+where your product is. On the other hand
+customer interviews are very good for asking people about how they're currently solving their problems. When you use blank, what are you trying to get done? Why you do it that way? keep asking why. So there's actually a question technique called The Five Whys, where you just keep asking why, until you get to the root cause about why somebody is engaging in a particular kind of activity. You might ask people
+how they do things now, and even better ask people to actually walk you through it. Then finally you can ask about how they decide
+on an approach, and what's frustrating about
+that particular approach. So, getting a sense of what the customer needs are
+in that kind of way. Then finally, if you play role-playing games on
+the computer you might actually see the following and know what those
+three dots are, but three dots means you can just quietly pause and see
+if people say more. So you want to talk less in customer interviews
+and get more feedback. So that's one type of
+minimum viable product. Another minimum viable product
+before you even create a full product
+is to do a survey. You need to do surveys in a really solid way and make
+sure they're not leading. What does it mean for a survey
+to be potentially leading. Well, a nice example
+of this comes from politics in
+the 1990s in the US, where the Supreme Court
+found that flag burning, though considered
+offensive to some people, was legally protected
+free speech. In order to deal with
+this potential issue, there was a move to have
+a constitutional amendment to ban flag burning, and therefore get around
+the Supreme Court ruling. In surveys that were done, the percentage of American
+citizens who agreed that flag burning should be banned by constituent amendment
+was around 60 percent. So it actually became an active
+part of party discussion, to decide whether
+or not to support this constitutional amendment. What few bothered to
+ask was how much people actually cared
+about flag burning. When you actually
+surveyed Americans, less than a percent or
+two of them consider this among one of the top 20 issues
+facing the United States. In a similar way, it's
+often common for people to do surveys where
+they asked people, "Would you like a better way
+of packing for trips? Would you like a more
+tasty type of cookie?" You'll find people often agree, yes they'd love a better way
+to plan for a trip. Yes they would love to
+have a tasty cookie, but will they change
+their behavior in order to make that happen? That's often less clear. So, doing surveys that are
+really meaningful can be hard. Again if you refer to
+do survey lecture, there's a lot more detail
+on how to do this properly. But surveys are
+another potential way of doing a minimal
+viable product. With smoke tests we start to
+get into actual products. My favorite example
+of a smoke test was actually the thing that you see on the left side
+of your screen, the Snuggie or slanket. A Snuggie is merely
+a blanket with hand holes that you put
+your hands through. So it's a wearable
+blanket poncho. Before you dismiss
+this out of hand, in 2012 where we
+last had figures, the total market for Snuggies, I'm going to give you
+a second to guess, $200 million, $200 million
+of Snuggies were being sold. So, this is actually as
+fairly substantial market. When the Snuggie first came out it was advertised
+on television. If you ordered a Snuggie, it would take you six to eight weeks to get
+your Snuggie delivered. So the question is, was
+this bad logistics? No. The reason why
+it took so long for Snuggies to be delivered is
+they weren't being made yet. They were waiting to
+see if there was demand from these ads they
+put on television, and if there's demand
+they'd make the Snuggies. So, that's an example
+of a smoke test. Selling a product
+before it's fully made. Obviously this is not
+something you want to do for a cure for a disease, or some other meaningful thing. But for customer products
+a smoke test can be a really good way to find out if consumers are
+interested in what you do. So another way of doing this is that landing page
+that you see there. Any page that you go to
+they'd asks you, coming soon. If you want to be a part of
+our beta test please enter email address and we'll contact you when the product
+is available. That's an example
+of a smoke test. Smoke tests are way of creating
+minimum viable product, and seeing whether
+the customers are interested in long before you actually launch the product to the public. So it's a very cheap way of testing demand in the real world. The most advanced kind of
+minimum viable product before you actually
+launch the product itself is a prototype. In this case we will
+look at prototype, that's a focus on
+physical products. You can see, these are actual examples of
+prototypes being built. The one on the lower left corner is an example of a we you
+being built by [inaudible]. The bottom right are the actual prototypes used by Apple to test their iPhones. A prototype can be something as simple as a cardboard,
+or paper cutout. Doesn't need to be
+very elaborate, but it lets people see how the product is going to
+look in the real world, be able to interact with it, and for you to get
+feedback on it. Products don't have to be
+physical for prototypes. You could also
+create storyboards, the one you see on
+the right for a service. Or you can create
+the kind of prototype, where you show screens or
+wire-frames for an app, which is what you're seeing
+on the left-hand side. So there's lots of ways
+of creating prototypes. Again, I refer you
+to the lectures on prototypes to go into
+more detail on those. But prototypes are excellent
+minimum viable products, because you can get
+information through them, about how people are using
+your product or service. So, when you give
+people a prototype, watch people interact with them, and ask them to narrate
+their experiences. If they try and give
+you questions for you, like what does this button do, you reflect those questions back. What do you think
+this button does? Don't ask to correct
+people's actions you want to see how
+they're using it. Then you start asking questions. What did they like
+about the product? What did they not like
+about the prototype? What was missing from it? What other improvements
+could they see making this particular prototype? So, prototypes are
+another powerful type of minimal viable product. So, MVPs let you test
+your idea cheaply and easily. There are many
+potential approaches, and it does not need
+to be a final product. In fact a customer interview, or a survey are also good kinds of minimum
+viable products to do. Your goal is to test hypothesis, to figure out
+what assumptions you have about your business idea are correct and which ones are not, which is what we'll discuss
+in the next section.

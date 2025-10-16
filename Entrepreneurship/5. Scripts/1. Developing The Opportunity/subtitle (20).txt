@@ -1,0 +1,265 @@
+So we've been talking about how
+assumptions underlie any startup business. And how figuring out what those
+assumptions are and planning around them, planning to learn about them,
+is critical to making your startup work. I'm going to give you a technique that was
+developed here at Wharton called discovery driven planning that'll give you some
+ideas about how to think about formally planning your business. This was originally developed by
+Ian MacMillian and Rita McGrath, and it's a really interesting
+way of building a toy model. What I mean by toy model is this is not
+trying to reflect the real world in a deep way, but it instead creates a steady state
+model of your business that lets you play with various assumptions and
+figure out what's working and what isn't. And what's nice about this is unlike
+a lot of other models that are financial, it takes into account the fact that
+you don't know a lot of answers. So, the variation I'm going to teach
+you about discovery driven planning has five steps. And before I explain the five steps, I want to explain how we're
+going to go through this, so I'm going to give you a little bit
+of a case that's a made up case. We'll walk through how you would
+do discovery driven planning for that case, and
+then available as part of this course, you will find a spreadsheet that will
+actually let you play with this model. So, the model I'm telling you,
+we'll built a spreadsheet for it. And then the second video lecture,
+on discovery driven planning will actually ask you some questions about that case,
+and will dive into more detail. So, it's a complicated topic, it's
+much easier when you do this hands on. So use this as the introduction,
+then play with the actual spreadsheet, and then the second video will give you
+a sense of how it all comes together. So, it's much more intuitive once
+you have your hands on this. But the five steps you have to worry about
+are starting with a goal, mapping of the operational steps for the enterprise,
+build a reverse income statement, benchmark your assumptions, and
+match your milestones to assumptions. So, what does this all mean? Before I go into them in detail,
+let me give you an example. So, let's take the example of your cousin,
+Jon. Jon and his wife Joanne are carpenters. And they've been working as
+cabinet workers for a long time. And they have been working in a bunch
+of different fancy office buildings, and they've realized that the kind of
+desks, especially standing desks that are available to people working in
+these offices are pretty ugly, and not very functional. So, they've come up with a way of making
+a really beautiful standing desk. We will doing creative work. And because they have modern carpentry
+machines that they've been using to do their contract carpentry work, they actually think that they can do this
+much more cheaply, and much more nicely, and much more ergonomically than any
+standing desk that's out there right now. So, that's their idea. The company is called Better Desk,
+again, this is fictional. And Jon and Joanne have asked you to think
+about how they should plan their business. And we're going to build a discovery
+driven plan for Jon and Joann. So, the first step is to
+start with your goal. And this is part of what makes a discovery
+driven planning interesting is, like most entrepreneurs,
+you're starting with your endpoint. What do you want to achieve? What ultimately do you want to get
+out of launching a new venture? And in discovery driven planning,
+you think about that accomplishment first. And now, since we're building a financial
+model, we need some numeric answer here. So that could be that you want to achieve
+is a particular level of yearly profit, $100,000. Or that you have a particular price point,
+when you want to make a $100 drone that follows you around while you do
+extreme skiing and takes videos of you. Whatever outcome you want,
+that's where you start. In the case of Jon and
+Joanne, we've talked to them, and it turns out that what they'd
+want to do to launch their business, they're excited by it,
+they think it's interesting, they really want the freedom associated
+with launching a new business. But they also want earn more
+money than they're earning today. So, they want to take on 15%
+more income than they do today, they're each making
+$60,000 in our example. So that means that their business
+needs to generate $138,000 in profit, 15% more than a 120,000 in order for them
+to bother launching it in the first place, so that's our goal. We need a $138,000 in profit for
+Better Desk. So what's the next step? We now need to think about the steps
+we actually need to go for in our enterprise to make it work. So, what are the things
+that we will need to do? Now, if you remember back in the previous
+lecture we talked about assumptions, this is your technology in
+operations set of assumptions. What are the actual concrete steps your
+business needs to go through in order for you to be successful. So, what I recommend doing
+is working backwards from delivering your product to your customer, and thinking about the operational
+steps that you need to go through. So in this case, again,
+I'm not a desk expert, so I made this up. And for those of you watching this video
+who are desk experts, I apologize for everything I've gotten wrong about
+the desk manufacturing process, but this is designed to be an example. So we start with the end point,
+which is we sell our product to customers. So before that, we need to ship
+it to them and deal with returns. Before that, we need to actually
+manufacture these things, so people can use them. We need to go through some
+sort of ordering process, where we book orders and
+set them up for this. And we also need to have made people aware
+of this before we do anything else, so we have to do sales and marketing. So these the broad steps
+of your enterprise. Now, we then go into detail and think
+about the operational specifications, the individual tasks and metrics that
+matter in each step of this business. So in the case of manufacturing, here's my example of the sets of
+manufacturing steps that I thought about. So, there's some raw material for desk, there's some delivery cost for that raw
+material that results in material cost. So that's one bucket that
+we have to worry about. Another is that the production line itself
+will turn out a certain number of desks per day, and how many days per year
+are they going to be spending doing this? How many production lines
+are we going to produce? And then figure out the equipment cost for the production line, any depreciation
+rate, and then the staffing. How many manufacturing staff do we need? How much we're paying them? These are the direct operational
+specifications for the business, and you'll think about getting
+all of those on paper. So you've broken down each
+step of your business, and we can do the same thing,
+you can imagine for sales and marketing. Thinking about how much we're spending
+on doing advertising and marketing, who's going to do this, how many
+salespeople we need, how many orders they book per sales call, how many
+sales calls could they make per day. So we're getting very detailed into
+the operational specifications for your business. Now, please keep in mind that we won't
+have all the answers at this stage. So, you're going to do your
+best job possible, and even the process of going
+through this has benefits. We know that businesses that spend
+time on planning are more successful when they launch than those
+that have not spent this time. So, there's benefit to
+even going through this, even if you don't have
+all the right answers. You now go from having all of the
+operations specifications of your business setup to building what we call
+a reverse income statement. So unlike a regular income statement, where you're generating a based on what
+you're spending and what you're taking in. In this case,
+we start from our goal, and so if you look at this sheet,
+you'll be able to download this again and play with these numbers, we have this
+available for you as a spreadsheet. And this is for the better desk case, but you'll notice that some of
+the numbers are in green. Those that are in green are assumptions, these are numbers we're estimating
+based on some sort of characteristic. And the numbers of regular
+text are calculated from this. So we're starting with the current salary,
+you'll notice at the very top, Mr. and Mrs. Smith are currently
+making $120,000 a year. We then start with our first assumption,
+which they've told us they want to earn 15% more, that means the required
+profit for Digital Desk is $138,000. And now if we skip down to
+the manufacturing costs, we'll see that the raw material per desk,
+we're guessing a number. The delivery cost that we just discussed
+before, we're guessing a delivery cost. We're figuring out, we're assuming how many desk produce
+per day in this production line. We're assuming how many production
+days that are per year. So we're filling in numbers,
+those operation steps, and linking them together in a reasonable way. So, all these costs are being summed up, and then being subtracted from revenues to
+see whether or not we're still over that required $138,000 goal that Jon and
+Joanne have. You now have a list of
+assumptions in your business, and the goal then is to figure out what
+are the best possible numbers that I might have that may match these assumptions? So, we don't know the raw
+material per desk. So, what do we do to get that answer? So, we draw on our own
+personal experience, but more importantly we call competition, we look for numbers in the press, and
+we try and get the best number we can. So here I've created some fictional
+sources for all this data. So, in figuring out whether the raw
+material per desk, we have called our potential part supplier Hardware.com
+and have them price out the numbers. So, we have a pretty good estimate
+that's $120 in raw material, and they also told us it'll
+be $10 shipping cost. When we start thinking, even things like
+the desk per day per production line, we're now going to our
+equipment supplier and saying, how many desks can we
+produce in this equipment? And they're giving us that information,
+that's what's being plugged in there. But then,
+when we start looking at things like, further down, the manufacturing
+staff per production line. We have that it's going to
+take six people per line. In this case, we're benchmarking based
+of on our best estimates of competitors. So, we've spoken to people
+who know the competition and they're telling us that it's
+six people per production line. And they're telling us that
+the salary is $35,000. Now, those assumptions
+might be more vague for us. We don't know the answer as well, as opposed to the calls we've had
+with the hardware manufacturer. Who have been pretty clear about how
+much we're going to have to spend. So, each assumption that goes into
+our chart, every number here, has a source for it. It's either calculated from other numbers,
+or it comes from some outside source. These are your assumptions. So you put those together in one chart,
+and here we list a whole range of potential
+assumptions, values, and sources. And again, you can play with all
+these numbers in the spreadsheet. So step 4,
+you're benchmarking your assumptions. You're figuring out what numbers you
+can use to fill in the blanks for your assumptions, for those green numbers,
+until you have better answers for your business. Step 5 is where this discovery driven
+reverse income statement starts to become a planning document, and this is
+about matching milestones to assumptions. So, you can't just have assumptions
+in your discovery driven plan, you need to actually
+test those assumptions. And you want to start, just like we
+talked about in our prior session, with the highest uncertainty,
+highest impact assumptions. Those are your key assumptions. So, you're going to figure out what
+your key assumptions are by looking at the model that you have, and you'll
+start by discussing this with your team. Do we know an answer to this problem or
+not? Is it high uncertainty or not? You could do sensitivity analysis. The nice thing about discover driven
+planning is that you have a document that now has all the numbers in
+your business all tied together. So, if you move those numbers in a range, I change a number from say,
+six employees per production to seven. What does that do to my
+underlying cost structure, and what does that do to my profit margin? If I changed it to five what does that do? So, I can actually get numeric
+answers by changing those numbers. And I can also look at
+the list of assumptions. When you think about Jon and
+Joanne, they're carpenters. So, I probably would feel very
+confident about their numbers, about production cost because they
+know a lot about making wood objects. But I would be less confident
+potentially in their sources and uses for their pricing because they never
+built and sold their own desk before. So also comes from the sources, or using to fill in those blanks
+in the discovery driven plan. You're going to match these
+assumptions to milestones. Milestones are moments in your business
+when you're getting real world feedback and information based on your real
+product, or service, or venture. So, we'll talk a bunch of methods later on
+in this class session, we'll talk about customer interviews, we'll talk about
+prototyping, we'll talk about surveying. So, you're actually going to be
+getting data from the real world, and that data will provide
+milestones on your business. Ways of updating your assumptions, and
+learning about how the real world operates in a way that lets you
+modify your business. So, just like key assumptions are the ones
+that have the highest levels of uncertainty and
+the highest levels of concern, key milestones are those milestones
+that test the most assumptions. So in the case of Jon and Joanne, we've
+created a bunch of potential milestones, again, I don't know the carpentry and desk
+market that well, so this is hypothetical. But they might start with a market study
+where they're going to gather as much market data as possible, they'll
+purchase market research on desks, and they'll do some surveys of customers. So that's an easy milestone before
+they even start production. The second thing they might want to
+do is a trial production batch. So they might build a few desks,
+and see whether or not their techniques are correct. If you think about it,
+these milestones test different things. The market study is about testing
+the customer value proposition. Do people want this desk? How do they buy a desk? What does the market look like? And the production batch is about test
+technology to operations assumptions. How much does it cost to make a desk? How long does it take? So, each of this milestones
+are the steps in their business, each milestones will be testing
+the underlined assumptions. So, you actually just create
+a milestones assumptions chart. All the assumptions that we've
+already talked about are listed on the left-hand side. So, the direct sale price for desk,
+the raw material cost per desk, things that were already in our model. And then on the top, the columns,
+are the milestones in the business so the market study,
+the trial production batch. And what you're going to do is match
+the suit together by simply putting an x, where a particular milestone
+test particular assumption. So, assumptions might be tested multiple
+times, for example, we might test the raw material cost per desk,
+when we do our trial production batch. And then we'll get more information
+when we do our mock-up, or even more when we start production. So, you will narrow down the ranges of those assumptions as you get more
+information at each milestone. So, this is a process of learning
+real world information to change your assumptions, and to narrow those
+assumptions down to get better information and build your model more
+accurately as you go. Then you're going to I think about how you
+order those milestones in ways that will minimize your cash burn
+while you're learning. So, one of the cheapest
+milestones you could do, a survey is much less expensive than
+quilting a job and launching a business. And how do we learn as much as we can
+from those early milestones early on, and then you're going to actually use this
+milestones to help shape your business. During the on-going operations of
+your venture, as you go along, you can keep going back to that
+milestone assumption chart, and castly check the validity of
+your underlined assumptions. And you'll update your model with those
+numbers, as you update that model you're going to get a sense of where the problem
+areas your business on financially. Whether you'll be able
+to reach your goals, and you'll get advanced warning of potential
+concerns in your planning, and that'll let you revise
+your plan as you go along. In order to make this work,
+never have more than 30 milestones and 30 assumptions in your business. If you have more than that,
+you're never going to go back and re-plan, it's just going to be too much work. So, I recommend trying to match this
+to the minimum number possible, and remember this is a steady state model, so this is not an accurate assumption
+of how your business grows overtime. But it gives a sense of the underlying
+numbers in your business, and how they operate. So, this is discovery driven planning,
+again, if you watch the next video, we'll talk about the example
+of Better Desk, and I want you to have spend some time
+looking at the spreadsheet first. But it gives you a quantitative tool for
+analyzing your company even in the phase of uncertainty, and
+it gives you a real numbers a test. So if later on you are doing a survey,
+and you want to survey customers to see how many are interest
+in your product or what price they pay, you actually numbers in your model to
+inform those questions that you're asking. And then it forces you even more
+importantly than [INAUDIBLE] to think about your
+assumptions in a real way. To actually go through the discipline of
+thinking about what are the underlying questions in your business, and
+how do we reduce risk at the lowest cost? If you don't do something like this, you're going to end up with a whole
+bunch unsurfaced assumptions that will ultimately cause you huge
+problems running your enterprise. And what's nice is, a discovery driven
+plan shows you in advance potential problems you have, and gives you
+a variety of options to solve them. So, it may turn out that Jon and Joanne need to produce more
+desks to satisfy demand, great. The discovery driven plan will indicate
+that as they start testing assumptions, they could speed up their business. And it might be that this works out
+better as a lifestyle business, something they do on the size. So, they might slow down to they might
+found out that the market as they go forward, is going to pay a lot more for desks in the architecture industry than
+in the computer programming industry. So that would give them a chance to pivot,
+and change direction. Or maybe they find out this is not a good
+idea at all and they exit the business and quit, but they do that before they spent
+a lot of money or quit their jobs. So, discovery driven planning lets
+you look at all these options, and think about them in advance. It's a very useful tool. I even ask my startups in my class
+that are doing things like software as a service, or even creating an app to
+think about discovery driven planning. because even if you're
+planning rapid growth and you're planning on not making a huge
+amount of revenue, but spending money. This is a very powerful technique for thinking the assumptions that
+are underlying your business, and thinking about the options that you
+have to change things as time moves on.

@@ -1,0 +1,208 @@
+Hi, I'm Kartik, and I'm going to
+talk about how customers can help us identify opportunities worth pursuing. Now, recollect that the odds of success
+for most ventures is quite low. Venture funds explicitly account for
+this by maintaining portfolios. But how do you, as an entrepreneur,
+deal with this high level of uncertainty? There are two things that one can do. First, you can simultaneously explore and
+nurture multiple alternatives. This is the tournament approach
+that was outlined earlier. Second, you can test these ideas with
+multiple potential customers to identify the truly exceptional opportunities, and
+then invest in those opportunities and build out those specific products or
+services. In this session, I will discuss how
+you can achieve both these goals, that is generating multiple ideas and
+second, testing these ideas with
+customers in one shot. That's essentially the idea of using
+customers as sources of opportunities. This session is particularly relevant for corporate entrepreneurship, wherein a firm
+has an existing base of customers that it can leverage to identify
+new product opportunities. But when approached creatively, startup
+entrepreneurs can also use prospective customers to source ideas and
+opportunities in a very similar manner. Now I'll use a case study of Threadless to
+illustrate this concept of using customers to source opportunities or
+ideas worth pursuing. Threadless is a website for crowd sourced T-shirt designs and
+also designs of other apparel. Threadless was an early
+innovator in this space and the company was founded in 2000
+by a designer named Jake Nickell. Now Jake participated in an online T-shirt
+design challenge, which he won and when he won the challenge, he got an award, but
+he did not receive a print of his design. That got him thinking,
+what if he created a weekly design contest where the winning designs were
+actually printed and sold to people. This led him to launch the website and
+he had these weekly contests. Designers from all over the world came and
+contributed their designs, and his team announced winners each week and
+also printed these designs and sold them on the website. Winners received cash and also royalties on the sales that
+were generated on Threadless.com. Now, what's interesting about Threadless
+is the unparalleled volume and diversity of designs that were
+generated on the website. Every week, close to 1,000
+different designs are submitted and the company selects roughly around 10 for
+printing. Over time,
+this has resulted in about 500,000 unique designs being submitted to the company
+by roughly around 300,000 contributors. The firm has printed
+somewhere between 7 and 8,000 designs over this period of time. Now, this is really interesting to note
+because while they have gone through a great number of designs and
+printed a large number of them, Threadless does not have
+a single designer on its staff. And not only do you get
+a large volume of designs, you get a great diversity of designs. Seventy percent of the designs on
+Threadless come from outside the U.S., including from South Asia, Southeast Asia,
+Europe, South America and Australia. The people who contribute these
+designs range from 14 year old kids to people who are retirees
+around 65 years old. You get this great volume and diversity
+of designs on Threadless and Threadless has been able to pursue this model,
+as I said, without a single designer. Threadless is particularly instructive for
+us even though Threadless is not really pursuing this idea of crowd
+sourcing to come up with startup ideas. It is nonetheless useful for us as
+entrepreneurs because apparel design, like startup creation,
+is inherently risky and unpredictable. Most designs for apparel, especially for
+unique apparel, actually fail. Threadless is able to address that by
+trying to maximize the number of designs they get and using customers
+to select the best designs and then minimize the risks in the process. While Threadless doesn't exactly represent
+the case where customers help generate entrepreneurial opportunities,
+it nonetheless highlights a process which is fraught
+with uncertainty about customer demand. And how we can transform that when you use
+customers to both generate the idea and also select the ideas
+that are worth pursuing. In fact, the fundamental idea of crowd
+sourcing has been used in a number of other contexts where customers
+are being used to generate ideas for new products and new opportunities. For example, Dell has a website called IdeaStorm where
+Dell customers can post suggestions on new products as well as service improvements
+that they would like to see on Dell. Over time,
+Dell has been able to obtain a little under 25,000 different ideas on
+this website and several product innovations have been implemented based
+on ideas submitted by community members. For example,
+Dell launched back lit keyboards based on the popularity of that
+suggestion on Dell's website. Another such example is MyStarbucks idea,
+which is a website launched by Starbucks to allow
+customers to suggest new services and new products that Starbucks could launch. On this website, Starbucks has received
+over 200,000 different ideas and has implemented a number of them,
+including launching new products such as their flat white, which is essentially
+an espresso with steamed milk. This was a product that was
+available to people in Australia and New Zealand and it was suggested to
+Starbucks by some loyal customers. In addition to launching the flat white,
+there's a number of other products, like the reintroduction of
+the mocha coconut frappuccino was again based on ideas
+suggested on MyStarbucks idea. Now crowd sourcing is not only a great
+source of a large number of diverse ideas, it can also be a very useful tool for
+opportunity selection, as well. Votes on a crowd sourcing platform
+can be a great proxy for demand and the company can observe how many up
+votes a certain idea has obtained to get a sense for how popular that
+product idea might be among consumers. This is particularly beneficial given
+the uncertainty during the early phase of opportunity selection. For example, on Threadless, the company selects the top 5%
+of ideas in terms of votes. These are considered by the management and
+the management then selects some very specific designs from among
+this top 5% and then rolls them out. Notice here that Threadless
+does not launch the top five or top ten designs,
+they just take the top 5% and then use managerial judgment to
+figure out which ones to select. This is important because
+voting is costless but purchases are not, and so voting might
+not perfectly reflect purchase intent. For example, there are certain designs
+that I think are cool, I might vote for them but I might think that they
+are perhaps not appropriate for me to wear on my T-shirt. So there might be certain mismatch
+between votes and purchase intent. Similarly, it's possible that the voting
+population might not exactly reflect the preferences of your actual customers
+because for example, on Threadless, most of the voters are going to be
+those who are passionate about design, perhaps designers themselves. Whereas, your average buyer
+is not a designer and so there might be differences in preferences
+so you want to account for that. Nonetheless, you get valuable data
+through these votes that can help you select the right product ideas that
+are most valuable to customers. Paired with managerial judgment,
+these votes can be highly useful in addressing the uncertainty around
+what's going to stick with customers. Now, of course, while I say that crowd
+sourcing is a powerful tool, from both the supply and demand standpoint,
+meaning that from a supply standpoint, it helps generate a lot of ideas,
+which can be very useful early on. And from a demand standpoint, they help us figure out which ideas are
+actually addressing the paying point for customers and therefore,
+help us select the right idea. Now while it's useful on both supply and
+demand dimensions, for crowd sourcing to work, customers
+need to have a clear incentive to participate in the process and
+provide their best ideas to the company. It's important to think through
+what's the right incentive and they're many incentives
+that are relevant here. I'll mention three of the most important. The first incentive is
+a monetary incentive. For example, on Threadless, the winners get lump sum payments, there
+are revenue sharing arrangements, as well. Therefore, I might submit my best designs to Threadless because I feel
+I have a chance to win. Another reason to participate might
+be because you want to encourage a company to solve your own problems. If you look at Dell IdeaStorm or My Starbucks Idea, I post suggestions
+on these websites because if the company implements those suggestions,
+it solves a personal problem for me. It helps me get the Dell I want or it
+helps me get the Starbucks expedience or the Starbucks product I want at the store. Finally, another important reason might be
+that I participate in such a website for skill development. On Threadless, some designers might submit
+designs even if they think that their chance of winning is low because it helps
+them practice and develop their skills. It helps them get feedback from the
+community, all of which is important and useful from a skill
+development standpoint. Putting all this together,
+looking at Threadless, IdeaStorm and other such website, here are some best
+practices that companies might implement when trying to get customers to
+share their best ideas with firms. First, one has to think
+carefully about incentives. Think about whether monetary
+incentives are relevant, and if so, what's the right structure. Is it a fixed payment, is it revenue
+sharing or things of that nature? Second, it's important to provide value to
+even those participants who do not win so that they have a reason to come back. For example, that value might be from feedback that
+the community provides to the participant. On Threadless, I submit the designs,
+people comment on them, and that's valuable to me as a designer. Finally, it's useful to
+encourage a sense of community. For example, we're providing a forum for
+people to interact and if you get that kind of a forum, then one
+might be more willing to participate, even if there's no monetary incentive. Now despite all these incentives,
+I will mention or share that there are environments in which
+it might be hard to convince customers to give us their best ideas even though
+we have certain incentives in place. In these kinds of environments, one has
+to think about other ways of getting feedback from customers to get information
+on what they're thinking about, even if they're not willing to
+directly share it with the firm. For example, people might leave
+behind product reviews, or they might share their opinions on social
+media posts, on Facebook or on Twitter. How might we extract that to figure
+out what are customer pain points and what are problems worth solving? A good case study in
+here is a company called C&A Marketing which is in
+the consumer products space. This company was founded on 2003, and
+today has 11 different brands and has a product portfolio of about
+50,000 different products. They have had a lot of success
+in this space primarily because they figure out which product to
+build based on feedback from customers. But they don't have that direct contact
+with customers because they don't have a direct customer base with whom they have
+a relationship that they can go back to. Instead, the company mines
+product reviews on Amazon to figure out what's a worthwhile
+new product to develop. For example,
+they might look at wireless or Bluetooth speakers and they might
+look at reviews for these products. One reviewer might say hey, I love this
+Bluetooth speaker, I took it to the shower with me, but it stopped working because it
+turned out, it's very sensitive to water. Another review might say good speaker, but it would be great if it was waterproof,
+as well. You might notice a pattern that
+people like a wireless speaker, but they would love the feature
+of waterproofness in there. That may lead CNA to develop
+a product which is very similar in other dimensions such as a size or performance or wireless capabilities
+as an existing speaker. But they might add new product
+features such as it being waterproof, and that allows that
+product to be developed without a whole lot of research because
+the customers ideated their product. Furthermore, the chances this product
+will be successful will be high because customers actually
+helped ideate that. This has led the company to roll out,
+they have a line of products called Jumbl, which are essentially consumer
+products that they retail on Amazon primarily because they're
+based on reviews from Amazon. They have entered their product line
+called Ivation which is essentially the products that are highly
+successful in the jumbl product line. These are redesigned, made as little
+more higher end, upscale versions that are then sold, sometimes on Amazon, but at
+other times, in traditional retail stores. Here's an example of a company
+that has a huge product portfolio, 50,000 products and rather than coming
+up with the ideas on their own, they research the digital traces that
+customers leave behind in the form of reviews and social media posts, and they
+identify product opportunities from there. Not only do they get good product ideas,
+and they get a lot of product ideas,
+but most of these succeed because the customers have
+helped them select these ideas. In summary, customers can be a great
+source of ideas for companies. They can help them
+identify new products or they can help us identify new features for
+existing products. Of course, in order for
+this to work at scale, you need a large community of customers
+who will share that kind of feedback. Therefore, this idea is most powerful for
+corporate entrepreneurship, where you have an existing
+base of customers. Having said that, I think startups and
+early stage entrepreneurs can also leverage this idea by reaching out to
+prospective customers at a lower scale. Furthermore, they can also look for
+indirect feedback in the form of reviews and social media posts which
+are none the less going to be very useful. I suspect that the idea of crowd sourcing
+in order to identify new opportunities, worth pursuing is perhaps
+going to be effective for very practical, but sometimes somewhat
+incremental, product improvements. Rather than completely innovative
+ideas that break the mold that nobody's thought about. Because if you want an idea
+which nobody's thought about, it's unlikely that there's a lot of
+customers who are posting comments about it and who are asking for it. Nonetheless, getting customers to help
+you ideate, getting customers to help you select can both speed the process
+of idea generation and also speed the process of finding product market
+fit and finding customer validation. Therefore, it's a very
+powerful tool to keep in a entrepreneur's arsenal during
+the early stage of opportunity selection.

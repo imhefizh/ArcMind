@@ -1,0 +1,165 @@
+Hi, everyone.
+David Hsu. Got me a session on
+Intellectual Property and my goal for this session is to give you an overview of
+the various forms of Intellectual Property that might be important to you
+as a startup entrepreneur. Now, why is IP important for
+entrepreneurs in the first place? Well, the traditional justification for granting some rights is to really
+give incentives for innovations. Let me give you two quick examples. One example is for you to incentivize you
+as the entrepreneur to invest your time, effort, money in innovating, we want to allow you the time
+to recoup that investment. And in exchange for you, as we'll talk about in patents to
+disclose the information in some detail. We, as the government will give you some
+monopoly patent protection over your idea to use for a certain amount of time
+could be particularly important in the context of, for example,
+the pharmaceutical industry. Another form of intellectual property
+that we'll talk about is the notion of copyright. That is the ability to control
+the distribution of a creative work. Think about how this could be
+quite important in the digital age where it's very costless
+in some sense of copying, making another copy of the song or
+of the computer program. And so to incentivize you as
+the originator of a creative song or computer program,
+w e want to give you some protection so that you feel invested in
+really making that innovation. Now, what's important is then
+to realize is that intellectual property is akin to real property. Just like a piece of property,
+a house that you own. In that, you can sell that property just
+like you can sell the rights to a patent. You could lease it out or license intellectual property much
+like you would with a real house. You would put your house on the market for
+a renter to come and occupy, but you would still retain ownership or
+any other type of analogy with real property and the provision for
+intellectual property is quite old. So written write there
+in the US Constitution, Article I in 1790 or 1787,
+as a prevision that allows for this incentive to really
+incentivize authors and inventors to disclose what they've
+been doing in exchange for protection. Now, what are the various forms of
+intellectual property we'll discuss? Really, three or four different types. The first is patent protection. It really allows inventors to exclude
+others or try to exclude others from using a protected property for
+a given duration of time. After which then,
+reversed to the public domain. An example here would be,
+the cotton gin or the light bulb. These were method
+standards of patentability, which we'll shortly talk about, but
+after the conclusion of that patent protection had entered
+into the public domain. The second form of intellectual
+property is copyright. It allows authors to
+control the duplication or distribution of their creative work. Think about musical lyrics, photography. This is really, the creative expression
+that we want to give some protection for. A third type is trade secrecy. Here, it allows firms to try to
+safeguard what they regard as their commercially valuable information. So, that's not generally
+available to everybody. Examples of this would be business plans,
+recipes, methods, techniques, processes, patterns that really give a firm
+the ability to out compete others. An example here would be
+Kentucky Fried Chicken, the secret sauce is not protected by
+any other means, but trade secrecy and we'll talk about that in
+little bit more detail. Finally, there could be speed. If you know what I knew 18 months ago,
+it may not be all that important, because the commercially relevant information
+could be moving at quite a brisk pace. And so we'll give an example of that in
+a context of the semiconductor industry in a few minutes. Patent protection, it's the right to
+exclude others In the United States for a period of twenty years from
+the time that you file a patent. In the traditional justification
+from the government standpoint is to really give an incentive to
+disclose and give a period of time for you, as the innovator to recoup
+your investments in the time and efforts that you put in to
+coming up with the invention. And so as a society,
+we're not literally recreating the wheel, instead we are standing on the shoulders
+of giants as we progress in society and that will have cumulative progress. In the United States,
+it's the first to file. That's true for most of the world. That's why there's three standards for
+patentability. First, it has to be non obvious to an
+ordinary person who's schooled in the art. Secondly, it has to be never relative
+to what's been patented before. It has to be as well useful. Now to meet these three standards, what's explicitly excluded is
+anything that's naturally occurring. Any laws of thermodynamics,
+laws of gravity, anything that is naturally occurring
+phenomenon or abstract ideas. Those are not subject
+to patent protection. However, if you as the inventor innovator
+have genetically modified something? Come up with a new variety of apple or
+rose or sheep, that's not naturally occurring? That can be subject to patent protection. Now the inventor in a patent
+application has to make specific claims as to what they've done,
+that's new and novel and that helps demarcate where the scope or
+the space of the invention should and these standards also apply for
+business methods. A new way of conducting business. Some of you will be familiar
+with Amazon One Click patent. It's a new way of conducting business and is true of other ways of conducting
+business, maybe optimization or analytics that is a new algorithm,
+that's not naturally occurring. Patents have been quickly moving
+in terms of its pace over time. What you're seeing in this diagram
+is the acceleration over time at which we are granting in the United
+States the next millionth patent. The first patent was granted in 1790. It took actually 121 years to
+get to the millionth patent. That time has shrunken
+considerably as you go from say, the 8th to 9th million patent and that
+likely reflects a range of explanations. Now, what explains that acceleration
+over time as to why we're being able to meet these milestones faster and faster? One hypothesis can simply be that we are
+as a society being much more inventive. In alternative hypothesis would be
+that the utility or use of patents for whether it be for offensive means,
+defensive means or as bargaining chips has accelerated
+over time and this explanation or set of explanations is becoming quite
+importance among academic circles. To get illustrate one concrete example
+of this, it's particularly domain for startup innovators is that pens not only
+allow US, the innovator to try to exclude or exclude others from copying or
+entering into a proprietary domain. It can also be used as signal,
+resource providers like venture capitalist that you have a real
+source of differentiation above and beyond what's actually patented
+in your patent grants that could be quite meaningful in
+explaining the winning horse, that could be quite appealing for
+venture capital investors. There's some debate, I won't dwell on this
+particular set of concepts too much as to whether intellectual property protection
+is good or bad for innovation. On the one hand, we're all very
+familiar with these patent trolls or nonpracticing entities that have been
+derided in the popular press were actually not being productive from
+the standpoint of commercializing or bringing products to market. This has been the subject
+of some legislation. President Obama, for example, has
+targeting these non-practicing entities. On the other hand, there's been certain instances in which
+probably these innovations have been popularized precisely because they've not
+been the subject of intellectual property. Two examples here,
+the use of a particular financial option pricing formula known as
+the Black-Scholes formula, that was not the subject of
+international property protection. Rather the professors Black and Scholes disclosed their innovation
+in the context of academic article, and maybe that's the reason why it's so
+popular among Wall Street traders, and other financial individuals, and
+actors is because it was put there. If they decide to receive intellectual
+property protection maybe it wouldn't have been as popular. And same thing, the quote there mentions
+the case of a very interesting game, Sudoku, which was popularized,
+perhaps precisely, because it didn't seek patent protection. A second form of intellectual property
+protection is in the form of trade secrets. Trade secrets allow individuals and firms to really protect information,
+patterns, programs, techniques or processes that can give
+them a leg up compared to outsiders. Now, there some clear differences of
+trade secretes as compared to patents. First, it's adjudicated at the state
+level rather than the federal level, which is true for patents. Secondly, trade secrets so long as they
+can be kept secret last indefinitely and that's a stark contrast as compared to
+patents that we talked about before. Now, what's important is that you as
+the holder of a trade secret have to take reasonable precaution to
+safeguard those secrets. What's not subject to protection
+is information that's garnered through independent discovery,
+worked out by a competitor through by backward engineering or
+is you might of accidentally disclosed. So long as information isn't
+illegally obtained by competitor, you're able to invoke some
+trade secrecy law to help try to protect your trade secrets. Now, let me cover two specific
+contractual provisions that are important in
+enabling this protection. The first is a non-disclosure agreement. If there is a particular
+piece of information that you are trying to protect as an innovator, you can before disclosing
+that information to someone, draft a non-disclosure agreement
+that is a contractual covenant that protects that bit of
+information from being disclosed. A second form of intellectual property
+protection that falls under trade secrecy is a notion of a covenant not to compete. That precludes or helps to preclude
+an individual who is previously worked for you as their employer from going out and
+working now for a competitor. In which case, that former employee may
+disclose that information to the employee. And so what a covenant not to complete or
+not complete clause does is it, essentially prohibits that employee from
+going out immediately from competing and being hired by competitor firm for
+a certain duration of time. Finally, I want to quickly discuss
+this notion of speed as a example of how formal protection may not be
+that relevant if you're operating in a very competitive context and
+the example I wanted to discuss with you is the case of Intel,
+in the case of different chip families. Here, you see a table that lists
+the different chip families ranging from the generation 386 all the way up
+to the various versions of Pentium. And what I've highlighted here is the
+lifespan of the particular chip family, as well as the price discount that holds
+for that given chip family ranging from the beginning of the life of the chip
+family to the end of the chip family. Take, for example, the Pentium III. This is a chip that had a shelf life
+of about a year and a half, 18 months. And over those 18 months,
+you can see that Intel was only able to charge a dollar at
+the beginning of that time period, but only $0.9 on the dollar at
+the very end of the period. So imagine that if you're operating
+in that type of landscape in which knowledge really becomes
+obsolete very quickly, you're going to be less interested
+in going through the formal channel, perhaps of the patenting process or
+the trade secrecy process, because that knowledge becomes obsolete so
+quickly. To recap this session on
+intellectual property, we've covered the different forms of
+intellectual properties and some of the institutional arrangements that could
+lead you as the startup entrepreneur to favor one type of intellectual
+property protection or another. Thank you.

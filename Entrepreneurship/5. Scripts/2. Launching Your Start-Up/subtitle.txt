@@ -1,0 +1,190 @@
+Today, we're going to talk about the lean approach to startups. Now, the lean approach is just one of many methods
+that have been developed over the years for thinking
+about how as a startup you can act quickly and
+learn as you act. So as with the lean approach because it's very
+common right now to discuss that in Silicon Valley
+and it's circles. But this is just one of many potential approaches
+that you could use in order to make sure that
+you're experimenting and learning even as you're
+biased towards action. So this is some results
+from some data that I gathered of survival
+time of startups. So on the y-axis, you can see the percentage of startup surviving over
+a period of time, on the x-axis the amount
+of time that has elapsed. So these are survival
+curves essentially. This is the survival curves
+of working startups that were founded by people
+who went to Wharton and then divided into two groups; people who changed
+their business plan radically, which is the red line, versus people who kept the business plan
+basically the same as they originally launched their business idea,
+the blue line. What you can see here is
+the lines look pretty similar. In almost any other field when people change
+their business radically, when a large company tries to change their business radically, their failure rate increases. But startups somehow
+seem to be able to change a lot without failing and the secret to that is something
+like the lean method. So let me show you how
+the lean method works as described by
+Steve Blank and Eric Ries. Again, I'll show you they had some thoughts about
+how you can adapt this method if you don't
+want to take all of the parts of lean
+startups and use it. So this is Steve
+Blank's original slide. Steve Blank is an adjunct
+professor at Stanford, who has started seven different
+companies and he was a business person
+at these companies. He realized that there
+was a standard model of product development
+that described how products were
+created in theory. On the top, you can see the step-wise approach
+to marketing a product. You come with a concept, you go through
+product development step, you do some Alpha
+and Beta testing, and then finally you
+launched the product. At the bottom, you can see
+the waterfall or BDUF, big design up front, approach to developing a product. You start with
+some requirements gathering, you go through a design phase, you start to put
+all that together, and then you go
+through some shipping. You'll notice that line in the middle in this
+waterfall approach, that's when the concept
+for the product freezes. Now, if we think about this way
+the products are created, you'll realize there's
+a few problems for you as a startup company if you're considering using these methods. One is, you spend all of your money at the very beginning
+of this process, but you make your
+money at the end. Most startups don't
+have a lot of money, so wouldn't it be great
+to have a method of making more money early on before you actually get to
+the end of the project. The second problem here is
+that you'll notice that you only gathering information of
+consumers at the beginning, but you don't know a lot when you're creating
+something new about what your customers want
+the market may be changing. So if you locked down
+your idea early on, you don't learn enough
+from customers. So both of these
+things mean that, it would be great to
+have another method to think about how we develop
+products and services, and that's what the
+lean method is. So let's take that first example of how a product is introduced to the market and take Steve
+Blank's insight which is that, all of these successful startups
+he worked for didn't follow that initial project
+introduction model, they followed a variation he
+called customer development, which has four steps:
+customer discovery, validation, customer creation, and then finally,
+company building. So let's walk through those. The customer discovery method is really one of the keys to
+this idea of lean startups. It means that, instead of going out there and telling
+customers what they want, you're showing customers products and you're listening to them. This has to be done
+by the founders outside of their building. You have to go out and
+actually talk to people. Talk to as many people
+as you can, show them your product
+and listen, hear from them about what they like and what they don't like. Test your hypotheses and assumptions which is
+something we'll be talking about in a future of course and thinking about continuously
+learning as you go. What are you looking for when you do this customer discovery? You're looking to
+validate your customers, you're looking to achieve
+product-market fit. What's product-market fit? Two things define
+product market fit. The first is that you will
+demonstrated demand from early adopters in
+your early market. That demonstrated demand
+usually means, customers are willing
+to spend money on your product and
+that those customers represent some larger market that there's potentially
+interests from. Also, you want to
+find that customers are passionate about
+your solution. Why do you need
+passionate customers? Well, you want these customers
+to act as references for other potential customers
+again in the future, but also, because your startup, you won't necessarily
+be able to offer all of the services and solutions, and backup that customers
+might otherwise be used to. So if there is this passion, then customers will be
+willing to go with you even if your product doesn't
+solve all of their needs, because it solves the needs that are most critical to them. If you don't have customers
+that are passionate, if you don't have customers
+that demonstrate demand, if those customers
+don't represent a larger potential
+market for you, you don't have
+product market fit, and you go back to
+the first stage. That going back to the first
+stage is called the pivot. So if you've heard
+the word pivot, this is what pivoting is. It means you're changing
+direction based on feedback that you're hearing
+outside of the building, that you're being fast, agile, and opportunistic
+and that you are almost celebrating failure. When you're learning that
+you've done something wrong, you're going to go
+back and change it. You might have to go
+through this loop many times to be successful. Only when your
+product market fit, do you move on to the next phase, the customer creation phase. Customer creation is simply
+the phase of marketing. It's where you start to generate new customers and make
+customers aware of your product by selling
+your product through marketing, advertising, and other methods. You only do this after
+your product market fit, because after
+your product market fit, you actually know the reasons why it's time for you to
+start scaling your product. Before that, you're
+just guessing. After your product
+market fit, you know why customers are
+buying your product, you know what customers
+you're aiming for and then, you can start to scale
+up your company, and only after all of that, in the lean approach, do you
+start building your company. So only after your product fit,
+only if you're marketing, only if sustainable,
+ongoing business idea, do you start to build
+your company out. Now, if you've listened to any of our prior discussions about
+building your company, you'll know that at Wharton, we actually don't recommend
+company building goes last. You actually need to be
+building your company simultaneously as you find product market fit
+and launch your idea, which is hard because you're
+doing many things at once. But we've learned that companies that don't pay serious attention to building company culture, hiring the right people, building out their team, actually run into
+trouble later on. So you want to make sure that you are building
+your company as you go, but it's usually lean method
+that comes at the end. So Steve Blank had
+a student who was also successful entrepreneur
+called Eric Ries. Eric Ries had a realization
+also he said, "Hey look, what's happening when we
+build products now is, we're rarely using
+this waterfall based approach, instead we follow
+approach called Agile." In Agile development, rather than just to
+come with a design, and then going through
+a huge effort, and releasing
+a product at the end, in Agile methods, we're
+constantly releasing products. So you're always going through these series of short sprints, and in those sprints
+what you're doing is, coming up with customer
+requirements, adapting a product, getting feedback from
+a live version of the product, and then going back out
+and adapting it further. A continuous cycle of updating
+and changing products. So this has been happening
+in software for a while, but it's happening
+increasingly in other areas like hardware development, services development,
+where you're constantly modifying
+your product. So if you take this idea of agile development and you take this idea of customer
+development together, that is lean startup. So lean startups is about
+constantly altering your product using agile methods, and altering your market
+that you're going after using these lean methods, customer validation methods
+until you find a mash, until we find product market fit
+between your customers on one end and
+your product on the other. This is the lean startup
+approach that has helped change the way startup
+development has happened. So there's some positives and negatives to
+this approach as well. On one hand, any flexible
+approach is good, but it doesn't need to be lean. If you want to use
+another approach that encouraged experimentation
+that's great also. So don't necessarily fall for the idea that the lean
+approach is the right one. Discovery driven planning,
+which is something I discussed in the first module of this class is another method
+that you can use to do lean experimentation
+without adopting the lean approach overall. Also, there are
+some industry areas where you can't use
+lean approaches. If you're developing
+a new drug or a new car, lean is not necessarily
+great where you need to do a lot of optimization
+testing up front, big design up front or waterfall approaches
+still work best. Also, Lean can be hard,
+lean is exhausting. You're constantly out there
+talking to customers, you're constantly
+adopting your product, you're not giving
+yourself a lot of time to do other things. So that means that building a startup is very hard
+using the lean approach, you only wanted to as
+lean as you need to be. So if we don't have to adopt a lean overall, what can we do? Well, here's a idiosyncratic
+model adopted by Wharton from the work of Eric Ries and
+Tom Eisenmann, and others. In this approach, we're
+going to experimentation, but without adopting
+the full lean approach. So we start off in this approach
+with a business idea which is what you've come
+up with in module one, and now you're going to create a series of hypotheses testing assumptions which we'll discuss
+in the upcoming module. Uses to generate
+minimal viable products which we'll discuss
+in the next module, and then you do a series of
+tests to find out whether or not you've found product
+market fit or going to pivot. So in the future modules, we'll discuss exactly these issues.

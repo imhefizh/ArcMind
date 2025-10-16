@@ -1,0 +1,270 @@
+So we discuss how to use
+customer interviews, which is a relatively cheap way of
+getting information about your idea. We're going to talk today about surveys,
+which is another way of getting information about whether your product,
+service, or venture idea is any good before you actually spend
+a lot of money launching it. Surveys are interesting. They should always be
+done after interviews. Right?
+And that's because you learn more
+about what questions to ask. And they could be very powerful. I do a lot of survey work. I've surveyed hundreds of
+thousands of people and I still get things wrong all the time. So doing this right is hard,
+doing this badly is very easy. And you could think about surveys
+as surveying two purposes. [COUGH] One better than the other. So one method is, as you could see
+still from the famous, four out of five dentists agree commercial that they
+should chew a particular brand of gum. That one way of using surveys is to
+convince people things are a good idea. Four out of the five people we
+surveyed said this is a great product. 90% of people said they would use it. This is something that you use in
+your pitch to venture capitalists or to other customers. And that's sort of marketing. I'm much more interested in how you
+use surveys to learn about your own assumptions, analyze your own business and
+come with more successful results, and I'm going to give you a few tips for thinking
+about surveys, it's again a complicated topic but this will hopefully be
+a useful introduction for entrepreneurs. So the first thing you
+do is find a sample, and I think this is the only math I've
+successfully shown in my lecture so far and
+you don't have to worry about too much. That is how you calculate sample size. It is not something you
+need to worry about hugely. But what you need to know is that the more
+people that you survey the better your estimate of the true value of
+a particular number is, right? So you've seen this in presidential polls
+before that the more people you survey, the shorter the confidence interval,
+the more certain you are of a number. So if you survey a 100 random people. You have a confidence interval of plus or
+minus 10%. So that means if 50% of
+people like your product, that true number can be
+somewhere between 50% and 60%. If you survey 267 people,
+that interval becomes plus or minus 6%. So it goes from 44 to
+56% as a possible range, if 50% is the number
+you get in your survey. If you survey 384 people, that becomes
+plus or minus 5%, and so on, right? So the lesson here,
+I think more than anything else, is survey 100 people or you're not
+really getting numbers that are anywhere close to something that's useful for you. Where do you get the people
+you're surveying? There's really three sets of options. The first of what we
+call convenience samples. So this is the most common kind of
+survey and often the least useful. In a convenience sample you're surveying
+the people you already know around you, friends through Facebook or
+schools, or Twitter polls and trying to get answers back. And the problem with
+this of course is rarely is your group of friends the best
+representative customers. The best counter example I know is a
+successful start up that came to my class called common bond that has
+raised over $100 million and what they do is they refinance student
+loans, especially student loans for people from top business schools. So they survey their friends at work and
+that was actually a useful convenience sample because that
+was their end customers, but in most cases your customers are not
+the same things as your friends. So convenience samples need
+to be used with caution. A second option you could
+do is purchase a sample. This means buying basically answers
+from a more random group of people that are more representative. There are two pretty good ways to do this. One of these is Amazon's Mechanical Turk. Mechanical Turk is a service that has tens
+of thousands of people working for it. They work from home, and for small amounts of money,
+they do short tasks online on Amazon. And so Mechanical Turk is used for
+a lot of different things. If you ever are doing something that seems
+almost impossible for computer to do. It probably is because it's
+not being done by computer, it's being done by Mechanical Turk. So if you take a picture of plate of food
+and you're getting a calorie count back. In most cases that picture is
+being sent to Mechanical Turk, somebody somewhere in the United States or around the world is figuring out the
+calorie count and sending it back to you. So for very complex tasks that
+need to be done by humans, you can do Mechanical Turk to
+do these tasks very easily. For Mechanical Turk you can
+expect to pay for very, very short surveys $0.25
+to $0.75 per survey. For more complicate
+surveys you'll spend more. Think about this as sort of
+minimum wage at a premium. But you could pay for a bunch of
+people to take surveys very easily on Mechanical Turk and
+get a much more representative sample. Google also does a survey tool that's
+relatively inexpensive, and you get some free credits for it with your Gmail
+account, so it could be very useful to do. And they generally let
+you ask one question, but you can pick a very narrow
+group of people to answer this. So Google knows a lot about you. So if you want a particular
+income level a particular region, Google can ask people just from that area. So again you can get
+a great sample that way. If you're looking to spend a considerable
+amount of money, but you need answers about a very narrow area like CTOS,
+of Indian technology companies or people who are interested in
+cyber security, who are buyers. There are a number of organizations
+that will let you hire a professional panels and you could just search for
+how to get a professional panel. And you pay each person involve $50 or $100 plus some fee to get the panel of
+people you want together to survey. So those are all approaches
+to getting purchase samples. You could also use ads to get samples. So you could put ads out on LinkedIn,
+Facebook, or use Google AdWords all are relatively inexpensive to
+actually advertise a survey, you could advertise it with a prize and
+get people to come that way. So these are ways of getting samples,
+convenience samples are easy and free. But not necessarily representative. Purchase samples are much better
+representative samples but they might be too broad for
+you if you're interested in their area. And targeted ads can be very good but
+it can be hard to get enough interest. You have to spend money on the ad side. So brief tips on how to do surveying. The first of these is
+about question types. So demographic questions,
+questions about gender, questions about ethnicity or
+about educational background. You might want to actually put those early
+on in the survey especially if they're not particularly offensive questions. And you might want to do that because
+those demographic questions often set people at ease and they let you compare later on the profile
+of people who took your survey. To the wider profile of
+people in the United States. So that could be a very
+useful set of tools. You generally don't want to ask yes or
+no questions. You want to ask questions that
+have multiple kinds of answers. You use yes/no questions
+only to qualify people. So if you're interested in contacting
+only people who bought sweaters, and we'll talk about a subscription
+sweater service as an example throughout the questions you'll see here. We might want to ask people up front,
+have you ever bought a sweater before? And if they say no,
+we drop them out of the survey. If they say yes,
+then they take the full survey. So only use yes/no questions
+to sort people into groups. And be very careful with
+open-ended questions. So open-ended questions are questions
+that give you an essay box to answer. So it might says something like, what do
+you like about sweaters question mark and they give your a box. There's a few reasons why
+open-ended questions are risky. The first is that, when I write
+surveys I tend to think of surveys as having a cost but the cost is a mandatory. The cost is the attention of
+the people who were taking the survey. So every question you ask cost
+a little bit of their attention and nothing costs more than
+open-ended questions. People hate writing essays and so if you
+give them a box to write a sentence or two, they're going to drop out of
+your survey at a much higher rate. Additionally, most of the data you
+get from open-end questions is pretty low quality. So you'll look through an open-end
+question you thought was very clever and you'll read something like Sesame Cat,
+I like cheese. And you're like,
+I don't know what this means. Why'd someone write this in? So it's very hard to interpret
+these sets of questions. So open-ended should only
+be used very carefully. At the same time you can use
+those open-ended questions for sensitive areas that you may not cover. For example, you're asking about a gender. You would probably want to include a male,
+female and an other box, so people can give you their
+own gender idenity. So even though these box
+aren't being used very much, they could be very powerful sets of tools. To let people feel like
+they have choices and they are being put in a particular boxes. So I want to go through a couple kinds
+of questions and tell you good and bad examples of them. So I want you take
+a look at this question, again we're asking about
+a sweater's cause we're interested in this example of starting
+a subscription sweater business. Not my best idea but
+probably not my worst either. So the question is, given the state of the
+economy, where do you buy your sweaters? Answer a. Amazon b. Mass merchandisers c. Clothing stores d. Other online sites. So I'll give you a second to think
+about what's wrong with this question. There's a bunch of issues here. So one of them is we're asking a leading
+beginning, given the state of the economy. So that's putting people to think
+about the state of the economy. That's not really relevant to a question. We are assuming they buy sweaters. They're not given the option
+of not buying sweaters. We're not giving the option of thinking
+about other choices that don't fit into these buckets. People may not know what
+a mass merchandiser is. And we have a bunch of different questions
+that ask me about different kinds of stores with known examples. How could we make this question better? How about this one? Wherever you bought the most
+sweaters from in the past 12 months. Now we've downloaded the question. We're asking the same thing but we're
+asking it over a particular time span and our answer is now Amazon,
+other online sites. So they're right next to
+each other as comparisons. Physical mass merchandisers
+such as Costco, Walmart, etc. Physical clothing stores such as GAP,
+Lands End, etc will give you options. I haven't bought sweaters
+in the last 12 months. And while letting them choose other
+options that might work for them. So is the better question because we've
+now specified exactly what we're asking. We've improved it in terms of
+the kinds of questions we're asking. So this is an improved version,
+maybe not perfect, but better. Here's another kind of question I see
+very often, which is a rating scale. It is hard to find the right sweater. Rate how much you comparison
+shop before buying a sweater, 1, 2 3, 4, 5, 6, 7, 8, 9, 10. So what's wrong about this? So again we're being leading here, right. We're saying it's hard to
+find the right sweater. That makes people feel bad that
+if they don't comparison shop, so thinking about this. It's hard to know what
+the question's asking. What does it mean to say rate
+how much you comparison shop. What is how much you comparison shop? And a one to ten scale's
+a very large range. And that could be a problem because people
+go through end point of advoidance. They don't like to answer one or ten. They'll end up reserving one for a sweater experience that involves
+them being stabbed and ten for a sweater experience that involves literal
+angels singing their praises, right. So they'll tend to not answer one or ten. Also it's not clear what one and
+ten mean here. What does it mean to be a one? What does it mean to be ten? What's better what's best? So a better way to answer this would be
+using what's called the Likert, or so what it's called Likert scale. How often do you comparison
+shop before buying a sweater? 1.never, 2.rarely, 3.sometimes,4.most
+of the time,5.all the time? That agreement disagree scale with
+that range is the Likert scale, it is a much better way
+in getting the answer. And notice also in the middle point here,
+it's very important for a scale type of middle point a three
+in this case sometimes which is a neutral point [COUGH] and you're trying
+to measure differences from that neutral point which can be really powerful way
+to asking these sets of questions. So those are two better ways
+of asking common questions. The other thing that I get asked
+a lot is to think about pricing, so surveys for pricing. So, take a look at this example. How much would you pay for a great new
+sweater delivered to you every month? $5, $10, $50, or $200. You'll notice there's a few problems. First of all, there's the fact that I
+haven't shown you what the sweater is. There's no real example it's not
+quite clear what sweater you're getting for this. But then think about the pricing area, so
+you may think that part of the problem is that the prices are too spread out and
+that's right. The pricing is kind of odd here but
+the bigger issue is that you can't just ask people pricing and
+expect them to give you an honest answer. The problem is that people will again,
+no one wants to seem like a sucker in these deals, so
+no one is going to pick $200. Even if they'd spend $200 on a sweater. And they may, and, as soon as,
+again, you've shown them pricing, it becomes a negotiation. So they're trying out to figure
+out what price they should pay. They want to answer correctly. They're not showing you what
+they really want to spend. And it's been shown that this kind
+of question is not useful for figuring out pricing at all. In fact most easy methods to figure
+out pricing don't really work. I'll give you one technique you
+can use without a lot of math, which is called monadic pricing. So monadic pricing we're avoiding
+setting expectations for price, which is one of the big
+problems we're giving people. Why don't you just tell
+people it could be $5? It's very hard for
+them to be willing to spend 200. So monadic pricing we ask the question,
+and in this case it's slightly improved, how much would be willing to subscribe
+to a service for $20 a month. It sends you a sweater every month like
+the one below and we can show pictures. So the question's clear. But what we're also doing,
+is that $20 a month, which is the pricing. Everybody who takes this survey is
+randomly shown a different price. Right, so there might be $20 a month,
+$50 a month, $100 a month. So people aren't anchored because
+they're only being shown one price each. In this case, that $20 price. And so, this is a way that you could
+start understanding how demand changes when half the people that take
+your survey see $20, half see $50. How much of a loss in terms of interest
+you find as you move from $20 to $50. That's monadic pricing. That works really well. What you can't do are other approach. You can't do a pricing ladder
+that does not work very well. A pricing ladder would be one where
+you ask people will they spend 200 for the sweater. If they say yes, you say,
+would you pay 500. If they say no, you say it would be 250. Again, you have the anchoring
+problem that does not work well. The Vaughn/Westerdorff approach, which is one of my favorite names ever,
+asks four pricing questions. How much would this have to cost for
+you to think it's a bargain? At what price would this start to
+seem like it's too good a deal, and something's wrong with it? And what price would this seem high? At what price would you never buy? And that has problems that makes
+it very hard to implement. And it's very hard to ask an open-ended
+question, too, where you would just say, how much would you pay? Again, that ends up being problematic. There is a better approach,
+and if you take the working class of marketing analytics,
+you'll learn about conjoint analysis. It's fairly complicated. There's no easy way to do it. But conjoined is the best way
+to get pricing information. It's just more complicated
+than most people engage in. Even people in my class who know
+conjoined tend to use it only for rare circumstances. So I'd ask you to think about conjoined
+if you pricing is a big deal and features are a big deal and
+you want a survey about that. That's the technique that
+you'd want to use, but it's not something we'll
+go into hugely here. So how do you you know you're
+asking good questions aside from using the techniques we just talked about? The most important thing
+to do is a pre-test. You need to give people the survey and,
+ideally, you're going to sit down with a couple
+people who will take the survey and ask them to take it while you're there. And ask them to narrate as they go. So this will give you a sense of,
+as their filling out questions, do they think a question is good or bad, do they understand the question,
+how long is it taking. And then after awhile you'll send that
+survey to a small sample of people and get responses from them. What you're looking for in results,
+to tell you whether it's good or bad, is interesting. So the first thing you're looking for
+is variance. What I mean by variance is you want some
+people to be answering ten to a question, and some people answering one. The reason you want to do that is if
+everyone is telling you they like your product, you're not getting any insight
+into why some people might like it and some people wouldn't. So you're probably asking
+the questions too leading. You want questions with
+multiple kinds of answers. You want to understand if people
+are comfortable with answering the sets of questions. Are they answering things
+in the right kind of way? Are questions making them nervous? Are they frustrated because they want
+to answer a different option than what's available? And you want to look for
+issues of annoyance and bias. Like I told you before one thing I learned
+about was asking about gender questions. So I did these fairly large surveys and
+the first surveys I did I asked gender and I asked whether people were male or
+female. And I got some frustrated
+replies back saying that I don't identify using these genders,
+I don't want to take your survey. And that's fine, it's well within
+those people's rights to do that. By adding in a box that said other and letting people fill that in,
+my response rate actually went up. And not only did my response rate went up, even though very few people actually
+filled out that box, most people felt more comfortable that I was asking the right
+sort of questions without bias. You also want to figure out timing. How long does it taking
+people to do the survey? You can give people an accurate estimate. When you're done, you need to
+think about your response rates. So when you analyze the results of your
+survey, if you have less than 20 people responding, you need to think
+about biases in response. If over 20%, as a general rule of thumb,
+this is not for every field, but in entrepreneurship,
+I wouldn't worry about it too much. And then you can use those census
+questions you asked about gender and about geographic area and income and
+education to compare the sample that took your survey to the general
+population to figure out whether or not your samples are representative and
+you could just use census data which is freely available to see whether or
+not there's a representation there. The last thing I urge you to do again, there's other classes that we teach at
+Wharton on this that you can find online. Go beyond just reporting numbers, just reporting that 50% of people
+said this, 20% of people said that. And actually think about running a rush
+analysis to figure out what the causes are, of the various kinds of
+answers that you're getting. So surveys are a really powerful tool, but doing one badly doesn't
+give you much information. It just annoys a lot of people
+that you're sending it to. So spend some time
+thinking about surveying. They're a very powerful tool and
+in the toolkits of entrepreneurs. They're not always
+intuitive doing it badly, takes very little time,
+doing it well takes a little bit more. But you can get really great results that
+are very powerful predictors of customer behavior in the future.

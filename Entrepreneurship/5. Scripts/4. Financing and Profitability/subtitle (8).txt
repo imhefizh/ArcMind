@@ -1,0 +1,341 @@
+One of the more exciting ways of
+raising funds over the past few years has been crowdfunding, which I spend
+a lot of my time studying and researching. So, I wanted to give you an overview
+of this exciting area of fund raising. Give you some of the earlier results from
+my research that might help you think about crowdfunding as a way of raising
+money for your start up, and sort of outline what I think some of the changes
+are going to be in the next few years. So if you watched my other lecture we
+talked a bit about how the world of funding is evolving. And that's being driven by the decreasing
+cost of launching a startup company, so the cost of launching a web based
+start up is followed by about three orders of magnitude
+since the late 1990's. We've seen similar interesting things
+in the launch of hardware companies and other sorts of start ups,
+basically there's so many more options available because the cost
+of raising money has been dropping. So we used to only have VC's and angel
+investors as options for fundraising which meant that you had to give up a large
+portion of your company to get money. But as the amount that you need to
+raise has dropped to launch a company, we had super angels enter the market, which are angel investors who
+make just early stage deals. And then seed incubators,
+like y-combinator and TechStars, that bring in promising companies in
+the very early stages of development provide them mentoring and give them
+some money for a small amount of equity. And then most recently,
+we had the rise of crowdfunding. And crowdfunding is exciting because it
+lets people go directly to their potential customers and raise money from them
+about products they're interested in. And crowdfunding is also interesting
+because while all of these other forms of fundraising, like VCs or angel investors have really relied on
+insiders, on having people who already were involved in the investment
+community giving money to your startup. Crowdfunding actually
+uses online communities, groups of individuals giving small
+amounts of money to make funding happen. So, it's a really exciting,
+interesting idea. It's much more democratic than
+these other forms of fundraising. So like many other new Ideas the term
+crowdfunding can often have multiple meanings, as we're sort of sorting out
+what is and what isn't crowdfunding. But generally, there are four
+types of crowdfunding out there. All of them involve reaching out over
+the internet to a large group of people to give relatively small amounts of money to
+you to help launch your business or idea. So we have equity crowdfunding and
+reward based, which I'll explain more about in a second. These are the two main
+categories that you've heard of. But there's also peer to peer lending like
+prosper.com where people give you loans online and then there's just charity or
+patronage based crowdfunding where you may raise money for a particular cause or
+campaign or for charity. So all four of these things
+are crowdfunding, but the two that are actually interesting to
+you as a founder of a company are either equity or award-based crowdfunding. So, equity crowdfunding
+is raising money and giving a percentage of your
+company away over the internet. And that's a relatively new form. And reward-based crowdfunding, if you've
+heard of Kickstarter or Indiegogo, there are many others, that is where
+you're raising money from people, and in return for raising that money, you're
+going to give them a product or a reward. So that might be the first copy of
+your new album, that might be a ticket to your play, or that could be
+the 3D printer once you've built it. And so in the equity crowdfunding
+space there's a lot of flux right now in the United States, so some countries
+this is legalized, in some it isn't. There's a series of complicated
+regulations in the FCC, which is the regulating body for
+the securities in the United States. There are three different titles
+under which crowdfunding, equity crowdfunding can be issued. So there's a Reg A+, which allows
+people to raise money from anybody. But it's very expensive and no one's
+really doing very much of it right now. There is Title II crowdfunding,
+which relies on accredited investors. So these are individuals in
+the United States who have very high levels of income and
+high levels of savings, and they're allowed to make investments
+that other people aren't. And then the area that's causing
+the most excitement right now, and is coming live in the United States
+in 2016 is Title III, which has a $1 million limit, and is more widespread, so
+not just limited to accredited investors. These are still very early stage,
+we don't really know what's happening here at this stage they're
+still heavily curated. So the platforms are launching,
+equity crowdfunding campaigns are picking which companies they
+actually want to list. Unlike Kickstarter where
+anyone can list a project. So equity crowdfunding is very promising
+but at this point it's still very confusing area where it's not
+clear who the winners are. And I would expect that through at least
+the middle of 2017 this area to be influx and not a particularly good bet for
+first time entrepreneurs. On the other hand, the reward based
+crowd funding kick starter Indiegogo, these ideas that I'm
+going to raise money and in return I'm going to give you something
+have been incredibly successful. So, they've raised billions of dollars,
+and they have proven to be very successful
+ways that people launch a company. So reward-based crowdfunding is where I'm
+going to focus most of our attention and I'll return a little bit to equity
+crowdfunding near the end of this lecture. So crowdfunding is interesting because
+it's actually become a very powerful source of new innovation and
+new companies. So I have on an Apple watch here but
+the wearable computing phenomenon was basically dead after
+some experiments in the early 2000s with computer watches until Pebble came along
+and launch its smartwatch on Kickstarter. Similarly, virtual reality was to
+considered to be something that no one was interested in until Oculus Rift
+launched its startup and eventually sold itself for
+$2 billion to Facebook. 3D printing has come in large part
+from places like Kickstarter, as have some really innovative ideas for
+how you can scan and measure a [INAUDIBLE] food,
+do fitness apps. So it's been really exciting and interesting area where lots of new
+companies and new ideas have come from. What's important to realize
+about crowdfunding, is that crowdfunding is
+not just about money. In fact, when I survey people that
+why they're seeking out crowdfunding, money is only the third or fourth most
+common reason why they're seeking funds. The biggest reason for seeking funds are because it either let's
+them figure out what the customer base is, the people raising money or it let's
+them build a community of interest. So get people excited about a product or
+it helps them get press. So money is an important part of
+crowdfunding, but it's only one piece. You're also advertising your company,
+you're getting some early traction and testing, whether or
+not people are interested. So it serves many different functions. And this shows you here some of
+the answers from a survey that I did looking at what people
+get out of crowdfunding. And what you could see is the main
+benefits to crowdfunding from people tend to be changing views about products,
+developing an exciting customer base, and bringing attention to a product. So, those are the areas where crowdfunding
+can really offer the most benefits to you. One important thing to realize about
+crowdfunding is almost all of the other lectures we're talking about are about
+pitching one group of people, venture capitalists. We've talked about in earlier lectures how
+you pitch companies, how you pitch VCs. So crowdfunding is interesting
+because you're talking to communities. And when you think about what sort of the
+big communication revolution of the early 2000s was,
+it was a birth of real online communities. So you follow people on Twitter and
+you know what they think. You communicate via whether its Reddit or
+Instagram or whatever sort of community that you used where you have a actual
+virtual group of people that you care about who share a common interest with
+you and you may never meet in person. So these communities will always
+communicate with each other. What they haven't been able to do is reach
+out and touch the real world in any way. But crowdfunding allows
+communities to support projects that they find to be worthwhile. So let me show you how this works
+with a little pop quiz here. So these are four movies that were
+listed on crowdfunding site Kickstarter, four proposals for movies. And I'd like you to guess which one you
+think actually got the most funding. So the first one is a documentary
+film about Bronycon, so bronies are people who dress up as
+children's characters from the cartoon My Little Pony, Friendship is Magic,
+and they go to conventions. So these people believe in
+the underlying ideas of love and magic of this children's cartoon. And there are adults who often dress up,
+adult men who dress up with these and go to conventions about it. The second is, a beautifully animated
+film that features some mythology. The third is, a documentary
+about hunting down Adam Sandler, who's a famous comedian and movie star. And then fourth is,
+about a computer hacker and a thriller. So based on what I was
+saying about communities, which of these do you think is going
+to be the most likely to be funded? So, the answer turns out to
+be the BronyCon documentary. Because the issue is,
+that these people who actually care about this children's cartoon and
+care a lot about this group. And feel like they're doing
+something important and special by being a part
+of this online community. Often feel that they're not
+being paid enough attention to, that they're being mocked online. So when somebody comes forward and proposes an idea to film
+a documentary about them. That's going to be accurate and
+is going to be sympathetic, that community responds and
+they raised over $300,000 for this movie. And through 2013, this was actually
+the most funded movie on Kickstarter, so you could see how it's not
+about just being a good idea. It's about appealing to a community, a
+base of people, who care about your idea. And you can activate to make people
+interested in your product or service. So, and this happens, not just in that movie though, it did
+come out and apparently you can watch it. But also even things like 3D printing, which are areas that maybe don't
+have large scale commercial appeal. But there's a community of people
+who care a lot about this and are willing to spend a lot of
+money to fund these ideas. So, crowd funding as about
+activating online communities. If you're not apart of a community, if there is no group of people
+you've built in and interested. That you already know
+about in your product, Crowdfunding may not work as well for you. One of the important questions
+of crowd funding is, what are the crowd funding
+backers are looking for. We find increasing evidences in my
+research that the crowd is looking for quality, just like investors do. So, I want to just tell you about
+a research project that I did. I was [INAUDIBLE] of Harvard Business
+school, that is exactly this issue. So, we were interested in the fact
+that in crowdfunding there is a, there's sort of two ideas of the crowd
+that you often hear people discuss. And so one of them was made
+popular in a 2004 book by James Surowiecki called
+The Wisdom of Crowds. And he argued, that crowds together get to
+make better decisions than individuals. But there's a book,
+it was written 100 years before. Called Popular Delusions and
+the Madness of Crowds. It suggested when you get big crowds of
+people together, you get witch hunts and fads and manias. So, the question becomes
+important in crowdfunding. Which is it?
+Are the crowds rational and wise? Or are they mad and insane and
+prone to sort of manias? So, we did a study to look at,
+to find out more about this. And we picked an area where there
+was the most subjectivity possible. So we figured areas like technology,
+there's a lot more objectivity, but what about something like theater. And what the motivating factor is,
+that as of 2012, more money goes to
+the arts from Kickstarter. Than from the National Endowment
+of the Arts, which is the U.S. government agency that funds the arts. So the question is, what happens
+to the arts as a result of this? So what we actually did was,
+we brought together a panel of experts. Who were judges for contests like
+the ones the National Endowment of the Arts puts on,
+who judge theater grants. And we asked them to judge a number
+of different Kickstarter projects. So, we picked 120 Kickstarter
+projects that we knew had failed or succeeded or not. And we showed the experts the pictures
+to see whether they would agree with the kinds of decisions that
+the Kickstarter backers made. And initially the experts were very
+skeptical that the Kickstarter backers would pick good projects. What we found is, that more than
+60% of the time the crowds and experts actually agree with each other. And the more successful the project was,
+the more likely it was that the crowd and experts are going to
+agree with each other. Even more interesting is,
+when there is a disagreement, 75% of the time when the crowd and
+experts disagree. Is because the crowd is more willing
+to fund things than the experts were. So, the crowed is actually more willing to
+give money away, than the experts were. And both groups were looking for
+similar levels of quality. What was really interesting then is, we
+tracked these projects in the long term to see what happened next
+after they launched. And we found that the projects
+that both the crowd and expert agreed on generally
+were staged successfully. So when I say success from the slide, I mean that the production
+was successfully staged. It did not shut early but
+it also was not a big hit. So the expert and crowd case,
+there was one big hit out of the data set that we had and
+everything also has successfully staged. For the things that the crowd
+like that experts didn't, what interestingly happened,
+first we only had failure. In this case, it was a production where
+the New York Times wrote about it. While I was watching it, I tried to think of something good
+to say about this production. And I finally decided that the font
+on the play books was pretty nice, so very big failure,
+shut down after a single production. But everything else was success, except
+that the crowd actually was better able to select both artistic and
+commercial hits than the experts alone. So the crowd actually picked out
+the things that later won major theater awards, and the experts
+would have passed on those ideas. So all those suggest that the crowd is
+actually pretty wise in making these kind of decisions. And I've actually done some other research
+looking at exactly this set of issues. And trying to look up
+issues that the crowd might agree with experts on ininvesting. So, we know things that investors look for
+in a start-up company. They look for endorsements, so
+outside groups that say that a project or an idea is good. They look for experienced teams,
+they look for people who've shown progress with
+their prototypes and other things. And I've had every one of those factors
+also predict success in crowdfunding. So for example, having a spelling error, one spelling
+error, in your crowd funding campaign. Actually decreases your
+chance of success by 13%, so there are very big impacts to
+having a low quality campaign. On the other hand, I tried to look at
+things that the crowd might like that experts don't care about. So things like, the internet
+enjoys things like cat videos and discussions about bacon,
+at least in The United States. Turns out, those things don't
+predict success on Kickstarter. Saying that you're a geek or a nerd
+doesn't really have much of an effect. Though, there's a slight
+positive indicating that you're geeky about something. And even pop-culture things,
+like mentioning Star Wars or Star Trek or Super heroes,
+none of that leads to success. So all of our evidence seems to say, that quality projects are what
+the crowd is looking for. Ideally, ones linked to a community. And so, that's what you should be thinking
+about as you consider crowd funding as your approach. So a little bit on how to do it. First off,
+what you're seeing here are graphs. On the left side is, the pledge
+levels of successful projects so the one line means they raised
+exactly as much as they wanted. And you can see scaling to two,
+which means, they raised twice as much as
+they wanted in a campaign. And on the right side is failed projects,
+so the one here indicates the project's funded, zero means they
+received no funding at all. What you can see is, that success
+happens by small margins and failure, by large margins. What that means is, that your unlikely to
+raise many times your successful goal. And so, you need to think about setting an amount of money that you
+are trying to raise through crowd funding. That is appropriate for what you're
+trying to accomplish as a project. And you need to be careful that you're
+not hoping to be a ten time success. You might be, but as you can see here,
+the odds are rare. So, you should think about how you set up
+your goals to build yourself for success. The bigger the goal that you have,
+the lower your chance of success. But there could be more benefits, so
+you have to trade off on in these things. So another tip is, remember we're talking to the value
+of community in crowd funding. And when I ask people about why their
+campaign failed for those who did. The number one and
+two reasons listed for failure was, that they didn't really
+understand their target audience. And they didn't market to the target
+audience appropriately, so if you do crowd funding stuff. You need to be able to know
+your target audiences. Get them excited about your product and be
+part of, or know the community That you're trying to sell your product to and
+network connections matter a lot. So I actually taking an average
+project in the film category, I found that if that group had
+10 Facebook friends, if that person pitched their product to 10 friends
+they'd have a 9% chance of succeeding. A 100 friends a 20% and
+a 1000 friends at 40% chance. So there's a huge impact
+in having a lead network. And that is the basis of
+your crowdfunding campaign. In my surveys I found this
+is not a easy part-time job. People spend an average of 30 hours a week
+working on their campaign, both before, during, and after. So that number doesn't fluctuate much. It's 30 hours setting up the campaign
+a week for about 4 to 6 weeks. About 31 hours while the campaign's
+in session, and about 31 hours a week afterwards, fulfilling
+the obligations of the campaign. So this is not something you can
+do casually, if you do real work. About two-thirds of the cases
+are done with teams. So you might want to think about
+who you could join up with. And then, spending time making sure
+your project is good makes a difference. So high quality videos, pitching your products seem to
+have a big impact on success. Posting frequent updates
+to your communities, seem to have an impact on success. Also, You can think about
+these sets of issues. Unfortunately, my data doesn't show
+much value in getting outside help. So I wasn't able to measure whether
+outside consultants help your campaign succeed in the first place or
+not. But if your campaign succeeds,
+there's no statistical effect of hiring outside consultants on raising
+more money than you anticipated. So outside consultants may help
+you kind of organize yourself. But they're not going to be the keys
+to running a giant campaign. You're going to have to do this
+starting with you, and your community. I would continue to wait, and
+see on equity crowdfunding as I discussed. So there's a thousand platforms that are
+currently lined up to compete in a space that right now is still mostly being
+done through, qualified investors. And there will be specific areas
+where there will be some impact. So we're seeing in real estate investment,
+the crowdfunding for equity is becoming more important. In some cases, like AngelList, which is a particular platform that
+is some sort of funding happening. But we're still in the very early days. So for right now, if you're watching this
+anytime in 2016, I would urge you to kind of think about waiting and seeing on
+whether equity crowdfunding's appropriate. And if it's later than that, you'll have more evidence to that point
+whether this idea's working or not. Equity crowdfunding is
+potentially really powerful. But the way its being implemented by
+the SCC, and by the platforms, may or may not be conducive to
+entrepreneur activity. I'd like to wrap up with some statistical data that we have on how you can
+get the most from crowdfunding. So, what this shows you is a chart
+showing various factors on one side and then showing, do those factors
+lead to a successful campaign? Do they lead to additional funding
+that happens after a campaign's over? Do they lead to additional
+benefits from a campaign? Like a campaign helping you better
+able to raise fund and money, being able to better find employees, or
+some other benefit to your business? And finally, does this factor lead
+to delivering a product on time? And what you could see is, successful campaigns, the larger your goal
+the less likely you are to be successful, which makes sense because you're
+trying to raise more money. If you get Kickstarter, or whatever site you're on, to feature you
+that advertising boost helps quite a bit. And having a lot of Facebook friends, as I
+mentioned, can also be very helpful, and also helps if you have
+an industry background, then it makes you credible in
+raising funds in a particular area. Now once you've raised the money, there's
+a bunch of things that might get you addition funding after
+a Kickstarter campaign closes. So, I found something
+around 12% of companies raise additional money after Kickstarter, either from bank loans or from venture
+capitalists, or angel investors. So, if you had a big success, if you
+raised a lot more than your intended goal, that increases the chance that you're
+going to get additional funding. If you have the right kind of background,
+again if you have industry experience, you're more likely to get additional
+after your crowdfunding campaign. And, this is where business
+plans actually matter. The more complete your business plan, the
+more likely you are to raise additional funding after your Kickstarter campaign. In terms of receiving additional benefits,
+the same stuff matters, right? Having a big goal, being very successful,
+being featured, having the right kind of background, having people endorse you,
+even having business and financial plans all tend to lead to you getting
+additional benefits from the campaign, additional press after the campaigns
+close, being able to hire employees, getting company alliances, so
+all these things can help you. And then finally by
+delivering a project on time, I find that the actual failure rate
+on Kickstarter is quite low, and around 9% of projects in
+Kickstarter failed to deliver on. But delays are quite common, and
+you're more likely to be delayed if you're a large project, or you raise a lot
+more money than you expected. But the more complete your planning,
+that reduces the chance of delay. So there's a lot of stuff here,
+and I hope it helps you think about crowdfunding as a campaign for
+you as well. And there's still a lot that
+we're learning about this. But it's a really exciting, interesting
+idea of being able to show traction, get customers involved in
+your product early on, and being able to raise money
+without having to give away equity. So I think crowdfunding is something
+certainly worth considering, especially if you're producing a physical good or
+product or something aimed at consumers. So this won't work well for
+Enterprise software. This is not going to work well, if you're trying to build something
+that's business to business. But if you have a consumer oriented
+business, and you have an innovative idea, crowdfunding is something
+you should consider.

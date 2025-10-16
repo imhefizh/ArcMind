@@ -1,0 +1,313 @@
+This session is on
+Allocating Equity Among Team Members. Let me start by giving you an example. And then I'll explain what equity is and
+how to allocate it. This is the founding team of a leading
+mobile phone provider in China called Xiaomi. And Xiaomi was founded
+by eight individuals. That was a really dream team that
+came from the Silicon Valley elite from companies like Microsoft and Google. And the founder, the CEO, sitting in the middle here is Jun Lei
+who is now a celebrity in China. When these eight people came together, they had to figure out what did
+they bring to the table, and how would they share the rewards if
+they eventually became successful. That's the essential challenge in
+allocating equity in the start up team. By equity, we mean an ownership or
+profit interest in the new enterprise. Most new ventures involve several key team
+members, and there's an interest, there's some value in having those team members
+share in the ownership of the venture. That's usually valuable for
+several reasons. First, it's typically required
+by outside investors. Outside investors want to know that the
+management team shares their incentives to create an enterprise of tremendous value. It also allows the enterprise to pay
+the team members with profit interest, or shares, as opposed to with cash. Cash is typically the most scarce
+resource for the new venture. And lastly, many individuals who were
+attracted to entrepreneurial ventures are also motivated by
+the possibility that if they're really successful they might get
+an outsize financial reward and that's only possible if you
+have equity in the new venture. Now to explain what equity is,
+I need to explain the concept of a capitalization table which usually
+just goes by the term cap table. A cap table is simply an accounting of the
+shares of the company and who owns them. I'm going to show you just a very typical
+although somewhat simplified cap table. Typically, the founders would
+own some chunk of shares. Here, I've shown the founders owning
+500,000 shares, which represents half of the shares that are authorized,
+so they own half of the shares, or 50%. There's usually some reserved shares for key team members who are hired
+after the founding event. So for instance, this might be
+the vice president of marketing, or the vice president of sales, and in this case I've shown 100,000 shares
+reserved for those key employees or 10%. There's usually then something
+called an option pool, which investors require that you set
+aside for compensating future employees. And so many of you have probably heard
+of someone joining a tech start up and getting options or stock options. And stock options come out
+of this pool of shares. That's usually required by the investors, before they'll put money
+into a new venture. Now just as a somewhat arcane aside,
+options usually are, just as that term implies,
+an option to purchase shares, as opposed to an outright
+grant of the shares. That difference is really mostly relevant
+for the tax treatment, and in countries like the United States, where a grant of
+shares might be taxed as ordinary income. In order to avoid that,
+most companies will allocate options to employees which don't normally suffer from
+being taxed at the time they're issued. And then the last category of shares is
+the shares allocated downside investors. In this case, I've shown that as
+300,000 shares representing 30% of the shares that are authorized. So this is a cap table. Now I'm going to go through
+each of the lines here and just say a few words about how they're
+established, how they're allocated. And then we're going to turn to that top
+row, which is the founders' shares, and how to allocate those
+shares across the founders. Let's start with the outside investment. Now the outside investment, the number of
+shares allocated to outside investment, is determined by two things. The first thing is how much money
+the investors put into the company, and the second is, what the value of
+the company is before the investors put their shares in, and that's a term
+you've probably heard, called valuation. And in particular,
+the pre-money valuation. That is, what's the value of the company,
+what's the imputed or implied valuation of the company before
+the investors put any money into it. So just in this example, let's assume
+that the company arrives at a valuation, usually in negotiations with
+it's investors of $700,000 US that's before any new money is put in. Then the investors invest $300,000 so now what the company has,
+is it has $700,000 in value. That was the value it had
+before it got the money. And it now has $300,000 in
+the checking account, and so its total value is now $1 million. And because the investors provided
+300,000 of the total value of $1 million, they own 30% of the company, so
+that's how that number is calculated. The second issue here is how
+to allocate the option pool. The option pool, just by convention, is usually established to be about 10%
+of the shares that are outstanding. And that's usually just
+a requirement of the investors. The investors want you to set aside some
+shares so that you can compensate future employees, give them some incentive
+to increase the value of the company. It's usually established by negotiation. Those shares may or
+may not be issued in the future, but they have to be shown on the cap table. And if you've ever heard
+someone discussing cap tables, talking about share price on a fully
+diluted basis, for instance, that notion of full dilution means that
+you assume that all of those options were issued, and you use those shares
+in the calculation of share price. The next piece is the equity allocated for
+key team members. This would typically be vice
+president of marketing, for instance, vice president of sales. The number of shares here is usually
+established by the market conditions, that is what you have to offer to be able
+to attract the right people to your team, and also to some extent when
+they joined the venture. So if these are very late hires, after
+the company is already up and running and quite valuable. You might need relatively few shares here. But if it's right at the beginning, typically a fairly large number of shares
+have to be allocated to retain and attract the key members of your team
+who aren't necessarily founders. All right, that's all background that
+leads us up to this key question which is a of those 500,000 shares
+that are shown here in the cap table as going into the founders
+how do we determine, how many of those shares each member
+of the founding team actually receives? So let's turn to that question. As background I want to show
+what typically the founding shares look like before and
+after financing. So often at the very beginning of the
+enterprise or after the founding team has worked on it for a little while
+is when you actually establish, you assign the equity
+to the founding team. And let's just say for the sake of
+argument that shown here on the left, we valued what we have when we start
+the company at about $300,000. Now, at the time of investment we have
+the cap table as I showed previously. And I showed the value of what the
+founders began with plus the equity for key employees plus the option pool for future employees plus the equity
+purchased by investors. Now notice that in this example
+I've shown that the value of the company at the time of
+founding was about $300,000, but by the time investment came in,
+if the team is doing its job, it's actually increased the value of
+what it has, of what it started with. And that's why I show that line moving up. And so the value they started
+with was about $300,000. At the time of financing it,
+the time that CAP table was computed, the value I estimated at $500,000. Now of course,
+this is just an illustrative example. The specific numerical values for
+your company will differ widely. And so, you should think
+of this just as an example, to walk through some of the arithmetic. So now I want to go back to that founding
+moment when the founding team is sitting there looking at what they have
+and saying okay, how do we divide this up? Now, if you think about it,
+what should determine how those assets or how those shares are divided
+among the founding team? Well, it's really,
+what did the founders bring to the table? What assets did they bring to the party? And those assets you can think about as
+occurring in three different categories. The first category would
+just be the original idea. Who came up with the idea and
+developed the opportunity and perhaps developed alongside that
+some intellectual property? Maybe a product design, maybe
+an algorithm, maybe some market research. Some original intellectual property that
+formed the genesis of the raw opportunity. That's the first category of
+assets that founders bring. The second category is what we call sweat,
+and that's short for sweat equity. And sweat simply means the effort that the
+founding team will put into the venture without cash compensation, and so
+that's why we call it their sweat. They're earning equity in
+the venture through their sweat, they're not being paid cash and
+instead they're being paid in effectively a share of the future
+profits or future value of the company. And then the third category is cash. And no matter how you slice it, the
+founders almost always have to reach into their pockets, or
+put some money on their credit card, and come up with some money to
+get the venture started. It's usually not the bulk of the money
+required to capitalize the business, but there's almost always some
+cash requirement, and there's really no choice but for the
+founders to come up with it themselves. Now, of course there are no
+real algorithms for precisely estimating the value of those three
+different inputs for every situation. There is still some bargaining and
+some negotiation that's involved among the founding team members
+in order to come to an outcome. But, these are the basic principles. What did everybody bring to the table and what was the value of what
+they brought to the table? So now I want to go into a little more
+detail on how to actually calculate that, and really how to think about it. To do that,
+we really need to talk about the sweat. The sweat is one of the things
+that's hard to value, and I want to give you the approach that
+I've taken in several new ventures, and I've seen others take it as well. I think it works quite well. And it essentially starts with,
+what's the market value of the labor that the founders will be
+devoting to the enterprise? So, for instance, let's imagine
+that someone is quitting their job. And they're quitting their job, let's say, as a product manager working
+at a relatively large company. And let's say they were being paid
+$100,000 per year, in that job. If they then devote a year of their time, then logic would suggest
+that that's worth $100,000. The market has just paid them $100,000 per
+year for similar kinds of services and now they're going to perform those services
+for a new venture without receiving cash. And so logically,
+that should be worth about $100,000. So, that's the notion of using
+the market value of services in order to establish what is
+the sweat really worth. And that allows you to accommodate the
+fact that different people actually have different market value. If you need to hire a sales person, sales
+people are often paid very differently than, say, software engineers
+in different industries. And so it allows you to use their
+market value in similar roles, perhaps currently or in the past, to establish the value of the inputs
+they're bringing to the startup. However there's a challenging issue here,
+which is, those who were providing the cash
+to the venture rarely want $100,000 of their cash
+to be $100,000 of sweat. They've view the sweat as a little bit of
+sort of what we might call funny money. It involves some sort of soft
+calculations, and so for that reason, there's often an adjustment
+that values a dollar of market value of sweat at less
+than a dollar value of cash. And let me give you the arguments for
+that. The argument is basically that $100,000 of
+sweat is worth less than $100,000 of cash. Here are the three main arguments for
+why that might be so. First, often people don't quit their jobs,
+and so what they're really doing is they're using
+their free time to work on the startup. And people often value their free time
+at less than they value their salary or their wages. And not only that, they're often
+not giving you their best hours. They're not giving you the same hours
+they're giving in their day job. And so that's one logic for
+valuing the sweat. It's perhaps slightly lower than the cash. The second argument, it's a little
+bit of an arcane tax argument. But cash investments are made
+with after tax dollars. So when you invest $100,000, those are your hard earned dollars
+after you paid taxes on them. The sweat is usually
+calculated on a pre-tax basis. So for that reason,
+investment's after-tax, sweat is pre-tax,
+you need some adjustment. And then the last reason that sweat is
+often valued at a lower rate than cash is that cash is king. Cash is usually the scarce
+resource in the startup, so cash is the hardest thing to come up with. Sweat, less so, and so for that reason, we often value cash
+at more than we value sweat. So let me walk you through a typical
+calculation, how to value these inputs, and how to end up with the allocation. So let's imagine we have three partners,
+founding partners, Claire, Huijing, and Sanjay. These are our three partners, and
+Claire actually had the original idea. And so Claire brought the opportunity and
+the idea to the party. She brought the others together to say,
+hey, let's go work on that. And so we're going to put a value
+on that opportunity identification. And somewhat arbitrarily, because I
+haven't even said what this venture is. I've just put the value of $100,000 here. This piece is going to be
+a negotiation among the partners. What is really the opportunity
+worth relative to the sweat and cash that we're putting in? I put in $100,000, but obviously if
+Claire had invented a cure for cancer and had a patented molecule, we would
+value it at much more than $100,000. And if all she did was buy
+people coffee and say, hey, I've got this idea for
+a taxi hailing app for a phone we might say eh, Claire,
+that's not really worth much. So this is just a representative example
+where we value the original idea at $100,000. Okay, let's now look at the sweat piece,
+and the way I've shown it here is I've assumed that Claire has
+foregone $120,000 in wages. She's putting in $120,000 of her sweat. Huijing has put in $60,000. Sanjay has also put in 60,000. And this is typically, not just the sweat
+that's been put in to date, but also a commitment of sweat, typically for
+some period into the future. Often until the first financing comes in,
+and people can start to be paid salaries. And then if you look at the next column,
+the after discount column, what I've done is to apply a 50% discount
+to those market values of the sweat, in order to come at an equivalent
+cash value to that sweat. Again, the 50% is
+the result of a negation. It's a value that I've often used. I think it's about right, but you're going to have to work
+that out with your partners. And then,
+the last category of input is cash. Again, it's very hard to start something
+without putting at least some cash in. I've shown here, the founders
+putting in quite a bit of cash. So they put in 60, 70,
+$80,000 in cash here. Claire put in $40,000. Huijing put in $25,000. Sanjay put in $15,000. And of course, cash, a dollar of
+cash is worth a dollar of value, a dollar of cash, almost by definition. So, putting that together, you can see the
+percentage ownership that corresponds to each of the three categories of inputs for
+each of the three founders. And we could add those up to
+estimate what fraction or to calculate what fraction
+each founder owns. So for instance, Claire would have 33.3% plus 20% plus 13.3% which, let's see, rolls up to 66.6%. It would be Claire's interest, would
+be the fraction of the original founder shares that Claire would have a claim on. All right, so that's an example of
+the arithmetic that can be done before any new money has
+come in to the enterprise. Now, if the idea of filling out
+a spreadsheet like this with your founders really starts to make your stomach turn, then there actually some softer
+ways to have this negotiation. I'm going to show you an example that I
+used in a recent venture where we thought, where it just made a little
+friendlier to move some geometric shapes around on a graph. So what we did was to say,
+there are various kinds of roles and inputs that are going to be
+required in this new venture. Those are represented here by the columns. You can see the left
+most column is the idea. The right most column is the cash. And there's some other inputs described as effectively as the phases of
+the creation and growth of the enterprise. That's the additional columns. And then we put the team
+members as the rows. And all we did was simply put a square,
+a triangle, or a small square in the cell to reflect people's relative beliefs
+about the road of contribution of each of the partners to each of the phases
+of the development of the enterprise. Now of course you can put
+numbers in the cells but this is sort of as they say a little
+friendlier way to have the discussion. We actually found that in
+this particular instance, the team members converged
+remarkably quickly. There was remarkable agreement on who came
+up with the idea, who's put in the cash, who's going to do this,
+who's going to do that, and this was actually a nice way
+to facilitate that discussion. You can probably imagine that once
+you had this kind of representation of the relative contributions,
+you then need to do some arithmetic to convert this into some
+actual numerical percentages. There are a couple of
+issues that often come up, when you actually go to make
+this happen in practice. The first issue is that sometimes a team
+member doesn't work out as planned. That might be because they don't do
+what they actually committed to do. It might be that the team
+doesn't get along. It might be that you decide you really
+need a different person on the team. And of course one of the problems is, if you've allocated shares right there
+on the first day, you are essentially stuck with that share holder forever,
+and that can be quite awkward. So, typically the way it works
+is that you issue the shares but the shares don't vest, meaning
+the share holder doesn't actually have The full title and interest in the shares,
+until some time has elapsed. Usually, that time period is
+somewhere between three and six months,
+before the first vesting milestone. And if within that first
+three to six months, you realize there's going to be
+some problem with a team member, you can part ways without having
+them as a shareholder forever. The second issue that
+comes up is tax liability. In many tax jurisdictions and
+specifically in the United States, you incur a cash tax liability even for
+a non-cash grant of stock. So, if you get a grant of
+$100,000 in stock you would owe the government taxes on that $100,000,
+even though you never got any cash. That of course is usually a real problem
+for people joining a new venture, who don't have a lot of cash. So, typically there are two strategies. The first is to grant
+shares to the team very, very early, when you can argue
+they have almost no value. Often you'll argue they have a value of
+maybe one cent, or a fraction of a cent. And you'll go ahead and
+pay taxes on that stock. But, the value will be so low that there
+will be very little tax liability. The second approach is
+to issue stock options, which are not actually the stock itself,
+but rather the right to purchase stock in the future at some pre-specified price,
+usually a quite low price. So, stock options themselves
+are quite valuable, but the way their taxed in most tax
+jurisdictions is that they aren't taxed until they're actually exercised,
+not when they're originally issued. Now, it goes without saying that these
+are complicated matters, they vary by jurisdiction and so, you really need
+to consult with both a lawyer and an accountant as you think about
+these formation issues, and as you decide how to grant
+stock to your founding team. The last issue I want to address
+is how we compensate advisors, and how we allocate equity to advisors. Advisors can often add value for
+two reasons. First of all, advisors often have
+specific expertise that they can convey through meetings, discussions,
+introductions, emails, and so forth. And they're sort of doing real work for
+you and it's sort of services rendered, but advisors also help you by lending
+reputation and credibility to the venture. And it's only fair that you compensate
+them for both of those things. Both for their reputation, you're going to
+put them on your website and in your investment documents typically, and for
+the actual services that they perform. And the way I like to think about this is
+to think about what is the economic value of these services that
+are being delivered. And what's the value relative to the other
+inputs that are being provided at the same time, that is the cash and
+sweat of the founders? So, let me just give you
+a sample calculation. Let's imagine that you retained
+an advisor, that advisor is committed to spending four days over the next
+year at a value of $5,000 per day. After all, these are typically quite well paid people
+with quite a bit of deep expertise. So, that would give you about $20,000
+of value that was contributed. Let's also imagine that
+the value you impute to their enhancing your credibility is perhaps
+$15,000, that is what's you're be willing to pay to be able to list
+them on your website and put them in your investment documents to convert
+some credibility on what you're doing. So, that would give you
+a total value of $35,000. Then if you believe that logic and if you
+believe those inputs then that adviser should received equity worth
+approximately $35,000, just the same as the equity of a cash investor
+who would invest $35,000 or of the founding team who
+would give $35,000 of input. This calculation's worth doing, but
+I do want to point out that there are some norms in venture backed start ups and
+advisors typically end up owning about a quarter of a percent to 2.5%
+of the equity, that's per advisor. And the specific values over that range
+will depend on who the advisor is and what they're bringing. So, a relatively famous person, individual joined your team really
+early and puts in quite a bit of time. You're going to need to allocate
+at least 2.5% of equity for that kind of engagement. On the other hand, let's say a more, just someone with some specific expertise
+with maybe not much of a public reputation whose going to help you in a relatively
+limited way late in the process, you would expect that to be more
+like a quarter of a percent. So, that gives you a sense of
+the practical range of how advisor equity varies based on what it is
+they're actually delivering.

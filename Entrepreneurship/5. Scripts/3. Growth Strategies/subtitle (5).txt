@@ -1,0 +1,108 @@
+Hi I'm Kartik and in this session we're going to talk
+about digital marketing strategies. Before we discuss any specific
+digital marketing strategies, it is useful to look at the entire
+landscape of digital marketing and identify the set of
+options available to us. At the high level, we can classify digital marketing
+strategies into three main buckets. The first is owned media. The second is paid media. And the third is earned media. Owned media refers to web properties
+that you own or you create. For example, your own website,
+your mobile apps, social media channels where you might create a Facebook page or
+a Twitter channel for yourself, blogs where you create
+the content, and things of that nature. Paid media is essentially
+the world of advertising. It includes marketing on search engines. It includes social ads. It includes display or banner ads and
+it also include affiliate marketing. And finally, earned media refers to
+third-party mentions by bloggers, reviewers, or even your customers who
+might Tweet about your product or discuss your product on Facebook. In short, earned media is, essentially,
+mentions about your brand that you didn't necessarily create, you didn't pay for
+it, you literally earned it. Let's begin by talking about owned media. When we create a website, we are used to
+asking how to design the website content so as to best serve our
+user's information needs. But from a marketing perspective,
+we also have to address how to design these websites to ensure discovery
+of our website by a search engine. And how to ensure our website places
+prominently in the search engine results. Similarly with regard to social media, we might ask which social media
+platforms to engage with. For example should we engage
+with Facebook and Twitter or LinkedIn or Pinterest or any other
+social media platform that's out there. And given the choice of any platform, what kind of content should
+we create on that platform? Similarly we might ask, how do we engage with our email
+subscribers with effective email content? Furthermore, the role of digital marketing
+is not just customer acquisition, but it also includes customer retention,
+cross-selling, and up-selling products. So one might ask,
+how do we design our website to ensure that customers can
+find products easily on it? Personalization is a very important
+tool to help in this process. Personalization on the web is often
+enabled by software known as recommender systems. Recommender systems are tools that attempt
+to predict items of interest to users based on some information about
+those users and the items or products that we carry. For example, we are used to messages like people who bought this product
+also bought this other product. Or people like you liked
+these other products. These are systems that help consumers
+find new products that are of interest. They also help them sort
+through their alternatives and select the product that's right for them. For example,
+if I'm looking to buy a DSLR camera, I might find that a store like
+Amazon carries several dozen DSLRs. But when I look at an individual product,
+I might see a message that says people who viewed this product
+eventually bought this other product. And that can help me direct my
+search a little bit better so that instead of looking 50 or 60 different
+cameras, I focus my attention on three or four more relevant opportunities. Recommender Systems offer value
+not just to consumers but also the firms that deploy these systems. For firms they help them
+in cross-selling products. They help in converting
+browsers to buyers. And they help increase loyalty by
+creating a custom browsing experience. As a result, these systems are used by
+most of the major online e-commerce and media firms. For example, in retail,
+we might be used to seeing certain products recommended
+to us on the homepage. Or when we select a specific
+product ,we might see messages such as people who bought this
+product bought these other products. These systems not only offer
+value to consumers but they have a significant
+impact on consumer choice. For example, one study suggests
+that nearly a third of sales at Amazon originated from recommendations
+that the website makes, in other words, this contributes to billions
+of dollars of sales at Amazon. And similarly,
+another study says that roughly about 80% of media streams on Netflix
+originates from recommendations. Personalization systems are crucial for e-commerce companies that offer
+large product assortments. Think of an online store like Amazon that
+offers maybe dozens of smart phones or dozens of cameras. When consumers are faced with so
+many choices, recommenders can help them focus on a narrower set of
+more relevant alternatives. And this ultimately can help
+drive transactions and sales. Similarly for media companies that generate revenues
+from advertising, recommendation systems can be crucial in increasing
+customer engagement on the website. So for example, on YouTube,
+personalization allows YouTube to recommend other videos that
+are relevant to the user. And a user who comes into the website
+to view one video might end up leaving the website eventually
+after watching ten other videos, therefore increasing advertising
+revenues for the company. Now if you determine that
+personalization is relevant for your website,
+it is important to recognize that there are several third party tools that
+provide personalization as a service. So, you don't necessarily have
+to reinvent the wheel and build a personalization
+system from scratch. There are many third party
+vendors like Monetate and Rich Relevence that offer
+personalization as a service. Furthermore, there are several open source
+tools available such as Apache Mahout which can be used if you have some
+technical resources or skills in house. Moving on from owned media,
+let's talk about paid media. As far paid media is concerned, we have
+several options ranging from sponsor search on search engines like Google to
+social ads on platforms like Facebook, to display our banner ads
+on publisher websites. The questions to answer here include, how
+much to spend on each of these platforms. Once we have made that decision, how do we
+manage our ad campaigns on these websites? Another option available
+is affiliate marketing which involves paying a partner to
+promote your products to their users. Now with affiliate marketing, an important
+question to answer is which companies to approach for
+affiliate marketing partnerships. Finally, moving on to earned media. How do you get customers to discuss your
+products on social media platforms such as Twitter and Facebook? What incentives might you want
+to offer to these customers for discussing your products? How do you identify and
+engage influencers? Finally, with regard to earned media,
+how do you get customers to discuss your products on social media platforms
+like Twitter and Facebook. And what incentives might you want
+to offer to these customers for discussing your products on
+these social media platforms? How do you identify and
+engage influencers? For example in fashion and battle,
+bloggers and YouTube video bloggers can have significant influence
+on decisions made by your customers. So you could consider engaging influencers
+as paid advisors at your company. In summary, an effective digital
+marketing campaign accounts for all the available options in terms
+of paid, owned, and earned media. And it accounts for the individual elements associated
+with each of these media options and identifies the ones that are best suited
+for your product and for your customers. In the next few sessions,
+we'll explore each of these ideas further with regard to owned,
+earned, and paid media.

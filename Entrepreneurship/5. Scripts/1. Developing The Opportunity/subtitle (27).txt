@@ -1,0 +1,57 @@
+This session is about creating
+a prototype in the case where you're offering a service. With services, you usually don't face deep
+technical challenges in the prototyping of the service, nor do you require
+a lot of capital intensity for production of the service,
+as with hardware. You also usually have to do it yourself. It's mostly the case that restaurant
+companies operate their own restaurants. Airlines own and operate their own planes. Insurance companies own and
+operate their own services. You usually don't work with
+partners to deliver the core offering the way hardware companies will
+often work with manufacturers in order to create their products. But the challenge is,
+still, how do you test and validate your concept without
+necessarily making the entire required investment to build out the full
+production version of the service? I want to talk about one good trick
+that's quite effective in the design and development of services. And it's what's come to be called
+the Wizard of Oz approach, which refers to the idea of the Wizard of Oz in
+the musical The Wizard of Oz, the book, the musical, the movie, The Wizard of Oz,
+is the wizard is shown up on the screen. And the imperative to the audience and
+to the viewers is to pay no attention to the man behind the curtain, that is to
+just sort of look at the screen and forget that there's little man
+back there pulling the levers. And you can do the same thing with the
+prototype being of your service concept, let me just give you an example. Jason Wang co-founded the food
+delivery service Caviar. And the story's really interesting. He was working on another start-up in
+the city of San Francisco, and he and his team would always face
+this problem of getting lunch. And there was actually a particular
+restaurant in San Francisco that they loved lunch from, and that restaurant
+had a product called a kimchi burrito. So they really loved the kimchi burrito. And one day they said, wow, you know,
+maybe we should forget about this start up we're working on, and just figure out how
+to get kimchi burritos more efficiently? And so they thought, hey,
+this is a pretty interesting idea. Could we figure out a way to do
+much more efficient food delivery? For urban dwellers, residents of cities. And they said, how can we make
+that experience much better? And so
+what they did to test their concept, which was a app-based food delivery
+service of curated offerings. That is, high quality offerings
+that were preselected that could be delivered with an app. They said, well, let's just build
+the front end of the app, and if we get any orders,
+we'll just get on the bicycle, ride down to the burrito place,
+pick up the burrito, and deliver it. And so, that's what they did. Literally, Jason himself, the founder
+of Caviar, would get on his bicycle, ride down to the kimchi burrito place,
+pick up kimchi burritos, and deliver them to his customers who were
+ordering through a very nice front end. So, you can see why it's called
+the Wizard of Oz approach, because the consumer doesn't
+know what's behind the curtain. The consumer is just ordering food
+through the front end experience, and they're scrambling on the back end. To just any which way they
+can to deliver that service. Now, what's beautiful about that, in the
+case of services is in order to validate the service concept, you don't have
+to build the whole delivery network. You don't even have to go source from
+get a bunch of restaurants to join the platform. They could literally go
+into any restaurant, hand them their Visa card, buy the food
+and go deliver it to their customer and give the customer the eventual
+full Caviar experience. Caviar went on to become a highly
+successful food delivery business which they sold just in their
+second year of operation for $100 million to the very
+successful company, Square.com. So in sum, if you're building a service, think carefully about how much you
+actually have to build in order to actually test the concept
+with your customers. And it may be the case that you can
+take the Wizard of Oz approach, which is to give your customer the front
+end experience while you scramble behind the curtain to actually deliver
+the functionality of the service.

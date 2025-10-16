@@ -1,0 +1,194 @@
+Financing your startup is obviously
+a very complicate topic, and as you've seen in many of
+the other lectures and pieces of material that we provided in
+this module there's a lot of complexity. What I want to do is give you a bit of an
+overview of some of the issues associated with financing, and
+especially the trade-offs among different types of financing and some of
+the vocabulary used in financing startups. First to put things in
+context a little bit. There's actually a really interesting
+survey, called the Kauffman Firm Survey, that looks at startups across
+a range of different areas, and asks where does the money come from for
+startups? What I want to show you is
+where the money comes for companies that are high tech, right? So most of the companies in the Kauffman
+Firm Survey are not necessarily high growth startups. So they might be a restaurant, or a dry
+cleaning business, and those are great businesses, but they're not as complicated
+from an external financing standpoint. So in this case, let's look at where
+high tech businesses come from and where they get their money from. And the first source of money is
+probably not what you'd expect. The first source is on average, the money
+comes from the founder themselves. So the founder equity in this survey is on average about
+$46,000 of investment from the founder. And that could be their own sort of cash,
+or it could be their cash plus their labor. And at this point, people start to expect things like seeing
+VC on the list of friends and family, but actually the second biggest form of
+financing is debt, which is at $41,000. And the third biggest is venture capital
+or other forms of risk capital at $31,000. And finally, friends and
+family, at about $10,600. So to just put this in context, VC and that risk capital raising is only
+the third biggest source of financing. So why are we concentrating on this issue
+so much in this module on venture capital, and angel investment, and
+those sorts of risk capital? The reason is that this
+is the average number. So very few firms, in this sample
+around 2%, actually receive VC. And those that receive VC
+receive millions of dollars. So if you need millions of dollars to make
+your company work, venture capital or angel investing is the only
+real way to make that happen, unless you have some very,
+very wealthy friends and family. And in that case, it's worth spending some
+time talking about those approaches and why they might be advantageous. So fundraising can often be
+a complex subject, and it's not made easier by the fact that terminology
+can often be complicated as well. So I'm going to give you some information
+about how fundraising works, and this is how fundraising
+works today in 2016. If you're watching this video in 2026,
+there's a good chance that many of these numbers may have changed,
+the terminology may have shifted, there are sort of fads and
+fashions in these things. But I think this is a good way of sort
+of getting an introduction to some of the ways in which we describe fundraising. So the most important thing to realize
+about fundraising is startup fundraising is often thought of as
+happening in rounds. Each round is a discreet
+fundraising experience. So you go out and you find investors. Those one or more investors put money into
+your company and then you close a round. And then you run the company for
+a year, year and a half, however long until you have to
+raise another fundraising round. So the rounds used to be simply labeled A,
+B, C, with the first round being A, the second one being B,
+third round being C, and so on. But what's happened is as the cost
+of launches started to drop, there start to be additional rounds that are
+happening before the A round even starts. So you might hear of something
+called the friends and family round, or a pre-seed round. This is the earliest round
+of fundraising in a company. Usually at this point,
+you are just getting started and you're raising some amount
+of money under $1 million. It could be as little as $50,000, $20,000,
+it could be closer to $1 million, but you're raising it from people you know
+from existing networks, from friends and family, that's the first
+round of fundraising. If things go well, you may bring in the first professional
+investors into your company. These can be angel investors or VCs, and
+this is the seed round of investment where under $2 million investment
+is coming into your company. If you're growing quickly and
+you end up seeking venture capital, venture capital sources being
+interested in the next rounds, which are again, the A round,
+B round, and C round. So an A round is typically
+around 6 to $8 million. A B round would be a larger round,
+a C larger still, and so on. There are companies that have gotten D,
+E, F, G rounds, but that is very rare and those are multi-billion dollar companies. So as a rule of thumb, and again, this can
+be changed, each round you're going to give up somewhere between 10% and
+40% of the equity in your company. So each time you go through a round, you're going to be diluting
+your own share down. So it's to your advantage to go through
+as little rounds as possible and to give away as little equity as possible. Usually the way this works is the first
+rounds, especially the friend and family round,
+uses something called convertible debt. And convertible debt is
+a somewhat complicated topic. But just to give you
+the basic introduction, in a convertible debt round what you
+do is you're not setting a price for your company, instead you're issuing debt. And the trick is though that this debt
+then converts into equity, into a percent of your company when you actually
+raise a round of official financing. So it's a way of deferring a decision
+about what your company's worth until a professional investor
+gets involved in your company. And so, this has become a preferential way
+of dealing with things like friends and family rounds when your company's
+value is completely unclear. At this stage you issue convertible debt
+and you push ahead the issue of wondering what your company's worth until
+later on in your company's growth. Later rounds almost always
+happen through equity. So people are buying
+a percent of your company and you're issuing them special class
+of stock, like preferred stock, in order to have that
+investment be taken care of. But you should be aware there's many
+different funding vehicles available, and they depend on the stage of the company
+you're at, the industry area of interest, and even the sort of type of VCs that
+are interested in your particular area. So I want to cover a little bit of some
+of this menu of options for you, but it's a very complicated set of choices. There are a number of
+major funding sources. This is just a small piece, but
+I want to give you quickly an introduction to five different funding sources that
+a lot of companies end up seeking out, especially in the high growth
+sort of entrepreneurial space. So venture capital, which you've heard
+about in some of the other discussions in this class, involves limited
+partners who put money into a fund. That fund makes investments and startups. They're generally interested in
+spending $2 million plus, round A or beyond, and
+they add a bunch of stuff to your company. So, at least in theory,
+they help provide guidance, governance, they connect your networks. So they can be very useful. These funds are often $100 million plus
+funds, though there are smaller ones, and VCs make money by betting on
+a portfolio of companies and hoping those companies have giant exits. So they want to see you earn 10 times or 30 times the valuation in the end that
+you had when they put the money in. So they're looking for people for
+swinging for the fences, and because they get 20% of
+the profit that their fund makes. And they also get a small fee every
+year that's about 2% of the funds that sustains the venture capitalists. The other traditional source of
+funding has been angel investors. Angel investors are wealthy individuals
+who put money into companies. They are generally very interested
+in the seed stage because they can't put money in later
+on into the organization. Usually we're talking investments in sort
+of the $25,000 to $500,000 plus range. In some cases,
+angels may add something to your company. So an angel investor may, for example, have network connections that are useful
+to you, but that's not always the case. Angel investors could be anywhere from
+a local wealthy entrepreneur to a network of doctors who co-invest together in
+companies, to somebody who made a lot of money in finance and is now retired and
+wants to invest in your organization. So there's a lot of different
+angels out there, and they can range from individuals
+to sort of large groups. And we have more of that in
+the video on angel investing. There's also another class of
+angel investors that have emerged fairly recently called super angels. Super angels are angel investors who are
+very connected, usually in Silicon Valley, but there are other locations too. And they make lots of small
+investments as individuals, and they often act as a signal of quality for
+a company. So if a super angel,
+a very well known angel investor, puts money into your company, venture
+capitalists are more likely to look at it. Some of these people run small
+funds of $10 to $70 million, or they may operate as individuals,
+and again, they're looking to make money
+when you exit your organization. Even more recently, we've had the birth
+of what are called seat accelerators, or sometimes, seat incubators. Those sometimes mean different things. They're often used interchangeably, but an accelerator comes from the idea
+that to make money from a startup, you want to invest as early as
+possible in high potential startups. And if you wait until a startup
+comes to you to look for money, it's already a little bit late
+to get a lot of the company for relatively small amounts of cash. So the first accelerator was called
+Y Combinator, started by Paul Graham. And the idea of these accelerators was why
+don't we take people who have just basic ideas for companies,
+haven't really built them yet, and get some of these really smart
+people together in a room. Put them through a three month intense
+experience that ends with them pitching their idea to investors. And we can mentor them and help them out, we can give them a small amount of funds,
+and that way we have a chance to invest in these really early companies
+before they're even underway. So this model's been very successful for
+the top accelerator, so Y Combinator and Techstars as of the time of this recording
+are examples of this, as is 500 startups. There's a couple others, but
+there's hundreds of these accelerators, most of them don't seemed to
+be that helpful for people. But if you can get into one, the high
+status ones tend to be very good and connect you to lots of
+other future funding. They usually take somewhere between 5 and
+10% equity in your company. They give you 10 to $30 million. So that could be a very powerful approach. And then,
+as we'll talk about in my next video, there's some information on crowdfunding. So crowdfunding is a way of
+raising money from many people. It could anywhere from $100
+to $1,000,000 or more, and we'll talk more about
+that in future videos. So you have this very large list of
+potential options available to you. Just a couple things on the major
+decision, which is VC and angel investing. This shows you as of 2012, and the numbers have shifted somewhat as
+of the time of the recording, but not that much, the number of investments
+VCs versus angels make in various areas. Now, this data is not exactly matched. So if you don't see angel investors in
+one area, or you see VCs in an area, or angels in an area, but no VCs, that
+doesn't mean they don't make investments. I had to match two different
+data sets together. But I think it gives you a general idea
+of what's happening, which is where a VC investment is is in areas like software,
+biotechnology, things like medical equipment and devices, consumer products
+and services, energy and industrial. Those are areas where VCs are dominant. And angel investors are interested
+in areas where VCs aren't, like retail and financial services. VCs generally want to see a company
+that can scale very quickly, that can exit within five to ten
+years at the very latest, and that can grow from a relatively
+small base of people. So something like Uber or Google, where there's a small number of people
+producing a product that's used by many. While something like opening
+a set of retail stores, or opening a bank is something that angel
+investors would tend to be interested in. So there is a lot to think about,
+which industry or area you're in, how much dilution you
+want to give up, who do you know? So, many of the other videos in this module of the course will cover some
+of these issues in more detail. Just, again, as a current events update,
+right now the cost of doing business in a startup, the cost of starting a company
+has dropped hugely over the last 10 years. So there's some thought that
+the difference in launching a web-based startup has dropped by about three
+orders of magnitude since the late 90s. That means that you don't need a lot
+of money to get a company going. And as a result the environment is
+very friendly for getting funding for entrepreneurs, whether it's through VCs,
+or angels, or seed incubators, or crowdfunding,
+through that sort of early series A stage. After that, after series A, when only
+VCs are really doing the funding, there's what's happening that's
+called the series A crunch. So there's a lot of companies
+getting funded in the seed rounds. There are relatively few companies
+being funded in series A, and it's much harder for
+startups to get past that area. So you have to be aware that it might
+be easy to raise early funds, but it can often be very hard to get larger
+stage multi-million dollar investments for growth in the United States. But the good thing for being
+an entrepreneur is there's lots of flux happening right now, and there's
+many new ways of getting investment. Your government may have
+programs that help you with this. There's certainly new forms of
+fundraising being invented. So this is an exciting area, but one
+there's lots of change happening in, and I hope that these videos will
+help guide you in the process.

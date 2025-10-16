@@ -1,0 +1,88 @@
+So how do you know what ideas to test and what kind
+of MVPs to build? So the way you do that is
+through hypothesis testing. Just like if you
+were doing science, you're going to do
+science to find out whether your startup is a good or bad idea and
+a pivot if you need to do so. So let's talk about this. Hypothesis tell you what
+to test by your idea. So in order to do that you
+need to go through two steps. The first way to
+do it, you need to figure out what your assumptions
+of your business are. Finally, your assumptions in the surface sources of
+uncertainty in your business. You learned a lot of ways to do this in the first lectures of this class where we
+talked about things like discovery-driven planning
+and business planning. All of those processes gave
+you methods of thinking about uncertainty and ways
+of figuring out what source uncertainty exist
+in your business idea. What do you do once you have
+these sort of uncertainty? You then develop those and
+turn those into assumptions. So you need to go through each of the key assumptions in
+your business and using either discovery-driven
+planning or other methods look for the three to five key assumptions in your business by rating them. Once you found those three
+to five key assumptions, you'll develop those
+into hypotheses. So what's it mean to
+develop hypothesis? Hypothesis, just like
+hypothesis in science, has a number of characteristics. It has to test the
+key assumptions of business, it needs to be falsifiable
+and it needs to testable. Let's go through each of those and explain what those mean. So the first thing
+your hypothesis needs to do is test at least
+one key assumption. The key assumptions are
+the things that need to be true about the world for your
+business idea to succeed. So you may think that customers will be
+interested in your taste, your cookie, your fast food, Ethiopian restaurant
+chain, your brand new app. But what do you actually know about what
+they're interested in? What are you assuming about
+what they're interested in? You'll have surfaces key assumptions through
+discovery-driven planning, through your business
+planning process, and now you know there are three or four key issues
+that we need to test. Maybe, we need to
+find out whether are operationally we can run the restaurant the
+way we think we are, whether our customers
+actually value the key issue that
+we're making as the part of our app
+that we're developing. But whatever those
+key assumptions are, those are the core
+of your hypothesis. Once you've figured out what key assumption you're testing, the next step is that you need to create a testable hypothesis. What does it mean to be testable? Testable means that you
+actually get an answer in a reasonable period of time whether your hypothesis
+is right or wrong. So if your hypothesis
+requires you to build your full product and launch into the world, that's not testable. If your hypothesis says 80 percent of people will love
+our product but you don't know how you're going to figuring out whether
+80 percent of people love it or not,
+that's not testable. So testable hypothesis
+needs to be one where you actually can run an experiment
+and find out an answer. Once it's testable, it also
+needs to be falsifiable. I happen to really love
+this particular image. It's very useful for
+true-false tests. I highly recommend teaching your children or
+yourself to write this. But you don't want
+this ambiguity between true and false in your own
+hypothesis testing. It needs to be clearly
+a falsifiable answer, where you know whether or
+not you're right or wrong. So it can't be something ambiguous like people
+will like our product, it needs to be direct number
+or direct comparison. So let's put this together. You need to make sure
+your hypotheses are clear, that they don't let
+you fool yourself, and you want to make
+sure you're not testing hypotheses you already know
+the answer in advance. You need to have high levels of uncertainty when we test
+the key assumption. So you want to make sure
+your hypotheses are not ambiguous like people
+will like a product, but that they are
+clearly indicated. Forty percent of our customers
+who tried to prototype will agree to pre-order
+the product for delivery in
+the next three months. That's clear, it
+tests a clear issue, it is falsifiable if
+40 percent of people who tried the product don't agree then our hypothesis is wrong. It is also clearly testable, we're going to give
+people a prototype, an MVP and then they going to use that to do the tests
+of their product. You might ask where we get
+that 40 percent number from, the idea that it's 40 percent as opposed to 50 percent
+or 30 percent. That 40 percent needs to be a key number for
+our products to succeed and a way of getting that is through discovery-driven
+planning approach that was discussed in a prior lecture. In conclusion, you
+need to first identify your assumptions using
+whatever method you want to use. You can do a qualitatively through your planning process or quantitatively through
+discovery-driven planning process discussed in a prior lecture. You use it to generate three to five key
+hypotheses that are both falsifiable and testable, that you can then
+build MVPs for to test and to find out
+whether you need to pivot or keep going in
+the same direction.

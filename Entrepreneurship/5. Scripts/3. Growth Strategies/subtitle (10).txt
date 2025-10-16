@@ -1,0 +1,245 @@
+I'm Karl Ulrich,
+I'm a professor at the Wharton School. And this session is on target costing and
+channel economics. In order to achieve financial
+sustainability as a new business, the entrepreneur has to be able
+to satisfy this basic expression. Quantity times price minus cost must
+be greater than the fixed costs. Put simply, quantity Q, the number
+of units you sell per unit time, times the difference between
+the price you get for the product and the cost you pay for the product. That quantity has to cover your
+fixed cost of being in business, the cost you incur per unit time. What we're going to do in this module
+is to give a better sense of how you actually calculate these numbers and
+how you come up with a system, with a business model that's
+financially sustainable. Now, the basic logic behind this is, we're
+going to set price based on the market, based on the other products
+that are in the market, and what your competitors are doing. We're then going to work
+backwards from price. In order to set a cost target, and then
+we're going to check the cost of goods, that is our own cost structure against
+that cost target in order to be sure that our business is
+financially sustainable. Let me work through an example for you. I want to talk about the Belle-V
+bottle opener and Belle-V is a kitchen accessories company, of which,
+I'm one of the co-founders. And so this is one of our products. And these are luxury goods, so the Belle-V bottle opener sells for
+$50 in the retail store. And I want to now work through
+the logic around that price and around the target cost that we knew we
+had to be able to hit in the factory in order to be able to
+make this business work. Now in order to walk through that logic, I want to walk through the supply chain,
+or the sequence of supply actions, that get this bottle opener
+from the factory to you. Let's start with the factory. This is a photograph of
+a factory in Taiwan. Actually, it's a factory for
+another of my products, but very similar to the factory where
+the bottle-opener is made, and that factory produces that bottle
+opener to our specifications. Once the factory is produce the batch of
+openers, those openers are shipped to the United States, and
+they're shipped via container ships. So this image shows a container ship
+being loaded with shipping containers. The shipping containers are those
+metal boxes that you've seen on the back of rail cars, or
+on the highway on the backs of trucks. They measure 40 feet long by
+8 feet tall by 8 feet wide. They actually do use imperial units,
+feet, to measure that. But in rough terms,
+that would be about 13 meters long, about 3 meters tall and
+about 3 meters wide. So those shipping containers are then
+loaded onto ships as shown here. And then they're transported, in our case,
+from China to a port in the Untied States, in our case to Long Beach California,
+which is shown here. So this is the container yard
+where those goods get unloaded. From there, they go to our distribution
+warehouse, also located in California, and then finally,
+they're shipped to the retailer. So here is shown a kitchen
+goods retailer that would carry the Belle-V bottle opener. And so, as we think about target costing,
+we really have to work back from the price this product would sell for
+in the store, all the way back to what the cost must be at the factory
+in order for that system to work. Let me walk you through
+the arithmetic on how to do that. I mentioned that the retail price is $50,
+and we've treated elsewhere the setting of retail prices, but in some,
+they're based on the market forces. In effect,
+what is the customer willing to pay and what are the competitive
+offerings in the marketplace? So in our case,
+the bottle opener sells for $50 because it's intended as a premium
+gift item sold in museum stores and design boutiques,
+where there are lots of $50 items. And so $50 does not seem
+a ridiculously high price for our beautifully designed object, like that
+bottle opener, that could serve as a gift. So that logic about where
+the $50 comes from, I'm not going to treat in this session. I'm just going to take that as a given,
+that the $50 is the retail price. Now if you think about it,
+that's the price the consumer will pay for the product. But the consumer isn't giving us,
+the brand owner, that $50. Instead, they're paying
+the retail store that $50. And in order for
+the retail store to be in business the retailer has to buy it from us for
+quite a bit less than $50. In our case, the retailer margin,
+that is the difference between the price the consumer pays and
+the price the retailer pays us, is 50%. And so the retailer buys
+the product from us for $25. Now we have to work back from
+the price we get, which is $25, to what our target cost would be. Now to do that we need to think about
+what our target gross margin is. We, as the manufacturer, or
+probably more accurately we, as the brand owner,
+what is our target gross margin. Let's just for the sake of argument say that our target
+gross margin is 40% that is on average. We want to be able to make about 40% of
+our revenue in terms of gross margin. What that suggest is
+that we need to pay no more than 60% of $25, or $15. $15 would be the maximum cost of goods for us to have the product in our hands,
+ready to deliver to the retailer. For us to be able to sustain
+a supply chain, that gives us 40% gross margin and
+gives our retailer 50% gross margin. So working back from $50,
+$50 is the retail price the consumer pays, $25 is the wholesale price
+the retailer pays us. And in order for us to be able
+to sustain a 40% gross margin, we must pay no more than $15 to have that
+product in our warehouse in California. I want to now dive in on
+two additional points. One is,
+where that gross margin comes from and how you actually calculate
+the gross margin. And the other is to talk about
+what's in cost of goods. That is, what has to be included in
+that $15 in order for this all to work. So let's first start with gross margin. Gross Margin is defined as the price
+minus the cost, divided by the price. And this is always taken from
+the perspective of the entity that's selling the product. So, if we take, as an example, the museum store that is selling
+our product to the consumer. Their price, minus their cost, divided by
+their price, will give the gross margin. And so for instance,
+using the numbers in this example, $50 is the price they offer to the
+customer, $28 is the cost they paid to us. So 50 minus 28 is $22. That divided by the retail price,
+or divided by 50, gives us 44%. So that would be an example of
+a retail margin calculation of 44%. Now it just gave in the example that
+the retailer buys it from us for $25. That would give a gross margin of 50%. 50- 25 divided by 50 would be 50%. And so depending on what those
+different parameters are, the price and the cost you get different gross margins. Now I want to just
+identify a difference in terminology that's sometimes
+used in retailing. Some retailers and some manufacturers
+will use the term mark up. Which is related but
+different from margin. More specifically, mark up is defined as
+the price divided by the cost minus one. And so, let me give a numerical
+example that I think will help make that a little more
+clear If price is $50, and if my cost is $28 then my mark up is 79%. Let me just walk through that arithmetic. 50 divided by 28 is 1.79. That means I'm selling the product for 1.79 times what I buy it for,
+50 is 1.79 times 28. If I subtract 1 from that then
+what I get is a mark up of 79%. And the way to think about that,
+is the retailer takes the price that he or she buys the product for, and marks it
+up by a value of 79% of his or her cost. Now, that obviously is closely
+related to gross margin, but they give very different numerical values. And so
+I want you to keep them straight and to make sure you're talking about gross
+margin and not mark up, or mark up and not gross margin, when you're having
+a conversation about these numbers. Mark up is related to gross margin
+by the following expression. Gross margin divided by 1 minus
+gross margin is equal to mark up. So that's how they're
+related parametrically. Mostly we're going to use gross margin,
+but I want you to understand
+markup as an alternative way that some people describe
+the relationships between price and cost. The second issue or
+qualification that I want to talk about is what determines this margins for retailers
+and what are some typical values. Because when you go to
+calculate your target cost, you need to anticipate what your retailer
+is going to expect for gross margin. Well what determines margin for
+a retailer? First of all volume. The higher the volume of the product, the lower the margin the retailer requires
+in order to be able to stay in business. So just consider the difference
+between a grocery store that moves hundreds of thousands of
+dollars in volume every week, compare that to a jewelry store. That a small jewelry store
+that might only sell one or two items a day in that entire store. The higher the volume typically
+the lower the margin that's required for the retailer. Secondly is the price point. Consider the difference between
+selling a new automobile and selling a piece of chewing gum. The automobile has a much higher price and typically at those very high price points,
+all else equal, the manufacturer's or the retailer's margin will be much
+smaller than for lower priced products. Third is differentiation,
+is your product so unique that you're the only
+source of supply of that product? A less Initiated product that is one for which there's a lot of competitive
+offerings is going to end up having lower margin the competition is going to
+drive the margin out of the prices. Next would be what are the retailers costs
+that are required to support distribution of your product? And this relates to things
+like is it a seasonal good or is it a good that sells
+steadily throughout the year. How long is the life cycle for
+the product? Is it a very short-lived life cycle, perhaps with a season lasting only days or
+weeks? Or is it something that
+could be sold over years? Third, how many customers
+return the product and require a lot of service when
+they return the product? And lastly, what kind of sales effort
+is required to sell the product? Is it a product that
+basically sells itself? That people can find for themselves on the
+shelf, or is it a product that requires a dedicated sales effort and
+a lot of expensive sales people. Those things will all drive the margin
+requirements for the retailer. Now to put this all together,
+just consider the difference between construction materials And
+luxury cosmetics. Construction materials, relatively
+low differentiation, with relatively stable demand and relatively high price
+points in relatively high volumes. Those are going to be sold at
+quite low margins, maybe only 10, 15% retailer margin. Whereas luxury cosmetics, which
+are the opposite on all those dimensions. Those might have very high gross margins. Retailers might expect 60,
+70% gross margin in that category. To give you a sense of the typical ranges,
+the retailing of most consumer goods requires margins of between 35 and
+50 or 55%. But the extremes are say building materials at maybe 20% and
+fashion apparel maybe 60, 70%. So in order to understand
+your target cost, you first need to understand your
+retailers margin requirements. Those are going to be based on
+the kind of retail channel you use or whatever margin requirements are required
+for whatever channel you use. You're going to to use those margin
+requirements to then calculate what the wholesale price would have to
+be to your channel partner in order In order to support the target retail
+price that you've set for your product. Let's now turn to the question of what
+your target gross margin should be. And here I'm referring to
+you as the manufacturer or more typically the brand owner, because
+often you'll contract with the third party to actually produce your product. What determines your margin requirement? It's very similar to the logic for
+the retailer. The higher the volume, typically
+the lower margin that's required. The higher the price point, typically,
+the lower margin that's required. The more differentiated
+your product is typically the higher margin you can command. And similar to the retailers cost, the higher your cost of SG&A or
+sales, general, and administrative and R&D, or research and
+development, the higher those costs are, the higher your margins are going to have
+to be in order to support your business. So to give you an example,
+in software development SG&A or the selling general and administrative and
+R&D costs are very, very high. And so software has to have very high
+margins in order to be able to support that business. Whereas if you sell cleaning supplies,
+industrial cleaning supplies, your SG&A and R&D will be quite low and
+you could get away with a sustainable business model
+that has lower gross margin. So again,
+to give some representative values. Manufacturers of typical consumer
+goods would expect to operate with gross margins between about 30 and 50%. But at the high end, you'd have products
+like software, as I just mentioned, which might have gross margin Of 90 or
+more percent in part because the actual production cost of software are quite
+low or luxury cosmetics where the manufacturer, the brand owner, might
+have gross margin of 75 or more percent. And at the other extreme would
+be automobiles which, typically the manufacturer would have gross
+margins of maybe 15 or 20%, relatively low gross margins, relative to products
+like software or luxury cosmetics. Now the way you can estimate your
+margin requirements would be to go to the annual reports, the public
+financial filings of companies that are publicly traded and therefore, that
+are required to disclose their financials. And so,
+find a company that offers a product or service similar to your product or
+service. Find a public company that is in the same
+category, look at their annual report, look at their average gross margin
+from their financial statements and that gives you a pretty good idea of what
+your target gross margin will need to be as you go through the target
+costing analysis. The target cost logic of working back from
+the retail price using the retailers gross margin and then using your gross margin
+target gives you a target cost of goods. That target is the maximum
+you would be willing to pay to get the product into your warehouse
+ready to deliver to your customer. However, that's just the Maximum. It would be great if you could keep
+your costs well below that maximum. Because that would result in even
+higher gross margin for you. Or it could allow you to lower your
+prices, and perhaps increase volume. So you should think of that
+target cost as the maximum, as the ceiling on the costs
+of procuring the goods. Let me just give you a sense of what goes
+into the cost of goods calculation, so that you can then figure
+out what your real target cost at the factory
+would have to be. So if we take this example
+of the bottle opener, let's imagine that I pay the factory
+$12 for that bottle opener. Now remember that I produce
+that product in China and I want to sell it in the United States and
+so I have to import that product across that border
+between China and the United States. The United States collects duties on products produced in
+other parts of the world. The duties vary, in some cases they're
+zero, in some cases they're very high. In the case of kitchen
+utensils the duties are 3.4%. That duty applies to the value of
+the goods when they leave the factories. So you could think of that
+as the factory price. Whatever I paid the factory. The U.S.
+government will collect duties of 3.4% of that when those products
+enter the United States. I also have to pay for the freight to get
+that product from China to my factory, to my warehouse in the United States. And let's just for the sake of
+argument use the value of $0.90 or .9 US dollars for freight, per unit. That gives me a so called Landed Cost,
+which is the factory cost plus the freight plus
+the duties of $13.31. Typically added on top of that is
+a factor for scrap and shrinkage. Scrap refers to when you just have to
+throw away some product because it's defective or somebody returned it or It
+has some problem or some defect with it. And shrinkage is sort of a fancy name for
+theft. It means that your products mysteriously
+disappear from your warehouse, but it has a technical term called shrinkage. So scrap and shrinkage together
+we might consider to be about 1%. And of course, this would vary depending
+on your industry and your products. But if we use it at 1% and we apply
+that to the landed cost, then that's an additional 13 cents that we need to
+account for in the cost calculations. And so that would then give
+me cost of goods of $13.44. That would be my total cost of goods. Now, of course, your values will differ,
+based on what product or service you're producing them,
+producing, where you produce it and what the relative parameters are for
+your particular type of product. So these are just illustrative values but
+in our case we happily work out the numbers such that 13.44
+that's $13.44 cents is well below our cost target of $15 which means that we can
+have a financially sustainable business. We can make the business model work. We satisfy the margin requirements of
+both our retail partner and of ourselves.

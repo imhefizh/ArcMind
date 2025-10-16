@@ -1,0 +1,196 @@
+Hi I'm Kartik and
+this session is on social media. Social media offers unprecedented
+scale for marketers. Social networks reach most of
+the world's online population. For example, Facebook today has
+close to 1.5 billion users and marketing on Facebook therefore
+provides a lot of reach. Social networking sites also account for
+roughly 28% of time users spend online. And so for a marketer looking
+to reach the consumer on a medium where the consumer spends time,
+social media is particularly attractive. As a result, social media offers
+unprecedented and unparalleled reach to marketers and a lot of start-ups have been
+using social media quite successfully. For example, consider Blendtec which
+is a company that sells blenders. This company started posting videos on
+YouTube where they showed their blenders blending interesting products
+like an iPhone and other objects. These videos caught
+the attention of consumers, and they started sharing it with one another,
+and before you know it, this product became quite successful and
+Blendtec's sales went up by nearly 400%. Another example is Runkeeper,
+which has a fitness product. Runkeeper uses Facebook to
+engage with consumers, and has managed to use the platform, and all
+the content it's created on the platform, to build a very large
+following on Facebook. Before we discuss social media strategies,
+I'll take a few minutes to discuss why social cues and
+social media are so powerful. To do so, I'll discuss an experiment
+with an artificial music market run by Professor Matt Salganik. The motivation for Matt's experiment was the success of
+the Harry Potter book at the time. Matt had read that several
+publishers had rejected the book before it was eventually published. Now we hear stories
+like this all the time. A book or a movie that's
+eventually a blockbuster success gets rejected by experts in the field. So Matt wondered what drove that. He wondered whether the quality of the
+product drove the success of the book or was it social cues? Or was it a mix of the two? To test that, he ran an experiment where
+he created an artificial music market. In this market,
+he invited 14,000 participants to come and listen to songs and select songs that
+they would like to buy or download. He had 48 songs from 48 previously
+unknown artist in this market. He divided the users into a bunch
+of different treatment conditions. Some of the users were assigned to
+an independent control condition. In these conditions,
+songs were ordered randomly and participants listen to the songs,
+and downloaded what they wanted. Some of the other participants were
+assigned to experimental markets which had social treatments,
+or social cues. In these markets,
+songs continued to be ordered randomly. However, participants could see how many
+times each song had been downloaded by others in their universe. In other words,
+users saw a screen with a list of songs along with their download counts at
+the time they entered the market. The impact of these social
+cues was immediate. Markets with social cues
+became blockbuster markets. Products that had been chosen by
+early customers in that condition, tended to become more salient to
+later participants in that market. These later participants gravitated
+increasingly to the songs that were chosen by prior participants and that made
+popular songs even more popular, and unpopular songs even less popular,
+resulting in the market becoming a significant hits-driven or
+a blockbuster market. Furthermore, he also noticed that it
+made the market somewhat unpredictable. In this graph here, I plot on the x-axis the download rank
+of a song in the independent condition, where users cannot see the number
+of downloads of the song. On the y-axis, I plot the download rank of the song in
+the eight different social conditions. What you'll observe is that the download
+rank of a song in the social condition is somewhat correlated with the download rank
+of a song in the independent condition. In other words, songs that generally do
+reasonably well in the control condition tend to do reasonably well in
+the social condition as well. However, it's possible for
+a song that ended up in the top quartile in one market to end up in
+the bottom quartile in another market. For example, there was one song that ended
+up as the top downloaded song in one market and as the 40th or the 48th
+downloaded songs in another market. In short, the Britney Spears or the Katy Perry of one universe might
+end up going unnoticed in another, simply because the first few users did
+not choose that song, and therefore, that song ended up not being noticed
+by later participants as well. So, social cues make markets more
+hits-driven and also highly unpredictable. In short, social cues can be highly
+powerful in driving product discovery. And that's why social media marketing
+has to be an important part of the marketing strategy for
+any entrepreneur. Having discussed why social cues matter, let's explore the scope of
+social media marketing. Social media marketing may include having
+a presence on social media platforms like Facebook, Twitter, LinkedIn,
+and other such platforms. It may also include blogging through
+tools like WordPress,Tumblr, or other such software. It may include social shopping
+on Instagram or Pinterest. It might include viral marketing
+strategies to encourage your early adapters to market your
+product to later potential adapters. It may include user-generated content,
+wherein consumers write reviews about your product, which
+had done influence future product sales. Given the breadth of options available
+to an entrepreneur, it is important to first identify what kinds of social
+platforms are your customers on, and based on that determine which social
+media platforms are appropriate for you. For example, for B to B company, Facebook might not be the first
+choice of social media platform. On the other hand, LinkedIn or Twitter might be appropriate based on the
+kind of product the company is selling. It should be clear by now that social
+media offers a very unique opportunity to marketers. By building a base of brand loyal
+followers on social media platforms, a firm can instantaneously spread
+information about deals and products and new product launches. Also anytime a customer engages
+with your social media content, that engagement is
+viewable to their friends, therefore creating the chance of viral
+marketing spread of your messages. At the same time,
+social media offers several challenges, which imply that in practice,
+very few firms are successfully able to leverage
+social media to gain any benefits. This is because, for example, on Facebook, only 0.2% Of total possible status
+updates actually reach end users. This is because there is so much content being generated on these
+platforms all the time, that these platforms like Facebook have to select
+a much smaller subset to show the user. Furthermore, studies
+show that less than 1% of Facebook fans of brands actually
+engage with those brands. This is again because of the wealth
+of content on social media. And given the amount of activity and content, it's hard to get
+noticed amidst all the clutter. As a result, content marketing, which is
+a term that refers to designing content carefully in order to achieve higher
+rates of engagement among consumers, is becoming more important
+in social media marketing. For example, in a recent study,
+we evaluated over 100,000 Facebook posts by nearly 1,000 different
+brands on Facebook. We evaluated what was the impact of
+content attributes on engagement by their Facebook followers. We found that posts
+that were emotional and humorous tended to get higher levels of
+comments or engagement from consumers. In addition, posts that talked about
+philanthropic activities by the firms and showcased some of their social initiatives
+also tended to get high levels of engagement. In contrast, a lot of posts that
+talked about product attributes and prices did not get the same levels
+of comments and engagement. In short, posts that show brand
+personality tend to do better than posts that merely inform
+customers about product attributes. Similarly, when we looked at
+the number of likes each post got, we again found that posts
+that had emotional content, that talked about social initiatives,
+got more likes and therefore, greater visibility than posts that
+merely talked about product attributes. In short, our conclusion is that when
+firms share product information and price information on social media, it is important to pair that
+with attributes such as emotion, humor, and others that showcase brand
+personality in interesting ways. Designing good content is clearly a very
+important step in order to get high levels of engagement. But that alone may not be sufficient. There are many companies that
+invest a lot in social media, but ultimately see very limited impact. Effective social media offers
+not only engaging content, but also fits very naturally
+into the customer journey. One has to think about
+the customer pre-purchase process, the purchase process, and
+the post-purchase process, and evaluate where exactly social
+media might fit in very naturally. To illustrate this point, let me walk
+you through an example of Warby Parker. A company that sells prescription
+eyeglasses online that was founded by some former students of mine. Now when the company was
+selling eyeglasses online, one of the things that they discovered
+was that a lot of consumers want to try on eyeglasses before they
+eventually purchase the product. That's clearly the experience that you or
+I would have when buying eyeglasses. Now in order to provide that
+kind of experience to customers, the company decided to offer
+a home try-on program. In that program, customers could order five different
+pairs of eyeglasses, try all of them, decide which one they want to retain, and
+then send the rest back to the company. A lot of people would get the five
+eyeglasses, try them on, and then wanted to get social feedback
+from their friends on which eyeglass fits them or suits them the best. So, they started posting these
+photographs on their Facebook walls. Warby Parker sensed a nice
+opportunity here and started sharing these photographs
+on their own website, and that increased the number of incidences
+where customers would post their photographs with eyeglasses on the Warby
+Parker wall or on their own Facebook wall. This allowed Warby Parker to get its brand
+name out to friends of their customers. In short, get viral marketing spread
+without having to invest any money. And this is a great example of
+Warby Parker identifying the social need, specifically somewhere
+in the purchase funnel. And this is usually post-ordering the
+product when people are trying to select which eyeglass to retain,
+that's where they have a social need. Rather than using their Facebook presence
+or their broader social media presence to just push messages down to customers and
+solicit engagement, Warby Parker identified the clear social need that
+customers had during the purchase process. That information need or a social need was to get a second opinion
+at the time of purchasing an eyeglass. Warby Parker used its Facebook page to
+service the social need that customers had, and got amazing engagement
+on its Facebook page. GoPro provides another
+interesting example. GoPro sells small miniature cameras that
+are used in conjunction with sports and recreational activities. Now the social need around the use of
+GoPro usually happens post purchase. Most buyers buy GoPro and
+use that camera when they're engaging in activities like biking or
+parasailing and things of that nature. And they like to share those
+videos with their friends. GoPro uses its YouTube
+channel to help people share their GoPro videos with others. Therefore, GoPro uses its social
+media presence on YouTube to serve as a social need
+that their customers have. In this instance, that social need arises
+after the purchase process is completed. And GoPro makes its social media relevant
+at the time when the social need arises. Many innovative companies are using
+social media in interesting ways. For example, some of your customers might
+post photographs after they bought your product on social media channels
+like Instagram and Pinterest. Some companies are using
+these user-generated content to push social surfing. For example, urban out filters finds
+photographs that have been posted by customers on Instagram, and
+offers social shopping features like the ability to like the product in order
+to buy it directly on the website. Many other firms are using social
+media platforms like Instagram and Pinterest to drive social shopping. In summary, social media can be powerful
+in building brand personality and increasing brand affinity among customers. Social cues left behind by customers are
+powerful in influencing future customers. However getting a return on
+investment in social media requires placing attention
+on a few key factors. First, identify the right
+social media platform. Identify where your customers
+are likely to be most active. For BlendTec,
+that meant engaging with YouTube. For GoPro,
+that again means engaging on YouTube. For RunKeeper and Warby Parker,
+that meant leveraging Facebook. Second, place careful
+attention to content design. Merely providing product information and price information without showing
+brand personality doesn't usually get the kind of return from social media
+marketing that you would seek. And finally, match social to the right
+stage in the customer journey. Notice how Warby Parker leverage social
+during the customer service process to help them select the right product
+by getting a second opinion. In contrast, GoPro leverage social in
+the post-purchase process in helping customers share their
+videos with their friends. Bottom line, there's no single
+strategy for social media. Succeeding on social media requires
+flexibility, understanding customers, and choosing the right social media
+platforms and messages at the right time.

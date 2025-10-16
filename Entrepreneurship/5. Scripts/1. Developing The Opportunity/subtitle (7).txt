@@ -1,0 +1,167 @@
+Hi, David Hsu here, covering a session
+on technology entrepreneurship. One interesting aspect of entrepreneurship
+in the technical realm is that, sometimes technical change or technology can give
+rise to entrepreneurial opportunities. Just to illustrate,
+we all know these examples well. The rise of the internet
+enables companies, like Google or
+Facebook to appear on the scene, or technical advances like the advent of
+recombinant DNA affords an opportunity that wasn't otherwise there for companies,
+like Genentech to enter into the market. However, just because there's
+a technical advance and recognition of that technical advance does
+not ensure that you're going to be able to build a commercially successful company. There's a host of other decisions that are quite important in
+determining such success. Things like business model design, the choice of resources that you bring
+to bear, your ability to recruit key personnel, executives,
+the pace of entry and expansion. All these other types of decisions are
+quite important, not just the recognition of an entrepreneurial opportunity
+that's afforded by technical advance in terms of predicting commercial success. Now, one thing that can
+help in addition is particularly in the technical realm when
+we talk about technology entrepreneurship, is to staff the founding team or early
+executives with people that have both commercial as well as technical expertise,
+because being at the frontier of both of those dimensions can help as well, and
+academic studies have borne that out. One thing that's interesting and
+is in some sense is the silicon valley phenomenon, why is it the case
+that there tends to be extreme geographic co-location of our clustering
+of technology entrepreneurship? There are a couple of reasons for this. And just as indicators of this,
+a third of US venture capital flows to just two regions, Silicon Valley
+and the Greater Boston area. And you might wonder,
+why is that the case. Well, if you think about it from
+an orchestration standpoint, where the labor and capital have
+nowhere to focus, it's in these regions where there's a great deal of knowledge
+that's important in birthing and involving companies hoping to exploit or
+commercialize a given innovation. To give just one specific example of
+this at the birth of the United States biotechnology industry, it was not
+a coincidence that all the early biotechnology companies were located
+geographically in the same places, where the frontier knowledge scientists, who at the time were all located in
+preeminent academic institutions, were located, because that's where
+the specialized knowledge was. As the industry kind of evolved that geographic co-location,
+eased a little bit. But in the very beginning of the industry,
+it was no accident that there was this co-location between firms and
+knowledge centers. Just by way of giving some motivation in
+terms of the economic important of techno entrepreneurship. Here's some statistics about private and
+public values. So it turns out that, of all
+the companies that have gone public in the 1980's to 2013 time period,
+some almost 7900 companies, 36 of those companies were
+venture-capital backed. Now, venture-capital backed is not the
+same as technology-based entrepreneurship is, but that's a pretty good proxy. And it turns out that
+58% of all technology IPOs were venture capital backed. And so, we know that certain anecdotes. Bill Gates, Steve Jobs, Mark Zuckerberg. These are all out sized
+personalities that are really, just data points in terms of the influence of
+successful technology entrepreneurship. There's also second order effects. Once you've created a highly
+successful technology company, that has all sorts of downstream effects. So for example Google, after it did
+its IPO, initial public offering, it spawned a number of individuals who
+were quite wealthy who then became angel investors, that is,
+individuals who were making private and individual investments in a host of
+other companies as well, as well known, the PayPal Mafia, in which executives, middle managers and
+even engineers at the old PayPal then went on to really become investors, founders and other key executives
+of other great companies. And, so I don't have to
+mention Peter Reed Hoffman. These are all known and well celebrated
+ash mores that all fit in this mold. If you think about the technology
+life cycle, you could capturize the adoption curve with this
+typical s shaped check adoption curve. There are three distinct patterns
+associated with this curve. In the beginning,
+there's a quite a bit experimentation. Experiments don't go right,
+you put in a lot of effort without a lot of progress that
+explain rather shallow era ferment. Then things suddenly click into place, you're able to come up with a design that
+appeals to the mainstream of the market, you get network effects that
+appeals to the mainstream. That really makes a product or
+service much more valuable, because of the size of the installed base. Think about Facebook,
+which is much more valuable just because all of your other friends
+are on the network. That leads to this period of take-off. And then finally, there's a saturation
+point, whether because you've tapped out the social network,
+the people that your product or service could be addressable towards,
+or there's physical limitation. The wind won't blow any faster, so
+your sailboat is fundamentally. Constrained by the physical
+limitation of the sale. And so this is a typical pattern, in which
+technology evolves in commercial space. Now, there's some challenges associated
+with those transition points from the era ferment to the takeoff period. And that particular transition point is
+really trying to appeal to the mainstream. You could develop a product or
+service that's very niche. That really appeals only to the early
+adopters or the early innovator, but that's not going to be good
+enough to really cross the chasm, as the well-known book by
+Jeffrey Moore is titled. To really appeal to the mainstream,
+and tap in to the, really, the lion share of the market,
+what you might want to be thinking about, particularly more in technology settings,
+is how do you become a platform player? How do you induce those network effects
+that we talked about before, so that you're much more likely
+to be the next LinkedIn. Or Facebook platform, and avoid being disrupted like the Friendsters
+or the MySpaces of the world. And what that takes are things like, really reducing the entry cost for
+complimentors to join your network. We're really serving an underserved
+market space that's been neglected by the industry in so that you can then become the next iTunes platform
+that is really adding real value. Now in terms of trying to get to
+where you can take out the value, because after all, there's a supply chain
+or a value chain here associated with the value creation aspect of
+a typical technical innovation. And what you want to worry
+about as the innovator or inventor in this chain is,
+how large is the slice of the pie? And so let's discuss what determines
+the size of the pie you get as one part of this value chain. So there's essentially
+these two constructs. Bargaining power and market power. And to the extent that you're able to
+increase your leverage as the inventor or as one part of this value chain, the larger is the size of the pie
+that you're expected to get. Think about this as how unique
+are you in the competitive space of others that could enter into domain,
+and that in turn will shape how unique you are, and how much
+bargaining and market power that you have. Now one of the drivers of market,
+if market and bargaining power really drive the size of
+the pie that you get as the inventor or any other player in the value chain,
+what shapes that power? Really three things, appropriability, can you control
+the knowledge that you've created? You have complementary assets that
+are important in taking out the value and enhancing your bargaining power
+against others that could also offer a similar function as you. And then, thirdly,
+the stage of industry evolution. And in particular is this
+concept of a dominant design. And modern dominant design
+would be the iPhone. Every smart phone after the onset
+of the iPhone, kind of has to look, have the features and
+functions of the iPhone. Before the iPhone,
+there's many configurations and we could cover the same example as in
+the early days of the automobile industry. Before and after the Ford Model T. After the Ford Model T
+to be a legitimate car, it has to look like what
+we now know as a car. Before the advent of the dominant design,
+the Ford Model T, you have all kinds of experimentation and hypotheses
+as to what a car should look like. These three factors will shape
+the market in bargaining power of a participant along the value chain. Now, let me break up those three and
+go into a little bit more detail. Appropriability, what is it? If you can appropriate and control
+the knowledge that you've created from an invention,
+then you're able to really steer that and control that knowledge for
+the use that you want it. To be used for. And it's essentially,
+a method of uniqueness and controlling the knowledge that you've
+created through intellectual property. In other forms of protection, so that you can exclude others from coming
+in and replicating what you've done. Now why in terms of
+the complimentary assets, the other parts of the organization,
+like expertise in manufacturing or navigating the regulatory landscape or
+marketing our sales. How can that be important? Think about a moment of
+disruption in an industry. There's a new platform
+that comes in place. A new products that comes in place. Just to give you an example,
+drug discovery. Before the introduction of bio technology,
+done in a very traditional way. There was a period of
+ferment experimentation. There's a takeoff period after which
+you're appealing to the mainstream. And then, some saturation point in
+which the return is leveling off. Now comes biotechnology,
+a much different way of introducing drug discovery,
+a way in which you have drug discovery. With the edit of bio technology,
+the industry and comments were actually shielded from the
+competitive pressure from bio technology. Even though the underline science
+was quite disruptive, why? It's because the old pharmaceutical
+companies control the complementary assets, that is very difficult to
+navigate the regulatory landscape. In the United States, it's the FDA,
+Federal Drug Administration, as well as marketing, that is,
+to the doctors that will inform how the ultimate consumers,
+the patients, will take the drugs. And because there was disruption
+at the level of drug discovery, but preservation at the level of
+the organizational complimentary assets, that was really quite important in
+shielding the pharmaceutical company, companies in their bargaining power. These are the new entrance
+to biotechnology companies in the face of a new way
+of discovering drugs, but not in the way that those drugs
+are consumed by the ultimate consumers. Finally, lets get to industry evolution. I talked about dominant design before,
+before and after a dominant design. And what's important is if we overlay
+the other constructs that we talked about, uniqueness through appropriability as
+well as the role of complementary assets, what's interesting here is at the
+beginning phases of industry evolution, that is the era of ferment, it's very
+important to control the ideas, and less important. The complimentary assets in
+terms of taking out the value. But, towards the era of saturation, the relative of these importance
+of these forces almost inverts. That is, it's no longer that
+important who controls the ideas. But it's quite important who's,
+how, those products and services are being delivered through
+those organizational assets and complementary assets towards
+the end of the life cycle. So in conclusion, we've talked about
+how technology entrepreneurship could be a possible unique entry points. Moments of technical disruption,
+present entrepreneurial opportunities. There are a whole host of value
+appropriation considerations as you think, about how to earn returns
+from that innovation. Thank you.

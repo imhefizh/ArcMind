@@ -1,0 +1,108 @@
+One of the key inputs in making a good pricing
+decision is estimating what is the maximum a potential buyer may be willing to pay for
+a new product, a new idea, or a new service we are contemplating
+taking to the market. Economists often refer
+to this as estimating the reservation price and it is a key input into many analyses. The maximum willingness to pay
+may vary across customers, and this variation
+often gets reflected in what we commonly refer to
+as the demand function, which is many cases nothing but the plot of reservation
+prices from high to low. In this module, we shall learn three different approaches to estimating maximum
+willingness to pay. Each is used in a different
+setting and oftentimes we use more than one to
+triangulate to get more confidence in our
+business decisions. The first method for measuring maximum willingness
+to pay that we will discuss is economic
+value to the customer. It is also often referred
+to as EVC in short. It is particularly
+useful in business to business settings
+we are conducting surveys is not possible. The main outcome we're looking for is when a customer
+changes from say, one method of solving
+their problem, say one technology, to a newer technology, how much might
+they be willing to pay for the new technology? We shall do this
+in the context of the new chemicals mini-case that I hope you all
+had a chance to read. If you haven't read that, please read that before we
+go forward with this module. The question posed at
+the end of the case is, how much will Professor Raju be willing to pay for
+this new tablet? When I asked this question
+to my students at Wharton, many will raise
+their hands and say, Professor Raju will
+be willing to pay $220 plus the cost of
+his time of two hours. When I ask how much do you
+think my time is worth, it generates quite
+a bit of laughter. Some students have the
+courage to make a guess. Let us for the
+moment, assume that my cost of time is zero, and let's say that it's not an assumption, but it's a fact. Then I ask the students, how did we arrive
+at the 220 number? Or in other words, what other drivers of
+willingness to pay. Let's do that carefully now. The pool is 20,000 gallons. Cost of draining the water is one dollar per 1,000 gallons. For 20,000 gallons, that will be $20. Refilling the water costs one
+dollar per a 100 gallons, and we are talking about
+a pool of 20,000 gallons, so it'll be $200. The cost of time of two hours we've already assumed is zero, so that'll be zero, and we add that up, we get $220. What we're really trying to do here is trying to get
+an estimate of how much does it cost
+Professor Raju to do the job today using
+the old method. The old method here is drain
+the pool and then refill it. If the company were to go
+to Professor Raju and say, this tablet is priced at 220. If it has done its
+calculations carefully, Professor Raju will
+most likely say, I'm economically
+indifferent between the old technology and
+the new technology. This is how we define the economic value to the
+customer or EVC in short, the price of the new technology
+at which the customer is indifferent between the
+old and the new technology. The computation of
+EVC requires making assumptions as do all decisions. But it gives us a
+useful benchmark, what is the maximum
+somebody will be willing to pay for the new idea
+or a new technology? The methodology and the
+approach also helps us answer several other
+important questions. For example, new chemicals may be
+interested in finding out who will be willing to pay more than 220 and who will be willing
+to pay less than 220? What we are trying
+to do here is assess the drivers of economic
+value so we may be able to segment the market and
+decide who will be the buyers who are
+most attractive to our product or service. What might be these drivers? I often hear that it can
+be the size of the pool. I ask the question
+to my students, how will you know who has a bigger pool and who
+has a smaller pool? The pools are usually in people's backyards and
+they are not visible. In other words, any
+driver of willingness to pay that is actionable should be observable
+to the seller. Some clever students might say, we can look at Google Maps
+and see the size of the pool. But then what about
+the depth of the pool? In any case, what we are looking for is drivers of willingness to pay that are easily
+observable and actionable. Another answer I get is those who are environmentally
+conscious will be willing to pay more because
+this tablet will save water. Again, one can ask the question, how will you know who's more environmentally conscious
+than the other? Maybe it's their
+affiliation with other associations,
+other groups. But again, that's not
+as straightforward. Another good answer
+is geography. Some counties or
+townships may charge more for water disposal or
+more for freshwater. In those counties, people with the same pool size relative to another county will
+be willing to pay more. That is a much more
+actionable variable. Cost of refilling and disposing water may depend on which county you live in and
+counties are observable. What about the value of time? Professor Raju's value
+of time is zero. Those with higher value of time may be willing to pay more. But once again, we have
+to ask the question, how would you know who has
+a higher value of the time? Is the size of the
+home an indicator? Whenever we have a variable that drives value or maximum
+willingness to pay, if that particular variable
+is not visible or observable, we might find a
+surrogate for that. But I think the broad point
+we are trying to make here is economic value to the customer does not
+just give you a number, but also gives you an idea about how that number might
+vary across customers, who might be willing
+to pay more for our product and who might be willing to pay less
+for a product. Another advantage of economic
+value to the customer is it gives us an idea of
+who our true competition is. Now, the true competition
+in this case is probably water disposal companies who actually earn money
+by disposing water. It may not be necessarily
+another company making the same chemical tablet. In summary, economic value to the customer gives us an
+estimate of willingness to pay. This information is
+useful in setting prices. Differences in willingness to
+pay across buyers helps us determine who to go after
+and who not to go after. Combining economic value to the customer with the concept
+of customer lifetime value also gives us a very
+useful way to understand our customer base or the
+potential customer base. We will go into details of
+this in another module.

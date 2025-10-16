@@ -1,0 +1,226 @@
+I'm a Karl Ulrich,
+I'm a professor at the Wharton School. This session is on pro
+forma financial statements. The word pro forma is just Latin for
+as a matter of form. And what it means is, it's a forecast
+of future financial statements for your business prepared in
+a fairly standard way, a way that people expect to see
+financials for new ventures. The important point to note here is
+that this is not an accounting of your actual financial performance. It's a projection of what you
+believe will happen in the future. And they're called pro
+forma financial statements. The analysis is generally done monthly. So, you analyse at the level of months,
+and you do it, typically, for 36 months. In some businesses, it might go out for
+five years or 60 months, but most of the business, most of
+the statements that I see done these days, are done for three years or for 36 months. There are three standard forms in a set
+of pro forma financial statements and they are the income statement, the cash
+flow statement and the balance sheet. Now, let me just point out right
+now that as an entrepreneur, you need to learn some accounting and
+you're not going to learn it here. You need to take a course in accounting
+if you haven't already done that. There's some very good courses
+available for free online, including a great one offered by my
+colleagues at the Wharton School. This is not a substitute for
+an accounting course, but I want to talk about accounting in the context
+of the pro forma financial statement. The other thing that usually goes with
+a set of pro forma financial statements is a detailed budget for what you actually
+plan to spend for the next 12 months. Investors usually want to see what exactly
+are you planning to spend money on for the next 12 months,
+because they're providing that capital they want to know how
+you're going to spend it. So your pro forma financial statements are
+usually accompanied by a 12 month budget. Now, the three statements, the income
+statement, the cashflow statement, and the balance sheet are interrelated. And so, for instance, the income statement
+is not the same as the cashflow statement. And the reason for that is that under accounting conventions,
+income is not the same as cash. So for instance, if you have spent cash on inventory that shows up on the cash flow
+statement but doesn't show up anywhere on the income statement because an inventory
+transaction isn't related to income. So cash flow statement and
+income statement are not the same because accounting the way we do accounting in
+business, cash is not the same as income. Similarly, on the balance sheet, the balance sheet shows assets and
+liabilities, not just cash. So it'll also show some things
+like debt inventory, receivables, shareholder's equity, retained earnings,
+a few other assets categories and liability categories that
+are not shown elsewhere. So, we really need these three distinct
+statements, the income statement, cash flow statement and
+the balance sheets. These are also, as you probably know,
+exactly the same statements that are used in reporting financial
+performance of companies and in particular for public companies. Now the questions that
+are answered by performance financial statements are these. What do I believe this business could
+look like financially in the future? And the reason that's important is you
+want to be able to show to yourself and to investors what the future prospects for
+this business are. And so the pro forma financial
+analysis says, hey, in year three, this business could have this revenue and
+operate with this level of profit. And that informs the question of
+might this be a good investment, might this company actually
+be quite valuable someday? The second question
+the statement's answer is what's the relationship between my
+key performance indicators? That is the things that I
+as a manager control, and the financial performance
+of the organization. So for instance it might show
+what's relationship between the number of retailers that I've
+set up to sell my product, and the financial performance of the company. The third question that is answered
+by the pro forma financial statements is how much cash do I need
+before I reach breakeven? So effectively, how much cash is
+required to support the negative cash flow associated with the early months or
+years of starting up this business? And then the last question that's answered
+by these statements is, is my operating plan, that is what I say I'm going to
+go do over the next months and years, is that consistent with my financial plan,
+and is it financially feasible? I want to give you, use and example to illustrated
+the performer financial statements. I'm a founder and investor in a company called Belle-V
+Kitchen that sells kitchen products. This is an example of
+a bottle opener that we sell. And just for the sake of an example,
+I'm going to imagine a company that's called
+Carl's Openers, and we make two products. We make a bottle opener and
+we also make a wine opener. So Carl's Openers has two products,
+a bottle opener and a wine opener. And I want to show you what the pro forma
+financial statements might look like for that business and
+use it to underscore a few key points. First thing I want to say is that,
+you the entrepreneur in preparing these financial statements,
+start with the income statement. That's the place to start. So let's focus first on
+the income statement. Now this is an example of
+a monthly analysis for the first year of the business. And so you see, it's just got 12 columns
+for the 12 months and then the last column is the annual total, which just sums up
+across the rows, across the 12 months. This is usually where you start. And as you build the spreadsheet,
+you will typically build, you will use 36 columns, which will be the
+12 months for each of the next 3 years. And then you'll provide an annual
+summary for each of those three years. Let's just look at what's
+in the income statement. The top portion of the income
+statement shows revenues and revenues are usually shown by
+product line or by service line. So in this example of Carl's openers
+I show we have two products, a bottle opener and a wine opener. And so it shows the revenues for each
+of those two product lines separately. And then just sums them
+up as our total revenues. The next category of items shown on the
+income statement are the cost of goods, sometimes known as cost of sales. And sometimes referred to by
+the acronym COGS which just refers to cost of goods sold or COGS. COGS are the costs that you
+incur in direct proportion to the number of units you sell. And usually the COGS are what you
+pay your supplier to provide you with the product that is what
+is your cost of that product. Or what does it cost you to manufacture or
+deliver the service that you're providing? Your actual costs associated with
+delivering a unit of product or service. Those are your COGS or Cost of Goods Sold. And of course the difference
+between the revenues and the cost of goods sold is
+called your gross margin. That's the difference between
+what you bring in, and the actual cost of providing that product,
+that's the gross margin. The next category of items shown on the
+income statement is referred to as SGNA, or sales general and administrative costs. And those are the things that
+are required to operate your business that don't vary directly with sales. So typical examples there would be
+administrative payroll, or rent, or insurance. Those are all things, utilities, that don't vary directly with
+the quantity of product you sell. And they're called SGNA or
+Sales General and Administrative Costs. If you take the revenues
+minus Cost of Goods, that gives you gross margin, gross profit. If you subtract from that your SGNA,
+you're left with what's called your EBITDA, which is earnings before interest,
+taxes, depreciation, and amortization. You could think of this as your operating
+income before you pay the costs of financing the business,
+is basically the way to think about it. And for many businesses,
+EBITDA is your actual earnings. For businesses that have a lot
+of equipment or have debt, it isn't exactly the same
+as your net income. Usually in your pro forma
+financial statements, you will also show some
+ratios as a percentage. For instance, it's usually,
+most people want to see what is my gross profit percentage or
+my gross margin percentage. And that's simply the ratio of
+my gross profit to my revenues. And similarly, the other ratios
+are calculated as shown here. The first point I want to make is to
+think about how to build this model. And as I said at the beginning, I'm not
+going to teach you enough about accounting that if you know nothing about accounting
+you can build these financial statements. But after you've learned some accounting, I want to make this important point, which
+is as you build the income statement, you shouldn't just type in to the income
+statement a number for revenues. Rather, you should build a spreadsheet
+model that calculates that revenue, based on some operating
+parameters of the business. Let me give you a concrete example. Shown here in this spreadsheet,
+I show revenue of $5,500 for bottle openers for the month of January. I shouldn't just type in 5,500, because
+where does that number come from exactly? Instead what I should do is put in
+some rows in that spreadsheet for, how many retailers do I
+expect to have in January? How many openers do I expect
+to sell per store in January? What's the average sales of
+my product to that retailer? And then, I'll also have some rows for how many units do I expect to sell
+directly to consumers, say on my website. What's my average direct selling price? And I can use those five
+parameters to then calculate how, what my total revenues are for
+bottle openers. So the difference here is that if I model
+my spreadsheet using some parameters that I can better understand,
+like how many retailers do I have? How many units do I expect
+to sell per retailer, and what do I expect the average selling
+price to that retailer to be? I have a more principle reason for
+coming up with that number, 5,500. It's also much easier for
+me to modify this model. It's also much clearer what
+my assumptions are and it links financial performance to
+the things that I as an entrepreneur can directly control,
+like how many retailers do I have. You do a similar thing with the costs,
+what's my factory price per unit. What's the freight per unit? What duties do I pay per unit? Enter those into your model to drive your
+cost of goods rather than just putting a number there that maybe you
+calculated on a scrap of paper. Now of course,
+every business is different and every business will have a different
+model that drives it's revenues. But you should think about for your business, what is the fundamental
+logic for where my revenues come from? And create a spreadsheet model that
+uses those parameters as your input. Not just a number that you calculate
+on the back of an envelope and stick in the spreadsheet. One of the challenges in preparing
+pro forma financial statements, is deciding which scenario you show. You of course know that
+your future is uncertain. It's very difficult to predict
+what your actual revenues or costs are going to be out in year three. And so you have the choice, when you're
+preparing these models of showing a conservative scenario, or
+showing a very aggressive scenario. Or maybe showing your
+expected case scenario. And I'm just going to give you my sense
+of current practice in entrepreneurship. I've been involved in 28 ventures. I've seen exactly three that have
+exceeded their plans significantly. As a general rule in current practice,
+entrepreneurs are optimistic. And they're optimistic in those scenarios. The net effect of that is
+investors have come to expect that your financial statements
+are a little bit aggressive. They are a little bit optimistic. And so, as a matter of practice, I believe that most entrepreneurs show
+the 80th to 90th percentile outcome. That is that the scenario that is only
+20% likely to play out in the future. That tends to be what's shown in
+the proforma financial statements. Now that's not ideal,
+I would much prefer that entrepreneurs and investors come to expect maybe
+several scenarios that are articulated in the pro forma financial statements,
+but it is the state of correct practice. Particularly, prior to
+the launch of the product. Now of course as the business operates for some time, the numbers have to get
+more and more realistic because investors start to look for,
+is the management team hitting their plan? So once the business actually starts
+to operate and generate some revenues, typically the pro forma financial
+statements start to come much closer to what management truly believes is the
+likely outcome for the next few periods. Let me also make an observation,
+just a little hint. Which is I think it's bad form,
+it's just bad practice as an entrepreneur, to make this statement,
+well these are conservative assumptions. People seem to do it all the time they say
+well we've modeled conservatively that we'll have two hundred
+retailers in January. The reason I say that is that
+they're never conservative. In most cases, they're optimistic. And so you're sort of revealing
+you don't know what you're doing if you call them conservative scenarios. I find investors don't like to hear that. They want to see your scenario. Don't characterize it as conservative. It's probably optimistic. And investors expect it to
+be a little optimistic. Let me just go through Some Best
+Practices, again build your model using key revenue and cost drivers so
+your assumptions are clear and so your logic is clear to where your
+revenue and cost numbers come from. Start with the Income sheet. All right the income statement and then use that to drive the cash slow
+statement and the balance sheet. Use detailed worksheets at a monthly
+level to drive the summary sheets. Model your financials monthly
+typically for 36 months and then provide an annual summary so
+we can see the annual data. And then lastly although you probably want
+to provide some summary financials in your business plan, or your pitch deck that
+is shared with investors, you probably benefit from just providing the perform
+of financials as a separate document. It's usually a PDF file
+generated from a spreadsheet. Just provide that as a separate document, that's often the way
+investors expect to see it. Lastly let me give you
+some practical advice, you do need to know some accounting. And at a minimum you can
+take an online course. As I said Wharton offers
+a great one online. Just take the accounting course, because
+you need to understand the language of business if you're going to
+be an entrepreneur, and this isn't enough accounting to really
+understand the language of business. You start by building
+the income statement, and I would recommend that you,
+the CEO, you the entrepreneur, build your own financial model,
+particularly the income statement. I think it's important for
+you to understand it. And understand it at quite detail level. So you should build it yourself. Having said that, getting the balance
+sheet and the cashflow statement to work properly, to link those three
+documents is a little tricky. If you aren't good at it,
+if you haven't done it before, then I would engage a partner or consultant to
+help you build out the full financials. There are some very good
+templates available online. One of the template in
+fact the one I used for that example comes from the non
+profit called score and you can go to the score.org website
+to download those spreadsheets. There are some paid services that will automatically generate financials
+from a set of assumptions One of them that entrepreneurs I
+know have used is called Live Plan. This isn't an endorsement of Live Plan, I'm just pointing out it's one of
+the examples of those companies. Those can generate financials
+automatically from some very user friends assumptions. In my experience, investors expect
+to see a true spreadsheet model. And so I think you might use live plan
+to help generate those spreadsheets but probably do need an actual Excel document. Or spreadsheet document that
+contains your financials. And you might need to get
+some help to do that. But I do think you the entrepreneur,
+you the CEO, do need to create your own income
+statement as a way to get started. Pro-forma financial statements,
+they're sort of a necessary evil in entrepreneurship, but
+I do think they're very important to help you really think through
+the feasibility of your financial plan. And it's consistency with the operating
+plan that you anticipate over the next months and years.

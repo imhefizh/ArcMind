@@ -1,0 +1,293 @@
+Hi, everyone, David Hsu from
+the Wharton School covering a session on entrepreneurial strategy. An opening question that
+motivates this session is, why does strategy even matter for
+entrepreneurs? If you pick up the Wall Street Journal,
+or any other leading business press, you often hear the headlines,
+as to successful entrepreneurship as, we out hustled,
+we out executed the competitors. And at the end of the day,
+we just made it happen. And so that would be one extreme view. The other polar extreme view would be,
+you've got extremely limited resources as an entrepreneur, and so it's
+even more important for you to strategize, to think through how competitors
+are going to react to your entry. And to the extent that you're able to
+get some of those theories out there, or hypotheses, as to why you're
+going to be able to succeed, that's going to complement your execution,
+your implementation, all those other things that are necessary
+for you to really outmaneuver and successfully compete against more
+established rivals and incumbents. And at the end of the day, having a strategy will allow you
+as the entrepreneur to prioritize. What are the things that really have
+to go right at the beginning of your venture initiation, in order for
+you to successfully enter into the market? And that's what really what is
+motivating today's session. Let me give you a real life example. So back in 1999, there was a very
+interesting company called Webvan. It was a very highly touted
+company that was going to enable online delivery of groceries. You would be able to open
+up your Internet websites, browser, click on the groceries
+that you want and all of a sudden those groceries
+would show up in your back door. That company actually consumes
+a great amount of venture capital, but ultimately failed. It took a strategy of really trying
+to disrupt the industry incumbents. On the other hand, there is another
+company that was really founded around around the same time, Peapod. And here, instead of being a substitute
+to the industry incumbents, they thought that they would be a
+complement to the incumbent grocery chain. And here what they allowed
+the customer to do was if the customer wanted they would be
+able to open up a website, and be able to order their groceries
+online and have them delivered. And the marketing was not so much, we're
+going to replace the grocery chain Peapod. Instead, we're going to be the online arm,
+so if you prefer your groceries to show up online and to order them online,
+that channel is available as well. And here, it's a company that
+actually end up doing quite well. And the lesson here is that these
+are two entrepreneurial companies really seeking to exploit the same
+entrepreneurial opportunity that was afforded by the rise of the Internet,
+but had dramatically different results probably because they had
+very different strategies. I'm going to contend three different
+strategies we can think of for entrepreneurs. The first is a value chain strategy,
+working with industry incumbents to reinforce the value that
+they've already established. Yet, you're innovating along
+one part of the value chain. Take the example Foxconn. This is a company that is
+manufacturing iPods, iPhones, Kindles, and the like, in cooperation with
+industry incumbents, Amazon and Apple. Yet, being at the leading edge of
+manufacturing and production, and therefore reinforcing the existing
+value chain of incumbent. That would be an entrepreneurial
+value chain strategy. A second strategy that is quite
+different is more along the lines of the Webvan strategy,
+which is to try to disrupt or to undermine the existing value
+chain of the industry incumbents by bringing a different platform,
+a different value chain on to the scene. So, in addition to the Webvan example,
+we might think about Netflix, as it tries to enter in, and disrupt,
+as a distribution channel, media, and movies, compared to the industry
+incumbent at the time, Blockbuster. A third strategy would be to really
+deflect your competition all together, and to try to think about ways in which
+you can enter a market space that is green field, completely new, that's not being
+offered by anyone in the industry. And here, this is a notion that's
+popularized by these NCI professors, really creating new market spaces. The leading example here, Airbnb,
+creating a new market category that, in some sense, is an alternative but
+wasn't thought about before in the space of providing housing for
+individuals seeking housing. We'll come back to these examples and
+drill down a little bit more in depth. Now one question you might ask
+is which is the best strategy? To address that, some of you
+many know about these unicorns. Unicorns is a term, that term that
+really suggests private value, at least at the level of $1 billion. And just let me just tell you
+about the methodology here. I hired a team of researchers at Wharton
+to categorize the 140 companies that have been labeled as unicorns,
+and we're trying to analyze, what are the strategies that they're
+using in coming into market? And perhaps surprisingly to some of you,
+by and large, the value chain strategy is much
+more important than the disruption strategy in terms of just what strategies
+are these uniform unicorn companies using? Now, that's a very
+particular data point but at least gives you a notion that value
+chain strategies could be quite important, not just disruptive strategies
+has been made kind of popularized in the press as to what is the basis
+of valuable type of companies. Now one thing that underlies the value chain strategy is this notion
+of cooperating with others. In contrast to the disruption strategies, which is much more of
+a competition type of strategy. And so just to review some of the benefits
+to cooperating with industry incumbents. One is very clear,
+here's this division of labor so the startups are doing what they do best,
+that is upstream innovation. Yet, they get the best of both worlds by
+doing a deal or cooperating with partners, industry incumbents that have
+assets that are downstream. That is, typically,
+these incumbents are quite good at bringing products to market,
+they have superior manufacturing, distribution, marketing,
+sales type of channels. Those downstream assets are often
+associated with industry incumbents, and if you could marry these
+two entities together, that could be a winning strategy. And at the societal level, governments for example might care that we
+don't want to recreate things, avoid duplicative investments if you get
+out of this division of labor in society. So, those would be the benefits
+of cooperating with others. Now that begs the question,
+why doesn't cooperation always occur? There's a couple of frictions that
+are associated with cooperation. One is simple transaction cost. Could be difficult to find
+the appropriate partner, and even if you could find
+the appropriate partner, think about all that in depth
+contracting that you have to do. You have to specify,
+who is responsible for what? Under bad states of the world,
+who gets rights? All of these different elements of
+codifying The different cash flow, control rights that are associated
+with the contracting type of process. Those were all various transaction
+costs associated with corporation. There could also be
+a divergence in beliefs, right? One party may really have
+a different view as to whether a certain innovation is important, right? And so as a consequence, one party may not be interested
+in doing a deal with the other. The difference in perception
+may be different that the value proposition of the startup is not very
+verified and so these things could lead to differences in beliefs and
+therefore break down cooperation. Finally, from the startup's perspective,
+there could be this disclosure dilemma. Doing any deal with an industry incumbent involves disclosing in some
+detail what you've done. And without proper protection,
+disclosing that information may undermine the very value that you
+have as a startup entrepreneur. And so just to give one concrete example. There was a movie that was made
+based on the situation in which an entrepreneur comes up with a better
+windshield wiper, gets very excited. Goes to the industry incumbent auto
+manufacturer and says look, I've invented a very important windshield wiper and
+wouldn't you like to do a deal with me? The auto industry incumbent
+says thanks for coming in, but we've already been working on that. And so some of you may know this film,
+Flash of Genius, that really goes through all the headaches and heartaches
+associated with that particular episode. And so it really underscores this
+notion of negotiating with incumbent in a contracting process or
+cooperation process has its own pitfalls. Now what I want to do is to depart
+to kind of leave you with a few other considerations in using
+a value chain strategy. Even if you have an aspiration, especially
+if you have an aspiration to learn production skills because one
+day you hope to grow up and graduate from being a startup entrepreneur
+to being an industry incumbent. It may be better for
+you to get in the game by producing and not just leave things to
+arm's length contracting. Because you have to make the mistakes,
+you have to go up a learning curve in order for you to have a long-term
+prospect of integrating into production. All those downstream
+aspects that you need to do well as a fully
+fledged type of company. And if you only do a deal in a arm's
+length manner with an incumbent, that may not work out so
+well for you in the long term. The next strategy I want to cover
+is the disruption strategy. Now remember in contrast to
+the cooperation strategy, this is the compete strategy. To illustrate this notion,
+let me give you one concrete example taken from Professor Clay Christensen of
+Harvard Business School in his 1997 book. And what he is showing is that across
+generations of hard disk drives as you moved from the 8-inch
+generation to the 5.25-inch generation. Take a look at these attributes that
+are the key performance indicators associated with this particular industry. As you go from the 8-inch generation
+to the 5.25-inch generation, the capacity of the hard
+disk drives gets worse, the access time gets worse,
+the cost per megabyte all gets worse. So if you ask the customers, do you
+prefer these worse performance indicators as you move to this new
+generation of hard disk drive? Most customer's will say no. And that is the signature
+of a disruptive technology. That is, if you ask the customers what
+they prefer, they never tell you that they prefer the new generation that's only
+getting better on one attribute, the size,
+the miniaturization of the size, but largely gets worse on
+every other attribute. To fix this idea, there is this
+generalized notion of this theory that disruptive technology initially performs
+worse compared to the existing technology. But look at the trajectory of improvement. It's much steeper as compared to
+the established technology and at the point at which the established,
+the disruptive technology eclipses the needs of the average,
+mainstream consumer. That's precisely the moment in time
+in which the industry incumbent gets disrupted. Now, go back to the example of Netflix or
+Airbnb. Now, Airbnb I covered under
+blue ocean strategy, but it's not necessarily mutually exclusive
+with the disruptive technology. At the beginning,
+the performance is much, much worse. You're sleeping on the couch,
+in the case of Airbnb and the industry incumbents,
+Hilton and the Sheraton, they don't think that this Airbnb is
+a credible threat to their business. But the performance trajectory of AirBNB
+is much, much steeper compared to the incremental advances that Hilton and
+Sheraton are employing. And all of a sudden as you
+fast forward in the industry, there's this performance trajectory
+that's much, much better. And the hope of these companies like
+Netflix, AirBnb, Uber is one in which, by the time the industry incumbent
+recognizes the destructive nature, it's much, much too late. Because they've overtaken and eclipsed the market value in terms
+of performance to the customers. To conclude this section, what I
+want to do is to give you a comparison. Both from the startups from the incumbent
+behavior standpoint as well as the startup behavior in terms of the challenges. This is the material I've already covered,
+but encapsulated in this handy slide or chart that really gives
+the central managerial or entrepreneurial challenges that are
+associated with each of these strategies. For the value chain strategy, why does the partner, the incumbent,
+want to work with you? For the disruptive strategy, at what
+point will the incumbent wake up and really respond? And for blue ocean,
+why is there this missed opportunity? In terms of new market space that is,
+in some sense, left on the table that
+the incumbent hasn't uncovered. From the perspective of the startup,
+in terms of the challenges and the key questions,
+we could also summarize these things from the perspective of
+each of these strategies. For value chain, how could you
+mitigate your expropriation threat or convince the partner that this is
+really something that they should be interested in in cooperating
+with you as a startup entrepreneur? And for the disruptive and
+blue ocean strategies, the main challenge is how
+are you going to out execute? Suppose the incumbent wakes up. Do you have some way of
+protecting your idea? Or out executing the incumbent,
+should they decide to come in and aggressively compete against you. So that's a summary of these three startup entry strategies in the context
+of this particular module. Here I want to introduce
+a new idea to you. Before we talked about this notion of
+value chain strategy in which you're cooperating with industry incumbents or a
+disruption or blue ocean strategy session in which you are instead competing
+against industry incumbents. A lot of times as a start up entrepreneur, those options may not be
+immediately available to you. And so, similarly to the analogy of
+scaling up a mountain, the most efficient way of getting up to the top would just
+be to go straight up the mountain. But a lot of times for startup entrepreneurs Even if your
+goal is to eventually cooperate or eventually compete, that may be difficult
+for reasons I'll shortly discuss. As a feasible strategy,
+what you want to do is zig and zag. Take one strategy first that may
+then enable a different strategy. What we've termed this is
+an entrepreneurial switchback strategy and it's based on some of my own research. Let me introduce the ideas to you. There are two types of
+entrepreneurial switchbacks. The first, is what we're labeling
+temporary competition switchback. Here, the idea is that your
+eventual goal it's to cooperate with industry incumbents. But the problem that you may face
+as a start up entrepreneur is that maybe the industry incumbent doesn't
+believe that you are going to deliver the promise type of
+innovations that are claiming that there's a substantial amount
+of uncertainty both at the level of you as the entrepreneur with respect
+to no established track record, or the product or service that
+you're trying to bring to market. And so what you may want to
+do under these circumstances, that your eventual goal is to compete,
+is to eventually cooperate, is to instead enter the market
+in a competition strategy first. And validate or
+show the world in the incumbent that you're not just talking about
+vaporware, that you have actually come up with an innovation that
+you've purported to come up with. And then it may be more
+efficient to cooperate or do a deal with the industry incumbent. And so essentially what you
+want to do in this switchback is to demonstrate to the cooperation
+partner that you have what it takes and that your innovation is for real. Now the opposite strategy of this is
+a temporary cooperation switchback. Here, as a startup entrepreneur, your eventual goal is to
+compete in the product market. But the dilemma here is that
+you don't have all those other organizational assets. Those complementary
+assets that you need in order to bring an end to end
+solution to the marketplace. So instead what you might do,
+is in the first phase of your history as a startup entrepreneur,
+do a cooperative deal with the incumbent. That is, try to do some joint marketing,
+some joint manufacturing with an industry incumbent, so
+that you're learning along the way. And then in the second phase you
+are able to then end those cooperative relationships ,so that you can
+ultimately enter the product market with a brand of your own. And so the idea is that
+you're able to address and build up your organizational capabilities,
+so that you're well-positioned to
+compete in the product later on. Let me go into detail and
+to each of these strategies. The temporary competition switchback. Let me give you one concrete
+example from Qualcomm's. This is a company that really
+came up with this important innovation called CDMA,
+Code Division Multiple Access. It allows communication patterns, essentially enables
+the cellular phone industry. At the beginning of entry of Qualcomm
+into the industry, they came up with an innovation of this new standard that
+competed against the prior standard. Which in various parts of
+the world were known as GSM or TDMA, Time Division Multiple Access. And when we talked to the founder, one of the founders of Qualcomm,
+the challenge that he really articulated is that no one really
+believed that this could be for real. CDMA seemed too good to be true. So what Qualcomm had to do is, they had to enter into the market
+even though that was very expensive. And efficient for them to build the cell
+towers and to build the handsets because none of the carriers believed that what
+they had come up with was really real, and so when Qualcomm did enter and
+demonstrated to the world that this was a workable standard, they then
+divested those parts of the business, no longer efficient for them to put
+up cell towers around the world. And so they ultimately ended up divesting
+those cell towers to Kyocera and Ericsson on the handset side. And they've become what we
+know Qualcomm to be today, that is just generating
+intellectual property. That moves forward the CMA and
+other types of standards and so, this very well illustrates this
+conundrum that for some sort of. They would like to eventually corporate or
+take a value change strategy was very difficult because of
+skepticism and lack of reputation. With regard to the industry incumbents. Let me now cover in a little bit more
+detail the other switchback strategy that we've discussed which is
+the temporary cooperative switchback. Here is you recall the ultimate strategy
+is to compete against industry incumbents. Maybe taking a blue ocean or disruptive
+strategy but the problem is initially you as a startup entrepreneur don't have any
+of those downstream complementary assets, you don't know how to market,
+you don't know how to manufacture, all those complementary assets that
+are necessary to successfully compete. Think about the example
+of a company like Acer. Here, you may think about Acer,
+we know them now as the makers of branded electronics equipment but
+early on they had to be a white-label maybe even a original equipment
+manufacturer for the likes of Dell. Dell essentially said make these
+computer boxes to our specification, we going to put our label on them. Then a company like Acer graduates
+to being not just manufacturing to someone else's design but then,
+becoming out original design manufacturer ODM in which they're
+responsible for designing the equipment Dell still gets
+it's name on the ultimate box but at least Acer is able to improve
+their design capabilities. So then, the final phase of graduation
+to fully fledged branded player in which they are designing and branding
+their own equipment, that's what we know Acer to be today, but in the interim they
+had to cooperate with some of the best brands out there in order to develop
+some of those organizational assets. And so in essence allows you to learn
+together with some of the best out there, in terms of the partners, but then once
+you've learned those capabilities, you're able to shed those partnerships. And essentially go out there and compete. And so we could cover other examples
+in this quote, I won't read verbatim, but you can see the same set of
+patterns associated with Genetech. A very different sector but the founder
+here is recounting how they brought their first product insulin in the market
+in the form of a partnership, but then they had become the Genentech
+of what we know today, which is essentially a company that is
+standalone, branding their own products. In recap, the entrepreneurial switchback
+strategies could be relevant if your are stymied or blocked form taking your
+preferred strategy initially, but offers a migratory or evolutionary path to get
+to your preferred strategy down the road.

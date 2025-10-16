@@ -1,0 +1,191 @@
+I'm Karl Ulrich,
+professor at the Wharton School. This session is on Diffusion And Adoption. I want to start with a story, several years ago I was driving with one
+of my doctoral students to a research site at a local pharmaceutical
+company outside of Philadelphia. On the way back,
+we were stopped at a toll booth, and hundreds of cars were lined up behind
+the toll booth that only took cash, whereas we flew through
+the lane that was for EZPass. One of the technologies that puts
+a monitor, a beacon, in your car and allows you to pay your
+tolls automatically. My doctoral student, who was a recent
+Immigrant from India, turned to me and said, Carl,
+why doesn't everybody have EZPass? That's a puzzling question for
+entrepreneurs. You've created a great product or
+service and you're now asking the question,
+why doesn't everybody buy my product? Why doesn't everybody who could
+use this product actually buy it? The reality in entrepreneurship
+is that diffusion and adoption is painfully slow even for
+really exciting new products. So, in this session, we're going to turn to the question of,
+what explains diffusion and adoption and what explains the rate at which customers
+adopt your new product or service? This graph shows the diffusion
+of major new category products in the United States, so this is products
+like television, the clothes dryer, refrigeration, air conditioning,
+major new categories of innovation. You can see here that, for most of
+these major new categories, eventually, almost 100% of households adopt
+the product, and, in fact, it looks at first glance like the
+diffusion rate is almost instantaneous. That is, that the full population
+adopts these products very, very quickly that those lines go almost
+to vertical, but the reality is, if you look a little more carefully, that
+there's a relatively long period between when the product is first introduced and
+when you see that near vertical takeoff. So, for instance,
+if we look at air conditioning, air conditioning is actually introduced
+into the market at around 1945, but it's not until the early 1950s that
+air conditioning really takes off. This is for
+a fundamental technology that really dramatically improves the quality of life
+for those who live in very hot climates. What explains the fact that diffusion
+takes so long, that it takes so long for something to get started, and
+then it takes remarkably long for it reach full saturation of the market? We can think about the adoption dynamic as being characterized
+by two basic parameters. The first is, how long between
+the time the product is introduced until the so-called take off occurs,
+and you can think of that as the time between introduction and when that curve
+starts to go vertically very quickly. In these two examples,
+one of the Web browser and the other the mobile telephone, takeoff
+occurs for the Web browser after about two years, and it takes off for the mobile
+telephone after about nine years. That's the first parameter, what's the
+time required before the takeoff occurs? The second key parameter is,
+what's the peak adoption rate? That is, once the product has taken off, how fast does it grow when
+it's growing at its quickest? So, in this case, in the case of the Web
+browser, the peak adoption rate is about 9% of the market every year,
+and that's remarkably fast. In the case of the mobile telephone,
+it's about 7% of the market every year. We now want to understand better,
+what explains products or services that take off really quickly versus those that
+take a long time before they take off? Fortunately, there have been
+several scholars and writers who've really studied this question
+of adoption and of adoption rates. Probably the most significant is
+a sociologist named Everett Rogers, who wrote a book called
+The Diffusion of Innovation, and Rogers categorized adopters
+into five categories. He said, if you think about the time over
+which a product or service is introduced, those who adopt at the earliest
+stage are called the innovators, those that adopt next are called
+early adopters, those that adopt next are called the early majority,
+the next category is the late majority, and then the final
+category is the laggards. And so, shown here on this graph
+you could think about adoption rate as the vertical axis and
+time as the horizontal axis. In general, markets develop with
+this sort of bell shaped form, which is you get some early adopters,
+and then, with the passage of time,
+the majority, the early majority, and the late majority eventually join in, and
+that's where the bulk of the market is. And so, this is adoption rate. If you were then to look at cumulative
+adoption, what you would see is that characteristic s-shape curved,
+which starts slow, grows quickly, and eventually saturates as the majority of
+the market eventually adopts the product. Now it's worth noting that
+these categories identified or articulated by Everett Rogers are for an
+innovation that does eventually diffuse, that is eventually adopted by
+the majority of the market. Certainly, there are many instances
+of products that never make it, that never make it to the majority,
+that remain niche products. That insight was articulated by
+a writer named Jeffrey Moore who adopted the term the chasm to represent
+the gap that's faced by an innovator between getting a few early adopters,
+few innovators to adopt the product and crossing the chasm to early adopters,
+which would lead into the early majority. Moore argues that many start-ups
+get hung up in going beyond those early innovators to the early
+adopters and the early majority. The characterization of Rogers would apply
+to categories that eventually diffuse, and Moore added to the discussion by
+pointing out that some innovations never get to the early majority because
+they fail to cross the so-called chasm. Everett Rogers then went on to describe
+a study in which he looked at hundreds of innovations in society, and he then
+did some statistical analysis of those innovations in order to identify,
+what were the intrinsic factors of the innovation that explained differences
+in those key parameters of adoption rate? That is, what were intrinsic factors of innovation
+that could explain those innovations that took off early versus those that took a
+long time before they eventually took off? Rogers identified five factors,
+the first is relative advantage, and this simply says,
+how much better is the new product or service than the alternative
+that came before it? Obviously, a product that lets
+blind people see, that is, that provides amazing and
+tremendous relative advantage, is going to diffuse faster than a product
+or service that's a little bit faster, a little bit cheaper,
+a little bit more convenient, that has just relatively small
+degrees of relative advantage. The second factor that Rogers
+identified is visibility, and this insight is based
+on the observation that often people adopt when they see
+others using the product or service. So, a product or service that's highly
+visible is one that will diffuse from one person to another, more readily. To evoke an example,
+consider the Segway Personal Transporter. The Segway Personal Transporter, while it
+suffered from relatively modest relative advantage, the first factor, it has very
+high visibility so that when somebody is using the Segway it calls a lot
+attention to the user and people notice. That's a big positive factor in explaining when an innovation
+will diffuse more quickly. The third factor in Roger's
+framework is trialability, and the idea behind trialability is,
+how much cost time or effort is required for a potential customer to
+be ultra try our experience the product? In the case of Segway, intrinsically
+it would be quite difficult to try their product if it required purchase
+because I'd have to lay out 5 or $10,000 in order to be able to
+try the product through purchase. You can imagine some things
+that the designers and entrepreneur could do to make the product
+more trialable, to make it easier to try. For instance, you could set up kiosks
+that would allow someone to rent or try the product on a demo basis for just
+a few minutes without requiring purchase. Trialability is the third factor, the more trialable,
+the faster the product will diffuse. The fourth factor is simplicity, and what
+Rogers meant by this was that when you, as a non-adopter, as a potential customer,
+see someone using the product or service, how obvious is it to you how
+it works and what the benefit is? For instance, if you were to just look
+at the Segway, how obvious would it be to you what the features and
+benefits were, how easy is it to charge, how do you store it, how do you
+use it with public transportation? That's simplicity,
+the simpler the product is to understand, the faster it will take off. The last of the five factors
+is compatibility, and what Rogers meant by this is,
+if you adopt the product or service, what else do you have to change
+in your life in order for that product or service to work compatibly with
+the other things you do in your life? For instance, if we go back to
+the Segway example, if I buy a Segway, does it require that I have a different
+kind of vehicle to haul it around in? Does it require that I rearrange
+the furniture in my office? Is it compatible with
+the other things in my life? The fewer things the customer has to
+change, the more likely it is that he or she will adopt the product. What Rogers did was to do
+some statistical analysis and was able to show that these five
+intrinsic factors of the product or service explain the rate
+at which that product or service diffuses in society, if and
+when it eventually diffuses. Now, those five factors are not
+quantitative variables, they're hard to quantify, they would be hard to parametrize in
+a mathematical expression, but we can make some subjective estimates of the
+relative strength of those five factors. Shown here is a table in which
+I've taken four innovations, the EZPass Automated Toll System,
+the Web browser, the mobile phone, and
+the Segway personal transporter. I've simply estimated with one to five
+bullets how those innovations stack up, relative to the five factors
+that Rogers identified. Relative advantage, visibility,
+trialability, simplicity and compatibility. You as you think about the diffusion
+rate for your product or service, can do a subjective judgment
+relative to some of these examples, and to say, okay, just on a 1 to 5 scale,
+how does my product or service stack up relative
+to these alternatives? That then will let you make a judgment, which you expect your product or
+service to diffuse more rapidly than average relative to
+other similar kinds of innovations. Now, again, these five factors don't
+predict whether the product or service will eventually diffuse. Rather, they predict the rate at
+which you'll get there, and so it's quite useful in planning your
+business, in thinking about your demand forecast, to do an honest assessment of,
+how much relative advantage do I have? How visible is my product in use? How easy is it for
+a customer to try this product? How simple is it to understand? And how compatible is this product or service with the lives
+of my target customers? That then can allow you to predict
+will this be relatively fast or will it be relatively slow,
+in terms of the time to take off and the rate of which the innovation diffuses. In sum, the time to take off for
+new category innovation, so that's major new products or services,
+is typically much longer than you expect. Very rarely do you see it take off in
+quicker than two years, more typically we see four, five years before a major
+new category innovation will take off. Now, if your product is
+somewhat derivative, it's a better version of something that is
+already in the market, then you can see take off happen much quicker than that,
+much shorter than two years. But, more typically,
+in a major new type of innovation, you're going to see the takeoff take two,
+three, or longer years, and that's longer
+than most entrepreneurs expect. The second key insight is
+that there's some intrinsic attributes of the innovation,
+of your product or service, that underlie the rate at which
+that product or service will diffuse. Most of those attributes
+are not things you can change. The relative advantage, for instance, is something that's quite intrinsic,
+quite fundamental to your product or service, but a few of those
+attributes you can modify somewhat. So, for instance,
+trialability is an attribute that you, through the design of
+your business model and possibly your distribution channel,
+can directly influence. Fourth, be realistic in
+assessing the time to take off. Remember, these attributes don't predict
+whether you will eventually be successful, they inform how long it's going to take. As you think about your business plan,
+as you construct your financials, as you make your forecast out over time, be realistic in assessing whether your
+innovation is likely to be slower or faster than similar kinds of innovations
+that have developed historically. By being realistic, you can then make financial forecasts
+that are realistic, and that makes it less likely that you're going to run
+out of cash just when you need it most. And then, lastly, to be clear, our discussion has focused on
+innovations that do eventually take off, some innovations never take off, and
+that isn't a problem of diffusion rate. That is typically a problem of not having
+sufficient fundamental advantage, relative to the alternatives, relative to the
+competitors, that are in the marketplace.
