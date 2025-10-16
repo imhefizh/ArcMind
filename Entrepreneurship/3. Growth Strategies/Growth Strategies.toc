@@ -100,21 +100,26 @@
 \contentsline {subsection}{\numberline {3.52}Faktor yang Meningkatkan Biaya Transaksi}{25}{subsection.3.52}%
 \contentsline {subsection}{\numberline {3.53}Faktor yang Menurunkan Biaya Transaksi}{25}{subsection.3.53}%
 \contentsline {subsection}{\numberline {3.54}Manfaat dari Keputusan Make }{25}{subsection.3.54}%
-\contentsline {section}{\numberline {4}Creating and Scaling Company Culture}{26}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Pentingnya Hiring dalam Startup}{26}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Teknik Interview yang Efektif}{26}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Checklist dan Scorecard}{26}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Proses Interview}{27}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Feedback dan Performance Review}{27}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Pentingnya Budaya Perusahaan}{27}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Tiga Menu Utama dalam Budaya Perusahaan}{27}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Lima Model Stabil dalam Budaya Perusahaan}{28}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Kesimpulan terkait Budaya Perusahaan}{29}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Pertumbuhan Startup}{29}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Keuntungan dari Pertumbuhan}{29}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Model Pertumbuhan Churchill dan Lewis}{29}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Vertical Expansion}{29}{subsection.4.13}%
-\contentsline {subsection}{\numberline {4.14}Horizontal Expansion}{29}{subsection.4.14}%
-\contentsline {subsection}{\numberline {4.15}Pertimbangan dalam Ekspansi}{30}{subsection.4.15}%
-\contentsline {subsection}{\numberline {4.16}Pengujian Ekspansi Horizontal}{30}{subsection.4.16}%
-\contentsline {subsection}{\numberline {4.17}Kesimpulan terkait Ekspansi}{30}{subsection.4.17}%
+\contentsline {subsection}{\numberline {3.55}Framework 4Cs of Pricing}{26}{subsection.3.55}%
+\contentsline {subsection}{\numberline {3.56}Price Discrimination}{26}{subsection.3.56}%
+\contentsline {subsection}{\numberline {3.57}Mengukur Sensitivitas Harga}{26}{subsection.3.57}%
+\contentsline {subsection}{\numberline {3.58}Psikologi dalam Penetapan Harga}{26}{subsection.3.58}%
+\contentsline {subsection}{\numberline {3.59}Inovasi dalam Penetapan Harga}{27}{subsection.3.59}%
+\contentsline {section}{\numberline {4}Creating and Scaling Company Culture}{28}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Pentingnya Hiring dalam Startup}{28}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Teknik Interview yang Efektif}{28}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Checklist dan Scorecard}{28}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Proses Interview}{29}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Feedback dan Performance Review}{29}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Pentingnya Budaya Perusahaan}{29}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Tiga Menu Utama dalam Budaya Perusahaan}{29}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Lima Model Stabil dalam Budaya Perusahaan}{30}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Kesimpulan terkait Budaya Perusahaan}{31}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Pertumbuhan Startup}{31}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Keuntungan dari Pertumbuhan}{31}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Model Pertumbuhan Churchill dan Lewis}{31}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Vertical Expansion}{31}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}Horizontal Expansion}{31}{subsection.4.14}%
+\contentsline {subsection}{\numberline {4.15}Pertimbangan dalam Ekspansi}{32}{subsection.4.15}%
+\contentsline {subsection}{\numberline {4.16}Pengujian Ekspansi Horizontal}{32}{subsection.4.16}%
+\contentsline {subsection}{\numberline {4.17}Kesimpulan terkait Ekspansi}{32}{subsection.4.17}%
