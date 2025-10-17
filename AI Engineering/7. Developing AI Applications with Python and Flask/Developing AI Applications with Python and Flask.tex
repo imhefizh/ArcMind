@@ -64,7 +64,7 @@ Python dengan Flask adalah framework aplikasi web yang ringan dan fleksibel. Fra
 
 
 \subsection{Python with Flask for large-scale development}
-Flask adalah pilihan yang baik untuk aplikasi yang lebih kecil dan sederhana. Namun, istilah "mikro" lebih berkaitan dengan apa itu Flask, alih-alih membatasi potensi skalabilitasnya. Flask dapat digunakan untuk sistem berskala besar dan aplikasi yang lebih kompleks dengan memperhatikan persyaratan dan batasan spesifik, perencanaan yang cermat, arsitektur yang baik, dan desain modular. Namun, Flask mungkin memerlukan upaya pengelolaan dan penskalaan yang lebih besar dibandingkan dengan kerangka kerja yang lebih tangguh dan kaya fitur.
+Flask adalah pilihan yang baik untuk aplikasi yang lebih kecil dan sederhana. Namun, istilah \verb|"mikro"| lebih berkaitan dengan apa itu Flask, alih-alih membatasi potensi skalabilitasnya. Flask dapat digunakan untuk sistem berskala besar dan aplikasi yang lebih kompleks dengan memperhatikan persyaratan dan batasan spesifik, perencanaan yang cermat, arsitektur yang baik, dan desain modular. Namun, Flask mungkin memerlukan upaya pengelolaan dan penskalaan yang lebih besar dibandingkan dengan kerangka kerja yang lebih tangguh dan kaya fitur.
 
 Ekosistemnya yang kaya dan tangguh menyediakan alat, pustaka, dan fungsionalitas bagi pengembang untuk menangani tugas-tugas pengembangan web seperti perutean, penanganan permintaan, rendering templat, atau tugas serupa. Caching, penyeimbangan beban, replikasi, dan penyimpanan data Anda secara skalabel dapat membantu mencapai hasil yang optimal.
 
@@ -88,7 +88,7 @@ Beberapa perusahaan terkemuka, termasuk Netflix, Reddit, Lyft, LinkedIn, Pintere
 \begin{itemize}
     \item Requirement Gathering:
 
-          Mengumpulkan kebutuhan dari pengguna, bisnis, dan teknis.
+          Mengumpulkan kebutuhan dari pengguna, bisnis, dan teknis, pantangan (constraint).
           Contoh: Pengguna harus dapat melihat berbagai kamar dan fasilitas yang tersedia.
     \item Analysis:
 
@@ -147,12 +147,12 @@ Beberapa perusahaan terkemuka, termasuk Netflix, Reddit, Lyft, LinkedIn, Pintere
     \item Definisi: API adalah komponen perangkat lunak yang memungkinkan dua aplikasi yang tidak terhubung untuk berkomunikasi. API memiliki aturan dan fungsi standar untuk menentukan data yang dapat diambil atau dimodifikasi.
     \item Contoh: Aplikasi cuaca yang meminta data dari weather API untuk memberikan ramalan cuaca.
     \item Arsitektur: API dapat dibangun menggunakan arsitektur seperti \textbf{Representational State Transfer (REST)} atau \textbf{Simple Object Access Protocol (SOAP)}.
-    \item Manfaat API :
+    \item Manfaat API\@:
           \begin{itemize}
               \item Meningkatkan konektivitas antara aplikasi.
               \item Mendukung tindakan CRUD (Create, Read, Update, Delete).
-              \item Bekerja dengan HTTP verbs seperti PUT, POST, DELETE, dan GET.
-              \item Dapat disesuaikan karena berbasis HTTP.
+              \item Bekerja dengan HTTP verbs seperti PUT, POST, DELETE, dan GET\@.
+              \item Dapat disesuaikan karena berbasis HTTP\@.
           \end{itemize}
 \end{itemize}
 
@@ -189,6 +189,155 @@ Salah satu kerangka kerja yang paling populer adalah PyLint. PyLint pada dasarny
     \item Static Code Analysis: Metode untuk mengevaluasi kode terhadap gaya dan standar yang telah ditentukan tanpa mengeksekusi kode. Ini membantu menemukan masalah seperti kesalahan pemrograman dan pelanggaran standar pengkodean Contoh alat: \textbf{PyLint} digunakan untuk memeriksa kepatuhan kode Python terhadap pedoman PEP-8.
 \end{itemize}
 
+\subsection{Definisi Unit Testing}
+\begin{itemize}
+    \item Unit Testing: Metode untuk memvalidasi apakah unit kode (bagian kecil dari aplikasi) berfungsi dengan baik.
+\end{itemize}
+
+\subsection{Proses Unit Testing}
+\begin{itemize}
+    \item Pengujian Dua Fase:
+          Local Testing: Pengujian unit dilakukan di sistem lokal. Jika gagal, penyebabnya harus diidentifikasi dan diperbaiki.
+    \item Server Testing:
+
+          Setelah lulus pengujian lokal, unit diuji di server (misalnya, CICD server). Jika gagal, detail kegagalan akan diberikan untuk perbaikan.
+\end{itemize}
+
+\subsection{Membangun dan Menjalankan Unit Tests}
+\begin{itemize}
+    \item Unit Test Library:
+
+          Digunakan untuk membuat unit tests. Ini adalah modul Python yang menyediakan kerangka kerja untuk pengujian.
+    \item Penamaan File:
+
+          File unit test harus memiliki awalan atau akhiran dengan kata \verb|"test"| untuk membedakannya dari file unit.
+\end{itemize}
+
+\subsection{Langkah-langkah Membuat File Unit Test}
+\begin{itemize}
+    \item Import Library:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+            import unittest
+        \end{lstlisting}
+          unittest: Library Python untuk membuat dan menjalankan unit tests.
+    \item Import Fungsi yang Diuji:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+            from mymodule import square, doubler
+        \end{lstlisting}
+    \item Membangun Kelas Unit Testing:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+            class TestMyModule(unittest.TestCase):
+        \end{lstlisting}
+          TestMyModule: Kelas yang digunakan untuk mengelompokkan unit tests. Harus mewarisi dari unittest.TestCase.
+    \item Membuat Fungsi Test:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+            def test_square(self):
+            self.assertEqual(square(2), 4)
+\end{lstlisting}
+          assertEqual: Metode untuk membandingkan dua nilai. Jika nilai tidak sama, test akan gagal.
+\end{itemize}
+
+\subsection{Evaluasi Hasil Test}
+\begin{itemize}
+    \item Setelah menjalankan file test, output akan menunjukkan hasil test. Contoh output:
+          \begin{itemize}
+              \item Jika test berhasil: OK
+              \item Jika test gagal: Menampilkan detail kegagalan, seperti:
+          \end{itemize}
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    Fail: test_square(_main_.TestMyModule)
+    AssertionError: 8 is not equal to 4
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Kesimpulan terkait Unit Test}
+Unit Testing adalah metode penting untuk memastikan bahwa setiap unit kode berfungsi dengan baik. Proses ini melibatkan pengujian di lingkungan lokal dan server, serta penggunaan library unittest untuk membangun dan menjalankan test. Output dari unit test memberikan informasi yang berguna untuk memperbaiki kesalahan sebelum aplikasi diterapkan.
+
+\subsection{Module}
+\begin{itemize}
+    \item Definisi: Module adalah file \verb|.py| yang berisi definisi Python, pernyataan, fungsi, dan kelas yang dapat diimpor ke dalam skrip lain.
+    \item Contoh Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    def square(number):
+    return number ** 2
+\end{lstlisting}
+          Fungsi square ini mengembalikan kuadrat dari input.
+\end{itemize}
+
+\subsection{Package}
+\begin{itemize}
+    \item Definisi: Package adalah kumpulan dari beberapa modules dalam sebuah direktori yang memiliki file \verb|__init__.py|, yang membedakannya dari direktori biasa.
+    \item Contoh Struktur:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    my_project/
+    __init__.py
+    module1.py
+    module2.py
+\end{lstlisting}
+          File \verb|__init__.py | digunakan untuk menginisialisasi package.
+\end{itemize}
+
+\subsection{Library}
+\begin{itemize}
+    \item Definisi: Library adalah kumpulan dari packages atau bisa juga berupa satu package. Contoh library termasuk NumPy, PyTorch, dan Pandas. Catatan: Istilah package dan library sering digunakan secara bergantian.
+    \item Contoh Struktur Library:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    my_library/
+    __init__.py
+    package1/
+        __init__.py
+        module1.py
+        module2.py
+    package2/
+        __init__.py
+        module3.py
+        module4.py
+    package3/
+        __init__.py
+        module5.py
+    \end{lstlisting}
+    \item Pengunaan:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    from my_library.package1 import module1
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{Langkah-langkah Membuat Package}
+\begin{itemize}
+    \item Buat folder dengan nama package.
+    \item Buat file kosong \verb|__init__.py|.
+    \item Buat modules yang diperlukan.
+    \item Tambahkan kode dalam \verb|__init__.py| untuk merujuk ke modules yang diperlukan. Contoh kode dalam \verb|__init__.py|:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    from . import module1
+    from . import module2
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Verifikasi Package}
+Verifikasi dilakukan untuk memastikan package dapat diimpor tanpa error.
+
+Langkah-langkah:
+\begin{itemize}
+    \item Buka terminal bash.
+    \item Pastikan direktori sama dengan folder package.
+    \item Jalankan Python dengan perintah python.
+    \item Ketik \verb|import my_project| untuk memverifikasi.
+\end{itemize}
+
+\subsection{Menggunakan Package}
+\begin{itemize}
+    \item Definisi: Setelah package dibuat, Anda dapat menggunakannya dalam skrip lain jika folder package berada dalam direktori yang sama. Contoh Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    from my_project.module1 import square, doubler
+    from my_project.module2 import mean
+    
+    print(square(4))  # Output: 16
+    print(doubler(4))  # Output: 8
+    print(mean(2, 1, 3))  # Output: 2
+\end{lstlisting}
+\end{itemize}
+
 \subsection{}
 \begin{itemize}
     \item
@@ -196,11 +345,194 @@ Salah satu kerangka kerja yang paling populer adalah PyLint. PyLint pada dasarny
 
 % New Sec
 \newpage
+
 \section{Web App Deployment using Flask}
+\subsection{Python Libraries}
+\begin{itemize}
+    \item Definisi: Python libraries adalah kumpulan alat yang menyediakan fungsi tertentu untuk mempermudah dan mempercepat tugas pemrograman.
+    \item Contoh Libraries:
+          \begin{enumerate}
+              \item NumPy: Memfasilitasi perhitungan matematis yang kompleks.
+              \item Pandas: Menawarkan kemampuan manipulasi dan analisis data.
+              \item Matplotlib: Mempermudah visualisasi data.
+              \item Requests: Menyederhanakan pengiriman HTTP requests.
+              \item BeautifulSoup: Memudahkan pengambilan informasi dari halaman web.
+              \item SQLAlchemy: Toolkit SQL dan alat Object-Relational Mapping (ORM) untuk manajemen database.
+              \item PyTest: Framework pengujian yang memungkinkan pembuatan tes sederhana hingga kompleks.
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Frameworks}
+\begin{itemize}
+    \item Definisi: Framework adalah struktur yang telah ditentukan untuk pengembangan aplikasi, menyediakan pedoman dan struktur untuk menulis dan mengorganisir kode.
+    \item Contoh Frameworks:
+          \begin{enumerate}
+              \item Django
+              \item Flask
+              \item Web2Py
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Manfaat Menggunakan Framework}
+\begin{itemize}
+    \item Menyederhanakan Proses Pengembangan: Dengan kode yang sudah ditulis sebelumnya, pengembang dapat menghemat waktu.
+    \item Mempermudah Debugging: Framework menyediakan alat debugging yang sudah dibangun.
+    \item Fungsionalitas Lebih dengan Kode yang Lebih Sedikit: Pengembang dapat memanfaatkan pustaka dan modul yang sudah ada.
+    \item Efisiensi Manajemen Database: Framework dilengkapi dengan alat integrasi database.
+    \item Keamanan: Memanfaatkan fitur keamanan yang sudah ada dalam framework.
+\end{itemize}
+
+\subsection{Perbedaan antara Libraries dan Frameworks}
+\begin{itemize}
+    \item Libraries: Kumpulan paket yang melakukan fungsi tertentu.
+    \item Framework: Menyediakan alur dasar dan arsitektur aplikasi, memungkinkan pembangunan aplikasi secara keseluruhan.
+\end{itemize}
+
+\subsection{Definisi Flask}
+Flash adalah sebuah micro framework untuk membuat aplikasi web dengan minimal dependencies. Flask tidak mengikat pengguna pada satu set alat tertentu.
+
+\subsection{Instalasi Flask}
+\begin{itemize}
+    \item Untuk menginstal Flask, disarankan untuk membuat virtual environment menggunakan modul venv atau bin venv.
+    \item Sintaks untuk menginstal Flask:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    pip install Flask==2.2.2
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Fitur Utama Flask}
+\begin{itemize}
+    \item Web Server: Menjalankan aplikasi dalam mode pengembangan.
+    \item Debugger: Membantu dalam debugging aplikasi dengan menampilkan traceback interaktif di browser.
+    \item Logging: Menggunakan logging standar Python untuk mencatat log aplikasi.
+    \item Testing: Mendukung pengujian bagian-bagian aplikasi dengan framework seperti pytest dan coverage.
+\end{itemize}
+
+\subsection{Fitur Tambahan Flask}
+\begin{itemize}
+    \item Static Assets: Mendukung file statis seperti CSS, JavaScript, dan gambar.
+    \item Jinja Templating: Menggunakan Jinja untuk membuat halaman dinamis.
+    \item Routing: Mendukung URL dinamis dan pengalihan untuk layanan RESTful.
+    \item Error Handling: Menyediakan penanganan kesalahan global di tingkat aplikasi.
+    \item Session Management: Mendukung manajemen sesi pengguna.
+\end{itemize}
+
+\subsection{Ekstensi Komunitas Populer}
+\begin{itemize}
+    \item Flask-SQLAlchemy:
+
+          Menambahkan dukungan untuk Object Relational Mapping (ORM) menggunakan SQLAlchemy, memungkinkan pengembang untuk bekerja dengan objek database dalam Python.
+    \item Flask-Mail:
+
+          Memungkinkan pengaturan server email SMTP untuk mengirim email dari aplikasi Flask.
+    \item Flask-Admin:
+
+          Memudahkan penambahan antarmuka admin ke aplikasi Flask, memungkinkan pengelolaan data dengan lebih mudah.
+    \item Flask-Uploads:
+
+          Menyediakan kemampuan untuk menambahkan pengunggahan file yang disesuaikan ke aplikasi Anda.
+    \item Flask-CORS\@:
+
+          Memungkinkan aplikasi Anda untuk menangani Cross-Origin Resource Sharing, sehingga permintaan JavaScript lintas domain dapat dilakukan.
+    \item Flask-Migrate:
+
+          Menambahkan dukungan untuk migrasi database menggunakan SQLAlchemy ORM, memudahkan pengelolaan perubahan skema database.
+    \item Flask-User:
+
+          Menyediakan manajemen pengguna, termasuk otentikasi dan otorisasi, serta fitur manajemen pengguna lainnya.
+    \item Marshmallow:
+
+          Menyediakan dukungan untuk serialisasi dan deserialisasi objek yang lebih luas, memudahkan konversi data antara format yang berbeda.
+    \item Celery:
+          Merupakan antrian tugas yang kuat untuk menjalankan tugas latar belakang sederhana hingga program multi-storage yang kompleks dan terjadwal.
+\end{itemize}
+
+\subsection{Perbandingan dengan Django}
+\begin{itemize}
+    \item Flask: Framework ringan dengan fleksibilitas tinggi, hanya menyediakan dependencies dasar.
+    \item Django: Framework full-stack yang menyediakan semua yang diperlukan untuk membuat aplikasi lengkap, tetapi lebih opinionated.
+\end{itemize}
+
+\subsection{Membuat Aplikasi Flask}
+\begin{itemize}
+    \item Instalasi Flask: Pastikan Flask sudah terinstal sebelum membuat aplikasi.
+    \item File Server: Buat file Python yang akan menjadi server, misalnya \verb|app.py|.
+    \item Instansiasi Flask:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    from flask import Flask
+    app = Flask(__name__)
+\end{lstlisting}
+    \item Dengan menggunakan \verb|__name__|, Flask dapat mengetahui lokasi file yang sedang dijalankan, sehingga dapat menemukan file-file yang diperlukan untuk aplikasi Anda, seperti template HTML dan file statis (CSS, JavaScript, gambar, dll.).
+\end{itemize}
+
+\subsection{Menambahkan Rute Pertama}
+Gunakan dekorator \verb|(@app)| untuk mendefinisikan rute.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+@app.route("/")
+def hello_world():
+    return "<b>my first Flask application in action!</b>"
+\end{lstlisting}
+Route adalah jalur URL yang mengarah ke fungsi tertentu dalam aplikasi.
+
+\subsection{Menjalankan Aplikasi}
+Set variabel \verb|FLASK_APP| dan \verb|FLASK_ENV| sebelum menjalankan aplikasi.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    export FLASK_APP=app.py
+    export FLASK_ENV=development
+\end{lstlisting}
+\begin{itemize}
+    \item \verb|FLASK_APP|: Menunjukkan nama file utama server.
+    \item \verb|FLASK_ENV|: Menentukan lingkungan pengembangan atau produksi.
+\end{itemize}
+
+\subsection{Mengembalikan JSON}
+Anda dapat mengembalikan objek yang dapat diserialisasi seperti dictionary.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    return {"message": "Hello, World!"}
+\end{lstlisting}
+JSON adalah format data yang sering digunakan untuk pertukaran data antara server dan klien.
+
+\subsection{Opsi Konfigurasi di Flask}
+Variabel Konfigurasi adalah beberapa opsi konfigurasi yang dapat digunakan:
+\begin{itemize}
+    \item \verb|ENV|: Menunjukkan lingkungan (produksi atau pengembangan).
+    \item \verb|DEBUG|: Mengaktifkan mode debug.
+    \item \verb|SECRET_KEY|: Digunakan untuk menandatangani cookie sesi.
+\end{itemize}
+
+\subsection{Struktur Aplikasi}
+\begin{itemize}
+    \item Struktur Direktori Umum
+
+          Berikut adalah contoh struktur direktori untuk aplikasi Flask:
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.8\textwidth]{flask_dir.png}
+              \caption{Struktur Aplikasi Flask}
+          \end{figure}
+
+    \item Penjelasan Setiap Komponen
+          \begin{itemize}
+              \item \verb|my_flask_app/|: Ini adalah direktori utama untuk aplikasi Anda.
+              \item \verb|app/|: Direktori ini berisi semua kode sumber aplikasi Flask Anda.
+                    \begin{itemize}
+                        \item \verb|__init__.py|: File ini digunakan untuk menginisialisasi aplikasi Flask dan mengatur konfigurasi. Di sini, Anda juga dapat mengimpor rute dan model.
+                        \item \verb|routes.py|: File ini berisi semua rute (URL handlers) untuk aplikasi Anda. Di sinilah Anda mendefinisikan fungsi yang akan dijalankan ketika pengguna mengakses URL tertentu.
+                        \item \verb|models.py|: File ini berisi definisi model data, biasanya digunakan dengan ORM (Object-Relational Mapping) seperti SQLAlchemy untuk berinteraksi dengan database.
+                        \item \verb|forms.py|: File ini berisi definisi formulir yang digunakan dalam aplikasi, sering kali menggunakan Flask-WTF untuk menangani formulir dengan lebih mudah.
+                        \item \verb|static/|: Direktori ini menyimpan semua file statis seperti CSS, JavaScript, dan gambar. File-file ini dapat diakses langsung oleh klien.
+                        \item \verb|templates/|: Direktori ini berisi semua template HTML yang digunakan untuk merender halaman web. Flask menggunakan Jinja2 sebagai mesin templating, yang memungkinkan Anda untuk menyisipkan data dinamis ke dalam HTML\@.
+                    \end{itemize}
+              \item \verb|config.py|: File ini berisi konfigurasi aplikasi, seperti pengaturan database, kunci rahasia, dan opsi lainnya. Anda dapat mengatur berbagai konfigurasi untuk lingkungan pengembangan dan produksi di sini.
+              \item \verb|run.py|: File ini adalah titik masuk untuk menjalankan aplikasi Flask. Anda dapat mengeksekusi file ini untuk memulai server Flask.
+              \item \verb|requirements.txt|: File ini berisi daftar semua dependensi yang diperlukan untuk aplikasi Anda. Anda dapat menggunakan \verb|pip install -r requirements.txt| untuk menginstal semua paket yang diperlukan.
+          \end{itemize}
+\end{itemize}
 
 
 % New Sec
 \newpage
+
 \section{Creating AI Application and Deploy using Flask}
 
 
