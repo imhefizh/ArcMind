@@ -232,7 +232,7 @@ Salah satu kerangka kerja yang paling populer adalah PyLint. PyLint pada dasarny
     \item Membuat Fungsi Test:
           \begin{lstlisting}[language=Python, caption={}, captionpos=b]
             def test_square(self):
-            self.assertEqual(square(2), 4)
+                self.assertEqual(square(2), 4)
 \end{lstlisting}
           assertEqual: Metode untuk membandingkan dua nilai. Jika nilai tidak sama, test akan gagal.
 \end{itemize}
@@ -529,11 +529,481 @@ Variabel Konfigurasi adalah beberapa opsi konfigurasi yang dapat digunakan:
           \end{itemize}
 \end{itemize}
 
+\subsection{Flask Request Object}
+\begin{itemize}
+    \item Definisi: Objek Request adalah representasi dari permintaan yang dikirim oleh klien ke server Flask.
+    \item Informasi yang Tersedia:
+          \begin{enumerate}
+              \item Host: Alamat server dalam bentuk tuple (host, port).
+              \item Headers: Informasi yang dikirim bersama permintaan.
+              \item URL: Sumber daya yang diminta.
+              \item AccessRoute: Daftar semua alamat IP untuk permintaan yang diteruskan.
+              \item FullPath: Jalur lengkap dari permintaan, termasuk query string.
+              \item IsSecure: True jika permintaan menggunakan HTTPS.
+              \item IsJSON: True jika permintaan berisi data JSON.
+              \item Cookies: Kamus yang berisi cookie yang dikirim dengan permintaan.
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Mengakses Data dari Request Object}
+Metode untuk Mengakses Data:
+\begin{itemize}
+    \item GET\@: Mengakses data dari permintaan POST sebagai bytes.
+    \item GET JSON\@: Mengambil data yang diparsing sebagai JSON dari permintaan POST\@.
+    \item Args: Mengambil parameter query sebagai kamus.
+    \item JSON\@: Mem-parsing data menjadi kamus.
+    \item Files: Menyediakan file yang diunggah oleh pengguna.
+    \item Form: Mengandung semua nilai yang diposting dalam pengiriman formulir.
+\end{itemize}
+
+\subsection{Mencegah Serangan XSS dengan Flask}
+\begin{itemize}
+    \item \verb|escape()| mengubah karakter khusus dalam string menjadi representasi yang aman untuk ditampilkan di HTML. Karakter yang di-escape termasuk:
+          \begin{itemize}
+              \item \verb|&| menjadi \verb|&amp|;
+              \item \verb|<| menjadi \verb|&lt|;
+              \item \verb|>| menjadi \verb|&gt|;
+              \item \verb|"| menjadi \verb|&quot|;
+              \item \verb|'| menjadi \verb|&#39|;
+          \end{itemize}
+    \item Contoh Penggunaan:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from flask import Flask, escape
+
+app = Flask(__name__)
+
+@app.route('/greet/<name>')
+def greet(name):
+    # Menggunakan escape untuk menghindari karakter khusus
+    safe_name = escape(name)
+    return f"Hello, {safe_name}!"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+          \end{lstlisting}
+    \item Dalam contoh di atas, ketika pengguna mengakses rute \verb|/greet/<name>|, nama yang diberikan akan di-escape menggunakan fungsi \verb|escape()|. Ini memastikan bahwa jika pengguna memasukkan karakter berbahaya, seperti \verb|<script>|, itu tidak akan dieksekusi sebagai kode, tetapi akan ditampilkan sebagai teks biasa.
+\end{itemize}
+
+\subsection{Flask Response Object}
+\begin{itemize}
+    \item Definisi: Objek Response adalah representasi dari respons yang dikirim oleh server ke klien.
+    \item Atribut Umum:
+          \begin{enumerate}
+              \item Status Code: Menunjukkan keberhasilan atau kegagalan permintaan.
+              \item Headers: Memberikan informasi lebih lanjut tentang respons.
+              \item Content Type: Menunjukkan tipe media dari sumber daya yang diminta.
+              \item Content Length: Ukuran dari body pesan respons.
+              \item MIME Type: Menetapkan tipe media dari respons.
+              \item Expires: Tanggal atau waktu setelah respons dianggap kedaluwarsa.
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Metode Umum pada Response Objects}
+\begin{itemize}
+    \item Set Cookie: Mengatur cookie di browser klien.
+    \item Delete Cookie: Menghapus cookie di klien.
+    \item JSONify: Membuat objek respons secara otomatis dengan tipe JSON.
+    \item Make Response: Membuat respons kustom.
+    \item Redirect: Mengembalikan status 302 dan mengarahkan klien ke URL lain.
+    \item Abort: Mengembalikan respons dengan kondisi kesalahan.
+\end{itemize}
+
+\subsection{Memanggil API Eksternal}
+\begin{itemize}
+    \item Requests Library: Untuk memanggil API eksternal, Anda dapat menggunakan library Python requests. Sintaks dasar untuk mengimpor library ini adalah:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    import requests
+\end{lstlisting}
+    \item Mengambil Data: Anda dapat mengirim permintaan ke API, misalnya API OpenLibrary untuk mencari informasi penulis. Contoh sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    res = requests.get('https://openlibrary.org/authors/OL12345A/Michael_Crichton')
+\end{lstlisting}
+    \item Status Code: Setelah mendapatkan respons, periksa status code. Jika status code adalah 200, Anda dapat mengembalikan JSON ke klien. Jika 404, kirim pesan "Something went wrong." Jika status code lain, kirim status 500 dengan pesan "Server error."
+\end{itemize}
+
+\subsection{Rute Dinamis}
+\begin{itemize}
+    \item Dynamic Routing: Flask memungkinkan Anda untuk membuat rute dinamis dengan menambahkan variabel ke URL. Misalnya, untuk mendapatkan informasi buku berdasarkan ISBN, Anda dapat mendefinisikan rute seperti ini:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @app.route('/book/<isbn>')
+    def get_book(isbn):
+        return f"Book ISBN: {isbn}"
+\end{lstlisting}
+          Validasi Tipe Parameter: Anda dapat menentukan tipe parameter untuk memvalidasi permintaan yang masuk. Contoh:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @app.route('/terminals/<string:airport_code>')
+    def get_user(user_id):
+        return f"User ID: {user_id}"
+\end{lstlisting}
+          UUID: Anda juga dapat menggunakan UUID sebagai parameter untuk mengidentifikasi entitas unik. Sintaks untuk rute dengan UUID:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @app.route('/network/<uuid:network_id>')
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Penggunaan Objek Permintaan dan Respons}
+\begin{itemize}
+    \item Request Object: Anda dapat mengurai objek permintaan untuk mendapatkan parameter kueri, body, dan argumen lainnya.
+    \item Response Object: Anda dapat mengatur status pada objek respons sebelum mengirimkan respons kembali ke klien.
+\end{itemize}
+
+\subsection{Status HTTP}
+\begin{itemize}
+    \item HTTP Status Codes: Kode tiga digit yang menunjukkan status dari permintaan yang dilakukan oleh klien. Kode ini berkisar dari 100 hingga 599.
+    \item Kategori Kode:
+          \begin{enumerate}
+              \item 100-199: Informasional, menunjukkan bahwa permintaan telah diterima.
+              \item 200-299: Sukses, menunjukkan bahwa permintaan berhasil diproses.
+              \item 300-399: Redirection, menunjukkan bahwa ada pengalihan pada server.
+              \item 400-499: Kesalahan klien, menunjukkan bahwa ada kesalahan dalam permintaan.
+              \item 500-599: Kesalahan server, menunjukkan bahwa ada kesalahan di sisi server.
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Mengembalikan Kode Kesalahan di Flask}
+\begin{itemize}
+    \item Default Status Code: Flask secara otomatis mengembalikan status 200 OK ketika permintaan berhasil.
+    \item Mengubah Status Code: Anda dapat mengembalikan kode status yang berbeda dengan mengirimkan kode dalam tuple bersama dengan respons. Contoh:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    return "My first application in action", 200
+    \end{lstlisting}
+    \item \verb|make_response|: Metode ini digunakan untuk secara eksplisit mengatur kode status. Contoh:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from flask import make_response
+response = make_response("My first application in action", 200)
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{Contoh Kode Status}
+\begin{itemize}
+    \item 200: Permintaan berhasil.
+    \item 201: Sumber daya berhasil dibuat.
+    \item 202: Permintaan diterima dan sedang diproses.
+    \item 204: Permintaan berhasil, tetapi tidak ada konten yang dikembalikan.
+    \item 400: Permintaan tidak valid (parameter hilang atau tidak tepat).
+    \item 401: Kredensial hilang atau tidak valid.
+    \item 403: Kredensial klien tidak cukup untuk memenuhi permintaan.
+    \item 404: Sumber daya tidak ditemukan.
+    \item 500: Kesalahan di sisi server.
+\end{itemize}
+
+\subsection{Penanganan Kesalahan di Flask}
+\begin{itemize}
+    \item Flask menyediakan cara untuk menangani pesan kesalahan di tingkat aplikasi. Contoh:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @app.errorhandler(404)
+    def not_found(error):
+        return "API not found", 404
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Flask dan Fitur-fiturnya}
+\begin{itemize}
+    \item Flask: Sebuah micro-framework untuk membuat aplikasi web dengan cepat dan mudah menggunakan Python.
+    \item CRUD: Merupakan singkatan dari Create, Read, Update, dan Delete, yang merupakan operasi dasar dalam aplikasi web.
+          \begin{enumerate}
+              \item POST: Digunakan untuk membuat objek atau data (contoh: membuat pengguna).
+              \item GET: Digunakan untuk membaca data dari server.
+              \item PUT/PATCH: Digunakan untuk memperbarui data yang ada.
+              \item DELETE: Digunakan untuk menghapus data yang ada.
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Struktur Dasar Aplikasi Flask}
+\begin{itemize}
+    \item  Instalasi Flask: Gunakan perintah pip install flask untuk menginstal Flask.
+    \item Membuat Aplikasi:
+          \begin{enumerate}
+              \item Import Flask: \verb|from flask import Flask|
+              \item Instansiasi Flask: \verb|app = Flask(__name__)|
+              \item Mendefinisikan Route:
+                    \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+        @app.route('/')
+        def hello():
+        return 'Hello, World!'
+    \end{lstlisting}
+              \item Menjalankan Aplikasi:
+                    \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+        if __name__ == '__main__':
+        app.run(debug=True)
+    \end{lstlisting}
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Template dan Static Files}
+\begin{itemize}
+    \item Templates: Halaman HTML yang disajikan dari aplikasi web. Terdapat
+          dua jenis:
+          \begin{itemize}
+              \item Static: Halaman yang tidak berubah (contoh: gambar, CSS).
+              \item Dynamic: Halaman yang isinya berubah sesuai permintaan (contoh: data pengguna).
+          \end{itemize}
+    \item Folder Default: Flask mencari template di folder bernama templates dan file statis di folder static.
+\end{itemize}
+
+\subsection{Contoh Aplikasi Flask}
+Membuat Endpoint:
+\begin{itemize}
+    \item Static Page:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @app.route('/sample')
+    def get_sample_html():
+    return render_template('sample.html')
+\end{lstlisting}
+    \item Dynamic Route:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @app.route('/user/<username>')
+    def show_user_profile(username):
+    return f'User {username}'
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Decorators pada Flask}
+Dekorator membantu dalam memberi anotasi pada metode/fungsi dan menjelaskan tujuan dari metode tertentu. Dekorator berbeda dengan komentar. Dekorator digunakan oleh interpreter saat menjalankan kode.
+\subsubsection{Method Decorators}
+Misalkan kita memiliki kode Python di mana kita ingin semua outputnya dalam format JSON. Tidak masuk akal untuk menyertakan kode untuk ini di setiap metode karena hal itu akan membuat baris kode menjadi berulang. Dalam kasus seperti ini, kita dapat menangani hal ini dengan menggunakan dekorator.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def jsonify_decorator(function):
+    def modifyOutput():
+        return {"output":function()}
+    return modifyOutput
+
+@jsonify_decorator
+def hello():
+    return 'hello world'
+
+@jsonify_decorator
+def add():
+    num1 = input("Enter a number - ")
+    num2 = input("Enter another number - ")
+    return int(num1)+int(num2)
+
+print(hello())
+print(add())
+\end{lstlisting}
+Metode dekorator juga dikenal sebagai wrapper, yang membungkus output dari fungsi yang didekorasinya. Dalam contoh kode di atas, \verb|jsonify-decorator| adalah metode dekorator. Kami telah menambahkan dekorator ini ke \verb|hello()| dan \verb|add()|. Output dari panggilan metode ini sekarang akan dibungkus dan didekorasi dengan \verb|jsonify_decorator|.
+
+Hasil dari menjalankan kode Python di atas akan menjadi:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{decorator_output.png}
+    \caption{Decorator Output}
+\end{figure}
+\subsubsection{Route Decorators}
+Anda mungkin telah memperhatikan bahwa saat mengunjungi domain mana pun, Anda memiliki root dan kemudian dapat mengakses titik akhir lainnya. Lihat contoh di bawah ini.
+\begin{itemize}
+    \item \verb|https://mydomain.com/|
+    \item \verb|https://mydomain.com/about|
+    \item \verb|https://mydomain.com/register|
+\end{itemize}
+Kita akan membahas pembuatan endpoint-endpoint ini saat kami membuat aplikasi web menggunakan modul Flask dalam laboratorium yang akan datang.
+
+Namun, untuk mendefinisikan endpoint-endpoint ini dalam Python, kami menggunakan apa yang disebut Route Decorators.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{route_decor.png}
+    \caption{Route Decorator}
+\end{figure}
+
+\verb|@app.route("/")| adalah dekorator Python yang disediakan oleh Flask untuk mengaitkan URL dalam aplikasi kita dengan fungsi secara mudah. Anda dapat dengan mudah melihat bahwa dekorator ini memberitahu \verb|@app| bahwa setiap kali pengguna mengunjungi domain aplikasi kita, dalam hal ini, fungsi \verb|home()| akan dieksekusi.
+
+Kita dapat menangani beberapa rute dengan satu fungsi dengan hanya menambahkan dekorator rute tambahan di atas metode yang harus dipanggil saat rute tersebut dipanggil. Berikut adalah contoh yang valid untuk menampilkan pesan "Hello World!" yang sama untuk 3 rute terpisah:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+@app.route("/")
+@app.route("/home")
+@app.route("/index")
+def home():
+    return "Hello World!"
+\end{lstlisting}
+
+Dekorator rute juga menerima metode sebagai parameter kedua, yang dapat disetel ke jenis metode HTTP yang akan didukung oleh rute tersebut. Kita akan membahas hal ini lebih lanjut di bagian-bagian berikutnya.
+
+Dekorator rute juga dapat lebih spesifik. Misalnya, untuk mendapatkan detail pengguna dengan ID pengguna U0001, Anda dapat mengakses
+\verb|http://mydomain.com/userdetails/U0001|. Tidak masuk akal untuk mendefinisikan rute yang berbeda untuk setiap pengguna yang Anda tangani. Dalam kasus seperti ini, kita mendefinisikan rute seperti ini.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+@app.route("/userdetails/<userid>")
+def getUserDetails(userid):
+    return "User Details for  "+userid
+\end{lstlisting}
+
+\subsection{Fitur tambahan di Flask}
+\subsubsection{Mengakses Formdata dengan flask.request.form}
+Anda dapat menggunakan \verb|flask.request.form| untuk mengakses data formulir yang dikirimkan oleh pengguna melalui permintaan POST. Misalnya, fitur ini dapat digunakan jika Anda memiliki formulir login dengan kolom nama pengguna dan kata sandi.
+
+Dalam berkas HTML Anda, Anda mungkin memiliki formulir seperti ini:
+\begin{lstlisting}[language=HTML, caption={}, captionpos=b]
+<form method="POST" action="/login">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="submit" value="Submit">
+</form>
+\end{lstlisting}
+
+Kode Python untuk mengakses nama pengguna dan kata sandi akan sebagai berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from flask import request
+
+@app.route('/login', methods=['POST'])
+def login():
+    username = request.form['username']
+    password = request.form['password']
+    # process login here
+\end{lstlisting}
+
+\subsubsection{Redirecting ke sebuah URL dengan flask.redirect}
+Flask menyediakan fungsi bernama \verb|flask.redirect| untuk mengarahkan pengguna ke halaman web (atau endpoint) yang berbeda. Fungsi \verb|flask.redirect| dapat berguna dalam beberapa skenario. Misalnya, Anda dapat menggunakan fungsi tersebut untuk mengarahkan pengguna ke halaman login saat mereka mencoba mengakses halaman admin yang dibatasi.
+
+Kode Python:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from flask import redirect
+
+@app.route('/admin')
+def admin():
+    return redirect('/login')
+\end{lstlisting}
+
+\subsubsection{Menghasilkan URL Dinamis}
+Fungsi \verb|flask.url_for| secara dinamis menghasilkan URL untuk endpoint yang ditentukan. Pembuatan URL secara dinamis dapat sangat berguna ketika URL untuk suatu rute diubah.
+
+Fungsi \verb|flask.url_for| secara otomatis memperbarui URL di seluruh templat atau kode Anda, sehingga mengurangi pekerjaan manual.
+
+Misalnya, pertimbangkan skenario di mana pengguna mencoba mengakses halaman admin dan harus diarahkan ke halaman login. Dalam skenario ini, \verb|url_for('login')| akan mengambil URL untuk halaman login dari rute yang sudah ada.
+
+Kode Python:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from flask import url_for
+
+@app.route('/admin')
+def admin():
+    return redirect(url_for('login'))
+
+@app.route('/login')
+def login():
+    return "<Login Page>"
+\end{lstlisting}
+
+\subsubsection{Menangani tipe HTTP Request yang berbeda}
+Flask memungkinkan Anda untuk mendefinisikan rute untuk mengelola berbagai jenis permintaan HTTP. Anda dapat mendefinisikan rute dengan kedua metode akses, GET dan POST, dan dalam deskripsi fungsi, mendefinisikan kasus penggunaan untuk kedua metode tersebut.
+
+Kode Python:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+@app.route('/data', methods=['GET', 'POST'])
+def data():
+    if request.method == 'POST':
+        # process POST request
+    if request.method == 'GET':
+        # process GET request
+\end{lstlisting}
+
+Dalam file HTML, Anda akan menambahkan formulir yang mendukung permintaan GET dan POST:
+\begin{lstlisting}[language=HTML, caption={}, captionpos=b]
+<!-- For POST -->
+<form method="POST" action="/data">
+    <!-- Your input fields here -->
+    <input type="submit" value="Submit">
+</form>
+
+<!-- For GET -->
+<a href="/data">Fetch data</a>
+\end{lstlisting}
+
+Dalam contoh terakhir, rute \verb|/data| menerima permintaan GET dan POST. Jenis permintaan dapat diperiksa menggunakan \verb|flask.request.method|.
+
+\subsection{Operasi CRUD pada Flask}
+\subsubsection{Create Operation}
+Membuat data seringkali melibatkan penyajian formulir kepada pengguna untuk mengumpulkan informasi yang ingin Anda simpan dalam database sebagai catatan baru. Di Flask, data ini diakses menggunakan \verb|flask.request.form|.
+
+Formulir HTML untuk membuat data:
+\begin{lstlisting}[language=HTML, caption={}, captionpos=b]
+<form method="POST" action="/create">
+    <input type="text" name="name">
+    <input type="submit" value="Create">
+</form>
+\end{lstlisting}
+
+Kode Python:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+@app.route('/create', methods=['GET', 'POST'])
+def create():
+    if request.method == 'POST':
+        # Access form data
+        name = request.form['name']
+        # Create a new record with the name
+        record = create_new_record(name)  # Assuming you have this function defined
+        # Redirect user to the new record
+        return redirect(url_for('read', id=record.id))
+    # Render the form for GET request
+    return render_template('create.html')
+\end{lstlisting}
+
+\subsubsection{Read Operation}
+Membaca data melibatkan mengakses data dan menampilkannya kepada pengguna. Untuk mengakses entri tertentu, permintaan harus disertai dengan ID spesifik. Oleh karena itu, Anda perlu meneruskan ID sebagai argumen ke fungsi. Contoh berikut menunjukkan bahwa ID dapat diakses dari route.
+
+Kode Python:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+@app.route('/read/<int:id>', methods=['GET'])
+def read(id):
+    # Get the record by id
+    record = get_record(id)  # Assuming you have this function defined
+    # Render a template with the record
+    return render_template('read.html', record=record)
+\end{lstlisting}
+
+\subsubsection{Update Operation}
+Pembaruan data memerlukan proses mengakses entri tertentu, seperti operasi Baca, dan melibatkan pemberian data baru ke parameter yang bersangkutan, seperti operasi Buat. Oleh karena itu, rute harus mengakses ID dan mencakup kedua metode akses tersebut.
+
+Contoh formulir HTML untuk pembaruan data:
+\begin{lstlisting}[language=HTML, caption={}, captionpos=b]
+<form method="POST" action="/update/{{record.id}}">
+    <input type="text" name="name" value="{{record.name}}">
+    <input type="submit" value="Update">
+</form>
+\end{lstlisting}
+
+Kode Python:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+@app.route('/update/<int:id>', methods=['GET', 'POST'])
+def update(id):
+    if request.method == 'POST':
+        # Access form data
+        name = request.form['name']
+        # Update the record with the new name
+        update_record(id, name)  # Assuming you have this function defined
+        # Redirect user to the updated record
+        return redirect(url_for('read', id=id))
+    
+    # Render the form for GET request with current data
+    record = get_record(id)  # Assuming you have this function defined
+    return render_template('update.html', record=record)
+\end{lstlisting}
+
+\subsubsection{Delete Operation}
+Menghapus data melibatkan penghapusan catatan berdasarkan ID-nya. Operasi Hapus biasanya memerlukan ID untuk diteruskan, seperti yang dilaporkan oleh halaman HTML, dalam bentuk argumen ke fungsi.
+
+Contoh formulir HTML untuk menghapus data:
+\begin{lstlisting}[language=HTML, caption={}, captionpos=b]
+<form method="POST" action="/delete/{{record.id}}">
+    <input type="submit" value="Delete">
+</form>
+\end{lstlisting}
+
+Kode Python:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @app.route('/delete/<int:id>', methods=['POST'])
+    def delete(id):
+        # Delete the record
+        delete_record(id)  # Assuming you have this function defined
+        # Redirect user to the homepage
+        return redirect(url_for('home'))
+\end{lstlisting}
 
 % New Sec
 \newpage
 
 \section{Creating AI Application and Deploy using Flask}
+
+
 
 
 

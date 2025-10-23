@@ -1,0 +1,87 @@
+% section | subsection | subsubsection | paragraph | subparagraph | verbatim | enumerate | item
+
+% Just let it be an Article bro
+\documentclass{article}
+
+% Cover Metadata
+\title{How to Build Perfect Website}
+\date{ 23 Oktober 2025}
+\author{Maulana Hafidz Ismail}
+
+% Equation Setup
+\usepackage{amsmath}
+
+% Image Setup
+\usepackage{graphicx}
+\usepackage{float}
+
+% Link Setup
+\usepackage{hyperref}
+
+% Highlighting Setup
+\usepackage{soul}
+\usepackage{xcolor}
+\sethlcolor{red!30}
+\newcommand{\hlblue}[1]{\sethlcolor{cyan!30}\hl{#1}\sethlcolor{yellow}}
+
+% Line Width
+\sloppy
+\setlength{\emergencystretch}{3em}
+\hbadness=99999
+
+% Code Syntax Setup
+\usepackage{listings}
+\usepackage{xcolor} % untuk warna
+\lstset{
+basicstyle=\ttfamily\small,
+frame=single,
+breaklines=true,
+backgroundcolor=\color{gray!10},
+keywordstyle=\color{blue},
+commentstyle=\color{gray},
+stringstyle=\color{red},
+tabsize=2,
+captionpos=b
+}
+
+% Start of the Article
+\begin{document}
+
+% Cover Page
+\pagenumbering{gobble}
+\maketitle
+\newpage
+
+% Introduction
+Ide pokok jurnal ini keluar dari kesulitan penulis dalam mencari sumber komprehensif untuk menjawab pertanyaan "Bagaimana cara membangun website yang baik?"
+
+Khususnya di era saat ini dimana sudah banyak bahasa pemrograman yang \textit{general purpose} atau serbaguna, dan juga dengan banyaknya opsi \textit{framework} dan \textit{library} yang tersedia menghasilkan pertanyaan "Alat mana yang paling tepat?", disamping itu kesulitan dalam memahami bagaimana cara melengkapi sertifikasi website juga menjadi masalah.
+\newpage
+
+% Table of Content Page
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% Main Content
+\section{Pendahuluan}
+Karir saya dimulai dengan visi untuk menjadi pebisnis di dunia yang teknologinya semakin canggih ini, membuat saya mulai ingin mengenal bagaimana teknologi tertentu bekerja, dan saya mengambil langkah awal sebagai \textit{Web Developer}.
+
+Perjalanan belajar saya dalam setahun terakhir pun tidak cukup rapih. Saya jadikan internet sebagai media belajar saya. Disana ada sertifikasi profesional, artikel, blog, bahkan AI seperti ChatGPT membantu saya dalam memahami bidang ini. Saya akui, jalur pembelajaran yang seperti itu membuat informasi yang datang ke saya menjadi tidak lengkap dan tidak runtut, ditambah dunia programming yang tampaknya seperti lautan luas nan dalam membuat peta perjalanan seperti potongan puzzle yang perlu dicari satu persatu, belum lagi jika puzzle tersebut palsu atau tidak utuh.
+
+Saya bukan ingin mengajar dengan jurnal ini, saya hanya akan bercerita. Apa yang saya temukan, apa yang saya pikirkan, dan apa kesimpulan dari yang ditemukan, itulah yang akan saya tulis di jurnal ini. Sehingga mungkin jurnal ini akan lebih terasa seperti perjalanan dan pencarian daripada kitab suci komprehensif untuk dijadikan pedoman.
+
+\section{Bahasa Pemrograman yang Mana?}
+Dari pembelajaran yang sudah saya lewati, saya bisa mengambil kesimpulan bahwa komponen dasar dari suatu website adalah HTML, CSS, dan Javascript. Dan ini sangat dasar, namun sudah cukup untuk membangun website yang informatif dan interaktif. Dari ketiga komponen tersebut, HTML dan CSS bukanlah bahasa pemrograman, masing-masing punya peran di kerangka website dan estetikanya.
+
+HTML mengambil peran seperti kerangka tulang pada tubuh kita, dia akan memisahkan setiap bagian website untuk keteraturan dan untuk mempermudah mesin indeks dari search engine tertentu dalam membaca konten websitenya.
+
+CSS berperan seperti pakaian yang menghias websitenya. Dia membantu pengembang menentukan warna, tebal tulisan, garis tepi, luas bagian, dll. CSS punya hubungan kuat dengan HTML karena CSS akan secara langsung menyorot elemen tertentu dalam kerangka untuk dia hias.
+
+Di lain sisi, Javascript bisa dianggap sebagai bahasa pemrograman, walau pada awal penciptaanya hanya sebagai script ringan untuk menambah interaksi pada web. Javascript inilah yang cukup unik, karena terus mendapat dukungan dan perkembangan, hingga detik ini Javascript akhirnya sudah menjadi bahasa pemrograman yang tidak hanya melayani interaksi pada website, namun sudah dianggap sebagai \textit{General Purpose Programming Language}. Dibungkus dengan Typescript, dia sudah bisa menjadi bahasa pemrograman yang cukup andal untuk sistem besar dan bahkan sudah mulai menggapai bidang AI (Yang sudah dikuasai bahasa pemrograman Python).
+
+Perkembangan terus berlanjut, sehingga saat ini sudah banyak sekali cabang terkait web developing. Bahkan bahasa seperti Python sudah punya caranya tersendiri untuk bisa menghasilkan website sederhana tanpa perlu paham HTML, CSS, dan Javascript. Lalu ada React, Laravel, Django, dll yang hadir sebagai kerangka kerja tangguh yang masing-masing membawa bahasa pemrograman yang berbeda dan pendekatan yang berbeda.
+
+
+% End of Main Content
+\end{document}
