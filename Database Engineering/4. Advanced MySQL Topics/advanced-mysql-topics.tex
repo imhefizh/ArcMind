@@ -851,6 +851,195 @@ ROLLBACK;
 \subsection{Contoh Kasus Transaksi}
 Lucky Shrub melakukan pembaruan pada tabel pesanan dan produk. Jika terjadi kesalahan, mereka dapat menggunakan ROLLBACK untuk mengembalikan data ke keadaan semula.
 
+\subsection{Definisi CTE(Common Table Expression)}
+CTE adalah metode untuk mengoptimalkan kueri database yang kompleks dengan mengompilasi mereka menjadi blok kode sederhana yang dapat digunakan kembali. Bisa dipahami sebagai cara untuk membuat tabel sementara yang akan segera dihapus setelah query selesai.
+
+CTE tidak menyimpan data secara permanen di database; sebaliknya, ia berfungsi sebagai "tabel virtual" yang hanya ada untuk durasi kueri yang sedang dijalankan. Setelah kueri selesai dieksekusi, data dalam CTE tidak lagi tersedia, mirip dengan tabel sementara yang dihapus setelah sesi berakhir.
+
+\subsection{Penggunaan CTE}
+\begin{itemize}
+    \item CTE membantu menyederhanakan kueri yang rumit, membuatnya lebih mudah dibaca dan dikelola.
+    \item CTE dapat dibuat untuk satu atau beberapa kueri, tergantung pada kebutuhan database.
+\end{itemize}
+
+\subsection{Sintaks untuk CTE Tunggal}
+\begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+WITH cte_name AS (
+    -- query
+)
+SELECT * FROM cte_name;
+\end{lstlisting}
+\begin{itemize}
+    \item \verb|cte_name|: Nama yang diberikan untuk CTE.
+    \item AS: Kata kunci yang mengaitkan kueri dengan nama CTE.
+\end{itemize}
+
+\subsection{Sintaks untuk CTE Ganda}
+\begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+WITH cte_name1 AS (
+    -- query1
+), cte_name2 AS (
+    -- query2
+)
+SELECT * FROM cte_name1
+UNION
+SELECT * FROM cte_name2;
+\end{lstlisting}
+\begin{itemize}
+    \item Setiap kueri harus memiliki nama unik dan dipisahkan dengan koma.
+    \item Gunakan UNION untuk menggabungkan hasil dari beberapa CTE.
+\end{itemize}
+
+\subsection{Pengertian Prepared Statement}
+Prepared Statement adalah sebuah pernyataan SQL yang telah dikompilasi dan dapat digunakan berulang kali tanpa perlu dikompilasi ulang setiap kali. Ini menghemat sumber daya MySQL.
+
+\subsection{Proses Membuat dan Menjalankan Prepared Statement}
+\begin{enumerate}
+    \item Langkah 1: Siapkan pernyataan menggunakan perintah \verb|PREPARE|.
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    PREPARE statement_name FROM 'SELECT * FROM orders WHERE order_id = ?';
+    \end{lstlisting}
+    \item Langkah 2: Tentukan variabel untuk parameter yang tidak ditentukan. \verb|@order_id|: Variabel yang menyimpan nilai untuk parameter dalam prepared statement.
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    SET @order_id = 10;
+    \end{lstlisting}
+    \item Langkah 3: Eksekusi pernyataan menggunakan perintah \verb|EXECUTE|. Ini akan menjalankan prepared statement dengan nilai yang ditentukan.
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    EXECUTE statement_name USING @order_id;
+    \end{lstlisting}
+\end{enumerate}
+
+\subsection{Keuntungan Menggunakan Prepared Statement}
+\begin{itemize}
+    \item Efisiensi: Mengurangi beban pada server MySQL karena pernyataan hanya dikompilasi sekali.
+    \item Keamanan: Mengurangi risiko serangan SQL injection karena parameter tidak langsung disisipkan ke dalam pernyataan SQL.
+\end{itemize}
+
+\subsection{JSON dalam MySQL}
+\begin{itemize}
+    \item JSON (JavaScript Object Notation): Format teks yang digunakan untuk menyimpan dan mentransfer data. JSON mudah dibaca dan tidak memerlukan pemrosesan khusus.
+    \item Contoh Sintaks: Dalam pernyataan INSERT INTO, JSON ditulis dalam tanda kutip tunggal dan kurung kurawal. Setiap properti dan nilai ditulis dalam tanda kutip ganda dan dipisahkan oleh titik dua, dengan setiap pasangan dipisahkan oleh koma.
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+INSERT INTO activity (activity_id, properties) VALUES
+(1, '{"clientID": "123", "productID": "456", "order": true}'),
+(2, '{"clientID": "124", "productID": "457", "order": false}'),
+(3, '{"clientID": "125", "productID": "458", "order": true}');
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Penggunaan JSON dalam MySQL}
+\begin{enumerate}
+    \item Membuat Tabel
+
+          Untuk membuat tabel yang menyimpan aktivitas klien, Anda dapat menggunakan sintaks berikut:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+CREATE TABLE activity (
+    activity_id INT PRIMARY KEY,
+    properties JSON
+);
+\end{lstlisting}
+    \item Menyisipkan Data
+
+          Untuk menyisipkan data ke dalam tabel menggunakan JSON, sintaksnya adalah:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+INSERT INTO activity (activity_id, properties) VALUES
+(1, '{"clientID": "123", "productID": "456", "order": true}'),
+(2, '{"clientID": "124", "productID": "457", "order": false}'),
+(3, '{"clientID": "125", "productID": "458", "order": true}');
+\end{lstlisting}
+
+    \item Mengambil Data
+
+          Untuk mengambil data dari kolom properties, Anda dapat menggunakan sintaks berikut:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+SELECT activity_id, properties 
+FROM activity 
+WHERE properties->'$.clientID' = '123';
+\end{lstlisting}
+\end{enumerate}
+
+Penjelasan Sintaks:
+\begin{itemize}
+    \item CREATE TABLE: Digunakan untuk membuat tabel baru dalam database.
+    \item INSERT INTO: Digunakan untuk menyisipkan data baru ke dalam tabel.
+    \item SELECT: Digunakan untuk mengambil data dari tabel.
+    \item \verb|properties->'$.clientID'|: Menggunakan operator jalur kolom untuk mengakses elemen dalam data JSON.
+\end{itemize}
+
+Nilai JSON selalu diapit dengan dua tanda petik. Untuk mendapatkan nilai sebuah key tanpa tanda petik bisa gunakan \verb|properties->>'$.value'|. Sebaliknya, \verb|properties->'$.value'| akan mengembalikan nilai JSON dengan tanda petik
+
+\subsection{Penjelasan Lebih Lanjut terkait Teknik Optimasi MySQL}
+\subsubsection{Ringkasan}
+Seperti yang mungkin sudah Anda ketahui, teknik optimasi database digunakan untuk meningkatkan kinerja database Anda. Pada pelajaran sebelumnya, Anda telah belajar cara mengoptimalkan kueri SELECT MySQL menggunakan berbagai teknik yang berbeda.
+
+Namun, ada teknik optimasi lain yang dapat digunakan untuk mendukung optimasi database Anda, seperti transaksi, ekspresi tabel umum, dan pernyataan yang disiapkan.
+
+Anda mungkin sudah menemui teknik-teknik ini dalam pelajaran ini. Jadi, mari kita luangkan waktu sejenak untuk memahami dasar-dasar bagaimana teknik-teknik ini digunakan untuk mengoptimalkan kueri database.
+
+\subsubsection{MySQL Transaction}
+Sebagai seorang insinyur basis data, Anda harus menggunakan transaksi MySQL setiap kali Anda memiliki aktivitas kritis yang perlu diselesaikan. Jika terjadi kesalahan selama eksekusi kueri, Anda dapat menggunakan teknik ini untuk mengembalikan basis data ke keadaan semula.
+
+Teknik ini sangat berguna untuk dipertimbangkan saat menulis serangkaian kueri terkait yang harus dieksekusi sesuai rencana untuk mencapai hasil yang diharapkan.
+
+Misalnya, Lucky Shrub telah menulis serangkaian kueri untuk membantu dalam pemrosesan pesanan baru. Saat pesanan diterima, database terlebih dahulu memeriksa apakah ada cukup barang tersedia di stok untuk memenuhi pesanan. Setelah pesanan diproses, database kemudian memperbarui jumlah barang yang tersisa di stok.
+
+Ada banyak langkah dalam proses ini. Dan beberapa perubahan, atau operasi yang diperlukan, mungkin gagal terjadi di database. Jika demikian, Lucky Shrub dapat menggunakan transaksi MySQL untuk membatalkan perubahan dan membatalkan transaksi saat ini jika ada pernyataan yang gagal dieksekusi sesuai yang diperlukan.
+
+Anda dapat menggunakan alias MySQL BEGIN atau BEGIN WORK untuk memulai transaksi MySQL. Meskipun perintah START TRANSACTION adalah cara standar untuk memulai proses transaksi di MySQL.
+
+Kemudian ketikkan pernyataan SELECT yang diperlukan. Jika semua kueri dieksekusi sesuai harapan, maka pernyataan COMMIT digunakan untuk mengonfirmasi transaksi saat ini dan membuat perubahan transaksi menjadi permanen.
+
+Namun, salah satu atau lebih dari pernyataan ini mungkin gagal dieksekusi sesuai yang diharapkan. Jika demikian, Anda dapat menggunakan pernyataan ROLLBACK untuk membatalkan transaksi saat ini, membatalkan perubahan yang dilakukan pada database, dan mengembalikannya ke keadaan semula.
+
+Proses ini dijelaskan dalam sintaks abstrak berikut:
+\begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+START TRANSACTION; 
+SQL statements 
+ROLLBACK; 
+\end{lstlisting}
+
+\subsubsection{Common Table Expressions}
+Insinyur basis data sering kali perlu menulis kueri SQL yang kompleks, yang biasanya sulit dibaca dan dipelihara.
+
+Dalam situasi ini, Anda dapat menggunakan teknik Common Table Expression (CTE) untuk memecah kueri kompleks menjadi blok-blok kode yang sederhana. Dengan CTE, Anda dapat menulis ulang kueri tersebut dengan cara yang menyederhanakannya dan membuatnya lebih mudah dibaca dan dipelihara.
+
+Sintaks abstrak dasar dari Common Table Expression adalah sebagai berikut:
+\begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+WITH CTE_Name AS (query code)  
+SELECT * 
+FROM CTE_Name; 
+\end{lstlisting}
+
+Dalam sintaks ini, Anda menggunakan klausa WITH untuk memulai ekspresi tabel umum, diikuti dengan nama ekspresi tabel umum tersebut. Nama ini dapat disesuaikan.
+
+Selanjutnya, gunakan kata kunci AS untuk mengaitkan kueri dengan nama ekspresi terkait. Terakhir, gunakan pernyataan SELECT untuk mengakses nama ekspresi tabel umum.
+
+Jika Anda memerlukan beberapa kueri, Anda hanya perlu mengaitkan setiap kueri dengan nama ekspresi terkaitnya dan memisahkannya dengan koma, seperti pada contoh berikut:
+
+\begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+WITH 
+  cte1 AS (query1), 
+  cte2 AS (query2) 
+SELECT cte1  UNION cte2;
+\end{lstlisting}
+
+Sintaks abstrak ini menentukan dua ekspresi tabel umum yang dipisahkan oleh koma. Setiap ekspresi terkait dengan kueri menggunakan kata kunci AS.
+
+\subsubsection{Prepared statements}
+Sebuah kueri harus diparsing oleh MySQL sebelum dapat dieksekusi, yang memakan waktu dan menyebabkan penundaan.
+
+Namun, pembuatan pernyataan siap pakai (prepared statements) di MySQL dapat mengurangi waktu parsing kueri. Pernyataan siap pakai hanya perlu diparsing oleh MySQL sekali, terlepas dari berapa kali pernyataan tersebut digunakan dan dieksekusi.
+
+Pernyataan yang disiapkan di MySQL adalah templat yang Anda buat dengan pernyataan SQL. Pernyataan yang disiapkan dimulai dengan perintah PREPARE diikuti oleh nama pernyataan. Nama ini dapat disesuaikan. Pernyataan ini juga dapat mencakup nilai-nilai yang tidak ditentukan, yang digunakan sebagai parameter dan dilabeli dengan tanda tanya \verb|?|
+
+Misalnya, dalam sintaks berikut, dua tanda tanya \verb|?| mewakili dua parameter yang dapat digunakan untuk menyisipkan dua nilai berbeda ke dalam tabel Products:
+\begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+PREPARE InsertProductData FROM 'INSERT INTO Products VALUES(?, ?)'; 
+\end{lstlisting}
+
+Pernyataan yang telah disiapkan juga meminimalkan penggunaan bandwidth saat mengomunikasikan data dengan server MySQL. Anda hanya perlu meneruskan nilai parameter ke pernyataan yang telah disiapkan, bukan seluruh pernyataan SQL.
+
+Membuat pernyataan yang telah disiapkan juga mengamankan basis data Anda dari injeksi SQL, teknik peretasan umum yang dapat digunakan untuk menghancurkan basis data Anda. Injeksi SQL mencoba mengirimkan kode berbahaya ke basis data Anda melalui pernyataan SQL. Namun, hal ini dapat dihindari jika Anda menggunakan pernyataan yang telah disiapkan saat membuat kueri SQL.
 
 
 
