@@ -19,4 +19,4 @@ _Last Updated 30 Oct 2025_
 
 ---
 
-_You can read the .pdf format instead of .tex, I've built it for you_
+**You can read the .pdf format instead of .tex, I've built it for you**
