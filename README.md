@@ -1,6 +1,6 @@
-### Welcome
+# ArcMind
 
-Free to Read. Here's my own LaTex Journals for everything I learned. Straight forward to go to these fields:
+Feel free to read. Here's my own LaTex Journals for everything I learned. Straight forward to go to these fields:
 
 - Database Engineering
 - AI Engineering
@@ -9,12 +9,13 @@ Free to Read. Here's my own LaTex Journals for everything I learned. Straight fo
 
 ---
 
-Update:
+Note: 
 
-1. I've done the rough notes for Entrepreneurship, but I still think to rephrase it to make it easier to understand. Gon do that later.
-2. I'm working on Database Engineering rn.
-3. I was using Obsidian as my note-app, but I decided to use LaTex instead. Some of the notes have not been migrated yet.
+1. Working on Database Engineering rn.
+2. I'm planning to organize my journals, rephrasing them to improve readability and deepen the insights. Especially on Entrepreneurship and AI Engineering.
 
+
+_Last Updated 30 Oct 2025_
 ---
 
 _You can read the .pdf format instead of .tex, I've built it for you_
