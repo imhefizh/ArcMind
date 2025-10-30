@@ -568,7 +568,6 @@ Kerugian:
 
 \newpage
 
-
 \section{Database Optimization}
 \subsection{Konsep Database Optimization}
 \begin{itemize}
@@ -1041,7 +1040,145 @@ Pernyataan yang telah disiapkan juga meminimalkan penggunaan bandwidth saat meng
 
 Membuat pernyataan yang telah disiapkan juga mengamankan basis data Anda dari injeksi SQL, teknik peretasan umum yang dapat digunakan untuk menghancurkan basis data Anda. Injeksi SQL mencoba mengirimkan kode berbahaya ke basis data Anda melalui pernyataan SQL. Namun, hal ini dapat dihindari jika Anda menggunakan pernyataan yang telah disiapkan saat membuat kueri SQL.
 
+\section{MySQL for data analytics}
+\subsection{Data Analysis vs. Data Analytics}
+Data Analysis adalah proses mengumpulkan dan memeriksa data untuk mendapatkan wawasan. Sedangkan Data Analytics adalah mengambil langkah lebih lanjut dengan mengolah data yang telah dianalisis menjadi informasi yang berguna untuk pengambilan keputusan bisnis.
 
+Data Analysis dan Data Analytics adalah konsep yang saling terkait; Anda tidak dapat melakukan data analytics tanpa melakukan data analysis terlebih dahulu.
 
+\subsection{Jenis-jenis Data Analysis}
+\begin{itemize}
+    \item Descriptive Data Analysis
+
+          Menyajikan data dalam format deskriptif. Contoh: Menganalisis penjualan Lucky Shrub selama periode tertentu untuk menjelaskan produk terlaris dan keuntungan.
+    \item Exploratory Data Analysis
+
+          Mencoba menemukan hubungan antara variabel yang berbeda. Contoh: Menentukan apakah ada korelasi antara peningkatan penjualan produk tertentu dan musim penjualannya.
+    \item Inferential Data Analysis
+
+          Menggunakan sampel kecil data untuk menarik kesimpulan tentang populasi yang lebih besar. Contoh: Menggunakan data penjualan untuk menyimpulkan bahwa musim panas adalah waktu terbaik untuk menjual produk barbecue.
+    \item Predictive Data Analysis
+
+          Menggunakan data yang ada untuk mengidentifikasi pola dan membuat prediksi tentang kinerja di masa depan. Contoh: Memprediksi bahwa diskon pada alat berkebun akan meningkatkan penjualan.
+    \item Causal Data Analysis
+
+          Meneliti hubungan sebab-akibat antara variabel. Contoh: Menganalisis apakah pembelian alat berkebun mempengaruhi pembelian produk pencahayaan luar ruangan.
+\end{itemize}
+
+\subsection{Perihal Data Analytics}
+Analisis data merupakan isu penting bagi berbagai jenis organisasi di berbagai sektor, termasuk pendidikan, pemerintahan, kesehatan, pariwisata, dan bisnis.
+
+Analisis data berfokus pada pengumpulan, pengolahan, dan penyelidikan data untuk memperoleh wawasan mendalam tentang kinerja suatu organisasi. Misalnya, sebuah bisnis dapat menggunakan analisis data untuk memahami pola penjualan, perilaku pelanggan, atau margin keuntungan mereka.
+
+Analisis data menyediakan informasi yang berguna dan bermakna yang dapat dimanfaatkan oleh pengambil keputusan dalam organisasi untuk mengatasi masalah dan tantangan pada tahap awal. Hal ini juga membantu mereka memprediksi masa depan organisasi mereka.
+
+\subsection{Manfaat MySQL}
+Database MySQL dibangun menggunakan model relasional. Model ini menyimpan kumpulan data dalam tabel-tabel yang saling terkait, sehingga memudahkan akses, pemrosesan, dan analisis data yang ada.
+
+Ini juga merupakan sistem manajemen basis data sumber terbuka yang dapat menyimpan jumlah data yang sangat besar. Dalam analisis basis data, semakin banyak data yang disimpan dan diproses oleh basis data Anda, semakin baik hasil analisis Anda.
+
+MySQL digunakan secara luas oleh berbagai jenis bisnis, platform media sosial, aplikasi e-commerce, dan situs web pemerintah. Hal ini berarti organisasi-organisasi tersebut dapat dengan mudah mengintegrasikan data yang diimpor dari berbagai sumber, yang akan memfasilitasi lingkungan data yang kaya untuk melakukan analisis data.
+
+\begin{itemize}
+    \item Relational Database Model: MySQL menggunakan model basis data relasional, yang menyusun data dalam tabel terkait, memudahkan akses dan analisis informasi.
+    \item Foreign Keys: MySQL memungkinkan penghubungan tabel menggunakan foreign keys, seperti menghubungkan tabel pesanan dan produk melalui product ID key.
+\end{itemize}
+
+\subsection{Keterbatasan MySQL}
+\begin{itemize}
+    \item Keterbatasan Analisis Data: MySQL memiliki kemampuan analisis data yang lebih terbatas dibandingkan dengan alat analisis data yang lebih canggih.
+    \item Kurangnya Fitur Visualisasi: MySQL tidak memiliki fitur visualisasi data seperti grafik atau peta, yang dapat membantu dalam mengidentifikasi tren dan masalah.
+\end{itemize}
+
+\subsection{MySQL dan alat analitik data canggih}
+Kemampuan MySQL dalam melakukan analisis data cukup memadai. Namun, kapasitasnya untuk pemrosesan analisis canggih jauh lebih terbatas dibandingkan dengan alat analisis canggih lainnya.
+
+MySQL lebih berfokus pada pemrosesan transaksi data daripada analisis, di mana catatan data dikelola dalam tabel melalui baris dan kolom menggunakan operasi SQL seperti INSERT, UPDATE, dan DELETE.
+
+Pemilik bisnis dan manajer perlu melakukan operasi analitik data yang canggih. Oleh karena itu, mereka sering mengintegrasikan MySQL dengan platform analitik canggih lainnya untuk memaksimalkan manfaat analitik data.
+
+Platform-platform lain ini menyediakan antarmuka pengguna yang ramah untuk menangani data. Mereka juga menampilkan data yang dianalisis dalam berbagai format visual seperti grafik, diagram, peta, dan dasbor interaktif.
+
+Menghasilkan data atau informasi dalam format visual ini merupakan metode yang berguna untuk mengidentifikasi tren, celah, pola, dan model. Hal ini jauh lebih mudah daripada bekerja dengan data mentah dalam tabel, karena informasi visual dapat diproses oleh otak manusia dengan jauh lebih cepat.
+
+MySQL dapat diintegrasikan dengan berbagai alat analitik canggih, termasuk dua platform paling populer, Tableau dan Power BI. Tableau adalah platform analitik paling populer di dunia. Power BI adalah alat visualisasi data interaktif penting yang dikembangkan oleh Microsoft. Fokus utamanya adalah pada intelijen bisnis.
+
+Baik Tableau maupun Power BI adalah alat visualisasi canggih yang digunakan untuk mengakses, menghubungkan, dan menganalisis data dari berbagai sumber. Mereka kemudian dapat mengubah data yang dianalisis menjadi dasbor interaktif.
+
+Platform-platform ini juga dilengkapi dengan konektor bawaan yang memudahkan integrasi, visualisasi, dan analisis data MySQL dengan mendukung mekanisme Select, Extract, Transform, dan Load (SETL).
+
+Alat-alat ini dapat digunakan untuk dengan mudah mengidentifikasi data MySQL yang akan dianalisis. Mereka mengekstrak data yang dipilih, mengubahnya menjadi format yang sesuai, dan memuat data tersebut ke platform untuk melakukan berbagai jenis analisis data.
+
+\subsection{Pengantar Analisis Data}
+Analisis Data adalah proses mengumpulkan dan mempresentasikan data untuk mendapatkan wawasan. SQL Queries adalah kumpulan perintah yang digunakan untuk mengakses dan memanipulasi data dalam database.
+
+\subsection{Proses Analisis Data}
+\begin{itemize}
+    \item Ekstraksi Data: Mengambil data yang diperlukan dari database menggunakan SQL queries.
+    \item Deskripsi Hasil: Menggunakan SQL queries tambahan untuk menjelaskan hasil analisis data.
+    \item Wawasan Lebih Lanjut: Menggunakan data yang diekstrak untuk mendapatkan wawasan lebih dalam melalui analisis data.
+\end{itemize}
+
+\subsection{Pengantar FULL OUTER JOIN}
+FULL OUTER JOIN adalah proses mengembalikan semua catatan dari tabel kiri dan tabel kanan, termasuk catatan yang cocok dan yang tidak cocok. MySQL tidak mendukung FULL OUTER JOIN, sehingga cara kerjanya perlu ditiru menggunakan kombinasi LEFT JOIN dan RIGHT JOIN.
+
+\subsection{Sintaks untuk Meniru FULL OUTER JOIN}
+\begin{itemize}
+    \item Menggunakan UNION ALL:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+SELECT column1, column2 FROM table1
+LEFT JOIN table2 ON table1.id = table2.id
+UNION ALL
+SELECT column1, column2 FROM table1
+RIGHT JOIN table2 ON table1.id = table2.id;
+\end{lstlisting}
+
+          UNION ALL: Menggabungkan hasil dari dua query dan mengembalikan semua catatan, termasuk duplikat.
+    \item Menggunakan UNION:
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+SELECT column1, column2 FROM table1
+LEFT JOIN table2 ON table1.id = table2.id
+UNION
+SELECT column1, column2 FROM table1
+RIGHT JOIN table2 ON table1.id = table2.id;
+\end{lstlisting}
+
+          UNION: Menggabungkan hasil dari dua query dan mengembalikan hanya catatan unik.
+\end{itemize}
+
+\subsection{Query JOIN dengan 3 Tabel}
+\subsubsection{Contoh Kasus: Lucky Shrub}
+\begin{itemize}
+    \item Tujuan: Mengidentifikasi semua klien yang membeli 10 item atau lebih dari lini produk tertentu untuk mengirimkan penawaran khusus.
+    \item Kriteria:
+          \begin{itemize}
+              \item Pembelian harus dilakukan setelah 5 September 2020.
+              \item Tersedia 50 unit atau lebih dari produk di stok.
+          \end{itemize}
+\end{itemize}
+
+\subsubsection{Tabel yang Terlibat}
+\begin{enumerate}
+    \item Orders Table: Menyimpan informasi tentang setiap pesanan.
+    \item Clients Table: Menyimpan informasi penting tentang setiap klien.
+    \item Products Table: Menyimpan data tentang semua produk di toko.
+\end{enumerate}
+
+\subsubsection{Langkah-langkah Query}
+\begin{itemize}
+    \item SELECT Statement: Mulai dengan pernyataan SELECT untuk memilih kolom yang diperlukan.
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    SELECT clients.client_id, clients.contact_number, orders.order_id, orders.quantity, orders.date, products.number_of_items AS items_in_stock
+    \end{lstlisting}
+    \item FROM dan INNER JOIN: Gunakan kata kunci FROM untuk menargetkan tabel klien dan INNER JOIN untuk menggabungkan dengan tabel orders dan products.
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    FROM clients INNER JOIN orders ON clients.client_id = orders.client_id INNER JOIN products ON orders product_id = products.product_id
+    \end{lstlisting}
+    \item WHERE Clause: Tambahkan klausa WHERE untuk menetapkan kriteria.
+          \begin{lstlisting}[language=SQL, caption={}, captionpos=b]
+    WHERE orders.quantity >= 10 AND orders.date > '2020-09-05' AND products.number_of_items >= 50
+    \end{lstlisting}
+    \item Eksekusi Query: Klik Enter untuk menjalankan query dan menampilkan data yang diperlukan.
+\end{itemize}
 
 \end{document}
