@@ -37,10 +37,16 @@ execSync(`git config user.name "github-actions[bot]"`);
 execSync(
   `git config user.email "github-actions[bot]@users.noreply.github.com"`
 );
-execSync(`git add README.md`);
-execSync(`git commit -m "Auto update from ${repoName}"`);
-execSync(
-  `git push https://x-access-token:${token}@github.com/${profileRepo}.git HEAD:main`
-);
 
-console.log("Profile README updated successfully!");
+const diff = execSync("git status --porcelain").toString().trim();
+
+if (diff) {
+  execSync(`git add README.md`);
+  execSync(`git commit -m "Auto update from ${repoName}"`);
+  execSync(
+    `git push https://x-access-token:${token}@github.com/${profileRepo}.git HEAD:main`
+  );
+  console.log("Profile README updated successfully!");
+} else {
+  console.log("No changes detected. Nothing to commit.");
+}
