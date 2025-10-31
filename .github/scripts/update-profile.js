@@ -20,7 +20,7 @@ const readme = fs.readFileSync("README.md", "utf-8");
 const updated = readme.replace(
   /(<!--LOG-AREA-->)([\s\S]*?)(<!--END-LOG-->)/,
   (_, start, _content, end) => {
-    return `${logLine}`;
+    return `${start}\n${logLine}\n${end}`;
   }
 );
 
