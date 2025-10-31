@@ -58,9 +58,129 @@ captionpos=b
 \pagenumbering{arabic}
 
 % Main Content
-\section{Getting Started with Python}
+\section{Memulai dengan Python}
 \subsection{Tentang Python}
 Python dinamai setelah acara TV "Monty Python's Flying Circus" dan bukan dari ular piton. Nama ini dipilih karena dianggap singkat dan misterius. Python digunakan dalam aplikasi yang sering kita gunakan, seperti Instagram, Facebook, Google, dan Spotify. Contoh penggunaan Python dalam machine learning termasuk TensorFlow, yang digunakan oleh Airbnb untuk mengklasifikasikan gambar dan oleh perusahaan kesehatan untuk mengklasifikasikan data MRI. Python dianggap mudah digunakan dan sederhana, dengan banyak pustaka (libraries) yang mendukung pengembangan. Memungkinkan pengembang untuk membuat fitur dengan cepat dan melihat hasilnya lebih cepat.
+
+\subsection{Sejarah Pemrograman}
+\begin{itemize}
+    \item Charles Babbage, pada tahun 1822, menciptakan difference engine untuk mengurangi kesalahan manusia dalam perhitungan.
+    \item Babbage juga mengembangkan analytical engine, yang dianggap sebagai dasar dari komputer modern.
+    \item Teman Babbage, Ada Lovelace, menulis dokumen yang menjelaskan bagaimana analytical engine dapat melakukan urutan perhitungan, mirip dengan apa yang dilakukan oleh program komputer.
+\end{itemize}
+
+\subsection{Dasar-dasar Pemrograman}
+\begin{itemize}
+    \item Komputer hanya memahami binary code, yang terdiri dari dua digit: 0 dan 1. Binary Code: Sistem bilangan yang hanya menggunakan dua angka, 0 (off) dan 1 (on).
+    \item Setiap program yang ditulis harus dikonversi menjadi machine code (kode mesin) agar dapat dipahami oleh komputer. Contoh konversi: Decimal 1 menjadi Binary 1, Decimal 2 menjadi Binary 10.
+    \item Komputer menggunakan transistors untuk merepresentasikan binary code. Transistor: Komponen elektronik yang berfungsi sebagai saklar untuk mengontrol aliran listrik.
+\end{itemize}
+
+\subsection{Apa itu Pemrograman?}
+Pemrograman adalah kemampuan untuk memberikan serangkaian instruksi kepada komputer dalam bahasa yang dapat dipahami.
+
+Pemrograman adalah keterampilan yang dapat diasah dengan latihan. Semakin sering berlatih, semakin baik kemampuan pemrograman seseorang.
+
+Pemrograman juga merupakan keterampilan kreatif, karena ada banyak cara untuk menyelesaikan masalah dengan menulis program.
+
+\subsection{Manfaat Belajar Python}
+\begin{itemize}
+    \item Mudah Dipelajari: Python memiliki sintaks yang mirip dengan bahasa Inggris, sehingga lebih mudah dibaca dan dipahami.
+    \item Produktivitas Tinggi: Dengan Python, pengembang dapat menyelesaikan proyek lebih cepat karena sintaks yang sederhana dan memerlukan lebih sedikit kode dibandingkan dengan bahasa lain seperti C atau Java.
+\end{itemize}
+
+\subsection{Aplikasi Python}
+\begin{itemize}
+    \item Berbagai Platform: Python dapat digunakan di Windows, Mac, dan Linux.
+    \item Bidang Penggunaan: Python banyak digunakan dalam pengembangan web, kecerdasan buatan, machine learning, analisis data, dan aplikasi pemrograman lainnya.
+\end{itemize}
+
+\subsection{Menjalankan Python di Command Line}
+\begin{itemize}
+    \item Python Shell:
+
+          Ini adalah cara pertama untuk menjalankan program Python. Shell ini berguna untuk menjalankan dan menguji skrip kecil tanpa perlu membuat file baru dengan ekstensi .PY. Anda dapat mengetikkan potongan kode langsung di shell.
+
+          Cukup ketik python di command line untuk membuka Python shell, lalu masukkan kode yang ingin dijalankan.
+
+    \item Menjalankan File Python
+
+          Cara kedua adalah menjalankan file Python langsung dari command line. Setiap file dengan ekstensi .PY dapat dijalankan dengan perintah tertentu.
+
+          Ketik python \verb|nama_file.py| di command line untuk menjalankan file tersebut.
+\end{itemize}
+
+\subsection{Sintaksis Python dan Pentingnya Spasi}
+Menggunakan print("Hello") untuk menghasilkan teks. \verb|print| adalah fungsi yang digunakan untuk menampilkan output ke layar.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print("Hello") print("World")
+\end{lstlisting}
+
+Jika mencoba menulis dua pernyataan print dalam satu baris tanpa pemisah, akan muncul error \verb|SyntaxError: invalid syntax|. SyntaxError adalah kesalahan yang terjadi ketika kode tidak mengikuti aturan sintaks yang benar.
+
+Mengatasi Error:
+\begin{itemize}
+    \item Metode Pertama: Memindahkan pernyataan print kedua ke baris baru.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print("Hello")
+print("World")
+    \end{lstlisting}
+    \item Metode Kedua: Memisahkan pernyataan dengan titik koma.
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print("Hello"); print("World")
+    \end{lstlisting}
+\end{itemize}
+
+\paragraph{Whitespace adalah} karakter kosong (spasi, tab, newline) yang tidak terlihat tetapi mempengaruhi struktur kode. Menambahkan spasi di sekitar operator tidak menyebabkan masalah, tetapi menambahkan baris baru bisa menyebabkan error. Contohnya seperti ini:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+#any ammount of whitespace on a single line is ok
+x     =        1        +        2
+\end{lstlisting}
+Dan berikut tidak benar:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+x = 1
++ 2
+
+\end{lstlisting}
+
+\paragraph{Indentasi adalah} penggunaan spasi atau tab untuk mengatur blok kode, yang menunjukkan hierarki dan struktur. Penting untuk struktur kontrol seperti if statement.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+if name == "John":
+    print(name)
+\end{lstlisting}
+Jika indentasi dihapus, akan muncul error \verb|IndentationError: expected an indented block|.
+
+\subsection{Memberi Komentar pada Kode}
+Menambahkan komentar ke kode tidak hanya membantu Anda sebagai pengembang, tetapi juga membantu anggota tim lainnya. Komentar sangat berguna untuk menyegarkan ingatan Anda tentang kode yang mungkin telah Anda tulis berbulan-bulan lalu dan Anda mungkin lupa apa tujuannya. Ada beberapa alasan mengapa Anda perlu menambahkan komentar ke berkas kode. Alasannya antara lain:
+\begin{itemize}
+    \item Menjelaskan tujuan kode.
+    \item Memberitahu pengembang bahwa kode tersebut sudah usang.
+    \item Menambahkan komentar TODO untuk pekerjaan yang akan diselesaikan nanti.
+\end{itemize}
+Berikut adalah contoh berbagai jenis komentar yang dapat digunakan.
+
+\subsubsection{Single-line comments}
+Penggunaan simbol \verb|#| memberi tahu Python untuk mengabaikan semua yang ada setelah titik ini hingga akhir baris saat ini.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# Don't try to Run Me, I'm a comment
+x = 10
+\end{lstlisting}
+
+\subsubsection{Multi-line comments}
+\paragraph{Tanda Kutip Tiga (''' atau """):} Python menggunakan tanda kutip tunggal atau ganda tiga kali untuk membuat komentar multi-baris. Tanda kutip ini biasanya digunakan untuk docstring atau komentar yang mencakup beberapa baris.
+
+\subsubsection{Inline comments}
+Simbol \verb|#| memberi tahu Python untuk mengabaikan semua yang ada setelah titik ini hingga akhir baris saat ini. Hal ini memungkinkan komentar ditempatkan di dalam kode itu sendiri. Komentar sebaris sebaiknya digunakan untuk memberikan informasi penting tentang kode yang ditanganinya.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+x = 1  # Resetting buffer size
+\end{lstlisting}
+
+Ingatlah untuk selalu memiliki alasan untuk berkomentar, komentar harus memberikan informasi kepada pembaca dan tidak mengganggu.
+
+
 
 \newpage
 
