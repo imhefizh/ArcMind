@@ -13,7 +13,7 @@ const date = new Date().toLocaleDateString("en-GB", {
 const logLine = `_Update Log: new commit on ${repoName} at ${date}_`;
 
 execSync(`git clone https://github.com/${profileRepo}.git`);
-process.chdir(profileRepo);
+process.chdir(profileRepo.split("/")[1]);
 
 const readme = fs.readFileSync("README.md", "utf-8");
 
