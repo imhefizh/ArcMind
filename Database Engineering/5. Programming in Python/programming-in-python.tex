@@ -430,7 +430,7 @@ Penting untuk dicatat bahwa Python hanya dapat mengonversi nilai jika tipe data 
 \paragraph{Explicit Conversion}: Dilakukan oleh pengembang menggunakan fungsi yang disediakan oleh Python. Beberapa
 \begin{itemize}
     \item \verb|str()|: Mengubah tipe data menjadi string. Sintaks: \verb|str(value)|.
-    \item \verb|int(): Mengubah tipe data menjadi integer. Sintaks: \verb|int(value)|.
+    \item \verb|int()|: Mengubah tipe data menjadi integer. Sintaks: \verb|int(value)|.
     \item \verb|float()|: Mengubah tipe data menjadi float. Sintaks: \verb|float(value)|.
 \end{itemize}
 
@@ -441,6 +441,296 @@ Penting untuk dicatat bahwa Python hanya dapat mengonversi nilai jika tipe data 
     \item \verb|oct()|: Mengambil integer dan mengembalikan string yang mewakili angka oktal.
     \item \verb|tuple(), set(), list(), dict()|: Fungsi lain untuk mengonversi tipe data.
 \end{itemize}
+
+\subsection{Fungsi Input}
+Fungsi \verb|input()| digunakan untuk mendapatkan data dari pengguna.
+
+Sintaks: \verb|input("Prompt")|
+\begin{itemize}
+    \item Contoh: \verb|email = input("Please enter your email address: ")|
+    \item Penjelasan: Pengguna akan diminta untuk memasukkan alamat email, yang kemudian disimpan dalam variabel email.
+\end{itemize}
+
+\subsection{Fungsi Print}
+Fungsi \verb|print()| digunakan untuk menampilkan output ke layar.
+
+Sintaks: \verb|print(value1, value2, ..., sep=' ', end='\n')|
+\begin{itemize}
+    \item Contoh: \verb|print("Hello", "World", sep=", ")|
+    \item Penjelasan: Menampilkan "Hello, World" dengan koma sebagai pemisah.
+\end{itemize}
+
+\subsection{Parameter Tambahan untuk Print}
+\begin{itemize}
+    \item \textbf{sep}: Menentukan pemisah antara objek yang dicetak.
+    \item \textbf{end}: Menentukan apa yang dicetak di akhir output (default adalah newline).
+    \item \textbf{file}: Menentukan di mana nilai dicetak (default adalah STD out).
+    \item \textbf{flush}: Boolean untuk mengatur apakah buffer harus dibersihkan.
+\end{itemize}
+
+\subsection{Contoh Penggunaan Input dan Print}
+Mengambil dua angka dari pengguna dan mencetak hasil penjumlahannya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+print("The sum is:", num1 + num2)
+\end{lstlisting}
+
+Penjelasan: Menggunakan int() untuk mengonversi input menjadi integer sebelum melakukan penjumlahan.
+
+\subsection{Penanganan Tipe Data}
+Input dari fungsi input() selalu berupa string.
+
+Sintaks: \verb|type(variable)|
+\begin{itemize}
+    \item Contoh: \verb|print(type(num1))|
+    \item Penjelasan: Menampilkan tipe data dari variabel num1, yang akan menunjukkan bahwa itu adalah string jika tidak dikonversi.
+\end{itemize}
+
+\subsection{Penggabungan String}
+Menggabungkan dua atau lebih string menggunakan operator \verb|+|.
+
+Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+first_name = input("Please enter your first name: ")
+last_name = input("Please enter your last name: ")
+print("Hello, " + first_name + " " + last_name)
+\end{lstlisting}
+
+Penjelasan: Menampilkan sapaan dengan nama depan dan belakang yang dimasukkan pengguna.
+
+\subsection{Melihat Lebih Dalam ke Type Casting}
+Ada beberapa situasi di mana tipe data dari suatu nilai perlu diubah menjadi tipe data lain.
+
+Proses ini dikenal sebagai casting tipe.
+
+Cara lain yang lebih informal untuk menyebutnya adalah "konversi tipe data".
+
+Contoh paling sederhana dari konversi data dapat dilihat pada perbandingan berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(10 == 10)
+\end{lstlisting}
+
+Dalam potongan kode di atas, saya bertanya kepada Python apakah angka 10 sama dengan angka 10, dan saya akan mendapatkan nilai boolean True yang dicetak, yang mengonfirmasi bahwa memang keduanya sama.
+
+Bagaimana jika saya melakukan ini?
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(10 == 10.00)
+\end{lstlisting}
+
+Sekali lagi, nilai boolean True ditampilkan di layar.
+
+Sekarang, Anda mungkin keberatan bahwa, ya, 10 secara teknis tidak sama dengan 10.0 - karena, bisa dibilang, angka pertama adalah bilangan bulat, dan angka kedua adalah bilangan desimal. Anda benar - meskipun ini adalah angka yang sama, mereka memiliki tipe data yang berbeda.
+
+Namun, Python di sini melakukan apa yang disebut "konversi tipe implisit".
+
+Untuk memahami bagaimana ini bekerja, saya akan sedikit mengubah contoh sebelumnya. Alih-alih meminta Python untuk membandingkan kedua angka dan mengembalikan apakah keduanya sama atau tidak, saya akan meminta Python untuk menampilkan hasil penjumlahan kedua angka tersebut.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(10 + 10.0)
+\end{lstlisting}
+
+Hasil cetak adalah 20.0.
+
+Hasil ini memungkinkan saya menyimpulkan bahwa saat Python menjalankan operasi yang melibatkan bilangan bulat dan bilangan desimal, ia secara implisit mengubah tipe bilangan bulat menjadi bilangan desimal, lalu menyelesaikan operasi tersebut.
+
+Untuk benar-benar menekankan poin ini, saya dapat memperluas contoh sebelumnya dengan menggunakan fungsi \verb|type()|:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(type(10 + 10.0))
+\end{lstlisting}
+
+Hasilnya adalah \verb|<class 'float'>|, jadi ini mengonfirmasi kesimpulan saya.
+
+Sekarang saya akan menunjukkan kepada Anda program kecil dalam Python yang bekerja dengan angka:
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+user_num_1 = input('First number is: ')
+user_num_2 = input('Second number is: ')
+user_sum = user_num_1 + user_num_2
+print(user_sum)
+\end{lstlisting}
+
+Ketika saya menjalankan program ini, misalnya, saya dapat memasukkan nilai angka pertama sebagai 5, dan nilai angka kedua juga sebagai 5, dengan harapan nilai \verb|user_sum| yang dicetak akan menjadi 10.
+
+Namun, ketika saya melakukan hal itu, angka 55 yang dicetak.
+
+Mengapa ini tidak berfungsi?
+
+Jawabannya cukup sederhana: segala sesuatu yang diketik oleh pengguna oleh Python dikonversi menjadi tipe data string.
+
+Ini berarti, meskipun saya mengetik angka ke dalam dua input tersebut, yang disimpan dalam \verb|user_num_1| dan \verb|user_num_2| sebenarnya adalah string.
+
+Secara efektif, ini sama saja dengan jika saya hanya melakukan ini:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+user_num_1 = "5"
+user_num_2 = "5"
+user_sum = user_num_1 + user_num_2
+print(user_sum)
+\end{lstlisting}
+
+Kali ini, hasil cetak dari \verb|user_sum| masih "55", tetapi hal ini tidak mengejutkan.
+
+Untuk membuat kode Python saya berfungsi sesuai yang saya inginkan, saya perlu melakukan konversi tipe secara eksplisit.
+
+Dengan kata lain, saya harus mengubah nilai "5" menjadi nilai 5.
+
+Berikut adalah kode saya yang telah diperbarui:
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+user_num_1 = input('First number is: ')
+user_num_2 = input('Second number is: ')
+user_sum = float(user_num_1) + float(user_num_2)
+print(user_sum)
+\end{lstlisting}
+
+Apa yang saya lakukan di sini adalah memastikan bahwa program saya dapat menangani input berupa bilangan float dan tetap berfungsi dengan benar.
+
+Dengan kata lain, saya memastikan bahwa jika pengguna memasukkan nilai float 5.5 sebagai angka pertama dan kedua saat menjalankan kode di atas, outputnya tidak akan menimbulkan kesalahan. Sebaliknya, outputnya akan menjadi 11.0 seperti yang diharapkan.
+
+Bagaimana jika saya memutuskan untuk menampilkan beberapa kata kepada pengguna, memberitahu mereka apa yang terjadi?
+
+Ini adalah upaya untuk melakukannya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+num_1 = input('First number is: ')
+num_2 = input('Second number is: ')
+user_sum = float(num_1) + float(num_2)
+print("The sum of: " + num_1 + " and " + num_2 + " is " + user_sum)
+\end{lstlisting}
+
+Jika saya menjalankan kode di atas, akan muncul kesalahan berikut:
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    Traceback (most recent call last):
+    File "<string>", line 4, in <module>
+    TypeError: hanya dapat menggabungkan str (bukan "float") dengan str
+\end{lstlisting}
+
+Artinya, saya tidak dapat menggabungkan string dan float seperti itu. Dengan kata lain, meskipun konversi tipe implisit Python berfungsi saat menggunakan operator + pada string dan integer, hal ini tidak berlaku untuk string dan float kecuali Anda secara eksplisit mengonversi float menjadi string.
+
+Perlu diperhatikan juga, Anda juga tidak dapat menggabungkan string dan integer. Hal ini terjadi karena Python menerapkan keamanan tipe, artinya ia memerlukan instruksi eksplisit tentang cara menggabungkan tipe data yang berbeda dalam kasus seperti string dengan integer.
+
+Solusi untuk ini adalah melakukan konversi tipe secara eksplisit, sebagai berikut.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+n1 = input('First number is: ')
+n2 = input('Second number is: ')
+user_sum = float(n1) + float(n2)
+print("The sum of " + n1 + " and " + n2 + " is " + str(user_sum))
+\end{lstlisting}
+
+Kali ini, hasilnya adalah: Jumlah dari 5,5 dan 5,5 adalah 11,0.
+
+\subsection{Operator Matematika}
+\begin{itemize}
+    \item Addition (+): Digunakan untuk menjumlahkan angka. Contoh sintaks: 2 + 3 menghasilkan 5.
+    \item Subtraction (-): Digunakan untuk mengurangkan angka. Contoh sintaks: 3 - 2 menghasilkan 1.
+    \item Division (/): Digunakan untuk membagi angka. Contoh sintaks: 35 / 5 menghasilkan 7.0.
+    \item Multiplication (*): Digunakan untuk mengalikan angka. Contoh sintaks: 7 * 4 menghasilkan 28.
+\end{itemize}
+
+\subsection{Operator Logika}
+\begin{itemize}
+    \item AND: Memeriksa apakah semua kondisi benar. Contoh: a > 5 and a < 10 hanya benar jika a lebih besar dari 5 dan kurang dari 10.
+    \item OR: Memeriksa apakah setidaknya satu kondisi benar. Contoh: a > 5 or b > 10 benar jika salah satu dari a atau b memenuhi kondisi.
+    \item NOT: Mengembalikan nilai false jika hasilnya true. Contoh: not (a > 5) akan benar jika a tidak lebih besar dari 5.
+\end{itemize}
+
+\subsection{Contoh Penggunaan Operator dalam Pernyataan Kondisional}
+Operator biasanya digunakan dengan pernyataan kondisional untuk mengontrol alur program. Contoh: Untuk memberikan diskon di restoran, Anda bisa memeriksa apakah pelanggan adalah anggota program loyalitas dan telah menghabiskan lebih dari \$100.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+if in_loyalty_program and total_bill > 100:
+    total_bill = total_bill - (total_bill * 0.1)
+\end{lstlisting}
+
+Contoh Lain:
+\begin{itemize}
+    \item Mathematical Operators:
+          \begin{itemize}
+              \item \verb|print(2 + 2)| akan menampilkan 4.
+              \item \verb|print(35 / 5)| akan menampilkan 7.0.
+          \end{itemize}
+    \item Logical Operators:
+          \begin{itemize}
+              \item \verb|a = True; b = True; if a and b: print("all true")| hanya akan mencetak "all true" jika kedua a dan b adalah true.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Apa itu Control Flow?}
+Control Flow merupakan urutan di mana instruksi dalam program dieksekusi. Program akan mengambil tindakan yang berbeda berdasarkan keputusan yang dibuat.
+
+Dalam Python, ada dua jenis control flow:
+\begin{itemize}
+    \item Conditional Statements: Seperti \verb|if, else, dan elif|.
+    \item Loops: Seperti for loop dan while loop.
+\end{itemize}
+
+\subsection{Conditional Statements}
+\begin{itemize}
+    \item if: Menyatakan bahwa jika kondisi terpenuhi, maka fungsi akan dijalankan.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+if condition:
+    # code to execute
+\end{lstlisting}
+    \item else: Menjalankan fungsi ketika semua kondisi tidak terpenuhi.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+else:
+    # code to execute if the condition is false
+\end{lstlisting}
+    \item elif: Menyatakan bahwa jika kondisi sebelumnya tidak terpenuhi, coba kondisi ini.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+elif another_condition:
+    # code to execute if this condition is true
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Contoh Penggunaan Control Flow}
+Dalam contoh restoran, jika total tagihan (\verb|bill_total|) lebih dari 100, maka diskon diterapkan.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+bill_total = 114
+discount1 = 10
+if bill_total > 100:
+    bill_total = bill_total - discount1
+print("Total bill:", str(bill_total))
+\end{lstlisting}
+
+Untuk menambahkan diskon untuk tagihan di atas 200, gunakan elif,
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+elif bill_total > 200:
+    discount2 = 20
+    bill_total = bill_total - discount2
+\end{lstlisting}
+
+\subsection{Penggunaan Match Statement}
+Match Statement diperkenalkan di Python versi 3.10, match statement memungkinkan penulisan kode yang lebih bersih dan mudah dibaca dibandingkan dengan if statement.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+match variable:
+    case value1:
+        # aksi jika variable sama dengan value1
+    case value2:
+        # aksi jika variable sama dengan value2
+    case _:
+        # aksi default jika tidak ada yang cocok
+\end{lstlisting}
+
+\subsection{Perbandingan dengan if Statement}
+If Statement mengharuskan penulisan banyak kondisi dengan if, elif, dan else, yang dapat membuat kode menjadi kompleks.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+if http_status == 200:
+    print("Success")
+elif http_status == 404:
+    print("Not Found")
+else:
+    print("Unknown")
+\end{lstlisting}
+
+\subsection{Fitur Penting dari Match Statement}
+\begin{itemize}
+    \item Menggabungkan Beberapa Kondisi: Anda dapat menggunakan operator or untuk menggabungkan beberapa kondisi dalam match statement.
+    \item Default Case: Menggunakan \verb|case _| untuk menangani situasi di mana tidak ada nilai yang cocok, mirip dengan else dalam if statement.
+    \item Fleksibilitas: Memberikan cara yang lebih bersih untuk menangani banyak kondisi dibandingkan dengan if statement.
+\end{itemize}
+
+
 
 
 \newpage
