@@ -9,11 +9,10 @@ Feel free to read. Here's my own LaTex Journals for everything I learned. Straig
 
 ---
 
-Note: 
+Note:
 
 1. Working on Database Engineering rn.
 2. I'm planning to organize my journals, rephrasing them to improve readability and deepen the insights. Especially on Entrepreneurship and AI Engineering.
-
 
 _Last Updated 30 Oct 2025_
 

@@ -730,12 +730,445 @@ else:
     \item Fleksibilitas: Memberikan cara yang lebih bersih untuk menangani banyak kondisi dibandingkan dengan if statement.
 \end{itemize}
 
+\subsection{For Loop}
+For loop adalah struktur kontrol yang digunakan untuk iterasi melalui sequence (seperti string atau array).
 
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for item in sequence:
+    # kode yang akan dijalankan
+\end{lstlisting}
+Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+str = "looping"
+for item in str:
+    print(item)
+\end{lstlisting}
 
+\subsection{While Loop}
+While loop adalah struktur kontrol yang menjalankan blok kode selama kondisi tertentu.
+
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+while condition:
+    # kode yang akan dijalankan
+\end{lstlisting}
+Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+count = 0
+favorites = ["cake", "ice cream", "cookies", "brownies", "pie"]
+while count < len(favorites):
+    print("I like this dessert:", favorites[count])
+    count += 1
+\end{lstlisting}
+
+\subsection{Enumerate Function}
+Fungsi \verb|enumerate()| digunakan dalam for loop untuk mendapatkan indeks dan nilai item dalam urutan.
+
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for index, item in enumerate(sequence):
+    # kode yang akan dijalankan
+\end{lstlisting}
+Menggunakan enumerate() untuk mencetak indeks dan nilai:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for idx, item in enumerate(favorites):
+    print(idx, item)
+\end{lstlisting}
+Ini akan mencetak indeks dan nama dessert dari array \verb|favorites|.
+
+\subsection{Catatan Penting terkait Looping}
+\begin{itemize}
+    \item Infinite Loop: Jika kondisi dalam while loop tidak pernah menjadi false, loop akan terus berjalan tanpa henti. Pastikan untuk mengincrement counter agar tidak terjadi infinite loop.
+    \item Indexing: Dalam Python, indeks dimulai dari 0, jadi item pertama memiliki indeks 0 dan item terakhir memiliki indeks n-1, di mana n adalah jumlah item dalam urutan.
+    \item Pernyataan \textbf{break} digunakan untuk menghentikan loop, yang pada gilirannya juga menghentikan kondisi else.
+    \item Sama seperti perintah break, perintah \textbf{continue} dapat digunakan untuk mengontrol iterasi loop. Perbedaan utamanya adalah perintah continue memungkinkan Anda untuk melewati bagian tertentu dari loop, tetapi kemudian melanjutkan ke bagian sisanya.
+    \item Pernyataan \textbf{pass} berfungsi sebagai placeholder, memungkinkan Anda untuk menyertakan blok kode kosong tanpa menyebabkan kesalahan sintaksis. Pernyataan ini tidak melakukan apa-apa dan memungkinkan program untuk melanjutkan eksekusi secara normal.
+\end{itemize}
+
+\subsection{Pengertian Nested Loops}
+Nested Loop adalah struktur pengulangan di mana satu loop (inner loop) berada di dalam loop lainnya (outer loop). Ini memungkinkan iterasi melalui beberapa koleksi data secara bersamaan.
+
+\subsection{Cara Kerja Nested Loops}
+\begin{itemize}
+    \item Outer Loop: Loop yang menjalankan iterasi pertama. Setelah itu, ia akan masuk ke inner loop.
+    \item Inner Loop: Loop yang berjalan hingga batas yang ditentukan. Setelah selesai, kontrol kembali ke outer loop untuk iterasi berikutnya.
+\end{itemize}
+
+\subsection{Contoh Penggunaan Nested Loops}
+Misalkan ada dua list dari angka satu hingga sembilan. Dengan menggunakan nested loops, kita dapat menghitung total iterasi:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+count = 0
+for i in range(1, 10):  # Outer loop
+    for j in range(1, 10):  # Inner loop
+        count += 1
+print(count)  # Output: 81
+\end{lstlisting}
+
+Penjelasan: Outer loop berjalan 9 kali, dan inner loop berjalan 9 kali untuk setiap iterasi outer loop, sehingga total iterasi adalah 9 * 9 = 81.
+
+\subsection{Visualisasi Nested Loops}
+Untuk memahami lebih baik, kita bisa mencetak hasil dari setiap iterasi:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for i in range(10):  # Outer loop
+    for j in range(10):  # Inner loop
+        print(0, end=' ')
+    print()  # New line after inner loop
+\end{lstlisting}
+
+Penjelasan: Ini akan mencetak grid 2D dari angka nol.
+
+\subsection{Kompleksitas Waktu}
+Time Complexity mengacu pada waktu yang dibutuhkan untuk menjalankan kode. Semakin besar array, semakin lama waktu yang dibutuhkan.
+
+Contoh: Jika outer loop memiliki range 100 dan inner loop 1000, waktu eksekusi akan meningkat.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import time
+start_time = time.time()
+# Code to measure
+print("Execution time: ", round(time.time() - start_time, 2))
+\end{lstlisting}
 
 \newpage
 
-\section{Dasar Progrramming dengan Python}
+
+\section{Dasar Programming dengan Python}
+\subsection{Definisi Fungsi}
+\paragraph{Fungsi} adalah sekumpulan instruksi yang dapat digunakan kembali untuk melakukan tugas tertentu. Dalam Python, fungsi dideklarasikan dengan kata kunci \verb|def|.
+
+\subsection{Cara Mendeklarasikan Fungsi}
+Sintaks untuk mendeklarasikan fungsi:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def function_name(parameters):
+    # kode yang akan dijalankan
+\end{lstlisting}
+Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def sum(x, y):
+    return x + y
+\end{lstlisting}
+
+\subsection{Penggunaan Fungsi}
+\begin{itemize}
+    \item Fungsi dapat menerima parameter dan mengembalikan nilai. Contoh fungsi \verb|print()| yang digunakan untuk menampilkan output ke layar.
+    \item Fungsi \verb|input()| digunakan untuk menerima input dari pengguna.
+\end{itemize}
+
+\subsection{Contoh Praktis}
+\begin{itemize}
+    \item Menghitung jumlah pajak dari total tagihan:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def calculate_tax(bill, tax_rate):
+    return bill * tax_rate / 100
+\end{lstlisting}
+    \item Memanggil fungsi:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+total_tax = calculate_tax(175, 15)
+print(total_tax)  # Output: 26.25
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Keuntungan Menggunakan Fungsi}
+Fungsi memungkinkan kode menjadi lebih modular dan reusable. Jika ada perubahan, Anda hanya perlu memperbarui fungsi tersebut, dan semua bagian kode yang memanggil fungsi itu akan mendapatkan pembaruan.
+
+\subsection{Jenis-jenis Scope}
+\begin{itemize}
+    \item \textbf{Local Scope}: Variabel yang dideklarasikan dalam fungsi dan hanya dapat diakses di dalam fungsi tersebut.
+    \item \textbf{Enclosing Scope}: Variabel yang dideklarasikan dalam fungsi luar dan dapat diakses oleh fungsi dalamnya.
+    \item \textbf{Global Scope}: Variabel yang dideklarasikan di luar semua fungsi dan dapat diakses dari mana saja dalam kode.
+    \item \textbf{Built-in Scope}: Variabel dan fungsi yang sudah tersedia di Python, seperti print() dan len().
+\end{itemize}
+
+\subsection{Penjelasan dan Contoh}
+LEGB merupakan akronim untuk Local, Enclosing, Global, dan Built-in, yang menunjukkan urutan pencarian variabel.
+\begin{itemize}
+    \item Contoh Global Scope:
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_global = 10
+def fn1():
+    local_v = 5
+    print("Access to global:", my_global)
+fn1()  # Output: Access to global: 10
+print(local_v)  # Akan menghasilkan error
+\end{lstlisting}
+          Penjelasan: Variabel \verb|my_global| dapat diakses di dalam fungsi \verb|fn1|, tetapi \verb|local_v| tidak dapat diakses di luar fungsi.
+    \item Contoh Enclosing Scope:
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def fn1():
+    enclosed_v = 8
+    def fn2():
+        print("Access to enclosed:", enclosed_v)
+    fn2()
+fn1()  # Output: Access to enclosed: 8
+\end{lstlisting}
+          Penjelasan: Fungsi \verb|fn2| dapat mengakses variabel \verb|enclosed_v| yang dideklarasikan di dalam fn1.
+    \item Built-in Scope:
+
+          Merupakan fungsi dan object yang sudah ada di Python, seperti print() yang dapat diakses dari semua level scope.
+
+          Namun \textbf{reserved keyword} seperti \verb|def, for, if|, etc tidak termasuk built-in scope.
+\end{itemize}
+
+\subsection{Apa itu Struktur Data?}
+Sejauh ini, Anda hanya menyimpan sedikit data dalam variabel. Ini adalah bilangan bulat, Boolean atau string.
+
+Tetapi apa yang terjadi jika Anda perlu bekerja dengan informasi yang lebih kompleks, seperti kumpulan data seperti daftar orang atau daftar perusahaan?
+
+Struktur data dirancang untuk tujuan ini.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/data-structure.png}
+    \caption{}
+\end{figure}
+
+Struktur data memungkinkan Anda untuk mengorganisir dan mengatur data Anda agar dapat melakukan operasi pada data tersebut. Python memiliki struktur data bawaan berikut: list, dictionary, tuple, dan set. Semua struktur data ini dianggap sebagai struktur data non-primitif, artinya mereka diklasifikasikan sebagai objek.
+
+Selain struktur data bawaan, Python memungkinkan pengguna untuk membuat struktur data mereka sendiri. Struktur data seperti Tumpukan (Stacks), Antrian (Queues), dan Pohon (Trees) semuanya dapat dibuat oleh pengguna.
+
+Setiap struktur data dapat dirancang untuk memecahkan masalah tertentu atau mengoptimalkan solusi yang ada agar menjadi jauh lebih efisien.
+
+\subsubsection{Mutabilitas dan Imutabilitas}
+Struktur data dapat bersifat mutable atau immutable. Pertanyaan selanjutnya yang mungkin Anda tanyakan adalah, apa itu mutabilitas? Mutabilitas mengacu pada data di dalam struktur data yang dapat dimodifikasi. Misalnya, Anda dapat mengubah, memperbarui, atau menghapus data saat diperlukan. List adalah contoh struktur data yang dapat diubah. Lawan dari mutabilitas adalah tidak dapat diubah. Struktur data yang tidak dapat diubah tidak akan mengizinkan modifikasi setelah data ditetapkan. Tuple adalah contoh struktur data yang tidak dapat diubah.
+
+\subsection{Pengertian List}
+List adalah sebuah urutan dari satu atau lebih tipe data yang berbeda atau serupa. Dalam Python, list adalah array dinamis yang dapat menyimpan tipe data apa pun.
+
+\subsection{Deklarasi List}
+Untuk membuat list, gunakan sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+list1 = [1, 2, 3, 4, 5]  # List berisi angka
+list2 = ["A", "B", "C"]   # List berisi string
+list3 = ["Hello", 10, True, 3.14]  # List dengan berbagai tipe data
+\end{lstlisting}
+
+\subsection{Akses dan Indeks List}
+List diindeks mulai dari 0. Untuk mengakses item, gunakan sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+list1[2]  # Mengakses item ketiga, hasilnya 3
+\end{lstlisting}
+
+\subsection{List Bersarang}
+Nested List: List yang berisi list lain. Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+list4 = [1, [2, 3, 4], 5, 6]  # List dengan nested list
+\end{lstlisting}
+
+\subsection{Menambahkan Item ke List}
+\begin{itemize}
+    \item insert(): Menambahkan item pada indeks tertentu.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+list1.insert(5, 6)  # Menambahkan 6 di akhir list
+\end{lstlisting}
+    \item append(): Menambahkan item di akhir list
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+list1.append(6)  # Menambahkan 6 di akhir list
+\end{lstlisting}
+    \item extend(): Menambahkan beberapa item sekaligus
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+list1.extend([6, 7, 8, 9])  # Menambahkan 6, 7, 8, 9
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Menghapus Item dari List}
+\begin{itemize}
+    \item pop(): Menghapus item berdasarkan indeks.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+list1.pop(4)  # Menghapus item kelima
+\end{lstlisting}
+    \item del: Menghapus item berdasarkan indeks.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+del list1[2]  # Menghapus item ketiga
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Iterasi Melalui List}
+Untuk mengakses semua item dalam list, gunakan loop:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for x in list1:
+    print(x)  # Mencetak semua nilai dalam list
+\end{lstlisting}
+
+\subsection{Apa itu Tuple?}
+Tuple adalah struktur data yang dapat menyimpan berbagai jenis data dalam satu variabel. Contoh: Tuple dapat berisi integer, string, double, dan boolean.
+
+\subsection{Cara Mendeklarasikan Tuple}
+Untuk mendeklarasikan tuple, gunakan tanda kurung:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_tuple = (1, "string", 4.5, True)
+\end{lstlisting}
+
+Anda juga dapat mendeklarasikan tuple tanpa tanda kurung, tetapi penggunaan tanda kurung adalah praktik terbaik.
+
+\subsection{Mengakses Elemen dalam Tuple}
+Untuk mengakses elemen dalam tuple, gunakan indeks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(my_tuple[1])  # Mengakses elemen dengan indeks 1
+\end{lstlisting}
+
+Indeks dimulai dari 0, jadi \verb|my_tuple[1]| akan mengembalikan "string".
+
+\subsection{Menentukan Tipe Tuple}
+Untuk mengetahui tipe dari tuple, gunakan fungsi type()
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(type(my_tuple))  # Mengembalikan <class 'tuple'>
+\end{lstlisting}
+
+\subsection{Metode pada Tuple}
+\begin{itemize}
+    \item count(): Menghitung jumlah kemunculan nilai dalam tuple.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_tuple.count("string")  # Mengembalikan 1
+\end{lstlisting}
+    \item index(): Mengembalikan indeks dari nilai yang dicari.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_tuple.index(4.5)  # Mengembalikan 2
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Perbedaan antara Tuple dan List}
+Nilai dalam tuple tidak dapat diubah setelah dideklarasikan. Jika Anda mencoba mengubah nilai, akan muncul error:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_tuple[0] = 5  # Akan menghasilkan TypeError
+\end{lstlisting}
+
+\subsection{Definisi Sets}
+Set adalah sequence yang tidak mengizinkan nilai duplikat dan tidak memiliki urutan.
+
+\subsection{Operasi Dasar pada Sets}
+\begin{itemize}
+    \item Menambahkan Elemen:
+
+          Sintaks: \verb|set_a.add(6)|
+          Definisi: Menambahkan elemen baru ke dalam set.
+    \item Menghapus Elemen:
+
+          Sintaks: \verb|set_a.remove(2)| atau \verb|set_a.discard(2)|
+          Definisi: Menghapus elemen dari set. remove akan menghasilkan error jika elemen tidak ada, sedangkan discard tidak.
+\end{itemize}
+
+\subsection{Operasi Matematika pada Sets}
+\begin{itemize}
+    \item Union:
+
+          Sintaks: \verb|set_a.union(set_b)| atau \verb\set_a | set_b\
+          Definisi: Menggabungkan dua set dan menghilangkan nilai duplikat.
+    \item Intersection:
+
+          Sintaks: \verb|set_a.intersection(set_b)| atau \verb|set_a & set_b|
+          Definisi: Mengambil elemen yang ada di kedua set.
+    \item Difference:
+
+          Sintaks: \verb|set_a.difference(set_b)| atau \verb|set_a - set_b|
+          Definisi: Mengambil elemen yang hanya ada di \verb|set_a| dan tidak ada di \verb|set_b|.
+    \item Symmetrical Difference:
+
+          Sintaks: \verb|set_a.symmetric_difference(set_b)| atau \verb|set_a ^ set_b|
+          Definisi: Mengambil elemen yang ada di salah satu set tetapi tidak di kedua set.
+\end{itemize}
+
+\subsection{Catatan Penting Terkait Set}
+\begin{itemize}
+    \item Tidak Terurut: Set tidak memiliki indeks, sehingga tidak bisa diakses dengan cara seperti \verb|set_a[0]|. Jika dicoba, akan menghasilkan error.
+    \item Koleksi Unik: Set hanya menyimpan elemen unik, tidak ada duplikasi.
+\end{itemize}
+
+\subsection{Apa itu Dictionary?}
+Dictionary adalah struktur data yang menyimpan data dalam bentuk pasangan kunci (key) dan nilai (value). Mirip dengan kamus, di mana Anda mencari kata berdasarkan huruf pertama.
+
+Key-Value Pair: Setiap item dalam dictionary terdiri dari kunci dan nilai yang terkait. Contoh: \verb|{"1": "coffee"}|.
+
+\subsection{Keuntungan Menggunakan Dictionary}
+\begin{itemize}
+    \item Akses Cepat: Anda dapat mengakses nilai langsung menggunakan kunci, tanpa perlu mencari index seperti pada list. Ini membuatnya lebih cepat dan fleksibel.
+    \item Mutable: Nilai dalam dictionary dapat diubah setelah dideklarasikan. Misalnya, Anda dapat mengubah nilai dari "tea" menjadi "mint tea".
+\end{itemize}
+
+\subsection{Cara Mengakses dan Memanipulasi Dictionary}
+\begin{itemize}
+    \item Mengakses Nilai: Untuk mengakses nilai, gunakan sintaks berikut:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+sample_dictionary = {1: "coffee", 2: "tea"}
+print(sample_dictionary[1])  # Output: coffee
+\end{lstlisting}
+    \item Mengupdate Nilai: Untuk mengubah nilai, gunakan sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+sample_dictionary[2] = "mint tea"
+\end{lstlisting}
+    \item Menghapus Item: Untuk menghapus item, gunakan fungsi del:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+del sample_dictionary[3]  # Menghapus item dengan kunci 3
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Iterasi Melalui Dictionary}
+Anda dapat menggunakan beberapa metode untuk iterasi, seperti:
+\begin{itemize}
+    \item Standard Iteration: Menggunakan loop for untuk mengakses kunci.
+    \item Items Function: Menggunakan \verb|items()| untuk mendapatkan pasangan kunci-nilai.
+    \item Values Function: Menggunakan \verb|values()| untuk mendapatkan semua nilai.
+\end{itemize}
+
+\subsection{Contoh Pembuatan dan Penggunaan Dictionary}
+\begin{itemize}
+    \item Deklarasi Dictionary:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_d = {1: "test", "name": "Jim"}
+\end{lstlisting}
+    \item Mengakses Kunci:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(my_d[1])  # Output: test
+print(my_d["name"])  # Output: Jim
+\end{lstlisting}
+    \item Menambahkan Kunci Baru:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_d[2] = "Test 2"
+\end{lstlisting}
+    \item Mengupdate Kunci:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_d[1] = "not a test"
+\end{lstlisting}
+    \item Menghapus Kunci:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+del my_d[1]
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Apa itu args?}
+\verb|args| adalah cara untuk mengirimkan sejumlah argumen non-keyword ke dalam fungsi.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def function_name(*args):
+    # kode untuk memproses args
+\end{lstlisting}
+Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def sum_of(*args):
+    total = 0
+    for x in args:
+        total += x
+    return total
+\end{lstlisting}
+Jika kita memanggil \verb|sum_of(4, 5, 6)|, hasilnya adalah 15.
+
+\subsection{Apa itu kwargs?}
+\verb|kwargs| adalah cara untuk mengirimkan argumen keyword ke dalam fungsi, yang memungkinkan kita untuk menggunakan nama parameter.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def function_name(**kwargs):
+    # kode untuk memproses kwargs
+\end{lstlisting}
+Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def calculate_bill(**kwargs):
+    total = 0
+    for item, price in kwargs.items():
+        total += price
+    return round(total, 2)
+\end{lstlisting}
+
+
 
 
 \newpage
