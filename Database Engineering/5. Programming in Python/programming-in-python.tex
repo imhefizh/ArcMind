@@ -1168,8 +1168,268 @@ def calculate_bill(**kwargs):
     return round(total, 2)
 \end{lstlisting}
 
+\subsection{Struktur data mana yang harus dipilih?}
+Bagian yang paling menantang bagi pengembang pemula adalah memahami struktur data mana yang paling sesuai dengan solusi yang dibutuhkan. Setiap struktur data menawarkan pendekatan yang berbeda dalam menyimpan, mengakses, dan memperbarui informasi yang disimpan di dalamnya. Ada banyak faktor yang perlu dipertimbangkan, termasuk ukuran, kecepatan, dan kinerja. Cara terbaik untuk memahami mana yang lebih sesuai adalah melalui contoh.
+
+\subsubsection{Contoh: Daftar Pegawai}
+Dalam contoh ini, terdapat daftar karyawan yang bekerja di sebuah restoran. Anda perlu dapat menemukan seorang karyawan berdasarkan ID karyawan mereka, ID numerik berbasis integer. Fungsi \verb|get_employee| berisi loop for untuk mengiterasi daftar karyawan dan mengembalikan objek karyawan jika ID-nya cocok.
+Berikut adalah pemilihan struktur data yang salah
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+employee_list = [(12345, "John", "Kitchen"), (12458, "Paul", "House Floor")]
+
+def get_employee(id):
+    for employee in employee_list:
+        if employee[0] == id:
+            return {"id": employee[0], "name": employee[1], "department": employee[2]}
+
+print(get_employee(12458))
+\end{lstlisting}
+Dalam kode ini, \verb|employee_list| adalah daftar tuple. Kode ini berjalan dengan baik dan akan mengembalikan pengguna Paul, karena ID-nya, 12458, cocok. Tantangannya muncul ketika daftar menjadi lebih besar.
+
+Alih-alih dua karyawan, Anda mungkin memiliki 2000 atau bahkan 20.000. Kode harus mengiterasi daftar secara berurutan hingga angka yang dicari cocok.
+
+Anda dapat mengoptimalkan kode dengan membagi pencarian, tetapi bahkan dengan ini, kinerjanya masih kalah dibandingkan dengan struktur data lain, seperti kamus.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+employee_dict = {
+    12345: {
+        "id": "12345",
+        "name": "John", 
+        "department": "Kitchen"    
+    },
+    12458: {
+        "id": "12458",
+        "name": "Paul", 
+        "department": "House Floor"    
+    }
+}
+
+def get_employee_from_dict(id):
+    return employee_dict[id];
 
 
+print(get_employee_from_dict(12458));
+\end{lstlisting}
+
+Perhatikan bahwa, dalam blok kode ini, jika Anda mengubah struktur data menjadi kamus, Anda dapat menemukan karyawan tersebut. Perbedaan utamanya adalah Anda tidak perlu lagi mengiterasi daftar untuk menemukannya. Jika daftar membesar menjadi ukuran yang jauh lebih besar, waktu pencarian untuk menemukan karyawan tetap sama.
+
+Ini adalah contoh yang baik tentang cara memilih struktur data yang tepat untuk solusi.
+
+Keduanya bekerja dengan baik, tetapi pertukaran yang perlu dipertimbangkan adalah antara waktu dan skala. Solusi pertama akan bekerja dengan baik untuk jumlah data yang kecil, tetapi kinerjanya menurun seiring dengan pertumbuhan data.
+
+Solusi kedua lebih cocok untuk jumlah data yang besar karena strukturnya memungkinkan waktu pencarian konstan, sehingga jumlah data yang besar dapat diakses dengan kecepatan konstan.
+
+\subsection{Errors}
+Error adalah kesalahan dalam kode yang biasanya disebabkan oleh kesalahan manusia, seperti kesalahan pengetikan.
+
+Contoh:
+\begin{itemize}
+    \item Syntax Error:
+
+          Kesalahan yang terjadi ketika kode tidak mengikuti aturan sintaksis Python. Misalnya, tidak menambahkan titik dua (:) di akhir kondisi.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+if condition
+    # kode
+\end{lstlisting}
+          Kesalahan ini biasanya ditandai oleh IDE dan menunjukkan lokasi kesalahan.
+
+    \item Indentation Error:
+
+          Kesalahan yang terjadi ketika indentasi tidak konsisten.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def function():
+    print("Hello")
+print("World")  # Jika tidak diindentasikan dengan benar
+\end{lstlisting}
+          Kesalahan ini menunjukkan bahwa indentasi tidak sesuai dengan yang diharapkan.
+\end{itemize}
+
+\subsection{Exceptions}
+Exceptions adalah kesalahan yang terjadi saat eksekusi kode dan perlu ditangani oleh pengembang.
+Contoh:
+\begin{itemize}
+    \item ZeroDivisionError: Terjadi ketika mencoba membagi angka dengan nol.
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+result = 5 / 0  # Ini akan menyebabkan ZeroDivisionError
+\end{lstlisting}
+          Kesalahan ini menunjukkan bahwa operasi matematika tidak valid.
+\end{itemize}
+
+\subsection{Penanganan Exceptions}
+Pengembang harus menangani exceptions untuk mencegah aplikasi gagal.
+
+Contoh: Menggunakan blok \verb|try| dan \verb|except| untuk menangani exceptions.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+try:
+    result = 5 / 0
+except ZeroDivisionError:
+    print("Tidak bisa membagi dengan nol.")
+\end{lstlisting}
+
+Blok \verb|try| mencoba menjalankan kode, dan jika terjadi exception, blok \verb|except| akan menangani kesalahan tersebut.
+
+\subsection{Penanganan Exceptions}
+\begin{itemize}
+    \item \verb|try|: Blok kode yang akan dieksekusi. Jika terjadi kesalahan, eksekusi akan berpindah ke blok except.
+    \item \verb|except|: Blok kode yang akan dijalankan jika terjadi exception. Ini memungkinkan kita untuk memberikan pesan kesalahan yang lebih ramah pengguna.
+\end{itemize}
+
+\subsection{Mengakses Informasi Exception}
+\begin{itemize}
+    \item \verb|as e|: Menggunakan alias untuk exception yang terjadi, sehingga kita bisa mencetak informasi lebih lanjut.
+    \item \verb|e.__class__|: Mengakses kelas dari exception yang terjadi untuk memberikan informasi lebih spesifik.
+\end{itemize}
+
+\subsection{Menangani Beberapa Exceptions}
+Chaining except: Kita bisa menambahkan beberapa pernyataan except untuk menangani berbagai jenis exceptions.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+try:
+    result = divide_by(40, 0)
+except ZeroDivisionError as e:
+    print("Division by zero:", e)
+except Exception as e:
+    print("An error occurred:", e)
+\end{lstlisting}
+
+\subsection{File Handling: open dan close}
+\begin{itemize}
+    \item open: Digunakan untuk membuka, membaca, dan menulis file. Memerlukan dua argumen: nama file dan mode.
+          \begin{itemize}
+              \item r: Membuka file untuk dibaca dalam format teks (Default).
+              \item rb: Membuka file untuk dibaca dalam format biner.
+              \item r+: Membuka file untuk membaca dan menulis.
+              \item w: Membuka file untuk menulis (akan menimpa file yang ada).
+              \item a: Membuka file untuk menambahkan data.
+          \end{itemize}
+    \item close: Digunakan untuk menutup koneksi file yang terbuka. Tidak memerlukan argumen.
+    \item Membuka file untuk membaca:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    file = open("test.txt", "r")
+    data = file.readline()
+    print(data)
+    file.close()
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{With Statement}
+Pernyataan\verb|with open| adalah cara yang lebih baik untuk membuka file karena secara otomatis menutup file setelah selesai digunakan. Ini juga lebih baik dalam menangani kesalahan.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+with open("test.txt", "r") as file:
+    data = file.readline()
+    print(data)
+\end{lstlisting}
+
+\subsection{Membuat File}
+Fungsi \verb|open()| digunakan untuk membuat file baru. Sintaksnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+with open("newfile.txt", "w") as file:
+\end{lstlisting}
+
+\verb|open()| membuka file dengan mode tertentu. Mode "w" berarti write (tulis), yang \textbf{akan membuat file baru atau menimpa file yang sudah ada}.
+
+\subsection{Menyisipkan Konten}
+\begin{itemize}
+    \item \verb|write()|: Metode ini digunakan untuk menulis teks ke dalam file. Sintaksnya:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+file.write("This is a new file created.")
+\end{lstlisting}
+          \verb|write()| menambahkan string ke file yang dibuka.
+    \item \verb|writelines()|: Metode ini digunakan untuk menulis beberapa baris ke dalam file. Sintaksnya:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+file.writelines(["This is the first line.\n", "This is the second line."])
+\end{lstlisting}
+          \verb|writelines()| menerima daftar string dan menulisnya ke file. Untuk memisahkan baris, gunakan \\n untuk membuat baris baru.
+\end{itemize}
+
+\subsection{Mengganti dan Menambahkan Konten}
+Mode Append untuk menambahkan konten tanpa menimpa file yang ada, gunakan mode "a". Sintaksnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+with open("newfile.txt", "a") as file:
+\end{lstlisting}
+
+Mode "a" (append) memungkinkan penambahan konten ke akhir file yang sudah ada.
+
+\subsection{Menangani Kesalahan (Exception)}
+try dan except digunakan untuk menangani kesalahan saat membuat file. Sintaksnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+try:
+    with open("sample/newfile.txt", "w") as file:
+except FileNotFoundError as e:
+    print(f"Error: {e}")
+\end{lstlisting}
+
+\subsection{Metode untuk Membaca File}
+\begin{itemize}
+    \item \textbf{read}:
+
+          Mengembalikan seluruh isi file sebagai string. Anda juga dapat memberikan argumen integer untuk mengembalikan jumlah karakter tertentu.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+file.read(size)
+\end{lstlisting}
+          Mengambil semua karakter dari file atau sejumlah karakter yang ditentukan.
+
+    \item readline:
+
+          Mengembalikan satu baris dari file sebagai string. Anda juga dapat memberikan argumen integer untuk mengembalikan sejumlah karakter dari baris tersebut.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+file.readline(size)
+\end{lstlisting}
+          Mengambil satu baris dari file, atau sejumlah karakter dari baris pertama jika argumen diberikan.
+
+    \item readlines:
+
+          Membaca seluruh isi file dan mengembalikannya dalam bentuk daftar yang terurut.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+file.readlines()
+\end{lstlisting}
+          Mengambil semua baris dari file dan mengembalikannya sebagai daftar, memungkinkan iterasi atau pemilihan baris tertentu.
+
+\end{itemize}
+
+\subsection{Jalur File}
+\begin{itemize}
+    \item Absolute Path:
+
+          Mengandung informasi lengkap untuk menemukan file, termasuk label drive atau tanda "/" di depan.
+
+          Definisi: Jalur yang menunjukkan lokasi file secara lengkap, terlepas dari direktori saat ini.
+
+    \item Relative Path:
+
+          Tidak mengandung referensi ke direktori root dan biasanya relatif terhadap file yang memanggil.
+          Definisi: Jalur yang hanya mencakup informasi yang diperlukan untuk menemukan file dalam direktori kerja saat ini.
+\end{itemize}
+
+\subsection{Contoh Penggunaan Open Statement}
+\begin{itemize}
+    \item Membuka file dengan mode baca:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+with open('sample.txt', 'r') as file:
+    content = file.read()
+    print(content)
+\end{lstlisting}
+          Menggunakan \verb|with open| untuk membuka file, yang secara otomatis menutup file setelah selesai digunakan.
+
+    \item Menggunakan read untuk mencetak isi file:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(file.read())
+\end{lstlisting}
+          Mencetak seluruh isi file.
+
+    \item Menggunakan readline untuk mencetak baris pertama:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(file.readline())
+Mencetak hanya baris pertama dari file.
+
+\end{lstlisting}
+    \item Menggunakan readlines untuk mendapatkan daftar baris:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+lines = file.readlines()
+for line in lines:
+    print(line)
+\end{lstlisting}
+          Mengambil semua baris sebagai daftar dan mencetaknya satu per satu.
+\end{itemize}
 
 \newpage
 
