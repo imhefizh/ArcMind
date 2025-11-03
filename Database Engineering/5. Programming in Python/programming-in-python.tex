@@ -1434,6 +1434,556 @@ for line in lines:
 
 \section{Paradigma Pemrograman}
 
+\subsection{Apa itu Procedural Programming?}
+Procedural Programming adalah paradigma pemrograman yang menyusun kode menjadi prosedur atau subrutin yang dapat dieksekusi secara berurutan. Ini mirip dengan menulis instruksi langkah demi langkah.
+
+\subsection{Struktur Kode dalam Procedural Programming}
+Kode disusun dalam bentuk fungsi yang dapat menerima argumen dan mengembalikan nilai. Contoh sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def sum(a, b):
+    return a + b
+\end{lstlisting}
+
+Fungsi adalah blok kode yang dirancang untuk melakukan tugas tertentu dan dapat dipanggil berulang kali dengan argumen yang berbeda.
+
+\subsection{Prinsip DRY (Don't Repeat Youself)}
+DRY adalah prinsip yang menyarankan untuk menghindari pengulangan kode. Misalnya, alih-alih menulis kode yang sama untuk menambahkan dua angka, kita dapat menggunakan fungsi.
+Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def add_numbers(num1, num2):
+    return num1 + num2
+\end{lstlisting}
+
+\subsection{Kelebihan dan Kekurangan Procedural Programming}
+Kelebihan:
+\begin{itemize}
+    \item Mudah dipahami untuk pemula.
+    \item Prosedur dapat digunakan kembali di bagian lain dari kode.
+    \item Kode lebih terstruktur dan mudah dipahami.
+\end{itemize}
+Kekurangan:
+\begin{itemize}
+    \item Sulit untuk dipelihara dan diperluas.
+    \item Tidak selalu mencerminkan objek dunia nyata.
+    \item Data dapat terekspos di seluruh program.
+\end{itemize}
+
+\subsection{Pengertian Algoritma}
+Algoritma adalah serangkaian langkah yang diikuti untuk menyelesaikan suatu masalah. Contohnya, mengikuti resep untuk membuat omelet.
+
+Ada berbagai pendekatan untuk hal ini. Beberapa orang lebih suka menulis pseudocode, yaitu sintaksis mirip bahasa Inggris yang menyerupai kode, untuk menjelaskan masalah dalam serangkaian langkah. Pendekatan lain adalah menggunakan Flowchart yang memberikan representasi grafis dari serangkaian langkah tersebut. Flowchart ini mengikuti alur logis algoritma dan menunjukkan berbagai keputusan yang perlu diambil untuk memecahkan masalah tersebut.
+\begin{itemize}
+    \item Input: Bahan-bahan yang diperlukan untuk membuat omelet.
+    \item Output: Hasil akhir, yaitu omelet yang sudah jadi.
+\end{itemize}
+
+\subsection{Contoh Penerapan Algoritma}
+\begin{itemize}
+    \item Dalam pemrograman, algoritma digunakan untuk menyelesaikan berbagai masalah, dari yang sederhana hingga yang kompleks.
+    \item Contoh algoritma yang dijelaskan adalah untuk memeriksa apakah sebuah kata adalah palindrome. Palindrome adalah kata yang dapat dibaca sama dari depan dan belakang, seperti "racecar".
+\end{itemize}
+
+\subsection{Tipe Algoritma}
+\begin{itemize}
+    \item Recursion
+
+          Rekursi merujuk pada metode atau fungsi yang memanggil dirinya sendiri. Teknik ini digunakan untuk menyelesaikan masalah dengan memecahnya menjadi sub-masalah.
+    \item Divide dan Conquer
+
+          Ini terdiri dari dua bagian. Bagian pertama adalah memecah masalah menjadi sub-masalah yang lebih kecil, dan bagian kedua adalah menyelesaikan solusi akhir
+    \item Dynamic Programming
+
+          Ini terutama digunakan untuk masalah optimasi. Mirip dengan algoritma divide and conquer, metode ini membagi masalah menjadi submasalah
+
+          Programming dinamis adalah teknik algoritmik yang terutama digunakan untuk masalah optimasi. Metode ini bekerja dengan membagi masalah menjadi submasalah yang lebih kecil dan tumpang tindih, menyelesaikan setiap submasalah sekali, dan menyimpan hasilnya untuk digunakan kembali. Hal ini menghindari perhitungan berulang dan membuat solusi menjadi lebih efisien. Dua sifat kunci yang membuat pemrograman dinamis dapat diterapkan adalah submasalah yang tumpang tindih (masalah-masalah kecil yang sama diselesaikan berulang kali) dan struktur optimal (solusi optimal dari masalah utama dapat dibangun dari solusi optimal submasalahnya). Contoh umum termasuk deret Fibonacci, algoritma jalur terpendek (seperti Bellman-Ford), dan masalah ransel.
+    \item Greedy Algorithm
+
+          Greedy Algorithm menemukan solusi terbaik pada setiap langkah, bukan dengan mendekati optimasi secara global.
+
+          Greedy Algorithm membangun solusi secara bertahap, selalu memilih opsi yang terlihat terbaik pada langkah saat ini. Ia membuat pilihan optimal secara lokal dengan harapan pilihan tersebut akan mengarah pada solusi optimal secara global. Greedy Algorithm sederhana dan efisien, tetapi hanya berfungsi dengan benar jika masalah memiliki sifat greedy-choice property (optimum global dapat dicapai dengan memilih optimum lokal) dan optimal substructure. Contohnya termasuk pemilihan aktivitas, pengkodean Huffman, algoritma Kruskal dan Prim untuk pohon rentang minimum, dan algoritma Dijkstra untuk jalur terpendek.
+\end{itemize}
+
+\subsection{Refactoring}
+\begin{itemize}
+    \item Definisi: Proses menulis ulang atau mengubah kode untuk membuatnya lebih mudah dikelola atau lebih efisien.
+    \item Pentingnya: Refactoring adalah bagian standar dari siklus pengembangan perangkat lunak.
+\end{itemize}
+
+\subsection{Mengukur Kinerja Kode}
+\begin{itemize}
+    \item Waktu dan Ruang: Kode diukur berdasarkan waktu (berapa lama waktu yang dibutuhkan) dan ruang (berapa banyak memori yang digunakan).
+    \item Big O Notation: Digunakan untuk mengukur efisiensi algoritma dalam hal waktu dan ruang.
+\end{itemize}
+
+\subsection{Jenis Time Complexity}
+\begin{itemize}
+    \item Constant Time (\(O(1)\))
+          \begin{itemize}
+              \item Definisi: Algoritma yang selalu berjalan dalam waktu dan ruang yang sama, terlepas dari ukuran input.
+              \item Contoh: Mengambil nilai dari dictionary menggunakan kunci.
+              \item Sintaks: Tidak ada sintaks khusus, hanya akses langsung ke nilai.
+          \end{itemize}
+    \item Linear Time (\(O(n)\))
+          \begin{itemize}
+              \item Definisi: Waktu eksekusi bertambah sebanding dengan ukuran input.
+              \item Contoh: Mencari elemen dalam array.
+              \item Sintaks: Tidak ada sintaks khusus, tetapi iterasi melalui array.
+          \end{itemize}
+    \item Logarithmic Time (\(O(log\ n)\))
+          \begin{itemize}
+              \item Definisi: Waktu eksekusi berkurang secara signifikan dengan setiap iterasi.
+              \item Contoh: Binary search yang membagi daftar menjadi dua setiap kali.
+              \item Sintaks: Tidak ada sintaks khusus, tetapi menggunakan metode pembagian.
+          \end{itemize}
+    \item Quadratic Time (\(O(n^2)\))
+          \begin{itemize}
+              \item Definisi: Waktu eksekusi meningkat secara kuadratik dengan ukuran input.
+              \item Contoh: Nested loops yang mengiterasi setiap elemen dalam daftar.
+              \item Sintaks:
+                    \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for i in range(n):
+    for j in range(n):
+        # kode
+\end{lstlisting}
+          \end{itemize}
+    \item Exponential Time (\(O(2^n)\))
+          \begin{itemize}
+              \item Definisi: Waktu eksekusi berlipat ganda dengan setiap iterasi.
+              \item Contoh: Fibonacci sequence.
+              \item Sintaks: Tidak ada sintaks khusus, tetapi algoritma yang mengulangi perhitungan.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Notasi Big-O}
+Notasi Big O adalah konsep dasar dalam ilmu komputer dan pemrograman yang membantu Anda menganalisis dan menggambarkan efisiensi algoritma. Notasi ini menyediakan cara baku untuk mengekspresikan bagaimana waktu eksekusi atau penggunaan sumber daya algoritma meningkat seiring dengan bertambahnya ukuran data masukan.
+
+\subsubsection{Apa itu Notasi Big-O}
+Bayangkan Anda sedang memasak pasta dan ingin menentukan berapa lama waktu yang dibutuhkan untuk merebus air dalam panci. Anda mungkin mempertimbangkan faktor-faktor seperti ukuran panci, daya kompor, dan jumlah air yang perlu dipanaskan. Demikian pula, dalam ilmu komputer, algoritma dianalisis berdasarkan efisiensinya saat menangani berbagai ukuran data masukan.
+
+
+Notasi Big O adalah notasi matematis yang menggambarkan batas atas atau skenario terburuk untuk kompleksitas waktu suatu algoritma. Notasi ini membantu kita menjawab pertanyaan seperti:
+\begin{itemize}
+    \item How does the runtime of an algorithm change as the input data gets larger?
+    \item How does an algorithm scale with increased input size?
+\end{itemize}
+
+Notasi Big O ditulis sebagai "\(O(f(n))\)," di mana "\(f(n)\)" adalah fungsi yang mewakili hubungan antara ukuran input (biasanya dilambangkan sebagai "n") dan waktu eksekusi algoritma atau penggunaan sumber daya.
+
+\subsubsection{Contoh Umum dari Notasi Big-O}
+\begin{itemize}
+    \item \(O(1)\) - Constant Time
+
+          Dalam algoritma dengan kompleksitas waktu konstan, waktu eksekusi tidak bergantung pada ukuran data masukan. Waktu eksekusi tetap konstan, menjadikannya skenario yang paling efisien.
+
+          Contoh: Mengakses elemen dalam array berdasarkan indeksnya.
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.8\textwidth]{./Picts/constant.png}
+              \caption{}
+          \end{figure}
+
+          Terlepas dari seberapa besar ukuran array, mengakses elemen berdasarkan indeksnya membutuhkan waktu yang sama. Waktu eksekusi bersifat konstan, dan kita menandainya sebagai \(O(1)\).
+
+    \item \(O(n)\) - Linear Time
+
+          Algoritma dengan kompleksitas waktu linier memiliki waktu eksekusi yang tumbuh secara linier seiring dengan ukuran data masukan. Artinya, jika ukuran data masukan berlipat ganda, waktu eksekusi juga berlipat ganda.
+
+          Contoh: Mencari nilai tertentu dalam daftar yang tidak terurut.
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.8\textwidth]{./Picts/linear.png}
+              \caption{}
+          \end{figure}
+
+          Seiring dengan bertambahnya ukuran daftar (arr), jumlah iterasi yang dilakukan oleh loop juga bertambah secara linier. Oleh karena itu, algoritma ini memiliki kompleksitas waktu \(O(n)\).
+
+    \item \(O(n^2)\) - Quadratic Time
+
+          Algoritma dengan kompleksitas waktu kuadrat memiliki waktu eksekusi yang bertambah seiring dengan kuadrat ukuran input. Seiring dengan bertambahnya ukuran data input, waktu eksekusi bertambah secara kuadratik.
+
+          Contoh: Bubble Sort, algoritma pengurutan yang sederhana.
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.8\textwidth]{./Picts/quad.png}
+              \caption{}
+          \end{figure}
+
+          Algoritma Bubble Sort memiliki kompleksitas waktu \(O(n^2)\). Seiring dengan bertambahnya ukuran daftar input (arr), jumlah perbandingan dan pertukaran meningkat secara kuadratik.
+
+    \item \(O(log n)\) - Logarithmic Time
+
+          Algoritma dengan kompleksitas waktu logaritmik memiliki waktu eksekusi yang tumbuh secara logaritmik seiring dengan ukuran data masukan. Kompleksitas waktu logaritmik dianggap sangat efisien.
+
+          Contoh: Pencarian biner dalam daftar yang terurut.
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.8\textwidth]{./Picts/log.png}
+              \caption{}
+          \end{figure}
+
+          Pencarian biner secara drastis mengurangi waktu pencarian seiring dengan bertambahnya ukuran daftar yang terurut (arr). Algoritma ini memiliki kompleksitas waktu O(log n).
+\end{itemize}
+
+\subsubsection{Ringkasan Singkat}
+\begin{itemize}
+    \item Paling Cepat
+
+          \paragraph{\(O(1)\) - Waktu Konstan}: Sangat cepat! Kecepatan algoritma tidak bergantung pada jumlah data yang Anda miliki. Ini seperti mencari buku favorit Anda di rak buku yang tertata rapi – waktu yang dibutuhkan sama, baik Anda memiliki 10 buku atau 1.000 buku.
+    \item Cukup Cepat
+
+          \paragraph{\(O(log n)\) - Waktu Logaritmik}: Masih cukup cepat! Waktunya bertambah secara perlahan seiring penambahan data. Bayangkan seperti mencari nama dalam buku telepon dengan terus membaginya menjadi dua bagian – semakin cepat meskipun buku teleponnya semakin besar.
+    \item Umum
+
+          \paragraph{\(O(n)\) - Waktu Linear}: Kecepatan yang memadai! Jika Anda memiliki dua kali lipat data, waktu yang dibutuhkan juga sekitar dua kali lipat. Ini seperti memeriksa daftar nama satu per satu untuk menemukan kecocokan.
+    \item Lebih Lambat
+
+          \paragraph{\(O(n\ log\ n)\) - Waktu Linier-Logaritmik}: Lebih cepat dari waktu kuadratik tetapi lebih lambat dari waktu linier. Mirip dengan menyortir tumpukan kartu dengan cepat menggunakan teknik cerdas.
+
+          Contoh kompleksitas waktu \(O(n\ log\ n)\) adalah algoritma Merge Sort, yang membagi sebuah array menjadi bagian-bagian yang lebih kecil, menyortirnya, dan kemudian menggabungkannya kembali.
+    \item Lebih Lambat Lagi
+
+          \paragraph{\(O(n^2)\) - Waktu Kuadrat}: Semakin lambat seiring penambahan data. Seperti memeriksa setiap kombinasi item dalam daftar satu sama lain, tidak ideal untuk daftar besar.
+    \item Cukup Lambat
+
+
+          \paragraph{\(O(2^n)\) - Waktu Eksponensial}: Sekarang kita berbicara tentang kecepatan yang sangat lambat! Waktu komputasi meningkat dengan sangat cepat seiring penambahan data. Bayangkan sebuah teka-teki di mana Anda harus mencoba setiap kombinasi yang mungkin, bahkan untuk teka-teki kecil sekalipun, prosesnya sangat lambat.
+    \item Sangat Lambat
+
+          \paragraph{\(O(n!)\) - Waktu Faktorial}: Yang paling lambat di antara semuanya! Ini seperti memecahkan teka-teki kompleks di mana jumlah kemungkinan susunan meledak saat Anda menambahkan lebih banyak potongan. Praktis tidak dapat digunakan untuk masalah besar.
+
+          Contoh kompleksitas waktu \(O(n!)\) adalah menghasilkan semua kemungkinan susunan (permutasi) dari daftar item, seperti menemukan semua kemungkinan susunan tempat duduk untuk sekelompok orang.
+\end{itemize}
+
+\subsubsection{Kenapa Notasi Big-O Penting?}
+Notasi Big O sangat penting untuk beberapa alasan:
+\begin{itemize}
+    \item Perbandingan Algoritma: Notasi ini memungkinkan kita untuk membandingkan algoritma secara objektif dan memilih yang paling efisien untuk tugas tertentu.
+    \item Optimasi Kinerja: Memahami Notasi Big O membantu mengidentifikasi titik lemah dalam kode dan mengoptimalkan algoritma untuk kinerja yang lebih baik.
+    \item Skalabilitas: Algoritma yang efisien sangat penting seiring dengan pertumbuhan aplikasi dan ukuran data.
+    \item Pengelolaan Sumber Daya: Dalam lingkungan dengan sumber daya terbatas, seperti sistem tertanam, memilih algoritma efisien sangat penting.
+    \item Wawancara Koding: Notasi Big O sering diuji dalam wawancara teknis dan tantangan koding, menunjukkan kemampuan Anda untuk menganalisis dan mengoptimalkan algoritma.
+\end{itemize}
+
+\subsubsection{Menganalisa Kode dengan Notasi Big-O}
+Untuk menganalisis kode menggunakan notasi Big O, ikuti langkah-langkah berikut:
+\begin{itemize}
+    \item Identifikasi Ukuran Masukan: Tentukan apa yang diwakili oleh "n" dalam kode Anda, yang sering kali berkaitan dengan ukuran data masukan.
+    \item Identifikasi Perulangan dan Iterasi: Cari perulangan dalam kode Anda, karena perulangan sering kali menjadi faktor utama yang memengaruhi kompleksitas waktu.
+    \item Hitung Operasi di Dalam Perulangan: Hitung jumlah operasi di dalam setiap perulangan yang bergantung pada ukuran masukan "n."
+    \item Gabungkan Kompleksitas: Jika Anda memiliki loop bersarang, kalikan kompleksitasnya untuk menentukan kompleksitas waktu keseluruhan.
+    \item Pilih Istilah Dominan: Dalam kasus kompleksitas gabungan, fokus pada istilah dengan laju pertumbuhan tertinggi, karena istilah tersebut akan mendominasi kompleksitas waktu keseluruhan.
+    \item Sederhanakan: Sederhanakan ekspresi sebanyak mungkin dengan menghilangkan faktor konstan.
+\end{itemize}
+
+Dengan mengikuti langkah-langkah ini, Anda dapat menentukan kompleksitas waktu suatu algoritma dan memahami bagaimana kinerjanya akan berubah seiring dengan bertambahnya ukuran input.
+
+Secara ringkas, notasi Big O adalah konsep dasar dalam ilmu komputer yang membantu kita menganalisis dan membandingkan efisiensi algoritma. Dengan memahami dasar-dasarnya dan menerapkannya pada kode, Anda dapat membuat keputusan yang terinformasi tentang pemilihan dan optimasi algoritma, memastikan program Anda berjalan dengan efisien, bahkan saat ukuran data bertambah.
+
+\subsection{Pengertian Fungsi}
+\begin{itemize}
+    \item Fungsi: Blok kode yang menerima input, memprosesnya, dan menghasilkan output.
+    \item Traditional Function: Fungsi yang dapat mengakses dan memodifikasi variabel di global state.
+    \item Pure Function: Fungsi yang selalu memberikan hasil yang sama untuk input yang sama dan tidak mengubah data di luar fungsi.
+\end{itemize}
+
+\subsection{Perbedaan antara Traditional dan Pure Functions}
+\begin{itemize}
+    \item Akses Variabel
+
+          Traditional functions dapat mengakses dan mengubah variabel global, sedangkan pure functions tidak.
+    \item Pengaruh terhadap Data
+
+          Traditional functions dapat mengubah data, sedangkan pure functions tidak.
+    \item Output
+
+          Output dari traditional functions tidak selalu bergantung pada input, sedangkan output dari pure functions selalu bergantung pada input.
+\end{itemize}
+
+\subsection{Ciri-ciri Functional Programming}
+\begin{itemize}
+    \item Data Immutability: Tidak mengubah data di luar scope fungsi.
+    \item First-Class Citizens: Dalam Python, fungsi dapat diperlakukan seperti variabel, dapat disimpan dalam variabel, diteruskan sebagai argumen, atau dikembalikan dari fungsi lain.
+\end{itemize}
+
+\subsection{Apa itu Pure Functions?}
+Pure function adalah fungsi yang tidak mengubah atau mempengaruhi variabel, data, daftar, atau set di luar ruang lingkupnya sendiri.
+
+Contoh: Jika ada daftar dengan ruang lingkup global, pure function tidak dapat menambah atau mengubah daftar tersebut.
+
+\subsection{Contoh dan Modifikasi Fungsi Pure}
+\begin{itemize}
+    \item Contoh Fungsi: Fungsi \verb|add_to| dengan parameter item yang menambahkan nilai ke daftar global.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def add_to(item):
+    global_list.append(item)
+\end{lstlisting}
+          Fungsi ini bukan pure function karena mengubah \verb|global_list|.
+
+    \item Mengubah Menjadi Pure Function: Untuk menjadikannya pure function, fungsi harus menerima daftar sebagai argumen dan mengembalikan daftar baru tanpa memodifikasi yang asli.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def add_to_list(lst, item):
+    new_list = lst.copy()
+    new_list.append(item)
+    return new_list
+\end{lstlisting}
+          Fungsi ini membuat salinan dari daftar asli, menambahkan item ke salinan, dan mengembalikan daftar baru.
+\end{itemize}
+
+\subsection{Manfaat Pure Functions}
+\begin{itemize}
+    \item Konsistensi: Hasil dari pure functions selalu dapat diprediksi, sehingga memudahkan debugging.
+    \item Caching: Pure functions dapat di-cache karena hasilnya selalu sama untuk input yang sama.
+    \item Multi-threading: Pure functions lebih aman dalam program multi-threaded karena tidak mengubah data global, menjaga keandalan data.
+\end{itemize}
+
+\subsection{Apa itu Recursion?}
+Rekursi adalah fungsi yang memanggil dirinya sendiri. Ini menciptakan pola pengulangan.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def recursive_function(n):
+    if n == 1:
+        return 1
+    else:
+        return n * recursive_function(n - 1)
+\end{lstlisting}
+
+\subsection{Contoh Penggunaan Rekursi}
+Menghitung faktorial dari sebuah angka.
+\begin{itemize}
+    \item Pendekatan Looping: Fungsi menerima integer n dan memeriksa apakah n kurang dari nol. Jika ya, mengembalikan nol. Jika tidak, menghitung faktorial dengan loop.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def factorial_loop(n):
+    if n < 0:
+        return 0
+    else:
+        factorial = 1
+        for i in range(1, n + 1):
+            factorial *= i
+        return factorial
+\end{lstlisting}
+    \item Pendekatan Rekursif: Fungsi lebih sederhana dan lebih ringkas, memverifikasi apakah n sama dengan satu dan mengembalikan satu jika benar.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def factorial_recursive(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial_recursive(n - 1)
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Kelebihan dan Kekurangan Rekursi}
+Kelebihan:
+\begin{itemize}
+    \item Kode yang lebih rapi dan lebih mudah dibaca.
+    \item Memecah tugas kompleks menjadi sub-masalah yang lebih mudah.
+\end{itemize}
+Kekurangan:
+\begin{itemize}
+    \item Logika rekursi bisa lebih sulit diikuti.
+    \item Memori yang digunakan bisa lebih banyak dan terkadang tidak efisien.
+    \item Sulit untuk melakukan debugging.
+\end{itemize}
+
+\subsection{Membalikkan String dalam Python}
+Metode 1: Menggunakan Fungsi Slice
+\begin{itemize}
+    \item Slice Function: Fungsi yang digunakan untuk mengambil bagian dari string. Sintaksnya adalah
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+string[start:stop:step]
+\end{lstlisting}
+
+          Slice function memungkinkan kita untuk mengambil substring dari string berdasarkan indeks yang ditentukan.
+          Contoh:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+trial = "reversal"
+new_trial = trial[::-1]  # Membalikkan string
+print(new_trial)  # Output: "lasrever"
+\end{lstlisting}
+          Di sini, [::-1] berarti kita mengambil seluruh string dari belakang ke depan.
+\end{itemize}
+Metode 2: Menggunakan Rekursi
+\begin{itemize}
+    \item Recursion: Proses di mana fungsi memanggil dirinya sendiri.
+
+          Rekursi adalah teknik pemrograman di mana fungsi memanggil dirinya sendiri untuk menyelesaikan masalah.
+
+          Contoh:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    def string_reverse(str):
+        if len(str) == 0:
+            return str
+        else:
+            return string_reverse(str[1:]) + str[0]
+
+    reverse = string_reverse("reversal")
+    print(reverse)  # Output: "lasrever"
+    \end{lstlisting}
+
+          Fungsi \verb|string_reverse| memanggil dirinya sendiri dengan substring yang lebih kecil hingga mencapai string kosong, kemudian membangun string terbalik.
+\end{itemize}
+
+\subsection{Fungsi map}
+\verb|map| adalah fungsi yang menerapkan fungsi tertentu ke setiap elemen dalam daftar dan mengembalikan objek peta.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+map(function, iterable)
+\end{lstlisting}
+
+\subsection{Fungsi filter}
+\verb|filter| adalah fungsi yang menerapkan fungsi tertentu ke setiap elemen dalam daftar dan mengembalikan elemen yang memenuhi kondisi.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+filter_coffee = filter(find_coffee, menu)
+for x in filter_coffee:
+    print(x)
+\end{lstlisting}
+
+\subsection{Perbedaan antara map dan filter}
+\begin{itemize}
+    \item map: Mengembalikan semua objek dalam daftar dan menerapkan fungsi, termasuk nilai None jika tidak memenuhi kondisi.
+    \item filter: Hanya mengembalikan nilai yang memenuhi kondisi, sehingga tidak ada nilai None dalam output.
+\end{itemize}
+
+\subsection{Comprehensions}
+Comprehensions dalam Python adalah cara untuk membuat urutan baru dari urutan yang sudah ada.
+
+Ada empat jenis utama comprehension dalam Python:
+\begin{itemize}
+    \item List comprehension
+    \item Dictionary comprehension
+    \item Set comprehension
+    \item Generator comprehension
+\end{itemize}
+
+\subsubsection{List Comprehension}
+Sintaksnya adalah:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+[ <expression> for x in <sequence> if <condition>]
+\end{lstlisting}
+Penggunaannya seperti berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+data = [2,3,5,7,11,13,17,19,23,29,31]
+
+# Ex1: List comprehension: updating the same list
+data = [x+3 for x in data]
+print("Updating the list: ", data)
+
+# Ex2: List comprehension: creating a different list with updated values
+new_data = [x*2 for x in data]
+print("Creating new list: ", new_data)
+
+# Ex3: With an if-condition: Multiples of four:
+fourx = [x for x in new_data if x%4 == 0 ]
+print("Divisible by four", fourx)
+
+# Ex4: Alternatively, we can update the list with the if condition as well
+fourxsub = [x-1 for x in new_data if x%4 == 0 ]
+print("Divisible by four minus one: ", fourxsub)
+
+# Ex5: Using range function:
+nines = [x for x in range(100) if x%9 == 0]
+print("Nines: ", nines)
+\end{lstlisting}
+Outputnya seperti ini:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Updating the list:  [5, 6, 8, 10, 14, 16, 20, 22, 26, 32, 34]
+Creating new list:  [10, 12, 16, 20, 28, 32, 40, 44, 52, 64, 68]
+Divisible by four [12, 16, 20, 28, 32, 40, 44, 52, 64, 68]
+Divisible by four minus one:  [11, 15, 19, 27, 31, 39, 43, 51, 63, 67]
+Nines:  [0, 9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99]
+\end{lstlisting}
+
+Contoh yang diberikan menunjukkan berbagai cara penggunaan list comprehensions untuk memperbarui daftar atau menghasilkan daftar baru. Comprehensions menyediakan cara singkat dan elegan untuk memperbarui urutan data. Seperti yang dapat dilihat, kode yang sama dapat ditulis menggunakan loop for konvensional dan kondisi if else.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# List comprehension:
+data = [x+3 for x in data]
+
+# Regular for loop:
+for x in range(len(data)):
+    data[x] = data[x] + 3
+\end{lstlisting}
+
+Pemahaman daftar (list comprehension) dapat menjadi pilihan yang lebih baik setelah Anda terbiasa menggunakannya. Perlu dicatat bahwa konsep yang sama dapat diperluas untuk mencakup kondisi if else yang diperlukan.
+
+Pemahaman daftar (list comprehension) adalah yang paling sering digunakan, tetapi ada jenis lain yang juga dapat membuat kode menjadi praktis dan sederhana. Struktur dan sintaksisnya sangat mirip dengan pemahaman daftar (list comprehension) kecuali untuk jenis data yang digunakan.
+
+\subsubsection{Dictionary Comprehension}
+Sintaksnya seperti ini:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+dict = { key:value for key, value in <sequence> if <condition> }
+\end{lstlisting}
+Pemahaman kamus menerima satu atau dua daftar sebagai masukan dan menghasilkan kamus darinya. Saya akan menunjukkan cara melakukannya menggunakan hanya satu daftar dan dengan menggunakan dua daftar.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# Using range() function and no input list
+usingrange = {x:x*2 for x in range(12)}
+print("Using range(): ",usingrange)
+
+# Lists
+months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"]
+number = [1,2,3,4,5,6,7,8,9,10,11,12]
+
+# Using one input list
+numdict = {x:x**2 for x in number}
+print("Using one input list to create dict: ", numdict)
+
+# Using two input lists
+months_dict = {key:value for (key, value) in zip(number, months)}
+print("Using two lists: ", months_dict)
+\end{lstlisting}
+Outputnya seperti ini:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Using range():  {0: 0, 1: 2, 2: 4, 3: 6, 4: 8, 5: 10, 6: 12, 7: 14, 8: 16, 9: 18, 10: 20, 11: 22}
+Using one input list to create dict:  {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144}
+Using two lists:  {1: 'Jan', 2: 'Feb', 3: 'Mar', 4: 'Apr', 5: 'May', 6: 'June', 7: 'July', 8: 'Aug', 9: 'Sept', 10: 'Oct', 11: 'Nov', 12: 'Dec'}
+\end{lstlisting}
+
+Di sini saya menggunakan fungsi zip yang menggabungkan dua daftar. Ketika dua daftar memiliki panjang yang tidak sama, panjang daftar yang lebih pendek menjadi panjang kamus.
+
+\subsubsection{Set Comprehension}
+Set Comprehension berkaitan dengan tipe data set dan sangat mirip dengan list comprehension. Perbedaan utama adalah penggunaan kurung kurawal untuk set daripada kurung siku seperti pada list. Misalnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+set_a = {x for x in range(10,20) if x not in [12,14,16]}
+print(set_a)
+\end{lstlisting}
+Outputnya berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+{10, 11, 13, 15, 17, 18, 19}
+\end{lstlisting}
+
+
+Anda dapat melihat bahwa format kode ini mirip dengan yang saya gunakan dalam list comprehensions. Untuk menunjukkan fleksibilitasnya, saya menggunakan kata kunci "not in" untuk memeriksa nilai-nilai dalam daftar. Outputnya adalah nilai-nilai dalam rentang 10 dan 20 yang tidak terdapat dalam daftar tersebut.
+
+\subsubsection{Generator Comprehension}
+Generator comprehension juga sangat mirip dengan list, dengan perbedaan penggunaan kurung kurawal ({}) alih-alih kurung siku ([]). Mereka juga lebih efisien dalam penggunaan memori dibandingkan dengan list comprehensions. Misalnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+data = [2,3,5,7,11,13,17,19,23,29,31]
+gen_obj = (x for x in data)
+print(gen_obj)
+print(type(gen_obj))
+for items in gen_obj:
+    print(items, end = " ")
+\end{lstlisting}
+Outputnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+<generator object <genexpr> at 0x102a87d60> 
+<class 'generator'> 
+2 3 5 7 11 13 17 19 23 29 31 
+\end{lstlisting}
+
+Dalam kode di atas, saya membuat objek generator dari kelas generator alih-alih daftar. Elemen-elemen dalam objek iterator ini tidak dapat diakses secara langsung dan memerlukan bantuan loop for, sehingga saya mengiterasi elemen-elemen ini dan mencetaknya.
+
+List comprehensions merupakan perkembangan yang relatif baru, namun hal ini tidak berarti mereka lebih efisien. Comprehensions menjadi populer terutama karena memberikan kode yang lebih bersih dan mudah dibaca, serta kemudahan penggunaan. Mereka juga menawarkan beberapa keuntungan tambahan, seperti kemampuan untuk melakukan penyaringan menggunakan kondisi if else.
+
+List comprehensions juga memungkinkan pengembalian langsung daftar, berbeda dengan fungsi map() yang mengembalikan objek map. Kejelasan inilah yang membuat list comprehensions populer, namun fungsi map() masih dianggap sebagai pilihan yang lebih baik saat digunakan pada urutan data yang lebih besar.
+
+
+
 
 
 \newpage
