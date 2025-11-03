@@ -1982,7 +1982,265 @@ List comprehensions merupakan perkembangan yang relatif baru, namun hal ini tida
 
 List comprehensions juga memungkinkan pengembalian langsung daftar, berbeda dengan fungsi map() yang mengembalikan objek map. Kejelasan inilah yang membuat list comprehensions populer, namun fungsi map() masih dianggap sebagai pilihan yang lebih baik saat digunakan pada urutan data yang lebih besar.
 
+\subsection{Konsep Dasar Object Oriented Programming (OOP)}
+Paradigma berorientasi objek diperkenalkan pada tahun 1960-an oleh Alan Kay. Pada saat itu, paradigma tersebut bukanlah solusi komputasi terbaik mengingat skalabilitas perangkat lunak yang dikembangkan saat itu masih terbatas. Seiring dengan meningkatnya kompleksitas perangkat lunak dan aplikasi dunia nyata, prinsip-prinsip berorientasi objek menjadi solusi yang lebih baik.
+\begin{itemize}
+    \item Paradigma Pemrograman: Strategi untuk mengurangi kompleksitas kode dan menentukan alur eksekusi. Contoh paradigma termasuk declarative, procedural, dan OOP.
+    \item Object Orieneted Programming Adalah Paradigma yang paling banyak digunakan saat ini, memungkinkan penerjemahan masalah dunia nyata ke dalam kode.
+\end{itemize}
 
+\subsection{Komponen Utama OOP}
+\begin{itemize}
+    \item Class: Blok kode logis yang berisi atribut dan perilaku. Didefinisikan dengan kata kunci class.
+
+          Definisi: Kelas adalah cetak biru untuk membuat objek.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class Employee:
+    def __init__(self, position, status):
+        self.position = position
+        self.status = status
+\end{lstlisting}
+    \item Object: Instansi dari kelas. Setiap objek memiliki atribut dan perilaku yang unik.
+
+          Definisi: Objek adalah contoh dari kelas yang diciptakan.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+emp1 = Employee("Shift Lead", "Full-Time")
+\end{lstlisting}
+    \item Method: Fungsi yang didefinisikan di dalam kelas yang menentukan perilaku objek.
+
+          Definisi: Metode adalah fungsi yang beroperasi pada objek.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def intro(self):
+    return f"I am a {self.position}."
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Konsep Kunci dalam OOP}
+\begin{itemize}
+    \item Inheritance:
+
+          Proses membuat kelas baru dari kelas yang sudah ada. Kelas baru (subclass) mewarisi atribut dan metode dari kelas yang ada (superclass).
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class Parent:
+    Members of the parent class
+
+class Child(Parent):
+    Inherited members from parent class
+    Additional members of the child class
+          \end{lstlisting}
+
+          Seiring dengan semakin rumitnya struktur pewarisan, Python mengikuti sesuatu yang disebut \textbf{Method Resolution Order (MRO)} yang menentukan alur eksekusi. MRO adalah kumpulan aturan, atau algoritma, yang digunakan Python untuk menerapkan \textbf{monotonicity}, yang merujuk pada urutan atau urutan di mana interpreter akan mencari variabel dan fungsi untuk diimplementasikan. Hal ini juga membantu dalam menentukan ruang lingkup anggota-anggota yang berbeda dari kelas yang diberikan.
+
+    \item Polymorphism:
+
+          Kemampuan fungsi untuk beroperasi dengan cara yang berbeda tergantung pada objek. Fungsi dapat memiliki banyak bentuk. Operator + yang berfungsi sebagai penjumlahan untuk angka dan penggabungan untuk string.
+
+          Polimorfisme merujuk pada sesuatu yang dapat memiliki banyak bentuk. Dalam hal ini, suatu objek tertentu. Ingatlah bahwa segala sesuatu dalam Python secara inheren adalah objek, jadi ketika saya berbicara tentang polimorfisme, itu bisa berupa operator, metode, atau objek apa pun dari suatu kelas. Saya dapat menjelaskan contoh polimorfisme menggunakan fungsi bawaan dan operasi, misalnya:
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+string = "poly"
+num = 7
+sequence = [1,2,3]
+new_str = string * 3
+new_num = 7 * 3
+new_sequence = sequence * 3
+
+print(new_str, new_num, new_sequence)
+          \end{lstlisting}
+          Outpunya akan menjadi:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+polypolypoly 21 [1, 2, 3, 1, 2, 3, 1, 2, 3]
+          \end{lstlisting}
+
+          Dalam hal ini, operator * menunjukkan polimorfisme. Fungsinya berbeda-beda tergantung pada jenis objek yang diterapkan padanya:
+
+          Ketika diterapkan pada string, operator ini mengulang string tersebut.
+
+          Ketika diterapkan pada bilangan bulat, operator ini melakukan perkalian.
+
+          Ketika diterapkan pada daftar, operator ini mengulang daftar tersebut.
+
+          Ini merupakan contoh polimorfisme karena operator yang sama (*) berperilaku berbeda-beda tergantung pada jenis objek yang diterapkan padanya.
+
+          Contoh lain:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+string = "poly"
+sequence = [1,2,3]
+print(len(string))
+print(len(sequence))
+          \end{lstlisting}
+          Outputnya adalah:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+4
+3
+          \end{lstlisting}
+          Dalam contoh ini, fungsi \verb|len()| bersifat polimorfik karena menghitung panjang berbagai jenis objek:
+
+          Untuk string "poly", fungsi ini mengembalikan 4 karena string tersebut terdiri dari 4 karakter.
+
+          Untuk daftar \verb|[1, 2, 3]|, fungsi ini mengembalikan 3 karena terdapat 3 elemen dalam daftar.
+
+          Meskipun \verb|len()| adalah fungsi yang sama, fungsinya bekerja secara berbeda tergantung pada jenis objek yang diberikan kepadanya.
+
+
+    \item Encapsulation:
+
+          Mengikat metode dan variabel dalam satu unit untuk mencegah akses langsung. Mengurangi kesalahan dengan membungkus data dan metode dalam kelas.
+
+          Ide enkapsulasi adalah untuk menempatkan metode dan variabel di dalam batas-batas suatu unit tertentu. Dalam kasus Python, unit ini disebut kelas. Dan anggota-anggota kelas tersebut menjadi terikat secara lokal pada kelas tersebut. Konsep-konsep ini lebih mudah dipahami dengan lingkup, seperti lingkup global (yang secara sederhana merujuk pada berkas-berkas yang sedang saya kerjakan) dan lingkup lokal (yang merujuk pada metode dan variabel yang 'lokal' pada suatu kelas). Enkapsulasi sehingga membantu dalam menetapkan lingkup-lingkup ini hingga batas tertentu.
+
+          Enkapsulasi juga digunakan untuk menyembunyikan data dan representasi internalnya. Istilah untuk hal ini adalah penyembunyian informasi. Python memiliki cara untuk mengatasinya, tetapi implementasinya lebih baik dalam bahasa pemrograman lain seperti Java dan C++. Modifier akses yang diwakili oleh kata kunci seperti public, private, dan protected digunakan untuk penyembunyian informasi. Penggunaan garis bawah tunggal dan ganda untuk tujuan ini di Python merupakan pengganti praktik tersebut. Misalnya, mari kita lihat contoh anggota yang dilindungi di Python.
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class Alpha:
+    
+    def __init__(self):
+        self._a = 2.  # Protected member 'a'
+        self.__b = 2.  # Private member 'b'
+          \end{lstlisting}
+
+          \verb|self._a| adalah anggota terlindungi dan dapat diakses oleh kelas dan subkelasnya.
+
+          Anggota pribadi dalam Python secara konvensional menggunakan dua garis bawah di depan: \verb|__. self.__b| adalah anggota pribadi dari kelas Alpha dan hanya dapat diakses dari dalam kelas Alpha.
+
+          Perlu dicatat bahwa anggota privat dan terlindungi ini masih dapat diakses dari luar kelas dengan menggunakan metode publik untuk mengaksesnya atau melalui praktik yang dikenal sebagai \verb|name mangling|. Name mangling adalah penggunaan dua tanda underscore di depan dan satu tanda underscore di belakang, misalnya:
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+_class__identifier
+           \end{lstlisting}
+
+          Class adalah nama kelas dan identifier adalah anggota data yang ingin diakses.
+
+    \item Abstraction:
+
+          Menyembunyikan detail implementasi untuk meningkatkan keamanan data. Menyembunyikan kompleksitas dan hanya menampilkan fitur penting.
+
+          Abstraksi dapat dilihat sebagai cara untuk menyembunyikan informasi penting maupun informasi yang tidak perlu dalam blok kode. Intinya, abstraksi dalam Python diimplementasikan melalui kelas dan metode abstrak, yang dapat diimplementasikan dengan mewarisi dari modul yang disebut abc. "abc" di sini singkatan dari abstract base class. Modul ini pertama kali diimpor, lalu digunakan sebagai kelas induk untuk kelas yang menjadi kelas abstrak. Implementasi paling sederhana dapat dilakukan seperti berikut.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from abc import ABC,   
+class ClassName(ABC):
+    pass
+          \end{lstlisting}
+\end{itemize}
+
+\subsection{Kilas Balik Konsep OOP}
+\begin{itemize}
+    \item Class: Sebuah blueprint untuk membuat objek. Ini mendefinisikan atribut dan metode yang akan dimiliki objek.
+    \item Instance: Objek yang dibuat dari class. Setiap instance memiliki data yang terpisah.
+    \item Object: Entitas yang memiliki atribut dan metode. Dalam Python, hampir semuanya adalah objek.
+\end{itemize}
+
+\subsection{Membuat Class}
+Untuk membuat class, gunakan sintaks berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class MyClass:
+    pass
+
+class Recipe:
+    def __init__(self, dish, items, time):
+        self.dish = dish
+        self.items = items
+        self.time = time
+\end{lstlisting}
+
+pass: Kata kunci yang digunakan sebagai placeholder ketika tidak ada yang perlu dieksekusi.
+
+\subsection{Menginstansiasi Class}
+Untuk membuat instance dari class, gunakan sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+myc = MyClass()
+\end{lstlisting}
+
+Di sini, \verb|myc| adalah nama instance yang dapat digunakan untuk mengakses atribut dan metode dari class.
+
+\subsection{Mengakses Atribut}
+Atribut adalah variabel yang dideklarasikan di dalam class. Untuk mengaksesnya, gunakan sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(myClass.a)
+\end{lstlisting}
+
+Jika \verb|a| adalah atribut dari class, ini akan mencetak nilainya.
+
+\subsection{Membuat dan Mengakses Metode}
+Untuk membuat metode dalam class, gunakan sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def hello(self):
+    print("Hello, world!")
+\end{lstlisting}
+self: Parameter yang merujuk pada instance saat ini dari class.
+
+Untuk memanggil metode, gunakan sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+myc.hello()
+\end{lstlisting}
+Ini akan menjalankan metode hello dan mencetak "Hello, world!".
+
+\subsection{Catatan Lain Terkait Class}
+\begin{itemize}
+    \item Perubahan pada atribut kelas akan memengaruhi semua instance dari kelas tersebut, karena mereka berbagi atribut kelas yang sama kecuali jika di-override oleh atribut instance. Perhatikan juga penggunaan kata kunci self dalam contoh ini. self adalah konvensi dalam Python, dan Anda dapat menggunakan kata lain sebagai penggantinya, tetapi sebagai praktik umum, self mudah dikenali. self dalam contoh ini diteruskan ke dalam metode \verb|cost_evaluation()| karena metode tersebut adalah metode instance dan memudahkan metode tersebut untuk merujuk ke instance House mana pun saat metode tersebut dipanggil. Perlu diperhatikan bahwa sejumlah parameter dapat diteruskan ke metode instance ini, tetapi parameter pertama selalu merujuk ke instance kelas tersebut.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class House:
+    '''
+    This is a stub for a class representing a house that can be used to create objects and evaluate different metrics that we may require in constructing it.
+    '''
+    num_rooms = 5
+    bathrooms = 2
+    def cost_evaluation(self):
+        print(self.num_rooms)
+        pass
+        # Functionality to calculate the costs from the area of the house
+
+house = House()
+print(house.num_rooms)
+print(House.num_rooms)
+
+house.num_rooms = 7
+print(house.num_rooms)
+print(House.num_rooms)
+
+House.num_rooms = 7
+print(house.num_rooms)
+print(House.num_rooms)
+    \end{lstlisting}
+          Outputnya seperti ini:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+5
+5
+7
+5
+7
+7
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{Code Reusability}
+Code reusability adalah penggunaan kode yang sudah ada untuk membangun perangkat lunak baru, yang membantu menghemat waktu dan usaha. Dengan menggunakan kelas dan metode yang sama dalam beberapa instance, kita dapat menghasilkan hasil yang berbeda.
+
+\subsection{Metode Khusus dalam Python}
+\begin{itemize}
+    \item \verb|__new__| Method:
+
+          Metode ini bertanggung jawab untuk membuat dan mengembalikan objek baru yang kosong.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def __new__(cls):
+    # kode untuk membuat objek baru
+\end{lstlisting}
+    \item \verb|__init__| Method:
+
+          Metode ini digunakan untuk menginisialisasi objek yang baru dibuat dengan nilai-nilai tertentu.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def __init__(self, dish, items, time):
+    self.dish = dish
+    self.items = items
+    self.time = time
+\end{lstlisting}
+\end{itemize}
 
 
 
