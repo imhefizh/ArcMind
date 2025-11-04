@@ -2612,13 +2612,261 @@ Kode di sini cukup sederhana. Kelas F secara langsung mewarisi dari kelas induk 
 
 Contoh-contoh dalam bacaan ini menunjukkan bagaimana kode yang menggunakan pewarisan ganda dapat menjadi rumit dan berantakan dengan sangat cepat. Pewarisan ganda, dengan semua keunggulan dan fleksibilitas yang ditawarkannya, sebaiknya hanya digunakan setelah Anda menguasai Python sebagai bahasa pemrograman dengan baik untuk menghindari pembuatan 'kode spaghetti' yang sulit dipahami dan diperbarui.
 
-
-
-
-
 \newpage
 
 \section{Modul, Paket, Pustaka, and Alat-alat}
+
+\subsection{Apa itu Python Module?}
+Module adalah kumpulan pernyataan dan definisi yang dapat digunakan untuk menambah fungsionalitas pada kode. Contoh: file \verb|sample.py| dapat menjadi module bernama sample.
+
+Module dapat berisi pernyataan yang dapat dieksekusi dan fungsi.
+
+\subsection{Nilai dan Keuntungan Modules}
+\begin{itemize}
+    \item Scoping: Modules menciptakan namespace terpisah, memungkinkan dua module berbeda memiliki fungsi dengan nama yang sama tanpa konflik.
+    \item Reusability: Menghindari penulisan ulang kode yang sama, sehingga lebih efisien. Misalnya, mengimpor package math memberikan akses ke banyak fungsi seperti factorial dan gcd tanpa mendefinisikannya lagi.
+    \item Simplicity: Modules dirancang dengan tujuan sederhana, mengurangi ketergantungan antar module. Contoh: Mengimpor module Matplotlib cukup untuk visualisasi data.
+\end{itemize}
+
+\subsection{Jenis-jenis Module}
+\begin{itemize}
+    \item Built-in Modules: Modules yang sudah ada dalam pustaka standar Python. Contoh: Menggunakan import math untuk mengakses fungsi matematika.
+    \item Stand-alone Modules: Module yang berisi semua fungsi tetapi tidak mengeksekusi fungsi tanpa pemanggilan.
+\end{itemize}
+
+\subsection{Cara Mengimpor dan Menjalankan Modules}
+\begin{itemize}
+    \item Modules hanya diimpor sekali selama eksekusi. Jika diimpor lagi, pernyataan dalam module hanya dieksekusi pada pemanggilan pertama.
+    \item Module biasanya didefinisikan di awal kode, tetapi dapat didefinisikan di mana saja. Eksekusi kode dalam module hanya dapat dilakukan setelah module diimpor.
+\end{itemize}
+
+\subsection{Modul dalam Python}
+\begin{itemize}
+    \item Modul Bawaan (Built-in Modules): Modul yang sudah tersedia dalam Python dan dapat langsung digunakan tanpa perlu diinstal. Contoh: math, datetime.
+    \item Modul yang Didefinisikan Pengguna (User-defined Modules): Modul yang dibuat oleh pengguna untuk menyimpan fungsi dan variabel yang sering digunakan.
+\end{itemize}
+
+\subsection{Cara Mengakses Modul}
+Python mencari modul dalam urutan berikut:
+\begin{itemize}
+    \item Direktori saat ini (Current Directory)
+    \item Direktori modul bawaan (Built-in Module Directory)
+    \item Variabel lingkungan Python path (Python Path Environment Variable)
+    \item Direktori default yang bergantung pada instalasi (Installation Dependent Default Directory)
+\end{itemize}
+
+\subsection{Praktek Terbaik dalam Menggunakan Modul}
+\begin{itemize}
+    \item Impor Modul: Sebaiknya impor semua modul yang diperlukan di awal kode untuk menjaga keteraturan.
+    \item Menggunakan Fungsi dari Modul: Contoh penggunaan fungsi dari modul calendar:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import calendar
+leap_days = calendar.leapdays(2000, 2050)
+print(leap_days)  # Output: 13
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Import Statements}
+Import statements digunakan untuk mengakses modules yang ada di dalam file Python (\verb|.py|).
+
+Untuk mengimpor file, gunakan \verb|import <nama_file>| tanpa ekstensi. Contoh: \verb|import sample|.
+
+\subsection{Built-in Modules}
+Built-in modules adalah modul yang sudah ada dalam Python dan tidak perlu diinstal secara terpisah.
+
+Untuk mengimpor modul seperti json, gunakan \verb|import json|.
+
+\subsection{Packages dan Pip}
+Packages adalah kumpulan modules yang terstruktur. Pip adalah package installer untuk Python yang digunakan untuk menginstal packages dari PyPI.
+
+Untuk menginstal package, gunakan \verb|pip install <nama_package>|. Contoh: \verb|pip install seaborn|.
+
+\subsection{Mengimpor dari Direktori Lain}
+Anda dapat mengimpor file dari direktori lain dengan menambahkan path ke \verb|sys.path|.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import sys
+sys.path.insert(0, r'<path_ke_direktori>')
+import <nama_file>
+\end{lstlisting}
+
+\subsection{Mengimport Modul}
+Modul adalah kumpulan pernyataan dan definisi yang meningkatkan fungsionalitas kode. Contoh: import math untuk mengimpor modul built-in math.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import math
+print(math.sqrt(9))  # Menghitung akar kuadrat dari 9
+\end{lstlisting}
+
+\subsection{Menggunakan Fungsi dari Modul}
+Fungsi adalah bagian dari modul yang melakukan tugas tertentu. Contoh: sqrt untuk menghitung akar kuadrat.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+root = math.sqrt(9)
+print(root)  # Output: 3.0
+\end{lstlisting}
+
+\subsection{Mengimport dengan Alias}
+Alias adalah nama alternatif untuk modul atau fungsi yang memudahkan penulisan. Contoh: \verb|import math as m|.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import math as m
+cosine = m.cos(0)
+print(cosine)  # Output: 1.0
+\end{lstlisting}
+
+\subsection{Mengimpor Fungsi Tertentu}
+Mengimpor fungsi tertentu untuk menghindari kelebihan beban interpreter.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from math import sqrt
+root = sqrt(9)
+print(root)  # Output: 3.0
+\end{lstlisting}
+
+\subsection{Mengimpor Semua Fungsi}
+Mengimpor semua fungsi dari modul, tetapi tidak disarankan untuk kode besar karena dapat membingungkan.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from math import *
+print(sqrt(9))  # Output: 3.0
+\end{lstlisting}
+
+\subsection{Mengimpor Variabel dan Kelas}
+Selain fungsi, Anda juga bisa mengimpor variabel dan kelas dari modul.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from math import some_variable  # Ini akan menghasilkan error jika some_variable tidak ada
+\end{lstlisting}
+
+\subsection{Definisi Namespace dan Scope}
+\begin{itemize}
+    \item Namespace: Pemetaan dari nama ke objek. Ini adalah cara Python mengelola nama-nama yang digunakan dalam program.
+    \item Scope: Wilayah tekstual dalam program Python di mana namespace dapat diakses secara langsung.
+\end{itemize}
+
+\subsection{Struktur dan Tipe Scope}
+Ada empat tipe scope yang dapat didefinisikan dalam Python:
+\begin{itemize}
+    \item Local: Tempat pertama pencarian variabel, yaitu di dalam fungsi.
+    \item Enclosed: Didefinisikan di dalam fungsi yang membungkus atau fungsi bersarang.
+    \item Global: Didefinisikan di tingkat paling atas, di luar fungsi.
+    \item Built-in: Kata kunci yang ada dalam modul built-in Python.
+\end{itemize}
+
+\subsection{Aturan LEGB}
+Aturan yang digunakan untuk menentukan di mana Python mencari variabel:
+\begin{itemize}
+    \item \textbf{L}ocal
+    \item \textbf{E}nclosed
+    \item \textbf{G}lobal
+    \item \textbf{B}uilt-in
+\end{itemize}
+
+\subsection{Sintaks dan Fungsi Built-in}
+\begin{itemize}
+    \item Fungsi \verb|id()|: Mengembalikan identitas objek. Ini digunakan untuk menunjukkan bahwa meskipun variabel memiliki nama yang sama, mereka adalah objek yang berbeda.
+    \item Fungsi \verb|locals()| dan \verb|globals()|: Menampilkan isi dari dictionary di dalam scope lokal dan global.
+\end{itemize}
+
+\subsection{Praktek Baik terkait Variable Scope}
+\begin{itemize}
+    \item Penggunaan variabel global sebaiknya dihindari karena dapat menyebabkan kode yang sulit dipahami (spaghetti code). Sebaiknya gunakan variabel lokal untuk menjaga kualitas kode.
+    \item Kata Kunci global: Digunakan untuk mengakses variabel global dari dalam fungsi.
+    \item Kata Kunci nonlocal: Digunakan dalam fungsi bersarang untuk mengakses variabel yang didefinisikan di fungsi yang membungkus.
+\end{itemize}
+
+\subsubsection{Contoh Kode}
+Dalam contoh kode, Anda akan mendefinisikan fungsi d yang memiliki fungsi bersarang e. Variabel animal dideklarasikan di berbagai scope:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def d():
+    animal = "elephant"  # Local
+    def e():
+        nonlocal animal  # Mengakses variabel dari fungsi d
+        animal = "giraffe"
+    e()
+    print(animal)  # Output: giraffe
+\end{lstlisting}
+
+\subsection{Fungsi reload}
+\verb|reload| adalah fungsi yang digunakan untuk memuat ulang modul yang sudah diimpor, sehingga perubahan yang dilakukan pada modul tersebut dapat diterapkan tanpa menghentikan eksekusi program.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from importlib import reload
+reload(module_name)
+\end{lstlisting}
+
+\subsubsection{Contoh Penggunaan}
+Dibuat file baru bernama \verb|sample.py| yang berisi pernyataan \verb|print("Hello world")|. File ini digunakan sebagai modul.
+
+Modul \verb|sample.py| diimpor ke dalam file lain yang bernama \verb|reloads.py|. Meskipun pernyataan import ditulis beberapa kali, interpreter hanya memuatnya sekali.
+
+File \verb|filechanges.py|: File ini digunakan untuk mencantumkan isi direktori tertentu. Dengan menggunakan fungsi \verb|os.listdir|, kita dapat melihat file yang ada di direktori.
+
+Dengan menambahkan reload(filechanges) dalam \verb|reloads.py|, kita dapat memuat ulang modul filechanges untuk melihat perubahan yang terjadi di direktori tanpa menghentikan program.
+
+Dalam \verb|reloads.py|, dibuat loop yang menjalankan fungsi dari filechanges beberapa kali. Setiap kali fungsi dipanggil, isi direktori diperbarui dan ditampilkan.
+
+Jika file dihapus dari direktori, hasil yang ditampilkan akan mencerminkan perubahan tersebut setelah menekan "Enter" untuk menjalankan kode lagi.
+
+\subsection{Ikhtisar Modules, Libraries, dan Packages}
+Modul dan paket seringkali mudah tertukar karena kemiripannya, tetapi ada beberapa perbedaan. Modul mirip dengan berkas, sedangkan paket seperti direktori yang berisi berkas-berkas berbeda. Modul umumnya ditulis dalam satu berkas, tetapi hal itu lebih merupakan kebiasaan daripada definisi.
+
+Paket pada dasarnya adalah jenis modul. Setiap modul yang mengandung definisi \verb|__path__| adalah paket. Paket, ketika dilihat sebagai direktori, dapat berisi sub-paket dan modul lain. Modul, di sisi lain, dapat berisi kelas, fungsi, dan anggota data seperti file Python lainnya.
+
+Perpustakaan adalah istilah yang digunakan secara bergantian dengan paket yang diimpor. Namun, dalam praktik umum, istilah ini merujuk pada kumpulan paket.
+
+Meskipun ada perbedaan antara modul, paket, dan perpustakaan, Anda dapat mengimpor salah satunya menggunakan pernyataan impor.
+
+Paket tambahan pihak ketiga Python dapat ditemukan di Python Package Index. Untuk menginstal paket yang tidak termasuk dalam pustaka standar, para pengembang menggunakan 'pip' (penginstal paket untuk Python). Pip diinstal secara default bersama Python. Untuk menggunakan pip, Anda perlu familiar dengan terminal jika menggunakan Mac atau antarmuka baris perintah jika menggunakan Windows.
+
+\subsubsection{Sub-packages}
+Jika kita menganggap bahwa paket serupa dengan folder atau direktori dalam sistem operasi kita, maka paket juga dapat berisi direktori lain. Paket, baik yang bawaan maupun yang didefinisikan pengguna, dapat berisi folder lain di dalamnya yang perlu diakses. Folder-folder ini disebut sub-paket. Anda menggunakan notasi titik untuk mengakses sub-paket di dalam paket yang telah Anda impor. Misalnya, dalam paket seperti matplotlib, konten yang paling sering digunakan terdapat di dalam subpaket pyplot. Pyplot pada akhirnya dapat terdiri dari berbagai fungsi dan atribut.
+
+Kode untuk mengimpor subpaket adalah:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import matplotlib.pyplot
+\end{lstlisting}
+
+Untuk membuatnya lebih praktis, seringkali diimpor menggunakan alias. Jadi, yang lebih umum Anda temui adalah kode seperti:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import matplotlib.pyplot as plt
+\end{lstlisting}
+Anda dapat menggunakan kata lain sebagai alias pengganti plt, tetapi itu adalah konvensi umum.
+
+\subsection{Manajemen Package}
+\begin{itemize}
+    \item PIP: Package Installer for Python, alat untuk menginstal dan mengelola package Python.
+    \item PyPI: Python Package Index, tempat untuk menemukan package yang belum dipublikasikan.
+\end{itemize}
+
+\subsection{Kategori Package}
+Package adalah kumpulan modul dalam Python yang berfungsi untuk mengorganisir kode. Setiap package dapat dianggap sebagai direktori, dan modul sebagai file di dalamnya.
+\begin{itemize}
+    \item Built-in Packages:
+
+          Package yang sudah tersedia setelah menginstal Python, seperti \textbf{os, sys, csv, json, math, dan itertools}.
+    \item Data Science Packages:
+
+          Package populer untuk data science termasuk \textbf{NumPy, Pandas, SciPy, dan NLTK}.
+
+          Contoh penggunaan:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import pandas as pd.
+\end{lstlisting}
+    \item Machine Learning dan AI Packages:
+
+          Package seperti \textbf{TensorFlow, PyTorch, dan Keras} digunakan untuk pengembangan model machine learning. Contoh sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import tensorflow as tf
+\end{lstlisting}
+    \item Web Development Packages:
+
+          Package seperti Flask (micro-framework) dan Django (full-stack framework) digunakan untuk pengembangan web. Contoh sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from flask import Flask
+\end{lstlisting}
+\end{itemize}
+
+
 
 
 \newpage
