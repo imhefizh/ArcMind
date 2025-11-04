@@ -2242,6 +2242,378 @@ def __init__(self, dish, items, time):
 \end{lstlisting}
 \end{itemize}
 
+\subsection{Instance Variables}
+\begin{itemize}
+    \item Definisi: Variabel yang dimiliki oleh setiap instance dari sebuah class, menyimpan data spesifik untuk objek tersebut.
+    \item Sintaks: \verb|self.variable_name = value| di dalam metode \verb|__init__|.
+\end{itemize}
+
+\subsection{Methods}
+Definisi: Fungsi yang didefinisikan dalam sebuah class yang menentukan perilaku objek.
+Contoh:
+\begin{itemize}
+    \item Pay Method: Mengubah status pembayaran.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def pay(self):
+    self.payment = "yes"
+\end{lstlisting}
+    \item Status Method: Menampilkan status pembayaran
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def status(self):
+    if self.payment == "yes":
+        return f"{self.name} is paid {self.amount}"
+    else:
+        return f"{self.name} is not paid yet"
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Konsep Inheritance}
+Inheritance adalah  Konsep di mana sebuah kelas (child class) mewarisi atribut dan metode dari kelas lain (parent class). Ini membantu dalam \textbf{code reusability} (penggunaan kembali kode).
+\begin{itemize}
+    \item Parent Class: Kelas asal yang memberikan atribut dan metode kepada child class. Juga dikenal sebagai superclass atau base class.
+    \item Child Class: Kelas yang mewarisi dari parent class. Juga dikenal sebagai subclass atau derived class.
+\end{itemize}
+
+\subsection{Atirbut dan Metode}
+\begin{itemize}
+    \item Atribut: Variabel yang dimiliki oleh kelas. Misalnya, \verb|self.a| dan \verb|self.b|.
+    \item Metode: Fungsi yang didefinisikan dalam kelas. Misalnya, metode untuk meminta cuti dalam child class Chefs:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def leave_request(self, days):
+    return f"May I take a leave for {days} days?"
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Multiple Inheritance}
+Python juga memungkinkan kita untuk melakukan pewarisan ganda antara kelas-kelas.
+
+Berikut adalah contoh sederhana tentang cara melakukannya.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# Example 1
+class A:
+   a = 1
+   
+class B:
+   b = 2
+   
+class C(A, B):
+   pass
+
+c = C()
+print(c.a, c.b)
+\end{lstlisting}
+Outputnya berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+1 2
+\end{lstlisting}
+Pertama, dua kelas bernama A dan B dibuat, lalu variabel a dan b masing-masing diinisialisasi dengan nilai. Kelas baru C kemudian didefinisikan, dan kelas A dan B diteruskan ke dalamnya. Inilah cara pewarisan ganda dilakukan di Python. Urutan kelas penting, tetapi tidak dalam contoh spesifik ini. Saya kemudian membuat objek 'c' dari kelas C. Nilai variabel a dan b dicetak melalui objek c dari kelas C meskipun a dan b tidak ada di dalam kelas C.
+
+Kode di atas adalah contoh pewarisan ganda. Ada juga jenis pewarisan lain yang termasuk dalam kategori pewarisan ganda. Mari kita lihat contoh lainnya.
+
+\subsection{Multi-level Inheritance}
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class A:
+   a = 1
+
+class B(A):
+   a = 2
+
+class C(B):
+   pass
+
+c = C()
+print(c.a)
+\end{lstlisting}
+
+Hasilnya adalah 2 karena C mewarisi dari kelas induk langsung C, yaitu B. Meskipun kelas A adalah kelas dasar tingkat atas, kelas C tidak mewarisi langsung dari A, melainkan mewarisi atribut a dari B, dan B memiliki nilai atribut anggota a = 2.
+
+Contoh di atas menunjukkan pewarisan berlevel di mana kelas turunan C mewarisi dari kelas B. Kelas B sendiri adalah kelas turunan dari kelas dasar A. Kelas B di sini merupakan kelas turunan perantara. Dalam kasus ini terdapat tiga level pewarisan, namun dapat diperluas ke banyak level, meskipun mungkin menjadi tidak praktis setelah beberapa waktu.
+
+\subsection{Built-in Functions Terkait Class}
+Ada dua fungsi bawaan yang dapat berguna saat mencoba menemukan hubungan antara kelas dan objek yang berbeda: \textbf{issubclass()} dan \textbf{isinstance()}.
+
+Fungsi pertama, \verb|issubclass()|, dijelaskan di bawah ini.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(issubclass(A,B))
+print(issubclass(B,A))
+\end{lstlisting}
+Dua kelas diteruskan sebagai argumen ke fungsi ini dan hasil Boolean dikembalikan.
+
+Ini menunjukkan bagaimana kelas anak (child class) diteruskan sebagai argumen pertama. Untuk menghindari kebingungan, ini dapat dibaca sebagai: “Apakah B adalah subkelas dari A?” Anda dapat melihat hasilnya adalah "Benar" pada kasus kedua di mana kelas anak B adalah subkelas.
+
+Fungsi bawaan lain yang serupa dengan ini adalah \verb|isinstance()|, yang menentukan apakah suatu objek merupakan instance dari suatu kelas. Jadi, jika saya menulis:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class A:
+	pass
+class B(A):
+	pass
+
+b = B()
+print(isinstance(b,B))
+print(isinstance(b,A))
+\end{lstlisting}
+Hasil yang akan saya dapatkan adalah "True".
+
+Sekarang setelah Anda tahu bagaimana kelas dapat diperluas dari kelas lain, mari kita lihat fungsi bawaan lain yang berguna bernama fungsi \textbf{super()}.
+
+Fungsi super() adalah fungsi bawaan yang dapat dipanggil di dalam kelas turunan dan memberikan akses ke metode dan variabel kelas induk atau kelas saudara. Kelas saudara adalah kelas yang memiliki kelas induk yang sama. Ketika Anda memanggil fungsi super(), Anda akan mendapatkan objek yang mewakili kelas induk sebagai hasilnya.
+
+Fungsi super() memainkan peran penting dalam pewarisan ganda dan membantu mengarahkan alur eksekusi kode. Fungsi ini membantu dalam mengelola atau menentukan kontrol dari mana saya dapat mengambil nilai-nilai fungsi dan variabel yang diinginkan.
+
+Jika Anda mengubah sesuatu di dalam kelas induk, perubahan tersebut akan langsung diterapkan di dalam kelas turunan. Hal ini terutama digunakan di tempat-tempat di mana Anda perlu menginisialisasi fungsi-fungsi yang ada di dalam kelas induk juga di dalam kelas turunan. Anda kemudian dapat menambahkan kode tambahan di dalam kelas turunan.
+
+Berikut adalah contohnya.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class Fruit():
+    def __init__(self, fruit):
+        print('Fruit type: ', fruit)
+
+
+class FruitFlavour(Fruit):
+    def __init__(self):
+        super().__init__('Apple')
+        print('Apple is sweet')
+
+apple = FruitFlavour()
+\end{lstlisting}
+OUtput:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Fruit type:  Apple
+Apple is sweet
+\end{lstlisting}
+
+Dalam kode di atas, jika saya telah mengomentari baris untuk fungsi super(), outputnya adalah:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Apple is sweet
+\end{lstlisting}
+Hal ini terjadi karena saat Anda menginisialisasi kelas turunan, Anda tidak menginisialisasi kelas dasar bersamanya. Fungsi super() membantu Anda mencapai hal ini dan menambahkan inisialisasi kelas dasar bersama dengan kelas turunan.
+
+\subsection{Kelas Abstrak (Abstract Class)}
+Kelas abstrak adalah kelas yang tidak dapat diinstansiasi (tidak bisa dibuat objeknya) dan digunakan sebagai dasar untuk kelas lain.
+Fungsiny adalah menjamin bahwa semua kelas yang diturunkan dari kelas ini memiliki metode tertentu yang harus diimplementasikan.
+
+\subsection{Metode Abstrak (Abstract Method)}
+Metode abstrak adalah metode yang didefinisikan dalam kelas abstrak tanpa implementasi. Kelas yang diturunkan harus memberikan implementasi untuk metode ini.
+Fungsinya adalah memastikan bahwa setiap kelas turunan memiliki metode yang sama, meskipun cara implementasinya bisa berbeda.
+
+\subsection{Sintaks untuk Mendefinisikan Kelas Abstrak dan Metode Abstrak}
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from abc import ABC, abstractmethod
+
+# Mendefinisikan kelas abstrak
+class SomeAbstractClass(ABC):
+    @abstractmethod
+    def some_method(self):
+        pass
+\end{lstlisting}
+
+\subsubsection{Contoh Implementasi}
+\begin{itemize}
+    \item Kelas Abstrak: Misalnya, kita memiliki kelas Vehicle yang merupakan kelas abstrak.
+    \item Kelas Turunan: Kelas Car dan Boat yang diturunkan dari Vehicle harus mengimplementasikan metode \verb|turn_on_engine|.
+\end{itemize}
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class Vehicle(ABC):
+    @abstractmethod
+    def turn_on_engine(self):
+        pass
+
+class Car(Vehicle):
+    def turn_on_engine(self):
+        return "Mesin mobil dinyalakan!"
+
+class Boat(Vehicle):
+    def turn_on_engine(self):
+        return "Mesin perahu dinyalakan!"
+\end{lstlisting}
+
+\subsection{Konsep Dasar MRO}
+MRO adalah aturan yang menentukan urutan pencarian metode atau atribut dalam hierarki kelas. Ini membantu dalam menentukan dari mana metode atau atribut tersebut berasal.
+
+Linearization: Proses di mana MRO mengurutkan kelas untuk pencarian metode, mengikuti aturan tertentu.
+
+\subsubsection{Tipe-tipe Inheritance}
+\begin{itemize}
+    \item Simple Inheritance: Kelas anak mewarisi dari satu kelas induk.
+    \item Multiple Inheritance: Kelas anak mewarisi dari lebih dari satu kelas induk.
+    \item Multilevel Inheritance: Inheritance yang terjadi pada beberapa level, di mana kelas anak mewarisi dari kelas induk yang juga merupakan kelas anak dari kelas lain.
+    \item Hierarchical Inheritance: Beberapa kelas anak mewarisi dari satu kelas induk yang sama.
+    \item Hybrid Inheritance: Kombinasi dari beberapa tipe inheritance di atas.
+\end{itemize}
+
+\subsection{Aturan MRO}
+\begin{itemize}
+    \item Default Order: Di Python, urutan pencarian adalah dari bawah ke atas dan dari kiri ke kanan dalam struktur pohon kelas.
+    \item Contoh: Jika kelas Z mewarisi dari kelas X dan Y, urutan MRO-nya adalah Z, Y, X.
+\end{itemize}
+
+\subsection{Algoritma MRO}
+\begin{itemize}
+    \item C3 Linearization: Algoritma yang digunakan untuk menentukan MRO di Python versi 3 dan seterusnya.
+    \item Monotonicity: Properti yang tidak membolehkan melewati kelas induk langsung saat mewarisi.
+    \item Inheritance Graph: Kelas induk hanya dikunjungi setelah metode lokal kelas telah dikunjungi.
+\end{itemize}
+
+\subsection{Menemukan MRO}
+\begin{itemize}
+    \item MRO Function: Untuk menemukan urutan MRO dari sebuah kelas, gunakan fungsi \verb|mro()|.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class C(B, A):
+    pass
+
+print(C.mro())
+\end{lstlisting}
+    \item Help Function: Menggunakan fungsi \verb|help()| untuk mendapatkan informasi lebih detail tentang MRO dan atribut kelas.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+help(C)
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Eksperimen MRO}
+\subsubsection{Contoh 1}
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# Example 1
+class A:
+   def a(self):
+       return "Function inside A"
+
+class B:
+    def a(self):
+        return "Function inside B"
+
+class C(B,A):
+    pass
+
+# Driver code
+c = C()
+print(c.a())
+\end{lstlisting}
+Output:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Function inside B
+\end{lstlisting}
+
+Kelas C mewarisi dari kelas B dan A. Jika saya tidak menemukan fungsi a() di dalam kelas C, saya harus mencari kelas B dan A, dan penting untuk melakukannya dalam urutan tersebut.
+
+Sekarang saya akan menambahkan satu tingkat lagi ke dalam ini dan mencatat hasilnya.
+
+\subsubsection{Contoh 2}
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class A:
+    def b(self):
+        return "Function inside A"
+
+class B:
+    def b(self):
+        return "Function inside B"
+
+class C(A, B):
+    def b(self):
+        return "Function inside C"
+    pass
+
+class D(C):
+    pass
+
+d = D()
+print(d.b())
+\end{lstlisting}
+Output:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Function inside C
+\end{lstlisting}
+Kelas D mewarisi dari kelas C, yang pada gilirannya mewarisi dari kelas A dan B. Kelas D mengakses kelas induk langsung dari kelas D, yaitu kelas C, dan menentukan nilai variabel tersebut setelah menemukannya di kelas induk tersebut.
+
+Sekarang, katakanlah saya mengomentari deklarasi di dalam kelas C.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# def b(self):
+#     return "Function inside C" 
+\end{lstlisting}
+Dan ganti dengan kata kunci pass agar kode tetap berfungsi.
+
+Karena tidak ada nilai yang terdapat di dalam kelas C, panggilan fungsi di atas akan diarahkan ke A. Hal ini karena kelas C akan mengacu pada kelas A sebagai yang memiliki prioritas lebih tinggi saat mewarisi.
+
+Sekarang mari kita ambil contoh lain dari skenario serupa.
+
+\subsubsection{Contoh 3}
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class A:
+    def c(self):
+        return "Function inside A"
+
+class B:
+    def c(self):
+        return "Function inside B"
+
+class C(A, B):
+    def c(self):
+        return "Function inside C"
+
+class D(A, C):
+    pass
+
+d = D()
+print(d.c())
+\end{lstlisting}
+Output:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Traceback (most recent call last):
+  File "/Users/intropython/PycharmProjects/practicePython/inherit.py", line 10, in <module>
+    class D(A, C):
+TypeError: Cannot create a consistent method resolution
+order (MRO) for bases A, C
+\end{lstlisting}
+Perhatikan bahwa hal ini menyebabkan kesalahan. Dalam kode di atas, kelas D mewarisi dari kelas A dan kelas C.
+
+Kelas C adalah kelas induk langsungnya, tetapi karena ini adalah pewarisan ganda, aturannya lebih rumit dan juga harus memeriksa kelas-kelas yang diteruskan kepadanya untuk menentukan prioritas.
+
+Dalam kasus ini, kelas D tidak dapat menentukan urutan yang harus diikuti saat menentukan nilai untuk variabel dalam kasus di mana variabel tersebut tidak ada dalam kelas objek yang diberikan.
+
+Hal ini menyebabkan TypeError karena tidak dapat membuat Method Resolution Order (MRO). MRO adalah cara Python untuk menentukan urutan prioritas kelas saat menangani pewarisan.
+
+Mari kita lihat contoh terakhir.
+
+\subsubsection{Contoh 4}
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+class A:
+    def d(self):
+        return "Function inside A"
+
+class B:
+    def d(self):
+        return "Function inside B"
+
+class C:
+    def d(self):
+        return "Function inside C"
+
+class D(A, B):
+    def d(self):
+        return "Function inside D"
+
+class E(B, C):
+    def d(self):
+        return "Function inside E"
+
+class F(E,D,C):
+    pass
+
+f = F()
+print(f.d())
+print(F.mro())
+\end{lstlisting}
+Output:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Function inside E
+[<class '__main__.F'>, <class '__main__.E'>, <class '__main__.D'>, <class '__main__.A'>, <class '__main__.B'>, <class '__main__.C'>, <class 'object'>]
+\end{lstlisting}
+Kode di sini cukup sederhana. Kelas F secara langsung mewarisi dari kelas induk langsungnya dan kelas pertama yang diteruskan kepadanya. Baris kedua kemudian menunjukkan hasil dari fungsi mro().
+
+Contoh-contoh dalam bacaan ini menunjukkan bagaimana kode yang menggunakan pewarisan ganda dapat menjadi rumit dan berantakan dengan sangat cepat. Pewarisan ganda, dengan semua keunggulan dan fleksibilitas yang ditawarkannya, sebaiknya hanya digunakan setelah Anda menguasai Python sebagai bahasa pemrograman dengan baik untuk menghindari pembuatan 'kode spaghetti' yang sulit dipahami dan diperbarui.
+
+
+
 
 
 \newpage
