@@ -2843,7 +2843,7 @@ Package adalah kumpulan modul dalam Python yang berfungsi untuk mengorganisir ko
 \begin{itemize}
     \item Built-in Packages:
 
-          Package yang sudah tersedia setelah menginstal Python, seperti \textbf{os, sys, csv, json, math, dan itertools}.
+          Package yang sudah tersedia setelah menginstal Python, seperti \textbf{os, sys, csv, json, math, re, importlib, dan itertools}.
     \item Data Science Packages:
 
           Package populer untuk data science termasuk \textbf{NumPy, Pandas, SciPy, dan NLTK}.
@@ -2852,6 +2852,8 @@ Package adalah kumpulan modul dalam Python yang berfungsi untuk mengorganisir ko
           \begin{lstlisting}[language=Python, caption={}, captionpos=b]
 import pandas as pd.
 \end{lstlisting}
+
+          Untuk memprose gambar dan visualisasi data ada \textbf{opencv dan matplotlib}
     \item Machine Learning dan AI Packages:
 
           Package seperti \textbf{TensorFlow, PyTorch, dan Keras} digunakan untuk pengembangan model machine learning. Contoh sintaks:
@@ -2860,13 +2862,581 @@ import tensorflow as tf
 \end{lstlisting}
     \item Web Development Packages:
 
-          Package seperti Flask (micro-framework) dan Django (full-stack framework) digunakan untuk pengembangan web. Contoh sintaks:
+          Package seperti \textbf{Flask (micro-framework) dan Django (full-stack framework)} digunakan untuk pengembangan web, termasuk \textbf{cherry pie, pyramid, beautiful soup, dan selenium}. Contoh sintaks:
           \begin{lstlisting}[language=Python, caption={}, captionpos=b]
 from flask import Flask
 \end{lstlisting}
 \end{itemize}
 
+\subsection{Packages Populer}
+\subsubsection{Numpy}
+Mengasumsikan bahwa paket numpy sudah terpasang, kode untuknya dapat ditulis sebagai berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import numpy as np
 
+a = np.zeros(10)
+print(a)
+
+b = np.full((2,10), 0.7)
+print(b)
+
+c = np.linspace(0,25,7)
+print(c)
+
+print(type(c))
+\end{lstlisting}
+Outputnya berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+[[0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7]
+ [0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7]] 
+[ 0.          4.16666667  8.33333333 12.5        16.66666667 20.83333333  25.        ]
+<class 'numpy.ndarray'>
+\end{lstlisting}
+\begin{itemize}
+    \item Fungsi \verb|zeros()| di dalam numpy membuat array yang berisi n buah angka nol di dalamnya.
+    \item Fungsi \verb|full()| membuat matriks dua dimensi berdimensi 2 x 10 yang hanya berisi nilai 0.7.
+    \item Fungsi \verb|linspace()| menghasilkan \textbf{7 nilai yang sama jaraknya} antara 0 dan 25, termasuk kedua ujungnya. Array hasilnya dicetak di output.
+    \item Akhirnya, saat Anda memeriksa tipe data c, itu adalah tipe data khusus yang disebut \textbf{ndarray} (singkatan dari "n-dimensional array"), yang merupakan objek dasar yang digunakan dalam numpy. Tipe data ini jauh lebih efisien daripada daftar Python dan dioptimalkan untuk perhitungan numerik.
+    \item Jika Anda memeriksa tipe data a dan b, keduanya juga akan bertipe ndarray, karena numpy bekerja secara eksklusif dengan objek ndarray, memberikan keunggulan dalam hal kecepatan dan penggunaan memori dibandingkan dengan daftar Python.
+\end{itemize}
+
+\subsubsection{Pandas}
+Sekarang Anda akan mempelajari penggunaan perpustakaan lain yang bekerja erat dengan numpy dan perpustakaan data science lainnya yang disebut pandas.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import pandas as pd
+
+a = pd.DataFrame({'Animals': ['Dog','Cat','Lion','Cow','Elephant'],
+                    'Sounds':['Barks','Meow','Roars','Moo','Trumpet']})
+
+print(a)
+print(a.describe())
+
+b = pd.DataFrame({
+    "Letters" : ['a', 'b', 'c', 'd', 'e', 'f'],
+    "Numbers" : [12, 7, 9, 3, 5, 1]  })
+
+print(b.sort_values(by="Numbers"))
+
+b = b.assign(new_values = b['Numbers']*3)
+print(b)
+\end{lstlisting}
+Outputnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    Animals   Sounds
+0       Dog    Barks
+1       Cat     Meow
+2      Lion    Roars
+3       Cow      Moo
+4  Elephant  Trumpet
+
+
+       Animals Sounds
+count        5      5
+unique       5      5
+top        Dog  Barks
+freq         1      1
+
+
+  Letters  Numbers
+5       f        1
+3       d        3
+4       e        5
+1       b        7
+2       c        9
+0       a       12
+
+
+  Letters  Numbers  new_values
+0       a       12          36
+1       b        7          21
+2       c        9          27
+3       d        3           9
+4       e        5          15
+5       f        1           3
+\end{lstlisting}
+Dalam empat output pada kode ini, saya membuat DataFrame pandas dalam kode di atas yang disebut a.
+\begin{itemize}
+    \item Output pertama adalah untuk DataFrame yang disebut a, yang menampilkan output dalam format yang sangat sistematis.
+    \item Output kedua menggunakan fungsi \verb|describe()| dalam pandas yang akan memberikan jumlah, frekuensi, nilai teratas, dan frekuensi di antara nilai-nilai lainnya.
+    \item DataFrame kedua, b, terdiri dari huruf dan angka dalam urutan acak.
+    \item Output ketiga adalah fungsi penyortiran yang akan menghasilkan tabel yang disortir, sehingga data dalam tabel menjadi acak.
+    \item Terakhir, fungsi assign() mengambil nilai yang ada di dalam tabel, melakukan operasi pada nilai-nilai tersebut, dan menciptakan variabel baru bernama \verb|new_values| yang kemudian ditambahkan ke tabel.
+    \item Pandas, sama seperti Numpy, sangat luas digunakan dan memiliki beragam fungsi tambahan selain yang telah disebutkan.
+\end{itemize}
+
+\subsubsection{NLTK}
+NLTK, seperti yang telah disebutkan sebelumnya, adalah perpustakaan dalam Python yang digunakan untuk Pemrosesan Bahasa Alami. Berikut adalah beberapa hal yang dapat Anda lakukan dengan perpustakaan ini.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+
+text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+# Print statement 1
+print(word_tokenize(text))
+# Print statement 2
+print(nltk.tokenize.sent_tokenize(text))
+
+stopwords = stopwords.words("english")
+new_text = []
+for i in text.split():
+    if i not in stopwords:
+        new_text.append(i)
+
+# Print statement 3
+print(new_text)
+\end{lstlisting}
+Outputnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+['Lorem', 'Ipsum', 'is', 'simply', 'dummy', 'text', 'of', 'the', 'printing', 'and', 'typesetting', 'industry', '.', 'Lorem', 'Ipsum', 'has', 'been', 'the', 'industry', "'s", 'standard', 'dummy', 'text', 'ever', 'since', 'the', '1500s', ',', 'when', 'an', 'unknown', 'printer', 'took', 'a', 'galley', 'of', 'type', 'and', 'scrambled', 'it', 'to', 'make', 'a', 'type', 'specimen', 'book', '.']
+
+['Lorem Ipsum is simply dummy text of the printing and typesetting industry.', "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."]
+
+['Lorem', 'Ipsum', 'simply', 'dummy', 'text', 'printing', 'typesetting', 'industry.', 'Lorem', 'Ipsum', "industry's", 'standard', 'dummy', 'text', 'ever', 'since', '1500s,', 'unknown', 'printer', 'took', 'galley', 'type', 'scrambled', 'make', 'type', 'specimen', 'book.']
+\end{lstlisting}
+NLTK adalah perpustakaan yang sangat besar, dan tidak disarankan untuk mengimpor semua paket dan subpaketnya. Jika Anda memeriksa kode tersebut, Anda akan menyadari bahwa hanya fungsi-fungsi yang diperlukan dari subpaket seperti corpus dan tokenize yang diimpor dalam kode tersebut.
+\begin{itemize}
+    \item Pertama, sebuah blok teks disalin ke dalam blok kode dan ditugaskan ke variabel bernama \verb|text|.
+    \item Fungsi pertama yang digunakan adalah \verb|word_tokenize()|. Fungsi ini mengambil teks dan menghasilkan bagian pertama dari output di mana kata-kata dipisahkan menjadi komponen individu, termasuk tanda baca dan singkatan (misalnya, memisahkan "industry's" menjadi \verb|["industry", "'s"]|). Meskipun hal yang sama dapat dilakukan dengan fungsi \verb|split()| dari kelas string, \verb|word_tokenize()| lebih cocok untuk pemrosesan bahasa alami karena menangani nuansa linguistik dengan lebih efektif.
+    \item Fungsi kedua, \verb|sent_tokenize()|, memecah blok teks menjadi kalimat, menghasilkan bagian kedua dari output.
+    \item Untuk output ketiga, kode menghapus apa yang disebut "stopwords" dari teks. Stopwords adalah kata-kata umum dalam bahasa Inggris, seperti "a," "the," dan "him," yang dapat dianggap redundant untuk banyak tugas pemrosesan bahasa alami. Kata-kata ini diambil menggunakan \verb|stopwords.words("english")|. Sebuah loop for kemudian digunakan untuk menyaring stopwords ini dan membuat daftar baru bernama \verb|new_text|. Perbedaan antara output pertama dan output akhir menunjukkan penghapusan stopwords, yang meninggalkan hanya kata-kata yang lebih penting dalam teks.
+\end{itemize}
+
+\subsection{Pustaka Python untuk Data Analysis}
+\begin{itemize}
+    \item NumPy:
+          \begin{itemize}
+              \item Definisi: Pustaka yang kuat untuk komputasi numerik, menjadi dasar bagi pustaka lain seperti Scikit-learn dan Matplotlib.
+              \item Sintaks: \verb|import numpy as np|
+              \item Fungsi: Memungkinkan operasi pada array multidimensi (ND array) yang lebih cepat dibandingkan dengan list biasa.
+          \end{itemize}
+    \item Pandas:
+          \begin{itemize}
+              \item Definisi: Alat untuk analisis dan manipulasi data, digunakan untuk bekerja dengan dataset.
+              \item Sintaks: \verb|import pandas as pd|
+              \item Fungsi: Menyediakan struktur data seperti Series (1D) dan DataFrame (2D) untuk memudahkan pembersihan dan analisis data.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Visualisasi Data}
+\begin{itemize}
+    \item Matplotlib:
+          \begin{itemize}
+              \item Definisi: Pustaka untuk visualisasi data yang dapat membuat grafik statis, interaktif, dan animasi.
+              \item Sintaks: \verb|import matplotlib.pyplot as plt|
+              \item Fungsi: Digunakan untuk menampilkan representasi grafis dari data, seperti distribusi nilai.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Pembelajaran Mesin}
+\begin{itemize}
+    \item Scikit-learn:
+          \begin{itemize}
+              \item Definisi: Pustaka untuk pembelajaran mesin yang menyediakan berbagai algoritma untuk klasifikasi, regresi, dan clustering.
+              \item Sintaks: \verb|from sklearn import ...|
+              \item Fungsi: Memfokuskan pada pemodelan data dengan menyediakan algoritma untuk validasi dan pengurangan dimensi.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Artificial Intelligencce dan Data Science}
+\begin{itemize}
+    \item Artificial Intelligence (AI): Bidang yang berfokus pada pembuatan mesin yang dapat berpikir seperti manusia.
+    \item Data Science: Fokus pada pengelolaan dan eksplorasi data, termasuk media seperti teks, audio, gambar, dan video.
+\end{itemize}
+
+\subsection{Machine Learning}
+Machine Learning (ML) adalah subbidang dari AI yang berurusan dengan algoritma untuk melatih dan menghasilkan wawasan dari data.
+
+Contoh penggunaan ML:
+\begin{itemize}
+    \item Natural Language Processing: Memproses dan menganalisis bahasa manusia.
+    \item Deep Learning: Menggunakan jaringan saraf untuk analisis data yang kompleks.
+    \item Computer Vision: Menginterpretasikan dan memahami gambar dan video.
+\end{itemize}
+
+\subsection{Pentingnya Python dalam AI dan ML}
+Python adalah bahasa pemrograman yang populer di bidang ini karena:
+\begin{itemize}
+    \item Tactical Efficiency: Efisiensi dalam penulisan kode.
+    \item Readability: Kode yang mudah dibaca.
+    \item Flexibility: Kompatibilitas dengan berbagai bahasa dan sistem operasi.
+    \item Community Support: Komunitas pengembang yang besar.
+\end{itemize}
+
+\subsection{Library dan Framework dalam Python}
+\begin{itemize}
+    \item Library: Kumpulan modul yang menyediakan fungsi tertentu. Contoh: NumPy, Pandas, Matplotlib.
+    \item Framework: Struktur yang menyediakan alur dan arsitektur tertentu untuk pengembangan aplikasi.
+    \item Package: Kumpulan modul yang membantu mengorganisir kode, mirip dengan direktori dengan file.
+\end{itemize}
+
+\subsection{Pemilihan Library}
+Pemilihan library yang tepat dapat menghemat waktu saat coding.
+
+Contoh library populer:
+\begin{itemize}
+    \item \textbf{Deep Learning}: TensorFlow, Keras.
+    \item \textbf{Computer Vision}: OpenCV.
+    \item \textbf{Natural Language Processing}: NLTK, spaCy.
+\end{itemize}
+
+\subsection{Big Data dan Analisis dengan Python}
+Dengan munculnya media sosial dan penerimaannya yang luas, muncul kebutuhan yang belum pernah terjadi sebelumnya dalam pengelolaan data. Kini, miliaran gigabyte data dihasilkan setiap hari, dan sebagian besar di antaranya dihasilkan oleh pengguna akhir. Organisasi menyadari potensi besar dalam memanfaatkan data ini menggunakan algoritma prediktif dan pembelajaran mesin untuk menghasilkan wawasan. Namun, sebelum menghadapi tantangan tersebut, muncul tantangan untuk menyimpan dan mengelola data ini secara efisien dan sistematis agar dapat diakses dengan cepat.
+
+\paragraph{Big data} adalah pengelolaan kumpulan data besar, baik yang terstruktur maupun tidak terstruktur. Saat ini, jumlah data yang besar ini disimpan dalam bentuk data warehouse dan data lake, baik di server maupun di cloud. Ciri-ciri utama yang umumnya diidentifikasi untuk penggunaan alat Big Data adalah \textbf{Volume, Variabilitas, dan Kecepatan}.
+
+\paragraph{Volume} merujuk pada ukuran data yang sedang dibahas, dan jika cukup besar, mungkin memerlukan penanganan yang berbeda dari penyimpanan dan pengelolaan data tradisional.
+
+\paragraph{Variabilitas atau keakuratan} merujuk pada ketidakkonsistenan yang mungkin terdapat dalam data tersebut. Dalam repositori data yang sangat besar, sulit untuk melakukan intervensi manual pada setiap entri yang salah, sehingga ruang lingkup variabilitas yang cukup harus didefinisikan dan ditetapkan saat menangani data semacam ini.
+
+\paragraph{Kecepatan} adalah laju penanganan data ini. Dengan sumber data seperti media sosial yang terus aktif, diperlukan pembaruan konstan serta penyimpanan yang andal. Saat data perlu diproses, hal ini juga tidak boleh menyebabkan bottleneck yang membuat pengambilan data menjadi lebih lama. Oleh karena itu, kecepatan memainkan peran yang sangat penting dalam Big Data.
+
+Ini adalah kemampuan untuk mengelola sejumlah besar data heterogen dengan akses yang mudah dan pemrosesan yang cepat. Langkah berikutnya dalam proses ini adalah ketika data tersebut dianalisis, yang secara umum disebut sebagai analisis data. Langkah akhir adalah mempublikasikan data tersebut dalam bentuk laporan, visualisasi, dan halaman web, sesuai dengan kebutuhan.
+
+Seluruh alur kerja dapat dirangkum sebagai berikut:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/pipeline.png}
+    \caption{}
+\end{figure}
+
+
+Berikut adalah beberapa alasan mengapa Python telah menemukan tempatnya di bidang Big Data:
+\begin{itemize}
+    \item Kemudahan penggunaan: Kemudahan penggunaan merupakan syarat mutlak bagi teknologi dan bahasa pemrograman yang digunakan secara luas dan berskala besar. Python memudahkan pengaturan dan pengoperasian infrastruktur dengan hanya beberapa baris kode.
+    \item Struktur lisensi dan sifat open-source: Paradigma open-source telah berkembang pesat dalam beberapa tahun terakhir. Python menyediakan banyak perpustakaan dan kerangka kerja open-source yang sangat baik, bahkan untuk aplikasi berskala besar. Beberapa organisasi lebih memilih ini karena menghemat biaya serta memudahkan proses lisensi.
+    \item Komunitas aktif: Komunitas Python saat ini sangat besar dan sangat mendukung. Hal ini membantu dalam penyelesaian cepat masalah yang mungkin dihadapi pengguna, serta pengembangan fitur baru saat diperlukan.
+    \item Perpustakaan: Mungkin alasan terkuat untuk penerimaan Python adalah banyaknya perpustakaan yang memberikan dukungan langsung untuk Big Data. Selain itu, terdapat banyak paket yang juga membantu menjembatani kesenjangan antara Python dan bahasa pemrograman serta alat lain, memudahkan deployment layanan dengan cepat.
+    \item Kompatibilitas tinggi dengan Hadoop dan Spark: Hadoop dan sistem file terdistribusi Hadoop (HDFS) dapat dikatakan sebagai salah satu solusi terbaik untuk penyimpanan skala besar. Dukungan yang tersedia dalam Python juga telah membantu dalam penerimaan yang lebih luas terhadap Python. Hal yang sama berlaku untuk Spark, karena Python memiliki perpustakaan pendukung seperti PySpark dan berbagai perpustakaan API yang memudahkan penggunaannya.
+    \item Kecepatan pemrosesan yang tinggi: Python mendukung prototyping dan dengan metodologi berorientasi objeknya, pemrosesan di Python jauh lebih baik dibandingkan bahasa lain. Dengan peningkatan kecepatannya, Python juga mampu memberikan stabilitas yang memadai dalam penggunaannya.
+    \item Portabilitas dan skalabilitas: Secara umum, seperti yang telah disebutkan sebelumnya, dukungan Python untuk platform lintas bahasa dan operasi, kemudahan perluasan, berbagai perpustakaan, dukungan untuk kerangka kerja dan API secara keseluruhan, membuatnya mudah untuk diskalakan dan fleksibel.
+    \item Perangkat dan perpustakaan Python: Sebagian besar perpustakaan Python yang digunakan untuk Big Data sangat umum dan terkait dengan Ilmu Data dan Pembelajaran Mesin. Big Data mencakup penggunaan dan penerimaan yang luas dari perpustakaan seperti: Numpy, Pandas, Scikit-learn, dan Scipy. Hanya untuk menyebutkan beberapa di antaranya.
+\end{itemize}
+Selain itu, berikut ini beberapa perpustakaan lain yang lebih spesifik untuk domain Big Data, seperti:
+\begin{itemize}
+    \item RedShift and S3: Amazon services are used with their cloud services. S3 is a storage service and RedShift is a data warehousing service.
+    \item BigQuery: Developed by Google, BigQuery is a Cloud service library that is useful with RESTful APIs.
+    \item PySpark: This is an open-source framework used for large scale data processing and works with resilient distributed datasets.
+    \item Kafka: This is a publish-subscribe messaging system that receives logs in the form of packages and is stored in partitioned spaces.
+    \item Pydoop: Pydoop provides an interface between Hadoop and Python and support for handling its Hadoop distributed file systems.
+\end{itemize}
+
+\subsection{Pengertian Web Framework}
+Web Framework adalah aplikasi perangkat lunak yang membantu pengembang fokus pada logika aplikasi dengan mengotomatiskan tugas-tugas yang berulang, sehingga menghemat waktu pengembangan.
+
+\subsection{Jenis-jenis Web Framework di Python}
+\begin{itemize}
+    \item Fullstack Frameworks:
+
+          Menyediakan semua fungsionalitas yang diperlukan untuk pengembangan aplikasi web. Contoh: Django, Web2py, Pyramid.
+    \item Microframeworks:
+
+          Versi lebih ringan dari fullstack, biasanya digunakan untuk proyek kecil dan membangun API. Contoh: Flask, Bottle, Dash, CherryPy.
+    \item Asynchronous Frameworks:
+
+          Dirancang untuk menangani banyak koneksi secara bersamaan, dibangun menggunakan pustaka jaringan Async IO. Contoh: Growler, AIOHTTP, Sanic.
+\end{itemize}
+
+\subsection{Memilih Framework}
+\begin{itemize}
+    \item Mempertimbangkan faktor seperti dokumentasi yang tersedia, skalabilitas, fleksibilitas, dan integrasi.
+    \item Django: Framework tingkat tinggi yang mendukung desain bersih dan pengembangan cepat, cocok untuk aplikasi yang skalabel.
+    \item Flask: Microframework yang mudah dipelajari dan digunakan, ideal untuk proyek kecil.
+\end{itemize}
+
+\subsection{Fitur Umum Framework}
+\begin{itemize}
+    \item Menyediakan alat untuk pemrosesan formulir, routing permintaan, koneksi dengan basis data, dan otentikasi pengguna.
+    \item Menyediakan alat debugging dan pengujian untuk menangani profiling, cakupan pengujian, dan otomatisasi pengujian.
+\end{itemize}
+
+\subsection{Pengertian Testing}
+Testing adalah proses evaluasi dan verifikasi aplikasi perangkat lunak untuk memastikan kinerja, kebenaran, dan kelengkapan. Ini membantu mengidentifikasi bug, kekurangan, dan kebutuhan yang hilang.
+
+\subsection{Evolusi Testing}
+Pada awalnya, pengembang perangkat lunak mengandalkan \textbf{debugging} untuk mendeteksi dan menghapus kesalahan. Seiring perkembangan perangkat lunak, berbagai jenis testing muncul dan diintegrasikan lebih awal dalam siklus pengembangan.
+
+\subsection{Pentingnya Testing}
+\begin{itemize}
+    \item Testing membantu mendeteksi desain yang buruk, mengubah alur atau fungsionalitas yang tidak efisien, dan menemukan kerentanan keamanan.
+    \item Memberikan \textbf{A/B testing} untuk menemukan opsi terbaik dan memastikan kompatibilitas dengan platform dan perangkat.
+\end{itemize}
+
+\subsection{Praktik Baik dalam Testing}
+\begin{itemize}
+    \item Kode testing harus dapat digunakan kembali dan dapat dilacak ke persyaratan yang ditetapkan.
+    \item Testing harus ditulis dengan tujuan yang jelas, efisien, dan memungkinkan pengulangan.
+\end{itemize}
+
+\subsection{Siklus Hidup Testing}
+Siklus hidup testing umumnya terdiri dari:
+\begin{itemize}
+    \item Planning: Merencanakan pengujian.
+    \item Preparation: Menyiapkan skrip dan kasus uji.
+    \item Execution: Melaksanakan pengujian.
+    \item Reporting: Menghasilkan laporan dari hasil pengujian.
+\end{itemize}
+
+\subsection{Kategori dan Tipe Testing}
+Testing dapat dibedakan berdasarkan beberapa faktor, seperti:
+\begin{itemize}
+    \item Black Box Testing: Menguji fungsionalitas tanpa mengetahui implementasi internal.
+    \item White Box Testing: Menguji dengan pengetahuan tentang struktur internal aplikasi.
+\end{itemize}
+Tipe testing yang umum digunakan termasuk \textbf{compatibility testing, ad hoc testing, usability testing, dan regression testing}.
+
+\subsection{Menghentikan Testing}
+Penting untuk mengetahui kapan harus menghentikan testing, karena tidak ada aplikasi yang akan sempurna 100\%. Beberapa metrik dapat digunakan untuk menentukan kapan testing dapat dihentikan, seperti jumlah siklus pengujian dan persentase kasus uji yang lulus.
+
+\subsection{Jenis Pengujian}
+\begin{itemize}
+    \item Unit Testing: Menguji komponen individual dari kode secara terpisah. Contoh sintaks dalam Python menggunakan \verb|pytest|:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def test_function():
+    assert function() == expected_value
+\end{lstlisting}
+          Definisi: Pengujian yang fokus pada bagian terkecil dari kode untuk memastikan bahwa setiap bagian berfungsi dengan baik.
+
+    \item Integration Testing: Menguji interaksi antara beberapa unit untuk memastikan bahwa mereka bekerja bersama dengan baik.
+
+          Definisi: Pengujian yang memeriksa aliran data antara komponen yang berbeda dalam sistem.
+    \item System Testing: Menguji seluruh sistem perangkat lunak untuk memastikan bahwa semua bagian berfungsi sesuai dengan persyaratan yang ditetapkan.
+
+          Definisi: Pengujian yang menilai sistem secara keseluruhan untuk memastikan bahwa ia memenuhi spesifikasi dan harapan.
+    \item Acceptance Testing: Menguji perangkat lunak untuk memastikan bahwa ia siap untuk digunakan oleh pengguna akhir. Ini biasanya melibatkan pengguna yang sebenarnya. Definisi: Pengujian yang dilakukan untuk menentukan apakah sistem memenuhi kriteria penerimaan dan siap untuk diluncurkan.
+\end{itemize}
+
+\subsection{Kategorisasi Pengujian}
+\begin{itemize}
+    \item White Box Testing: Pengujian di mana penguji memiliki pengetahuan tentang struktur internal kode. Definisi: Pengujian yang dilakukan dengan pemahaman mendalam tentang kode yang diuji.
+    \item Black Box Testing: Pengujian di mana penguji tidak memiliki pengetahuan tentang struktur internal kode. Definisi: Pengujian yang fokus pada output dari sistem tanpa mempertimbangkan bagaimana hasil tersebut dicapai.
+    \item Functional Testing: Menguji fitur dan fungsi perangkat lunak berdasarkan persyaratan bisnis. Definisi: Pengujian yang memastikan bahwa fitur perangkat lunak berfungsi sesuai dengan yang diharapkan.
+    \item Non-Functional Testing: Menguji aspek lain dari perangkat lunak seperti kinerja, keamanan, dan keandalan. Definisi: Pengujian yang menilai kualitas dan kinerja sistem di luar fungsi dasar.
+\end{itemize}
+
+\subsection{Metode Pengujian}
+\begin{itemize}
+    \item Manual Testing: Pengujian dilakukan secara manual oleh penguji tanpa bantuan alat otomatis. Definisi: Proses pengujian yang dilakukan oleh manusia untuk menemukan bug.
+    \item Automated Testing: Pengujian yang dilakukan dengan menggunakan alat otomatis untuk menjalankan tes. Definisi: Pengujian yang menggunakan perangkat lunak untuk menjalankan tes dan membandingkan hasilnya dengan hasil yang diharapkan.
+\end{itemize}
+
+\subsection{Pentingnya Automated Testing}
+Automated Testing adalah proses pengujian perangkat lunak yang dilakukan secara otomatis menggunakan alat atau skrip, mengurangi kebutuhan untuk pengujian manual.
+
+Dengan kemajuan teknologi, otomatisasi kode membantu menghemat waktu dan usaha dalam pengujian.
+
+\subsection{Jenis Pengujian yang Dapat Diotomatisasi}
+\begin{itemize}
+    \item Unit Testing: Menguji bagian terkecil dari kode secara terpisah untuk memastikan setiap bagian berfungsi dengan benar.
+    \item Regression Testing: Memastikan bahwa perubahan baru dalam kode tidak merusak fungsi yang sudah ada.
+    \item Integration Testing: Menguji interaksi antara beberapa unit untuk memastikan mereka bekerja dengan baik bersama.
+\end{itemize}
+
+\subsection{Kerangka Kerja Pengujian Python}
+\begin{itemize}
+    \item unittest: Kerangka kerja pengujian bawaan Python yang mendukung pengujian otomatis dan pengujian independen.
+
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import unittest
+class TestExample(unittest.TestCase):
+    def test_function(self):
+        self.assertEqual(function(), expected_value)
+\end{lstlisting}
+    \item Pytest: Kerangka kerja yang sederhana dan mudah digunakan, mendukung berbagai jenis pengujian fungsional.
+
+          Parameterized testing: Menjalankan unit test dengan parameter yang berbeda.
+          Menghasilkan laporan dalam format HTML, XML, atau teks biasa.
+          Dapat diintegrasikan dengan kerangka kerja lain seperti Pyunits dan nose.
+    \item Robot Framework: Kerangka kerja yang populer untuk pengembangan berbasis kata kunci.
+
+          Dapat digunakan untuk pengujian penerimaan, otomatisasi proses robotik (RPA), dan pengembangan berbasis pengujian.
+    \item Selenium: Kerangka kerja open-source untuk pengujian aplikasi web.
+
+          Mendukung berbagai browser dan sistem operasi. Memungkinkan pengujian fungsionalitas seperti login, klik tombol, dan pengisian formulir.
+\end{itemize}
+
+\subsection{Menulis Tes dengan PyTest}
+\subsubsection{Pembuatan Fungsi}
+\begin{itemize}
+    \item Fungsi Penjumlahan: Sebuah fungsi dibuat untuk menjumlahkan dua variabel, A dan B.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def add(a, b):
+    return a + b
+\end{lstlisting}
+    \item Fungsi Pengurangan: Fungsi lain dibuat untuk mengurangi dua variabel.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def sub(a, b):
+    return a - b
+\end{lstlisting}
+\end{itemize}
+
+\subsubsection{Penulisan Tes}
+\begin{itemize}
+    \item File Tes: Buat file bernama \verb|test_addition.py| untuk menulis test cases.
+    \item Import: Import file yang berisi fungsi yang akan diuji dan modul pytest.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import pytest
+from addition import add, sub
+    \end{lstlisting}
+    \item Definisi Test Case: Setiap test case diberi nama dengan awalan \verb|test_|.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def test_add():
+    assert add(4, 5) == 9
+def test_sub():
+    assert sub(4, 5) == -1
+    \end{lstlisting}
+\end{itemize}
+
+\subsubsection{Menjalankan Tes}
+\begin{itemize}
+    \item Menjalankan Tes: Gunakan terminal untuk menjalankan tes dengan perintah:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    python -m pytest test_addition.py
+    \end{lstlisting}
+    \item Hasil Tes: Jika semua assert statements benar, tes akan lulus. Jika salah, akan menunjukkan di mana kesalahan terjadi.
+\end{itemize}
+
+\subsubsection{Mengubah Hasil Tes}
+Jika salah satu assert statement diubah untuk gagal, hasil tes akan menunjukkan bahwa tes tersebut gagal.
+Contoh: Mengubah \verb|assert sub(4, 5) == -1| menjadi \verb|assert sub(4, 5) == -2|.
+
+\subsubsection{Penggunaan assert}
+Assert Statement digunakan untuk memeriksa kondisi dalam kode dan mengharapkan nilai boolean true atau false.
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+assert condition
+\end{lstlisting}
+
+\subsubsection{Praktik Baik}
+\begin{itemize}
+    \item Penamaan: Menggunakan awalan \verb|test_| untuk nama file dan fungsi adalah praktik yang baik.
+    \item Menjalankan Tes Spesifik: Untuk menjalankan tes pada fungsi tertentu, tambahkan :: di akhir nama file diikuti dengan nama fungsi.
+          Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+python -m pytest test_addition.py::test_add
+\end{lstlisting}
+\end{itemize}
+
+\subsection{PyTest Cheatsheet}
+\subsubsection{Installation}
+Jalankan perintah berikut di Terminal:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    pip3 install pytest (Mac)
+\end{lstlisting}
+Or
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    pip install pytest (Windows)
+\end{lstlisting}
+\paragraph{Nomenclature}
+
+\begin{itemize}
+    \item Add prefix \verb|'test_'| to the file that needs to be tested.
+    \item Add prefix \verb|'test_'| to the functions to be tested.
+\end{itemize}
+
+\subsubsection{Running pytest}
+Ini adalah perintah yang harus dieksekusi di prompt Terminal:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    python3 -m pytest test_file.py
+\end{lstlisting}
+
+\paragraph{Alternative method}
+
+\verb|py.test| Akan mencari kata kunci "test" dan menjalankan tes secara otomatis pada file dan fungsi yang terkait.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    py.test test_file.py
+\end{lstlisting}
+
+Saat Anda menjalankan pytest untuk fungsi tertentu, tambahkan \verb|    ::   | untuk menjalankan fungsi tertentu dalam file yang ditentukan.
+
+\subsubsection{Flags used}
+Misalnya, \verb|-v| adalah bendera:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    python3 -m pytest abc.py -v
+\end{lstlisting}
+
+Beberapa opsi bendera lainnya adalah:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+-v for verbose
+-q quiet mode
+-s allows the print statement inside the functions to be executed
+-x is to flag the tests to stop execution after first failure
+-m is used to mark a specific function
+-k is a flag for searching and running tests with a specific keyword
+--tb is to disable the traceback code of errors
+--maxfail n specifies maximum number of test fails allowed
+\end{lstlisting}
+
+\subsubsection{Tips}
+\begin{itemize}
+    \item Aturan umum adalah bahwa pernyataan assert mencari hasil Boolean. Anda dapat menggunakan \verb|in, not in, is, <, >|, selain \verb|==| untuk memeriksa nilai Boolean.
+    \item Anda dapat menambahkan beberapa pernyataan assert di dalam satu fungsi pengujian.
+\end{itemize}
+
+\subsubsection{Additional Info}
+\begin{itemize}
+    \item Fixtures
+
+          Fixtures adalah jenis fungsi yang diterapkan pada fungsi yang akan diuji. Fungsi-fungsi ini harus dijalankan sebelum uji coba tersebut dieksekusi. Tujuan dari fixtures adalah untuk menyediakan data dari berbagai sumber, termasuk URL dan basis data, ke dalam uji coba sebelum uji coba tersebut dijalankan. Fixtures digunakan dalam kasus di mana kode mengulang proses inisialisasi.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @pytest.fixture 
+    \end{lstlisting}
+
+    \item Markers
+
+          Marker digunakan untuk 'menandai' fungsi-fungsi tertentu yang akan dieksekusi dengan memungkinkan pengguna membuat nama khusus. Terdapat banyak marker bawaan seperti xfail, xpass, skip, dan sebagainya.
+
+          Mereka mengikuti format seperti:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @pytest.mark.<markername> 
+    \end{lstlisting}
+
+          Misalnya:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    @pytest.mark.alpha 
+    \end{lstlisting}
+
+          Menjalankan tes yang ditandai secara spesifik di baris perintah dapat dilakukan dengan perintah berikut:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    pytest -m <markername> -v 
+    \end{lstlisting}
+          Which will be as follows for a marker called alpha.
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    pytest -m alpha -v 
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{Pengertian TDD}
+Test-Driven Development (TDD) adalah Metode pengembangan perangkat lunak di mana pengujian ditulis terlebih dahulu sebelum kode ditulis. Ini berbeda dari metode tradisional yang menulis kode terlebih dahulu dan kemudian melakukan pengujian.
+
+\subsection{Langkah-langkah TDD}
+\begin{itemize}
+    \item Menulis Test: Tulis test untuk fitur yang diinginkan, yang akan gagal pada awalnya.
+    \item Menulis Kode: Tulis kode yang diperlukan agar test tersebut lulus.
+    \item Menjalankan Test: Jalankan test dan harapkan test tersebut gagal.
+    \item Evaluasi dan Refactor: Evaluasi kesalahan dan refactor kode jika diperlukan.
+    \item Ulangi Proses: Ulangi proses ini hingga semua test lulus. Proses ini dikenal sebagai \textbf{red-green-refactor cycle}.
+          \begin{itemize}
+              \item Red: Menunjukkan test yang gagal.
+              \item Green: Menunjukkan test yang lulus setelah refactoring.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Perbedaan TDD dan Pengujian Tradisional}
+TDD menekankan pada penetapan persyaratan dan standar dari awal, menjadikannya lebih terarah dibandingkan dengan pengujian tradisional.
+
+\subsection{Subtipe TDD}
+Terdapat beberapa subtipe TDD, termasuk:
+\begin{itemize}
+    \item Behavior-Driven Development (BDD): Fokus pada perilaku aplikasi.
+    \item Developer Test-Driven Development: Ditekankan pada pengujian yang dilakukan oleh pengembang.
+\end{itemize}
 
 
 \newpage
