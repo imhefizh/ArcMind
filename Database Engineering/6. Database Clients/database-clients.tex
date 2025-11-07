@@ -69,10 +69,386 @@ Dalam sistem client/server, MySQL sebagai server basis data adalah perangkat lun
 Database MySQL dirancang untuk bekerja dengan berbagai perangkat lunak, program, dan bahasa pemrograman. Semua perangkat lunak tersebut memiliki klien khusus untuk berinteraksi dengan database, dan klien-klien ini juga disebut driver atau API.
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{./Picts/clients.png}
-    \caption{}
+      \centering
+      \includegraphics[width=0.8\textwidth]{./Picts/clients.png}
+      \caption{}
 \end{figure}
+
+Dalam diagram, klien adalah sepotong kode yang menghubungkan aplikasi front-end Anda dengan basis data back-end. Klien membangun koneksi komunikasi antara aplikasi dan basis data untuk menjalankan kueri SQL sesuai dengan kebutuhan aplikasi Anda.
+
+Saat bekerja dengan Python, terdapat berbagai klien yang tersedia. Dua klien yang paling sering digunakan adalah \textbf{MySQL Connector/Python} dan \textbf{SQLAlchemy}. Klien MySQL Connector/Python sangat populer dan merupakan klien atau driver database standar untuk platform dan pengembangan Python. Klien SQLAlchemy juga memberikan pengembang Python kendali penuh dan fleksibilitas untuk menjalankan kueri SQL menggunakan Python pada database MySQL.
+
+Untuk terhubung ke database menggunakan Python, Anda perlu mengirimkan permintaan ke klien untuk membuat koneksi dengan database. Setelah permintaan Anda diterima oleh database, database akan mengirimkan pesan konfirmasi ke klien. Python kemudian menggunakan koneksi tersebut untuk menjalankan kueri SQL. Dengan demikian, klien memungkinkan Anda untuk bekerja dengan database MySQL di belakang layar dari aplikasi Python Anda.
+
+\subsection{Bagaimana Databases digunakan dalam Programming}
+Berikut adalah role pekerjaan yang terkait dengan database:
+\begin{itemize}
+      \item Database administrator
+
+            Seorang administrator basis data adalah penjaga data. Mereka merancang pendekatan untuk mengoptimalkan pembacaan dan penulisan informasi. Sebagai pemecah masalah, peran ini melibatkan kerja sama dengan berbagai departemen dalam suatu organisasi.
+
+            Pengetahuan tentang SQL merupakan aset besar bagi administrator karena memungkinkan mereka membuat kueri terlepas dari mesin basis data yang digunakan.
+
+            Peran ini memerlukan pengalaman bekerja di posisi entry-level seperti analis data atau programmer. Salah satu fitur berguna dari sintaks SQL adalah bahwa setelah Anda dapat menulis pernyataan SQL di satu mesin, Anda dapat menulisnya di mesin mana pun.
+
+      \item Database modeler
+
+            Peran seorang perancang model basis data adalah untuk merancang skema basis data. Mereka bertugas untuk memelihara dokumentasi mengenai arsitektur basis data serta solusi informasi yang digunakan. Seorang perancang model yang baik harus memahami jenis-jenis data dalam basis data, kapan menggunakan jenis data yang sesuai, dan bagaimana menormalisasi tabel untuk memastikan kueri dan gabungan data yang baik di masa mendatang.
+
+      \item Database engineer
+
+            Seorang insinyur basis data bekerja di bagian backend dan bertugas untuk membuat dan mengisi basis data. Seorang programmer yang baik menggunakan fungsi dan prosedur. Mereka juga sering memiliki bahasa pemrograman tambahan yang dapat digunakan untuk berinteraksi dengan basis data, seperti Python atau R. Hal ini karena data tidak datang secara terpisah. Informasi memiliki sumber asal, seperti situs web, dan tujuan akhir, seperti lokasi penyimpanan online.
+
+            Sebagai programmer basis data, tugas Anda adalah menulis kode yang dapat mengakses dan memperbarui data ini dengan efisien dan lancar. Seorang insinyur juga dapat bertindak sebagai analis data. Insinyur basis data juga dapat menjadi peran spesialis.
+
+      \item Database analyst
+
+            Peran analis adalah memanfaatkan informasi yang terdapat dalam basis data untuk keperluan bisnis. Untuk memahami data tersebut, diperlukan pemahaman yang baik tentang cara mengakses tabel-tabel yang berbeda secara efisien dan mengembalikan data dalam format yang dapat diproses dengan mudah dalam operasi selanjutnya.
+
+      \item Database tester
+
+            Seorang penguji basis data bertugas untuk menemukan bug dalam sistem. Ini adalah peran khusus yang membutuhkan pemikiran kreatif dalam mengidentifikasi kelemahan yang mungkin ada dalam sistem. Peran ini memerlukan seseorang yang mandiri dan nyaman bekerja di luar tim.
+\end{itemize}
+
+\subsection{Desain Database}
+\begin{itemize}
+      \item Data Validity: Memastikan bahwa data yang disimpan dan ditampilkan akurat dan dapat dipercaya.
+      \item Data Integrity: Merujuk pada akurasi dan konsistensi data dalam database, yang didukung oleh desain yang baik untuk mencegah akses yang tidak sah.
+\end{itemize}
+
+\subsection{Model Data Inti}
+\begin{itemize}
+      \item Core Data Model: Langkah awal dalam desain database yang melibatkan pembuatan model data inti yang diperlukan agar produk berfungsi. Ini membantu dalam memahami cara mengakses data dari perspektif produk.
+      \item Privacy and Validation: Setelah model data awal dibangun, pertimbangan untuk privasi dan validasi, seperti enkripsi data, sangat penting.
+\end{itemize}
+
+\subsection{Pertimbanga Utama}
+\begin{itemize}
+      \item User Privacy: Pengguna harus diberitahu tentang di mana data mereka disimpan dan bagaimana data tersebut digunakan untuk menjaga kepercayaan.
+      \item Scalability: Database harus mampu tumbuh seiring dengan meningkatnya jumlah pengguna dan produk, memerlukan pandangan jauh ke depan dalam desain.
+\end{itemize}
+
+\subsection{Tantangan Modifikasi Database}
+Mengubah model data yang ada bisa menjadi tantangan dan memerlukan perencanaan yang cermat untuk migrasi data.
+
+\subsection{Kepercayaan Pengguna}
+Desain dan manajemen database yang baik sangat penting untuk membangun kepercayaan pengguna, memastikan pengguna merasa aman tentang penanganan data mereka.
+
+\subsection{Koneksi antara Python dan MySQL}
+\begin{itemize}
+      \item Koneksi antara aplikasi Python dan database MySQL dibentuk menggunakan \textbf{Application Programming Interface (API)}. API adalah sekumpulan program yang berfungsi sebagai jembatan antara aplikasi Python dan database MySQL.
+      \item API yang umum digunakan adalah \textbf{MySQL Connector Python}.
+\end{itemize}
+
+\subsection{Proses Koneksi}
+
+\begin{itemize}
+      \item Proses dimulai dengan aplikasi Python mengirimkan connection request ke API. Connection Request adalah permintaan dari aplikasi Python untuk mengakses dan mengambil informasi dari database.
+      \item Setelah permintaan diterima, API meneruskan permintaan tersebut ke database MySQL, yang kemudian mengonfirmasi bahwa koneksi telah berhasil dibentuk.
+\end{itemize}
+
+\subsection{Menggunakan Cursor untuk Eksekusi Query}
+\begin{itemize}
+      \item Setelah koneksi berhasil, Anda dapat membuat cursor dari kelas connector. Cursor adalah objek yang digunakan untuk mengeksekusi query SQL di database MySQL.
+      \item Contoh penggunaan: Aplikasi Python dapat menggunakan cursor untuk mengecek waktu kedatangan tamu di restoran Little Lemon dengan menjalankan query SQL.
+\end{itemize}
+
+\subsection{Penutupan Koneksi dan Contoh Sintaks Utuh}
+Setelah permintaan selesai, objek cursor dan koneksi database dapat ditutup.
+
+Sintaks Contoh:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import mysql.connector
+
+# Membuat koneksi
+connection = mysql.connector.connect(
+    host="localhost",
+    user="username",
+    password="password",
+    database="database_name"
+)
+
+# Membuat cursor
+cursor = connection.cursor()
+
+# Menjalankan query
+cursor.execute("SELECT * FROM bookings WHERE guest_id = 1")
+
+# Menutup cursor dan koneksi
+cursor.close()
+connection.close()
+\end{lstlisting}
+
+\subsection{Rangkuman terkait pip}
+Anda telah mempelajari bahwa Python memerlukan driver untuk terhubung dengan basis data MySQL. Driver adalah perpustakaan yang memungkinkan Anda berinteraksi dengan perangkat lunak lain. Driver berbentuk perpustakaan, yang juga disebut paket.
+
+Beberapa driver tidak terinstal bersama instalasi Python awal Anda, sehingga perlu diimpor. Ini disebut perpustakaan eksternal. Untuk membantu mengelola perpustakaan ini, Anda sebaiknya familiar dengan Pip, penginstal paket bawaan yang disertakan dalam unduhan Python awal Anda. Pip dapat digunakan untuk menginstal, mengonfigurasi, dan memperbarui perpustakaan eksternal.
+
+\subsubsection{Ulasan Singkat pip}
+Pip adalah sistem manajemen paket yang menginstal dan mengelola paket Python di sistem Anda. Paket Python merujuk pada perpustakaan eksternal apa pun yang tidak termasuk dalam unduhan Python awal.
+
+Menggunakan pip untuk menginstal paket Anda adalah cara yang sangat mudah untuk memastikan lingkungan Anda memiliki semua paket yang diperlukan untuk menjalankan aplikasi Anda dengan sukses.
+
+Untuk memeriksa versi pip yang terinstal di lingkungan Anda, buka prompt perintah dan ketik \verb|pip –version|. Perintah ini akan menunjukkan apakah pip terinstal dan menampilkan versi pip yang berjalan di mesin Anda.
+
+Untuk mengakses pip di lingkungan Jupyter, Anda dapat menjalankan perintah yang sama seperti sebelumnya, tetapi tambahkan tanda seru (!) sebelum pip seperti yang ditunjukkan dalam kode berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+!pip --version
+\end{lstlisting}
+
+\subsubsection{Fungsionalitas pip}
+Pip memiliki sejumlah perintah berguna yang dapat mempermudah pekerjaan seorang programmer dengan secara otomatis mengonfigurasi dan menginstal program-program tersebut. Mari kita jelajahi beberapa di antaranya.
+\begin{itemize}
+      \item Menginstal paket
+
+            Menginstal paket menggunakan pip di lingkungan Jupyter sesederhana menjalankan perintah pip install paket dengan kode berikut:
+
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    !pip install mysql-connector
+    \end{lstlisting}
+
+      \item Melihat informasi paket
+
+            Anda dapat menggunakan pip untuk mengetahui detail dari suatu paket tertentu dengan menggunakan perintah SHOW sebagai berikut:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+!pip show mysql-connector
+\end{lstlisting}
+            Informasi ini dapat membantu Anda memastikan apakah Anda telah menginstal versi yang benar dari suatu perpustakaan. Ketergantungan terjadi ketika suatu perpustakaan memerlukan perpustakaan lain untuk dapat dijalankan.
+
+      \item Memperbarui perpustakaan
+
+            Mengetahui nomor versi perpustakaan dapat membantu memastikan aplikasi Anda berjalan dengan lancar. Perpustakaan terus mengalami perubahan, dan beberapa perubahan dapat mengganggu lingkungan pemrograman Anda.
+
+            Jika hal ini terjadi, Anda mungkin perlu memperbarui perpustakaan yang bersangkutan. Anda dapat memperbarui perpustakaan menggunakan pip. Untuk memperbarui perpustakaan di pip, Anda dapat mengetikkan kode berikut:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+!pip install --upgrade mysql-connector
+\end{lstlisting}
+
+            Perintah ini memastikan bahwa versi terbaru dari perpustakaan tersebut tersedia.
+
+      \item Menampilkan daftar paket yang tersedia di lingkungan kerja
+
+            Fungsi berguna lainnya yang disediakan oleh pip adalah kemampuannya untuk menampilkan daftar semua paket yang ada di lingkungan kerja Anda. Untuk mendapatkan daftar cetak semua perpustakaan, gunakan kode berikut:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+!pip list
+\end{lstlisting}
+            Ini menampilkan daftar semua paket yang tersedia di lingkungan ini.
+
+      \item Menampilkan daftar paket yang tersedia di lingkungan pemrograman
+
+            Untuk mengekstrak daftar perpustakaan yang ada di lingkungan pemrograman Anda ke berkas teks, gunakan metode freeze dari pip:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+!pip freeze >requirements.txt
+\end{lstlisting}
+
+            Perintah ini pertama-tama memerintahkan pip untuk mengekstrak semua paket yang tersedia. Kurung sudut kemudian mengarahkan pip untuk menyimpan output dalam berkas teks bernama 'requirements.' Anda dapat menentukan lokasi penyimpanan berkas ini dengan menentukan lokasi direktori untuk berkas tersebut, serta memberikan nama kustom yang mudah dikenali.
+
+      \item Menghapus perpustakaan dari lingkungan kerja
+
+            Akhirnya, Anda dapat menggunakan kode berikut jika Anda perlu menghapus perpustakaan dari lingkungan kerja Anda:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+!pip uninstall mysql-connector
+\end{lstlisting}
+            Dengan perintah ini, pip akan mencari paket yang ditentukan dan menghapusnya dari sistem Anda.
+
+\end{itemize}
+
+\subsection{Menghubungkan Python dengan MySQL}
+Anda perlu membuat koneksi antara Python dan MySQL. Contohnya, Little Lemon perlu menghubungkan situs web mereka yang menggunakan Python dengan database MySQL agar pelanggan dapat melihat data seperti menu dan slot pemesanan.
+
+Anda mungkin sudah familiar dengan MySQL Connector Python API, yang memfasilitasi koneksi antara Python dan MySQL. Untuk mengimpornya, ketik \verb|import mysql.connector| di program Python Anda.
+
+Ini adalah perpustakaan eksternal yang berfungsi sebagai driver. Perpustakaan ini mengubah objek string Python menjadi pernyataan SQL yang valid dan dapat dieksekusi di MySQL.
+
+Hasil dari pernyataan SQL tersebut kemudian diparsing dan dikembalikan ke klien Python dalam format yang kompatibel dengan tipe data dan struktur Python.
+
+Untuk terhubung dengan basis data MySQL, program klien Python harus menyediakan parameter koneksi yang sesuai.
+
+Parameter-parameter ini biasanya mencakup spesifikasi informasi berikut:
+\begin{itemize}
+      \item host,
+      \item server,
+      \item database tujuan,
+      \item dan nama pengguna serta kata sandi.
+\end{itemize}
+
+Screenshot berikut menampilkan kode untuk koneksi tipikal ke basis data MySQL menggunakan kelas konektor MySQL Python:
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.8\textwidth]{./Picts/ss1.png}
+      \caption{}
+\end{figure}
+
+\subsubsection{Penjelasan Kode}
+\begin{itemize}
+      \item Import connector
+
+            Baris pertama mengimpor \verb|mysql.connector| sebagai alias yang disebut connector. Kode ini mengimpor fungsionalitas connector ke dalam lingkungan Python.
+      \item Parameters
+
+            Baris kedua menunjukkan bagaimana fungsi connect dalam konektor menerima berbagai parameter.
+
+            Secara umum, saat terhubung ke database, nama pengguna dan kata sandi harus disertakan sebagai parameter untuk mendapatkan akses ke database MySQL.
+
+            Terdapat juga beberapa parameter opsional yang dapat disertakan. Mari kita lihat lebih dekat parameter-parameter ini.
+      \item Port number
+
+            Salah satu contoh parameter ini adalah nomor port. Secara default, nomor port untuk basis data MySQL biasanya 3306, tetapi dapat dikonfigurasi ke nomor port lain.
+
+            Port adalah cara untuk mengakses komputer. Ini adalah metode untuk memisahkan saluran komunikasi yang masuk dan keluar dari sistem Anda sehingga aplikasi yang berbeda dapat menjalankan kode masing-masing.
+
+            Alasan menggunakan port yang berbeda adalah agar aplikasi dapat menerima respons instan saat koneksi yang sesuai dibuat dengan sistem.
+
+            Jika hanya ada satu port, maka akan terjadi kemacetan permintaan ke sistem. Hal ini akan membuat tidak mungkin bagi aplikasi untuk mendapatkan respons instan saat permintaan dibuat jika aplikasi lain sedang menggunakan port tersebut.
+      \item Local host
+
+
+            Server lokal digunakan untuk menghosting database. Komunikasi utama dilakukan di dalam laptop itu sendiri.
+
+            Namun, dalam organisasi yang lebih besar, pengaturan default ini kemungkinan besar akan dikonfigurasi ke situs hosting eksternal.
+
+            Dalam contoh yang diberikan, nama domain contoh domain.com digunakan untuk menunjukkan bahwa Anda melakukan panggilan eksternal. Anda dapat mengisi pengaturan ini dengan nama domain atau alamat IP.
+      \item Database name
+
+            Akhirnya, Anda juga dapat melewatkan nama database yang diberikan sebagai parameter. Hal ini akan mengarahkan objek koneksi langsung ke database yang diperlukan. Dalam contoh yang diberikan, objek koneksi diarahkan ke database \verb|little_lemon|.
+
+            Namun, dapat ada banyak database yang berbeda, sehingga nama database dapat diubah sesuai kebutuhan.
+
+            Sebagai alternatif, Anda juga dapat menggunakan objek kursor dari kelas koneksi untuk mengakses database secara langsung, menggunakan kode berikut:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    cursor.execute("USE database_name")
+    \end{lstlisting}
+      \item Connection issues
+
+            Ada banyak masalah potensial yang dapat terjadi saat terhubung ke database. Jika tidak memperhitungkan masalah-masalah ini, aplikasi Anda dapat mengalami crash secara tiba-tiba di lingkungan produksi.
+
+            Untuk menghindari masalah-masalah ini, disarankan untuk menggunakan penanganan kesalahan try/except Python, seperti pada contoh berikut:
+            \begin{figure}[H]
+                  \centering
+                  \includegraphics[width=0.8\textwidth]{./Picts/ss2.png}
+                  \caption{}
+            \end{figure}
+
+            Try/except adalah blok kode penanganan kesalahan bawaan Python. Blok ini terlebih dahulu menjalankan pernyataan dan memberikan compiler dua kemungkinan untuk dieksplorasi, bukan hanya satu yang mungkin menyebabkan program crash.
+
+            Dalam contoh di atas, nama pengguna yang salah menyebabkan blok try gagal. Oleh karena itu, blok except dijalankan.
+
+            Mysql-connector memiliki perpustakaan bernama errorcode yang dirancang khusus untuk menangani pengecualian ini.
+
+            Contoh kode berikut memodifikasi kode contoh di atas sehingga programmer dapat menerima pesan yang akurat mengenai masalah apa yang mungkin menyebabkan kesalahan.
+            \begin{figure}[H]
+                  \centering
+                  \includegraphics[width=0.8\textwidth]{./Picts/ss3.png}
+                  \caption{}
+            \end{figure}
+            Upaya koneksi awal dapat ditemukan di bagian try. Bagian except berisi serangkaian pernyataan kondisional if/else yang memungkinkan penanganan berbagai masalah koneksi yang mungkin terjadi. Masalah-masalah ini dapat berkaitan dengan koneksi, kredensial, atau berbagai masalah sintaksis.
+
+            Pertama, nama pengguna dan kata sandi diperiksa. Kemudian Python memeriksa apakah basis data target ada. Akhirnya, pesan kesalahan terbuka ditampilkan yang mencantumkan referensi ke masalah apa pun yang tidak secara eksplisit dijelaskan dalam kode.
+
+
+\end{itemize}
+
+\subsection{Membuat Alias untuk MySQL Connector}
+Menggunakan alias dapat membuat kode Anda lebih efisien. Anda dapat membuat alias dengan sintaks \verb|import mysql.connector as connector|. Ini memungkinkan Anda menggunakan \verb|connector| sebagai pengganti \verb|mysql.connector| di seluruh kode Anda.
+
+Pastikan Anda telah menginstal MySQL Connector API terlebih dahulu, jika tidak, Anda akan mendapatkan kesalahan "module not found".
+
+\subsection{Membuat Koneksi ke Database}
+Untuk membuat koneksi, buat variabel bernama \verb|connection| dan tetapkan nilainya dengan \verb|connector.connect()|. Anda perlu memberikan argumen seperti database, username, dan password.
+
+Dalam contoh ini, username adalah "Mario" dan password adalah "cuisine". Secara default, koneksi dibuat ke database yang diinstal secara lokal, yang disebut "localhost" dan dapat diakses melalui IP \verb|127.0.0.1|.
+
+\subsection{Koneksi dan Cursor}
+\begin{itemize}
+      \item Koneksi: Koneksi antara aplikasi Python dan database MySQL telah dibuat menggunakan objek koneksi.
+      \item Cursor: Sebuah objek yang memungkinkan komunikasi dengan database MySQL. Cursor digunakan untuk mengeksekusi query SQL.
+\end{itemize}
+
+\subsection{Sintaks untuk Membuat Database}
+\begin{itemize}
+      \item Untuk membuat database baru, Anda perlu menulis query SQL sebagai string Python dan menyimpannya dalam variabel \verb|create_database_query|. Contoh sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+create_database_query = """CREATE DATABASE Little Lemon;"""
+\end{lstlisting}
+      \item Setelah itu, gunakan metode \verb|execute| dari cursor untuk menjalankan query:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor.execute(create_database_query)
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Menggunakan Database}
+Setelah database dibuat, Anda perlu mengatur database untuk digunakan dengan query SQL yang disimpan dalam variabel \verb|use_database_query|. Contoh sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+use_database_query = """USE Little Lemon;"""
+cursor.execute(use_database_query)
+\end{lstlisting}
+
+\subsection{Membuat Tabel}
+Untuk membuat tabel, Anda perlu menulis query SQL untuk tabel yang diinginkan. Misalnya, untuk membuat tabel \verb|menu_items|, Anda bisa menggunakan sintaks berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+create_menuitem_table = """
+CREATE TABLE menu_items (
+    item_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(200),
+    type VARCHAR(100),
+    price INT
+);
+"""
+cursor.execute(create_menuitem_table)
+\end{lstlisting}
+
+\subsection{Pengertian Cursor}
+Cursor adalah objek yang digunakan untuk menunjukkan posisi data dalam database. Ini membantu aplikasi Python untuk menemukan data yang diperlukan untuk menyelesaikan query.
+
+\subsection{Karakteristik Cursors}
+\begin{itemize}
+      \item Read-only: Cursors tidak dapat digunakan untuk memperbarui data yang terkait. Data yang diambil tetap tidak dapat diubah.
+      \item Non-scrollable: Cursors mengambil data secara berurutan, sehingga tidak bisa melompat atau mengambil data dalam urutan terbalik.
+      \item Sensitive: Cursors menunjuk ke data asli dalam database, bukan salinan, sehingga lebih cepat dalam pengambilan data.
+\end{itemize}
+
+\subsection{Cara Menggunakan Cursor}
+\begin{itemize}
+      \item Deklarasi Cursor:
+
+            Sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+DECLARE cursor_name CURSOR FOR SELECT statement;
+\end{lstlisting}
+            Ini memberi nama pada cursor dan menentukan tujuan penggunaannya.
+      \item Membuka Cursor:
+
+            Sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+OPEN cursor_name;
+\end{lstlisting}
+            Ini memulai pencarian hasil dari pernyataan SELECT.
+      \item Mengambil Data:
+
+            Sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+FETCH cursor_name INTO variable_name;
+\end{lstlisting}
+            Ini mengambil hasil dan menyimpannya ke dalam variabel di aplikasi Python.
+      \item Menutup Cursor:
+
+            Sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+CLOSE cursor_name;
+\end{lstlisting}
+            Menutup cursor adalah praktik baik untuk membebaskan memori yang digunakan.
+\end{itemize}
+
+\subsubsection{Contoh Penggunaan}
+Dalam kasus Little Lemon, mereka dapat menggunakan cursor untuk mengambil data pemesanan tamu.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+DECLARE guest_booking_details CURSOR FOR SELECT * FROM bookings WHERE guest_id = ?;
+OPEN guest_booking_details;
+FETCH guest_booking_details INTO booking_data;
+CLOSE guest_booking_details;
+\end{lstlisting}
+
+
 
 \newpage
 
