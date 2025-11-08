@@ -448,12 +448,81 @@ FETCH guest_booking_details INTO booking_data;
 CLOSE guest_booking_details;
 \end{lstlisting}
 
+\subsection{Pengertian Kelas Cursor}
+Cursor Class adalah kelas yang digunakan untuk menerjemahkan komunikasi antara Python dan database MySQL. Python mengirimkan pernyataan SQL dalam bentuk objek string, dan kelas cursor mengubahnya menjadi perintah yang dapat dipahami oleh MySQL.
 
+\subsection{Subkelas Cursor}
+Kelas-kelas yang diturunkan dari kelas cursor yang memungkinkan pengolahan data dengan cara yang berbeda sesuai kebutuhan.
+\begin{itemize}
+      \item Cursor Row Subclass: Mengembalikan hasil tanpa memprosesnya menjadi format yang lebih ramah Python. Ini mengurangi penggunaan daya pemrosesan tetapi memerlukan lebih banyak kode untuk memproses variabel yang ditargetkan.
+      \item MySQL Cursor Dictionary Class: Mengembalikan setiap baris sebagai dictionary, sehingga memudahkan akses variabel dengan menggunakan nama variabel langsung.
+      \item Buffered Cursor Class: Menyimpan subset data dalam memori buffer, sehingga tidak perlu meminta setiap baris dari server berulang kali. Namun, ini hanya dapat digunakan untuk dataset kecil.
+\end{itemize}
+
+\subsubsection{Contoh Penggunaan}
+\paragraph{Interleaving SQL Requests}: Proses di mana hasil dari satu kueri digunakan untuk membuat kueri berikutnya. Misalnya, Little Lemon dapat menggunakan ID pemesanan dari kueri pertama untuk menemukan biaya makanan tamu.
+
+\subsection{Sintaks untuk Menginstansiassi Cursor}
+\begin{itemize}
+      \item Untuk membuat cursor standar:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor = connection.cursor()
+\end{lstlisting}
+      \item Untuk membuat instance dari subclass cursor:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor = connection.cursor(buffered=True)  # untuk buffered cursor
+cursor = connection.cursor(dictionary=True)  # untuk dictionary cursor
+\end{lstlisting}
+\end{itemize}
 
 \newpage
 
 
 \section{Performing Queries in MySQL using Python}
+\subsection{Membuat Data (Create Data)}
+\begin{itemize}
+      \item Insert Statement: Untuk menambahkan data ke dalam database, seperti menambahkan nama pelanggan dan waktu pemesanan ke dalam tabel bookings.
+            Sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+insert_query = "INSERT INTO bookings (customer_name, time) VALUES ('John Doe', '18:00')"
+\end{lstlisting}
+      \item Mengonversi ke String Python: Setelah menulis pernyataan SQL, konversikan ke dalam format string Python dengan menambahkan tanda kutip.
+\end{itemize}
+
+\subsection{Membaca Data (Read Data)}
+\begin{itemize}
+      \item Select Statement: Untuk mengambil data dari database, seperti mengambil semua data dari tabel bookings.
+            Sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+select_query = "SELECT * FROM bookings"
+\end{lstlisting}
+      \item Eksekusi Query: Setelah menulis pernyataan select, kirimkan ke objek cursor untuk dieksekusi.
+\end{itemize}
+
+\subsection{Mengambil Hasil (Fetching Results)}
+\begin{itemize}
+      \item Fetch All: Setelah mengeksekusi query, gunakan metode fetchall() untuk mengambil semua hasil
+            Sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+results = cursor.fetchall()
+\end{lstlisting}
+
+            Fetch All adalah metode yang digunakan untuk mengambil semua baris hasil dari query yang telah dieksekusi.
+      \item Mendapatkan Nama Kolom: Untuk mendapatkan nama kolom dari hasil query, buat variabel baru dan ambil nama kolom dari objek cursor.
+
+            Nama kolom adalah label yang digunakan untuk mengidentifikasi data dalam tabel.
+\end{itemize}
+
+\subsection{Penutupan Koneksi}
+Setelah selesai, penting untuk menutup objek cursor dan koneksi untuk menghindari kebocoran memori.
+
+Menutup koneksi berarti mengakhiri sesi komunikasi antara aplikasi Python dan database.
+
+\subsection{commit() Setelah Transaksi}
+Fungsi \verb|commit()| dalam konteks database, khususnya saat menggunakan Python dengan MySQL, berfungsi untuk menyimpan semua perubahan yang telah dilakukan dalam transaksi ke database.
+
+Ketika kamu melakukan operasi seperti menambah, mengubah, atau menghapus data dalam database, perubahan tersebut tidak langsung disimpan. Mereka berada dalam "transaksi" yang bisa dibatalkan. Dengan memanggil commit(), kamu memberi tahu database bahwa semua perubahan yang telah dilakukan dalam transaksi tersebut harus disimpan. Jika kamu tidak memanggil commit(), perubahan tersebut akan hilang ketika koneksi ke database ditutup.
+
 
 
 \newpage
