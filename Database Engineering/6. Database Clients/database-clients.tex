@@ -523,12 +523,182 @@ Fungsi \verb|commit()| dalam konteks database, khususnya saat menggunakan Python
 
 Ketika kamu melakukan operasi seperti menambah, mengubah, atau menghapus data dalam database, perubahan tersebut tidak langsung disimpan. Mereka berada dalam "transaksi" yang bisa dibatalkan. Dengan memanggil commit(), kamu memberi tahu database bahwa semua perubahan yang telah dilakukan dalam transaksi tersebut harus disimpan. Jika kamu tidak memanggil commit(), perubahan tersebut akan hilang ketika koneksi ke database ditutup.
 
+\subsection{Pembaruan Data (Updating Records)}
+\begin{itemize}
+      \item Update Statement: Untuk memperbarui data dalam database, digunakan pernyataan update. Contoh sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+update_query = "UPDATE bookings SET table_no = 10 WHERE booking_id = 6"
+\end{lstlisting}
+      \item Eksekusi Query: Setelah menulis query, gunakan metode execute untuk menjalankannya. Contoh:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor.execute(update_query)
+\end{lstlisting}
+      \item Komit Perubahan: Setelah menjalankan query update, gunakan metode commit untuk menyimpan perubahan. Contoh:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+connection.commit()
+\end{lstlisting}
 
+            commit adalah metode yang digunakan untuk menyimpan semua perubahan yang telah dilakukan pada database.
+\end{itemize}
+
+\subsection{Penghapusan Data (Deleting Records)}
+\begin{itemize}
+      \item Delete Statement: Untuk menghapus data dari database, digunakan pernyataan delete. Contoh sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+delete_query = "DELETE FROM bookings WHERE booking_id = 4"
+\end{lstlisting}
+      \item Eksekusi Query: Setelah menulis query, gunakan metode execute untuk menjalankannya. Contoh:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor.execute(delete_query)
+\end{lstlisting}
+      \item Komit Perubahan: Setelah menjalankan query update, gunakan metode commit untuk menyimpan perubahan. Contoh:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+connection.commit()
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Teknik Filtering}
+\begin{itemize}
+      \item WHERE Clause: Digunakan untuk memfilter dan mengekstrak record yang memenuhi kondisi tertentu. Contoh sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+SELECT booking_id, bill_amount FROM orders WHERE bill_amount = 40;
+\end{lstlisting}
+            WHERE adalah klausa dalam SQL yang digunakan untuk menentukan kondisi yang harus dipenuhi oleh data yang diambil.
+      \item Comparison Operators: Operator yang digunakan untuk membandingkan nilai. Dalam konteks ini, operator \verb|>=| digunakan untuk mendapatkan semua record dengan \verb|bill_amount| lebih besar atau sama dengan 40. Contoh sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+SELECT booking_id, bill_amount FROM orders WHERE bill_amount >= 40;
+\end{lstlisting}
+            Operator perbandingan digunakan untuk membandingkan dua nilai, seperti \verb|=, >, <, >=, dan <=|.
+\end{itemize}
+
+\subsection{Teknik Sorting}
+ORDER BY Clause: Klausa opsional yang digunakan untuk mengurutkan data dalam urutan tertentu (ascending atau descending). Contoh sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+SELECT booking_id, bill_amount FROM orders WHERE bill_amount >= 40 ORDER BY bill_amount ASC;
+\end{lstlisting}
+ORDER BY adalah klausa dalam SQL yang digunakan untuk mengurutkan hasil query berdasarkan satu atau lebih kolom.
+
+\subsection{Pengertian JOIN}
+JOIN adalah merupakan perintah SQL yang digunakan untuk menggabungkan data dari dua atau lebih tabel berdasarkan kolom yang sama.
+
+\subsection{Jenis-jenis JOIN}
+\begin{itemize}
+      \item LEFT JOIN: Mengambil semua data dari tabel kiri dan data yang cocok dari tabel kanan. Jika tidak ada kecocokan, hasilnya tetap menampilkan data dari tabel kiri.
+      \item RIGHT JOIN: Mengambil semua data dari tabel kanan dan data yang cocok dari tabel kiri. Jika tidak ada kecocokan, hasilnya tetap menampilkan data dari tabel kanan.
+      \item INNER JOIN: Mengambil hanya data yang cocok dari kedua tabel.
+      \item OUTER JOIN: Mengambil semua data dari kedua tabel, dengan menampilkan NULL untuk data yang tidak cocok.
+\end{itemize}
+
+\subsection{Proses Menggunakan INNER JOIN dengan Python}
+\begin{itemize}
+      \item Membuat Query: Query SQL dibuat sebagai string dalam Python. Contoh sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+my_join_query = "SELECT menu_items.name, menu_items.price, menu.cuisine FROM menu_items INNER JOIN menu ON menu_items.item_id = menu.item_id"
+\end{lstlisting}
+      \item Menjalankan Query: Query dijalankan menggunakan metode execute dari objek cursor. Contoh:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor.execute(my_join_query)
+\end{lstlisting}
+      \item Mengambil Hasil: Hasil dari query dapat diambil menggunakan metode fetchall. Contoh:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+results = cursor.fetchall()
+\end{lstlisting}
+\end{itemize}
 
 \newpage
 
-
 \section{Advanced Database Clients}
+\subsection{Pengantar Fungsi MySQL}
+Fungsi MySQL adalah kode yang melakukan operasi tertentu dan mengembalikan hasil. Ini adalah blok kode yang dapat digunakan kembali untuk menyelesaikan tugas yang berulang.
+
+\subsection{Jenis-jenis Fungsi di MySQL}
+\begin{itemize}
+      \item String Functions: Digunakan untuk memanipulasi nilai string. Contoh:
+
+            CONCAT: Menggabungkan data dari dua tabel menjadi satu string. Sintaks: \verb|SELECT CONCAT(column1, column2) FROM table_name;|
+
+      \item Numeric Functions: Digunakan untuk melakukan operasi pada data numerik. Contoh:
+
+            AVG(): Menghitung rata-rata nilai.
+            Sintaks: \verb|SELECT AVG(column_name) FROM table_name;|
+
+      \item Date and Time Functions: Digunakan untuk mengekstrak nilai tanggal dan waktu. Contoh:
+
+            NOW(): Mengambil waktu saat ini.
+            Sintaks: \verb|SELECT NOW();|
+
+      \item Comparison Functions: Digunakan untuk membandingkan nilai dalam database. Contoh:
+
+            GREATEST(): Mengembalikan nilai terbesar dari daftar.
+            Sintaks: \verb|SELECT GREATEST(value1, value2);|
+
+      \item Control Flow Functions: Digunakan untuk mengevaluasi kondisi dan menentukan jalur eksekusi. Contoh:
+
+            CASE: Menjalankan serangkaian kondisi dan mengembalikan nilai berdasarkan kondisi yang terpenuhi.
+            Sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+SELECT CASE 
+  WHEN condition1 THEN result1
+  WHEN condition2 THEN result2
+  ELSE result_default
+END;
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Penggunaan Fungsi dengan Python}
+Fungsi MySQL dapat diakses melalui Python untuk melakukan query dan mendapatkan hasil. Contoh penggunaan fungsi rata-rata untuk menghitung tagihan rata-rata pelanggan:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+average_query = "SELECT AVG(bill_amount) FROM orders;"
+cursor.execute(average_query)
+results = cursor.fetchall()
+\end{lstlisting}
+
+\subsection{Pengantar Fungsi Datetime}
+\begin{itemize}
+      \item Datetime: Kelas di Python yang memiliki beberapa fungsi bawaan untuk memformat dan mengubah variabel waktu dan tanggal.
+      \item Import: Untuk menggunakan datetime, Anda perlu mengimpor kelas ini dengan sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+import datetime as dt
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Fungsi Utama dalam Datetime}
+\begin{itemize}
+      \item \verb|datetime.now()|: Mengambil tanggal dan waktu saat ini.
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+current_time = dt.datetime.now()
+print(current_time)
+\end{lstlisting}
+      \item \verb|datetime.date|: Mengambil hanya bagian tanggal (hari, bulan, tahun).
+      \item \verb|datetime.time|: Mengambil hanya bagian waktu (jam, menit, detik).
+      \item \verb|timedelta|: Menghitung selisih antara dua nilai waktu atau tanggal.
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from datetime import timedelta
+week = dt.timedelta(days=7)
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Contoh Sintaks untuk Mengupdate Slot Pemesanan}
+\begin{itemize}
+      \item Mengambil data dari tabel pemesanan:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor.execute("SELECT * FROM bookings")
+\end{lstlisting}
+      \item Menambahkan satu jam ke slot pemesanan:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+new_booking_slot = booking_slot + dt.timedelta(hours=1)
+\end{lstlisting}
+      \item Mencetak hasil:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+print(f"Booking ID: {booking_id}, Old Slot: {old_slot}, New Slot: {new_booking_slot}")
+\end{lstlisting}
+\end{itemize}
+
+\subsection{}
+\begin{itemize}
+\item 
+\end{itemize}
+
 
 
 \newpage
