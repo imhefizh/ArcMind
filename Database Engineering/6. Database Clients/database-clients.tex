@@ -694,10 +694,41 @@ print(f"Booking ID: {booking_id}, Old Slot: {old_slot}, New Slot: {new_booking_s
 \end{lstlisting}
 \end{itemize}
 
-\subsection{}
+\subsection{Pengantar Tentang Datetime}
+\verb|datetime| adalah kelas di Python yang memiliki beberapa fungsi bawaan untuk memformat dan mengubah variabel waktu dan tanggal.
+
+Anda dapat mengimpor datetime tanpa memerlukan PIP.
+
+\subsection{Fungsi-fungsi Dalam Datetime}
 \begin{itemize}
-\item 
+      \item \verb|datetime.now()|: Mengambil tanggal dan waktu saat ini.
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+current_time = dt.datetime.now()
+print(current_time)
+\end{lstlisting}
+      \item \verb|datetime.date|: Mengambil komponen tanggal (hari, bulan, tahun).
+      \item \verb|datetime.time|: Mengambil komponen waktu (jam, menit, detik).
+      \item \verb|timedelta|: Menghitung selisih antara dua nilai datetime dan dapat digunakan untuk menambah waktu.
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from datetime import timedelta
+week = timedelta(days=7)
+\end{lstlisting}
 \end{itemize}
+
+\subsection{Menggunakan Datetime untuk Mengatur Slot Peemesanan}
+Untuk menggeser setiap slot pemesanan satu jam ke depan, Anda perlu:
+\begin{enumerate}
+      \item Mengimpor pustaka datetime dengan alias dt.
+      \item Menulis pernyataan SQL untuk mengambil semua data dari tabel pemesanan.
+      \item Menggunakan timedelta untuk menambah satu jam ke setiap slot pemesanan.
+      \item Mencetak nilai slot pemesanan yang baru.
+\end{enumerate}
+
+Sintaks untuk mengupdate slot pemesanan:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+new_booking_slot = booking_slot + dt.timedelta(hours=1)
+print(f"Booking ID: {booking_id}, Old Slot: {booking_slot}, New Slot: {new_booking_slot}")
+\end{lstlisting}
 
 
 
