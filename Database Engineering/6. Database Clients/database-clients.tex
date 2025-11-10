@@ -730,6 +730,92 @@ new_booking_slot = booking_slot + dt.timedelta(hours=1)
 print(f"Booking ID: {booking_id}, Old Slot: {booking_slot}, New Slot: {new_booking_slot}")
 \end{lstlisting}
 
+\subsection{Apa itu Stored Procedures}
+\begin{itemize}
+      \item Stored Procedure: Sebuah blok kode atau satu atau lebih query yang telah disiapkan sebelumnya dan dapat disimpan dalam database. Stored procedures dapat dipanggil sesuai kebutuhan, mirip dengan fungsi dalam pemrograman.
+      \item Perbedaan dengan Fungsi: Fungsi hanya dapat memiliki parameter input, sedangkan stored procedure dapat memiliki parameter input dan output.
+\end{itemize}
+
+\subsection{Langkah-langkah Menggunakan Stored Procedures}
+\begin{itemize}
+      \item Membuat Stored Procedure: Gunakan perintah CREATE PROCEDURE diikuti dengan nama procedure dan parameter yang diperlukan.
+            Memanggil Stored Procedure: \item Gunakan perintah CALL diikuti dengan nama procedure.
+            Menghapus Stored Procedure: \item Gunakan perintah DROP PROCEDURE diikuti dengan nama procedure, tanpa perlu menambahkan tanda kurung.
+\end{itemize}
+
+\subsection{Manfaat Stored Procedures}
+\begin{itemize}
+      \item Konsistensi Kode: Kode yang sama digunakan setiap kali dipanggil, sehingga hasilnya dapat diprediksi.
+      \item Reusabilitas Kode: Dapat digunakan berulang kali di berbagai tugas database.
+      \item Kemudahan Pemeliharaan: Kode disimpan dalam satu blok yang dapat dipanggil, diedit, atau dihapus sesuai kebutuhan.
+\end{itemize}
+
+\subsection{Sintaks untuk Membuat Stored Procedure}
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+CREATE PROCEDURE procedure_name (parameters)
+BEGIN
+    -- logic of the procedure
+END;
+\end{lstlisting}
+
+\subsection{Mengakses Stored Procedure Menggunakan Python}
+Sintaks untuk mengeksekusi stored procedure:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+CREATE PROCEDURE GetCustomersAndBillAmount()
+BEGIN
+    SELECT bookings.BookingID, CONCAT(bookings.GuestFirstName, bookings.GuestLastName) AS CustomerName, Orders.BillAmount
+    FROM bookings
+    INNER JOIN Orders ON bookings.BookingID = Orders.BookingID
+    WHERE BillAmount >= 50
+    ORDER BY BillAmount DESC;
+END;
+\end{lstlisting}
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor.execute(stored_procedure_query)
+\end{lstlisting}
+
+\subsubsection{Memanggil dan Mengambil Hasil dari Stored Procedures}
+\verb|callproc()|: Metode untuk memanggil stored procedure.
+
+Sintaks untuk memanggil stored procedure:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+cursor.callproc("GetCustomersAndBillAmount")
+\end{lstlisting}
+
+\verb|next()|: Fungsi untuk mengambil hasil berikutnya dari iterator hasil yang disimpan.
+
+Sintaks untuk mengambil hasil:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+results = next(cursor.stored_results())
+dataset = results.fetchall()
+\end{lstlisting}
+
+Hasil dari stored procedure disimpan dalam bentuk list of tuples, di mana setiap tuple mewakili satu record.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for data in dataset:
+    print(data)
+\end{lstlisting}
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.8\textwidth]{"./Picts/ss4.png"}
+      \caption{}
+\end{figure}
+
+\subsection{Apa itu Database Connection Pooling?}
+\begin{itemize}
+      \item Database Connection Pooling: Merupakan teknik untuk menciptakan dan mengelola sekumpulan koneksi ke database, sehingga dapat meningkatkan efisiensi dan kecepatan akses database.
+      \item Koneksi: Saluran komunikasi antara aplikasi dan database yang memungkinkan pertukaran data.
+\end{itemize}
+
+\subsection{Cara Kerja Connection Pooling}
+\begin{itemize}
+      \item Contoh Visual: Bayangkan ada empat koneksi terbuka ke database MySQL. Dua koneksi sedang digunakan oleh klien, sementara dua lainnya siap digunakan oleh pengguna baru.
+      \item Penugasan Koneksi: Ketika pengguna baru meminta akses, mereka akan diberikan salah satu koneksi yang tersedia. Setelah pengguna selesai, koneksi tersebut tidak ditutup, tetapi dikembalikan ke pool untuk digunakan kembali.
+\end{itemize}
+
+
+
 
 
 \newpage
