@@ -814,6 +814,67 @@ for data in dataset:
       \item Penugasan Koneksi: Ketika pengguna baru meminta akses, mereka akan diberikan salah satu koneksi yang tersedia. Setelah pengguna selesai, koneksi tersebut tidak ditutup, tetapi dikembalikan ke pool untuk digunakan kembali.
 \end{itemize}
 
+\subsection{Mengatasi Keterbatasan Koneksi}
+\begin{itemize}
+      \item Multiple Pools: Jika semua koneksi sedang digunakan dan ada pengguna kelima yang ingin bergabung, solusi terbaik adalah membuat beberapa pool dengan jumlah koneksi tertentu di setiap pool. Ini memastikan selalu ada koneksi yang tersedia untuk pengguna baru.
+      \item Pembuatan Koneksi Baru: Sistem dapat diprogram untuk membuat koneksi baru dalam pool jika tidak ada koneksi yang sesuai tersedia.
+\end{itemize}
+
+\subsection{Keuntungan Connection Pooling}
+\begin{itemize}
+      \item Efisiensi Sumber Daya: Memanfaatkan sumber daya yang ada dengan lebih baik.
+      \item Pengurangan Waktu: Mengurangi waktu dan usaha yang diperlukan untuk membangun koneksi baru.
+      \item Sederhanakan Model Pemrograman: Mempermudah pengembangan aplikasi.
+      \item Peningkatan Kinerja: Meningkatkan kinerja aplikasi Python saat terhubung ke database MySQL.
+\end{itemize}
+
+\subsection{Database Connetion Pool}
+\begin{itemize}
+      \item Definisi: Database connection pool adalah sekumpulan koneksi yang dikelola untuk memberikan akses yang aman dan terautentikasi ke database bagi banyak pengguna.
+      \item Tujuan: Little Lemon ingin menyediakan koneksi yang efisien untuk tim pengembang web mereka melalui connection pooling.
+\end{itemize}
+
+\subsection{MySQL Connection Pool Module}
+\begin{itemize}
+      \item Import Modul: Untuk menggunakan modul ini, Anda perlu mengimpor dengan sintaks:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+from mysql.connector import pooling
+\end{lstlisting}
+      \item Fungsi Utama:
+            \begin{itemize}
+                  \item \verb|pool_name|: Atribut kelas yang digunakan untuk mengidentifikasi nama pool yang akan digunakan. Jika tidak ditentukan, satu pool akan dihasilkan secara otomatis.
+                  \item \verb|pool_size|: Menentukan jumlah koneksi yang dibuat untuk pool. Defaultnya adalah lima, tetapi bisa dibuat hingga 32 koneksi.
+                  \item \verb|connection_ID|: ID unik yang diberikan untuk setiap koneksi dalam pool.
+            \end{itemize}
+\end{itemize}
+
+\subsection{Metode Kelas dalam MySQL Connection Pool}
+\begin{itemize}
+      \item \verb|get_connection()|: Meminta koneksi dari pool. Jika tidak ada koneksi yang tersedia, akan muncul error "pool exhausted".
+      \item \verb|is_connected()|: Fungsi Boolean yang mengembalikan nilai true atau false tergantung pada apakah koneksi berhasil dibuat.
+      \item \verb|close()|: Menginformasikan pool bahwa pengguna telah menyelesaikan sesi mereka, sehingga koneksi dapat dikembalikan ke pool untuk digunakan oleh pengguna baru.
+\end{itemize}
+
+\subsection{Langkah-langkah Membuat Connection Pool}
+\begin{itemize}
+      \item Impor Modul:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+      from mysql.connector import pooling
+      \end{lstlisting}
+      \item Buat Koneksi Pool:
+            \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+      pool = pooling.MySQLConnectionPool(pool_name="Little Lemon Pool", pool_size=4, host='localhost', database='Little Lemon', user='username', password='password')
+      \end{lstlisting}
+      \item Buat Daftar Pengguna: Buat list pengguna untuk koneksi pool.
+      \item Buat SQL Select Statement: Buat pernyataan SQL yang menerima integer untuk ID yang berbeda.
+      \item Gunakan Loop: Gunakan for loop dengan fungsi \verb|range()| untuk mengulangi hingga ukuran pool.
+      \item Cek Koneksi: Tulis pernyataan untuk memeriksa apakah koneksi berhasil dibuat.
+      \item Instansiasi Cursor: Buat cursor baru dari koneksi yang ada.
+      \item Tampilkan Informasi: Gunakan \verb|print()| untuk menampilkan informasi pengguna dan ID koneksi yang unik.
+      \item Fetch Data: Gunakan metode \verb|fetch_all()| untuk mengembalikan semua informasi yang sesuai dengan pernyataan SQL.
+      \item Tutup Koneksi: Gunakan metode \verb|close()| untuk mengembalikan koneksi ke pool setelah sesi selesai.
+\end{itemize}
+
 
 
 
