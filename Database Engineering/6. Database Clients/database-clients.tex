@@ -863,7 +863,13 @@ from mysql.connector import pooling
       \end{lstlisting}
       \item Buat Koneksi Pool:
             \begin{lstlisting}[language=Python, caption={}, captionpos=b]
-      pool = pooling.MySQLConnectionPool(pool_name="Little Lemon Pool", pool_size=4, host='localhost', database='Little Lemon', user='username', password='password')
+      pool = pooling.MySQLConnectionPool(
+            pool_name="Little Lemon Pool", pool_size=4, host='localhost', database='Little Lemon', user='username', password='password'
+            )
+
+      conn = pool.get_connection()
+      if conn.is_connected:
+            cursor = conn.cursor()
       \end{lstlisting}
       \item Buat Daftar Pengguna: Buat list pengguna untuk koneksi pool.
       \item Buat SQL Select Statement: Buat pernyataan SQL yang menerima integer untuk ID yang berbeda.
@@ -873,18 +879,8 @@ from mysql.connector import pooling
       \item Tampilkan Informasi: Gunakan \verb|print()| untuk menampilkan informasi pengguna dan ID koneksi yang unik.
       \item Fetch Data: Gunakan metode \verb|fetch_all()| untuk mengembalikan semua informasi yang sesuai dengan pernyataan SQL.
       \item Tutup Koneksi: Gunakan metode \verb|close()| untuk mengembalikan koneksi ke pool setelah sesi selesai.
+      \item Menggunakan modul \verb|add_connection| untuk menambah koneksi di sebuah pool.
 \end{itemize}
-
-
-
-
-
-\newpage
-
-
-\section{Working with a Database Client}
-
-
 
 
 % End of Main Content
