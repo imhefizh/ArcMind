@@ -252,6 +252,93 @@ menghilangkan duplikasi data yang tidak perlu dan memastikan konsistensi serta i
 
 Contoh: Jika kota dan kode pos dalam tabel pesanan \verb|M&G| saling bergantung, maka harus dipisahkan menjadi dua tabel: satu untuk pesanan dan satu untuk kota, dengan kolom kode pos dan nama kota.
 
+\subsection{Pengenalan MySQL Workbench}
+\begin{itemize}
+    \item MySQL Workbench adalah alat visual yang dikembangkan oleh Oracle untuk pemodelan dan manajemen basis data.
+    \item Alat ini bersifat open source dan dapat digunakan di berbagai sistem operasi.
+\end{itemize}
+
+\subsubsection{Fitur Utama MySQL Workbench}
+\begin{itemize}
+    \item Visual SQL Editor: Memudahkan penulisan pernyataan SQL dengan fitur autocomplete dan highlighting.
+    \item Migrasi Data: Memfasilitasi migrasi data antara versi MySQL yang berbeda dan sistem basis data relasional lainnya.
+\end{itemize}
+
+\subsubsection{Membuat Pengguna Baru}
+\begin{itemize}
+    \item MySQL Connection: Pilih koneksi MySQL untuk mengelola pengguna dan hak akses.
+    \item Login menggunakan pengguna root dan pilih "Users and Privileges" untuk menambah pengguna baru.
+    \item Tentukan nama pengguna, kata sandi, dan hak akses yang sesuai.
+\end{itemize}
+
+\subsubsection{Membuat Koneksi MySQL Baru}
+\begin{itemize}
+    \item Dari layar utama MySQL Workbench, pilih ikon plus untuk membuka formulir koneksi baru.
+    \item Isi formulir dengan nama instance server, username, dan pastikan hostname adalah 127.0.0.1 dengan port 3306.
+    \item Klik "Test Connection" untuk memastikan pengaturan koneksi berhasil.
+\end{itemize}
+
+\subsection{Data Management di MySQL Workbench}
+\subsubsection{Membuat Skema Database}
+Skema adalah struktur yang mendefinisikan cara data disimpan dalam database. Untuk membuat skema baru, pilih opsi "Create Schema" dan masukkan nama skema, misalnya \verb|mg_schema|.
+
+Setelah membuat skema, Anda akan melihat skrip SQL yang dihasilkan, seperti \verb|CREATE SCHEMA 'mg_schema'|. Klik "Apply" untuk menerapkannya.
+
+\subsubsection{Membuat Tabel}
+Tabel adalah struktur yang menyimpan data dalam baris dan kolom. Untuk membuat tabel baru, pilih "Create Table" dan masukkan nama tabel, misalnya staff.
+
+Kolom adalah elemen dalam tabel yang menyimpan data. Misalnya, kolom StaffID dengan tipe data integer dan ditetapkan sebagai primary key. Kolom lain termasuk FullName, ContactNumber, Role, dan Email.
+
+\subsubsection{Mengelola Data}
+Insert Statement digunakan untuk menambahkan data ke tabel. Anda dapat mengisi data langsung di grid tabel dan menggunakan MySQL Workbench untuk menghasilkan pernyataan insert otomatis.
+
+Query adalah proses untuk mengambil data dari database. Anda dapat menggunakan SQL Editor untuk menulis query, seperti \verb|SELECT * FROM staff_view| untuk menampilkan semua data dari tabel \verb|staff_view|.
+
+\subsubsection{Membuat View}
+View adalah tabel virtual yang menyajikan data dari satu atau lebih tabel. Untuk membuat view, gunakan pernyataan SQL CREATE VIEW dan tambahkan alias untuk kolom agar lebih mudah dibaca.
+
+\subsubsection{Sintaks Penting}
+\begin{itemize}
+    \item \verb|CREATE SCHEMA 'mg_schema'|: Membuat skema baru.
+    \item \verb|CREATE TABLE staff (...)|: Membuat tabel baru dengan kolom yang ditentukan.
+    \item \verb|INSERT INTO staff (...) VALUES (...)|: Menambahkan data ke tabel.
+    \item \verb|SELECT * FROM staff_view|: Mengambil semua data dari view.
+\end{itemize}
+
+\subsection{Database Modeling di MySQL Workbench}
+\subsubsection{Membuat Model Database}
+\begin{itemize}
+    \item MySQL Workbench: Alat untuk merancang dan mengelola database. Anda dapat membuat model database untuk menyimpan informasi tentang pelanggan dan pesanan.
+    \item Forward Engineering: Proses mengubah model data menjadi skema SQL yang dapat diimplementasikan secara otomatis ke dalam MySQL.
+\end{itemize}
+
+\subsubsection{Langkah-langkah Membuat Model}
+\begin{itemize}
+    \item Membuat Skema: Klik "model's view" dan buat skema baru, misalnya \verb|mangata_gallo|.
+    \item Diagram Data Model: Buat diagram ER (Entity-Relationship) dengan menambahkan tabel.
+\end{itemize}
+
+\subsubsection{Menambahkan Tabel dan Kolom}
+\begin{itemize}
+    \item Menambahkan Tabel: Klik ikon "Add Table" untuk membuat entitas tabel.
+    \item Menambahkan Kolom: Ganti nama kolom default dan atur tipe data serta atribut seperti \verb|NOT NULL dan AUTO_INCREMENT|.
+\end{itemize}
+
+\subsubsection{Mengatur Foreign Key}
+Foreign Key: Kolom yang menghubungkan tabel satu dengan yang lain. Misalnya, \verb|customer_id_fk| yang merujuk ke customer ID di tabel pelanggan.
+
+\subsubsection{Menyimpan dan Mengimplementasikan Model}
+\begin{itemize}
+    \item Menyimpan Model: Klik "File Save As" untuk menyimpan model dengan nama yang diinginkan.
+    \item Menyinkronkan ke MySQL: Gunakan fitur forward engineer untuk menghubungkan ke server MySQL dan menerapkan skema yang telah dibuat.
+\end{itemize}
+
+\subsubsection{Reverse Engineering}
+Reverse Engineering: Proses membangun diagram ER dari database yang sudah ada.
+
+Langkah-langkah: Pilih opsi reverse engineer dari menu database, pilih skema yang ingin diambil, dan eksekusi untuk mendapatkan diagram ER baru.
+
+
 
 \newpage
 
