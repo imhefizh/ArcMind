@@ -59,6 +59,199 @@ captionpos=b
 
 % Main Content
 \section{Data Modeling and Management}
+\subsection{Pengenalan Pemodelan Data}
+Data Model adalah representasi visual dari elemen data yang berbeda dan bagaimana mereka saling berhubungan.
+
+\subsection{Tingkatan Model Database}
+\begin{itemize}
+    \item Conceptual Data Model: Model yang menggambarkan struktur data secara umum tanpa detail teknis.
+    \item Logical Data Model: Model yang lebih terperinci yang menunjukkan bagaimana data akan disimpan dalam database.
+    \item Physical Data Model: Model yang menggambarkan bagaimana data akan disimpan secara fisik dalam sistem.
+\end{itemize}
+
+\subsection{Normalisasi Database}
+Normalization adalah proses untuk mengatur data dalam database untuk mengurangi redundansi dan menghindari anomali.
+\begin{itemize}
+    \item Insertion Anomaly: Kesulitan dalam menambahkan data baru karena ketergantungan pada data lain.
+    \item Update Anomaly: Masalah yang muncul saat memperbarui data yang terduplikasi.
+    \item Deletion Anomaly: Kehilangan data penting saat menghapus data yang tidak relevan.
+\end{itemize}
+
+\subsection{MySQL Workbench}
+\begin{itemize}
+    \item MySQL Workbench: Alat visual untuk pemodelan dan manajemen database.
+    \item Forward Engineering: Proses mengubah model data menjadi skema database di MySQL.
+    \item Reverse Engineering: Proses membuat model data dari database yang sudah ada.
+\end{itemize}
+
+\subsection{Data Warehousing}
+\begin{itemize}
+    \item Data Warehouse: Repositori data terpusat yang mengintegrasikan dan menyimpan data dari berbagai sumber.
+    \item ETL (Extract, Transform, Load): Proses untuk mengambil data dari sumber, mengubahnya, dan memuatnya ke dalam data warehouse.
+    \item Data Marts: Subset dari data warehouse yang berfokus pada area bisnis tertentu.
+\end{itemize}
+
+\subsection{Pemodelan Data Dimensional}
+\begin{itemize}
+    \item Dimensional Data Modeling: Teknik pemodelan yang menggunakan dimensi dan fakta, biasanya dalam bentuk skema bintang (star schema) atau skema salju (snowflake schema).
+    \item Grain: Tingkat detail yang ditentukan dalam model data.
+\end{itemize}
+
+\subsection{Analisis Data}
+Data Analytics adalah proses menganalisis data untuk mendapatkan wawasan.
+\begin{itemize}
+    \item Quantitative Data: Data yang dapat diukur dan dinyatakan dalam angka.
+    \item Qualitative Data: Data yang bersifat deskriptif dan tidak dapat diukur dengan angka.
+\end{itemize}
+
+\subsection{Alat Analisis Data}
+\paragraph{Tableau} adalah alat untuk visualisasi data yang memungkinkan pengguna untuk membuat dashboard interaktif dan menganalisis data secara mendalam.
+
+\subsection{Pemodelan Data}
+\begin{itemize}
+    \item Pemodelan data memberikan representasi visual dari elemen data dan menunjukkan bagaimana mereka saling berhubungan. Ini membantu memahami bagaimana data disimpan, diakses, diperbarui, dan ditanyakan dalam basis data.
+    \item Pemodelan data digunakan untuk mengembangkan berbagai jenis basis data, terutama entity relational databases, yang direncanakan dengan menggunakan \verb|entity relationship diagram (ERD)|.
+\end{itemize}
+
+\subsection{Tingkat Pemodelan Data}
+\begin{itemize}
+    \item Conceptual Data Model: Model ini memberikan gambaran umum yang tinggi tentang elemen data yang disebut entities. Tujuannya adalah untuk menunjukkan hubungan antara entitas dalam basis data. Contoh entitas untuk \verb|M&G| adalah pelanggan, produk, dan pesanan.
+    \item Logical Data Model: Model ini lebih rinci dan mencakup atribut dari setiap entitas, mendefinisikan primary keys, dan spesifikasi foreign keys. Misalnya, client ID adalah primary key untuk tabel klien, dan menghubungkan tabel klien dengan tabel pesanan melalui foreign key client ID.
+    \item Physical Data Model: Model ini digunakan untuk membuat skema SQL internal dari basis data. Ini mencakup fitur seperti datatypes, constraints, dan atribut. Contohnya, mendefinisikan datatype seperti varchar untuk atribut nama lengkap dan integer untuk nomor kontak. Constraints seperti \verb|NOT NULL| juga diterapkan untuk memastikan setiap kolom berisi data.
+\end{itemize}
+
+\subsection{Tipe-tipe Data Model}
+Model data memberikan representasi visual dari elemen-elemen data dan menggambarkan bagaimana mereka saling berhubungan. Model ini memberikan pemahaman kepada insinyur basis data tentang cara data disimpan, diakses, diperbarui, dan diinterogasi dalam basis data.
+
+Terdapat beberapa jenis model data yang dapat digunakan untuk merancang sistem basis data. Pilihan model yang digunakan sebaiknya didasarkan pada kesesuaiannya dalam mendukung kebutuhan bisnis.
+
+\subsubsection{Model Data Relasional}
+Model ini merepresentasikan basis data sebagai kumpulan relasi, di mana setiap relasi disajikan dalam bentuk tabel yang menyimpan informasi dalam baris dan kolom.
+
+Keuntungan: Lebih sederhana digunakan dibandingkan model lain, memudahkan identifikasi dan akses data.
+
+\subsubsection{Model Entity Relationship}
+Model ini mirip dengan model relasional, tetapi setiap tabel dipresentasikan sebagai entitas terpisah dengan atributnya sendiri.
+
+Model hubungan entitas biasanya digambarkan dalam diagram ER yang menampilkan entitas-entitas dalam basis data dan hubungan-hubungan yang berbeda di antara mereka, di mana setiap entitas memiliki kumpulan atribut yang terkait.
+
+Model ini juga menggambarkan berbagai jenis multiplisitas, termasuk satu-ke-satu, satu-ke-banyak, dan banyak-ke-banyak.
+
+Diagram ER berikut ini menggambarkan sistem pemesanan janji operasi. Sistem ini terdiri dari empat entitas: Dokter, Operasi, Janji, dan Pasien.
+
+Setiap entitas memiliki kumpulan atribut, dan semua entitas terhubung melalui kunci asing. Menurut diagram ini:
+\begin{itemize}
+    \item Seorang pasien dapat membuat satu atau beberapa janji temu.
+    \item Beberapa janji temu dapat ditugaskan kepada setiap dokter.
+    \item Beberapa janji temu berlangsung di sebuah klinik tertentu.
+\end{itemize}
+
+Model data hubungan entitas mendukung persyaratan data operasi, dan diagram ER menampilkan struktur database secara mudah digunakan, sehingga Anda dapat menggunakannya untuk mendokumentasikan database Anda dan berkomunikasi tentang strukturnya dengan pemangku kepentingan Anda.
+
+Anda juga dapat membuat diagram ini dalam alat pengembangan terintegrasi seperti MySQL Workbench dan mengimplementasikan model database secara langsung di MySQL.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/erd.png}
+    \caption{}
+\end{figure}
+
+\subsubsection{Model Data Hierarkis}
+Model ini mengorganisir data dalam struktur pohon (tree-like) dengan hubungan parent-child.
+
+Hanya dapat merekam hubungan one-to-many, di mana setiap child node hanya dapat memiliki satu parent node.
+
+Model data berikut ini menggambarkan struktur database perusahaan asuransi. Dalam diagram ini, perusahaan asuransi disusun sebagai berikut:
+\begin{itemize}
+    \item Departemen adalah node akar,
+    \item Node Agen dan Staf terhubung ke node akar Departemen.
+    \item Dan node Komputer dan Ketenagakerjaan terhubung ke node akar Staf.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/hirar.png}
+    \caption{}
+\end{figure}
+
+Anda mungkin telah memperhatikan bahwa salah satu keunggulan utama model ini adalah kesederhanaan strukturnya. Selain itu, karena setiap catatan hanya memiliki satu induk, Anda dapat menavigasi basis data dengan cepat dan efisien. Namun, Anda perlu menyadari bahwa dalam model ini, jika Anda menghapus node induk, maka catatan anak yang terkait juga akan dihapus.
+
+Selain itu, model ini tidak mendukung hubungan banyak-ke-banyak, yang mungkin diperlukan dalam beberapa kasus (seperti dalam skenario operasi sebelumnya).
+
+Sulit juga untuk merestrukturisasi struktur basis data untuk mengakomodasi persyaratan baru. Melakukannya dapat mengganggu hubungan orang tua-anak yang sudah ada.
+
+Anda dapat menggunakan diagram ER untuk mewakili tingkat detail yang lebih tinggi dari model ini seperti yang ditunjukkan di bawah ini.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/erdofhirar.png}
+    \caption{}
+\end{figure}
+
+\subsubsection{Model Object Oriented}
+Model ini berdasarkan konsep berorientasi objek (Object Oriented), di mana setiap objek diterjemahkan menjadi kelas yang mendefinisikan karakteristik  dan perilakunya.
+
+Dalam model ini, Anda dapat menggunakan berbagai jenis hubungan antara objek, seperti agregasi, komposisi, dan pewarisan. Fitur-fitur ini membuat basis data berorientasi objek cocok untuk proyek yang kompleks. Namun, penggunaan model ini memerlukan pemahaman yang baik tentang pemrograman berorientasi objek.
+
+Dalam diagram pendaftaran kursus berikut, terdapat enam kelas:
+\begin{itemize}
+    \item Person,
+    \item Student,
+    \item Professor,
+    \item Course,
+    \item Address
+    \item dan Enrolment.
+\end{itemize}
+
+Setiap kelas terdiri dari sekumpulan atribut dan metode.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/oo.png}
+    \caption{}
+\end{figure}
+
+Dalam contoh ini, setiap kelas mewakili objek-objek serupa dalam basis data. Artinya, objek-objek serupa memiliki karakteristik dan perilaku yang sama. Misalnya, setiap mahasiswa yang terdaftar dalam sistem basis data memiliki kumpulan atribut (atau variabel instance) yang sama, seperti ID dan jenis. Selain itu, setiap instance objek dari suatu kelas menggunakan operasi yang sama yang dinyatakan dalam kelas tersebut.
+
+Selain itu, terdapat berbagai jenis hubungan yang didefinisikan dalam diagram sebagai berikut:
+\begin{itemize}
+    \item Setiap siswa dan dosen adalah orang (hubungan pewarisan) dan setiap orang terkait dengan alamat.
+    \item Setiap siswa dan dosen adalah subtipe dari orang, dan setiap orang berfungsi sebagai supertipe untuk setiap siswa dan dosen.
+    \item Setiap pendaftaran melibatkan siswa dan mata kuliah. Kelas pendaftaran dalam hal ini disebut kelas asosiasi.
+    \item Setiap dosen ditugaskan ke mata kuliah.
+\end{itemize}
+
+\subsubsection{Model Data Dimensional}
+Model ini didasarkan pada dua konsep kunci, yaitu fakta (facts) dan dimensi (dimensions). Fakta adalah pengukuran yang diperoleh dari suatu proses, sedangkan dimensi mendefinisikan konteks pengukuran tersebut.
+
+Keuntungan: Mengoptimalkan basis data untuk pengambilan data yang lebih cepat dan merestrukturisasi data untuk analisis yang lebih efisien.
+
+\subsection{Pengantar Normalisasi Basis Data}
+Normalisasi adalah proses yang digunakan untuk menyusun tabel dalam basis data agar mengurangi duplikasi data, menghindari implikasi modifikasi data, dan menyederhanakan kueri data.
+
+Anomali yang umum terjadi dalam tabel basis data yang tidak dinormalisasi meliputi:
+\begin{itemize}
+    \item Insertion Anomaly: Ketika penambahan data baru memerlukan penambahan data tambahan.
+    \item Update Anomaly: Ketika memperbarui satu kolom menyebabkan perlu memperbarui kolom lain di tabel.
+    \item Deletion Anomaly: Ketika penghapusan satu data menyebabkan penghapusan data lain yang diperlukan.
+\end{itemize}
+
+\subsection{Tingkatan Normalisasi}
+\subsubsection{First Normal Form(1NF)}
+Menegakkan atomisitas data dan menghilangkan kelompok data yang berulang.
+
+Contoh: Jika tabel produk \verb|M&G| menyimpan produk dalam satu sel, ini melanggar aturan atomisitas. Solusinya adalah membuat tabel produk dan tabel klien terpisah, masing-masing dengan kolom ID unik.
+
+\subsubsection{Second Normal Form(2NF)}
+Tabel harus sudah dalam 1NF dan tidak boleh memiliki ketergantungan fungsional atau parsial. Ini hanya terdapat jika primary keynya adalah Composite Primary Key
+
+Contoh: Tabel status pengiriman \verb|M&G| memiliki kunci primer komposit (order ID dan product ID). Jika ada atribut non-kunci yang hanya bergantung pada satu bagian dari kunci komposit, seperti tanggal pesanan, maka harus dipindahkan ke tabel pesanan.
+
+\subsubsection{Third Normal Form (3ND)}
+menghilangkan duplikasi data yang tidak perlu dan memastikan konsistensi serta integritas data. Untuk sebuah tabel dapat memenuhi 3NF, tabel tersebut harus sudah memenuhi First Normal Form (1NF) dan Second Normal Form (2NF). Selain itu, 3NF juga mengatasi masalah ketergantungan transitif, di mana atribut non-kunci bergantung satu sama lain.
+
+Contoh: Jika kota dan kode pos dalam tabel pesanan \verb|M&G| saling bergantung, maka harus dipisahkan menjadi dua tabel: satu untuk pesanan dan satu untuk kota, dengan kolom kode pos dan nama kota.
+
 
 \newpage
 
