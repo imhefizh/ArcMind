@@ -659,6 +659,139 @@ Tentukan aktivitas bisnis yang ingin dianalisis dan dimensi yang memberikan kont
 
 Organisasi data harus mudah dipahami, diakses, dan di-query.
 
+\subsection{Kubus OLAP}
+\subsubsection{Overview}
+OLAP Data warehouses mengumpulkan dan mengintegrasikan data dari berbagai sumber data. Data ini diimpor dari sistem basis data Pemrosesan Transaksi Online (OLTP), di mana data disusun untuk mengelola operasi bisnis sehari-hari secara real-time.
+
+Misalnya, Global Super Store menjual produk secara online ke seluruh dunia. Oleh karena itu, perusahaan ini memerlukan sistem basis data OLTP untuk mengumpulkan, memperbarui, mengambil, dan mencadangkan data pelanggan, produk, dan pesanan. Jenis basis data ini tidak terlalu efektif dalam melakukan analisis data. cubes
+
+Untuk melakukan analisis data yang efektif pada basis data OLTP, Anda perlu merestrukturisasi data Anda ke dalam sistem basis data OLAP (Online Analytical Processing) yang dirancang khusus untuk analisis data. Keuntungan utama dari sistem basis data OLAP meliputi hal-hal berikut:
+\begin{itemize}
+    \item Mereka memudahkan analisis multidimensi.
+    \item Mereka menyediakan alat untuk akses dan penyaringan data multidimensi dengan mudah.
+    \item Dan mereka mendukung pengambilan data dalam jumlah besar dengan cepat.
+\end{itemize}
+
+Fitur-fitur ini memungkinkan analis data untuk menyediakan tingkat analisis data yang dioptimalkan, yang membantu audiens mereka mendapatkan jawaban atas pertanyaan mereka mengenai kinerja bisnis. Dalam hal ini, sistem basis data OLAP menggunakan struktur kubus untuk memvisualisasikan konsep data multidimensi. Kubus OLAP adalah array multidimensi yang digunakan untuk menyimpan dan memelihara data guna menyediakan tingkat analisis data yang lebih canggih dengan wawasan yang lebih menarik.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/olapcube.png}
+    \caption{}
+\end{figure}
+
+\subsubsection{Kubus Olap dalam Praktek}
+Untuk melakukan analisis data, Anda perlu jelas tentang aktivitas bisnis mana yang ingin Anda teliti. Anda juga perlu mengetahui ukuran dan dimensi mana yang diperlukan untuk memberikan informasi yang paling bermakna dan berguna.
+
+Misalnya, Global Super Store menjual furnitur, perlengkapan kantor, dan produk teknologi di seluruh dunia. Mereka ingin meneliti kinerja penjualan kategori produk yang berbeda selama empat tahun terakhir di empat negara Eropa yang berbeda: Prancis, Jerman, Italia, dan Inggris.
+
+Salah satu solusi adalah menganalisis data perusahaan secara dasar, di mana Anda menyediakan Global Super Store dengan tiga tabel data sederhana yang menunjukkan total penjualan di setiap negara, total penjualan di setiap tahun, dan total penjualan di setiap kategori, seperti yang ditunjukkan di bawah ini.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/salescountry.png}
+    \caption{}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/salesyear.png}
+    \caption{}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/salescat.png}
+    \caption{}
+\end{figure}
+
+Dalam setiap tabel data, Anda menampilkan total penjualan dalam konteks satu dimensi sebagai berikut:
+\begin{itemize}
+    \item Penjualan dalam konteks dimensi Waktu (Tahun – 2019, 2020, 2021, dan 2022).
+    \item Penjualan dalam konteks dimensi Lokasi (Negara - Inggris, Italia, Prancis, dan Jerman).
+    \item Penjualan dalam konteks dimensi Produk (Kategori - Furnitur, Perlengkapan Kantor, dan Teknologi).
+\end{itemize}
+
+Namun, jenis analisis ini tidak memberikan wawasan mendalam tentang data Anda. Dan tidak mudah untuk menganalisis dan membandingkan data berdasarkan dimensi yang berbeda-beda (yang diperlukan untuk memberikan informasi yang lebih menarik bagi pengambil keputusan bisnis). Di sinilah analisis data multidimensi dapat memainkan peran penting dengan menggunakan OLAP cube.
+
+Dalam situasi ini, Anda dapat menggabungkan ketiga dimensi (Waktu, Lokasi, dan Produk) ke dalam sebuah kubus multidimensi seperti yang ditunjukkan di bawah ini.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/olapprac.png}
+    \caption{}
+\end{figure}
+
+Anda kini dapat menggunakan OLAP cube untuk menganalisis data kompleks dengan lebih efisien. Anda dapat menemukan jawaban untuk pertanyaan apa pun yang Anda miliki tentang operasi penjualan bisnis berdasarkan dimensi yang berbeda (seperti produk, waktu, dan lokasi) secara bersamaan.
+
+Sebagai contoh, grafik berikut menggabungkan ketiga dimensi tersebut untuk menunjukkan kinerja penjualan Global Super Store dalam hal semua kategori produk, selama empat tahun terakhir, di empat negara yang ditentukan:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tabelolap.png}
+    \caption{}
+\end{figure}
+
+Pada diagram multidimensi di atas, Anda sedang melihat data yang sama yang telah ditampilkan sebelumnya. Namun, kini Anda dapat dengan mudah membandingkan data tersebut. Misalnya, Anda dapat melihat bahwa penjualan tertinggi terjadi di Prancis untuk semua kategori produk, sementara Italia memiliki penjualan terendah. Anda mungkin juga telah memperhatikan bahwa terdapat peningkatan penjualan setiap tahun.
+
+Seperti yang dapat Anda lihat, kubus multidimensi memudahkan metode yang lebih efisien untuk memberikan pandangan informasi yang lebih bermakna. Hal ini memungkinkan Anda untuk menginterpretasikan dan membandingkan data dengan lebih mudah. Selain itu, Anda dapat menggunakan kubus OLAP untuk melakukan berbagai operasi berguna seperti Drill-down, Roll-up, Slice, Dice, dan Pivot. Mari kita lihat beberapa operasi ini.
+
+\subsubsection{Operasi pada Kubus OLAP}
+\paragraph{Slice}
+
+Operasi Slice berfokus pada sub dimensi dari kubus, yang memberikan pandangan yang lebih terfokus pada informasi. Dalam contoh berikut, kubus berfokus pada kategori furnitur dari dimensi produk.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/slice.png}
+    \caption{}
+\end{figure}
+
+Grafik di bawah ini menunjukkan bagaimana operasi slice digunakan untuk menjawab pertanyaan: “Bagaimana kinerja penjualan kategori furnitur selama empat tahun terakhir di setiap negara?”
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/sliceetable.png}
+    \caption{}
+\end{figure}
+
+\paragraph{Pivot}
+
+Operasi Pivot memberikan tampilan alternatif data dengan memutar sumbu kubus. Misalnya, kubus berikut memutar dimensi Lokasi dan Waktu.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/pivot.png}
+    \caption{}
+\end{figure}
+Data pada grafik sebelumnya (Slice) kini ditampilkan secara berbeda. Dimensi Lokasi dan Waktu telah ditukar. Data Negara kini ditampilkan pada kolom pertama, sedangkan data Tahun ditampilkan pada baris, seperti yang ditunjukkan di bawah ini.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/pivottabel.png}
+    \caption{}
+\end{figure}
+
+\paragraph{Dice}
+
+Operasi dadu menyoroti dua atau lebih subdimensi dari kubus seperti yang ditunjukkan di bawah ini.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/dice.png}
+    \caption{}
+\end{figure}
+
+Grafik berikut menunjukkan bagaimana operasi dadu digunakan untuk menjawab pertanyaan: “Bagaimana kinerja penjualan produk furnitur dan teknologi selama dua tahun terakhir di Prancis dan Jerman?”
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/dicetable.png}
+    \caption{}
+\end{figure}
+
+\paragraph{Drill-down and roll-up}
+
+Model kubus multidimensi juga mendukung struktur data hierarkis. Hal ini memungkinkan Anda untuk melakukan drill down ke area data yang lebih spesifik atau roll-up untuk berpindah ke tingkat data yang lebih tinggi. Grafik berikut, misalnya, menggunakan operasi drill down untuk menampilkan data dalam kuartal daripada tahun.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/drillnroll.png}
+    \caption{}
+\end{figure}
+
 
 \newpage
 
