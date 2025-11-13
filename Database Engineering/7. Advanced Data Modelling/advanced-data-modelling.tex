@@ -407,6 +407,258 @@ Selain itu, Anda juga dapat melakukan migrasi data dengan sistem manajemen basis
 \newpage
 
 \section{Data Warehousing}
+\subsection{Apa itu Data Warehouse?}
+Data Warehouse adalah repositori data terpusat yang mengumpulkan, menyimpan, dan memproses data dari berbagai sumber. Ini memisahkan beban kerja analisis data dari beban kerja transaksi standar dari sistem manajemen basis data biasa.
+
+Pengguna dapat melakukan query pada data ini untuk melakukan analisis data. Tipe basis data ini dikenal sebagai Online \textbf{Analytical Processing (OLAP)}.
+
+\subsection{Karakteristik Utama Data Warehouse}
+\subsubsection{Subject-Oriented}
+Data warehouse dibangun dengan fokus pada satu atau lebih area subjek. Misalnya, global superstore dapat membangun data warehouse yang fokus pada penjualan untuk menemukan informasi terkait proses penjualan mereka.
+
+\subsubsection{Integrated}
+Data warehouse mengintegrasikan data dari berbagai sumber dalam format yang konsisten. Ini juga menyelesaikan masalah seperti konflik penamaan dan tipe data. Contohnya, data dari pembelian online, interaksi website, dan media sosial diintegrasikan.
+
+\subsubsection{Non-Volatile}
+Data yang dimuat ke dalam data warehouse tidak boleh dihapus. Tujuan dari data warehouse adalah untuk menganalisis data sebagaimana adanya, sehingga semakin banyak data yang ada, semakin baik hasil analisisnya.
+
+\subsubsection{time-Variant}
+Data warehouse mengumpulkan data selama periode yang panjang untuk mengukur perubahan data dari waktu ke waktu. Ini membantu pengguna menemukan tren, pola, dan hubungan antara elemen data.
+
+\subsection{Jenis Data dalam Data Warehouse}
+\subsubsection{Structured Data}
+Data yang disajikan dalam format terstruktur dalam model data yang terdefinisi dengan baik, seperti model basis data relasional.
+
+\subsubsection{Semi-Structured Data}
+Data yang hanya sebagian terstruktur dan memerlukan lebih banyak usaha untuk analisis. Contohnya adalah email yang memiliki data terstruktur seperti pengirim dan subjek, tetapi isi emailnya tidak terstruktur.
+
+\subsubsection{Unstructured Data}
+Data yang tidak mengikuti model data yang terdefinisi. Ini bisa mencakup teks, video, atau audio. Menganalisis data tidak terstruktur memerlukan mekanisme analitik data yang lebih canggih seperti machine learning dan data mining.
+
+\subsection{Komponen Arsitektur Data Warehouse}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/ss1.png}
+    \caption{}
+\end{figure}
+
+Sumber Data:
+\begin{itemize}
+    \item Sumber data eksternal seperti Global Super Store, survei online, atau data media sosial.
+    \item Sumber data internal dari database perusahaan mengenai pelanggan dan produk, serta data operasional dari aktivitas bisnis sehari-hari.
+\end{itemize}
+Data Staging:
+\begin{itemize}
+    \item Area staging data mencakup proses ETL (Extract, Transform, Load) yang digunakan untuk mengekstrak data dari sumber, mengubahnya ke format yang konsisten, dan memuatnya ke dalam data warehouse.
+\end{itemize}
+
+\subsection{Penyimpanan dan Metadata}
+Data Storage merupakan repositori database pusat yang menyimpan data dalam format relasional. Ini juga mencakup metadata yang berisi informasi tentang data, seperti asal data dan atribut tabel.
+
+Metadata adalah "daftar isi" untuk data dalam data warehouse, membantu insinyur database mengelola dan melacak perubahan dalam sistem sumber mereka.
+
+\subsection{Data Marts dan Analisis Data}
+Data Marts adalah basis data yang berfokus pada subjek tertentu untuk memenuhi kebutuhan kelompok pengguna tertentu, seperti departemen dalam organisasi.
+
+Data Analytics: Proses analisis data menggunakan teknik seperti data mining untuk menghasilkan laporan yang memberikan informasi penting tentang penjualan, keuntungan, dan aspek lainnya dari bisnis.
+
+\subsection{Praktik Terbaik terkait Data Warehousing}
+\begin{itemize}
+    \item Pisahkan operasi analitis dan transaksional.
+    \item Gunakan solusi yang dapat diskalakan untuk memproses data yang semakin besar.
+    \item Bangun arsitektur yang fleksibel dan mudah dipahami, serta dokumentasikan pengembangan data warehouse.
+\end{itemize}
+
+\subsection{Pendalaman Data Warehouse ETL Process}
+\subsubsection{Overview}
+ETL adalah singkatan dari "Extract, Transform, and Load". Ini merupakan bagian penting dari fase penyiapan data dalam arsitektur data warehouse. ETL menggambarkan serangkaian proses yang mengekstrak data dari sistem sumber yang berbeda, mengubah data menjadi format yang sesuai, dan memuatnya ke dalam repositori data warehouse untuk analisis data.
+
+Secara umum, data warehousing melibatkan proses ETL yang kompleks dan memerlukan keterlibatan aktif dari pemangku kepentingan, termasuk insinyur data, analis data, analis bisnis, penguji, dan manajer.
+
+Sebagai insinyur database, Anda harus mengevaluasi dengan cermat setiap perubahan yang berdampak pada bisnis dalam desain proses ETL di data warehouse. Anda harus memastikan pemisahan yang lengkap antara operasi analitik dan operasi transaksional sehari-hari. Anda juga memerlukan solusi yang skalabel untuk memproses jumlah data yang sangat besar.
+
+\subsubsection{Bagaimana ETL Bekerja}
+Proses ETL tiga langkah mewakili alur kerja yang memindahkan data dari berbagai sumbernya dan mengintegrasikannya ke dalam data warehouse. Ada tiga langkah dalam proses ini:
+\begin{itemize}
+    \item Ekstraksi data.
+    \item Transformasi.
+    \item Dan pemuatan.
+\end{itemize}
+
+\subsubsection{Step 1: Data Extraction}
+Langkah ini dalam proses melibatkan pengambilan data dari berbagai sumber ke area penyimpanan sementara. Misalnya, Global Super Store mungkin menggunakan sistem manajemen basis data dan file yang berbeda untuk mengelola data mereka di departemen logistik, operasional, penjualan, dan pemasaran. Hal ini dapat mencakup MySQL, Oracle, PostgreSQL, lembar Excel, dan file teks biasa, seperti yang ditunjukkan dalam diagram berikut.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/etls1.png}
+    \caption{}
+\end{figure}
+
+Global Super Store mengekstrak data dari masing-masing sumber ini di area penyiapan. Saat merancang proses ini, penting bagi Anda untuk:
+\begin{itemize}
+    \item Hanya mengekstrak data yang relevan untuk menghindari kelebihan data.
+    \item Menyertakan data yang valid dan menghapus semua duplikasi untuk mendapatkan hasil yang lebih akurat.
+    \item Mengecualikan data spam dan data yang rusak, karena hal ini akan menghemat banyak waktu selama proses pembersihan dan persiapan data.
+    \item Memvalidasi data dengan data asli di sumber untuk memastikan data dapat digunakan dengan cara yang sama di data warehouse.
+\end{itemize}
+
+\subsubsection{Step 2: Transformation}
+Proses ini memerlukan konversi data dari satu format ke format lain, atau dari satu struktur ke struktur lain sesuai dengan model data yang telah ditetapkan di data warehouse. Langkah ini sangat penting untuk mengintegrasikan data ke dalam repositori data warehouse.
+
+Data yang sudah terintegrasi dalam basis data relasional mungkin tidak memerlukan transformasi. Data tersebut dapat diimpor langsung ke repositori data warehouse tanpa perubahan. Namun, Anda mungkin perlu membersihkan dan mempersiapkan data sebelum menggunakannya untuk analisis data.
+
+Misalnya, jika nilai nama depan dan nama belakang pelanggan disimpan terpisah dalam dua kolom yang berbeda, maka keduanya dapat digabungkan ke dalam kolom 'nama lengkap' sebelum dimuat ke repositori data warehouse. Atau jika data mencakup biaya pembelian dan penjualan, maka Anda dapat membuat kolom baru yang dihitung untuk keuntungan data.
+
+Transformasi data menjadi lebih penting ketika Anda bekerja dengan data mentah (seperti jenis data atomik yang tidak dapat diolah menjadi informasi berguna oleh komputer secara mandiri). Contoh data mentah yang baik meliputi log komputer, cookie navigasi pengguna, dan riwayat pencarian. Jenis data ini dapat ditemukan dalam file teks biasa atau file nilai yang dipisahkan koma (CSV).
+
+Dalam data warehouse, Anda harus menyertakan data terstruktur untuk analisis data. Untuk melakukannya, Anda harus mengorganisir data yang telah diubah dalam tabel, mendefinisikan data dengan tipe data spesifik, dan menetapkan batasan dalam tabel dan kolom. Hal ini menciptakan catatan data terkait yang dapat diakses, diinterogasi, dan dianalisis untuk menyajikan informasi yang berguna.
+
+Tugas utama dalam proses transformasi meliputi pemformatan, pembersihan, persiapan, pengorganisasian, dan integrasi data, seperti yang ditunjukkan dalam diagram berikut.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/etls2.png}
+    \caption{}
+\end{figure}
+
+Penting juga untuk memastikan integritas dan konsistensi data pada fase Transformasi. Misalnya, nama pelanggan mungkin ditulis dengan cara yang berbeda di berbagai sumber data, seperti John atau Jon. Atau nomor telepon dapat dicatat dengan cara yang berbeda (misalnya, dengan atau tanpa kode negara). Tanggal dan waktu juga dapat dikumpulkan dalam format yang berbeda.
+
+\subsubsection{Step 3: Loading}
+Proses ini merupakan langkah terakhir dalam ETL. Pada langkah ini, sejumlah besar data dimuat ke dalam repositori data warehouse. Oleh karena itu, penting untuk menerapkan mekanisme pemulihan jika terjadi kegagalan pemuatan data. Hal ini berarti Anda dapat melanjutkan proses pemuatan dari titik kegagalan tanpa kehilangan data dan sambil tetap menjaga integritas data.
+
+Dalam konteks ini, Anda dapat melakukan tiga jenis pemuatan data:
+\begin{itemize}
+    \item Pemuatan awal: Memuat data yang diekstraksi ke repositori data warehouse.
+    \item Pemuatan incremental: Memuat data baru dari sumber data ke repositori saat ini.
+    \item Pemuatan refresh penuh: Menghapus isi database di repositori data warehouse secara sebagian atau seluruhnya dan memuatnya kembali dengan data baru yang segar.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/etls3.png}
+    \caption{}
+\end{figure}
+
+\subsubsection{ETL Tools}
+Ada beberapa alat yang tersedia yang dapat Anda gunakan untuk melaksanakan proses ETL ini. Alat-alat ini mengotomatisasi proses ekstraksi, transformasi, dan pemuatan data ke tingkat yang lebih canggih. Beberapa contoh alat-alat tersebut antara lain:
+\begin{itemize}
+    \item Oracle: Database terkemuka di industri yang menawarkan berbagai pilihan solusi data warehouse.
+    \item Amazon RedShift: Alat data warehouse yang sederhana dan hemat biaya yang dapat digunakan untuk menganalisis berbagai jenis data.
+    \item MarkLogic: Solusi data warehouse yang memudahkan dan mempercepat integrasi data dibandingkan alat lain. Ia dapat mengakses berbagai jenis data seperti data mesin pencari, file teks, dan RDF.
+\end{itemize}
+
+\subsection{Tujuan dan Tantangan ETL}
+Tujuan:
+\begin{itemize}
+    \item ETL bertujuan untuk menggabungkan berbagai sumber data atau mengabstraksi sumber data besar agar lebih mudah diakses oleh konsumen data.
+    \item Proses ini memungkinkan penyimpanan data mentah sebagai cadangan di warehouse, sambil menyediakan data yang telah diproses untuk penggunaan saat dibutuhkan.
+\end{itemize}
+Tantangan:
+\begin{itemize}
+    \item Mengelola volume data yang besar dan beragam bisa menjadi tantangan. Memastikan pipeline selalu diperbarui dan data tersedia saat dibutuhkan adalah kunci.
+    \item Perubahan pada database dapat memicu kebutuhan untuk memperbarui pipeline ETL, yang memerlukan pemahaman yang kuat tentang kebutuhan dan tujuan pipeline tersebut.
+\end{itemize}
+
+Pemangku kepentingan harus memiliki pemahaman yang baik tentang pipeline ETL dan bertanggung jawab untuk melakukan perubahan yang diperlukan saat ada pembaruan.
+
+ETL pipelines adalah komponen fundamental dalam dunia big data, cloud computing, dan metaverse, membantu dalam pengelolaan dan akses data yang efisien.
+
+\subsection{ETL Testing}
+\subsubsection{Overview}
+Data warehouse menyediakan repositori data terpusat yang mendukung analisis data canggih dan pelaporan. ETL merujuk pada proses Ekstrak, Transformasi, dan Pemuatan yang diperlukan untuk memindahkan data dari berbagai sumber data ke dalam data warehouse.
+
+Untuk menyelesaikan proses ETL, Anda perlu:
+\begin{itemize}
+    \item Mengekstrak data yang relevan dan valid.
+    \item Mengubah data yang diekstrak menjadi format dan struktur yang sesuai.
+    \item Dan memuat data yang telah diubah dari berbagai sumber data ke dalam repositori data warehouse.
+\end{itemize}
+
+Namun, bagaimana Anda dapat memastikan bahwa data yang dimuat benar, valid, andal, dan konsisten?
+
+\subsubsection{ETL Testing}
+Tujuan utama pengujian ETL adalah untuk memastikan akurasi, keandalan, validitas, dan konsistensi data yang dimuat. Pengujian ETL memeriksa apakah ada masalah dalam proses ETL yang menghalangi pembentukan data berkualitas baik. Hal ini dapat dilakukan dengan melaksanakan tindakan berikut:
+\begin{itemize}
+    \item Pemetaan data secara tepat.
+    \item Memvalidasi data.
+    \item Memeriksa duplikat data.
+    \item Memvalidasi tanggal.
+    \item Dan memverifikasi kelengkapan dan keakuratan data.
+\end{itemize}
+
+\subsubsection{ETL Testing in Practice}
+Global Super Store memiliki banyak departemen yang berbeda, masing-masing mengelola data pelanggan dengan cara yang berbeda di server yang berbeda menggunakan identifikasi unik yang berbeda. Misalnya, departemen penjualan menggunakan nomor telepon pelanggan sebagai identifikasi unik, sementara departemen pemasaran menggunakan identifikasi pelanggan yang dihasilkan secara otomatis.
+
+Selain itu, beberapa data diwakili dengan cara yang berbeda. Misalnya, nama lengkap pelanggan dinyatakan sebagai satu kolom di departemen penjualan. Namun, di departemen pemasaran, nama lengkap pelanggan dinyatakan dalam dua kolom (sebagai nama depan dan nama belakang). Tanggal di departemen penjualan diformat sebagai \verb|yyyy-m-d| (misalnya \verb|2020-9-5|). Namun, di departemen pemasaran, tanggal diformat sebagai \verb|yy\m\d| (atau \verb|20\9\5|).
+
+Hal ini menimbulkan beberapa masalah bagi Global Super Store. Masalah utama yang tidak dapat mereka selidiki adalah siapa pelanggan yang melakukan pemesanan setelah kampanye pemasaran terbaru mereka, karena ID pelanggan disimpan dalam format yang berbeda di berbagai departemen. Solusi untuk masalah ini adalah membuat model database baru di data warehouse. Mereka kemudian dapat mengekstrak data yang relevan, mentransformasikannya, dan memuatnya dari database penjualan dan pemasaran.
+
+Model baru ini dapat mencakup:
+\begin{itemize}
+    \item Tabel Pesanan dengan ID pesanan dan tanggal pesanan.
+    \item Tabel Pemasaran dengan ID pemasaran dan tanggal pemasaran.
+    \item Dan tabel pelanggan dengan nama lengkap setiap pelanggan, identifikasi unik awal dari kedua departemen, dan kunci unik baru yang memungkinkan identifikasi pelanggan dari kedua departemen.
+\end{itemize}
+
+Model baru ini memungkinkan untuk menghubungkan riwayat pembelian pelanggan dengan kampanye pemasaran, dan kemudian melakukan analisis data yang relevan.
+
+\subsubsection{Performing ETL Testing}
+Untuk memastikan bahwa data telah dimuat dengan benar, pengujian ETL harus dilakukan menggunakan metode-metode berikut.
+\begin{itemize}
+    \item Dokumen pemetaan data
+
+          Buat dokumen pemetaan data untuk mentransformasi data dari sumber data kedua departemen ke repositori tujuan di data warehouse. Dokumen ini harus direview, diverifikasi, dan divalidasi oleh insinyur database dan analis data untuk memastikan pemetaan data yang benar.
+
+    \item Validasi data
+
+          Lakukan validasi data dengan membandingkan struktur data, tipe data, format data, dan batasan dalam tabel sumber dan tujuan yang terkait dengan dokumen pemetaan yang sesuai. Anda juga harus melakukan validasi data untuk memverifikasi nilai tanggal saat membuat catatan data baru, karena hal ini memungkinkan sistem data warehouse untuk mengekstrak data baru dari sumber data dan memperbarui basis data repositori yang relevan jika terjadi perubahan data.
+
+    \item Kelengkapan data
+
+          Pastikan kelengkapan data dengan memverifikasi bahwa semua data yang diharapkan telah dimuat ke dalam tabel tujuan, termasuk jumlah catatan dan catatan yang ditolak. Anda juga perlu memeriksa batasan yang telah diterapkan dan memastikan bahwa semua nilai unik telah diisi sesuai persyaratan.
+
+    \item Kebenaran data
+
+          Lakukan verifikasi kebenaran data untuk menyelesaikan konflik penamaan data, pastikan semua data yang salah eja telah diperbaiki, dan pastikan nilai data yang tidak terduga (artinya, nilai yang di luar rentang) telah diperbaiki atau dihapus.
+
+    \item Kualitas data
+
+          Pastikan kualitas data yang baik dengan memeriksa nama dan format angka, presisi, serta nilai null di mana batasan NOT NULL telah ditentukan.
+
+    \item Data unik
+
+          Lakukan pemeriksaan duplikat untuk memastikan semua tabel memiliki catatan data yang unik dan semua catatan data duplikat telah dihapus.
+\end{itemize}
+
+\subsection{Konsep Dasar Dimensional Data Modeling}
+\begin{itemize}
+    \item \textbf{Dimensi}: Elemen yang berbeda dari data yang memberikan konteks untuk ukuran. Contoh: waktu dan lokasi dalam database Global Superstore.
+    \item \textbf{Fakta}: Data yang dapat diukur dan dihitung dalam database. Contoh: jumlah produk yang terjual dan keuntungan yang diperoleh.
+\end{itemize}
+
+\subsection{Struktur Dimensional Data Model}
+\begin{itemize}
+    \item Tabel Dimensi: Menyimpan elemen data dimensi dan dapat disusun dalam hierarki untuk analisis data yang lebih mendalam.
+    \item Tabel Fakta: Menyimpan ukuran data. Contoh: tabel fakta penjualan yang terhubung dengan tabel dimensi seperti pemasok, pelanggan, produk, waktu, dan lokasi.
+\end{itemize}
+
+\subsection{Jenis Ukuran dalam Tabel Fakta}
+\begin{itemize}
+    \item Stored Measures: Ukuran yang disimpan dalam data warehouse, seperti data penjualan dan harga produk.
+    \item Calculated Measures: Ukuran yang dihitung dari ukuran lain, misalnya, keuntungan dihitung dengan mengurangi biaya produk dari harga jual.
+\end{itemize}
+
+\subsection{Skema dalam Dimensional Data Modeling}
+\begin{itemize}
+    \item Star Schema: Model sederhana yang terdiri dari tabel fakta di tengah yang terhubung dengan satu atau lebih tabel dimensi. Contoh: tabel fakta penjualan terhubung dengan tabel dimensi pemasok, pelanggan, produk, waktu, dan lokasi.
+    \item Snowflake Schema: Skema yang lebih kompleks di mana tabel dimensi dinormalisasi untuk menghilangkan redundansi data. Contoh: tabel produk dinormalisasi menjadi tabel produk, subkategori, dan kategori.
+\end{itemize}
+
+\subsection{Praktik Terbaik dalam Mendesain Data Model Warehouse}
+Tentukan aktivitas bisnis yang ingin dianalisis dan dimensi yang memberikan konteks yang paling berarti.
+
+Organisasi data harus mudah dipahami, diakses, dan di-query.
+
 
 \newpage
 
