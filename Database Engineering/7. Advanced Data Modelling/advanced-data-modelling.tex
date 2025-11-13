@@ -792,6 +792,33 @@ Model kubus multidimensi juga mendukung struktur data hierarkis. Hal ini memungk
     \caption{}
 \end{figure}
 
+\subsection{Tujuan Model Data Dimensional}
+Proses membangun model data dimensional menggunakan pendekatan yang dikenal sebagai Kimball's dimensional data modeling
+\begin{itemize}
+    \item Model data dimensional digunakan untuk memahami aspek tertentu dari bisnis dan menyelesaikan masalah spesifik.
+    \item Proses ini melibatkan empat langkah kunci yang harus diambil untuk membangun model data dimensional.
+\end{itemize}
+
+\subsection{Empat Langkah Kunci}
+\begin{itemize}
+    \item Business Process (Proses Bisnis)
+
+          Langkah pertama adalah memilih proses bisnis yang akan dianalisis. Contohnya, Global Super Store memilih untuk menganalisis aktivitas penjualan mereka.
+
+    \item Grain (Grain)
+
+          Setelah memilih proses, langkah berikutnya adalah menentukan tingkat detail yang diperlukan, yang disebut grain. Misalnya, Global Super Store perlu menganalisis data penjualan baik secara tahunan maupun harian.
+
+    \item Dimensions (Dimensi)
+
+          Dalam langkah ini, Anda memilih dimensi yang relevan untuk analisis. Global Super Store perlu menganalisis data penjualan dalam konteks produk, pelanggan, waktu, dan lokasi.
+
+    \item Facts (Fakta)
+          Langkah terakhir adalah menentukan apa yang ingin diukur. Anda perlu memilih ukuran yang berisi data numerik untuk mengisi tabel fakta. Misalnya, Global Super Store ingin mengeksplorasi fakta penjualan menggunakan tabel dimensi lokasi, produk, dan waktu.
+\end{itemize}
+
+\subsection{Membuat Skema}
+Setelah menentukan proses bisnis, grain, dimensi, dan fakta, Anda dapat membuat skema. Global Super Store dapat mengatur dimensi dan ukuran mereka dalam skema bintang (star schema) untuk menganalisis kinerja aktivitas penjualan mereka.
 
 \newpage
 
