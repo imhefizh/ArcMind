@@ -650,8 +650,34 @@ Untuk memastikan bahwa data telah dimuat dengan benar, pengujian ETL harus dilak
 
 \subsection{Skema dalam Dimensional Data Modeling}
 \begin{itemize}
-    \item Star Schema: Model sederhana yang terdiri dari tabel fakta di tengah yang terhubung dengan satu atau lebih tabel dimensi. Contoh: tabel fakta penjualan terhubung dengan tabel dimensi pemasok, pelanggan, produk, waktu, dan lokasi.
-    \item Snowflake Schema: Skema yang lebih kompleks di mana tabel dimensi dinormalisasi untuk menghilangkan redundansi data. Contoh: tabel produk dinormalisasi menjadi tabel produk, subkategori, dan kategori.
+    \item Star Schema:
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.8\textwidth]{./Picts/starschema.png}
+              \caption{}
+          \end{figure}
+          Model sederhana yang terdiri dari tabel fakta di tengah yang terhubung dengan satu atau lebih tabel dimensi. Contoh: tabel fakta penjualan terhubung dengan tabel dimensi pemasok, pelanggan, produk, waktu, dan lokasi.
+
+          \begin{figure}[H]
+          \centering
+          \includegraphics[width=0.8\textwidth]{./Picts/starexample.png}
+          \caption{}
+          \end{figure}
+    \item Snowflake Schema:
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.8\textwidth]{./Picts/snowflakeschema.png}
+              \caption{}
+          \end{figure}
+          Skema yang lebih kompleks di mana tabel dimensi dinormalisasi untuk menghilangkan redundansi data. Contoh: tabel produk dinormalisasi menjadi tabel produk, subkategori, dan kategori.
+
+          \begin{figure}[H]
+          \centering
+          \includegraphics[width=0.8\textwidth]{./Picts/snowflakeexample.png}
+          \caption{}
+          \end{figure}
 \end{itemize}
 
 \subsection{Praktik Terbaik dalam Mendesain Data Model Warehouse}
