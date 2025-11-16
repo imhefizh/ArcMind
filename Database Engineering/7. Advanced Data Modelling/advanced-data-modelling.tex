@@ -660,9 +660,9 @@ Untuk memastikan bahwa data telah dimuat dengan benar, pengujian ETL harus dilak
           Model sederhana yang terdiri dari tabel fakta di tengah yang terhubung dengan satu atau lebih tabel dimensi. Contoh: tabel fakta penjualan terhubung dengan tabel dimensi pemasok, pelanggan, produk, waktu, dan lokasi.
 
           \begin{figure}[H]
-          \centering
-          \includegraphics[width=0.8\textwidth]{./Picts/starexample.png}
-          \caption{}
+              \centering
+              \includegraphics[width=0.8\textwidth]{./Picts/starexample.png}
+              \caption{}
           \end{figure}
     \item Snowflake Schema:
 
@@ -674,9 +674,9 @@ Untuk memastikan bahwa data telah dimuat dengan benar, pengujian ETL harus dilak
           Skema yang lebih kompleks di mana tabel dimensi dinormalisasi untuk menghilangkan redundansi data. Contoh: tabel produk dinormalisasi menjadi tabel produk, subkategori, dan kategori.
 
           \begin{figure}[H]
-          \centering
-          \includegraphics[width=0.8\textwidth]{./Picts/snowflakeexample.png}
-          \caption{}
+              \centering
+              \includegraphics[width=0.8\textwidth]{./Picts/snowflakeexample.png}
+              \caption{}
           \end{figure}
 \end{itemize}
 
@@ -849,6 +849,414 @@ Setelah menentukan proses bisnis, grain, dimensi, dan fakta, Anda dapat membuat 
 \newpage
 
 \section{Advanced Data Analytics}
+\subsection{Dasar-dasar Analisis Data}
+\begin{itemize}
+    \item Analisis Data: Proses menganalisis data untuk mendapatkan informasi yang berguna dan wawasan yang berharga.
+    \item Data Analytics Tools: Alat yang digunakan untuk melakukan analisis data.
+\end{itemize}
+
+\subsection{Jenis-jenis Analisis Data}
+\begin{itemize}
+    \item Descriptive Data Analysis: Menyajikan data dalam format deskriptif untuk memberikan gambaran umum.
+    \item Exploratory Data Analysis: Digunakan untuk menetapkan hubungan antara variabel yang berbeda.
+    \item Inferential Data Analysis: Fokus pada sampel kecil data untuk membuat inferensi tentang populasi yang lebih besar.
+    \item Predictive Data Analysis: Mengidentifikasi pola dalam data untuk memprediksi kinerja di masa depan.
+    \item Causal Data Analysis: Meneliti hubungan sebab-akibat antara variabel.
+\end{itemize}
+
+\subsection{Tipe Data dan Pengukuran}
+\begin{itemize}
+    \item Quantitative Data: Data numerik yang dapat dihitung, seperti jumlah rata-rata pelanggan yang melakukan pembelian setiap hari.
+    \item Qualitative Data: Data non-numerik yang bersifat deskriptif, seperti nama kategori produk.
+\end{itemize}
+
+\subsection{Skala Pengukuran}
+\begin{itemize}
+    \item Nominal Scale:
+
+          Menggambarkan data non-numerik yang bersifat deskriptif, seperti mengidentifikasi produk (contoh: kursi, meja).
+
+          Ini adalah skala yang digunakan untuk mengidentifikasi atau memberi nama pada kategori tanpa urutan. Contohnya, jika kita memiliki kategori produk seperti "meja", "kursi", dan "lemari", kita hanya memberi label pada masing-masing tanpa ada peringkat. Jadi, kamu benar bahwa ini adalah nama identifier.
+
+    \item Ordinal Scale:
+
+          Data kualitatif yang diurutkan dalam urutan tertentu tanpa kriteria yang jelas untuk perbedaan antar elemen (contoh: peringkat kualitas produk).
+
+          Ini adalah skala yang memberikan peringkat pada data, tetapi tidak menunjukkan seberapa besar perbedaan antara peringkat tersebut. Misalnya, jika kita memberi rating pada produk dari 1 hingga 5, kita tahu bahwa 5 lebih baik dari 4, tetapi kita tidak tahu seberapa besar perbedaan antara keduanya.
+
+    \item Interval Scale:
+
+          Memiliki sifat dari skala nominal dan ordinal, di mana perbedaan antara titik data dapat diidentifikasi (contoh: umpan balik produk dari -10 hingga 10).
+
+          Ini adalah skala yang menunjukkan perbedaan yang sama antara nilai-nilai, tetapi tidak memiliki titik nol yang absolut. Contohnya adalah suhu dalam derajat Celsius. Kita bisa mengatakan bahwa 20°C lebih panas dari 10°C, dan perbedaan antara keduanya adalah 10 derajat. Namun, 0°C tidak berarti "tidak ada suhu". Jadi, ini adalah skala yang lebih kompleks karena kita bisa melakukan operasi matematika seperti penjumlahan dan pengurangan, tetapi tidak bisa melakukan perkalian atau pembagian.
+
+    \item Ratio Scale:
+
+          Data kuantitatif yang memiliki nilai absolut nol dan mencakup sifat dari ketiga skala sebelumnya (contoh: berat produk, seperti meja kecil 20 kg, meja sedang 40 kg, meja besar 60 kg).
+
+          Ini adalah skala yang memiliki semua sifat dari skala nominal, ordinal, dan interval, tetapi juga memiliki titik nol yang absolut. Contohnya adalah berat atau tinggi. Jika sesuatu memiliki berat 0 kg, itu berarti tidak ada berat sama sekali. Kita bisa melakukan semua operasi matematika di sini, termasuk perkalian dan pembagian. Mencakup ukuran fisik seperti massa, tinggi, dan volume.
+\end{itemize}
+
+\subsection{Data Mining dan Machine Learning}
+\begin{itemize}
+    \item Data Mining: Proses mendeteksi pola dalam data untuk mendapatkan wawasan dan membuat prediksi. Contoh: Global Super Store menggunakan data mining untuk mengidentifikasi pola pembelian produk, seperti pelanggan yang membeli meja juga membeli kursi.
+    \item Machine Learning: Proses mengajarkan komputer untuk belajar dan membuat prediksi. Ada dua metode utama:
+          \begin{itemize}
+              \item Supervised Machine Learning: Mengklasifikasikan data berdasarkan label yang diberikan. Contoh: Mengelompokkan gambar kursi dan meja dengan label CH dan DK.
+              \item Unsupervised Machine Learning: Mengklasifikasikan data berdasarkan karakteristik yang sama tanpa label. Contoh: Mengelompokkan gambar objek berdasarkan bentuk.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Model Data Mining}
+\begin{itemize}
+    \item Classification Analysis: Model yang mengelompokkan item data ke dalam kategori. Contoh: Pelanggan yang membeli produk kantor berharga rendah dapat diklasifikasikan sebagai pelanggan dengan anggaran rendah.
+
+          Kita mengelompokkan data ke dalam kategori yang sudah ditentukan sebelumnya. Misalnya, jika kita memiliki gambar-gambar produk, kita bisa mengklasifikasikannya menjadi kategori seperti "meja" atau "kursi". Dalam hal ini, kita sudah tahu label untuk setiap kategori, dan kemudian Machine Learning untuk mengenali dan mengelompokkan data berdasarkan label tersebut.
+    \item Association Rule: Model yang mengidentifikasi hubungan antara elemen data. Contoh: Pelanggan yang membeli ponsel juga membeli charger dan baterai.
+    \item Outlier Detection: Model yang mendeteksi data yang tidak biasa dalam dataset. Contoh: Pelanggan yang biasanya membeli produk murah tiba-tiba membeli produk mahal.
+    \item Clustering Analysis: Model yang mencari kesamaan dalam dataset dan memisahkan data menjadi kelompok berdasarkan kesamaan. Contoh: Mengelompokkan pelanggan berdasarkan perilaku navigasi di toko online.
+
+          Kita mengelompokkan data tanpa menggunakan label yang sudah ada. Ini berarti kita mencari pola atau kesamaan dalam data untuk mengelompokkannya. Misalnya, jika kita memiliki data pelanggan, clustering dapat membantu kita menemukan kelompok pelanggan yang memiliki perilaku belanja yang mirip, meskipun kita tidak tahu sebelumnya kategori apa yang ada.
+    \item Regression Analysis: Model yang mempertimbangkan faktor-faktor yang mempengaruhi data dan menentukan hubungan antara faktor-faktor tersebut. Contoh: Diskon produk yang meningkatkan penjualan.
+\end{itemize}
+
+\subsection{Nilai dari Wawasan Data dalam Bisnis}
+\subsubsection{Overview}
+Organisasi mengumpulkan banyak data dan menyimpannya dalam berbagai jenis basis data. Data ini merupakan aset penting yang dapat digunakan untuk menganalisis aktivitas dan kinerja bisnis. Namun, untuk mendapatkan manfaat maksimal dari data ini, Anda perlu mengelolanya dengan baik agar dapat diubah menjadi sumber daya yang berharga.
+
+Demikian pula, data dapat diakses, diekstraksi, disempurnakan, dan dianalisis untuk menemukan hubungan antara data yang ada guna menciptakan wawasan yang membantu pengambil keputusan dalam merencanakan aktivitas bisnis, meningkatkan layanan, mengurangi biaya, meminimalkan risiko, dan meningkatkan pendapatan.
+
+Analisis data tidak hanya berhenti pada menganalisis data untuk menggambarkannya (seperti berapa banyak pelanggan yang melakukan pemesanan, atau nilai penjualan total). Ini hanyalah fase pertama dalam analisis data. Analisis data memproses data untuk mengevaluasi probabilitas masa depan, mengidentifikasi masalah, menilai risiko, dan memprediksi peluang masa depan.
+
+Untuk melakukan analisis data yang tepat, Anda harus melakukan berbagai jenis analisis data untuk mengidentifikasi model, pola, paradigma, dan tren. Hal ini kemudian membantu Anda memahami kinerja bisnis secara mendalam dan memprediksi hasil masa depan dari aktivitas bisnis. Anda bahkan mungkin mendapatkan rekomendasi untuk rencana terbaik dan langkah-langkah yang harus diambil.
+
+\subsubsection{Keuntungan dari Data Analitik dalam Bisnis}
+
+Selama dekade terakhir, analisis data telah memainkan peran penting dalam menentukan cara organisasi menilai risiko dan mencari peluang. Perusahaan besar dan organisasi seperti Amazon, Microsoft, dan Apple telah menginvestasikan miliaran dolar dalam analisis data canggih.
+
+Penting untuk menyadari bahwa cara-cara di mana analisis data dapat dimanfaatkan bergantung pada berbagai faktor seperti kebutuhan bisnis, kondisi pasar, pesaing, dan bidang usaha. Namun demikian, terdapat manfaat umum yang dapat diperoleh dari analisis data terlepas dari ukuran dan jenis bisnis.
+
+Misalnya, analisis data dapat digunakan untuk:
+\begin{itemize}
+    \item Memberikan wawasan yang terperinci, akurat, dan dapat diandalkan untuk meningkatkan pengambilan keputusan bisnis sehari-hari.
+    \item Mengidentifikasi dan memanfaatkan peluang potensial.
+    \item Menemukan cara untuk memonetisasi data.
+    \item Mengidentifikasi ancaman seperti celah keamanan dan pelanggaran.
+    \item Memprediksi dan merespons secara proaktif perubahan dan tantangan di pasar.
+    \item Mendapatkan gambaran menyeluruh tentang aktivitas dan operasi bisnis.
+    \item Mencegah penipuan.
+    \item Dan mengungkap area baru di mana Anda dapat mengurangi biaya bisnis atau pengeluaran dan meningkatkan keuntungan.
+\end{itemize}
+
+Penting juga untuk diingat bahwa saat ini bisnis Anda merupakan bagian dari lingkungan Big Data. Lingkungan ini mencakup jumlah data yang sangat besar dan berbagai jenis data kompleks, termasuk data terstruktur, semi-terstruktur, dan tidak terstruktur. Data ini berasal dari berbagai sumber data, seperti basis data OLTP, data komersial, riwayat penelusuran, mesin pencari, dan situs media sosial.
+
+Misalnya, setiap hari Facebook menghasilkan lebih dari 500 terabyte data dari posting, termasuk gambar, komentar, dan video. Demikian pula, Google menghasilkan lebih dari 20 petabyte data setiap hari melalui prosesnya di kluster komputasi besar-besaran. Statistik ini menyoroti pentingnya menggunakan kecerdasan buatan, pembelajaran mesin, dan penambangan data untuk membantu bisnis mengambil keputusan yang didasarkan pada data.
+
+\subsubsection{Teknik Data Analitik}
+Ada banyak teknik yang dapat digunakan dalam analisis data untuk memaksimalkan nilai wawasan data. Beberapa teknik yang sering digunakan beserta contoh relevannya tercantum di bawah ini.
+\begin{itemize}
+    \item Classification technique
+
+          Teknik klasifikasi mengelompokkan item data ke dalam kategori atau kelas, yang memungkinkan Anda memprediksi kelas target dari data Anda. Misalnya, bank menggunakan teknik ini untuk mengidentifikasi pemohon pinjaman dengan risiko kredit rendah, sedang, atau tinggi berdasarkan riwayat peringkat kredit mereka, riwayat pekerjaan, kepemilikan properti, dan sebagainya.
+
+    \item Association rule
+
+          Aturan asosiasi mengidentifikasi hubungan antara elemen data untuk menentukan apakah ada korelasi antara data. Contoh klasik dari aturan asosiasi adalah mengidentifikasi hubungan antara dua produk di toko. Misalnya, banyak pelanggan yang datang ke toko untuk membeli produk tertentu mungkin juga membeli produk terkait lainnya. Oleh karena itu, data menunjukkan bahwa ada hubungan antara kedua produk tersebut. Asosiasi ini mungkin didasarkan pada data yang menunjukkan bahwa 70\% dari total transaksi di toko tersebut melibatkan kedua produk tersebut. Data ini menunjukkan bahwa ada hubungan asosiasi antara kedua produk tersebut.
+
+    \item Outlier detection
+
+          Deteksi outlier digunakan untuk mengidentifikasi data yang tidak biasa dalam suatu kumpulan data. Contoh umum dalam model analitik ini adalah deteksi penipuan kartu kredit. Teknik ini dapat digunakan untuk memeriksa apakah transaksi yang masuk sesuai dengan profil dan perilaku pelanggan. Jika permintaan tidak sesuai dengan profil dan perilaku pelanggan yang ada, maka permintaan tersebut akan ditandai sebagai outlier atau deteksi anomali.
+
+    \item Clustering analysis
+
+          Clustering Analysis mencari kesamaan di dalam sekumpulan data. Jika menemukan kesamaan, maka analisis ini memisahkan data yang terkait ke dalam kelompok-kelompok subset berdasarkan karakteristik bersama mereka.
+
+          Contoh yang baik dari analisis kluster adalah layanan streaming online. Layanan ini menggunakan analisis kluster untuk mengidentifikasi dan mengklasifikasikan pengguna yang terlibat dalam aktivitas streaming serupa. Layanan streaming melihat jumlah waktu yang dihabiskan pengguna untuk menonton video, serta jumlah sesi yang mereka lakukan per hari, minggu, dan bulan.
+
+          Metrik-metrik ini dapat digunakan dalam analisis kluster untuk mengidentifikasi kebiasaan pengguna. Layanan tersebut kemudian mengetahui demografi mana yang harus mereka targetkan dengan iklan mereka dan cara terbaik untuk menjangkau mereka.
+
+\end{itemize}
+
+\subsection{Faktor-faktor dalam Visualisasi Data}
+\begin{itemize}
+    \item Target Audience: Pertimbangkan siapa yang akan melihat data tersebut. Apa latar belakang dan tingkat pemahaman mereka tentang topik yang dibahas?
+    \item Informasi yang Disajikan: Tentukan informasi mana yang penting untuk audiens dan mana yang tidak perlu. Fokus pada elemen penting seperti tren dan outlier.
+    \item Waktu: Berapa lama audiens harus menghabiskan waktu untuk memahami setiap grafik? Apakah mereka perlu memahami grafik dengan cepat atau butuh waktu lebih lama?
+    \item Akurasi: Apakah audiens hanya perlu pemahaman umum atau detail yang lebih mendalam?
+\end{itemize}
+
+\subsection{Jenis-jenis grafik untuk Visualisasi Data}
+\begin{itemize}
+    \item Bar Chart: Grafik ini digunakan untuk membandingkan nilai data. Misalnya, Global Super Store menggunakan bar chart untuk menunjukkan penjualan produk dibandingkan dengan rasio keuntungan.
+    \item Line Graph: Menunjukkan data kuantitatif selama periode waktu. Contohnya, digunakan untuk menunjukkan tren keuntungan selama beberapa tahun.
+    \item Bubble Chart: Menunjukkan hubungan antara variabel numerik dengan ukuran dan posisi gelembung yang berbeda. Misalnya, gelembung yang lebih besar menunjukkan departemen yang lebih menguntungkan.
+    \item Map Chart: Menyajikan data dalam area geografis. Global Super Store menggunakan map chart untuk memvisualisasikan penjualan di berbagai wilayah global.
+    \item Scatter Plot: Memetakan variabel sebagai titik pada grid koordinat. Ini digunakan untuk mencari korelasi antara variabel dan dapat menambahkan garis tren untuk menunjukkan kinerja kategori tertentu.
+\end{itemize}
+
+\subsection{Alat Analisis Data}
+\begin{itemize}
+    \item Data Analytics Tools: Alat yang digunakan untuk menganalisis data dan menghasilkan wawasan yang dapat membantu pengambilan keputusan bisnis.
+    \item Artificial Intelligence: Teknologi yang memungkinkan alat analisis data untuk belajar dari data dan membuat prediksi.
+\end{itemize}
+
+\subsection{Contoh Alat Analisis}
+Tableau: Alat visualisasi data yang memungkinkan pengguna untuk membuat dashboard interaktif dan menganalisis data dari berbagai sumber.
+
+Key Features:
+\begin{itemize}
+    \item Data Types: Menyimpan data dalam berbagai tipe seperti string, date, dan time.
+    \item Data Sources: Dapat terhubung ke berbagai sumber data seperti MySQL, Microsoft SQL, dan Excel.
+    \item Interactive Dashboards: Menyediakan tampilan data secara real-time dan mendukung scripting dalam Python dan R.
+\end{itemize}
+
+\subsection{Proses Menggunakan Tableau}
+\begin{itemize}
+    \item Launching Tableau: Membuka aplikasi Tableau untuk memulai analisis data.
+    \item Connecting to Data Sources: Menghubungkan ke sumber data, misalnya dokumen Microsoft Excel.
+    \item Creating Visualizations: Menggunakan antarmuka untuk membuat visualisasi data dengan menyeret dan menjatuhkan elemen data.
+\end{itemize}
+
+\subsection{Mulai menggunakan Tableau}
+\subsubsection{Pendahuluan}
+Tableau digunakan untuk menganalisis data dan memberikan jawaban atas berbagai pertanyaan terkait kinerja bisnis. Namun, sebelum Anda dapat mulai menganalisis data, Anda perlu menghubungkan Tableau ke sumber data Anda. Mari luangkan beberapa menit untuk membahas Tableau dan langkah-langkah proses dalam membuat visualisasi data Anda.
+
+\subsubsection{Membuka Tableau dan Menelusuri UI}
+Buka Tableau untuk melihat halaman awal dan opsi terkait.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab1.png}
+    \caption{}
+\end{figure}
+
+Berikut ini adalah gambaran umum antarmuka pengguna Tableau seperti yang ditampilkan di atas:
+
+\textbf{Open}: Buka buku kerja. Buku kerja Tableau adalah kumpulan berbagai jenis lembar kerja, seperti lembar kerja, dasbor, dan cerita.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab2.png}
+    \caption{}
+\end{figure}
+
+\textbf{Accelerators}: Menyediakan buku kerja contoh.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab3.png}
+    \caption{}
+\end{figure}
+
+\textbf{Discover}: Memberikan akses ke sumber belajar yang berguna seperti tutorial video, forum, dan blog.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab4.png}
+    \caption{}
+\end{figure}
+
+\textbf{Logo Tableau}: Digunakan untuk beralih antara halaman awal dan ruang kerja penulisan.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab5.png}
+    \caption{}
+\end{figure}
+
+\textbf{Panel Koneksi}: Digunakan untuk terhubung ke data dari berbagai sumber data. Ada beberapa jenis file dan server yang dapat Anda hubungkan melalui bagian Koneksi, seperti Microsoft Excel, file spasial, MySQL, dan banyak lagi.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab6.png}
+    \caption{}
+\end{figure}
+
+\subsubsection{Memvisualkan Data}
+Seperti yang Anda ketahui, Tableau digunakan untuk memvisualisasikan data. Ada banyak cara untuk memvisualisasikan data Anda di Tableau, termasuk:
+\begin{itemize}
+    \item Grafik batang.
+    \item Grafik tren.
+    \item Dan grafik peta.
+\end{itemize}
+
+Mari kita tinjau langkah-langkah untuk membuat jenis grafik yang berbeda ini.
+
+
+\subsubsection{Membuat Diagram Batang}
+Untuk memulai analisis data Global Super Store, pilih Microsoft Excel. Navigasi ke sumber data di komputer Anda dan pilih file Global Super Store.
+
+Tindakan ini akan memuat data file ke dalam panel Data Tableau, yang berisi informasi tentang semua pesanan yang dibuat di Global Super Store, termasuk produk, penjualan, pelanggan, dan data pengiriman.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab7.png}
+    \caption{}
+\end{figure}
+
+Sekarang Anda perlu membuat diagram batang yang menampilkan total penjualan di semua kategori produk. Anda dapat menganalisis hasil tersebut dan menentukan cara untuk meningkatkan penjualan. Pilih tab lembar kerja untuk memulai analisis data dan membuat visualisasi data Global Super Store.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab8.png}
+    \caption{}
+\end{figure}
+
+Tindakan ini akan mengalihkan Anda ke ruang pengeditan lembar kerja.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab9.png}
+    \caption{}
+\end{figure}
+
+Di dalam ruang authoring ini, Anda dapat menyeret dan meletakkan bidang dimensi dan ukuran yang relevan langsung ke area kanvas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab10.png}
+    \caption{}
+\end{figure}
+
+Anda dapat memindahkan data ke area kartu, atau ke kolom dan baris di bagian rak.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab11.png}
+    \caption{}
+\end{figure}
+
+Untuk menyelesaikan tugas Anda, seret opsi kategori ke rak kolom dan opsi penjualan ke rak baris. Hal ini akan menghasilkan diagram batang dengan informasi yang relevan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab12.png}
+    \caption{}
+\end{figure}
+
+Anda juga dapat melakukan beberapa perubahan pada tampilan grafik untuk membuatnya lebih menarik secara visual:
+\begin{itemize}
+    \item Atur batang grafik dalam urutan naik atau turun menggunakan ikon terkait di bilah alat.
+    \item Seret bidang kategori dari panel Data ke kotak Warna pada kartu Marks.
+    \item Seret bidang penjualan dari panel Data ke kotak Label pada kartu Marks.
+    \item Berikan lembar kerja dengan nama yang bermakna.
+\end{itemize}
+
+\subsubsection{Membuat Diagram Trend}
+Anda telah membuat diagram batang yang menampilkan penjualan untuk semua kategori. Selanjutnya, Anda perlu membuat tampilan baru di mana Anda dapat menganalisis tren keuntungan per kategori selama beberapa tahun terakhir. Diagram tren paling cocok untuk tugas ini. Ikuti langkah-langkah berikut untuk menyelesaikan tugas ini:
+\begin{itemize}
+    \item Seret bidang Tanggal Pesanan dari panel Data ke rak kolom.
+    \item Seret bidang Laba dari panel Data ke rak baris.
+    \item Seret bidang kategori dari panel Data ke kotak Warna pada kartu Tanda.
+    \item Seret bidang kategori dari panel Data ke kotak Label pada kartu Tanda.
+    \item Berikan lembar kerja dengan nama yang bermakna.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab13.png}
+    \caption{}
+\end{figure}
+
+\subsubsection{Membuat Diagram Peta}
+Tugas Anda selanjutnya adalah menganalisis penjualan dan laba Global Super Store di Afrika, serta menentukan negara mana yang menjadi pasar terbaik bagi perusahaan. Anda dapat menggunakan peta untuk menyelesaikan tugas ini. Ikuti langkah-langkah berikut untuk menyelesaikan tugas ini:
+\begin{itemize}
+    \item Klik ganda bidang Negara di panel Data untuk membuat peta di area kanvas.
+    \item Seret bidang Wilayah dari panel Data ke kartu Filter Baris, lalu pilih Afrika.
+    \item Seret bidang Negara dari panel Data ke kotak Warna di kartu Tanda.
+    \item Seret bidang Penjualan dari panel Data ke kotak Ukuran di kartu Tanda.
+    \item Seret bidang Laba dari panel Data ke kotak Tooltip di kartu Tanda.
+    \item Berikan lembar kerja dengan nama yang bermakna.
+\end{itemize}
+
+Anda sekarang memiliki beberapa jenis grafik yang berbeda yang dapat digunakan untuk mengidentifikasi tren dan pola penjualan. Global Super Store dapat menggunakan grafik-grafik ini untuk membandingkan data penjualan mereka dan mengambil keputusan bisnis.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tab14.png}
+    \caption{}
+\end{figure}
+
+\subsection{Data Import dan Data Preparation di Tableau}
+\subsubsection{Menghubungkan Tableau ke Sumber Data}
+Buka Tableau dan pilih "Microsoft Excel" di tab Connect untuk menghubungkan ke file Excel.
+
+Live Connection: Dengan koneksi langsung, pembaruan pada sumber asli akan otomatis tercermin di database Tableau.
+
+\subsubsection{Membersihkan dan Menyiapkan Data}
+\begin{itemize}
+    \item Metadata Grid: Menampilkan informasi tentang berbagai field data. Anda dapat menyembunyikan atau menampilkan grid ini sesuai kebutuhan.
+    \item Operasi Pembersihan: Meliputi filtering, sorting, dan renaming data untuk memudahkan analisis.
+\end{itemize}
+
+\subsubsection{Mengubah Tipe Data dan Mengelola Kolom}
+\begin{itemize}
+    \item Mengubah Tipe Data: Klik panah kecil di atas kolom (misalnya, Order Date) dan pilih "Describe" untuk melihat informasi. Ubah tipe data menjadi "Date" jika diperlukan.
+    \item Menyembunyikan Kolom: Pilih panah kecil dan pilih "Hide" untuk menyembunyikan kolom yang tidak relevan. Gunakan "Show Hidden Fields" untuk menampilkan kembali kolom yang disembunyikan.
+\end{itemize}
+
+\subsubsection{Memisahkan Kolom dan Membuat Field Baru}
+\begin{itemize}
+    \item Split Customer Name: Klik panah kecil dan pilih "Split" untuk memisahkan nama pelanggan menjadi dua kolom: First Name dan Last Name.
+    \item Calculated Field: Untuk membuat field baru, seperti Return Date, pilih Order Date, klik "Create a Calculated Field", dan masukkan formula: Order Date + 15.
+\end{itemize}
+
+\subsection{Data Filtering dan Data Visualisasi di Tableau}
+\subsubsection{Memfilter Data di Tableu}
+\begin{itemize}
+    \item Fitur Filtering: Tableau memungkinkan pengguna untuk memfokuskan analisis pada data yang relevan dengan menggunakan fitur filtering. Ini membantu dalam mendapatkan informasi yang lebih akurat dan dapat diandalkan.
+    \item Data Source Page vs. Worksheet: Data dapat difilter baik di halaman data source maupun di worksheet. Namun, memfilter di halaman data source membatasi analisis hanya pada kriteria yang difilter.
+\end{itemize}
+
+\subsubsection{Langkah-langkah Memfilter Data}
+\begin{itemize}
+    \item Menambahkan Filter:
+          \begin{itemize}
+              \item Klik "Add" di bawah filters untuk membuka dialog box yang menampilkan semua field yang difilter.
+              \item Pilih field yang ingin ditambahkan, misalnya "Region", dan pilih "Canada".
+          \end{itemize}
+    \item Menghapus Filter: Untuk menghapus filter, klik "Edit Filter", pilih filter yang ingin dihapus, lalu klik "Remove".
+\end{itemize}
+
+\subsubsection{Membuat Grafik Analisis Data}
+Menampilkan Data:
+\begin{itemize}
+    \item Seret field kategori dari data pane ke area baris dan field Sales ke area kolom untuk membuat grafik batang horizontal.
+    \item Untuk memfilter data agar hanya menampilkan penjualan di Canada, seret field "Region" ke filter card dan pilih "Canada".
+\end{itemize}
+Mengubah Tampilan Grafik:
+\begin{itemize}
+    \item Gunakan ikon swap untuk mengubah grafik horizontal menjadi grafik vertikal.
+    \item Seret field "Sales" ke bagian warna untuk mengubah warna batang berdasarkan penjualan.
+\end{itemize}
+
+\subsubsection{Teknik Filtering Lanjutan}
+\begin{itemize}
+    \item Wildcard Filtering: Menggunakan pola tertentu untuk memfilter data, misalnya mengetik "chair" untuk menampilkan subkategori yang mengandung kata tersebut.
+    \item Condition Filtering: Memilih field dan mendefinisikan aturan tertentu, seperti memilih field "Sales" dengan nilai lebih dari 500,000.
+\end{itemize}
+
+\subsection{Membuat Dashboard Interaktif}
+Dashboard: Sebuah tampilan visual yang menggabungkan beberapa grafik dan informasi untuk analisis data.
+Worksheet: Halaman kerja di Tableau di mana Anda membuat visualisasi data. Anda perlu membuat dua worksheet: satu untuk menunjukkan penjualan dan keuntungan per negara, dan satu lagi untuk menunjukkan tren keuntungan.
+
+\subsubsection{Langkah-langkah Pembuatan}
+Membuat Peta Keuntungan dan Penjualan:
+\begin{itemize}
+    \item Ubah judul sheet menjadi "Profit and Sales Map by Country".
+    \item Gunakan field Country untuk membuat peta otomatis.
+    \item Tarik field Profits ke Color di marks card untuk menunjukkan keuntungan.
+    \item Tarik field Sales ke Tooltip untuk menampilkan data penjualan saat mouse diarahkan ke negara.
+\end{itemize}
+Membuat Tren Keuntungan:
+\begin{itemize}
+    \item Buat worksheet baru dan ubah judul menjadi "Profits Trends".
+    \item Tarik field Order Date ke Column Shelf dan pastikan tipe data sudah benar.
+    \item Tarik field Profits ke Rows untuk menghasilkan grafik tren keuntungan.
+\end{itemize}
+
+\subsubsection{Menggabungkan Worksheet ke dalam Dashboard}
+\begin{itemize}
+    \item Dashboard Tab: Klik tab dashboard dan pilih opsi "New Dashboard".
+    \item Tarik peta dan grafik keuntungan ke dalam dashboard untuk membuat tampilan yang saling terkait.
+    \item Tambahkan interaktivitas dengan mengklik peta untuk melihat tren keuntungan berdasarkan negara yang dipilih.
+\end{itemize}
+
+\subsubsection{Interaktivitas}
+Use as Filter: Fitur yang memungkinkan pengguna untuk memilih negara di peta dan melihat data terkait di grafik lainnya.
 
 \newpage
 
