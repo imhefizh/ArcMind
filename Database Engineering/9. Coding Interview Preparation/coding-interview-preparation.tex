@@ -1,0 +1,118 @@
+% section | subsection | subsubsection | paragraph | subparagraph | verbatim | enumerate | item
+
+% Just let it be an Article bro
+\documentclass{article}
+
+% Cover Metadata
+\title{Coding Interview Preparation}
+\date{22 Nov 2025}
+\author{Maulana Hafidz Ismail}
+
+% Equation Setup
+\usepackage{amsmath}
+
+% Image Setup
+\usepackage{graphicx}
+\usepackage{float}
+
+% Link Setup
+\usepackage{hyperref}
+
+% Highlighting Setup
+\usepackage{soul}
+\usepackage{xcolor}
+\sethlcolor{red!30}
+\newcommand{\hlblue}[1]{\sethlcolor{cyan!30}\hl{#1}\sethlcolor{yellow}}
+
+% Line Width
+\sloppy
+\setlength{\emergencystretch}{3em}
+\hbadness=99999
+
+% Code Syntax Setup
+\usepackage{listings}
+\usepackage{xcolor} % untuk warna
+\lstset{
+basicstyle=\ttfamily\small,
+frame=single,
+breaklines=true,
+backgroundcolor=\color{gray!10},
+keywordstyle=\color{blue},
+commentstyle=\color{gray},
+stringstyle=\color{red},
+tabsize=2,
+captionpos=b
+}
+
+% Start of the Article
+\begin{document}
+
+% Cover Page
+\pagenumbering{gobble}
+\maketitle
+\newpage
+
+% Table of Content Page
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% Main Content
+\section{Pengenalan ke Interview Coding}
+\subsection{Proses-proses Interview}
+\subsubsection{Proses Pengajuan Lamaran}
+\begin{itemize}
+    \item Resume Screening: Proses di mana perekrut menilai resume dan pengalaman kerja kandidat untuk menentukan kesesuaian dengan posisi yang dilamar.
+    \item Interview with Recruiter: Pertemuan antara kandidat dan perekrut untuk mendiskusikan keterampilan dan pengalaman, serta memastikan kecocokan untuk peran.
+\end{itemize}
+
+\subsubsection{Proses Wawancara}
+\begin{itemize}
+    \item Technical Interviews: Wawancara yang berfokus pada kemampuan teknis kandidat, termasuk coding challenges dan pertanyaan tentang algoritma dan data structures.
+    \item Behavioral Interviews: Wawancara yang mengeksplorasi bagaimana kandidat berkolaborasi dan menyelesaikan masalah dalam situasi kerja.
+\end{itemize}
+
+\subsubsection{Proses Kalibrasi}
+\begin{itemize}
+    \item Discussion of Candidate Performance: Tim yang terlibat dalam wawancara berkumpul untuk mendiskusikan kinerja kandidat dan memutuskan apakah akan memberikan tawaran pekerjaan.
+    \item Boot Camp Process: Proses pelatihan bagi kandidat yang diterima untuk mempelajari cara kerja di perusahaan dan memilih tim yang diinginkan.
+\end{itemize}
+
+\subsection{Persiapan untuk Sukses}
+\begin{itemize}
+    \item Technical Interview: Wawancara di mana Anda menunjukkan kemampuan teknis dan soft skills yang sesuai dengan perusahaan.
+    \item Soft Skills: Kemampuan sosial seperti komunikasi yang jelas dan etika kerja yang baik.
+\end{itemize}
+
+\subsection{Langkah-langkah dalam Wawancara Teknis}
+\begin{itemize}
+    \item Solve the Problem Conceptually First: Sebelum menulis kode, pastikan Anda memahami pertanyaan dengan jelas. Gunakan whiteboard untuk mencatat poin-poin penting.
+    \item Pseudocode: Menulis langkah-langkah solusi dalam bentuk teks yang menyerupai kode, membantu Anda merumuskan ide sebelum menulis kode sebenarnya.
+\end{itemize}
+
+\subsection{Menggunakan Alat yang Tepat}
+\begin{itemize}
+    \item Data Structure: Struktur yang digunakan untuk menyimpan dan mengorganisir data. Contoh: menggunakan dictionary untuk menghitung jumlah pasang kaus kaki berdasarkan warna.
+    \item Algorithm: Langkah-langkah sistematis untuk menyelesaikan masalah. Penting untuk memahami algoritma dan cara visualisasinya.
+\end{itemize}
+
+\subsection{Optimasi Kode}
+\begin{itemize}
+    \item Time Complexity: Ukuran seberapa cepat solusi Anda dapat dijalankan.
+    \item Space Complexity: Ukuran seberapa banyak memori yang digunakan oleh solusi Anda.
+    \item DRY Principle (Don't Repeat Yourself): Prinsip untuk menghindari pengulangan kode, sehingga kode lebih efisien dan mudah dipelihara.
+\end{itemize}
+
+\newpage
+
+\section{Pengenalan ke Struktur Data}
+
+
+\newpage
+
+\section{Pengenalan ke Algoritma}
+
+
+
+% End of Main Content
+\end{document}
