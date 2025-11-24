@@ -434,6 +434,86 @@ Akhirnya, tabel kebenaran menggambarkan hasil dari masukan tertentu ke gerbang. 
     \item Secondary Memory: Memori eksternal yang dapat ditambahkan untuk meningkatkan kapasitas penyimpanan. Contohnya termasuk cloud storage, hard drive eksternal, dan memory sticks. Akses ke memori sekunder lebih lambat karena memerlukan transfer informasi ke RAM terlebih dahulu.
 \end{itemize}
 
+\subsection{Pendekatan untuk Membuat Solusi di Komputer Sains}
+Cara mendefinisikan solusi untuk pernyataan masalah dengan mengidentifikasi masalah, merumuskan model, dan menyempurnakan solusi.
+
+\subsubsection{Mengidentifikasi masalah}
+Langkah pertama dalam menyelesaikan suatu masalah adalah mengartikulasikannya. \textbf{Saya perlu mencapai tujuan A, dengan menggunakan alat T, dengan batasan C}. Untuk memperjelas konsep praktik terbaik dalam merancang solusi, mari kita pertimbangkan masalah dunia nyata. Misalnya, Anda harus merancang aplikasi yang akan menghibur anak dengan permainan tebak-tebakan. Secara sekilas, ini tampak seperti tugas yang sederhana: komputer + permainan = anak yang bahagia. Namun, sebelum memulai, ada baiknya menentukan beberapa detail.
+\begin{itemize}
+    \item Bagaimana anak akan berinteraksi dengan komputer?
+    \item Pada tingkat apa pertanyaan-pertanyaan tersebut harus diajukan?
+    \item Dari mana pertanyaan-pertanyaan tersebut dihasilkan?
+    \item Bagaimana mereka akan disimpan?
+    \item Bagaimana jawaban-jawaban tersebut akan diperiksa?
+    \item Bagaimana program akan dimulai dan diakhiri?
+\end{itemize}
+
+Dalam skenario ini, masalahnya melibatkan baik perangkat keras maupun perangkat lunak. Pertama, apakah anak tersebut sudah cukup umur sehingga tidak memerlukan langkah-langkah keamanan? Dengan kata lain, penting untuk mempertimbangkan solusi ideal dengan memperhatikan bagaimana aplikasi akhir akan digunakan. Memberikan laptop mahal kepada balita mungkin bisa memberikan ketenangan sejenak, tetapi bisa saja menghabiskan gaji sebulan! Pola pikir yang sama harus diterapkan pada aplikasi yang direncanakan. Apakah pengguna akan mengakses aplikasi Anda dengan sinyal internet yang kuat? Apakah ada batasan lain, seperti output yang harus kompatibel dengan berbagai jenis ponsel? Apakah ada sistem operasi atau browser tertentu yang harus didukung? Semua pertanyaan ini perlu dipertimbangkan sebelum Anda mulai mengembangkan aplikasi.
+
+\subsubsection{Merumuskan model}
+Sekarang setelah ada gambaran tentang beberapa batasan proyek, solusi potensial dapat diusulkan. Bayangkan anak tersebut sudah cukup usia untuk menggunakan komputer, aplikasi hanya perlu dijalankan di laptop, semua penyimpanan dilakukan secara lokal (sehingga tidak ada masalah koneksi internet), dan input dapat dilakukan menggunakan keyboard di baris perintah. Bagus, sekarang proyek ini dapat dieksplorasi lebih lanjut.
+
+Setelah menentukan ruang lingkup proyek, saatnya mempertimbangkan apa yang harus dilakukan oleh komputer. Algoritma dapat didefinisikan sebagai urutan instruksi yang tepat untuk memecahkan masalah. Berguna untuk terlebih dahulu menggeneralisasi masalah dan kemudian menggambarkan urutan instruksi yang diperlukan secara lebih rinci sebelum mengimplementasikan kode. Ini seperti mengambil pendekatan algoritmik untuk memecahkan masalah. Seorang programmer sering kali mendapatkan intuisi tentang bagaimana solusi seharusnya terlihat dengan terlebih dahulu menggambarkan masalah menggunakan pseudocode. Ini dapat berupa deskripsi teks yang merinci persyaratan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/fthemodel.png}
+    \caption{}
+\end{figure}
+
+Menyusun langkah-langkah dalam daftar adalah langkah awal yang baik. Sekarang, pertimbangkan cara menghasilkan pertanyaan yang sesuai dengan usia. Menghasilkan pertanyaan secara dinamis dari ensiklopedia online atau sumber online lainnya mungkin memakan waktu. Sebagai alternatif, Anda dapat mengidentifikasi sumber pertanyaan dan jawaban yang sudah dikompilasi.
+
+Kedua, bagaimana masukan pengguna diambil? Telah ditetapkan bahwa keyboard adalah opsi yang layak, tetapi seberapa mahir anak dalam mengetik? Membandingkan solusi dengan teks memiliki tantangannya sendiri. Apakah harus cocok secara langsung, apakah ejaan, tanda baca, dan huruf besar akan dipertimbangkan? Potensial, pertanyaan dapat berupa pilihan ganda. Meningkatkan kesadaran akan semua pertimbangan ini adalah tujuan dari merumuskan pernyataan masalah secara jelas daripada langsung melompat ke solusi.
+
+\subsubsection{Menyempurnakan solusi}
+Setelah mempertimbangkan dengan matang, Anda menyadari bahwa pendekatan pengetahuan dasar akan menimbulkan terlalu banyak hambatan, sehingga proyek ini didefinisikan ulang sebagai permainan menebak angka. Permainan ini cocok untuk semua usia dan tidak memerlukan sumber daya eksternal. Selain itu, permainan ini seharusnya dapat diimplementasikan dengan sebagian besar bahasa pemrograman.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/fthemodel.png}
+    \caption{}
+\end{figure}
+
+Setelah menjelaskan persyaratan umum, kita dapat menguraikan detail-detailnya. Di bawah ini adalah diagram alir pseudocode, yang dapat memberikan wawasan lebih lanjut tentang cara terbaik untuk merumuskan solusi.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/flowchart1.png}
+    \caption{}
+\end{figure}
+
+Menganalisis diagram alir mengidentifikasi pertimbangan tambahan. Apakah program akan dijalankan hanya sekali? Apa yang dapat ditambahkan untuk meningkatkan pengalaman pengguna? Menampilkan pesan kegagalan mungkin bukan output yang ideal. Sebagai gantinya, opsi yang mungkin adalah memberikan kesempatan lain untuk menebak. Pertimbangan tambahan lainnya adalah menyediakan petunjuk yang dapat digunakan untuk mengarahkan pengguna ke jawaban yang benar. Dan, Anda harus memutuskan apa yang terjadi jika pengguna memasukkan nilai non-angka ke dalam program.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/flowchart2.png}
+    \caption{}
+\end{figure}
+
+Sekarang setelah berbagai kondisi telah dijelaskan, kita dapat memilih bahasa pemrograman dan mengimplementasikan solusi. Dengan mengambil pendekatan sistematis dalam pemecahan masalah, Anda telah mengidentifikasi beberapa masalah potensial sebelum proyek dimulai dan dapat melakukan penyesuaian arah. Setelah mengevaluasi solusi, cakupan proyek mungkin perlu diubah. Alih-alih membuat permainan untuk diimplementasikan oleh anak, program tersebut mungkin akan menciptakan lingkungan sehingga anak dapat membuat permainan sendiri, menggunakan deskripsi yang jelas sebagai panduan.
+
+\subsection{Evaluasi Time Complexity}
+\begin{itemize}
+    \item Kompleksitas Waktu (Time Complexity): Ukuran seberapa lama algoritma akan berjalan berdasarkan ukuran input. Ini penting untuk memastikan aplikasi memberikan respons dalam waktu yang dapat diterima.
+    \item Notasi Big-O (Big-O Notation): Metode untuk menggambarkan kompleksitas waktu algoritma. Contoh notasi yang umum termasuk O(1), O(log n), O(n), dan O(n²).
+\end{itemize}
+
+\subsection{Contoh Kompleksitas Waktu}
+\begin{itemize}
+    \item O(1): Algoritma yang memerlukan waktu konstan untuk menyelesaikan tugas, terlepas dari ukuran input. Contoh: mencetak item pertama dalam array.
+    \item O(n): Algoritma yang memerlukan waktu linear, di mana waktu yang dibutuhkan sebanding dengan ukuran input. Contoh: mencari nilai dalam array dengan memeriksa setiap item.
+    \item O(log n): Algoritma yang lebih efisien daripada O(n), di mana waktu yang dibutuhkan meningkat secara marginal dengan bertambahnya input. Contoh: pencarian biner (binary search).
+    \item \(O(n^2)\): Algoritma dengan kompleksitas kuadratik, di mana waktu yang dibutuhkan berlipat ganda untuk setiap elemen dalam array. Contoh: algoritma yang melibatkan dua loop yang masing-masing berjalan sebanyak n kali.
+\end{itemize}
+
+\subsection{Kasus Terbaik, Terburuk, dan Tengah}
+Walau O(n) melekat pada loop, tapi loop tidak selalu menghasilkan kompleksitas waktu tersebut, dan dapat memiliki 3 opsi:
+\begin{itemize}
+    \item Kasus Terbaik (Best Case): Situasi di mana algoritma menyelesaikan tugas dengan waktu paling cepat.
+    \item Kasus Terburuk (Worst Case): Situasi di mana algoritma memerlukan waktu paling lama untuk menyelesaikan tugas.
+    \item Kasus Rata-rata (Average Case): Waktu yang diharapkan untuk menyelesaikan tugas dalam situasi umum.
+\end{itemize}
+
+
 
 \newpage
 
