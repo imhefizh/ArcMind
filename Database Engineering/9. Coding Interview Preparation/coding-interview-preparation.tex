@@ -508,11 +508,214 @@ Sekarang setelah berbagai kondisi telah dijelaskan, kita dapat memilih bahasa pe
 \subsection{Kasus Terbaik, Terburuk, dan Tengah}
 Walau O(n) melekat pada loop, tapi loop tidak selalu menghasilkan kompleksitas waktu tersebut, dan dapat memiliki 3 opsi:
 \begin{itemize}
-    \item Kasus Terbaik (Best Case): Situasi di mana algoritma menyelesaikan tugas dengan waktu paling cepat.
-    \item Kasus Terburuk (Worst Case): Situasi di mana algoritma memerlukan waktu paling lama untuk menyelesaikan tugas.
-    \item Kasus Rata-rata (Average Case): Waktu yang diharapkan untuk menyelesaikan tugas dalam situasi umum.
+    \item Kasus Terbaik (Best Case): Situasi di mana algoritma menyelesaikan tugas dengan waktu paling cepat. Contohnya ketika apa yang dicari sudah ditemukan di awal array, maka notasinya adalah O(1)
+    \item Kasus Terburuk (Worst Case): Situasi di mana algoritma memerlukan waktu paling lama untuk menyelesaikan tugas. Ini jika yang dicari tidak ditemukan, maka loop akan berjalan sampai akhir, dan inilah O(n)
+    \item Kasus Rata-rata (Average Case): Waktu yang diharapkan untuk menyelesaikan tugas dalam situasi umum. Ini jika loop sudah bisa diberhentikan di tengah array, O(n/2).
 \end{itemize}
 
+\subsection{Pertanyaan untuk Evaluasi}
+Sebelum memulai, tanyakan pada diri sendiri: "Berapa banyak komputasi yang digunakan solusi saya? Apakah ada cara yang lebih baik?"
+
+\subsection{Bekerja dengan Kompleksitas Waktu}
+\subsubsection{Pendahuluan}
+Evaluasi kinerja aplikasi memastikan bahwa kode yang ditulis baik dan sesuai dengan tujuannya. Pertanyaannya adalah bagaimana kita mengevaluasi efisiensi? Saat mengukur listrik, kita menggunakan kilowatt-jam, yang berarti berapa banyak kilowatt yang akan digunakan oleh suatu perangkat jika dijalankan selama satu jam. Perangkat tersebut tidak selalu dijalankan selama satu jam, dan mungkin memiliki persyaratan yang berbeda tergantung pada pengaturan yang digunakan, ini lebih merupakan pedoman umum untuk mengevaluasi biaya.
+
+Saat mengevaluasi solusi pemrograman, notasi Big-O digunakan. Jadi, notasi Big-O adalah kilowatt-jam dalam evaluasi kode. Notasi ini dapat diterapkan untuk mengukur berapa lama waktu yang dibutuhkan oleh sepotong kode atau berapa banyak ruang yang akan digunakan di memori. Tidak semua prosesor berjalan dengan kecepatan yang sama, jadi daripada mengukur waktu aplikasi, kita menghitung jumlah instruksi yang diinisialisasi oleh aplikasi.
+
+\subsubsection{Mana Pengukuran yang Benar Merefleksikan Kemungkinan Eksekusi yang Paling Cepat dari Sebuah Kode?}
+Mari kita telusuri pengukuran mana yang mencerminkan eksekusi kode tercepat yang mungkin.
+
+\paragraph{O(1)}
+
+Anda menggunakan algoritma waktu konstan yang membutuhkan waktu O(1) (O-dari-satu) untuk dihitung. Hal ini menentukan bahwa hanya diperlukan satu kali perhitungan untuk menyelesaikan suatu tugas. Contohnya adalah mencetak suatu elemen dari sebuah array dengan indeks.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# An array with 5 numbers 
+array = [0,1,2,3,4]
+
+# retrieve the number found at index location 3 
+print(array[3]) 
+\end{lstlisting}
+
+Dalam hal ini, terlepas dari berapa banyak nilai yang ada dalam array, pendekatan ini memiliki kompleksitas Big-O sebesar satu. Artinya, menjalankan kode ini dianggap memiliki kompleksitas O(1).
+
+\paragraph{O(n)}
+
+Selanjutnya, mari kita lihat contoh dari O(n). Menggunakan array yang sama, ditulis pernyataan if yang mencari angka 5. Untuk memastikan bahwa 5 tidak ada di sana, pernyataan tersebut harus memeriksa setiap elemen dalam array.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# An array with 5 numbers 
+array = [0,1,2,3,4] 
+
+if 5 in array:
+    print("five is alive")
+\end{lstlisting}
+
+Dalam contoh di atas, tidak ada angka 5, jadi tidak ada hasil cetak. Untuk memastikan hal ini, dilakukan lima pemeriksaan pada array ini. Karena input n = 5, kode ini dikatakan memiliki kompleksitas Big-O sebesar O(n). Untuk memahami hal ini dengan lebih baik, mari kita perpanjang array menjadi 10 dan menghilangkan angka 5.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+# an array with 10 numbers 
+array = [0,1,2,3,4,6,7,8,9,10]
+
+if 5 in array:
+    print("five is still alive")
+\end{lstlisting}
+
+Dengan memperluas array menjadi 10 bilangan bulat, jumlah perhitungan kini menjadi 10. Hal ini masih disebut O(n) karena ukuran inputnya adalah 10, yang merupakan jumlah pemeriksaan yang harus dilakukan sebelum program berakhir.
+
+\paragraph{O(log n)}
+
+Pencarian ini kurang intensif daripada O(n) tetapi lebih banyak kerja daripada O(1). O(log n) adalah pencarian logaritmik dan akan meningkat seiring penambahan input baru, tetapi penambahan input ini hanya memberikan peningkatan marginal. Contoh yang sangat baik dari hal ini adalah pencarian biner. Pencarian biner dibahas lebih detail di bagian selanjutnya dalam kursus ini.
+
+Sekarang, bayangkan bermain permainan tebak-tebakan dengan petunjuk berikut: terlalu tinggi, terlalu rendah, atau benar. Anda diberikan rentang 100 hingga 1. Anda mungkin memutuskan untuk mendekati masalah ini secara sistematis. Pertama, Anda menebak 50 – terlalu tinggi. Jadi, Anda menebak 25 – yang juga terlalu tinggi. Anda mungkin memilih untuk melanjutkan ke 12 atau 13. Yang terjadi di sini adalah Anda membagi dua ruang pencarian dengan setiap tebakan.
+
+Jadi, meskipun input untuk fungsi ini adalah 100 menggunakan pendekatan pencarian biner, Anda seharusnya dapat menemukan jawabannya dalam kurang dari 5 atau 6 tebakan. Solusi ini memiliki kompleksitas waktu O(log n). Bahkan jika n (rentang angka yang dimasukkan) sepuluh kali lebih besar, jumlah tebakan yang diperlukan tidak akan sepuluh kali lipat.
+
+Berikut ini adalah rincian langkah-langkah tersebut pada array.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+array = [0,1,2,3,4,6,7,8,9,10]
+
+print("##Step One")
+print("Array")
+print(array)
+midpoint = int(len(array)/2)
+print("the midpoint at step one is: " , array[midpoint])
+
+print()
+
+print("##Step Two")
+array = array[:midpoint] # 6 is the midpoint of the array 
+print("Array")
+print(array)
+# running this shows the numbers left to check 
+# is 5 < 3 
+# no 
+# so discard the left hand side 
+
+# so the array is halved again 
+midpoint=int(len(array)/2)
+print("the midpoint is: ",  array[midpoint])
+
+print()
+print("##Step Three") 
+array = array[midpoint:] # so the array is halved at the midpoint
+print(array)
+# check for the midpoint 
+midpoint=int(len(array)/2)
+print("the midpoint is: " , array[midpoint])
+# is 4 < 5 
+# yes look to the right
+
+print()
+print("##Step Four") 
+print(array[midpoint:]) 
+# check for the midpoint 
+array = array[midpoint:] # so the array is halved at the midpoint
+midpoint=int(len(array)/2)
+
+
+
+print()
+print("##Step Five") 
+array = array[midpoint:] 
+print(array)
+print("only one value to check and it is not 5")
+\end{lstlisting}
+
+Outputnya:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+##Step One
+Array
+[0, 1, 2, 3, 4, 6, 7, 8, 9, 10]
+the midpoint at step one is:  6
+
+##Step Two
+Array
+[0, 1, 2, 3, 4]
+the midpoint is:  2
+
+##Step Three
+[2, 3, 4]
+the midpoint is:  3
+
+##Step Four
+[3, 4]
+
+##Step Five
+[4]
+only one value to check and it is not 5
+\end{lstlisting}
+
+Anda akan menyadari bahwa untuk menentukan apakah angka 5 ada, diperlukan 5 langkah. Itu adalah skor Big-O sebesar O(5). Anda dapat melihat bahwa ini lebih besar dari O(1) tetapi lebih kecil dari O(n). Sekarang, apa yang terjadi jika array diperluas menjadi 100? Saat mencari angka dalam array berukuran 10, diperlukan 5 tebakan. Memeriksa array berukuran 100 tidak akan membutuhkan 50 tebakan; paling banyak hanya 10. Demikian pula, jika daftar diperluas menjadi 1000, tebakan hanya akan mencapai 15-20.
+
+Dari ini, kita dapat melihat bahwa kompleksitasnya bukan O(1) karena jawaban tidak langsung diperoleh. Kompleksitasnya juga bukan big-O(n) karena jumlah tebakan tidak meningkat seiring dengan ukuran n dari array. Oleh karena itu, di sini dikatakan bahwa kompleksitasnya adalah O(log(n)).
+
+Untuk mendapatkan pemahaman yang lebih mendalam tentang bagaimana nilai logaritma hanya mengalami kenaikan secara bertahap, lihat tabel logaritma hingga 100.000.000. Perspektif ini menunjukkan bahwa O(log n) hanya menimbulkan biaya pemrosesan yang minimal. Melakukan pencarian biner pada array dengan n nilai apa pun, dalam skenario terburuk, akan selalu menghasilkan jumlah perhitungan yang tercantum dalam kolom nilai logaritma.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/logntabel.png}
+    \caption{}
+\end{figure}
+
+\paragraph{\(O(n^2)\)}
+
+memiliki beban komputasi yang tinggi. Ini adalah kompleksitas kuadratik, artinya jumlah operasi yang diperlukan tumbuh secara proporsional dengan kuadrat ukuran input. Sebuah array berukuran n akan memiliki jumlah operasi total sekitar \(n^2\). Cara yang baik untuk memvisualisasikan ini adalah dengan mempertimbangkan bahwa Anda memiliki berbagai array. Mengikuti contoh sebelumnya, mari kita jelajahi kode berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+new_array=[] # an array to hold all of the results 
+# array with five numbers 
+array = [0,1,2,3,4]
+for i in range(len(array)): # the array has five values, so this is n=5 
+    for j in range(len(array)): # still the same array so n = 5 
+        new_array.append(i*j) # every computation made is stored here 
+
+print(len(new_array)) #how big is this new array ? 
+\end{lstlisting}
+
+Lingkaran pertama akan sama dengan jumlah elemen input, n. Lingkaran kedua juga akan memeriksa jumlah elemen input, n. Oleh karena itu, kompleksitas keseluruhan dari pendekatan ini dapat dikatakan sebagai \(n*n\), yang merupakan \(n^2\) (n kuadrat). Untuk mengetahui berapa banyak perhitungan yang dilakukan, Anda harus mencetak jumlah kali n digunakan dalam lingkaran seperti di bawah ini.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+n = 5 #size of array 
+print(n*n) # how big is this new array ? 
+\end{lstlisting}
+
+\(O(n^2)\) memiliki beban komputasi yang tinggi. Ini adalah kompleksitas kuadratik, artinya jumlah operasi yang diperlukan tumbuh secara proporsional dengan kuadrat ukuran input. Sebuah array berukuran n akan memiliki jumlah operasi total sekitar n². Cara yang baik untuk memvisualisasikan ini adalah dengan mempertimbangkan bahwa Anda memiliki berbagai array. Mengikuti contoh sebelumnya, mari kita jelajahi kode berikut:
+
+\subsubsection{Representasi Visual dari Sebuah Masalah}
+Di bawah ini adalah representasi grafis yang menunjukkan hubungan antara n dengan jumlah perhitungan yang diperlukan.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/vreptimecomp.png}
+    \caption{}
+\end{figure}
+
+Seperti yang dapat Anda lihat, waktu terbaik yang harus dituju adalah O(1); O(log n) masih sangat baik. O(n) masih bisa diterima, sedangkan\(O(n^2)\) tidak terlalu baik.
+
+\subsubsection{Kasus buruk, Kasus baik, dan Kasus rata-rata}
+Tentu saja, tidak selalu mungkin untuk mengetahui berapa lama suatu pendekatan akan memakan waktu. Ketika melihat contoh loop awal, terdapat pencarian yang dilakukan untuk elemen yang tidak ada. Anda dapat mengatakan bahwa mencari dalam loop memakan waktu O(n), tetapi hal ini tidak selalu berlaku.
+
+Pertimbangkan bahwa elemen yang dicari adalah elemen pertama dalam array. Maka waktu kembalinya akan cukup baik dalam O(1) waktu! Dalam contoh yang diberikan, setiap elemen harus dicari sebelum menentukan bahwa elemen tersebut tidak ada: O(n) waktu. Kasus tengah adalah ketika elemen tersebut ditemukan di tengah loop: O(n/2). Saat mengevaluasi suatu pendekatan, tiga definisi digunakan: kasus terbaik, kasus terburuk, dan kasus rata-rata.
+
+\subsection{Konsep Dasar}
+\begin{itemize}
+    \item Kompleksitas Ruang: Mengukur seberapa banyak memori yang dibutuhkan oleh algoritma untuk menyelesaikan masalah, sering kali menjadi trade-off dengan waktu eksekusi.
+    \item Big-O Notation: Notasi yang digunakan untuk menggambarkan kompleksitas ruang, seperti O(1), O(n), O(log n), dan lainnya, di mana n merujuk pada ukuran input.
+\end{itemize}
+
+\subsection{Jenis Ruang dalam Kompleksitas}
+\begin{itemize}
+    \item Auxiliary Space: Ruang tambahan yang diperlukan untuk menyimpan data sementara saat algoritma berjalan. Ini mencakup variabel sementara dan struktur data tambahan.
+    \item Input Space: Ruang yang diperlukan untuk menyimpan data yang dimasukkan ke dalam fungsi atau algoritma.
+\end{itemize}
+
+\subsection{Contoh Perhitungan}
+\begin{itemize}
+    \item Dalam Java, sebuah integer memerlukan 4 bytes, dan array kosong memerlukan 12 bytes untuk header dan 4 bytes untuk padding. Jadi, untuk array integer dengan ukuran 4, total memori yang dibutuhkan adalah 32 bytes.
+    \item Jika ukuran array menjadi 8 integer, total memori yang dibutuhkan menjadi 48 bytes, tetapi ukuran auxiliary space tetap sama jika tidak terpengaruh oleh ukuran input.
+\end{itemize}
+
+\subsection{Pertimabgan Desain}
+\begin{itemize}
+    \item Penting untuk mempertimbangkan penggunaan memori saat merancang aplikasi. Menghindari penyalinan array atau struktur data yang kompleks dapat meningkatkan efisiensi ruang.
+    \item Menggunakan struktur data yang lebih sederhana ketika memungkinkan dapat mengurangi overhead memori.
+\end{itemize}
 
 
 \newpage
