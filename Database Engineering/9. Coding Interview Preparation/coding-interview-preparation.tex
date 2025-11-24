@@ -357,6 +357,84 @@ Proses penulisan uji unit telah distandardisasi. Disarankan untuk berlatih mengi
     \item Total Representations in a Byte: Dengan 8 bits, jumlah kombinasi yang dapat diwakili adalah \(2^8 = 256\).
 \end{itemize}
 
+\subsection{Bekerja dengan Binary}
+Anda mungkin berpikir bahwa menggunakan hanya dua masukan terlalu membatasi. Faktanya, hal ini sangat fleksibel dan menawarkan berbagai pilihan yang luas ketika digabungkan dengan aljabar Boolean dan sirkuit.
+
+\subsubsection{Logika Boolean}
+Fungsi Boolean memetakan dua masukan ke sebuah nilai. Masukan-masukan ini dibatasi pada dua keadaan. Keadaan-keadaan ini dapat diartikan sebagai: on/off, true/false, atau 1/0. Untuk mendefinisikan fungsi Boolean, Anda hanya perlu menentukan bagaimana keluaran ditentukan untuk semua masukan yang mungkin. Berikut adalah contoh 4 fungsi:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/bool_logic.png}
+    \caption{}
+\end{figure}
+
+\verb|NOT| menerima satu nilai x dan mengembalikan hasilnya sebagai 0 atau 1. \verb|OR| menerima dua argumen (x, y) untuk menghasilkan keluaran 1. Hanya salah satu dari nilai x atau y yang harus bernilai 1, atau keduanya sekaligus. Jika kedua nilai tersebut 0 secara bersamaan, keluaran adalah 0. \verb|AND| memerlukan kedua masukan untuk bernilai 1 sebelum dapat menghasilkan 1. Akhirnya, \verb|XOR| akan menerima dua nilai apa pun dan menentukan apakah keduanya berbeda; jika ya, outputnya adalah 1. Dalam semua kasus lain, hasilnya adalah 0.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/bool_logic2.png}
+    \caption{}
+\end{figure}
+
+Konsep yang sama dapat diwakili secara komputasional. Dalam tabel ini, ekspresi Boolean berada di sebelah kiri, dan simbol komputasionalnya berada di sebelah kanan. Umumnya, ekspresi ini digabungkan dengan pernyataan kondisional atau iterator. Oleh karena itu, Anda dapat mengharapkan kode yang mirip dengan potongan kode berikut:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/bool_logic3.png}
+    \caption{}
+\end{figure}
+
+Dalam kode di atas, sebuah variabel Boolean telah disetel ke false. Sebuah loop do/while kemudian terus-menerus menjalankan kode yang terdapat di dalam blok do hingga nilai x berubah menjadi true. Secara umum, Anda akan mencari hasil tertentu, dan penggunaan logika Boolean memungkinkan Anda untuk terus mencari hingga hasilnya menjadi true. Perhatikan bagaimana fungsi NOT diterapkan dalam loop while untuk menguji apakah iterasi lain harus dilakukan.
+
+\subsubsection{Tabel Kebenaran}
+Mengingat jumlah keluaran yang terbatas dari fungsi Boolean, dimungkinkan untuk menggambarkan semua permutasi ke dalam tabel.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/tabel_kebenaran.png}
+    \caption{}
+\end{figure}
+
+Gambar ini menunjukkan semua kombinasi untuk setiap fungsi Boolean. Kolom X dan Y menunjukkan apakah menerima nilai 0 atau 1, sedangkan kolom XY menunjukkan hasil akhir. Fungsi NOT hanya memiliki satu keluaran dan satu masukan, sehingga tabelnya hanya berukuran 2 x 2. Dibandingkan dengan itu, ketiga contoh lainnya masing-masing menerima dua masukan dan menghasilkan satu hasil.
+
+\subsubsection{Gerbang-gerbang}
+Bahan dasar utama untuk sirkuit logika digital adalah gerbang. Fungsi logika kemudian diimplementasikan melalui interkoneksinya. Gerbang adalah sirkuit elektronik yang menghasilkan keluaran Boolean dari masukan-masukannya.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/gerbang.png}
+    \caption{}
+\end{figure}
+
+Pada gambar di atas, empat fungsi Boolean dasar ditampilkan. Simbol Grafis menunjukkan cara gerbang-gerbang ini digambarkan pada diagram. Anda sering akan menemui diagram sirkuit yang berisi serangkaian gerbang yang saling terhubung. Fungsi Aljabar menunjukkan cara gerbang-gerbang ini dijelaskan ketika ditulis dalam bentuk rumus.
+
+Akhirnya, tabel kebenaran menggambarkan hasil dari masukan tertentu ke gerbang. Pada tingkat dasar, setiap masukan yang dilambangkan dengan A dan B mewakili arus yang dapat mengalir melalui sirkuit. Masukan-masukan ini dapat terhubung ke saklar atau tombol yang dapat diaktifkan untuk mengirimkan nilai 0 atau 1. Ekspresi logika Boolean ini terbentuk ketika gerbang sirkuit digabungkan untuk membentuk sirkuit yang kompleks. Keluaran akhir Q ditentukan berdasarkan operasi yang dilakukan pada masukan A, B, dan C.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/sirkuit.png}
+    \caption{}
+\end{figure}
+
+\subsection{CPU dan Memori}
+\begin{itemize}
+    \item CPU (Central Processing Unit): Unit pemrosesan pusat yang mengolah informasi dan instruksi. CPU bekerja lebih cepat daripada kecepatan transfer informasi ke dalamnya.
+    \item Memori: Terdiri dari blok-blok memori yang menyimpan informasi dan instruksi. Kapasitas memori mengacu pada jumlah bytes yang dapat disimpan oleh komputer.
+\end{itemize}
+
+\subsection{Jenis-jenis Memori}
+\begin{itemize}
+    \item Cache Memory: Memori termahal yang terletak dekat dengan CPU. Cache menyimpan informasi yang sering diakses untuk mempercepat proses. Jika informasi tidak ada di cache, CPU akan mencari di memori utama.
+    \item Main Memory: Terdiri dari RAM (Random Access Memory) dan ROM (Read-Only Memory).
+
+          \begin{itemize}
+              \item RAM: Memori yang dapat diprogram dan menyimpan data serta instruksi yang sedang digunakan. Memori ini bersifat volatile, artinya data hilang saat daya mati.
+              \item ROM: Memori yang hanya dapat dibaca dan tidak dapat diubah. Menyimpan instruksi penting untuk fungsi komputer.
+          \end{itemize}
+    \item Secondary Memory: Memori eksternal yang dapat ditambahkan untuk meningkatkan kapasitas penyimpanan. Contohnya termasuk cloud storage, hard drive eksternal, dan memory sticks. Akses ke memori sekunder lebih lambat karena memerlukan transfer informasi ke RAM terlebih dahulu.
+\end{itemize}
+
+
 \newpage
 
 \section{Pengenalan ke Struktur Data}
