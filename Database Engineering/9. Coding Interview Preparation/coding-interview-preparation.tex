@@ -711,16 +711,196 @@ Pertimbangkan bahwa elemen yang dicari adalah elemen pertama dalam array. Maka w
     \item Jika ukuran array menjadi 8 integer, total memori yang dibutuhkan menjadi 48 bytes, tetapi ukuran auxiliary space tetap sama jika tidak terpengaruh oleh ukuran input.
 \end{itemize}
 
-\subsection{Pertimabgan Desain}
+\subsection{Pertimbangan Desain}
 \begin{itemize}
     \item Penting untuk mempertimbangkan penggunaan memori saat merancang aplikasi. Menghindari penyalinan array atau struktur data yang kompleks dapat meningkatkan efisiensi ruang.
     \item Menggunakan struktur data yang lebih sederhana ketika memungkinkan dapat mengurangi overhead memori.
 \end{itemize}
 
-
 \newpage
 
 \section{Pengenalan ke Struktur Data}
+\subsection{Pengantar Struktur Data}
+\begin{itemize}
+    \item Struktur Data: Model objek yang memungkinkan penyimpanan dan pengorganisasian data dalam memori komputer.
+    \item Mutable vs Immutable:
+
+          Mutable adalah struktur yang dapat diubah setelah dibuat. Immutable adalah struktur yang tidak dapat diubah setelah dibuat.
+\end{itemize}
+
+\subsection{Jenis Struktur Data}
+Linear Structures: Elemen disimpan secara berurutan. Contoh:
+\begin{itemize}
+    \item Array: Kumpulan elemen dengan tipe data yang sama, diakses menggunakan indeks (misalnya, \verb|array[4]| untuk elemen kelima).
+    \item List: Mirip dengan array, tetapi dapat menyimpan tipe data yang berbeda.
+\end{itemize}
+Nonlinear Structures: Elemen tidak disimpan secara berurutan. Contoh:
+\begin{itemize}
+    \item Trees: Struktur yang memungkinkan penyimpanan data dalam hierarki.
+    \item Graphs: Struktur yang menghubungkan elemen dengan cara yang tidak teratur.
+\end{itemize}
+
+\subsection{Pertimbangan dalam Memilih Struktur Data}
+\begin{itemize}
+    \item Kinerja: Memilih struktur data yang tepat dapat mempengaruhi kemajuan proyek.
+    \item Penggunaan Memori: Mempertimbangkan alokasi dan de-alokasi memori untuk menghindari kebocoran memori. Memory Leak adalah situasi di mana memori tidak digunakan dan tidak didealokasi, yang dapat menyebabkan aplikasi kehabisan memori.
+\end{itemize}
+
+\subsection{Strings}
+String adalah fitur yang terdapat dalam setiap bahasa pemrograman. String adalah urutan terurut dari karakter atau simbol yang diapit oleh tanda kutip tunggal atau ganda yang sesuai. Sebagian besar bahasa pemrograman mendukung karakter ASCII dasar dan representasi Unicode, meskipun terdapat banyak cara tambahan untuk mewakili string. Setiap karakter ASCII biasanya menempati satu byte memori, sementara karakter Unicode dapat menempati lebih banyak byte, tergantung pada enkoding yang digunakan \verb|(UTF-8, UTF-16, dll)|.
+
+\subsubsection{Representasi String}
+Ada perbedaan penting dalam cara setiap bahasa pemrograman mewakili dan mendukung string. Semua bahasa pemrograman mendukung operasi dasar seperti membuat, menyalin, dan mengaitkan string ke variabel. Namun, apakah string dapat dimodifikasi secara langsung bergantung pada apakah bahasa tersebut menganggap string sebagai mutable atau immutable. Selain itu, tindakan sehari-hari meliputi:
+\begin{itemize}
+    \item Menggabungkan (menghubungkan string teks).
+    \item Menambahkan string.
+    \item Mencari substring.
+    \item Mengelola kumpulan string.
+\end{itemize}
+
+Saat memproses string, banyak bahasa pemrograman memungkinkan Anda untuk melakukan operasi aljabar pada string tersebut. Misalnya, \verb|String_A == String_B|, yang akan mengembalikan nilai True atau False atau \verb|String_A < String_B|, yang akan menentukan mana yang lebih dulu secara alfabetis. Beberapa bahasa pemrograman, seperti PHP, memungkinkan variabel untuk langsung disisipkan ke dalam string. Bahasa pemrograman lain mungkin mengharuskan variabel ditempatkan dalam kurung kurawal, seperti JavaScript.
+
+\textit{Escape Flags} memungkinkan penyisipan simbol dalam sebuah string. Misalnya, bayangkan Anda ingin menyisipkan kutipan dalam sebuah string:
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+String = "the man said \"two more pints please\" to the barman"
+\end{lstlisting}
+
+Di sini, penggunaan tanda backslash \verb|\| memastikan bahwa string tetap mempertahankan tanda kutip dalam kalimat. Simbol escape lainnya dapat berupa \verb|#, %, '|, atau tanda kutip ganda di dalam string yang ditandai dengan tanda kutip tunggal. Meskipun implementasinya mungkin berbeda, pendekatan umum dalam menangani string tetap sama.
+
+\subsubsection{Kegunaan Umum}
+Salah satu bidang yang banyak berurusan dengan string adalah Pemrosesan Bahasa Alami (NLP). Cara string dienkode saat dibaca dari berbagai sumber seperti Twitter, file PDF, dokumen teks, atau Reddit dapat menimbulkan masalah yang tidak terduga. Masalah ini dapat menyebabkan masalah debugging yang kompleks jika aplikasi memproses representasi simbol yang tidak biasa yang memengaruhi hasil.
+
+Saat menulis string ke dalam program, tokenisasi sering diterapkan. Tokenisasi berarti mengubah string menjadi array string yang lebih kecil. Di sini, Anda akan mengidentifikasi pemisah dan memecah string menjadi segmen yang dipisahkan oleh pemisah tersebut. Misalnya, Anda mungkin memecah paragraf menjadi kalimat menggunakan titik \verb|(.)|, atau memecah kalimat menjadi kata-kata individu menggunakan spasi \verb|(" ")|. Namun, Anda harus berhati-hati saat melakukan tokenisasi teks. Pertimbangkan teks di bawah ini yang memiliki tiga simbol titik \verb|(.)|.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+At 3.30 I went to the shop and spent $40.40.  
+\end{lstlisting}
+
+Secara konvensional, Anda akan membacanya sebagai satu kalimat, tetapi titik-titik yang digunakan untuk menunjukkan waktu dan jumlah uang berfungsi sebagai pemisah, yang membagi kalimat menjadi tiga bagian.
+
+Tokenisasi pada data yang telah diproses dan diformat tidak terlalu menantang. Cara umum untuk menyimpan representasi string yang diformat adalah melalui Comma Separated Values (CSV) atau Tab Separated Values (TSV). Pemrosesan string semacam itu dikenal sebagai parsing, dan array yang dikembalikan akan sama dengan jumlah pemisah yang ditemukan, dengan pemisah tersebut dihapus.
+
+Berikut adalah contoh file CSV yang berisi kolom usia, nama, dan warna rambut. Perhatikan bahwa tidak ada koma di akhir. Kecuali dinyatakan lain, simbol baris baru juga berfungsi sebagai pemisah.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/csv.png}
+    \caption{}
+\end{figure}
+
+\subsubsection{Imutabilitas}
+
+Konsep penting yang perlu dipertimbangkan saat bekerja dengan string adalah apakah string tersebut bersifat mutable atau immutable. Mutability mengacu pada kemampuan Anda untuk mengubah string setelah string tersebut dibuat. Beberapa bahasa pemrograman, seperti Ruby dan PHP, memungkinkan string diubah setelah dibuat. Namun, lebih umum menggunakan immutability, seperti dalam Java, \verb|C#|, JavaScript, Python, dan Go.
+
+Ada beberapa alasan mengapa bahasa pemrograman membuat string bersifat immutable. Pertama, hal ini dapat mengurangi penggunaan memori; alih-alih membuat variabel yang berisi string, sebuah string pool dirancang untuk mewakili semua string yang digunakan. Pendekatan immutable mengulang penggunaan alokasi memori dengan membuat semua instance \verb|"string"| mengacu ke satu lokasi. Jadi, ketika terjadi perubahan pada string, misalnya menjadi \verb|"strings,"| alih-alih mengubah nilai \verb|"string,"| variabel tersebut diarahkan ke instance lain dari \verb|"strings."| Atau diarahkan ke contoh immutable lain yang mewakili \verb|"strings,"| yang kemudian ditambahkan ke string pool.
+
+Immutability adalah alat penghemat memori yang sangat efektif. Bayangkan membaca kata-kata yang sudah ada daripada membuat lokasi memori untuk setiap kata, termasuk yang berulang. Menggunakan himpunan unik mengurangi ruang yang dibutuhkan. Kelemahannya adalah jika aplikasi Anda terus-menerus mengubah teks, setiap perubahan akan menimbulkan penalti memori.
+
+\subsection{Integers}
+Bilangan bulat digunakan untuk menyimpan nilai numerik. Bilangan bulat dapat berupa bilangan bertanda (menyimpan bilangan positif dan negatif) atau bilangan tak bertanda (hanya menyimpan bilangan positif). Bilangan bulat direpresentasikan dalam sistem biner, dan representasi dasarnya umumnya memerlukan 4 byte. Tergantung pada sistem dan bahasa pemrograman, bilangan bulat juga dapat menempati 1, 2, atau 8 byte.
+
+\subsubsection{Representasi Integer}
+Ada beberapa cara untuk mewakili bilangan bulat dalam sistem biner. Salah satu contoh yang umum adalah sistem tanda-besaran. Jika bilangan bulat diwakili dalam sistem biner, bagaimana cara membedakan antara nilai positif dan negatif? Sistem tanda-besaran mengusulkan penggunaan indikator di bagian paling kiri angka biner untuk menunjukkan polaritas.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/signedint.png}
+    \caption{}
+\end{figure}
+
+Integer tidak dapat mewakili pecahan. Untuk itu, digunakan bilangan decimal atau float. Untuk mewakili integer, digunakan jumlah byte tetap, ukurannya dapat ditentukan dalam beberapa bahasa pemrograman. Ada pendekatan standar untuk mewakili bilangan floating-point, seperti decimal dan float, yang disebut standar IEEE 754, yang menetapkan serangkaian standar umum untuk mewakili bilangan-bilangan ini.
+
+Beberapa bahasa pemrograman tingkat tinggi seperti Python dan JavaScript mengikuti pendekatan ini dan mengenkapsulasi inisialisasi bilangan bulat ke dalam representasi tetap ini. Hal ini memudahkan kerja dengan angka dalam bahasa pemrograman dinamis tingkat tinggi ini, tetapi menghilangkan kemampuan untuk menyesuaikan pendekatan Anda guna mengoptimalkan penggunaan memori.
+
+\subsubsection{Alokasi Memori}
+Bahasa pemrograman bertipe statis lainnya seperti C++, Rust, Ada, dan C memungkinkan Anda untuk menyesuaikan ukuran dalam memori. C++ memungkinkan Anda untuk menyesuaikan tipe integer Anda. Menggunakan unsigned short int hanya akan memakan 2 byte. Penghematan ini dapat bertambah jika aplikasi Anda mencakup banyak angka positif yang tidak memerlukan presisi hingga tingkat pecahan.
+
+Rust melangkah lebih jauh dan memungkinkan instansiasi integer tak bertana 1 byte (dengan tipe data \verb|u8|, tipe data yang serupa juga ada di C++ dengan nama \verb|unsigned char|). Bilangan bulat terbatas ini dapat menyimpan bilangan bulat dari 0 hingga 255. Meskipun rentang ini mungkin tidak terlihat besar, jika Anda bekerja dengan piksel, Anda akan bekerja dengan tuple nilai dalam rentang ini. Pemrosesan gambar adalah proses yang sangat memakan sumber daya CPU; kemampuan menyimpan 8 piksel dengan biaya 1 piksel standar adalah penghematan yang besar.
+
+\subsubsection{Class Pembungkus}
+Selain bilangan bulat primitif yang dilambangkan dengan int, Java memungkinkan Anda untuk membungkus nilai bilangan bulat primitif ke dalam kelas pembungkus Integer. Hal ini memungkinkan berbagai metode untuk menangani bilangan bulat, seperti konversi dari string ke double, perbandingan, ukuran maksimum dan minimum, dan sebagainya. Kelas Integer bersifat immutable, yang membuatnya aman untuk digunakan dalam thread. Fungsi tambahan dan keamanan ini menimbulkan biaya memori, dan objek Integer akan membutuhkan 16 byte memori untuk disimpan.
+
+\subsubsection{Kesimpulan}
+Ada kebebasan yang sangat besar dalam mengontrol cara penyimpanan data Anda di memori. Meskipun bahasa pemrograman tingkat tinggi yang dinamis dapat berjalan dengan cepat, hal ini mungkin tidak memberikan hasil yang optimal jika aplikasi Anda menjadi sangat memakan sumber daya. Misalkan Anda bekerja dengan Arduino atau perangkat elektronik hobi lainnya. Dalam hal ini, ruang menjadi sangat berharga, dan kebebasan untuk menyesuaikan mungkin menjadi perbedaan antara aplikasi yang berfungsi dan yang tidak berfungsi. Namun, jika Anda mengembangkan aplikasi yang memerlukan jumlah memori yang besar, menggunakan bilangan bulat dengan cepat dan tidak perlu khawatir tentang detailnya mungkin menjadi pilihan yang tepat.
+
+\subsection{Booleans}
+\subsubsection{Pernyataan Kondisional}
+Ekspresi Boolean dapat menggunakan berbagai operator relasional.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/bool_op.png}
+    \caption{}
+\end{figure}
+
+Ini memungkinkan Anda untuk memeriksa beberapa data sebelum menjalankan opsi kode yang berbeda. Oleh karena itu, ekspresi Boolean sering disebut sebagai kondisional. Gabungkan ini dengan pernyataan kondisional seperti if, dan Anda memiliki implementasi awal kecerdasan buatan (AI).
+
+Pernyataan kondisional meliputi: if, else, else if, while, dan sebagainya. Blok kondisional memungkinkan Anda untuk menjalankan satu set instruksi dalam satu kondisi dan set instruksi lain jika kondisinya berbeda. Pertimbangkan diagram berikut.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/conditional.png}
+    \caption{}
+\end{figure}
+
+Diagram yang sama diwakili dalam kode Python berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+if right > wrong:
+    doTheRightThing()
+elif wrong > right:
+    doTheWrongThing()
+else:
+    keepResearching()
+\end{lstlisting}
+
+Dengan menggunakan ekspresi Boolean sebagai indikator, Anda dapat menggunakan operator relasional untuk menentukan baris kode mana yang akan dieksekusi. Dalam contoh ini, komputer mengevaluasi antara benar dan salah. Hal ini memiliki berbagai aplikasi dan sering digunakan. Akhirnya, jika tidak ada kondisi yang terpenuhi, Anda dapat menggunakan blok kode penangkap (catch-all). Roombas (Roomba yang dimaksud adalah \textit{robot vacuum cleaner} buatan iRobot. Mereka sering dipakai sebagai contoh nyata bagaimana konsep boolean logic dan relational operators) adalah contoh utama bagaimana kode ini dapat digunakan dalam kehidupan sehari-hari. Alih-alih benar dan salah, Anda akan memiliki sensor dasar yang menentukan motor mana yang akan diaktifkan berdasarkan jarak dan dampak.
+
+\subsubsection{Operator Logika}
+Selain itu, Anda mungkin ingin memperluas cakupan aplikasi Anda dengan menggunakan operator logika.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/logic.png}
+    \caption{}
+\end{figure}
+
+Ekspresi logika ini dapat digabungkan dengan ekspresi Boolean untuk memberikan kode Anda variasi yang lebih besar.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+if condition_1 || condition_2:
+    doActionOne()
+elif condition_1 && condition_2:
+    doActionTwo()
+elif !condition_1:
+    doActionFour()
+else:
+    waitForInstruction()
+\end{lstlisting}
+
+Dalam kode ini, empat kondisi diperiksa. Pertama, ambil \verb|condition_1| atau \verb|condition_2|, dan mari kita gunakan contoh Roomba. Jika deteksi jarak atau deteksi benturan benar, maka tindakan pertama mungkin adalah berhenti dan mundur. Jika ada deteksi jarak dan deteksi benturan, maka akan memicu alarm. Jika tidak ada deteksi jarak, maka akan terus mengirim daya ke motor depan. Akhirnya, jika tidak ada kondisi yang terpenuhi, harus ada kode fail-safe yang siap diaktifkan.
+
+Penggunaan logika Boolean merupakan tulang punggung desain sirkuit. Ini adalah cara menginterpretasikan operator Boolean secara bersamaan. Bentuk-bentuk dalam diagram di bawah ini adalah gerbang yang diaktifkan ketika operator Boolean tertentu dipicu. Sinyal dikirim melalui kabel (digambarkan oleh garis masuk dan keluar). Operator AND menyatakan bahwa jika kedua kabel benar, maka lanjutkan jalur eksekusi ini. Pada saat yang sama, operator NAND menentukan bahwa hanya dua pernyataan salah yang akan memicu reaksi.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/gerbang_2.png}
+    \caption{}
+\end{figure}
+
+Secara bersama-sama, mereka dapat digunakan untuk mengambil keputusan yang kompleks dan membuat perangkat beroperasi dengan cara yang beragam, tergantung pada masukan dari sensor-sensor tersebut.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/complex_logic.png}
+    \caption{}
+\end{figure}
+
+\paragraph{Boolean expression} menghasilkan nilai true/false dari perbandingan.
+
+\paragraph{Logical expression} digunakan untuk menggabungkan atau memanipulasi boolean expression.
+
+Untuk menyimpulkan, ekspresi Boolean dapat bernilai benar atau salah, dan ekivalennya dalam sistem biner adalah 0 atau 1. Sama seperti dalam sistem biner, Anda mungkin berpikir bahwa hanya memiliki dua nilai akan membatasi kemampuannya. Namun, ekspresi Boolean dapat mencapai tingkat kompleksitas yang cukup tinggi ketika digabungkan dengan konstruksi matematis lain seperti pernyataan kondisional dan operator logika. Ekspresi Boolean dapat digunakan dalam program komputer Anda untuk menentukan operasi mana yang harus dijalankan secara otomatis dan menjadi dasar dari diagram sirkuit.
+
+\subsection{Arrays}
+\begin{itemize}
+    \item
+\end{itemize}
 
 
 \newpage
