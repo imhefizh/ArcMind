@@ -898,10 +898,133 @@ Secara bersama-sama, mereka dapat digunakan untuk mengambil keputusan yang kompl
 Untuk menyimpulkan, ekspresi Boolean dapat bernilai benar atau salah, dan ekivalennya dalam sistem biner adalah 0 atau 1. Sama seperti dalam sistem biner, Anda mungkin berpikir bahwa hanya memiliki dua nilai akan membatasi kemampuannya. Namun, ekspresi Boolean dapat mencapai tingkat kompleksitas yang cukup tinggi ketika digabungkan dengan konstruksi matematis lain seperti pernyataan kondisional dan operator logika. Ekspresi Boolean dapat digunakan dalam program komputer Anda untuk menentukan operasi mana yang harus dijalankan secara otomatis dan menjadi dasar dari diagram sirkuit.
 
 \subsection{Arrays}
+Semua bahasa pemrograman memiliki bentuk array, tetapi cara kerjanya mungkin sedikit berbeda. Misalnya, beberapa bahasa menentukan bahwa array harus berisi jenis elemen yang sama, seperti array string atau array integer.
+
+Di sisi lain, bahasa pemrograman lain memungkinkan Anda menyimpan elemen campuran dalam sebuah array. Fungsi array juga dapat berbeda. Terkadang, array dapat menjadi objek yang lengkap dengan fungsi yang kompleks. Di saat yang sama, Anda dapat menganggapnya sebagai tipe penyimpanan untuk tipe primitif; Anda kemudian dapat menerapkan operasi dan fungsi secara eksternal.
+
+\subsubsection{Menginisialisasi Arrays}
+Anda dapat membuat array secara statis atau dinamis. Dalam bahasa pemrograman statis, array disimpan di tumpukan (stack) dan jenis array harus ditentukan. Bahasa pemrograman dinamis menawarkan fleksibilitas lebih, terkadang mengharuskan Anda menentukan ukuran array tanpa perlu menentukan jenisnya sebelum digunakan. Instansi semacam itu disimpan di tumpukan (heap). Array memiliki indeks, yaitu nilai berurutan yang dimulai dari 0 dan bertambah hingga akhir array. Saat suatu item diperlukan, nama array diberikan, diikuti oleh kurung siku yang berisi lokasi indeks.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    array_name[0]
+\end{lstlisting}
+
+Contoh di atas akan mengambil item pertama dalam array. Anda dapat menggunakan angka apa pun untuk mengembalikan elemen di lokasi indeks tersebut. Menentukan angka yang lebih besar dari ukuran array akan menimbulkan kesalahan out-of-bounds. Tindakan umum yang akan Anda lakukan dengan array adalah mengiterasi melalui array dan memeriksa elemen-elemennya.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+n <- size of array arr
+FOR (i <- 0;i<(n-1); i <-(i+1)) DO
+    process element arr[i]
+END
+\end{lstlisting}
+
+Bentuk umum dari perulangan \verb|for| sama di semua pendekatan: Anda memerlukan ukuran array, bilangan bulat i yang bertambah pada setiap iterasi, dan perulangan \verb|for| umum untuk sintaksis. Tampilannya mungkin sedikit berbeda, tetapi mekanisme dasarnya sama. Mulai dari 0, lalui setiap elemen dalam array dan lakukan sesuatu. Sebuah array selalu memiliki cara untuk mengakses ukurannya. Beberapa contohnya adalah \verb|.size(), len(array), dan .length()|.
+
+\subsubsection{Mengelola Array di dalam Memori}
+Perbedaan mendasar mengenai array dalam berbagai bahasa pemrograman terletak pada tempat penyimpanannya. Anda dapat menyimpan suatu item di memori heap atau memori stack. Memori stack dibuat saat menjalankan suatu fungsi. Memori ini dibuat khusus untuk fungsi tersebut dan dihapus setelah eksekusi selesai. Item yang disimpan di alokasi memori ini hanya tersedia untuk fungsi tersebut. Di sisi lain, memori heap dibuat selama eksekusi instruksi dan tersedia untuk semua.
+
+Anda harus berhati-hati saat mengubah elemen dalam lingkungan statis. Saat sebuah array diinstansiasi, ruang memori sebesar ukuran inisialisasi yang ditentukan dibuat di tumpukan panggilan. Tumpukan panggilan dibuat untuk menjalankan tujuan saat sebuah fungsi dipanggil. Mengubah array dan mengembalikannya dari tumpukan dapat menyebabkan memori rusak, karena tumpukan dibuang setelah fungsi selesai.
+
+Bahasa pemrograman dinamis menghindari masalah ini dengan menyimpan array di heap. Dengan demikian, array tetap utuh meskipun fungsi berakhir dan stack dibuang. Stack, secara alami, menyimpan blok memori yang berurutan, sehingga memudahkan akses informasi. Heap kurang terorganisir dan dapat memakan waktu lebih lama untuk mengakses elemen-elemennya. Sekali lagi, Anda perlu mempertimbangkan trade-off antara ukuran dan kenyamanan, atau aksesibilitas versus kecepatan.
+
+Secara umum, ketika program selesai menggunakan array, memori tersebut dibebaskan dan menjadi tersedia untuk penggunaan lain. Cara pengelolaan pembebasan memori dan pengumpulan sampah (garbage collection) bergantung pada bahasa pemrograman yang dipilih dan hanya dapat meningkatkan kinerja jika dilakukan dengan efektif. Pengelolaan memori yang buruk dapat menyebabkan kebocoran memori, yang mungkin menyebabkan aplikasi Anda crash saat dipanggil berulang kali.
+
+Dua konsep terkait memori yang mungkin Anda temui adalah salinan dangkal (shallow copy) dan salinan dalam (deep copy). Salinan dangkal tidak membuat salinan array tetapi mengembalikan lokasi indeks. Salinan dalam akan membuat instance baru dari array. Membuat salinan dangkal mengoptimalkan penggunaan memori; namun, Anda harus memastikan bahwa Anda tidak secara tidak sengaja melakukan perubahan yang tidak terduga pada array yang dibagikan oleh dua variabel.
+
+Selain itu, penting untuk memahami bahwa heap tidak secara otomatis bersifat global. Memori di heap hanya dapat diakses selama masih ada pointer atau referensi yang menunjuk ke sana. Jika pointer hilang, memori tersebut tetap terpakai tetapi tidak bisa lagi digunakan, yang dikenal sebagai memory leak. Inilah sebabnya bahasa seperti C dan C++ mewajibkan programmer untuk secara manual membebaskan memori dengan free() atau delete. Sebaliknya, bahasa modern seperti Java, Python, dan JavaScript menggunakan garbage collector yang secara otomatis melacak referensi dan membebaskan memori yang sudah tidak digunakan.
+
+Walaupun begitu, kebocoran logis tetap bisa terjadi jika programmer menyimpan referensi terlalu lama, misalnya menaruh array besar di variabel global yang tidak pernah dihapus. Untuk menghindari hal ini, sebaiknya variabel yang hanya diperlukan sementara ditempatkan di dalam fungsi, sehingga lingkupnya terbatas dan memori dapat dibersihkan setelah fungsi selesai. Dengan cara ini, manajemen memori menjadi lebih aman dan efisien.
+
+\subsubsection{Menggabungkan Dua Array}
+Matriks adalah array dua dimensi (atau array yang terdiri dari array) yang dapat berfungsi seperti tabel. Matriks dapat digunakan untuk mewakili baris dan kolom. Setiap elemen dalam matriks memiliki koordinat 2D (x,y). Di sini, x merujuk pada baris, dan y merujuk pada kolom. Seperti sebelumnya, Anda akan menggunakan kurung siku untuk mengakses elemen dalam array dua dimensi. Namun, seperti yang ditunjukkan di bawah ini, Anda memerlukan dua lokasi indeks untuk sebuah matriks.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    Matrix[x][y]
+\end{lstlisting}
+
+Sebuah matriks akan memiliki bentuk persegi dengan jumlah kolom dan baris yang sama. Anda tidak perlu menggunakan bentuk ini, tetapi jika Anda memilih untuk tidak mempertahankan keseragaman, pastikan loop Anda bertindak sesuai.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+int[][] matrix = new int[5][7]
+for (int i = 0; i < matrix.length; i++) {
+    for(int j = 0; j < matrix[i].length; j++)
+    {
+        doSomethingNeo(matrix[i][j])
+    }
+}
+\end{lstlisting}
+
+Dalam contoh di atas, sebuah array matriks 2D diinisialisasi untuk menyimpan bilangan bulat. Koleksi luar dapat berisi lima elemen (array bilangan bulat). Semua array dalam memiliki kapasitas 7. Array pertama dalam array luar dipilih dengan nilai i, ukurannya ditentukan (7), dan setiap elemen dari array dalam tersebut kemudian diteruskan ke metode. Perhatikan bagaimana ukuran array dalam diakses secara dinamis menggunakan atribut \verb|.length|; hal ini memastikan tidak terjadi kesalahan out-of-bounds selama iterasi.
+
+\subsection{Objects}
+Objek merupakan blok bangunan dasar dari semua kode dan memainkan peran sentral dalam pemrograman berorientasi objek (OOP).
+
+\subsubsection{Definisi}
+Objek adalah konsep pemrograman yang berarti suatu struktur memiliki baik keadaan (state) maupun perilaku (behavior). Di sini, perilaku berkaitan dengan kemampuan objek untuk melakukan suatu tindakan. Secara konkret, hal ini berkaitan dengan memanggil metode dari suatu objek. Contohnya adalah memanggil metode \verb|sort| dari suatu array. Hal ini mengakibatkan pengaturan ulang elemen-elemen array sehingga mereka terorganisir satu sama lain.
+
+Status atau atribut suatu objek berkaitan dengan informasi tentang objek tersebut. Jika Anda membuat kelas orang dan menginstansiasikannya menjadi objek, contoh status (atau atribut) mungkin usia atau nama orang tersebut. Perilaku kemudian mungkin berkaitan dengan tindakan yang diperlukan dari objek orang ini, seperti berlari atau menendang.
+
+Class sering dijelaskan sebagai cetak biru untuk sebuah Object. Dengan demikian, sebuah object dapat dijelaskan sebagai instansi dari sebuah class. Penggunaan objek yang paling umum adalah dalam Pemrograman Berorientasi Objek (OOP), di mana kode dikapsulkan ke dalam objek, dan objek-objek ini kemudian berinteraksi satu sama lain.
+
+\subsubsection{Contoh}
+Salah satu keunggulan utama menggunakan objek untuk menginstansiasi class adalah Anda hanya perlu membuat satu templat untuk cara objek tersebut berinteraksi. Setelah itu, Anda bebas membuat beberapa instansi dari kelas ini yang dapat berinteraksi satu sama lain. Bayangkan sebuah tim sepak bola dengan 11 pemain. Hanya satu kelas yang perlu didefinisikan yang dapat menampung karakteristik kecepatan, kelincahan, dan tingkat kerja yang bervariasi. Hal ini dapat secara signifikan mengurangi jumlah kode yang diperlukan dalam pembuatan permainan sepak bola.
+
+Karakteristik kelas seperti kecepatan dan kelincahan dikenal sebagai variabel instance dan dapat dikatakan berkaitan dengan keadaan objek. Tidak ada unit di luar objek yang akan berbagi dengan instance ini. Dua pemain dapat memiliki instance kebugaran. Mengubah instance ini pada satu pemain tidak akan memengaruhi instance kebugaran yang terdapat pada objek lain. Anda dapat mengubah instance kelas melalui konstruktor atau metode internal objek. Dalam Java, instansiasi kelas yang umum dilakukan adalah sebagai berikut:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+Player player1 = new Player(agility = 54, speed = 88, fitness = 90);
+
+Player player2 = new Player(agility = 90, speed = 64, fitness = 83);
+\end{lstlisting}
+
+Dalam contoh ini, class pemain membuat dua objek, player1 dan player2. Variabel di dalam kelas kemudian diatur secara berbeda tergantung pada nilai yang terdapat di dalam kurung kurawal. Diperlukan metode untuk mengubah variabel tersebut. Selama pertandingan, seorang pemain mungkin menjadi lelah. Metode dapat dipanggil untuk mengurangi nilai variabel agar mencerminkan kondisi tersebut.
+
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    player1.set_fitness(80)
+\end{lstlisting}
+
+Ini akan mengubah tingkat kebugaran player1 tetapi tidak akan memengaruhi pemain lain. Metode yang digunakan untuk mengubah instance atribut umumnya disebut getter dan setter.
+
+Kontrol lebih lanjut terhadap objek dapat dilakukan melalui metode lain yang terdapat pada objek tersebut. Perintah seperti
+
+player1.kick()
+
+akan menyebabkan objek yang ditugaskan ke player1 melakukan prosedur menendang bola.
+
+Kelas pemain memungkinkan pembuatan tim dengan kemampuan yang bervariasi yang dapat bermain. Konsep lain yang terkait dengan penggunaan objek adalah pewarisan. Bayangkan ada kebutuhan untuk membuat objek manusia lain di lapangan, seperti wasit, yang tidak bermain tetapi tetap melakukan tindakan terkait permainan, seperti berlari dan penampilan umum. Anda mungkin ingin menggunakan kembali sebagian kode dari kelas pemain tanpa membuat objek pemain baru. Di sini, Anda akan membuat kelas yang menampung semua atribut umum yang ingin dipertahankan, dan setiap objek dapat mewarisi atribut tersebut, seperti yang ditunjukkan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/inheritance.png}
+    \caption{}
+\end{figure}
+
+Oleh karena itu, metode standar seperti berlari, merasa lelah, dan mengikuti bola dapat ditemukan pada manusia, tetapi cara kerja metode-metode ini dalam kaitannya dengan kelas Pemain dan kelas Wasit dapat dibedakan. Sebuah konsep yang memiliki satu konsep umum (manusia) yang dapat muncul dalam bentuk yang berbeda (pemain, manajer, wasit) dikenal sebagai polimorfisme. Satu bentuk, banyak wujud. Contoh klasiknya adalah penggunaan bentuk. Bentuk utama akan mencakup konsep area, diameter, dan tinggi. Kemudian, setiap instance bentuk (persegi, segitiga, lingkaran) akan menerapkan implementasi aktual bagaimana atribut-atribut ini terlihat dalam keadaan masing-masing.
+
+\subsection{Lists}
+Lists adalah objek yang menyimpan data dan memiliki metode bawaan. Mereka dapat berisi elemen dengan tipe yang sama atau campuran.
+
+Implementasi: Lists dapat diimplementasikan menggunakan arrays atau linked lists.
 \begin{itemize}
-    \item
+    \item Array-based List: Koleksi terurut yang dibangun menggunakan arrays. Memiliki batasan ukuran awal dan dapat memperluas ukuran saat diperlukan, tetapi ini dapat mahal dalam hal waktu komputasi.
+    \item Linked List: Terdiri dari node yang menyimpan data dan pointer ke node berikutnya. Memungkinkan pertumbuhan dinamis dengan menambahkan node baru, yang membuatnya cepat untuk menyimpan data besar.
 \end{itemize}
 
+Sintaks List:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    list = [1, 2, 3] (Python)
+\end{lstlisting}
+
+\subsection{Sets}
+Sets adalah koleksi elemen yang tidak terurut dan hanya menyimpan elemen unik. Jika elemen yang sama ditambahkan, tidak ada perubahan pada data.
+
+Pencarian Cepat: Sets menggunakan hash tables untuk menyimpan elemen, yang memungkinkan pencarian dilakukan dalam waktu O(1).
+\begin{itemize}
+    \item Hashing Function: Algoritma yang memetakan data ke nilai tetap yang unik. Ini memungkinkan pencarian cepat, tetapi dapat mengalami clashing jika dua nilai berbeda menghasilkan nilai hash yang sama.
+\end{itemize}
+
+Sintaks Set:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+    set = {1, 2, 3} (Python)
+\end{lstlisting}
 
 \newpage
 
