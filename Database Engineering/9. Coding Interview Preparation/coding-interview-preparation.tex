@@ -1026,6 +1026,31 @@ Sintaks Set:
     set = {1, 2, 3} (Python)
 \end{lstlisting}
 
+\subsection{List dan Set dalam Bahasa Pemrograman yang Berbeda}
+Set dan List adalah tipe data bawaan dalam banyak bahasa pemrograman dengan tema umum yang berlaku untuk sebagian besar di antaranya. Dalam implementasi sebenarnya, terdapat beberapa perbedaan halus.
+\subsubsection{Mutabilitas}
+Konsep ketidakubahaan telah dibahas sebelumnya. Secara konkret, hal ini berkaitan dengan cara struktur data dibuat. Objek yang tidak dapat diubah tidak dapat diubah setelah dibuat, sementara objek yang dapat diubah dapat diubah setelah dibuat. Kumpulan (set) adalah contoh struktur yang tidak dapat diubah dalam kebanyakan bahasa pemrograman. Namun, objek yang ditambahkan ke set dapat diperlakukan secara berbeda tergantung pada bahasa pemrograman. Dalam JavaScript, Anda dapat menambahkan objek yang dapat diubah ke dalam set, hal ini tidak diperbolehkan dalam Python. Memahami perbedaan mendasar ini akan memberikan wawasan tentang cara bahasa pemrograman menggunakan kumpulan.
+
+\subsubsection{Kenapa Set Cepat?}
+Alasan di balik kecepatan yang dimiliki oleh set dalam menemukan suatu item terletak pada arsitektur dasarnya. Set menyimpan nilai menggunakan pendekatan \textbf{hashing}. Meng-hash sesuatu berarti mengambilnya dan menghasilkan output unik darinya. Hal ini dilakukan dengan menerapkan algoritma yang mengubah input menjadi output alfanumerik sederhana (kata dan huruf). Setiap kali algoritma melihat input, ia akan selalu menghasilkan output alfanumerik yang sama. Output ini kemudian digunakan dalam tabel hash, yang menggunakan hash unik untuk menentukan di mana item disimpan dalam memori. Oleh karena itu, dengan satu perhitungan, kita dapat mengetahui apakah nilai tersebut ada dalam memori atau tidak. Alih-alih mencari setiap elemen dalam daftar, cukup terapkan fungsi hashing dan periksa apakah item tersebut digunakan.
+
+Oleh karena itu, set sangat cepat, tetapi alasan kecepatannya juga menjadi alasan mengapa nilai yang disimpan tidak dapat diubah. Jika Anda membuat hash untuk suatu elemen dan menyimpannya sesuai dengan hash tersebut, lalu mengubah item tersebut, hash tidak akan lagi dapat menemukannya. Inilah salah satu alasan mengapa Python hanya mengizinkan penyimpanan objek immutable yang tidak dapat diubah dalam set. Tidak semua bahasa pemrograman menawarkan perlindungan ini. Misalnya, JavaScript memang mengizinkan penyimpanan objek yang dapat diubah. Oleh karena itu, perlindungan objek diserahkan kepada pengguna saat menggunakan set dalam JavaScript. Jika Anda ingin mengubah nilai yang dapat diubah dalam JavaScript, disarankan untuk mengekstrak dan menghapus objek yang dapat diubah tersebut sebelum memasukkannya kembali ke dalam set sebagai elemen baru.
+
+Seperti Python, Kotlin tidak mengizinkan elemen untuk diubah setelah ditambahkan ke dalam sebuah set. Hal ini berarti akses ke set tersebut bersifat read-only. Jika Anda ingin set yang dapat diubah, Kotlin memiliki jenis set lain yang disebut MutableSet. Set dalam Kotlin sangat fleksibel dan menyediakan berbagai metode bawaan seperti max, min, sum, dan average. Hal ini membuatnya sangat berguna saat mencari item tertentu dalam kelompok angka.
+
+\subsubsection{List}
+Jenis koleksi penting lainnya yang perlu diketahui adalah daftar (list). Daftar menyimpan elemen dalam urutan tertentu yang dapat diakses menggunakan indeks. Indeks hanyalah angka yang diberikan ke daftar untuk menunjukkan bahwa elemen yang berada di posisi angka tersebut harus dikembalikan. Indeks adalah cara elemen dicari dalam daftar. Jika seseorang ingin mengetahui apakah sesuatu ada dalam daftar, mereka harus melakukan pencarian dan memeriksa setiap item, sehingga lebih lambat daripada himpunan (set). Selain itu, daftar memungkinkan Anda menyimpan berbagai jenis elemen di dalamnya. Tidak ada perbedaan antara apakah suatu item bersifat mutable atau immutable. Daftar juga memungkinkan Anda menyimpan duplikat item. Ada berbagai jenis daftar yang diimplementasikan secara berbeda.
+
+Namun, poin fundamental yang perlu diingat adalah bahwa daftar memungkinkan Anda menyimpan item yang berulang dan item dengan jenis yang berbeda. Daftar bersifat terurut, artinya urutan item akan tetap terjaga saat dimasukkan. Hal ini berbeda dengan himpunan, yang mungkin menyimpan item di lokasi yang berbeda dari tempat awalnya dimasukkan.
+
+Memahami perbedaan halus ini dapat membantu saat memutuskan jenis struktur data mana yang ingin Anda pilih. Baik himpunan (set) maupun daftar (list) berguna, tetapi karena keduanya berperilaku berbeda, mereka akan lebih berguna dalam situasi tertentu daripada yang lain. Memastikan bahwa daftar atau himpunan adalah pilihan yang paling sesuai dalam suatu situasi adalah kuncinya.
+
+\subsection{}
+\begin{itemize}
+\item 
+\end{itemize}
+
+
 \newpage
 
 \section{Pengenalan ke Algoritma}
