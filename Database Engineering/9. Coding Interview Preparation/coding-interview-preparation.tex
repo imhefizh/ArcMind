@@ -1074,6 +1074,31 @@ Metode Utama:
 \subsubsection{Contoh Penggunaan Queue}
 Contoh nyata adalah antrean di restoran cepat saji, di mana pelanggan pertama yang datang adalah yang pertama dilayani.
 
+\subsection{Stack dan Queue dalam Bahasa Pemrograman yang Berbeda}
+Tumpukan (stack) adalah struktur data dasar yang menentukan cara data disimpan dalam suatu aplikasi. Elemen dalam tumpukan harus mengikuti kebijakan masuk atau keluar last-in-first-out (LIFO). Berbagai bahasa pemrograman memiliki implementasi yang berbeda, namun secara umum, hasilnya tetap sama. Antrian (queue) sangat mirip dengan tumpukan; namun, urutan masuknya berbeda, mengutamakan kebijakan first-in-first-out (FIFO).
+
+\subsubsection{Stacks}
+Tumpukan (stack) adalah contoh dari tipe data abstrak. Dalam ilmu komputer, ini berarti bahwa beberapa karakteristik esensial harus diterapkan saat mengimplementasikannya, tetapi tidak ada versi bawaan yang dapat Anda impor secara langsung. Untuk tumpukan, prinsip pentingnya adalah LIFO (last-in-first-out).
+
+Analogi untuk tumpukan adalah membayangkan tumpukan piring di atas papan cuci. Setiap kali piring dibersihkan, piring tersebut diletakkan di atas piring sebelumnya. Untuk mengeringkannya, setiap piring harus diambil dari bagian atas. Jadi, piring terakhir yang ditambahkan ke tumpukan dikeringkan terlebih dahulu, dan piring pertama di tumpukan dikeringkan terakhir.
+
+Penggunaan umum tumpukan (stack) adalah untuk menyimpan riwayat penjelajahan browser Anda. Setiap kali Anda menekan tombol kembali, halaman yang sebelumnya dikunjungi dimuat dan, ke depannya, dibaca ke dalam tumpukan.
+
+Implementasi umum tumpukan dalam JavaScript dilakukan dengan menggunakan array, memastikan bahwa array tersebut berperilaku seperti tumpukan. Ketika Anda menggunakan struktur data untuk membangun struktur data lain, Anda dikatakan menggunakan \textit{Container Adapter}. Di sini, array adalah kontainer-nya, dan adaptasi memaksa array tersebut berperilaku seperti stack. Fitur penting dari tumpukan adalah push, pop, peek, dan count. Push menambahkan item ke bagian atas tumpukan. Menggunakan array berarti bahwa count harus selalu mengetahui di mana item terakhir ditempatkan di array. Demikian pula, memiliki count untuk array penting untuk metode pop, karena pop hanya mengembalikan item terakhir yang dimasukkan ke tumpukan.
+
+\subsubsection{Queues}
+Queue, seperti stack, adalah struktur data linier yang mempertahankan urutan di mana item dimasukkan. Struktur linier menyimpan item sesuai urutan penambahan. Sama seperti tumpukan, antrian memiliki implementasi ketat tentang cara item ditambahkan dan dihapus. Sementara tumpukan menggunakan pendekatan LIFO (Last In, First Out), antrian menggunakan pendekatan first-in-first-out (FIFO). Oleh karena itu, item pertama yang ditambahkan ke antrian akan menjadi item pertama yang dihapus. Seperti pelanggan yang mengantri untuk berbelanja, antrian menerapkan kebijakan yang menekankan waktu kedatangan. Hal ini memiliki manfaat nyata dalam implementasi seperti penjadwalan CPU dan disk, di mana menangani tugas sesuai urutan kedatangan sangat penting.
+
+Antrian adalah tipe data abstrak dalam Swift, artinya untuk menggunakan fungsionalitas antrian, Anda harus terlebih dahulu membuat struktur yang berfungsi seperti itu. Dua istilah penting terkait antrian adalah enqueue (menambahkan item ke antrian) dan dequeue (menghapus item dari bagian belakang daftar). Pendekatan termudah untuk membuat antrian adalah menggunakan array sebagai adaptor kontainer. Karena antrian hanya mengambil elemen dari bagian depan antrian, waktu pencarian selalu O(1), sehingga aplikasi yang dibangun dengan pendekatan ini dapat mengharapkan layanan yang sangat cepat. Seperti halnya tumpukan, metode yang tersedia untuk antrian dibatasi, dengan peak, pop, push, dan size sebagai yang paling penting.
+
+\subsubsection{Keismpulan}
+Memilih struktur data yang tepat untuk tugas yang tepat merupakan keputusan pemrograman yang sangat penting, karena hal ini dapat memengaruhi keseluruhan proyek. Anda akan memilih tumpukan (stack) ketika ada kebutuhan untuk melacak urutan masuknya suatu item, dan untuk mengembalikannya dengan cara yang sangat spesifik. Antrian (queue) digunakan untuk menjaga urutan, tetapi akan mengikuti aturan yang berbeda dari tumpukan. Akhirnya, jika Anda ingin struktur data di mana Anda dapat menetapkan prioritas, maka antrian prioritas (priority queue) layak dipertimbangkan.
+
+\subsection{}
+\begin{itemize}
+    \item
+\end{itemize}
+
 \newpage
 
 \section{Pengenalan ke Algoritma}
