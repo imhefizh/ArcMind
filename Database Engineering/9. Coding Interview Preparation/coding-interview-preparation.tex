@@ -1045,11 +1045,34 @@ Namun, poin fundamental yang perlu diingat adalah bahwa daftar memungkinkan Anda
 
 Memahami perbedaan halus ini dapat membantu saat memutuskan jenis struktur data mana yang ingin Anda pilih. Baik himpunan (set) maupun daftar (list) berguna, tetapi karena keduanya berperilaku berbeda, mereka akan lebih berguna dalam situasi tertentu daripada yang lain. Memastikan bahwa daftar atau himpunan adalah pilihan yang paling sesuai dalam suatu situasi adalah kuncinya.
 
-\subsection{}
+\subsection{Stack}
+Stack adalah struktur data linear yang mengikuti prinsip First-In, Last-Out (FILO) atau Last-In, First-Out (LIFO). Artinya, elemen terakhir yang ditambahkan adalah yang pertama diambil.
+
+Metode Utama:
 \begin{itemize}
-\item 
+    \item Push: Menambahkan elemen ke atas stack.
+    \item Pop: Menghapus elemen dari atas stack.
+    \item isEmpty: Memeriksa apakah stack kosong.
+    \item isFull: Memeriksa apakah stack sudah penuh.
+    \item Peek: Melihat elemen teratas tanpa menghapusnya.
 \end{itemize}
 
+\subsubsection{Contoh Penggunaan Stack}
+Misalnya,  saat menggunakan Ctrl+Z untuk membatalkan tindakan terakhir dalam aplikasi, tindakan tersebut diambil dari atas stack.
+
+\subsection{Queue}
+Queue adalah struktur data yang mengikuti prinsip First-In, First-Out (FIFO). Artinya, elemen pertama yang ditambahkan adalah yang pertama diambil.
+
+Metode Utama:
+\begin{itemize}
+    \item Enqueue: Menambahkan elemen ke belakang queue.
+    \item Dequeue: Menghapus elemen dari depan queue.
+    \item isEmpty: Memeriksa apakah queue kosong.
+    \item isFull: Memeriksa apakah queue sudah penuh.
+\end{itemize}
+
+\subsubsection{Contoh Penggunaan Queue}
+Contoh nyata adalah antrean di restoran cepat saji, di mana pelanggan pertama yang datang adalah yang pertama dilayani.
 
 \newpage
 
