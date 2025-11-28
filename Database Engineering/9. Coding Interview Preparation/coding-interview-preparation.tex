@@ -729,6 +729,12 @@ Pertimbangkan bahwa elemen yang dicari adalah elemen pertama dalam array. Maka w
 \end{itemize}
 
 \subsection{Jenis Struktur Data}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/data_structure.png}
+    \caption{}
+\end{figure}
+
 Linear Structures: Elemen disimpan secara berurutan. Contoh:
 \begin{itemize}
     \item Array: Kumpulan elemen dengan tipe data yang sama, diakses menggunakan indeks (misalnya, \verb|array[4]| untuk elemen kelima).
@@ -1147,17 +1153,339 @@ Untuk membuat struktur data Tree, Anda harus memastikan adanya root (node awal) 
     \item Metode penghapusan: Metode ini akan menghapus suatu item dari pohon. Operasi ini menimbulkan tantangan tambahan saat diterapkan pada pohon karena sifat terhubungnya pohon. Pertimbangkan bahwa pohon terdiri dari serangkaian node yang terhubung. Oleh karena itu, menghapus satu node secara sembarangan dapat merusak koneksi dalam pohon. Oleh karena itu, saat mengimplementasikan metode ini, selain menghapus node, perlu memeriksa semua node anak dan memastikan koneksi baru dibuat dengan node nilai tertinggi berikutnya.
 \end{itemize}
 
-
 \subsubsection{Searching pada Tree}
+Pendekatan yang dijelaskan di atas untuk mengkodekan pohon berlaku untuk semua bahasa pemrograman yang dibahas dalam kursus ini. Tidak ada implementasi konkret dari pohon, artinya untuk menggunakannya, Anda harus mengimplementasikan kode tersebut sendiri.
 
+Fitur lain yang perlu diperhatikan adalah cara melakukan pencarian pada pohon. Anda dapat mengkodekan solusi yang menggunakan pencarian kedalaman-pertama (depth-first search) atau pencarian lebar-pertama (breadth-first search). Untuk memahami konsep ini dengan lebih baik, pertimbangkan bagaimana pohon tersebut diorganisasikan. Setiap level memiliki node induk yang terhubung ke dua node anak. Node anak ini, pada gilirannya, memiliki dua node anak mereka sendiri. Pencarian breadth-first akan memeriksa setiap node pada level yang sama sebelum beralih ke level yang lebih dalam. Ini dapat dibayangkan sebagai pemindaian semua node secara horizontal sebelum memeriksa level berikutnya. Pencarian depth-first akan memeriksa setiap node pada cabang hingga mencapai node akhir sebelum memeriksa cabang yang berdekatan. Ini dapat dibayangkan sebagai pemindaian vertikal pada pohon.
 
 \subsubsection{Kesimpulan}
+Karena pohon adalah tipe data abstrak, tidak ada metode bawaan untuk bahasa pemrograman yang digunakan. Untuk mengimplementasikan pohon, sangat penting untuk mengingat karakteristik pentingnya agar Anda dapat mengimplementasikannya dengan benar.
 
+\subsection{Apa itu Hash Table?}
+Hash Table adalah Struktur data yang menyimpan pasangan kunci-nilai dalam slot atau bucket. Memerlukan \textbf{Hashing Function} untuk menentukan bucket yang tepat untuk menyimpan data.
+
+Hashing Function adalah Algoritma yang diterapkan pada kunci untuk menghasilkan angka unik yang berfungsi sebagai indeks.
+
+\subsection{Cara Kerja Hash Table}
+\begin{itemize}
+    \item Setiap item data yang disimpan harus memiliki key (kunci) dan value (nilai). Kunci diproses dengan hashing function untuk menghasilkan nilai tetap yang lebih kecil.
+    \item Contoh fungsi hashing sederhana: \verb|key mod 20|, yang menghasilkan nilai unik untuk kunci dari 0 hingga 9.
+\end{itemize}
+
+\subsection{Koalisi dalam Hash Table}
+Kolisi terjadi ketika dua kunci menghasilkan nilai hash yang sama. Misalnya, \verb|1 mod 20| dan \verb|21 mod 20| keduanya menghasilkan 1.
+
+Solusi untuk kolisi:
+\begin{itemize}
+    \item Meningkatkan ukuran tabel: Setiap kali kolisi terjadi, tabel diperbesar dan nilai didistribusikan ke alamat baru.
+    \item Linked List: Menyimpan nilai tambahan dalam linked list di titik kolisi.
+\end{itemize}
+
+\subsection{Keuntungan Menggunakan Hash Table}
+\begin{itemize}
+    \item Kecepatan: Hash table dapat mengambil item dalam waktu O(1), yang lebih cepat dibandingkan dengan pencarian di array yang memerlukan waktu O(n).
+    \item Penggunaan: Umumnya digunakan dalam cache, kamus, indeks database, dan set.
+\end{itemize}
+
+\subsection{Hash Table pada Bahasa Pemrograman yang Berbeda}
+Kelas koleksi adalah kelas khusus untuk penyimpanan dan pengambilan data. Tergantung pada kebutuhan aplikasi Anda, pemilihan struktur data yang tepat dapat secara signifikan memengaruhi pendekatan pemrograman Anda dan efisiensi aplikasi. Sebuah hashtable menyimpan pasangan kunci-nilai dan menawarkan pencarian yang cepat. Beberapa bahasa pemrograman menyediakan implementasi bawaan, sementara yang lain memerlukan jenis koleksi lain untuk berfungsi seperti hashtable.
+
+\subsubsection{Apa itu HashTable?}
+Hashtable menawarkan pencarian yang sangat cepat untuk suatu aplikasi. Hal ini dicapai dengan membuat fungsi hashing yang akan menghasilkan output alfanumerik (huruf dan angka) dari input yang diberikan. Hash ini kemudian digunakan untuk menentukan di mana dalam memori suatu data akan disimpan. Ini berarti bahwa ketika Anda ingin mengetahui apakah suatu elemen ada dalam struktur data, Anda tidak perlu memeriksa setiap item dan melakukan perbandingan. Cukup terapkan fungsi hashing dan lihat apakah item tersebut telah di-hash ke memori. Ketika mempertimbangkan bahwa sumber data mungkin memiliki jutaan entri, tidak perlu memeriksa setiap entri satu per satu merupakan penghematan waktu yang besar. Selain itu, penting untuk memastikan bahwa tabel hash tidak mengizinkan nilai null ditambahkan sebagai kunci atau nilai. Hal ini dapat menyebabkan masalah saat membandingkan nilai di dalam tabel.
+
+Pada beberapa bahasa pemrograman, untuk mengimplementasikan instance tabel hash, diperlukan modifikasi struktur data yang sudah ada agar dapat melakukan operasi tabel hash.
+
+\subsubsection{Implementasi Hashtable pada Kotlin}
+Meskipun Kotlin tidak memiliki implementasi bawaan untuk hashtable, struktur data yang sangat mirip bernama hashmap didukung. Hashmaps sangat mirip dengan hashtables karena keduanya menyimpan pasangan kunci-nilai dan menggunakan hash untuk menentukan di mana di memori kunci tersebut disimpan. Ada beberapa perbedaan yang perlu diperhatikan: hashmap memungkinkan penggunaan null untuk kunci dan nilai, dan tidak aman untuk thread.
+
+\subsubsection{Apa itu thread-safe, dan bagaimana aplikasinya ke hashtable?}
+Threads adalah proses yang dapat dijalankan oleh komputer. Biasanya, saat Anda menyalakan komputer, sejumlah proses akan dimulai. Proses-proses ini meliputi hal-hal seperti membuka dokumen Word, Excel, aplikasi Java, dan sebagainya. Proses-proses ini sering dijalankan secara bersamaan. Untuk melakukannya, compiler akan membuat banyak thread yang dapat menjalankan kode. Jadi, thread adalah potongan kode yang dapat dieksekusi dan dapat menjalankan suatu proses. Lalu, bagaimana Anda dapat mengatakan bahwa kode tersebut thread-safe? thread-safe berarti jika Anda menulis program yang mengakses struktur data, Anda dapat menduplikasi aplikasi tersebut dan mengakses struktur data yang sama melalui thread yang berbeda tanpa menimbulkan kesalahan. Memiliki lima thread yang berbeda bekerja pada struktur data yang sama mungkin membuat kode Anda berjalan lima kali lebih cepat, tetapi hal ini hanya berguna jika informasi yang diubah dilakukan dengan benar.
+
+\subsubsection{Bagaimana thread-safe berkaitan dengan implementasi Kotlin untuk Hashtable}
+Salah satu fitur dari hashtables adalah bahwa mereka dapat disinkronkan. Artinya, jika lima proses yang berbeda menggunakan dan mengubah informasi yang sama dalam sebuah tabel, informasi tersebut selalu akurat. Kotlin tidak menyediakan implementasi hashtables; namun, terdapat struktur data yang sangat mirip dan dapat diadaptasi untuk tujuan ini yang disebut hashmaps. Hashmaps memiliki implementasi kunci, nilai, dan pencarian hash yang sama, tetapi tidak aman untuk thread. Oleh karena itu, dalam mengimplementasikan hashtable di Kotlin, kita dapat menggunakan hashmap dan menambahkan kode yang memastikan sinkronisasi sehingga beberapa thread dapat mengaksesnya secara bersamaan.
+
+\subsubsection{Implementasi Hashtable pada Python}
+Sama seperti Kotlin, Python tidak memiliki implementasi bawaan untuk hashtable. Pada bagian sebelumnya, telah dijelaskan bahwa sebuah tabel dapat ditiru menggunakan struktur yang sudah ada bernama hashmap. Hal ini juga dapat dilakukan di Python, meskipun struktur dasar yang digunakan adalah dictionary. Dictionary adalah struktur data yang tepat untuk digunakan, karena bekerja berdasarkan prinsip yang sama dengan hashtable. Artinya, ia menyimpan pasangan kunci-nilai. Kunci-kunci tersebut dapat di-hash dan digunakan sebagai penunjuk lokasi penyimpanan nilai di memori. Hal ini berarti dictionary memiliki metode pencarian dan penyisipan yang sangat cepat. Selain itu, dictionary sudah thread-safe, sehingga tidak perlu diubah jika Anda memerlukan operasi yang dijalankan secara bersamaan.
+
+\subsection{Apa itu Heap?}
+Heap adalah struktur data yang dimodelkan seperti pohon tetapi berfungsi mirip dengan queue, dengan perbedaan utama dalam penugasan prioritas pada elemen.
+
+Min Heap dan Max Heap: Heap yang memprioritaskan nilai kunci terendah disebut min heap, sedangkan yang memprioritaskan nilai kunci tertinggi disebut max heap.
+
+\subsection{Operasi Dasar Heap}
+\begin{itemize}
+    \item \verb|Insert|: Menambahkan elemen ke dalam heap.
+    \item \verb|find_min|: Mengambil nilai minimum dari min heap.
+    \item \verb|delete_min|: Menghapus nilai minimum dari min heap.
+    \item \verb|find_max|: Mengambil nilai maksimum dari max heap.
+    \item \verb|delete_max|: Menghapus nilai maksimum dari max heap.
+\end{itemize}
+
+\subsection{Implementasi dan Penggunaan Heap}
+\begin{itemize}
+    \item Binary Tree: Heap sering dibangun menggunakan binary tree, di mana nilai minimum disimpan di node akar.
+    \item O(1): Mengambil nilai minimum dari heap adalah O(1) karena selalu berada di akar.
+    \item O(log n): Waktu yang dibutuhkan untuk menyisipkan elemen ke dalam min heap adalah O(log n).
+\end{itemize}
+
+\subsection{Aplikasi Heap}
+\begin{itemize}
+    \item Jadwal: Heap dapat digunakan untuk menjadwalkan tugas berdasarkan prioritas, seperti penjadwalan wawancara atau pengelolaan paket dalam jaringan.
+\end{itemize}
+
+\subsection{Ringkasan Istilah terkait Heap}
+\begin{itemize}
+    \item Heap: Struktur data yang mengorganisir elemen berdasarkan prioritas.
+    \item Min Heap: Heap yang memprioritaskan nilai kunci terendah.
+    \item Max Heap: Heap yang memprioritaskan nilai kunci tertinggi.
+    \item Binary Tree: Struktur data berbentuk pohon di mana setiap node memiliki dua anak.
+    \item Insert: Menambahkan elemen ke dalam struktur data.
+    \item \verb|find_min|: Mengambil elemen dengan nilai minimum.
+    \item \verb|delete_min|: Menghapus elemen dengan nilai minimum.
+    \item O(1): Notasi yang menunjukkan waktu konstan untuk operasi.
+    \item O(log n): Notasi yang menunjukkan waktu logaritmik untuk operasi.
+\end{itemize}
+
+\subsection{Struktur Data Graph}
+Graph adalah struktur data yang terdiri dari nodes (simpul) dan edges (sisi) yang menunjukkan hubungan antar nodes.
+
+Ada dia jenis Graph
+\begin{itemize}
+    \item Weighted Graph: Graf yang memiliki nilai (weight) di antara nodes, menunjukkan biaya atau jarak antara dua nodes.
+    \item Undirected Graph: Graf tanpa arah, di mana hubungan antara nodes tidak memiliki urutan tertentu, mirip dengan jalan dua arah.
+\end{itemize}
+
+\subsection{Terminologi Graph}
+\begin{itemize}
+    \item Neighbors: Dua nodes yang berbatasan satu sama lain.
+    \item Adjacent Nodes: Nodes yang terhubung melalui neighbor.
+    \item Path: Rangkaian dua atau lebih nodes yang terhubung oleh edges.
+\end{itemize}
+
+\subsection{Metode Traversal pada Graph}
+\begin{itemize}
+    \item Breadth-First Search (BFS): Metode yang mengunjungi semua nodes pada level yang sama sebelum melanjutkan ke level berikutnya. Menggunakan queue untuk menyimpan nodes yang akan dikunjungi.
+    \item Depth-First Search (DFS): Metode yang mengeksplorasi setiap cabang hingga akhir sebelum kembali. Menggunakan stack untuk menyimpan nodes yang akan dikunjungi.
+\end{itemize}
+
+\subsection{Aplikasi Graph}
+\begin{itemize}
+    \item Shortest Path: Menentukan jalur tercepat antara dua nodes, sering digunakan dalam routing paket di Internet atau aplikasi seperti Google Maps.
+    \item Traveling Salesman Problem: Masalah untuk menemukan rute terbaik yang mengunjungi semua nodes dalam waktu terpendek, berguna dalam pengiriman paket.
+\end{itemize}
+
+\subsection{Heap dan Graph dalam Bahasa Pemrograman yang Berbeda}
+Graf adalah struktur data non-linier yang dapat menyimpan informasi dengan cara yang memungkinkan Anda mengekstrak hubungan menarik yang terdapat dalam data. Heap dapat didefinisikan sebagai graf khusus yang memberikan prioritas khusus pada elemen teratas.
+
+\subsubsection{Terminologi}
+Graphs terdiri dari simpul (node) dan tepi (edge). Simpul adalah tempat penyimpanan data, sedangkan tepi adalah koneksi antara dua simpul. Berbeda dengan pohon, simpul tidak harus terhubung dan dapat exist secara independen dari simpul lain. Sebuah tepi menghubungkan dua simpul. Sisi dapat dikatakan memiliki bobot. Ini adalah nilai yang disimpan dalam koneksi yang mengindikasikan informasi tentang kekuatan koneksi antara dua simpul. Graph dapat dikatakan berarah, artinya sisi-sisinya berarah (seperti jalan satu arah) atau tidak berarah (seperti jalan dua arah), dan koneksi mengindikasikan informasi bolak-balik.
+
+\subsubsection{NetworkX}
+NetworkX adalah perpustakaan eksternal berbasis Python yang dapat diimpor ke lingkungan Python dan digunakan untuk memodelkan data. Ini adalah perpustakaan pihak ketiga yang ringan dan dapat beroperasi di lingkungan Python apa pun. Banyak jenis graph yang didukung, termasuk berarah, tak berarah, siklik, dan tak siklik. NetworkX juga mendukung berbagai algoritma berbasis graph, termasuk:
+\begin{itemize}
+    \item Metrik jarak (jarak antara dua simpul)
+    \item Centralitas (seberapa sentral suatu simpul dibandingkan dengan simpul lain)
+    \item Dan deteksi kluster (berkaitan dengan subset dalam grafik)
+\end{itemize}
+
+Algoritma deteksi kluster (clique detection) akan menganalisis grafik untuk menentukan subset yang paling mungkin memiliki hubungan internal yang kuat dan hubungan eksternal yang lemah. Subset ini disebut clique karena kemiripannya dengan social clique. Ini dapat menjadi cara yang berguna untuk mengidentifikasi pelanggan yang berpotensi memiliki hubungan, berdasarkan sampel data pelanggan dan kebiasaan mereka. NetworkX dapat dimodelkan menggunakan matplotlib Python untuk memberikan wawasan tentang penemuan data. Ini digunakan sebagai aplikasi back-end oleh seorang programmer yang menganalisis data untuk mendapatkan wawasan.
+
+\subsubsection{Heaps}
+Heap diimplementasikan secara berbeda-beda dalam berbagai bahasa pemrograman, namun pada dasarnya merupakan graph dengan batasan tertentu. Heap mengurutkan informasi sehingga dapat dengan cepat mengembalikan nilai minimum dan maksimum. Oleh karena itu, heap menggunakan pendekatan biner, dan setiap implementasi harus memiliki maksimal dua node. Tergantung pada implementasinya, heap akan memiliki nilai terbesar atau terkecil sebagai akar. Akhirnya, setiap cabang heap akan mengikuti pola berurutan.
+
+Heap memiliki waktu pencarian O(1) karena hanya mengembalikan satu item. Nilai tertinggi atau terendah tergantung pada apakah itu heap minimum atau maksimum. Ini berarti bahwa setelah nilai ini diambil, item berikutnya ditambahkan ke node akar heap. Hal ini juga memengaruhi penambahan ke heap. Saat elemen baru ditambahkan, dimulai dari akar, elemen tersebut dibandingkan dengan setiap node hingga posisi yang benar ditentukan. Elemen-elemen di sekitarnya kemudian dipindahkan untuk memastikan elemen tersebut ditempatkan pada posisi yang tepat.
+
+Cara alternatif yang digunakan oleh beberapa bahasa seperti Kotlin atau JavaScript, yang tidak memiliki implementasi bawaan, adalah mewakili tumpukan menggunakan daftar array. Sifat-sifat yang sama yang digunakan pada grafik diterapkan, meskipun implementasi aktualnya mungkin sedikit berbeda. Efisiensi tumpukan bergantung pada struktur data dasar yang digunakan, jadi disarankan untuk menyelidiki seberapa efisien implementasi bahasa target Anda sebelum menggunakannya.
+
+\subsubsection{Kesimpulan}
+Tumpukan dapat dianggap sebagai grafik khusus, dan grafik terdiri dari simpul dan tepi. Terdapat beberapa metode khusus yang tersedia untuk grafik, yang tujuannya adalah memungkinkan kita untuk menyimpulkan hubungan tertentu dari data yang disimpan di dalamnya.
 
 
 \newpage
 
 \section{Pengenalan ke Algoritma}
+\subsection{Algoritma Sorting}
+\begin{itemize}
+    \item Pengurutan: Proses mengatur elemen dalam urutan tertentu, seperti secara alfabetis atau numerik.
+    \item Metode Pengurutan: Berbagai cara untuk mengurutkan data, termasuk Selection Sort, Insertion Sort, dan Quicksort.
+\end{itemize}
+
+\subsection{Selection Sort}
+\begin{itemize}
+    \item Definisi: Algoritma yang mencari elemen terkecil dalam daftar dan menukarnya dengan elemen pertama, kemudian mengulangi proses ini untuk elemen berikutnya.
+    \item Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for i in range(len(arr)):
+    min_idx = i
+    for j in range(i+1, len(arr)):
+        if arr[j] < arr[min_idx]:
+            min_idx = j
+    arr[i], arr[min_idx] = arr[min_idx], arr[i]
+\end{lstlisting}
+    \item Kelemahan: Memiliki kompleksitas waktu O(n²), yang membuatnya kurang efisien untuk daftar besar.
+\end{itemize}
+
+\subsection{Insertion Sort}
+\begin{itemize}
+    \item Definisi: Algoritma yang membangun daftar terurut satu per satu dengan membandingkan elemen baru dengan elemen yang sudah terurut.
+    \item Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for i in range(1, len(arr)):
+    key = arr[i]
+    j = i - 1
+    while j >= 0 and key < arr[j]:
+        arr[j + 1] = arr[j]
+        j -= 1
+    arr[j + 1] = key
+\end{lstlisting}
+    \item Kelemahan: Juga memiliki kompleksitas waktu O(n²), tetapi lebih efisien daripada Selection Sort untuk daftar kecil.
+\end{itemize}
+
+\subsection{Quicksort}
+\begin{itemize}
+    \item Definisi: Algoritma yang lebih kompleks yang menggunakan elemen pivot untuk membagi daftar menjadi dua bagian, kemudian mengurutkan kedua bagian tersebut secara rekursif.
+    \item Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
+\end{lstlisting}
+    \item Kelebihan: Memiliki kompleksitas waktu rata-rata O(n log n), menjadikannya lebih efisien untuk daftar besar.
+\end{itemize}
+
+\subsection{Struktur Data Terkait}
+\begin{itemize}
+    \item Binary Trees: Struktur data yang menyimpan data dalam bentuk pohon, di mana setiap node memiliki maksimal dua anak.
+    \item Heaps: Struktur data yang digunakan untuk menyimpan data dalam urutan tertentu, sering digunakan dengan algoritma pengurutan.
+\end{itemize}
+
+\subsection{Time Complexity dan Space Complexity pada Algoritma Sorting}
+\subsubsection{Selection Sort}
+Selection sort adalah algoritma pengurutan yang bekerja berdasarkan prinsip yang sangat sederhana. Ambil sebuah array item dan iterasi dari kiri ke kanan. Mulai dari posisi pertama pada indeks, iterasi melalui seluruh array dan tukar nilai ini dengan nilai terendah yang ditemukan di sebelah kanan item ini. Ulangi hingga seluruh array terurut.
+
+Selection sort memiliki:
+\begin{itemize}
+    \item Kompleksitas waktu terburuk adalah \(O(N^2)\)
+    \item Kompleksitas waktu rata-rata adalah \(O(N^2)\)
+    \item Kompleksitas waktu terbaik adalah \(O(N^2)\)
+    \item Kompleksitas ruang: O(1) Tambahan.
+\end{itemize}
+
+Untuk melakukan seleksi sort, ikuti langkah-langkah berikut:
+\begin{itemize}
+    \item Temukan nilai terkecil dan tukar dengan nilai pertama dalam array
+    \item Temukan nilai terkecil kedua dan tukar dengan posisi kedua dalam array
+    \item Ulangi hingga semua item terurut dari terkecil ke terbesar
+\end{itemize}
+
+Kompleksitas waktu ditentukan berdasarkan jumlah transaksi yang dilakukan. Untuk daftar berukuran n, compiler harus mencari setiap entri dalam daftar untuk mengidentifikasi item terkecil, lalu melakukan pertukaran ke posisi indeks 0. Pseudocode algoritma tersebut adalah sebagai berikut.
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for (i = 0; i < n - 1; i++) {
+    int min_index = i;
+    for (j = i + 1; j < n; j++) {
+        if (List[j] < List[min_index]) {
+            min_index = j;
+        }
+    }
+    // Swap the elements
+    swap(List[i], List[min_index]);
+}
+\end{lstlisting}
+
+Baris 1 menyatakan bahwa panjang daftar List harus dicari sebanyak \(n-1\) kali. Baris 2 menetapkan variabel sementara untuk menyimpan nilai terendah. Baris 3 adalah loop dalam yang harus diulang sebanyak \(n-1\) kali. Baris 4 memeriksa apakah nilai yang ditemukan di posisi List[j] lebih kecil dari nilai terendah saat ini. Jika ya, posisi elemen tersebut dicatat. Di akhir setiap loop dalam, nilai yang ditemukan sebagai nilai terendah ditukar dengan posisi i dalam indeks, i ditambah satu, dan prosedur dimulai lagi. Selalu periksa item berikutnya dalam daftar hingga semua item telah diperiksa.
+
+Ada empat hal yang perlu dipertimbangkan saat mengevaluasi algoritma ini.
+\begin{enumerate}
+    \item Skenario terburuk: Jika diberikan daftar yang diurutkan dalam urutan terbalik, berapa banyak perbandingan yang dilakukan? Loop dalam dan luar harus dijalankan n kali, sehingga dapat ditentukan bahwa skenario terburuk = \(O(n^2)\).
+    \item Perbandingan rata-rata: Terlepas dari urutan daftar, setiap item harus diperiksa, sehingga kasus rata-rata = \(O(n^2)\).
+    \item Perbandingan terbaik: Jika diberikan daftar yang sudah diurutkan, berapa banyak perbandingan yang harus dilakukan? Lagi pula, terlepas dari item dalam daftar, setiap item harus diperiksa, sehingga kasus terbaik = \(O(n^2)\).
+    \item Akhirnya, apa kompleksitas ruang dari pendekatan ini? Karena pertukaran di tempat dilakukan, tidak diperlukan array sementara. Ada tiga variabel sementara i, j, dan \verb|min_index|; namun, variabel-variabel ini tidak bergantung pada ukuran daftar. Oleh karena itu, bayangkan menggandakan daftar, tetapi kompleksitas ruang tidak meningkat sesuai. Oleh karena itu, kompleksitas ruang = O(1).
+\end{enumerate}
+
+Saat mengevaluasi kompleksitas waktu, aturan praktis yang baik adalah mempertimbangkan apa yang akan terjadi jika daftar tersebut digandakan. Secara alami, loop dalam dan loop luar harus ditambah dengan jumlah iterasi yang sama untuk menyesuaikan dengan elemen tambahan dalam daftar. Oleh karena itu, dapat disimpulkan bahwa kompleksitas waktu meningkat seiring dengan ukuran daftar.
+
+\subsubsection{Quicksort}
+Quicksort adalah metode pengurutan yang menggunakan pendekatan divide-conquer. Diberikan sebuah array, sebuah tempat ditentukan pada array tersebut untuk membagi array mejadi dua bagian dan ini disebut pivot point. Semua nilai yang lebih besar dari titik ini dipindahkan ke kanan, dan semua nilai yang lebih kecil dari titik ini dipindahkan ke kiri. Pada langkah ini, Anda memiliki dua array. Proses yang sama diterapkan pada array-array ini hingga tidak ada elemen yang tersisa untuk diurutkan.
+
+Quicksort memiliki:
+\begin{itemize}
+    \item Kompleksitas waktu terburuk \(O(n^2)\)
+    \item Kompleksitas waktu rata-rata \(O(n log n)\)
+    \item Kompleksitas waktu terbaik \(O(n log n)\)
+    \item Kompleksitas ruang \(O(n)\)
+\end{itemize}
+
+Untuk melakukan quicksort, ikuti langkah-langkah berikut:
+\begin{itemize}
+    \item Pilih titik pada daftar sebagai pivot.
+    \item Bagi daftar menjadi dua daftar, item di sebelah kiri pivot dan item di sebelah kanan.
+    \item Atur variabel i untuk mengiterasi dari kiri ke kanan di sebelah kiri pivot. Atur variabel j untuk mengiterasi dari kanan ke kiri, mulai dari ujung array menuju pivot.
+    \item Variabel i di sebelah kiri mencari nilai yang lebih besar atau sama dengan pivot. Variabel j di sebelah kanan mencari nilai yang lebih kecil atau sama dengan pivot.
+    \item Ketika \(j < i\), nilai pada posisi indeks tersebut ditukar. Proses ini diulang hingga i dan j bertemu di titik pivot.
+    \item Bagi nilai-nilai daftar menjadi dua daftar, satu di sebelah kiri dan satu di sebelah kanan pivot. Ulangi proses ini pada masing-masing array hasil.
+    \item Terapkan algoritma secara rekursif.
+\end{itemize}
+
+Pseudocode di bawah ini untuk quicksort dilakukan secara rekursif.
+\begin{itemize}
+    \item Mulai dari elemen paling kiri, setiap elemen berikutnya diperiksa, dan jika ditemukan lebih kecil, elemen tersebut ditukar.
+    \item Baris 4 memanggil metode partition, yang dimulai pada baris 11.
+    \item Baris 12 menentukan elemen yang lebih besar untuk ditempatkan di sisi kanan daftar. Baris 13 menetapkan variabel i ke indeks elemen yang lebih kecil. Variabel j kemudian digunakan untuk memeriksa elemen-elemen di sebelah kanan untuk dibandingkan dengan elemen terkecil saat ini.
+    \item Baris 12 menentukan apakah perlu pertukaran; elemen yang lebih kecil di sebelah kanan harus dipindahkan ke posisi indeks saat ini. Baris 5 digunakan untuk mengurutkan array kiri.
+    \item Baris 6 digunakan untuk mengurutkan array kanan. Pada setiap iterasi, ukuran array yang akan diurutkan dibagi dua. Array akan terus dibagi hingga hanya tersisa satu elemen di subarray. Hasil panggilan partition akan menentukan lokasi elemen saat ini. Lokasi ini ditambah satu dan diulang hingga setiap elemen berada di posisi yang secara alami terurut.
+\end{itemize}
+
+\begin{lstlisting}[language=C, caption={}, captionpos=b]
+// QuickSort function
+void QuickSort(int List[], int low, int high) {
+    if (low < high) {
+        int pivot = Partition(List, low, high); // Partition the list and get pivot
+        QuickSort(List, low, pivot - 1);       // Recursively sort the left subarray
+        QuickSort(List, pivot + 1, high);      // Recursively sort the right subarray
+    }
+}
+
+// Partition function
+int Partition(int List[], int low, int high) {
+    int pivot = List[high]; // Choose the last element as the pivot
+    int i = low - 1;        // Index for the smaller element
+
+    for (int j = low; j <= high - 1; j++) {
+        if (List[j] <= pivot) {
+            i++;
+            swap(List[i], List[j]); // Swap elements smaller than pivot to the left
+        }
+    }
+
+    swap(List[i + 1], List[high]); // Place pivot in the correct position
+    return (i + 1);                // Return the partition index
+}
+
+// Swap function (you can implement this as a utility function)
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+\end{lstlisting}
+
+Hal-hal yang perlu dipertimbangkan saat mengevaluasi algoritma ini:
+\begin{itemize}
+    \item Skenario terburuk: hal ini terjadi ketika elemen paling signifikan secara konsisten dipilih sebagai titik pivot. Hal ini akan menyebabkan loop mengiterasi setiap elemen n dari kiri. Pembagian akan menyebabkan pencarian setiap elemen di kanan tanpa elemen di kiri, \(O(n^2)\).
+    \item Skenario rata-rata: titik pivot rata-rata dipilih pada setiap panggilan. Hal ini akan mengurangi jumlah iterasi tambahan yang diperlukan. Jadi, akan ada n iterasi dan panggilan iterasi logn yang terus berkurang, \(O(n*logn)\).
+    \item Skenario terbaik: Nilai tengah selalu dipilih, dan ruang iterasi dibagi dua pada setiap iterasi, \(O(n*logn)\).
+    \item Sifat iteratif algoritma akan mempengaruhi kompleksitas ruang karena panggilan fungsi dan variabel disimpan di tumpukan selama perhitungan dilakukan. Namun, keputusan untuk menggunakan pertukaran di tempat berarti tidak perlu membuat array baru, \(O(log n)\).
+\end{itemize}
+
+
+
+
+\subsubsection{Kesimpulan}
 
 
 
