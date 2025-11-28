@@ -1482,10 +1482,119 @@ Hal-hal yang perlu dipertimbangkan saat mengevaluasi algoritma ini:
     \item Sifat iteratif algoritma akan mempengaruhi kompleksitas ruang karena panggilan fungsi dan variabel disimpan di tumpukan selama perhitungan dilakukan. Namun, keputusan untuk menggunakan pertukaran di tempat berarti tidak perlu membuat array baru, \(O(log n)\).
 \end{itemize}
 
+\subsubsection{Kesimpulan}
+Dua pendekatan penyortiran yang berbeda telah diuraikan dan dianalisis melalui perspektif kompleksitas ruang dan waktu Big-O. Telah terbukti bahwa quicksort lebih kompleks dalam implementasinya tetapi menghasilkan solusi yang lebih cepat secara keseluruhan. Selection sort lebih sederhana dan memerlukan kode yang lebih sedikit serta ruang yang lebih sedikit, tetapi tidak akan menghasilkan hasil sebaik quicksort.
 
+\subsection{Linear Searching}
+\begin{itemize}
+    \item Definisi: Pencarian linear adalah metode yang memeriksa setiap elemen dalam array satu per satu hingga menemukan elemen yang dicari atau mencapai akhir array.
+    \item Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+for element in array:
+    if element == target:
+        return element
+\end{lstlisting}
+    \item Kompleksitas Waktu:
+          \begin{itemize}
+              \item Best-case: O(1) (elemen ditemukan di awal)
+              \item Worst-case: O(n) (elemen tidak ada atau di akhir)
+          \end{itemize}
+\end{itemize}
 
+\subsection{Binary Searching}
+\begin{itemize}
+    \item Definisi: Pencarian biner adalah metode yang memeriksa elemen tengah dari array yang sudah terurut dan membagi ruang pencarian menjadi dua bagian berdasarkan perbandingan.
+    \item Sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def binary_search(array, target):
+    low = 0
+    high = len(array) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if array[mid] == target:
+            return mid
+        elif array[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+\end{lstlisting}
+    \item Kompleksitas Waktu:
+          \begin{itemize}
+              \item Best-case: O(1) (elemen ditemukan di tengah)
+              \item Worst-case: O(log n) (ruang pencarian dibagi dua setiap iterasi)
+          \end{itemize}
+\end{itemize}
+
+\subsection{Pertimbangan dalam Searching}
+\begin{itemize}
+    \item Null Value: Jika nilai yang dicari tidak ada, perlu dipertimbangkan apa yang harus dikembalikan (misalnya, null).
+    \item Pengembalian: Apakah pencarian harus mengembalikan instance pertama atau terakhir dari nilai yang dicari.
+\end{itemize}
+
+\subsection{Time Complexity dan Space Complexity dalam Algoritma Searching}
+\subsubsection{Linear Search}
+Pencarian linier adalah cara paling langsung untuk menemukan suatu item. Artinya, pencarian dimulai dari item pertama dan berlanjut hingga item target ditemukan atau tidak ada lagi item yang tersisa dalam array untuk diperiksa.
+
+Jika diberikan daftar angka, mulailah dari posisi indeks 0 dan bandingkan setiap item dengan variabel target. Kembalikan hasilnya ketika posisi indeks telah ditentukan atau seluruh daftar telah diperiksa dan tidak ada instance dari elemen target.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/linear_search.png}
+    \caption{}
+\end{figure}
+
+Ini adalah hasil yang perlu dipertimbangkan saat mengevaluasi efektivitas pencarian.
+\begin{itemize}
+    \item Kasus terburuk: Item tidak ada dalam daftar. Untuk menentukan ini, setiap lokasi mungkin dalam daftar berukuran n harus dicari. Kompleksitas waktu O(n).
+    \item Kasus rata-rata: Elemen ditemukan di tengah. Ini dianggap sebagai hasil dengan kompleksitas waktu O(n).
+    \item Kasus terbaik: Item ditemukan di indeks awal dan tidak diperlukan pemeriksaan lebih lanjut, sehingga kompleksitas waktu O(1).
+    \item Kompleksitas ruang: Tidak diperlukan ruang tambahan untuk melakukan pencarian. Oleh karena itu, ruang yang diperlukan hanya sebesar jumlah item yang harus disimpan dalam daftar, kompleksitas ruang O(n).
+\end{itemize}
+
+\subsubsection{Binary Search}
+Pencarian biner dilakukan dengan terlebih dahulu menentukan titik tengah pada daftar yang telah diurutkan, membandingkan elemen target dengan titik tengah tersebut, dan membuang setengah daftar yang nilainya lebih kecil dari elemen target. Proses pembagian setengah pada titik tengah ini diulang hingga elemen target ditemukan atau tidak ada lagi daftar yang dapat dibagi.
+
+\textit{Untuk melakukan pencarian biner, daftar harus terlebih dahulu diurutkan.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/binary_s1.png}
+    \caption{}
+\end{figure}
+
+Pertama, titik tengah dipilih. Nilai pada indeks 3 adalah 15. Apakah nilai ini lebih besar atau lebih kecil dari elemen target? Ruang pencarian dibagi menjadi dua, dan bagian kiri diperiksa lebih lanjut.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/binary_s2.png}
+    \caption{}
+\end{figure}
+
+Titik pusat baru telah dipilih. Kali ini hanya ada tiga slot yang perlu diperiksa; lokasi indeks 1 berada di titik tengah.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/binary_s3.png}
+    \caption{}
+\end{figure}
+
+Nilai target ditemukan di sini dan tidak diperlukan pembagian lebih lanjut.
+
+Berikut adalah hasil yang perlu dipertimbangkan saat mengevaluasi efektivitas pencarian:
+\begin{itemize}
+    \item Kasus terburuk: Item tidak ada dalam daftar. Karena sifat pendekatan ini, banyak item dihapus menggunakan operator logika lebih besar dan lebih kecil. Ini berarti hanya n/2 yang diperiksa pertama kali, kemudian n/4 dan n/8. Kompleksitas keseluruhan adalah O(log N).
+    \item Kasus rata-rata: Elemen ditemukan setelah beberapa iterasi. Lagi-lagi karena mekanisme pencarian, setiap panggilan berikutnya mengurangi ruang keadaan. Jadi, dapat ditentukan bahwa setelah jumlah pencarian sedang, kompleksitasnya adalah O(Log N).
+    \item Kasus terbaik: Item ditemukan di indeks awal dan tidak diperlukan pemeriksaan lebih lanjut, sehingga O(1).
+    \item Kompleksitas ruang: Tidak diperlukan ruang tambahan untuk melakukan pencarian. Algoritma hanya menggunakan beberapa variabel (seperti target dan penghitung indeks), sehingga kompleksitas ruang adalah O(1).
+    \item Catatan: Beberapa sumber mungkin menyatakan O(n) jika mereka menganggap daftar input itu sendiri sebagai ruang, tetapi secara umum kita hanya menghitung ruang tambahan yang digunakan oleh algoritma, yang adalah O(1).
+\end{itemize}
 
 \subsubsection{Kesimpulan}
+Kompleksitas waktu dan ruang untuk pencarian linier dan biner telah dianalisis. Kedua pendekatan ini merupakan pencarian in-place; oleh karena itu, tidak diperlukan ruang tambahan, sehingga kompleksitas ruangnya kecil. Pencarian linier terbukti lebih kompleks secara waktu dalam semua kasus, kecuali ketika item yang benar ditemukan pada upaya pertama.
+
+Pencarian biner membagi ruang keadaan menjadi dua pada setiap iterasi, sehingga jauh lebih efisien. Namun, Anda harus mempertimbangkan waktu yang dibutuhkan untuk mengurutkan array dalam perhitungan keseluruhan saat mengevaluasi keefektifan pemilihan pendekatan ini untuk aplikasi umum.
+
 
 
 
