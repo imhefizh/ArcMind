@@ -1091,13 +1091,69 @@ Queue, seperti stack, adalah struktur data linier yang mempertahankan urutan di 
 
 Antrian adalah tipe data abstrak dalam Swift, artinya untuk menggunakan fungsionalitas antrian, Anda harus terlebih dahulu membuat struktur yang berfungsi seperti itu. Dua istilah penting terkait antrian adalah enqueue (menambahkan item ke antrian) dan dequeue (menghapus item dari bagian belakang daftar). Pendekatan termudah untuk membuat antrian adalah menggunakan array sebagai adaptor kontainer. Karena antrian hanya mengambil elemen dari bagian depan antrian, waktu pencarian selalu O(1), sehingga aplikasi yang dibangun dengan pendekatan ini dapat mengharapkan layanan yang sangat cepat. Seperti halnya tumpukan, metode yang tersedia untuk antrian dibatasi, dengan peak, pop, push, dan size sebagai yang paling penting.
 
-\subsubsection{Keismpulan}
+\subsubsection{Kesimpulan}
 Memilih struktur data yang tepat untuk tugas yang tepat merupakan keputusan pemrograman yang sangat penting, karena hal ini dapat memengaruhi keseluruhan proyek. Anda akan memilih tumpukan (stack) ketika ada kebutuhan untuk melacak urutan masuknya suatu item, dan untuk mengembalikannya dengan cara yang sangat spesifik. Antrian (queue) digunakan untuk menjaga urutan, tetapi akan mengikuti aturan yang berbeda dari tumpukan. Akhirnya, jika Anda ingin struktur data di mana Anda dapat menetapkan prioritas, maka antrian prioritas (priority queue) layak dipertimbangkan.
 
-\subsection{}
+\subsection{Struktur Umum Trees}
+Tree adalah struktur data yang terdiri dari nodes yang saling terhubung. Setiap node dapat menjadi \textbf{parent} atau \textbf{child}. Node tanpa anak disebut \textbf{leaf node}.
+
+Root adalah Node teratas dalam tree. Node yang terhubung ke root disebut child node. Node yang memiliki parent yang sama disebut sibling.
+
+\subsection{Terminologi Penting pada Trees}
 \begin{itemize}
-    \item
+    \item Path: Rangkaian node yang terhubung. Menggambarkan cara tercepat untuk berpindah dari satu node ke node lainnya.
+    \item Depth: Jumlah edges dari parent ke root, atau jalur terpanjang.
+    \item Height: Jumlah edges dari node teratas ke node terdalam dalam struktur.
+    \item Size: Total jumlah nodes dalam tree.
 \end{itemize}
+
+\subsection{Jenis-jenis Trees}
+\begin{itemize}
+    \item \textbf{Binary Trees}: Setiap node memiliki maksimal dua child. Node kiri memiliki nilai lebih kecil, sedangkan node kanan memiliki nilai lebih besar.
+    \item \textbf{B Trees dan B-plus Trees}: Variasi dari tree yang digunakan untuk penyimpanan data yang efisien.
+    \item \textbf{AVL Trees}: Tree yang seimbang, menjaga tinggi tree agar tetap optimal.
+\end{itemize}
+
+\subsection{Keuntungan Menggunakan Trees}
+\begin{itemize}
+    \item Menyimpan data secara hierarkis, memungkinkan pengambilan informasi yang lebih cepat.
+    \item Efisien dalam menambah dan menghapus data karena cara implementasinya yang fleksibel.
+    \item Dapat digunakan untuk memodelkan sistem file, hierarki kelas dalam pemrograman, atau struktur organisasi.
+\end{itemize}
+
+\subsection{Metode Traversal}
+\begin{itemize}
+    \item Depth-First: Mengunjungi setiap node dari atas ke bawah secara berurutan.
+    \item Breadth-First: Mencari setiap node pada level yang sama sebelum naik ke level berikutnya.
+\end{itemize}
+
+\subsection{Trees dalam Bahasa Pemrograman yang Berbeda}
+Pohon adalah tipe data abstrak (ADT) yang terdapat dalam banyak bahasa pemrograman. Seperti yang dibahas dalam bacaan lain, ADT adalah cetak biru tentang bagaimana struktur data akan terbentuk. Hal ini berkaitan dengan batasan dan persyaratan yang diterapkan pada struktur data untuk memastikan bahwa struktur tersebut selalu beroperasi dengan cara yang sama. Hal ini sangat berguna bagi programmer yang berpindah antara beberapa bahasa pemrograman, karena memberikan ekspektasi yang jelas tentang bagaimana struktur data akan beroperasi.
+
+Prinsip dasar utama dari pohon adalah bahwa ia mengandung sejumlah node, node akar, dan sejumlah node daun. Node daun adalah node yang tidak terhubung di dasar pohon. Node akar selalu berada di bagian atas; setiap nilai berasal dari node ini. Pohon selalu disusun dalam bentuk hierarki tertentu.
+
+\subsubsection{Implementasi Tree}
+Ada banyak jenis pohon; mungkin yang paling sederhana dan umum adalah \textbf{Binary Tree}. Pohon biner memiliki sifat-sifat berikut:
+\begin{itemize}
+    \item Setiap node memiliki maksimal dua node anak.
+    \item Setiap node harus memiliki kunci agar dapat diidentifikasi dengan mudah.
+    \item Nilai yang lebih kecil dari node ditempatkan di node anak kiri, dan nilai yang lebih besar ditempatkan di node anak kanan.
+\end{itemize}
+
+Untuk membuat struktur data Tree, Anda harus memastikan adanya root (node awal) dan metode untuk menentukan node-node berikutnya. Setiap node harus mengandung referensi ke node kiri dan kanan agar pohon dapat dijelajahi. Hal ini dapat dicapai dengan membuat \textbf{class} yang memiliki tiga atribut (key, lokasi node kiri, dan lokasi node kanan). Class ini memerlukan tiga metode tambahan agar dapat berfungsi sebagai pohon. Metode-metode tersebut meliputi:
+\begin{itemize}
+    \item Metode pencarian: Penting agar pohon dapat diinterogasi untuk mengetahui keberadaan atau ketidakadaan informasi.
+    \item Metode penyisipan: Seperti yang telah disebutkan sebelumnya, menyisipkan node pada pohon melibatkan penentuan posisi yang tepat dan menempatkannya di sebelah kiri nilai tertinggi terdekat.
+    \item Metode penghapusan: Metode ini akan menghapus suatu item dari pohon. Operasi ini menimbulkan tantangan tambahan saat diterapkan pada pohon karena sifat terhubungnya pohon. Pertimbangkan bahwa pohon terdiri dari serangkaian node yang terhubung. Oleh karena itu, menghapus satu node secara sembarangan dapat merusak koneksi dalam pohon. Oleh karena itu, saat mengimplementasikan metode ini, selain menghapus node, perlu memeriksa semua node anak dan memastikan koneksi baru dibuat dengan node nilai tertinggi berikutnya.
+\end{itemize}
+
+
+\subsubsection{Searching pada Tree}
+
+
+\subsubsection{Kesimpulan}
+
+
 
 \newpage
 
