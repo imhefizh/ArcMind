@@ -1,6 +1,6 @@
 # ArcMind
 
-Feel free to read. Here's my own LaTex Journals for everything I learned, written in Indonesia. Straight forward to go to these fields:
+Feel free to read. Here's my own LaTex Journals for everything I learned, written in Indonesian. Straight forward to go to these fields:
 
 - [Database Engineering](https://github.com/imhefizh/ArcMind/tree/main/Database%20Engineering)
 - [AI Engineering](https://github.com/imhefizh/ArcMind/tree/main/AI%20Engineering)
