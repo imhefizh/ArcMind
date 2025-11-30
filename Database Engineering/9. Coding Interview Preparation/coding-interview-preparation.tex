@@ -1708,10 +1708,38 @@ def fibonacci(n):
     return fibonacci(n-1) + fibonacci(n-2)
 \end{lstlisting}
 
+\subsection{Prinsip Dasar Greedy Algorithm}
+\begin{itemize}
+    \item Occam's Razor: Prinsip filosofis yang menyatakan bahwa solusi yang paling sederhana biasanya adalah yang terbaik. Dalam konteks ini, algoritma greedy dianggap sebagai solusi yang sederhana.
+    \item Greedy Algorithm: Pendekatan yang mencari solusi lokal yang terbaik pada setiap langkah, tanpa mempertimbangkan solusi global.
+\end{itemize}
 
+\subsection{Perbandingan Greedy Algorithm dengan Dynamic Programming}
+\begin{itemize}
+    \item Dynamic Programming: Mencari solusi optimal secara global dengan membagi masalah menjadi sub-masalah dan menyelesaikannya secara menyeluruh.
+    \item Greedy Approach: Memilih opsi yang paling menguntungkan saat ini tanpa mempertimbangkan konsekuensi di masa depan.
+\end{itemize}
 
+\subsection{Contoh Penerapan Greedy Algorithm dan Dynamic Programming}
+CPU Scheduling:
+\begin{itemize}
+    \item Dynamic Programming: Memilih subset aktivitas yang dapat diselesaikan dalam waktu tertentu.
+    \item Greedy Approach: Memilih program dengan waktu eksekusi terpendek terlebih dahulu.
+\end{itemize}
+Knapsack Problem:
+\begin{itemize}
+    \item Dynamic Programming: Menentukan subset item yang memaksimalkan nilai.
+    \item Greedy Approach: Memilih item dengan nilai tertinggi tanpa mempertimbangkan item lain yang mungkin lebih menguntungkan.
+\end{itemize}
 
+\subsection{Contoh Jalur Terpendek}
+\begin{itemize}
+    \item Dynamic Programming: Menghitung biaya dari setiap node untuk menemukan jalur terpendek secara menyeluruh.
+    \item Greedy Approach: Memilih node dengan biaya terendah secara langsung tanpa menghitung semua kemungkinan.
+\end{itemize}
 
+\subsection{Kesimpulan terkait Greedy Algorithm}
+Algoritma greedy menawarkan solusi yang cepat dan mudah diimplementasikan, tetapi tidak selalu menjamin hasil yang optimal. Memahami perbedaan antara kedua pendekatan ini penting untuk memilih metode yang tepat dalam menyelesaikan masalah.
 
 % End of Main Content
 \end{document}
