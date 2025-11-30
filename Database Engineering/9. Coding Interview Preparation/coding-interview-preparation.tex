@@ -1668,6 +1668,47 @@ def exponent(x, n):
     \item Divide and Conquer: Rekursi sering digunakan dalam pendekatan ini, membagi masalah menjadi langkah-langkah yang lebih kecil untuk menemukan solusi optimal.
 \end{itemize}
 
+\subsection{Dynamic Programming}
+\begin{itemize}
+    \item Definisi: Dynamic programming adalah paradigma pemrograman yang memecahkan masalah dengan membaginya menjadi sub-masalah yang lebih kecil dan menyimpan solusi untuk digunakan kembali.
+    \item Keuntungan: Menghindari perhitungan ulang sub-masalah yang sama dengan mencari solusi yang sudah disimpan.
+\end{itemize}
+
+\subsection{Memoization}
+\begin{itemize}
+    \item Definisi: Memorization adalah teknik menyimpan hasil perhitungan dari sub-masalah untuk menghindari perhitungan ulang di masa depan.
+    \item Contoh: Jika Anda menghitung \(2^3\), hasilnya disimpan dan digunakan kembali saat menghitung \(2^6\).
+\end{itemize}
+
+\subsection{Recursion}
+\begin{itemize}
+    \item Definisi: Recursion adalah metode pemrograman di mana fungsi memanggil dirinya sendiri untuk menyelesaikan sub-masalah.
+    \item Contoh: Fungsi yang menghitung nilai Fibonacci dapat menggunakan recursion untuk memanggil dirinya sendiri.
+\end{itemize}
+
+\subsection{Contoh Masalah terkait Dynamic Programming}
+\begin{itemize}
+    \item Fibonacci Sequence: Contoh masalah kombinasi yang sering digunakan dalam wawancara kerja.
+    \item Knapsack Problem: Masalah optimasi di mana Anda harus memilih kombinasi item dengan berat dan nilai tertentu untuk memaksimalkan nilai dalam kapasitas tertentu.
+\end{itemize}
+
+\subsection{Langkah-langkah dalam Dynamic Programming}
+\begin{itemize}
+    \item Tentukan Objective Function: Deskripsikan hasil optimal yang ingin dicapai.
+    \item Pecah Masalah: Bagi masalah menjadi langkah-langkah yang lebih kecil.
+    \item Gunakan Recursive Functions: Tulis fungsi yang dapat memanggil dirinya sendiri untuk menyelesaikan masalah.
+\end{itemize}
+
+\subsubsection{Sintaks Contoh}
+Contoh Sintaks untuk Fibonacci:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+\end{lstlisting}
+
+
 
 
 
