@@ -1595,6 +1595,80 @@ Kompleksitas waktu dan ruang untuk pencarian linier dan biner telah dianalisis. 
 
 Pencarian biner membagi ruang keadaan menjadi dua pada setiap iterasi, sehingga jauh lebih efisien. Namun, Anda harus mempertimbangkan waktu yang dibutuhkan untuk mengurutkan array dalam perhitungan keseluruhan saat mengevaluasi keefektifan pemilihan pendekatan ini untuk aplikasi umum.
 
+\subsection{Prinsip Dasar Paradigma Divide and Conquer}
+\begin{itemize}
+    \item Divide: Input dibagi menjadi segmen-segmen yang lebih kecil dan diproses secara individu.
+    \item Conquer: Setiap tugas yang terkait dengan segmen yang diberikan diselesaikan.
+    \item Combine (Opsional): Menggabungkan semua segmen yang telah diselesaikan. Langkah ini tidak selalu diperlukan.
+\end{itemize}
+
+\subsubsection{Contoh: Merge Sort}
+Merge Sort adalah algoritma yang digunakan untuk mengurutkan array dengan membagi array menjadi dua bagian, kemudian membagi lagi hingga tersisa satu elemen, dan akhirnya menggabungkan kembali elemen yang telah diurutkan.
+
+Sintaks:
+\begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def merge_sort(arr):
+    if len(arr) > 1:
+        mid = len(arr) // 2
+        L = arr[:mid]
+        R = arr[mid:]
+        merge_sort(L)
+        merge_sort(R)
+        i = j = k = 0
+        while i < len(L) and j < len(R):
+            if L[i] < R[j]:
+                arr[k] = L[i]
+                i += 1
+            else:
+                arr[k] = R[j]
+                j += 1
+            k += 1
+        while i < len(L):
+            arr[k] = L[i]
+            i += 1
+            k += 1
+        while j < len(R):
+            arr[k] = R[j]
+            j += 1
+            k += 1
+\end{lstlisting}
+
+\subsection{Keuntungan Paradigma Divide and Conquer}
+\begin{itemize}
+    \item Parallelization: Memungkinkan beberapa thread atau komputer bekerja pada masalah yang sama secara bersamaan, mempercepat waktu penyelesaian.
+    \item Memory Management: Mengelola memori dengan memproses data dalam potongan, terutama ketika data terlalu besar untuk dimuat dalam memori.
+\end{itemize}
+
+\subsection{Apa itu Rekursi?}
+Rekursi adalah metode di mana sebuah fungsi memanggil dirinya sendiri untuk menyelesaikan sub-masalah hingga kondisi keluar terpenuhi.
+
+\subsection{Tiga Persyaratan untuk Solusi Rekursif}
+\begin{itemize}
+    \item Base Case: Kondisi yang memastikan fungsi tidak terus memanggil dirinya sendiri. Contoh: Jika n sama dengan 0, fungsi akan berhenti.
+    \item Diminishing Structure: Memastikan bahwa input berkurang setiap kali fungsi dipanggil, sehingga akhirnya mencapai base case.
+    \item Recursive Call: Memanggil fungsi itu sendiri dengan input yang lebih kecil. Contoh sintaks:
+          \begin{lstlisting}[language=Python, caption={}, captionpos=b]
+def exponent(x, n):
+    if n == 0:
+        return 1  # Base case
+    else:
+        return x * exponent(x, n - 1)  # Recursive call
+\end{lstlisting}
+\end{itemize}
+
+\subsection{Contoh Penggunaan Rekursi}
+\begin{itemize}
+    \item Binary Search: Fungsi yang menerima daftar dan nilai target, memeriksa titik tengah daftar, dan memanggil dirinya sendiri hingga elemen target ditemukan atau tidak ada.
+    \item Fibonacci: Menghitung angka Fibonacci dengan memanggil fungsi secara rekursif untuk menjumlahkan dua angka sebelumnya.
+\end{itemize}
+
+\subsection{Keuntungan Menggunakan Rekursi}
+\begin{itemize}
+    \item Keterbacaan: Kode rekursif sering kali lebih mudah dibaca dibandingkan dengan loop yang kompleks.
+    \item Divide and Conquer: Rekursi sering digunakan dalam pendekatan ini, membagi masalah menjadi langkah-langkah yang lebih kecil untuk menemukan solusi optimal.
+\end{itemize}
+
+
 
 
 
