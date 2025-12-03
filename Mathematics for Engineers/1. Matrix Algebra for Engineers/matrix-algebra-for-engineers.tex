@@ -1,0 +1,136 @@
+% section | subsection | subsubsection | paragraph | subparagraph | verbatim | enumerate | item
+
+% Just let it be an Article bro
+\documentclass{article}
+
+% Cover Metadata
+\title{Matrix Algebra for Engineers}
+\date{03 Dec 2025}
+\author{Maulana Hafidz Ismail}
+
+% Equation Setup
+\usepackage{amsmath}
+
+% Image Setup
+\usepackage{graphicx}
+\usepackage{float}
+
+% Link Setup
+\usepackage{hyperref}
+
+% Highlighting Setup
+\usepackage{soul}
+\usepackage{xcolor}
+\sethlcolor{red!30}
+\newcommand{\hlblue}[1]{\sethlcolor{cyan!30}\hl{#1}\sethlcolor{yellow}}
+
+% Line Width
+\sloppy
+\setlength{\emergencystretch}{3em}
+\hbadness=99999
+
+% Code Syntax Setup
+\usepackage{listings}
+\usepackage{xcolor} % untuk warna
+\lstset{
+basicstyle=\ttfamily\small,
+frame=single,
+breaklines=true,
+backgroundcolor=\color{gray!10},
+keywordstyle=\color{blue},
+commentstyle=\color{gray},
+stringstyle=\color{red},
+tabsize=2,
+captionpos=b
+}
+
+% Start of the Article
+\begin{document}
+
+% Cover Page
+\pagenumbering{gobble}
+\maketitle
+\newpage
+
+% Table of Content Page
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% Main Content
+\section{Matrices}
+\subsection{Definisi Matriks}
+Matrix adalah sebuah kumpulan angka yang disusun dalam baris dan kolom. Digunakan untuk merepresentasikan data atau sistem persamaan. Matriks dinyatakan dalam format m x n, di mana m adalah jumlah baris dan n adalah jumlah kolom.
+
+\subsection{Jenis Matriks Berdasarkan Panjangnya}
+\begin{itemize}
+    \item Square Matrix: Matriks yang memiliki jumlah baris dan kolom yang sama. Contoh: Matriks 2 x 2.
+
+          \[ A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \]
+
+    \item Rectangular Matrix: Matriks yang memiliki jumlah baris dan kolom yang berbeda. Contoh: Matriks 3 x 2.
+
+          \[ B = \begin{bmatrix} a & b \\ c & d \\ e & f \end{bmatrix} \]
+\end{itemize}
+
+\subsection{Jenis Matriks Berdasarkan Isinya}
+\begin{itemize}
+    \item Zero Matrix: Matriks yang semua elemennya adalah nol.
+    \item Identity Matrix: Matriks persegi yang memiliki 1 di diagonal utama dan 0 di tempat lainnya. Berfungsi sebagai elemen netral dalam perkalian matriks.
+    \item Lower Triangular Matrix: Matriks di mana semua elemen di atas diagonal utama adalah nol.
+    \item Upper Triangular Matrix: Matriks di mana semua elemen di bawah diagonal utama adalah nol.
+    \item Diagonal Matrix: Matriks di mana semua elemen di luar diagonal utama adalah nol.
+\end{itemize}
+
+\subsection{Vector (Matrix Satu Baris/Kolom)}
+\begin{itemize}
+    \item Column Vector: Matriks dengan satu kolom. Notasi umum adalah m x 1.
+
+          \[ x = \begin{bmatrix} a \\ b \\ c \end{bmatrix} \]
+    \item Row Vector: Matriks dengan satu baris. Notasi umum adalah 1 x n.
+
+          \[ y = \begin{bmatrix} a & b & c \end{bmatrix} \]
+\end{itemize}
+
+\subsection{Notasi Umum untuk Matriks}
+Element of a Matrix adalah elemen dalam matriks yang biasanya dinyatakan dengan huruf kecil dan disubscripkan untuk menunjukkan posisi dalam matriks.
+
+\[a_{ij}\]
+
+menunjukkan elemen pada baris i dan kolom j.
+
+Contoh:
+\begin{itemize}
+    \item Elemen di baris pertama dan kolom pertama dilambangkan sebagai ( \(a_{11}\) ).
+    \item Elemen di baris kedua dan kolom kedua dilambangkan sebagai ( \(a_{22}\) ).
+\end{itemize}
+
+\subsection{Transpos dan Invers Matriks}
+\begin{itemize}
+    \item Transpose: Matriks yang diperoleh dengan menukar baris menjadi kolom dan sebaliknya.
+    \item Inverse: Matriks yang jika dikalikan dengan matriks asal, menghasilkan Identity Matrix. Hanya ada untuk matriks persegi yang tidak singular.
+\end{itemize}
+
+\subsection{Matriks Ortogonal}
+Orthogonal Matrix adalah Matriks yang kolom-kolomnya saling tegak lurus dan memiliki panjang satu. Jika dikalikan dengan transposenya, hasilnya adalah Identity Matrix.
+
+\subsection{}
+\begin{itemize}
+    \item
+\end{itemize}
+
+\newpage
+
+\section{Systems of Linear Equations}
+
+\newpage
+
+\section{Vector Spaces}
+
+\newpage
+
+\section{Eigenvalues and Eigenvectors}
+
+
+% End of Main Content
+\end{document}
