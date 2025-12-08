@@ -111,13 +111,41 @@ Contoh:
     \item Inverse: Matriks yang jika dikalikan dengan matriks asal, menghasilkan Identity Matrix. Hanya ada untuk matriks persegi yang tidak singular.
 \end{itemize}
 
-\subsection{Matriks Ortogonal}
-Orthogonal Matrix adalah Matriks yang kolom-kolomnya saling tegak lurus dan memiliki panjang satu. Jika dikalikan dengan transposenya, hasilnya adalah Identity Matrix.
+\subsection{Penjumlahan Matriks}
+Untuk menjumlahkan dua matriks, Anda hanya perlu menjumlahkan elemen-elemen yang bersesuaian. Misalnya, untuk dua matriks \verb|2x2|:
 
-\subsection{}
-\begin{itemize}
-    \item
-\end{itemize}
+\[ \begin{bmatrix} a & b \\ c & d \end{bmatrix} + \begin{bmatrix} e & f \\ g & h
+    \end{bmatrix} \]
+
+\[ \begin{bmatrix} a + e & b + f \\ c + g & d + h \end{bmatrix} \]
+
+\subsection{Perkalian dengan Skalar}
+Perkalian matriks dengan skalar dilakukan dengan mengalikan setiap elemen matriks dengan skalar tersebut. Misalnya, jika kita mengalikan matriks dengan skalar \( k \):
+\[ k \cdot \begin{bmatrix} a & b \\ c & d
+    \end{bmatrix} \]
+
+\[\begin{bmatrix} ka & kb \\ kc & kd \end{bmatrix} \]
+
+\subsection{Perkalian Matriks}
+Perkalian dua matriks dilakukan dengan cara yang lebih kompleks. Untuk dua matriks 2x2:
+\[ \begin{bmatrix} a & b \\ c & d \end{bmatrix} \cdot \begin{bmatrix} e & f \\ g & h
+    \end{bmatrix}\]
+
+\[\begin{bmatrix} ae + bg & af + bh \\ ce + dg & cf + dh \end{bmatrix} \]
+
+Penting untuk dicatat bahwa perkalian matriks tidak komutatif, artinya:
+
+\[ A \cdot B \neq B \cdot A \]
+
+\subsection{Dimensi Matriks}
+Untuk melakukan perkalian matriks, jumlah kolom pada matriks pertama harus sama dengan jumlah baris pada matriks kedua. Jika matriks pertama berukuran \( m \times n \) dan matriks kedua berukuran \( n \times p \), maka hasilnya akan berukuran \( m \times p \).
+
+\subsection{Rumus Umum untuk Elemen Matriks Hasil Perkalian}
+Untuk elemen \( c_{ij} \) dari hasil perkalian dua matriks \( A \) dan \( B \):
+\[ c_{ij} = \sum_{k=1}^n a_{ik} \cdot b_{kj} \]
+
+Di mana \( A \) berukuran \( m \times n \) dan \( B \) berukuran \( n \times p \).
+
 
 \newpage
 
