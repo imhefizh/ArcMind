@@ -119,6 +119,15 @@ Untuk menjumlahkan dua matriks, Anda hanya perlu menjumlahkan elemen-elemen yang
 
 \[ \begin{bmatrix} a + e & b + f \\ c + g & d + h \end{bmatrix} \]
 
+Jika dua matriks memiliki ukuran yang berbeda, maka penjumlahan dan pengurangan tidak dapat dilakukan. Ini karena operasi tersebut memerlukan elemen-elemen yang sesuai dari kedua matriks untuk dijumlahkan atau dikurangkan.
+
+Sebagai contoh:
+\begin{itemize}
+    \item Matriks A berukuran 2x3 (2 baris dan 3 kolom).
+    \item Matriks B berukuran 3x2 (3 baris dan 2 kolom).
+\end{itemize}
+Karena ukuran matriks A dan B berbeda, kamu tidak bisa melakukan operasi penjumlahan atau pengurangan antara keduanya.
+
 \subsection{Perkalian dengan Skalar}
 Perkalian matriks dengan skalar dilakukan dengan mengalikan setiap elemen matriks dengan skalar tersebut. Misalnya, jika kita mengalikan matriks dengan skalar \( k \):
 \[ k \cdot \begin{bmatrix} a & b \\ c & d
@@ -137,6 +146,8 @@ Penting untuk dicatat bahwa perkalian matriks tidak komutatif, artinya:
 
 \[ A \cdot B \neq B \cdot A \]
 
+Dalam operasi perkalian matriks, ada aturan penting yang harus diikuti: jumlah kolom pada matriks pertama harus sama dengan jumlah baris pada matriks kedua. Jika tidak, maka perkalian matriks tersebut tidak dapat dilakukan.
+
 \subsection{Dimensi Matriks}
 Untuk melakukan perkalian matriks, jumlah kolom pada matriks pertama harus sama dengan jumlah baris pada matriks kedua. Jika matriks pertama berukuran \( m \times n \) dan matriks kedua berukuran \( n \times p \), maka hasilnya akan berukuran \( m \times p \).
 
@@ -145,6 +156,8 @@ Untuk elemen \( c_{ij} \) dari hasil perkalian dua matriks \( A \) dan \( B \):
 \[ c_{ij} = \sum_{k=1}^n a_{ik} \cdot b_{kj} \]
 
 Di mana \( A \) berukuran \( m \times n \) dan \( B \) berukuran \( n \times p \).
+
+
 
 
 \newpage
