@@ -148,6 +148,11 @@ Penting untuk dicatat bahwa perkalian matriks tidak komutatif, artinya:
 
 Dalam operasi perkalian matriks, ada aturan penting yang harus diikuti: jumlah kolom pada matriks pertama harus sama dengan jumlah baris pada matriks kedua. Jika tidak, maka perkalian matriks tersebut tidak dapat dilakukan.
 
+Beberapa fakta tentang perkalian Matriks\begin{itemize}
+    \item Perkalian matriks tidak komutatif.
+    \item Hukum asosiatif berlaku dan dapat dibuktikan.
+\end{itemize}
+
 \subsection{Dimensi Matriks}
 Untuk melakukan perkalian matriks, jumlah kolom pada matriks pertama harus sama dengan jumlah baris pada matriks kedua. Jika matriks pertama berukuran \( m \times n \) dan matriks kedua berukuran \( n \times p \), maka hasilnya akan berukuran \( m \times p \).
 
@@ -156,6 +161,110 @@ Untuk elemen \( c_{ij} \) dari hasil perkalian dua matriks \( A \) dan \( B \):
 \[ c_{ij} = \sum_{k=1}^n a_{ik} \cdot b_{kj} \]
 
 Di mana \( A \) berukuran \( m \times n \) dan \( B \) berukuran \( n \times p \).
+
+\subsection{Zero Matrix}
+Zero matrix adalah matriks yang semua elemennya adalah nol. Ukurannya bisa m-by-n.
+
+Untuk matriks 2x2, bentuknya adalah:
+\[ \text{Zero Matrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix} \]
+
+\subsection{Identity Matrix}
+Identity matrix adalah matriks persegi yang memiliki elemen 1 di diagonal utama dan 0 di tempat lain. Ini berfungsi sebagai elemen identitas dalam perkalian matriks.
+
+Untuk matriks 2x2, bentuknya adalah:
+\[ I = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \]
+
+\subsection{Diagonal Matrix}
+Diagonal matrix adalah matriks yang hanya memiliki elemen di diagonal utama, sementara elemen lainnya adalah nol.
+
+Untuk matriks 3x3, bentuknya adalah:
+\[ D = \begin{bmatrix} d_1 & 0 & 0 \\ 0 & d_2 & 0 \\ 0 & 0 & d_3 \end{bmatrix} \]
+
+\subsection{Banded Matrix}
+Banded matrix adalah matriks yang memiliki elemen di diagonal utama dan juga di beberapa diagonal di atas dan di bawahnya. Tridiagonal adalah contoh khusus dari banded matrix dengan tiga band.
+
+Untuk matriks tridiagonal 3x3, bentuknya adalah:
+\[ T = \begin{bmatrix} d_1 & a_1 & 0 \\ b_1 & d_2 & a_2 \\ 0 & b_2 & d_3 \end{bmatrix} \]
+
+\subsection{Triangular Matrix}
+\begin{itemize}
+    \item Upper
+
+          Upper triangular matrix adalah matriks yang hanya memiliki elemen di atas diagonal utama, sementara elemen di bawah diagonal adalah nol.
+
+          Untuk matriks 3x3, bentuknya adalah:
+          \[ U = \begin{bmatrix} a & b & c \\ 0 & d & e \\ 0 & 0 & f \end{bmatrix} \]
+    \item Lower
+
+          Lower triangular matrix adalah matriks yang hanya memiliki elemen di bawah diagonal utama, sementara elemen di atas diagonal adalah nol.
+
+          Untuk matriks 3x3, bentuknya adalah:
+          \[ L = \begin{bmatrix} a & 0 & 0 \\ b & c & 0 \\ d & e & f \end{bmatrix} \]
+\end{itemize}
+
+\subsection{Fenomena AB = 0 ketika A dan B bukanlah matriks nol}
+Mencari matriks \( \textbf{B} \) sehingga hasil kali \( \textbf{AB} \) menghasilkan matriks nol, di mana \( \textbf{A} \) adalah matriks yang diberikan.
+
+\[
+    \textbf{A} = \begin{bmatrix}
+        -1 & 2  \\
+        4  & -8
+    \end{bmatrix}
+\]
+
+Perhatikan bahwa kolom kedua dari matriks A adalah dikali \(-2\) dari kolom pertamanya. Maka perkalian AB akan jadi nol jika baris pertama dari B adalah 2 kali dari baris keduanya. Sebagai contoh, jika kita mengambil nilai \  \( \begin{bmatrix} 1 & 2 \end{bmatrix} \) untuk baris kedua dari b, maka hasilnya seperti Ini
+
+\[
+    \begin{bmatrix}
+        -1 & 2 \\ 4 & -8
+    \end{bmatrix}
+    \begin{bmatrix}
+        2 & 4 \\ 1 & 2
+    \end{bmatrix} =
+    \begin{bmatrix}
+        0 & 0 \\ 0 & 0
+    \end{bmatrix}
+\]
+
+\subsection{Hasil Kali Dari Dua Matriks Diagonal}
+Jika kita memiliki dua matriks diagonal, maka produk dari kedua matriks tersebut juga akan menjadi matriks diagonal. Rumusnya adalah:
+\[
+    \begin{bmatrix}
+        a_1 & 0   \\
+        0   & a_2
+    \end{bmatrix}
+    \begin{bmatrix}
+        b_1 & 0   \\
+        0   & b_2
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        a_1b_1 & 0      \\
+        0      & a_2b_2
+    \end{bmatrix}
+\]
+
+Elemen pada garis diagonal dari hasil perkalian dua matriks diagonal yang lain adalah hasil kali elemen-elemen diagonal dari masing-masing matriks. Ini menunjukkan bahwa hasil kali dari dua matriks diagonal adalah matriks diagonal baru dengan elemen yang merupakan hasil kali dari elemen diagonal yang bersesuaian.
+
+\subsection{Hasil Kali dari Matriks Triangular}
+Membuktikan bahwa hasil kali dari dua matriks segitiga atas A dan B adalah matriks segitiga atas C, dengan elemen pada garis diagonalnya adalah hasil kali dari masing-masing elemen pada garis diagonal matriks A dan B tersebut.
+
+\[
+    \begin{bmatrix}
+        a_1 & a_2 \\
+        0   & a_3
+    \end{bmatrix}
+    \begin{bmatrix}
+        b_1 & b_2 \\
+        0   & b_3
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        a_1b_1 & a_1b_2 + a_2b_3 \\
+        0      & a_3b_3
+    \end{bmatrix}
+\]
+
 
 
 
