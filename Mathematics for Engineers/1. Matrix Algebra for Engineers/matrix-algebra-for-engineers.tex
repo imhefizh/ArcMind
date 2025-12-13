@@ -126,7 +126,14 @@ Sebagai contoh:
     \item Matriks A berukuran 2x3 (2 baris dan 3 kolom).
     \item Matriks B berukuran 3x2 (3 baris dan 2 kolom).
 \end{itemize}
+
 Karena ukuran matriks A dan B berbeda, kamu tidak bisa melakukan operasi penjumlahan atau pengurangan antara keduanya.
+
+\subsubsection{Catatan}
+\begin{itemize}
+    \item Penjumlahan matriks bersifat komutatif
+    \item Pengurangan matriks tidak bersifat komutatif
+\end{itemize}
 
 \subsection{Perkalian dengan Skalar}
 Perkalian matriks dengan skalar dilakukan dengan mengalikan setiap elemen matriks dengan skalar tersebut. Misalnya, jika kita mengalikan matriks dengan skalar \( k \):
@@ -265,6 +272,42 @@ Membuktikan bahwa hasil kali dari dua matriks segitiga atas A dan B adalah matri
     \end{bmatrix}
 \]
 
+\subsection{Definisi Transpose Matriks}
+Transpose adalah operasi yang mengubah baris menjadi kolom dan kolom menjadi baris dalam sebuah matriks. Notasi untuk transpose dari matriks A adalah \( A^T \).
+
+\subsection{Proses Tranpose}
+\begin{itemize}
+    \item Jika matriks A memiliki \( m \) baris dan \( n \) kolom, maka transpose dari matriks A, \( A^T \), akan memiliki \( n \) baris dan \( m \) kolom.
+    \item Contoh: Jika \( A = \begin{bmatrix} a & b & c \\ d & e & f \end{bmatrix} \), maka \( A^T = \begin{bmatrix} a & d \\ b & e \\ c & f \end{bmatrix} \).
+\end{itemize}
+
+\subsection{Sifat-sifat Transpose}
+\begin{itemize}
+    \item Transpose dari Transpose: \( (A^T)^T = A \)
+    \item Transpose dari Penjumlahan: \( (A + B)^T = A^T + B^T \) (hanya berlaku jika A dan B memiliki ukuran yang sama)
+    \item Transpose dari Perkalian: \( (AB)^T = B^T A^T \) (urutan perkalian dibalik)
+\end{itemize}
+
+\subsection{Matriks Khusus}
+\subsubsection{Matriks Simetris}
+\begin{itemize}
+    \item Definisi: Matriks A disebut simetris jika \( A^T = A \).
+    \item Contoh: \( A = \begin{bmatrix} a & b \\ b & c \end{bmatrix} \)
+\end{itemize}
+\subsubsection{Matriks Skew-Simetri}
+\begin{itemize}
+    \item Definisi: Matriks A disebut skew-simetri jika \( A^T = -A \).
+    \item Contoh: \( A = \begin{bmatrix} 0 & a \\ -a & 0 \end{bmatrix} \)
+\end{itemize}
+
+\subsection{Hubungan Matriks Persegi dengan Simetris dan Skew-simetris}
+Setiap matriks persegi dapat diuraikan menjadi dua komponen: satu komponen simetris dan satu komponen skew-simetris.
+
+Matriks simetris adalah matriks yang sama dengan transposenya, yaitu \( \mathbf{A} = \mathbf{A}^T \).
+
+Matriks skew-simetris adalah matriks yang negatif dari transposenya, yaitu \( -\mathbf{A} = \mathbf{A}^T \).
+
+Dengan menggunakan kedua komponen di atas, kita dapat menuliskan matriks persegi \( \mathbf{A} \) sebagai: \[ \mathbf{A} = \mathbf{A}{\text{sym}} + \mathbf{A}{\text{skew}} = \frac{1}{2}(\mathbf{A} + \mathbf{A}^T) + \frac{1}{2}(\mathbf{A} - \mathbf{A}^T) \]
 
 
 
