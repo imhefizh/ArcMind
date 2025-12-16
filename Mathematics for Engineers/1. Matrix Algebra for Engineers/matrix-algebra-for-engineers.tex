@@ -309,6 +309,43 @@ Matriks skew-simetris adalah matriks yang negatif dari transposenya, yaitu \( -\
 
 Dengan menggunakan kedua komponen di atas, kita dapat menuliskan matriks persegi \( \mathbf{A} \) sebagai: \[ \mathbf{A} = \mathbf{A}{\text{sym}} + \mathbf{A}{\text{skew}} = \frac{1}{2}(\mathbf{A} + \mathbf{A}^T) + \frac{1}{2}(\mathbf{A} - \mathbf{A}^T) \]
 
+\subsection{Inner Product (Perkalian Dalam)}
+Inner product antara dua vektor, juga dikenal sebagai dot product, menghasilkan sebuah skalar.
+
+Rumus: Jika kita memiliki dua vektor \( U \) dan \( V \): \[ U \cdot V = U_1 V_1 + U_2 V_2 + U_3 V_3 \] Dalam bentuk matriks, ini dapat ditulis sebagai: \[ U^T V \] di mana \( U^T \) adalah transpose dari vektor kolom \( U \).
+
+\subsection{Orthogonal}
+Definisinya adalah dua vektor \( U \) dan \( V \) dikatakan orthogonal jika inner product mereka sama dengan nol, yaitu: \[ U^T V = 0 \]
+
+\subsection{Norm dari sebuah Vector}
+Norm dari vektor \( U \) adalah panjang vektor tersebut, dihitung dengan: \[ || U || = \sqrt{U^T U} \] Dalam bentuk matriks, ini dapat ditulis sebagai: \[ || U || = \sqrt{U_1^2 + U_2^2 + U_3^2} \]
+
+\subsection{Normalized Vector}
+Vektor \( U \) dikatakan normalized jika norm-nya sama dengan satu, yaitu \( || U || = 1 \).
+
+\subsection{Orthonormal Vector}
+Dua vektor \( U \) dan \( V \) dikatakan orthonormal jika keduanya orthogonal dan masing-masing memiliki norm satu.
+
+\subsection{Outer Product (Perkalian Luar)}
+Outer product antara dua vektor menghasilkan matriks. Jika kita memiliki vektor kolom \( U \) dan vektor baris \( V^T \), maka outer product ditulis sebagai: \[ UV^T \] Hasilnya adalah matriks \( 3 \times 3 \) yang dapat dituliskan sebagai:
+
+\[ \begin{bmatrix} U_1 V_1 & U_1 V_2 & U_1 V_3 \\ U_2 V_1 & U_2 V_2 & U_2 V_3 \\ U_3 V_1 & U_3 V_2 & U_3 V_3 \end{bmatrix} \]
+
+\subsection{Definisi Trace}
+Trace dari sebuah matriks persegi \( \text{B} \), yang dilambangkan sebagai \( \text{Tr} \, \text{B} \), adalah jumlah elemen diagonal dari matriks tersebut.
+
+Jika \( \text{A} \) adalah matriks dengan elemen \( a_{ij} \), maka: \[ \text{Tr}(\text{A}^{\text{T}} \text{A}) = \sum_{i=1}^{m} \sum_{j=1}^{n} a_{ij}^2 \] Di mana \( m \) adalah jumlah baris dan \( n \) adalah jumlah kolom dari matriks \( \text{A} \).
+
+Ketika kita mengalikan \( \text{A}^{\text{T}} \) dengan \( \text{A} \), hasilnya adalah matriks baru di mana elemen diagonalnya adalah jumlah kuadrat dari elemen-elemen \( \text{A} \).  Dengan menggunakan definisi trace, kita dapat menyimpulkan bahwa: \[ \text{Tr}(\text{A}^{\text{T}} \text{A}) = \sum_{i=1}^{m} \sum_{j=1}^{n} a_{ij}^2 \]
+
+Turunan rumus lengkapnya seperti ini
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Picts/trace.png}
+    \caption{}
+\end{figure}
+
+
 
 
 
