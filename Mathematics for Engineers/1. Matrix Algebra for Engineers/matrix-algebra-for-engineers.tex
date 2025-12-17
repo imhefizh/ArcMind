@@ -345,6 +345,110 @@ Turunan rumus lengkapnya seperti ini
     \caption{}
 \end{figure}
 
+\subsection{Definisi Matriks Invers}
+Inverse Matrix adalah matriks yang, ketika dikalikan dengan matriks asal, menghasilkan matriks identitas. Tidak semua matriks memiliki invers.
+
+\subsection{Syarat Matriks Invers}
+\begin{itemize}
+    \item Square Matrix: Matriks yang memiliki jumlah baris dan kolom yang sama (n x n). Hanya matriks persegi yang dapat memiliki invers.
+    \item Determinant: Nilai yang menunjukkan apakah matriks dapat di-invers. Jika determinan sama dengan nol, matriks tidak dapat di-invers.
+\end{itemize}
+
+\subsection{Rumus Matriks Invers untuk Matriks 2x2}
+Jika A adalah matriks 2x2 yang didefinisikan sebagai:
+
+\[
+    A = \begin{bmatrix}
+        a & b \\
+        c & d
+    \end{bmatrix}
+\]
+
+Maka invers dari A, yang dilambangkan dengan \( A^{-1} \), dapat dihitung dengan rumus:
+
+\[
+    A^{-1} = \frac{1}{ad - bc} \begin{bmatrix}
+        d  & -b \\
+        -c & a
+    \end{bmatrix}
+\]
+
+Di mana \( ad - bc \) adalah determinan dari matriks A. Determinan dari matriks dua kali dua adalah hasil perkalian diagonal dikurangi hasil perkalian elemen di luar diagonal.
+
+\subsection{Proses Menemukan Matriks Invers}
+\begin{itemize}
+    \item Matriks Umum: Misalkan kita memiliki matriks umum \( A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \) dan kita ingin menemukan inversnya.
+    \item Matriks Identitas: Ketika \( A \) dikalikan dengan \( A^{-1} \), hasilnya adalah matriks identitas \( I = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \).
+    \item Sistem Persamaan: Kita dapat menulis sistem persamaan berdasarkan hasil perkalian matriks untuk menemukan elemen-elemen dari \( A^{-1} \).
+\end{itemize}
+
+\subsubsection{Identitas Penting}
+\begin{itemize}
+    \item Identitas Perkalian Matriks: \( A A^{-1} = I \) dan \( A^{-1} A = I \).
+    \item Transpos Matriks: \( (A^T)^{-1} = (A^{-1})^T \) yang berarti invers dari transpos matriks sama dengan transpos dari matriks invers.
+\end{itemize}
+
+\subsection{Inverse dari Hasil Kali Matriks}
+Pernyataan yang ingin dibuktikan adalah:
+
+\[ ({\rm AB})^{-1} = {\rm B}^{-1}{\rm A}^{-1} \]
+
+Matriks Invers: Jika \( \rm A \) dan \( \rm B \) adalah matriks yang dapat dibalik, maka hasil kali dari kedua matriks tersebut, \( \rm AB \), juga dapat dibalik.
+
+Matriks Identitas: Matriks yang berfungsi sebagai elemen netral dalam perkalian matriks, biasanya dilambangkan dengan \( \rm I \). Untuk matriks 2x2, matriks identitas adalah: \[ \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \]
+
+\subsection{Inverse dari Matriks Transpos}
+Pernyataan yang ingin dibuktikan adalah:
+
+\[
+    \text{A}^{-1} \implies (\text{A}^{T})^{-1}
+\]
+
+dan
+
+\[
+    (\text{A}^{T})^{-1} = (\text{A}^{-1})^{T}
+\]
+
+Pembuktian:
+\begin{itemize}
+    \item Jika \( \text{A} \) adalah invertible:
+
+          Terdapat matriks \( \text{A}^{-1} \) sehingga \( \text{A} \text{A}^{-1} = \text{I} \).
+    \item Transpose dari \( \text{A} \):
+
+          Kita perlu menunjukkan bahwa \( \text{A}^{\text{T}} \) juga invertible.
+
+          Kita dapat menggunakan sifat dari transpose: \( (\text{A} \text{B})^{\text{T}} = \text{B}^{\text{T}} \text{A}^{\text{T}} \).
+
+    \item Membuktikan bahwa \( (\text{A}^{\text{T}})^{-1} = (\text{A}^{-1})^{\text{T}} \):
+
+          Kita mulai dari \( \text{A} \text{A}^{-1} = \text{I} \).
+
+          Mengambil transpose dari kedua sisi: \[ (\text{A} \text{A}^{-1})^{\text{T}} = \text{I}^{\text{T}} \implies (\text{A}^{-1})^{\text{T}} \text{A}^{\text{T}} = \text{I} \]
+
+          Ini menunjukkan bahwa \( (\text{A}^{-1})^{\text{T}} \) adalah invers dari \( \text{A}^{\text{T}} \).
+\end{itemize}
+
+\subsection{Keunikan dari Matriks Inverse}
+Buktikan bahwa jika suatu matriks dapat dibalik, maka inversnya bersifat unik.
+
+Pembuktian:
+Misalkan A adalah matriks yang dapat di-inverse, dan misalkan B dan C adalah inversnya. Untuk membuktikan bahwa B = C,
+kita tulis
+\[
+    B = BI = B(AC) = (BA)C = IC = C
+\]
+
+menunjukkan bahwa ( B ) dan ( C ) harus sama, yang berarti invers dari matriks ( A ) adalah unik.
+
+\subsection{Area Parallelogram Menggunakan Determinan}
+Dalam konteks ini, kita mempertimbangkan parallelogram yang dibentuk oleh dua garis yang ditarik dari titik asal (origin) ke titik \( (a, b) \) dan \( (c, d) \). Area dari parallelogram ini dapat dihitung menggunakan determinan dari matriks yang dibentuk oleh koordinat titik-titik tersebut.
+
+\subsubsection{Rumus Area}
+Area dari parallelogram dapat dinyatakan dengan rumus: \[ \text{Area} = \left| \det \begin{bmatrix} a & b \\ c & d \end{bmatrix} \right| \]
+
+
 
 
 
