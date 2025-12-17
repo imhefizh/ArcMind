@@ -448,6 +448,54 @@ Dalam konteks ini, kita mempertimbangkan parallelogram yang dibentuk oleh dua ga
 \subsubsection{Rumus Area}
 Area dari parallelogram dapat dinyatakan dengan rumus: \[ \text{Area} = \left| \det \begin{bmatrix} a & b \\ c & d \end{bmatrix} \right| \]
 
+\subsection{Definisi Matriks Orthogonal}
+Orthogonal Matrix adalah Matriks yang memiliki sifat bahwa inversnya sama dengan transposenya. Ini berarti bahwa jika \( Q \) adalah matriks ortogonal, maka \( Q^{-1} = Q^T \).
+
+\subsection{Sifat Matriks Orthogonal}
+\begin{itemize}
+    \item Identitas Matriks:
+
+          Ketika kita mengalikan matriks ortogonal ( Q ) dengan transposenya, hasilnya adalah matriks identitas:
+          \[
+              Q Q^T = I
+          \]
+          Di mana \( I \) adalah matriks identitas.
+
+    \item Orthonormality:
+
+          Baris dan kolom dari matriks ortogonal adalah vektor ortonormal. Ini berarti:
+          \begin{itemize}
+              \item Jika kita mengalikan baris yang sama, hasilnya adalah 1.
+              \item Jika kita mengalikan baris yang berbeda, hasilnya adalah 0.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Preservasi Norm}
+Norm Preservation adalah Matriks ortogonal yang mempertahankan panjang vektor. Jika \( x \) adalah vektor, maka: \[ | Qx | = | x | \] Ini menunjukkan bahwa panjang vektor tidak berubah setelah dikalikan dengan matriks ortogonal.
+
+\subsection{Hasil kali dari Matriks-matriks Orthogonal}
+Buktikan bahwa hasil perkalian dua matriks ortogonal adalah ortogonal.
+
+Pembuktian:
+Jika \( A \) dan \( B \) adalah orthogonal matrices, maka:
+\[
+    A^T A = I \quad \text{dan} \quad B^T B = I
+\]
+Untuk menunjukkan bahwa produk \( C = AB \) adalah orthogonal, kita perlu membuktikan bahwa:
+\[
+    C^T C = (AB)^T (AB) = B^T A^T AB = B^T I = B^T
+\]
+Karena ( B ) adalah orthogonal, maka \( B^T B = I \), sehingga:
+\[
+    C^T C = I
+\]
+Ini membuktikan bahwa ( C ) adalah orthogonal.
+
+\subsection{Matriks Identitas Bersifat Ortogonal}
+
+
+
+
 
 
 
